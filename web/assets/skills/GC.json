@@ -1,0 +1,146 @@
+[
+   {
+      "display_name" : "Potencializar Veneno",
+      "maxLevel" : 5,
+      "skill_type" : "",
+      "id" : 2021,
+      "handle_name" : "gc_venomimpress",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 2022,
+      "handle_name" : "gc_crossimpact",
+      "maxLevel" : 5,
+      "display_name" : "Lâminas Retalhadoras"
+   },
+   {
+      "display_name" : "Passo Sombrio",
+      "skill_type" : "",
+      "handle_name" : "gc_darkillusion",
+      "id" : 2023,
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 2024,
+      "maxLevel" : 10,
+      "handle_name" : "gc_researchnewpoison",
+      "display_name" : "Pesquisa de Toxinas"
+   },
+   {
+      "display_name" : "Criar Toxina",
+      "id" : 2025,
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "handle_name" : "gc_createnewpoison",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Aplicar Antídoto",
+      "id" : 2026,
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "handle_name" : "gc_antidote"
+   },
+   {
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 2027,
+      "handle_name" : "gc_poisoningweapon",
+      "display_name" : "Aplicar Toxina",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Reflexo de Combate",
+      "skill_type" : "",
+      "handle_name" : "gc_weaponblocking",
+      "id" : 2028,
+      "maxLevel" : 5
+   },
+   {
+      "position" : "",
+      "display_name" : "Retaliação",
+      "id" : 2029,
+      "skill_type" : "",
+      "handle_name" : "gc_counterslash",
+      "maxLevel" : 5
+   },
+   {
+      "position" : "",
+      "display_name" : "Estilhaçar Arma",
+      "skill_type" : "0x200",
+      "id" : 2030,
+      "maxLevel" : 5,
+      "handle_name" : "gc_weaponcrush"
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "handle_name" : "gc_venompressure",
+      "id" : 2031,
+      "maxLevel" : 5,
+      "display_name" : "Intoxicar"
+   },
+   {
+      "id" : 2032,
+      "skill_type" : "",
+      "handle_name" : "gc_poisonsmoke",
+      "maxLevel" : 5,
+      "display_name" : "Nevoeiro Tóxico",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 2033,
+      "handle_name" : "gc_cloakingexceed",
+      "maxLevel" : 5,
+      "display_name" : "Ocultação"
+   },
+   {
+      "position" : "",
+      "display_name" : "Ameaça Fantasma",
+      "id" : 2034,
+      "skill_type" : "",
+      "handle_name" : "gc_phantommenace",
+      "maxLevel" : 1
+   },
+   {
+      "display_name" : "Passos da Ilusão",
+      "id" : 2035,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "gc_hallucinationwalk",
+      "position" : ""
+   },
+   {
+      "display_name" : "Lâminas de Loki",
+      "skill_type" : "",
+      "handle_name" : "gc_rollingcutter",
+      "id" : 2036,
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "id" : 2037,
+      "handle_name" : "gc_crossripperslasher",
+      "maxLevel" : 5,
+      "display_name" : "Castigo de Loki",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "maxLevel" : 5,
+      "skill_type" : "",
+      "id" : 5001,
+      "handle_name" : "gc_darkcrow",
+      "display_name" : "Dark Claw"
+   }
+]

@@ -1,0 +1,242 @@
+[
+   {
+      "handle_name" : "sr_dragoncombo",
+      "skill_type" : "",
+      "id" : 2326,
+      "maxLevel" : 10,
+      "display_name" : "Punho do Dragão",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Soco Furação",
+      "id" : 2327,
+      "skill_type" : "",
+      "handle_name" : "sr_skynetblow",
+      "maxLevel" : 5
+   },
+   {
+      "id" : 2328,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "sr_earthshaker",
+      "display_name" : "Impacto Sísmico",
+      "position" : ""
+   },
+   {
+      "display_name" : "Ruína",
+      "skill_type" : "0x200",
+      "id" : 2329,
+      "maxLevel" : 5,
+      "handle_name" : "sr_fallenempire",
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "handle_name" : "sr_tigercannon",
+      "id" : 2330,
+      "maxLevel" : 10,
+      "display_name" : "Garra de Tigre",
+      "position" : ""
+   },
+   {
+      "display_name" : "Hell Gate",
+      "handle_name" : "sr_hellgate",
+      "skill_type" : "",
+      "id" : 2331,
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "display_name" : "Explosão Espiritual",
+      "maxLevel" : 5,
+      "skill_type" : "",
+      "id" : 2332,
+      "handle_name" : "sr_rampageblaster",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 2333,
+      "handle_name" : "sr_crescentelbow",
+      "maxLevel" : 5,
+      "display_name" : "Cotovelada Ascendente"
+   },
+   {
+      "position" : "",
+      "display_name" : "Campo Amaldiçoado",
+      "handle_name" : "sr_cursedcircle",
+      "skill_type" : "",
+      "id" : 2334,
+      "maxLevel" : 5
+   },
+   {
+      "position" : "",
+      "display_name" : "Salto Relâmpago",
+      "skill_type" : "",
+      "id" : 2335,
+      "maxLevel" : 5,
+      "handle_name" : "sr_lightningwalk"
+   },
+   {
+      "position" : "",
+      "display_name" : "Investida de Shura",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 2336,
+      "handle_name" : "sr_knucklearrow"
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "id" : 2337,
+      "handle_name" : "sr_windmill",
+      "display_name" : "Rasteira"
+   },
+   {
+      "position" : "",
+      "display_name" : "Dragão Ascendente",
+      "maxLevel" : 10,
+      "skill_type" : "",
+      "id" : 2338,
+      "handle_name" : "sr_raisingdragon"
+   },
+   {
+      "position" : "",
+      "display_name" : "Gentle Touch",
+      "skill_type" : "",
+      "id" : 2339,
+      "maxLevel" : 5,
+      "handle_name" : "sr_gentletouch"
+   },
+   {
+      "id" : 2340,
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "handle_name" : "sr_assimilatepower",
+      "display_name" : "Absorção Espiritual",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Renúncia Espiritual",
+      "skill_type" : "0x200",
+      "maxLevel" : 1,
+      "id" : 2341,
+      "handle_name" : "sr_powervelocity"
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "handle_name" : "sr_crescentelbow_autospell",
+      "id" : 2342,
+      "maxLevel" : 5,
+      "display_name" : "Crescent Elbow Autospell"
+   },
+   {
+      "display_name" : "Portões do Inferno",
+      "skill_type" : "",
+      "handle_name" : "sr_gateofhell",
+      "id" : 2343,
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "handle_name" : "sr_gentletouch_quiet",
+      "skill_type" : "",
+      "id" : 2344,
+      "maxLevel" : 5,
+      "display_name" : "Chakra do Silêncio",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Chakra da Cura",
+      "id" : 2345,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "sr_gentletouch_cure"
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 2346,
+      "handle_name" : "sr_gentletouch_energygain",
+      "maxLevel" : 5,
+      "display_name" : "Chakra da Energia"
+   },
+   {
+      "id" : 2347,
+      "skill_type" : "",
+      "handle_name" : "sr_gentletouch_change",
+      "maxLevel" : 5,
+      "display_name" : "Chakra da Fúria",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Chakra do Vigor",
+      "skill_type" : "",
+      "id" : 2348,
+      "maxLevel" : 5,
+      "handle_name" : "sr_gentletouch_revitalize"
+   },
+   {
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 2517,
+      "handle_name" : "sr_howlingoflion",
+      "display_name" : "Rugido do Leão",
+      "position" : ""
+   },
+   {
+      "display_name" : "Tempestade Espiritual",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 2518,
+      "handle_name" : "sr_rideinlightning",
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "id" : 5009,
+      "maxLevel" : 5,
+      "handle_name" : "sr_flashcombo",
+      "display_name" : "Flash Combo",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Flash Combo Attack Step 1",
+      "id" : 5015,
+      "skill_type" : "",
+      "handle_name" : "sr_flashcombo_atk_step1",
+      "maxLevel" : 5
+   },
+   {
+      "position" : "",
+      "id" : 5016,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "sr_flashcombo_atk_step2",
+      "display_name" : "Flash Combo Attack Step 2"
+   },
+   {
+      "position" : "",
+      "display_name" : "Flash Combo Attack Step 3",
+      "skill_type" : "",
+      "id" : 5017,
+      "maxLevel" : 5,
+      "handle_name" : "sr_flashcombo_atk_step3"
+   },
+   {
+      "display_name" : "Flash Combo Attack Step 4",
+      "skill_type" : "",
+      "handle_name" : "sr_flashcombo_atk_step4",
+      "id" : 5018,
+      "maxLevel" : 5,
+      "position" : ""
+   }
+]

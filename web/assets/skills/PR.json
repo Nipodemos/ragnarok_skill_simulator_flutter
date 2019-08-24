@@ -1,0 +1,130 @@
+[
+   {
+      "display_name" : "Perícia com Maça",
+      "id" : 65,
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "handle_name" : "pr_macemastery",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Impositio Manus",
+      "id" : 66,
+      "skill_type" : "",
+      "handle_name" : "pr_impositio",
+      "maxLevel" : 5
+   },
+   {
+      "skill_type" : "0x200",
+      "id" : 67,
+      "handle_name" : "pr_suffragium",
+      "maxLevel" : 3,
+      "display_name" : "Suffragium",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Aspersio",
+      "handle_name" : "pr_aspersio",
+      "skill_type" : "",
+      "id" : 68,
+      "maxLevel" : 5
+   },
+   {
+      "display_name" : "B.S. Sacramenti",
+      "skill_type" : "0x40",
+      "id" : 69,
+      "maxLevel" : 5,
+      "handle_name" : "pr_benedictio",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Santuário",
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "id" : 70,
+      "handle_name" : "pr_sanctuary"
+   },
+   {
+      "display_name" : "Retardar Veneno",
+      "maxLevel" : 4,
+      "skill_type" : "",
+      "id" : 71,
+      "handle_name" : "pr_slowpoison",
+      "position" : ""
+   },
+   {
+      "handle_name" : "pr_strecovery",
+      "skill_type" : "",
+      "id" : 72,
+      "maxLevel" : 1,
+      "display_name" : "Graça Divina",
+      "position" : ""
+   },
+   {
+      "display_name" : "Kyrie Eleison",
+      "skill_type" : "",
+      "id" : 73,
+      "handle_name" : "pr_kyrie",
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "id" : 74,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "pr_magnificat",
+      "display_name" : "Magnificat"
+   },
+   {
+      "position" : "",
+      "id" : 75,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "pr_gloria",
+      "display_name" : "Glória"
+   },
+   {
+      "position" : "",
+      "display_name" : "Lex Divina",
+      "skill_type" : "",
+      "id" : 76,
+      "maxLevel" : 10,
+      "handle_name" : "pr_lexdivina"
+   },
+   {
+      "id" : 77,
+      "skill_type" : "",
+      "handle_name" : "pr_turnundead",
+      "maxLevel" : 10,
+      "display_name" : "Esconjurar",
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "handle_name" : "pr_lexaeterna",
+      "id" : 78,
+      "maxLevel" : 1,
+      "display_name" : "Lex Aeterna",
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "handle_name" : "pr_magnus",
+      "id" : 79,
+      "maxLevel" : 10,
+      "display_name" : "Magnus Exorcismus",
+      "position" : ""
+   },
+   {
+      "display_name" : "Redemptio",
+      "id" : 1014,
+      "skill_type" : "0x1",
+      "handle_name" : "pr_redemptio",
+      "maxLevel" : 1,
+      "position" : ""
+   }
+]

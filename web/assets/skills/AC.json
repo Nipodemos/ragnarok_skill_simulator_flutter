@@ -1,0 +1,58 @@
+[
+   {
+      "position" : "",
+      "skill_type" : "",
+      "handle_name" : "ac_owl",
+      "id" : 43,
+      "maxLevel" : 10,
+      "display_name" : "Precisão"
+   },
+   {
+      "display_name" : "Olhos de Águia",
+      "handle_name" : "ac_vulture",
+      "skill_type" : "",
+      "id" : 44,
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "display_name" : "Concentração",
+      "id" : 45,
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "handle_name" : "ac_concentration",
+      "position" : ""
+   },
+   {
+      "handle_name" : "ac_double",
+      "skill_type" : "",
+      "id" : 46,
+      "maxLevel" : 10,
+      "display_name" : "Rajada de Flechas",
+      "position" : ""
+   },
+   {
+      "display_name" : "Chuva de Flechas",
+      "skill_type" : "0x2000",
+      "handle_name" : "ac_shower",
+      "id" : 47,
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Fabricar Flechas",
+      "skill_type" : "0x1",
+      "id" : 147,
+      "maxLevel" : 1,
+      "handle_name" : "ac_makingarrow"
+   },
+   {
+      "display_name" : "Disparo Violento",
+      "id" : 148,
+      "skill_type" : "0x1",
+      "maxLevel" : 1,
+      "handle_name" : "ac_chargearrow",
+      "position" : ""
+   }
+]

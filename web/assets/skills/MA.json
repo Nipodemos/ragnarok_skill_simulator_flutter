@@ -1,0 +1,74 @@
+[
+   {
+      "position" : "",
+      "display_name" : "Double_Strafe",
+      "maxLevel" : 10,
+      "skill_type" : "",
+      "id" : 8207,
+      "handle_name" : "ma_double"
+   },
+   {
+      "skill_type" : "0x2000",
+      "maxLevel" : 10,
+      "id" : 8208,
+      "handle_name" : "ma_shower",
+      "display_name" : "Arrow_Shower",
+      "position" : ""
+   },
+   {
+      "skill_type" : "0x80",
+      "id" : 8209,
+      "handle_name" : "ma_skidtrap",
+      "maxLevel" : 5,
+      "display_name" : "Skid_Trap",
+      "position" : ""
+   },
+   {
+      "maxLevel" : 5,
+      "skill_type" : "0x80",
+      "id" : 8210,
+      "handle_name" : "ma_landmine",
+      "display_name" : "Land_Mine",
+      "position" : ""
+   },
+   {
+      "id" : 8211,
+      "skill_type" : "0x80",
+      "handle_name" : "ma_sandman",
+      "maxLevel" : 5,
+      "display_name" : "Sandman",
+      "position" : ""
+   },
+   {
+      "id" : 8212,
+      "skill_type" : "0x80",
+      "maxLevel" : 5,
+      "handle_name" : "ma_freezingtrap",
+      "display_name" : "Freezing_Trap",
+      "position" : ""
+   },
+   {
+      "id" : 8213,
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "handle_name" : "ma_removetrap",
+      "display_name" : "Remove_Trap",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "maxLevel" : 1,
+      "skill_type" : "0x1",
+      "id" : 8214,
+      "handle_name" : "ma_chargearrow",
+      "display_name" : "Arrow_Repel"
+   },
+   {
+      "id" : 8215,
+      "skill_type" : "",
+      "handle_name" : "ma_sharpshooting",
+      "maxLevel" : 5,
+      "display_name" : "Focused_Arrow_Strike",
+      "position" : ""
+   }
+]

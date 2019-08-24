@@ -1,0 +1,26 @@
+[
+   {
+      "position" : "",
+      "skill_type" : "",
+      "handle_name" : "wa_swing_dance",
+      "id" : 2350,
+      "maxLevel" : 5,
+      "display_name" : "Ritmo Contagiante"
+   },
+   {
+      "position" : "",
+      "handle_name" : "wa_symphony_of_lover",
+      "skill_type" : "",
+      "id" : 2351,
+      "maxLevel" : 5,
+      "display_name" : "Balada Sinfônica"
+   },
+   {
+      "position" : "",
+      "maxLevel" : 5,
+      "skill_type" : "",
+      "id" : 2352,
+      "handle_name" : "wa_moonlit_serenade",
+      "display_name" : "Serenata ao Luar"
+   }
+]

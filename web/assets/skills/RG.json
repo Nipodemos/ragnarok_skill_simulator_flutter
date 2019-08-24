@@ -1,0 +1,138 @@
+[
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 210,
+      "handle_name" : "rg_snatcher",
+      "maxLevel" : 10,
+      "display_name" : "Mãos Leves"
+   },
+   {
+      "position" : "",
+      "display_name" : "Afanar",
+      "skill_type" : "",
+      "handle_name" : "rg_stealcoin",
+      "id" : 211,
+      "maxLevel" : 10
+   },
+   {
+      "position" : "",
+      "display_name" : "Apunhalar",
+      "skill_type" : "",
+      "id" : 212,
+      "maxLevel" : 10,
+      "handle_name" : "rg_backstap"
+   },
+   {
+      "position" : "",
+      "display_name" : "Túnel de Fuga",
+      "id" : 213,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "rg_tunneldrive"
+   },
+   {
+      "display_name" : "Ataque Surpresa",
+      "id" : 214,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "rg_raid",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Remover Arma",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 215,
+      "handle_name" : "rg_stripweapon"
+   },
+   {
+      "skill_type" : "",
+      "handle_name" : "rg_stripshield",
+      "id" : 216,
+      "maxLevel" : 5,
+      "display_name" : "Remover Escudo",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "id" : 217,
+      "skill_type" : "",
+      "handle_name" : "rg_striparmor",
+      "maxLevel" : 5,
+      "display_name" : "Remover Armadura"
+   },
+   {
+      "display_name" : "Remover Capacete",
+      "skill_type" : "",
+      "id" : 218,
+      "maxLevel" : 5,
+      "handle_name" : "rg_striphelm",
+      "position" : ""
+   },
+   {
+      "display_name" : "Rapto",
+      "id" : 219,
+      "skill_type" : "",
+      "handle_name" : "rg_intimidate",
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "id" : 220,
+      "maxLevel" : 1,
+      "handle_name" : "rg_graffiti",
+      "display_name" : "Grafitti",
+      "position" : ""
+   },
+   {
+      "id" : 221,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "rg_flaggraffiti",
+      "display_name" : "Pichar",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 222,
+      "maxLevel" : 1,
+      "handle_name" : "rg_cleaner",
+      "display_name" : "Faxina"
+   },
+   {
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "id" : 223,
+      "handle_name" : "rg_gangster",
+      "display_name" : "Malandragem",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Extorquir",
+      "handle_name" : "rg_compulsion",
+      "skill_type" : "",
+      "id" : 224,
+      "maxLevel" : 5
+   },
+   {
+      "position" : "",
+      "display_name" : "Plágio",
+      "id" : 225,
+      "skill_type" : "",
+      "handle_name" : "rg_plagiarism",
+      "maxLevel" : 10
+   },
+   {
+      "display_name" : "Close Confine",
+      "skill_type" : "0x1",
+      "id" : 1005,
+      "handle_name" : "rg_closeconfine",
+      "maxLevel" : 1,
+      "position" : ""
+   }
+]

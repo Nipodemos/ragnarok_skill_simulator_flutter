@@ -1,0 +1,194 @@
+[
+   {
+      "position" : "",
+      "handle_name" : "bs_iron",
+      "skill_type" : "",
+      "id" : 94,
+      "maxLevel" : 5,
+      "display_name" : "Trabalhar Ferro"
+   },
+   {
+      "display_name" : "Trabalhar Aço",
+      "skill_type" : "",
+      "id" : 95,
+      "handle_name" : "bs_steel",
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "display_name" : "Produzir Pedra Fundamental",
+      "id" : 96,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "bs_enchantedstone",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "id" : 97,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "bs_orideocon",
+      "display_name" : "Perícia com Oridecon"
+   },
+   {
+      "skill_type" : "",
+      "id" : 98,
+      "maxLevel" : 3,
+      "handle_name" : "bs_dagger",
+      "display_name" : "Forjar Adaga",
+      "position" : ""
+   },
+   {
+      "id" : 99,
+      "skill_type" : "",
+      "handle_name" : "bs_sword",
+      "maxLevel" : 3,
+      "display_name" : "Forjar Espada",
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "handle_name" : "bs_twohandsword",
+      "id" : 100,
+      "maxLevel" : 3,
+      "display_name" : "Forjar Espada de Duas Mãos",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Forjar Machado",
+      "skill_type" : "",
+      "handle_name" : "bs_axe",
+      "id" : 101,
+      "maxLevel" : 3
+   },
+   {
+      "display_name" : "Forjar Maça",
+      "skill_type" : "",
+      "maxLevel" : 3,
+      "id" : 102,
+      "handle_name" : "bs_mace",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Forjar Soqueira",
+      "id" : 103,
+      "skill_type" : "",
+      "maxLevel" : 3,
+      "handle_name" : "bs_knuckle"
+   },
+   {
+      "position" : "",
+      "display_name" : "Forjar Lança",
+      "skill_type" : "",
+      "id" : 104,
+      "maxLevel" : 3,
+      "handle_name" : "bs_spear"
+   },
+   {
+      "skill_type" : "",
+      "id" : 105,
+      "maxLevel" : 1,
+      "handle_name" : "bs_hiltbinding",
+      "display_name" : "Punho Firme",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Encontrar Minério",
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "id" : 106,
+      "handle_name" : "bs_findingore"
+   },
+   {
+      "position" : "",
+      "display_name" : "Perícia em Armamento",
+      "id" : 107,
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "handle_name" : "bs_weaponresearch"
+   },
+   {
+      "position" : "",
+      "display_name" : "Consertar Armas",
+      "skill_type" : "",
+      "handle_name" : "bs_repairweapon",
+      "id" : 108,
+      "maxLevel" : 1
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 109,
+      "maxLevel" : 5,
+      "handle_name" : "bs_skintemper",
+      "display_name" : "Resistência ao Fogo"
+   },
+   {
+      "display_name" : "Martelo de Thor",
+      "skill_type" : "",
+      "id" : 110,
+      "maxLevel" : 5,
+      "handle_name" : "bs_hammerfall",
+      "position" : ""
+   },
+   {
+      "display_name" : "Adrenalina Pura",
+      "id" : 111,
+      "skill_type" : "",
+      "handle_name" : "bs_adrenaline",
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "display_name" : "Manejo Perfeito",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 112,
+      "handle_name" : "bs_weaponperfect",
+      "position" : ""
+   },
+   {
+      "display_name" : "Força Violenta",
+      "handle_name" : "bs_overthrust",
+      "skill_type" : "",
+      "id" : 113,
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "handle_name" : "bs_maximize",
+      "skill_type" : "",
+      "id" : 114,
+      "maxLevel" : 5,
+      "display_name" : "Amplificar Poder"
+   },
+   {
+      "display_name" : "Advanced Adrenaline Rush",
+      "id" : 459,
+      "skill_type" : "0x8",
+      "maxLevel" : 1,
+      "handle_name" : "bs_adrenaline2",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Unfair Trick",
+      "skill_type" : "0x1",
+      "id" : 1012,
+      "maxLevel" : 1,
+      "handle_name" : "bs_unfairlytrick"
+   },
+   {
+      "skill_type" : "0x1",
+      "handle_name" : "bs_greed",
+      "id" : 1013,
+      "maxLevel" : 1,
+      "display_name" : "Greed",
+      "position" : ""
+   }
+]

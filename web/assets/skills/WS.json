@@ -1,0 +1,42 @@
+[
+   {
+      "position" : "",
+      "display_name" : "Golpe Estilhaçante",
+      "skill_type" : "",
+      "id" : 384,
+      "handle_name" : "ws_meltdown",
+      "maxLevel" : 10
+   },
+   {
+      "display_name" : "Impulso no Carrinho",
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "id" : 387,
+      "handle_name" : "ws_cartboost",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Aprimorar Armamento",
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "id" : 477,
+      "handle_name" : "ws_weaponrefine"
+   },
+   {
+      "position" : "",
+      "id" : 485,
+      "skill_type" : "",
+      "handle_name" : "ws_carttermination",
+      "maxLevel" : 10,
+      "display_name" : "Choque do Carrinho"
+   },
+   {
+      "position" : "",
+      "id" : 486,
+      "skill_type" : "",
+      "handle_name" : "ws_overthrustmax",
+      "maxLevel" : 5,
+      "display_name" : "Força Violentíssima"
+   }
+]

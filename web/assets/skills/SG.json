@@ -1,0 +1,146 @@
+[
+   {
+      "skill_type" : "",
+      "id" : 427,
+      "handle_name" : "sg_feel",
+      "maxLevel" : 3,
+      "display_name" : "Percepção Solar Lunar e Estelar",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "id" : 428,
+      "skill_type" : "",
+      "handle_name" : "sg_sun_warm",
+      "maxLevel" : 3,
+      "display_name" : "Calor Solar"
+   },
+   {
+      "position" : "",
+      "display_name" : "Calor Lunar",
+      "id" : 429,
+      "skill_type" : "",
+      "maxLevel" : 3,
+      "handle_name" : "sg_moon_warm"
+   },
+   {
+      "display_name" : "Calor Estelar",
+      "skill_type" : "",
+      "handle_name" : "sg_star_warm",
+      "id" : 430,
+      "maxLevel" : 3,
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "id" : 431,
+      "handle_name" : "sg_sun_comfort",
+      "maxLevel" : 4,
+      "display_name" : "Proteção Solar",
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "maxLevel" : 4,
+      "id" : 432,
+      "handle_name" : "sg_moon_comfort",
+      "display_name" : "Proteção Lunar",
+      "position" : ""
+   },
+   {
+      "display_name" : "Proteção Estelar",
+      "skill_type" : "",
+      "maxLevel" : 4,
+      "id" : 433,
+      "handle_name" : "sg_star_comfort",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Oposição Solar Lunar e Estelar",
+      "id" : 434,
+      "skill_type" : "",
+      "handle_name" : "sg_hate",
+      "maxLevel" : 3
+   },
+   {
+      "position" : "",
+      "display_name" : "Fúria Solar",
+      "id" : 435,
+      "skill_type" : "",
+      "handle_name" : "sg_sun_anger",
+      "maxLevel" : 3
+   },
+   {
+      "maxLevel" : 3,
+      "skill_type" : "",
+      "id" : 436,
+      "handle_name" : "sg_moon_anger",
+      "display_name" : "Fúria Lunar",
+      "position" : ""
+   },
+   {
+      "display_name" : "Fúria Estelar",
+      "skill_type" : "",
+      "id" : 437,
+      "maxLevel" : 3,
+      "handle_name" : "sg_star_anger",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Bênção Solar",
+      "id" : 438,
+      "skill_type" : "",
+      "handle_name" : "sg_sun_bless",
+      "maxLevel" : 5
+   },
+   {
+      "display_name" : "Bênção Lunar",
+      "skill_type" : "",
+      "handle_name" : "sg_moon_bless",
+      "id" : 439,
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "display_name" : "Bênção Estelar",
+      "skill_type" : "",
+      "handle_name" : "sg_star_bless",
+      "id" : 440,
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "id" : 441,
+      "handle_name" : "sg_devil",
+      "display_name" : "Sombra Solar Lunar e Estelar",
+      "position" : ""
+   },
+   {
+      "display_name" : "Auxílio Solar Lunar e Estelar",
+      "maxLevel" : 3,
+      "skill_type" : "",
+      "id" : 442,
+      "handle_name" : "sg_friend",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "id" : 443,
+      "skill_type" : "",
+      "handle_name" : "sg_knowledge",
+      "maxLevel" : 10,
+      "display_name" : "Transmissão Solar Lunar e Estelar"
+   },
+   {
+      "position" : "",
+      "display_name" : "União Solar Lunar e Estelar",
+      "skill_type" : "",
+      "id" : 444,
+      "handle_name" : "sg_fusion",
+      "maxLevel" : 1
+   }
+]

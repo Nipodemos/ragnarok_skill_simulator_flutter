@@ -1,0 +1,74 @@
+[
+   {
+      "position" : "",
+      "display_name" : "Lições de Dança",
+      "handle_name" : "dc_dancinglesson",
+      "skill_type" : "",
+      "id" : 323,
+      "maxLevel" : 10
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 324,
+      "maxLevel" : 5,
+      "handle_name" : "dc_throwarrow",
+      "display_name" : "Estilingue"
+   },
+   {
+      "display_name" : "Dança do Ventre",
+      "skill_type" : "0x20",
+      "id" : 325,
+      "maxLevel" : 5,
+      "handle_name" : "dc_uglydance",
+      "position" : ""
+   },
+   {
+      "display_name" : "Escândalo",
+      "handle_name" : "dc_scream",
+      "skill_type" : "",
+      "id" : 326,
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "skill_type" : "0x20",
+      "id" : 327,
+      "handle_name" : "dc_humming",
+      "maxLevel" : 10,
+      "display_name" : "Sibilo",
+      "position" : ""
+   },
+   {
+      "handle_name" : "dc_dontforgetme",
+      "skill_type" : "0x20",
+      "id" : 328,
+      "maxLevel" : 10,
+      "display_name" : "Não Me Abandones",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "id" : 329,
+      "skill_type" : "0x20",
+      "handle_name" : "dc_fortunekiss",
+      "maxLevel" : 10,
+      "display_name" : "Beijo da Sorte"
+   },
+   {
+      "display_name" : "Dança Cigana",
+      "handle_name" : "dc_serviceforyou",
+      "skill_type" : "0x20",
+      "id" : 330,
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "skill_type" : "0x1",
+      "id" : 1011,
+      "maxLevel" : 1,
+      "handle_name" : "dc_winkcharm",
+      "display_name" : "Wink of Charm",
+      "position" : ""
+   }
+]

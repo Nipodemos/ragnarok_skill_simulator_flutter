@@ -1,0 +1,34 @@
+[
+   {
+      "position" : "",
+      "display_name" : "Visão Real",
+      "skill_type" : "",
+      "id" : 380,
+      "maxLevel" : 10,
+      "handle_name" : "sn_sight"
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 381,
+      "handle_name" : "sn_falconassault",
+      "maxLevel" : 5,
+      "display_name" : "Assalto do Falcão"
+   },
+   {
+      "display_name" : "Tiro Preciso",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 382,
+      "handle_name" : "sn_sharpshooting",
+      "position" : ""
+   },
+   {
+      "id" : 383,
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "handle_name" : "sn_windwalk",
+      "display_name" : "Caminho do Vento",
+      "position" : ""
+   }
+]

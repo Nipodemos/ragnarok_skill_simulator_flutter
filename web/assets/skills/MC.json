@@ -1,0 +1,82 @@
+[
+   {
+      "id" : 36,
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "handle_name" : "mc_inccarry",
+      "display_name" : "Aumentar Capacidade de Carga",
+      "position" : 1
+   },
+   {
+      "position" : 8,
+      "id" : 37,
+      "skill_type" : "",
+      "handle_name" : "mc_discount",
+      "maxLevel" : 10,
+      "display_name" : "Desconto"
+   },
+   {
+      "position" : 15,
+      "display_name" : "Superfaturar",
+      "handle_name" : "mc_overcharge",
+      "skill_type" : "",
+      "id" : 38,
+      "maxLevel" : 10
+   },
+   {
+      "display_name" : "Usar Carrinho",
+      "skill_type" : "",
+      "handle_name" : "mc_pushcart",
+      "id" : 39,
+      "maxLevel" : 10,
+      "position" : 9
+   },
+   {
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "id" : 40,
+      "handle_name" : "mc_identify",
+      "display_name" : "Identificar Item",
+      "position" : 4
+   },
+   {
+      "display_name" : "Comércio",
+      "skill_type" : "",
+      "handle_name" : "mc_vending",
+      "id" : 41,
+      "maxLevel" : 10,
+      "position" : 16
+   },
+   {
+      "position" : 3,
+      "handle_name" : "mc_mammonite",
+      "skill_type" : "",
+      "id" : 42,
+      "maxLevel" : 10,
+      "display_name" : "Mammonita"
+   },
+   {
+      "position" : 19,
+      "maxLevel" : 1,
+      "skill_type" : "0x1",
+      "id" : 153,
+      "handle_name" : "mc_cartrevolution",
+      "display_name" : "Cavalo-de-Pau"
+   },
+   {
+      "position" : 12,
+      "display_name" : "Personalizar Carrinho",
+      "handle_name" : "mc_changecart",
+      "skill_type" : "0x1",
+      "id" : 154,
+      "maxLevel" : 1
+   },
+   {
+      "position" : 5,
+      "display_name" : "Grito de Guerra",
+      "skill_type" : "0x1",
+      "id" : 155,
+      "handle_name" : "mc_loud",
+      "maxLevel" : 1
+   }
+]

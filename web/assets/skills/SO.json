@@ -1,0 +1,218 @@
+[
+   {
+      "display_name" : "Passos da Salamandra",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 2443,
+      "handle_name" : "so_firewalk",
+      "position" : ""
+   },
+   {
+      "handle_name" : "so_electricwalk",
+      "skill_type" : "",
+      "id" : 2444,
+      "maxLevel" : 5,
+      "display_name" : "Passos da Sílfide",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Punho Arcano",
+      "handle_name" : "so_spellfist",
+      "skill_type" : "",
+      "id" : 2445,
+      "maxLevel" : 5
+   },
+   {
+      "position" : "",
+      "display_name" : "Castigo de Nerthus",
+      "handle_name" : "so_earthgrave",
+      "skill_type" : "",
+      "id" : 2446,
+      "maxLevel" : 5
+   },
+   {
+      "position" : "",
+      "display_name" : "Pó de Diamante",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 2447,
+      "handle_name" : "so_diamonddust"
+   },
+   {
+      "display_name" : "Implosão Tóxica",
+      "skill_type" : "",
+      "handle_name" : "so_poison_buster",
+      "id" : 2448,
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "maxLevel" : 5,
+      "skill_type" : "",
+      "id" : 2449,
+      "handle_name" : "so_psychic_wave",
+      "display_name" : "Onda Psíquica"
+   },
+   {
+      "id" : 2450,
+      "skill_type" : "",
+      "handle_name" : "so_cloud_kill",
+      "maxLevel" : 5,
+      "display_name" : "Maldição de Jormungand",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Encanto de Órion",
+      "id" : 2451,
+      "skill_type" : "",
+      "handle_name" : "so_striking",
+      "maxLevel" : 5
+   },
+   {
+      "display_name" : "Aquecer Terreno",
+      "id" : 2452,
+      "skill_type" : "",
+      "handle_name" : "so_warmer",
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "display_name" : "Tornado",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 2453,
+      "handle_name" : "so_vacuum_extreme",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Lanças dos Aesir",
+      "skill_type" : "",
+      "id" : 2454,
+      "maxLevel" : 5,
+      "handle_name" : "so_varetyr_spear"
+   },
+   {
+      "skill_type" : "",
+      "id" : 2455,
+      "handle_name" : "so_arrullo",
+      "maxLevel" : 5,
+      "display_name" : "Onda Hipnótica",
+      "position" : ""
+   },
+   {
+      "display_name" : "Domínio Elemental",
+      "skill_type" : "",
+      "maxLevel" : 4,
+      "id" : 2456,
+      "handle_name" : "so_el_control",
+      "position" : ""
+   },
+   {
+      "display_name" : "Invocar Agni",
+      "handle_name" : "so_summon_agni",
+      "skill_type" : "",
+      "id" : 2457,
+      "maxLevel" : 3,
+      "position" : ""
+   },
+   {
+      "handle_name" : "so_summon_aqua",
+      "skill_type" : "",
+      "id" : 2458,
+      "maxLevel" : 3,
+      "display_name" : "Invocar Varuna",
+      "position" : ""
+   },
+   {
+      "display_name" : "Invocar Vayu",
+      "skill_type" : "",
+      "id" : 2459,
+      "handle_name" : "so_summon_ventus",
+      "maxLevel" : 3,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 2460,
+      "maxLevel" : 3,
+      "handle_name" : "so_summon_tera",
+      "display_name" : "Invocar Chandra"
+   },
+   {
+      "position" : "",
+      "maxLevel" : 1,
+      "skill_type" : "",
+      "id" : 2461,
+      "handle_name" : "so_el_action",
+      "display_name" : "Incitar Elemental"
+   },
+   {
+      "skill_type" : "",
+      "maxLevel" : 2,
+      "id" : 2462,
+      "handle_name" : "so_el_analysis",
+      "display_name" : "Análise Elemental",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Empatia Elemental",
+      "skill_type" : "",
+      "id" : 2463,
+      "handle_name" : "so_el_sympathy",
+      "maxLevel" : 5
+   },
+   {
+      "maxLevel" : 1,
+      "skill_type" : "",
+      "id" : 2464,
+      "handle_name" : "so_el_cure",
+      "display_name" : "Troca Espiritual",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Insígnia do Fogo",
+      "id" : 2465,
+      "skill_type" : "",
+      "handle_name" : "so_fire_insignia",
+      "maxLevel" : 3
+   },
+   {
+      "display_name" : "Insígnia da Água",
+      "id" : 2466,
+      "skill_type" : "",
+      "maxLevel" : 3,
+      "handle_name" : "so_water_insignia",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Insígnia do Vento",
+      "id" : 2467,
+      "skill_type" : "",
+      "maxLevel" : 3,
+      "handle_name" : "so_wind_insignia"
+   },
+   {
+      "position" : "",
+      "display_name" : "Insígnia da Terra",
+      "maxLevel" : 3,
+      "skill_type" : "",
+      "id" : 2468,
+      "handle_name" : "so_earth_insignia"
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 5008,
+      "maxLevel" : 5,
+      "handle_name" : "so_elemental_shield",
+      "display_name" : "Elemental Shield"
+   }
+]

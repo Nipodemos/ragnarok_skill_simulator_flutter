@@ -1,0 +1,74 @@
+[
+   {
+      "skill_type" : "",
+      "id" : 315,
+      "maxLevel" : 10,
+      "handle_name" : "ba_musicallesson",
+      "display_name" : "Lições de Música",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Flecha Melódica",
+      "skill_type" : "",
+      "handle_name" : "ba_musicalstrike",
+      "id" : 316,
+      "maxLevel" : 5
+   },
+   {
+      "display_name" : "Dissonância",
+      "skill_type" : "0x20",
+      "maxLevel" : 5,
+      "id" : 317,
+      "handle_name" : "ba_dissonance",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 318,
+      "handle_name" : "ba_frostjoker",
+      "display_name" : "Piada Infame"
+   },
+   {
+      "position" : "",
+      "display_name" : "Assovio",
+      "skill_type" : "0x20",
+      "id" : 319,
+      "handle_name" : "ba_whistle",
+      "maxLevel" : 10
+   },
+   {
+      "position" : "",
+      "display_name" : "Crepúsculo Sangrento",
+      "id" : 320,
+      "skill_type" : "0x20",
+      "maxLevel" : 10,
+      "handle_name" : "ba_assassincross"
+   },
+   {
+      "position" : "",
+      "id" : 321,
+      "skill_type" : "0x20",
+      "handle_name" : "ba_poembragi",
+      "maxLevel" : 10,
+      "display_name" : "Poema de Bragi"
+   },
+   {
+      "handle_name" : "ba_appleidun",
+      "skill_type" : "0x20",
+      "id" : 322,
+      "maxLevel" : 10,
+      "display_name" : "Maçãs de Idun",
+      "position" : ""
+   },
+   {
+      "display_name" : "Pang Voice",
+      "skill_type" : "0x1",
+      "handle_name" : "ba_pangvoice",
+      "id" : 1010,
+      "maxLevel" : 1,
+      "position" : ""
+   }
+]

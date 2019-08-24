@@ -1,0 +1,82 @@
+[
+   {
+      "position" : "",
+      "display_name" : "Ataque Duplo",
+      "handle_name" : "tf_double",
+      "skill_type" : "",
+      "id" : 48,
+      "maxLevel" : 10
+   },
+   {
+      "position" : "",
+      "display_name" : "Perícia em Esquiva",
+      "skill_type" : "",
+      "id" : 49,
+      "handle_name" : "tf_miss",
+      "maxLevel" : 10
+   },
+   {
+      "display_name" : "Furto",
+      "maxLevel" : 10,
+      "skill_type" : "",
+      "id" : 50,
+      "handle_name" : "tf_steal",
+      "position" : ""
+   },
+   {
+      "id" : 51,
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "handle_name" : "tf_hiding",
+      "display_name" : "Esconderijo",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Envenenar",
+      "id" : 52,
+      "skill_type" : "",
+      "handle_name" : "tf_poison",
+      "maxLevel" : 10
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "handle_name" : "tf_detoxify",
+      "id" : 53,
+      "maxLevel" : 1,
+      "display_name" : "Desintoxicar"
+   },
+   {
+      "skill_type" : "0x1",
+      "id" : 149,
+      "maxLevel" : 1,
+      "handle_name" : "tf_sprinklesand",
+      "display_name" : "Chutar Areia",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "0x1",
+      "maxLevel" : 1,
+      "id" : 150,
+      "handle_name" : "tf_backsliding",
+      "display_name" : "Recuar"
+   },
+   {
+      "display_name" : "Procurar Pedras",
+      "handle_name" : "tf_pickstone",
+      "skill_type" : "0x1",
+      "id" : 151,
+      "maxLevel" : 1,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Arremessar Pedra",
+      "id" : 152,
+      "skill_type" : "0x1",
+      "handle_name" : "tf_throwstone",
+      "maxLevel" : 1
+   }
+]

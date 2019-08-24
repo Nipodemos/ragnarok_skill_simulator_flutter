@@ -1,0 +1,178 @@
+[
+   {
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 2038,
+      "handle_name" : "ab_judex",
+      "display_name" : "Judex",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Criar Ancilla",
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "id" : 2039,
+      "handle_name" : "ab_ancilla"
+   },
+   {
+      "position" : "",
+      "id" : 2040,
+      "skill_type" : "",
+      "handle_name" : "ab_adoramus",
+      "maxLevel" : 10,
+      "display_name" : "Adoramus"
+   },
+   {
+      "display_name" : "Crementia",
+      "id" : 2041,
+      "skill_type" : "",
+      "handle_name" : "ab_clementia",
+      "maxLevel" : 3,
+      "position" : ""
+   },
+   {
+      "maxLevel" : 3,
+      "skill_type" : "",
+      "id" : 2042,
+      "handle_name" : "ab_canto",
+      "display_name" : "Canto Candidus",
+      "position" : ""
+   },
+   {
+      "display_name" : "Sopro Divino",
+      "skill_type" : "",
+      "id" : 2043,
+      "maxLevel" : 3,
+      "handle_name" : "ab_cheal",
+      "position" : ""
+   },
+   {
+      "display_name" : "Epiclesis",
+      "id" : 2044,
+      "skill_type" : "",
+      "handle_name" : "ab_epiclesis",
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "display_name" : "Praefatio",
+      "skill_type" : "",
+      "handle_name" : "ab_praefatio",
+      "id" : 2045,
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "handle_name" : "ab_oratio",
+      "id" : 2046,
+      "maxLevel" : 10,
+      "display_name" : "Oratio"
+   },
+   {
+      "position" : "",
+      "display_name" : "Lauda Agnus",
+      "skill_type" : "",
+      "maxLevel" : 4,
+      "id" : 2047,
+      "handle_name" : "ab_laudaagnus"
+   },
+   {
+      "display_name" : "Lauda Ramus",
+      "maxLevel" : 4,
+      "skill_type" : "",
+      "id" : 2048,
+      "handle_name" : "ab_laudaramus",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "id" : 2049,
+      "skill_type" : "",
+      "handle_name" : "ab_eucharistica",
+      "maxLevel" : 10,
+      "display_name" : "Eucaristia"
+   },
+   {
+      "position" : "",
+      "display_name" : "Renovatio",
+      "skill_type" : "",
+      "id" : 2050,
+      "handle_name" : "ab_renovatio",
+      "maxLevel" : 1
+   },
+   {
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 2051,
+      "handle_name" : "ab_highnessheal",
+      "display_name" : "Highness Heal",
+      "position" : ""
+   },
+   {
+      "display_name" : "Gênese",
+      "id" : 2052,
+      "skill_type" : "",
+      "handle_name" : "ab_clearance",
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "display_name" : "Expiatio",
+      "skill_type" : "",
+      "id" : 2053,
+      "handle_name" : "ab_expiatio",
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "display_name" : "Gemini Lumen",
+      "skill_type" : "",
+      "id" : 2054,
+      "maxLevel" : 10,
+      "handle_name" : "ab_duplelight",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Duple Light Melee",
+      "skill_type" : "",
+      "id" : 2055,
+      "handle_name" : "ab_duplelight_melee",
+      "maxLevel" : 10
+   },
+   {
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "id" : 2056,
+      "handle_name" : "ab_duplelight_magic",
+      "display_name" : "Duple Light Magic",
+      "position" : ""
+   },
+   {
+      "display_name" : "Silentium",
+      "id" : 2057,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "ab_silentium",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Secrament",
+      "skill_type" : "",
+      "handle_name" : "ab_secrament",
+      "id" : 2515,
+      "maxLevel" : 5
+   },
+   {
+      "position" : "",
+      "maxLevel" : 5,
+      "skill_type" : "",
+      "id" : 5011,
+      "handle_name" : "ab_offertorium",
+      "display_name" : "Offertorium"
+   }
+]

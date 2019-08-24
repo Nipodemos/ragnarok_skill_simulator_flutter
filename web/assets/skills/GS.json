@@ -1,0 +1,178 @@
+[
+   {
+      "position" : "",
+      "id" : 500,
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "handle_name" : "gs_glittering",
+      "display_name" : "Cara ou Coroa"
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 501,
+      "maxLevel" : 1,
+      "handle_name" : "gs_fling",
+      "display_name" : "Atirar Moedas"
+   },
+   {
+      "display_name" : "Ataque Triplo",
+      "skill_type" : "",
+      "handle_name" : "gs_tripleaction",
+      "id" : 502,
+      "maxLevel" : 1,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Ataque Certeiro",
+      "handle_name" : "gs_bullseye",
+      "skill_type" : "",
+      "id" : 503,
+      "maxLevel" : 1
+   },
+   {
+      "position" : "",
+      "display_name" : "Resistência Final",
+      "maxLevel" : 1,
+      "skill_type" : "",
+      "id" : 504,
+      "handle_name" : "gs_madnesscancel"
+   },
+   {
+      "skill_type" : "",
+      "id" : 505,
+      "handle_name" : "gs_adjustment",
+      "maxLevel" : 1,
+      "display_name" : "Pânico do Justiceiro",
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "handle_name" : "gs_increasing",
+      "id" : 506,
+      "maxLevel" : 1,
+      "display_name" : "Aumentar Precisão",
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "id" : 507,
+      "maxLevel" : 1,
+      "handle_name" : "gs_magicalbullet",
+      "display_name" : "Bala Mágica",
+      "position" : ""
+   },
+   {
+      "display_name" : "Tiro Bombinha",
+      "id" : 508,
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "handle_name" : "gs_cracker",
+      "position" : ""
+   },
+   {
+      "id" : 509,
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "handle_name" : "gs_singleaction",
+      "display_name" : "Ataque Concentrado",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "id" : 510,
+      "handle_name" : "gs_snakeeye",
+      "display_name" : "Olhos de Serpente"
+   },
+   {
+      "position" : "",
+      "display_name" : "Reação em Cadeia",
+      "skill_type" : "",
+      "handle_name" : "gs_chainaction",
+      "id" : 511,
+      "maxLevel" : 10
+   },
+   {
+      "display_name" : "Rastrear o Alvo",
+      "id" : 512,
+      "skill_type" : "",
+      "handle_name" : "gs_tracking",
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 513,
+      "maxLevel" : 5,
+      "handle_name" : "gs_disarm",
+      "display_name" : "Desarmar"
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "handle_name" : "gs_piercingshot",
+      "id" : 514,
+      "maxLevel" : 5,
+      "display_name" : "Ferir Alvo"
+   },
+   {
+      "id" : 515,
+      "skill_type" : "",
+      "handle_name" : "gs_rapidshower",
+      "maxLevel" : 10,
+      "display_name" : "Rajada Certeira",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Desperado",
+      "skill_type" : "",
+      "id" : 516,
+      "handle_name" : "gs_desperado",
+      "maxLevel" : 10
+   },
+   {
+      "display_name" : "Ataque Gatling",
+      "id" : 517,
+      "skill_type" : "",
+      "handle_name" : "gs_gatlingfever",
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "id" : 518,
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "handle_name" : "gs_dust",
+      "display_name" : "Controle de Multidão",
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "handle_name" : "gs_fullbuster",
+      "id" : 519,
+      "maxLevel" : 10,
+      "display_name" : "Ataque Total",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 520,
+      "handle_name" : "gs_spreadattack",
+      "maxLevel" : 10,
+      "display_name" : "Disparo Espalhado"
+   },
+   {
+      "display_name" : "Mina do Justiceiro",
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "id" : 521,
+      "handle_name" : "gs_grounddrift",
+      "position" : ""
+   }
+]

@@ -1,0 +1,218 @@
+[
+   {
+      "position" : "",
+      "display_name" : "Espírito do Alquimista",
+      "skill_type" : "0x200",
+      "maxLevel" : 5,
+      "id" : 445,
+      "handle_name" : "sl_alchemist"
+   },
+   {
+      "position" : "",
+      "id" : 447,
+      "skill_type" : "0x200",
+      "handle_name" : "sl_monk",
+      "maxLevel" : 5,
+      "display_name" : "Espírito do Monge"
+   },
+   {
+      "position" : "",
+      "display_name" : "Espírito do Mestre Taekwon",
+      "skill_type" : "0x200",
+      "id" : 448,
+      "handle_name" : "sl_star",
+      "maxLevel" : 5
+   },
+   {
+      "position" : "",
+      "display_name" : "Espírito do Sábio",
+      "skill_type" : "0x200",
+      "id" : 449,
+      "maxLevel" : 5,
+      "handle_name" : "sl_sage"
+   },
+   {
+      "display_name" : "Espírito do Templário",
+      "skill_type" : "0x200",
+      "id" : 450,
+      "handle_name" : "sl_crusader",
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Espírito do Superaprendiz",
+      "skill_type" : "0x200",
+      "maxLevel" : 5,
+      "id" : 451,
+      "handle_name" : "sl_supernovice"
+   },
+   {
+      "position" : "",
+      "id" : 452,
+      "skill_type" : "0x200",
+      "maxLevel" : 5,
+      "handle_name" : "sl_knight",
+      "display_name" : "Espírito do Cavaleiro"
+   },
+   {
+      "skill_type" : "0x200",
+      "id" : 453,
+      "handle_name" : "sl_wizard",
+      "maxLevel" : 5,
+      "display_name" : "Espírito do Bruxo",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "handle_name" : "sl_priest",
+      "skill_type" : "0x200",
+      "id" : 454,
+      "maxLevel" : 5,
+      "display_name" : "Espírito do Sacerdote"
+   },
+   {
+      "handle_name" : "sl_barddancer",
+      "skill_type" : "0x200",
+      "id" : 455,
+      "maxLevel" : 5,
+      "display_name" : "Espírito dos Artistas",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Espírito do Arruaceiro",
+      "skill_type" : "0x200",
+      "id" : 456,
+      "handle_name" : "sl_rogue",
+      "maxLevel" : 5
+   },
+   {
+      "display_name" : "Espírito do Mercenário",
+      "skill_type" : "0x200",
+      "id" : 457,
+      "maxLevel" : 5,
+      "handle_name" : "sl_assasin",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Espírito do Ferreiro",
+      "maxLevel" : 5,
+      "skill_type" : "0x200",
+      "id" : 458,
+      "handle_name" : "sl_blacksmith"
+   },
+   {
+      "display_name" : "Espírito do Caçador",
+      "skill_type" : "0x200",
+      "maxLevel" : 5,
+      "id" : 460,
+      "handle_name" : "sl_hunter",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Espírito do Espiritualista",
+      "skill_type" : "0x200",
+      "id" : 461,
+      "handle_name" : "sl_soullinker",
+      "maxLevel" : 5
+   },
+   {
+      "display_name" : "Kaizel",
+      "id" : 462,
+      "skill_type" : "",
+      "maxLevel" : 7,
+      "handle_name" : "sl_kaizel",
+      "position" : ""
+   },
+   {
+      "display_name" : "Kaahi",
+      "id" : 463,
+      "skill_type" : "",
+      "handle_name" : "sl_kaahi",
+      "maxLevel" : 7,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "handle_name" : "sl_kaupe",
+      "skill_type" : "",
+      "id" : 464,
+      "maxLevel" : 3,
+      "display_name" : "Kaupe"
+   },
+   {
+      "position" : "",
+      "handle_name" : "sl_kaite",
+      "skill_type" : "",
+      "id" : 465,
+      "maxLevel" : 7,
+      "display_name" : "Kaite"
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 466,
+      "maxLevel" : 7,
+      "handle_name" : "sl_kaina",
+      "display_name" : "Kaina"
+   },
+   {
+      "display_name" : "Estin",
+      "skill_type" : "",
+      "id" : 467,
+      "maxLevel" : 7,
+      "handle_name" : "sl_stin",
+      "position" : ""
+   },
+   {
+      "display_name" : "Estun",
+      "handle_name" : "sl_stun",
+      "skill_type" : "",
+      "id" : 468,
+      "maxLevel" : 7,
+      "position" : ""
+   },
+   {
+      "display_name" : "Esma",
+      "skill_type" : "",
+      "id" : 469,
+      "handle_name" : "sl_sma",
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "id" : 470,
+      "maxLevel" : 7,
+      "handle_name" : "sl_swoo",
+      "display_name" : "Eswoo",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Eske",
+      "skill_type" : "",
+      "handle_name" : "sl_ske",
+      "id" : 471,
+      "maxLevel" : 3
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 472,
+      "handle_name" : "sl_ska",
+      "maxLevel" : 3,
+      "display_name" : "Eska"
+   },
+   {
+      "position" : "",
+      "display_name" : "Espírito dos Transcendentais",
+      "skill_type" : "",
+      "handle_name" : "sl_high",
+      "id" : 494,
+      "maxLevel" : 5
+   }
+]

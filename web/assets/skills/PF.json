@@ -1,0 +1,66 @@
+[
+   {
+      "skill_type" : "",
+      "id" : 373,
+      "maxLevel" : 5,
+      "handle_name" : "pf_hpconversion",
+      "display_name" : "Indulgir",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "maxLevel" : 1,
+      "skill_type" : "0xE00",
+      "id" : 374,
+      "handle_name" : "pf_soulchange",
+      "display_name" : "Exalar Alma"
+   },
+   {
+      "display_name" : "Sifão de Alma",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 375,
+      "handle_name" : "pf_soulburn",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Enlouquecedor",
+      "skill_type" : "",
+      "id" : 402,
+      "handle_name" : "pf_mindbreaker",
+      "maxLevel" : 5
+   },
+   {
+      "display_name" : "Presciência",
+      "id" : 403,
+      "skill_type" : "",
+      "maxLevel" : 1,
+      "handle_name" : "pf_memorize",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Bruma Ofuscante",
+      "id" : 404,
+      "skill_type" : "0x100",
+      "handle_name" : "pf_fogwall",
+      "maxLevel" : 5
+   },
+   {
+      "display_name" : "Prisão de Teia",
+      "handle_name" : "pf_spiderweb",
+      "skill_type" : "",
+      "id" : 405,
+      "maxLevel" : 1,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Lanças Duplas",
+      "handle_name" : "pf_doublecasting",
+      "skill_type" : "",
+      "id" : 482,
+      "maxLevel" : 5
+   }
+]

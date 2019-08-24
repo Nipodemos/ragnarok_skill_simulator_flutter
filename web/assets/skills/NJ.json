@@ -1,0 +1,186 @@
+[
+   {
+      "position" : "",
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "id" : 522,
+      "handle_name" : "nj_tobidougu",
+      "display_name" : "Prática de Arremesso de Shuriken"
+   },
+   {
+      "display_name" : "Arremessar Shuriken",
+      "id" : 523,
+      "skill_type" : "",
+      "handle_name" : "nj_syuriken",
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "display_name" : "Arremessar Kunai",
+      "id" : 524,
+      "skill_type" : "",
+      "handle_name" : "nj_kunai",
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "maxLevel" : 5,
+      "skill_type" : "",
+      "id" : 525,
+      "handle_name" : "nj_huuma",
+      "display_name" : "Arremessar Shuriken Huuma"
+   },
+   {
+      "position" : "",
+      "display_name" : "Chuva de Moedas",
+      "skill_type" : "",
+      "id" : 526,
+      "maxLevel" : 10,
+      "handle_name" : "nj_zenynage"
+   },
+   {
+      "display_name" : "Virar Tatami",
+      "id" : 527,
+      "skill_type" : "",
+      "handle_name" : "nj_tatamigaeshi",
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "handle_name" : "nj_kasumikiri",
+      "id" : 528,
+      "maxLevel" : 10,
+      "display_name" : "Corte da Névoa",
+      "position" : ""
+   },
+   {
+      "display_name" : "Salto das Sombras",
+      "skill_type" : "",
+      "handle_name" : "nj_shadowjump",
+      "id" : 529,
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 530,
+      "handle_name" : "nj_kirikage",
+      "display_name" : "Corte das Sombras",
+      "position" : ""
+   },
+   {
+      "maxLevel" : 5,
+      "skill_type" : "",
+      "id" : 531,
+      "handle_name" : "nj_utsusemi",
+      "display_name" : "Troca de Pele",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Imagem Falsa",
+      "id" : 532,
+      "skill_type" : "",
+      "handle_name" : "nj_bunsinjyutsu",
+      "maxLevel" : 10
+   },
+   {
+      "skill_type" : "",
+      "id" : 533,
+      "handle_name" : "nj_ninpou",
+      "maxLevel" : 10,
+      "display_name" : "Perícia Ninja",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "id" : 534,
+      "handle_name" : "nj_kouenka",
+      "display_name" : "Pétalas Flamejantes"
+   },
+   {
+      "display_name" : "Escudo de Chamas",
+      "id" : 535,
+      "skill_type" : "",
+      "handle_name" : "nj_kaensin",
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "display_name" : "Dragão Explosivo",
+      "skill_type" : "",
+      "id" : 536,
+      "handle_name" : "nj_bakuenryu",
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "display_name" : "Lança Congelante",
+      "skill_type" : "",
+      "id" : 537,
+      "maxLevel" : 10,
+      "handle_name" : "nj_hyousensou",
+      "position" : ""
+   },
+   {
+      "display_name" : "Evasão Aquática",
+      "skill_type" : "",
+      "id" : 538,
+      "handle_name" : "nj_suiton",
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 539,
+      "handle_name" : "nj_hyousyouraku",
+      "display_name" : "Grande Floco de Neve"
+   },
+   {
+      "display_name" : "Lâmina de Vento",
+      "id" : 540,
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "handle_name" : "nj_huujin",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 541,
+      "handle_name" : "nj_raigekisai",
+      "maxLevel" : 5,
+      "display_name" : "Descarga Elétrica"
+   },
+   {
+      "handle_name" : "nj_kamaitachi",
+      "skill_type" : "",
+      "id" : 542,
+      "maxLevel" : 5,
+      "display_name" : "Brisa Cortante",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Aura Ninja",
+      "handle_name" : "nj_nen",
+      "skill_type" : "",
+      "id" : 543,
+      "maxLevel" : 5
+   },
+   {
+      "skill_type" : "",
+      "id" : 544,
+      "handle_name" : "nj_issen",
+      "maxLevel" : 10,
+      "display_name" : "Ataque Mortal",
+      "position" : ""
+   }
+]

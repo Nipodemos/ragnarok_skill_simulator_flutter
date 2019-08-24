@@ -1,0 +1,114 @@
+[
+   {
+      "id" : 80,
+      "skill_type" : "0x80",
+      "maxLevel" : 10,
+      "handle_name" : "wz_firepillar",
+      "display_name" : "Coluna de Fogo",
+      "position" : ""
+   },
+   {
+      "display_name" : "Supernova",
+      "handle_name" : "wz_sightrasher",
+      "skill_type" : "",
+      "id" : 81,
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Chuva de Meteoros",
+      "id" : 83,
+      "skill_type" : "",
+      "handle_name" : "wz_meteor",
+      "maxLevel" : 10
+   },
+   {
+      "display_name" : "Trovão de Júpiter",
+      "id" : 84,
+      "skill_type" : "",
+      "handle_name" : "wz_jupitel",
+      "maxLevel" : 10,
+      "position" : ""
+   },
+   {
+      "id" : 85,
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "handle_name" : "wz_vermilion",
+      "display_name" : "Ira de Thor",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "display_name" : "Esfera d'Água",
+      "skill_type" : "",
+      "handle_name" : "wz_waterball",
+      "id" : 86,
+      "maxLevel" : 5
+   },
+   {
+      "display_name" : "Barreira de Gelo",
+      "id" : 87,
+      "skill_type" : "",
+      "maxLevel" : 10,
+      "handle_name" : "wz_icewall",
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "id" : 88,
+      "skill_type" : "",
+      "handle_name" : "wz_frostnova",
+      "maxLevel" : 10,
+      "display_name" : "Congelar"
+   },
+   {
+      "skill_type" : "",
+      "id" : 89,
+      "handle_name" : "wz_stormgust",
+      "maxLevel" : 10,
+      "display_name" : "Nevasca",
+      "position" : ""
+   },
+   {
+      "display_name" : "Coluna de Pedra",
+      "handle_name" : "wz_earthspike",
+      "skill_type" : "",
+      "id" : 90,
+      "maxLevel" : 5,
+      "position" : ""
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "id" : 91,
+      "maxLevel" : 5,
+      "handle_name" : "wz_heavendrive",
+      "display_name" : "Fúria da Terra"
+   },
+   {
+      "position" : "",
+      "skill_type" : "",
+      "maxLevel" : 5,
+      "id" : 92,
+      "handle_name" : "wz_quagmire",
+      "display_name" : "Pântano dos Mortos"
+   },
+   {
+      "maxLevel" : 1,
+      "skill_type" : "",
+      "id" : 93,
+      "handle_name" : "wz_estimation",
+      "display_name" : "Sentido Sobrenatural",
+      "position" : ""
+   },
+   {
+      "skill_type" : "0x1",
+      "id" : 1006,
+      "maxLevel" : 1,
+      "handle_name" : "wz_sightblaster",
+      "display_name" : "Sight Blaster",
+      "position" : ""
+   }
+]
