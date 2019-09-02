@@ -1,0 +1,26 @@
+//===============================================================\\
+//                _____                                          ||
+//               /  __ \                                         ||
+//               | /  \/_ __ ___  _ __  _   _ ___                ||
+//               | |   | '__/ _ \| '_ \| | | / __|               ||
+//               | \__/\ | | [_] | | | | |_| \__ \               ||
+//                \____/_|  \___/|_| |_|\__,_|___/               ||
+//                     Skill_Tree->Renewal                       ||
+//===============================================================||
+//- Banco de Dados da Árvore de Habilidades das Classes          ||
+//===============================================================//
+/*
+"Job_Name": { // Os nomes das classes estão em src/map/pc.c [eles estão codificados no momento, então se você quiser adicionar uma nova classe, você deve adicionar lá]
+	"inherit": "Other_Job_Name", // Classe da qual, será herdada a árvore de habilidades. A herança de NV_TRICKDEAD é ignorada para não Aprendizes na Source.
+
+"skills": { // Nome da Habilidade de acorco com o [16ª coluna] valor em db/Skill_DB/Skill_RE.txt 
+	"SKILL_NAME1": Max_Level // Use-o para habilidades que não têm outro pré-requisito, Max_Level é um valor numérico que deve coincidir com os arquivos do Cliente.
+	"SKILL_NAME2": { // Use-o para as habilidades que possuem outras habilidades como pré-requisitos.
+		"MaxLevel": Max_Level // Max_Level é um valor numérico que deve coincidir com os arquivos do Cliente.
+		"SKILL_NAME_PREREQUISITE": Level_Prerequisite // A habilidade de pré-requisito e nível mínimo para ter essa habilidade disponível. Também deve coincidir com os arquivos do Cliente.
+		"SKILL_NAME_PREREQUISITE2": Level_Prerequisite2 // Você pode adicionar quantas habilidades com pré-requisito que desejar. Mínimo de 1 se você adicionar uma habilidade dessa maneira.
+	},
+  },
+},
+*/
+//================================================================
