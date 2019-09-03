@@ -1,8 +1,4 @@
 import 'package:flutter_web/material.dart';
-import 'package:testing_flutter_web_for_first_time/class_models/aprendiz.dart';
-import 'package:testing_flutter_web_for_first_time/model/skills_list.dart';
-
-import 'class_models/mercador.dart';
 
 void main() => runApp(MyApp());
 
