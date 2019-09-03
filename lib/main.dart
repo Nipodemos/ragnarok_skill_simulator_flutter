@@ -1,4 +1,6 @@
 import 'package:flutter_web/material.dart';
+import 'package:testing_flutter_web_for_first_time/model/classe.dart';
+import 'package:flutter_web/services.dart';
 
 void main() => runApp(MyApp());
 
@@ -15,15 +17,15 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text("Grid"),
         ),
-        body: ActualGrid(classe: 'Mercador'),
+        body: ActualGrid(nomeClasse: 'Merchant', grau: 1),
       ),
     );
   }
 }
 
 class ActualGrid extends StatefulWidget {
-  final String classe;
-  ActualGrid({@required this.classe}) : assert(classe != null);
+  final String nomeClasse;
+  ActualGrid({@required this.nomeClasse, int grau}) : assert(nomeClasse != null);
   @override
   _ActualGridState createState() => _ActualGridState();
 }
@@ -31,31 +33,28 @@ class ActualGrid extends StatefulWidget {
 class _ActualGridState extends State<ActualGrid> {
   Future<List<Skill>> buildList() async {
     print('eu estou aqui');
-    List<Skill> skills;
-    if (widget.classe == 'Mercador') {
-      skills = await Mercador().getSkillsList();
-    } else {
-      throw "nome de classe inválido";
-    }
-    List<Skill> aprendiz = await Aprendiz().getSkillsList();
-    List<Skill> finalList = [];
-    for (var i = 0; i < 42; i++) {
-      var added = false;
-      for (var j in skills) {
-        if (i == j.position) {
-          finalList.add(j);
-          added = true;
-        }
-      }
 
-      for (var k in aprendiz) {
-        if (i == k.position) {
-          finalList.add(k);
-          added = true;
-        }
+    List<Skill> finalList = List<Skill>.generate(42, (int index) {
+      return Skill();
+    });
+    finalList = await getSkillsList(finalList, widget.nomeClasse);
+
+    return finalList;
+  }
+
+  Future<List<Skill>> getSkillsList(List<Skill> finalList, String className) async {
+    Classe playerClass = classeFromJson(await rootBundle.loadString('skills/' + className + '.json'));
+    List<Skill> skills = playerClass.skills;
+    for (var i = 0; i < skills.length; i++) {
+      if (skills[i].position != '') {
+        finalList[skills[i].position as int] = skills[i];
+      } else {
+        print('skill ${skills[i].displayName} will not be shown');
       }
-      if (!added) {
-        finalList.add(Skill());
+    }
+    if (playerClass.inherit != null) {
+      for (var newClass in playerClass.inherit) {
+        await getSkillsList(finalList, newClass);
       }
     }
     return finalList;
@@ -128,7 +127,7 @@ class _SkillTileState extends State<SkillTile> {
                     ),
                   ),
                   Image.asset(
-                    'skills_icons/${widget.skill.handleName}.gif',
+                    'skills_icons/${widget.skill.handleName.toLowerCase()}.gif',
                     height: 30,
                   ),
                   Row(
