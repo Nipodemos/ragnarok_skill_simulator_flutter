@@ -1,0 +1,140 @@
+{
+   "ptbr_class_name" : "Mago",
+   "skills" : [
+      {
+         "position" : "",
+         "handle_name" : "MG_SRECOVERY",
+         "id" : 9,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Aumentar Recuperação de SP"
+      },
+      {
+         "position" : "",
+         "handle_name" : "MG_SIGHT",
+         "MaxLevel" : 1,
+         "display_name" : "Chama Reveladora",
+         "skill_type" : "",
+         "id" : 10
+      },
+      {
+         "handle_name" : "MG_NAPALMBEAT",
+         "position" : "",
+         "id" : 11,
+         "skill_type" : "",
+         "display_name" : "Ataque Espiritual",
+         "MaxLevel" : 10
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 12,
+         "display_name" : "Escudo Mágico",
+         "handle_name" : "MG_SAFETYWALL",
+         "position" : "",
+         "pre_requisites" : {
+            "MG_NAPALMBEAT" : 7,
+            "MG_SOULSTRIKE" : 5
+         }
+      },
+      {
+         "display_name" : "Espíritos Anciões",
+         "handle_name" : "MG_SOULSTRIKE",
+         "position" : "",
+         "pre_requisites" : {
+            "MG_NAPALMBEAT" : 4
+         },
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 13
+      },
+      {
+         "skill_type" : "",
+         "display_name" : "Lanças de Gelo",
+         "MaxLevel" : 10,
+         "id" : 14,
+         "handle_name" : "MG_COLDBOLT",
+         "position" : ""
+      },
+      {
+         "id" : 15,
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "display_name" : "Rajada Congelante",
+         "pre_requisites" : {
+            "MG_COLDBOLT" : 5
+         },
+         "handle_name" : "MG_FROSTDIVER",
+         "position" : ""
+      },
+      {
+         "position" : "",
+         "handle_name" : "MG_STONECURSE",
+         "id" : 16,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Petrificar"
+      },
+      {
+         "id" : 17,
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "display_name" : "Bola de Fogo",
+         "pre_requisites" : {
+            "MG_FIREBOLT" : 4
+         },
+         "handle_name" : "MG_FIREBALL",
+         "position" : ""
+      },
+      {
+         "id" : 18,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "MG_SIGHT" : 1,
+            "MG_FIREBALL" : 5
+         },
+         "position" : "",
+         "handle_name" : "MG_FIREWALL",
+         "display_name" : "Barreira de Fogo"
+      },
+      {
+         "skill_type" : "",
+         "display_name" : "Lanças de Fogo",
+         "MaxLevel" : 10,
+         "id" : 19,
+         "handle_name" : "MG_FIREBOLT",
+         "position" : ""
+      },
+      {
+         "position" : "",
+         "handle_name" : "MG_LIGHTNINGBOLT",
+         "id" : 20,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Relâmpago"
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 21,
+         "handle_name" : "MG_THUNDERSTORM",
+         "position" : "",
+         "pre_requisites" : {
+            "MG_LIGHTNINGBOLT" : 4
+         },
+         "display_name" : "Tempestade de Raios"
+      },
+      {
+         "MaxLevel" : 1,
+         "skill_type" : "0x1",
+         "display_name" : "Proteção Arcana",
+         "id" : 157,
+         "position" : "",
+         "handle_name" : "MG_ENERGYCOAT"
+      }
+   ],
+   "inherit" : [
+      "Novice"
+   ]
+}

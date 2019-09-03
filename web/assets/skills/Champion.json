@@ -1,0 +1,60 @@
+{
+   "ptbr_class_name" : "Mestre",
+   "skills" : [
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 370,
+         "display_name" : "Golpe da Palma em Fúria",
+         "position" : "",
+         "handle_name" : "CH_PALMSTRIKE",
+         "pre_requisites" : {
+            "MO_IRONHAND" : 7,
+            "MO_CALLSPIRITS" : 5
+         }
+      },
+      {
+         "pre_requisites" : {
+            "MO_COMBOFINISH" : 3,
+            "MO_IRONHAND" : 5,
+            "MO_CALLSPIRITS" : 5,
+            "MO_TRIPLEATTACK" : 5
+         },
+         "position" : "",
+         "handle_name" : "CH_TIGERFIST",
+         "display_name" : "Punho do Tigre",
+         "id" : 371,
+         "MaxLevel" : 5,
+         "skill_type" : "0x200"
+      },
+      {
+         "skill_type" : "0x200",
+         "MaxLevel" : 10,
+         "id" : 372,
+         "display_name" : "Combo Esmagador",
+         "handle_name" : "CH_CHAINCRUSH",
+         "position" : "",
+         "pre_requisites" : {
+            "CH_TIGERFIST" : 2,
+            "MO_IRONHAND" : 5,
+            "MO_CALLSPIRITS" : 5
+         }
+      },
+      {
+         "position" : "",
+         "handle_name" : "CH_SOULCOLLECT",
+         "pre_requisites" : {
+            "MO_CALLSPIRITS" : 5,
+            "MO_EXPLOSIONSPIRITS" : 5,
+            "MO_ABSORBSPIRITS" : 1
+         },
+         "display_name" : "Zen",
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "id" : 401
+      }
+   ],
+   "inherit" : [
+      "Monk"
+   ]
+}

@@ -1,0 +1,7 @@
+{
+   "inherit" : [
+      "Whitesmith",
+      "Mechanic"
+   ],
+   "ptbr_class_name" : "Mecânico Trans"
+}

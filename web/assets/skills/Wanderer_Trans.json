@@ -1,0 +1,7 @@
+{
+   "ptbr_class_name" : "Cigana Trans",
+   "inherit" : [
+      "Gypsy",
+      "Wanderer"
+   ]
+}

@@ -1,0 +1,7 @@
+{
+   "ptbr_class_name" : "Arcebispo Trans",
+   "inherit" : [
+      "High_Priest",
+      "Arch_Bishop"
+   ]
+}

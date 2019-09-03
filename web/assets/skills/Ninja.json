@@ -1,0 +1,261 @@
+{
+   "inherit" : [
+      "Novice"
+   ],
+   "skills" : [
+      {
+         "position" : "",
+         "handle_name" : "NJ_TOBIDOUGU",
+         "MaxLevel" : 10,
+         "display_name" : "Prática de Arremesso de Shuriken",
+         "skill_type" : "",
+         "id" : 522
+      },
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 523,
+         "position" : "",
+         "handle_name" : "NJ_SYURIKEN",
+         "pre_requisites" : {
+            "NJ_TOBIDOUGU" : 1
+         },
+         "display_name" : "Arremessar Shuriken"
+      },
+      {
+         "position" : "",
+         "handle_name" : "NJ_KUNAI",
+         "pre_requisites" : {
+            "NJ_SYURIKEN" : 5
+         },
+         "display_name" : "Arremessar Kunai",
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 524
+      },
+      {
+         "display_name" : "Arremessar Shuriken Huuma",
+         "pre_requisites" : {
+            "NJ_KUNAI" : 5,
+            "NJ_TOBIDOUGU" : 5
+         },
+         "handle_name" : "NJ_HUUMA",
+         "position" : "",
+         "id" : 525,
+         "skill_type" : "",
+         "MaxLevel" : 5
+      },
+      {
+         "display_name" : "Chuva de Moedas",
+         "handle_name" : "NJ_ZENYNAGE",
+         "position" : "",
+         "pre_requisites" : {
+            "NJ_TOBIDOUGU" : 10,
+            "NJ_HUUMA" : 5
+         },
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 526
+      },
+      {
+         "skill_type" : "",
+         "display_name" : "Virar Tatami",
+         "MaxLevel" : 5,
+         "id" : 527,
+         "handle_name" : "NJ_TATAMIGAESHI",
+         "position" : ""
+      },
+      {
+         "pre_requisites" : {
+            "NJ_SHADOWJUMP" : 1
+         },
+         "handle_name" : "NJ_KASUMIKIRI",
+         "position" : "",
+         "display_name" : "Corte da Névoa",
+         "id" : 528,
+         "skill_type" : "",
+         "MaxLevel" : 10
+      },
+      {
+         "display_name" : "Salto das Sombras",
+         "handle_name" : "NJ_SHADOWJUMP",
+         "position" : "",
+         "pre_requisites" : {
+            "NJ_TATAMIGAESHI" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 529
+      },
+      {
+         "id" : 530,
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "pre_requisites" : {
+            "NJ_KASUMIKIRI" : 5
+         },
+         "handle_name" : "NJ_KIRIKAGE",
+         "position" : "",
+         "display_name" : "Corte das Sombras"
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 531,
+         "position" : "",
+         "handle_name" : "NJ_UTSUSEMI",
+         "pre_requisites" : {
+            "NJ_SHADOWJUMP" : 5
+         },
+         "display_name" : "Troca de Pele"
+      },
+      {
+         "display_name" : "Imagem Falsa",
+         "position" : "",
+         "handle_name" : "NJ_BUNSINJYUTSU",
+         "pre_requisites" : {
+            "NJ_KIRIKAGE" : 3,
+            "NJ_NEN" : 1,
+            "NJ_UTSUSEMI" : 4
+         },
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 532
+      },
+      {
+         "id" : 533,
+         "MaxLevel" : 10,
+         "display_name" : "Perícia Ninja",
+         "skill_type" : "",
+         "position" : "",
+         "handle_name" : "NJ_NINPOU"
+      },
+      {
+         "id" : 534,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "NJ_NINPOU" : 1
+         },
+         "position" : "",
+         "handle_name" : "NJ_KOUENKA",
+         "display_name" : "Pétalas Flamejantes"
+      },
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 535,
+         "display_name" : "Escudo de Chamas",
+         "position" : "",
+         "handle_name" : "NJ_KAENSIN",
+         "pre_requisites" : {
+            "NJ_KOUENKA" : 5
+         }
+      },
+      {
+         "pre_requisites" : {
+            "NJ_KAENSIN" : 7,
+            "NJ_NINPOU" : 10
+         },
+         "position" : "",
+         "handle_name" : "NJ_BAKUENRYU",
+         "display_name" : "Dragão Explosivo",
+         "id" : 536,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 537,
+         "display_name" : "Lança Congelante",
+         "position" : "",
+         "handle_name" : "NJ_HYOUSENSOU",
+         "pre_requisites" : {
+            "NJ_NINPOU" : 1
+         }
+      },
+      {
+         "display_name" : "Evasão Aquática",
+         "pre_requisites" : {
+            "NJ_HYOUSENSOU" : 5
+         },
+         "handle_name" : "NJ_SUITON",
+         "position" : "",
+         "id" : 538,
+         "skill_type" : "",
+         "MaxLevel" : 10
+      },
+      {
+         "pre_requisites" : {
+            "NJ_SUITON" : 7,
+            "NJ_NINPOU" : 10
+         },
+         "position" : "",
+         "handle_name" : "NJ_HYOUSYOURAKU",
+         "display_name" : "Grande Floco de Neve",
+         "id" : 539,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "handle_name" : "NJ_HUUJIN",
+         "position" : "",
+         "pre_requisites" : {
+            "NJ_NINPOU" : 1
+         },
+         "display_name" : "Lâmina de Vento",
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 540
+      },
+      {
+         "pre_requisites" : {
+            "NJ_HUUJIN" : 5
+         },
+         "position" : "",
+         "handle_name" : "NJ_RAIGEKISAI",
+         "display_name" : "Descarga Elétrica",
+         "id" : 541,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "id" : 542,
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "NJ_NINPOU" : 10,
+            "NJ_RAIGEKISAI" : 5
+         },
+         "position" : "",
+         "handle_name" : "NJ_KAMAITACHI",
+         "display_name" : "Brisa Cortante"
+      },
+      {
+         "display_name" : "Aura Ninja",
+         "pre_requisites" : {
+            "NJ_NINPOU" : 5
+         },
+         "handle_name" : "NJ_NEN",
+         "position" : "",
+         "id" : 543,
+         "skill_type" : "",
+         "MaxLevel" : 5
+      },
+      {
+         "display_name" : "Ataque Mortal",
+         "pre_requisites" : {
+            "NJ_TOBIDOUGU" : 7,
+            "NJ_NEN" : 1,
+            "NJ_KIRIKAGE" : 5
+         },
+         "handle_name" : "NJ_ISSEN",
+         "position" : "",
+         "id" : 544,
+         "skill_type" : "",
+         "MaxLevel" : 10
+      }
+   ],
+   "ptbr_class_name" : "Ninja"
+}

@@ -1,0 +1,111 @@
+{
+   "skills" : [
+      {
+         "id" : 36,
+         "MaxLevel" : 10,
+         "display_name" : "Aumentar Capacidade de Carga",
+         "skill_type" : "",
+         "position" : 1,
+         "handle_name" : "MC_INCCARRY"
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 37,
+         "display_name" : "Desconto",
+         "handle_name" : "MC_DISCOUNT",
+         "position" : 8,
+         "pre_requisites" : {
+            "MC_INCCARRY" : 3
+         }
+      },
+      {
+         "display_name" : "Superfaturar",
+         "position" : 15,
+         "handle_name" : "MC_OVERCHARGE",
+         "pre_requisites" : {
+            "MC_DISCOUNT" : 3
+         },
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 38
+      },
+      {
+         "display_name" : "Usar Carrinho",
+         "position" : 9,
+         "handle_name" : "MC_PUSHCART",
+         "pre_requisites" : {
+            "MC_INCCARRY" : 5
+         },
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 39
+      },
+      {
+         "position" : 4,
+         "handle_name" : "MC_IDENTIFY",
+         "id" : 40,
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "display_name" : "Identificar Item"
+      },
+      {
+         "display_name" : "Comércio",
+         "pre_requisites" : {
+            "MC_PUSHCART" : 3
+         },
+         "position" : 16,
+         "handle_name" : "MC_VENDING",
+         "id" : 41,
+         "MaxLevel" : 10,
+         "skill_type" : ""
+      },
+      {
+         "handle_name" : "MC_MAMMONITE",
+         "position" : 3,
+         "display_name" : "Mammonita",
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 42
+      },
+      {
+         "handle_name" : "MC_CARTREVOLUTION",
+         "position" : 19,
+         "id" : 153,
+         "skill_type" : "0x1",
+         "display_name" : "Cavalo-de-Pau",
+         "MaxLevel" : 1
+      },
+      {
+         "id" : 154,
+         "display_name" : "Personalizar Carrinho",
+         "skill_type" : "0x1",
+         "MaxLevel" : 1,
+         "handle_name" : "MC_CHANGECART",
+         "position" : 12
+      },
+      {
+         "id" : 155,
+         "MaxLevel" : 1,
+         "display_name" : "Grito de Guerra",
+         "skill_type" : "0x1",
+         "position" : 5,
+         "handle_name" : "MC_LOUD"
+      },
+      {
+         "skill_type" : "0x1",
+         "MaxLevel" : 1,
+         "id" : 2535,
+         "handle_name" : "ALL_BUYING_STORE",
+         "position" : "",
+         "pre_requisites" : {
+            "MC_VENDING" : 1
+         },
+         "display_name" : "Open Buying Store"
+      }
+   ],
+   "inherit" : [
+      "Novice"
+   ],
+   "ptbr_class_name" : "Mercador"
+}

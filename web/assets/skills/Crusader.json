@@ -1,0 +1,209 @@
+{
+   "inherit" : [
+      "Swordsman"
+   ],
+   "skills" : [
+      {
+         "id" : 63,
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "display_name" : "Montaria",
+         "pre_requisites" : {
+            "SM_ENDURE" : 1
+         },
+         "handle_name" : "KN_RIDING",
+         "position" : ""
+      },
+      {
+         "position" : "",
+         "handle_name" : "KN_CAVALIERMASTERY",
+         "pre_requisites" : {
+            "KN_RIDING" : 1
+         },
+         "display_name" : "Perícia em Montaria",
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 64
+      },
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Perícia com Lança",
+         "id" : 55,
+         "position" : "",
+         "handle_name" : "KN_SPEARMASTERY"
+      },
+      {
+         "position" : "",
+         "handle_name" : "AL_CURE",
+         "pre_requisites" : {
+            "CR_TRUST" : 5
+         },
+         "display_name" : "Medicar",
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "id" : 35
+      },
+      {
+         "display_name" : "Proteção Divina",
+         "pre_requisites" : {
+            "AL_CURE" : 1
+         },
+         "handle_name" : "AL_DP",
+         "position" : "",
+         "id" : 22,
+         "skill_type" : "",
+         "MaxLevel" : 10
+      },
+      {
+         "id" : 23,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Flagelo do Mal",
+         "pre_requisites" : {
+            "AL_DP" : 3
+         },
+         "position" : "",
+         "handle_name" : "AL_DEMONBANE"
+      },
+      {
+         "id" : 28,
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "display_name" : "Curar",
+         "pre_requisites" : {
+            "CR_TRUST" : 10,
+            "AL_DEMONBANE" : 5
+         },
+         "handle_name" : "AL_HEAL",
+         "position" : ""
+      },
+      {
+         "handle_name" : "CR_TRUST",
+         "position" : "",
+         "display_name" : "Fé",
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 248
+      },
+      {
+         "skill_type" : "",
+         "display_name" : "Bloqueio",
+         "MaxLevel" : 10,
+         "id" : 249,
+         "handle_name" : "CR_AUTOGUARD",
+         "position" : ""
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 250,
+         "position" : "",
+         "handle_name" : "CR_SHIELDCHARGE",
+         "pre_requisites" : {
+            "CR_AUTOGUARD" : 5
+         },
+         "display_name" : "Punição Divina"
+      },
+      {
+         "display_name" : "Escudo Bumerangue",
+         "pre_requisites" : {
+            "CR_SHIELDCHARGE" : 3
+         },
+         "position" : "",
+         "handle_name" : "CR_SHIELDBOOMERANG",
+         "id" : 251,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "id" : 252,
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "pre_requisites" : {
+            "CR_SHIELDBOOMERANG" : 3
+         },
+         "handle_name" : "CR_REFLECTSHIELD",
+         "position" : "",
+         "display_name" : "Escudo Refletor"
+      },
+      {
+         "position" : "",
+         "handle_name" : "CR_HOLYCROSS",
+         "pre_requisites" : {
+            "CR_TRUST" : 7
+         },
+         "display_name" : "Crux Divinum",
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 253
+      },
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "0x100",
+         "id" : 254,
+         "position" : "",
+         "handle_name" : "CR_GRANDCROSS",
+         "pre_requisites" : {
+            "CR_HOLYCROSS" : 6,
+            "CR_TRUST" : 10
+         },
+         "display_name" : "Crux Magnun"
+      },
+      {
+         "id" : 255,
+         "MaxLevel" : 5,
+         "skill_type" : "0x600",
+         "pre_requisites" : {
+            "CR_REFLECTSHIELD" : 5,
+            "CR_GRANDCROSS" : 4
+         },
+         "position" : "",
+         "handle_name" : "CR_DEVOTION",
+         "display_name" : "Redenção"
+      },
+      {
+         "skill_type" : "0x200",
+         "MaxLevel" : 5,
+         "id" : 256,
+         "handle_name" : "CR_PROVIDENCE",
+         "position" : "",
+         "pre_requisites" : {
+            "AL_HEAL" : 5,
+            "AL_DP" : 5
+         },
+         "display_name" : "Divina Providência"
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 257,
+         "handle_name" : "CR_DEFENDER",
+         "position" : "",
+         "pre_requisites" : {
+            "CR_SHIELDBOOMERANG" : 1
+         },
+         "display_name" : "Aura Sagrada"
+      },
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 258,
+         "position" : "",
+         "handle_name" : "CR_SPEARQUICKEN",
+         "pre_requisites" : {
+            "KN_SPEARMASTERY" : 10
+         },
+         "display_name" : "Rapidez com Lança"
+      },
+      {
+         "handle_name" : "CR_SHRINK",
+         "position" : "",
+         "display_name" : "Shrink",
+         "skill_type" : "0x1",
+         "MaxLevel" : 1,
+         "id" : 1002
+      }
+   ],
+   "ptbr_class_name" : "Templário"
+}

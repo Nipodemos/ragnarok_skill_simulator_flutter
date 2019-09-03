@@ -1,0 +1,59 @@
+{
+   "ptbr_class_name" : "Atirador de Elite",
+   "inherit" : [
+      "Hunter"
+   ],
+   "skills" : [
+      {
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 380,
+         "handle_name" : "SN_SIGHT",
+         "position" : "",
+         "pre_requisites" : {
+            "AC_CONCENTRATION" : 10,
+            "HT_FALCON" : 1,
+            "AC_VULTURE" : 10,
+            "AC_OWL" : 10
+         },
+         "display_name" : "Visão Real"
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 381,
+         "display_name" : "Assalto do Falcão",
+         "position" : "",
+         "handle_name" : "SN_FALCONASSAULT",
+         "pre_requisites" : {
+            "HT_FALCON" : 1,
+            "AC_VULTURE" : 5,
+            "HT_STEELCROW" : 3,
+            "HT_BLITZBEAT" : 5
+         }
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 382,
+         "position" : "",
+         "handle_name" : "SN_SHARPSHOOTING",
+         "pre_requisites" : {
+            "AC_CONCENTRATION" : 10,
+            "AC_DOUBLE" : 5
+         },
+         "display_name" : "Tiro Preciso"
+      },
+      {
+         "id" : 383,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "AC_CONCENTRATION" : 9
+         },
+         "position" : "",
+         "handle_name" : "SN_WINDWALK",
+         "display_name" : "Caminho do Vento"
+      }
+   ]
+}

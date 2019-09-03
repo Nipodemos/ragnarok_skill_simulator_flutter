@@ -1,0 +1,97 @@
+{
+   "ptbr_class_name" : "Espadachim",
+   "skills" : [
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Perícia com Espada",
+         "id" : 2,
+         "position" : "",
+         "handle_name" : "SM_SWORD"
+      },
+      {
+         "position" : "",
+         "handle_name" : "SM_TWOHAND",
+         "pre_requisites" : {
+            "SM_SWORD" : 1
+         },
+         "display_name" : "Perícia com Espada de Duas Mãos",
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 3
+      },
+      {
+         "id" : 4,
+         "MaxLevel" : 10,
+         "display_name" : "Aumentar Recuperação de HP",
+         "skill_type" : "",
+         "position" : "",
+         "handle_name" : "SM_RECOVERY"
+      },
+      {
+         "handle_name" : "SM_BASH",
+         "position" : "",
+         "id" : 5,
+         "skill_type" : "",
+         "display_name" : "Golpe Fulminante",
+         "MaxLevel" : 10
+      },
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Provocar",
+         "id" : 6,
+         "position" : "",
+         "handle_name" : "SM_PROVOKE"
+      },
+      {
+         "id" : 7,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Impacto Explosivo",
+         "pre_requisites" : {
+            "SM_BASH" : 5
+         },
+         "position" : "",
+         "handle_name" : "SM_MAGNUM"
+      },
+      {
+         "display_name" : "Vigor",
+         "position" : "",
+         "handle_name" : "SM_ENDURE",
+         "pre_requisites" : {
+            "SM_PROVOKE" : 5
+         },
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 8
+      },
+      {
+         "skill_type" : "0x1",
+         "display_name" : "Recuperar HP em Movimento",
+         "MaxLevel" : 1,
+         "id" : 144,
+         "handle_name" : "SM_MOVINGRECOVERY",
+         "position" : ""
+      },
+      {
+         "id" : 145,
+         "MaxLevel" : 1,
+         "display_name" : "Ataque Fatal",
+         "skill_type" : "0x1",
+         "position" : "",
+         "handle_name" : "SM_FATALBLOW"
+      },
+      {
+         "handle_name" : "SM_AUTOBERSERK",
+         "position" : "",
+         "id" : 146,
+         "skill_type" : "0x1",
+         "display_name" : "Instinto de Sobrevivência",
+         "MaxLevel" : 1
+      }
+   ],
+   "inherit" : [
+      "Novice"
+   ]
+}

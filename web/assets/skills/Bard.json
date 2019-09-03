@@ -1,0 +1,209 @@
+{
+   "ptbr_class_name" : "Bardo",
+   "inherit" : [
+      "Archer"
+   ],
+   "skills" : [
+      {
+         "handle_name" : "BA_MUSICALLESSON",
+         "position" : "",
+         "id" : 315,
+         "skill_type" : "",
+         "display_name" : "Lições de Música",
+         "MaxLevel" : 10
+      },
+      {
+         "pre_requisites" : {
+            "BA_MUSICALLESSON" : 3
+         },
+         "handle_name" : "BA_MUSICALSTRIKE",
+         "position" : "",
+         "display_name" : "Flecha Melódica",
+         "id" : 316,
+         "skill_type" : "",
+         "MaxLevel" : 5
+      },
+      {
+         "display_name" : "Dissonância",
+         "pre_requisites" : {
+            "BD_ADAPTATION" : 1,
+            "BA_MUSICALLESSON" : 1
+         },
+         "handle_name" : "BA_DISSONANCE",
+         "position" : "",
+         "id" : 317,
+         "skill_type" : "0x20",
+         "MaxLevel" : 5
+      },
+      {
+         "display_name" : "Piada Infame",
+         "pre_requisites" : {
+            "BD_ENCORE" : 1
+         },
+         "position" : "",
+         "handle_name" : "BA_FROSTJOKER",
+         "id" : 318,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Assovio",
+         "handle_name" : "BA_WHISTLE",
+         "position" : "",
+         "pre_requisites" : {
+            "BA_DISSONANCE" : 3
+         },
+         "skill_type" : "0x20",
+         "MaxLevel" : 10,
+         "id" : 319
+      },
+      {
+         "id" : 320,
+         "MaxLevel" : 10,
+         "skill_type" : "0x20",
+         "display_name" : "Crepúsculo Sangrento",
+         "pre_requisites" : {
+            "BA_DISSONANCE" : 3
+         },
+         "position" : "",
+         "handle_name" : "BA_ASSASSINCROSS"
+      },
+      {
+         "skill_type" : "0x20",
+         "MaxLevel" : 10,
+         "id" : 321,
+         "handle_name" : "BA_POEMBRAGI",
+         "position" : "",
+         "pre_requisites" : {
+            "BA_DISSONANCE" : 3
+         },
+         "display_name" : "Poema de Bragi"
+      },
+      {
+         "id" : 322,
+         "MaxLevel" : 10,
+         "skill_type" : "0x20",
+         "pre_requisites" : {
+            "BA_DISSONANCE" : 3
+         },
+         "position" : "",
+         "handle_name" : "BA_APPLEIDUN",
+         "display_name" : "Maçãs de Idun"
+      },
+      {
+         "id" : 304,
+         "display_name" : "Encerramento",
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "handle_name" : "BD_ADAPTATION",
+         "position" : ""
+      },
+      {
+         "id" : 305,
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "display_name" : "Bis",
+         "pre_requisites" : {
+            "BD_ADAPTATION" : 1
+         },
+         "position" : "",
+         "handle_name" : "BD_ENCORE"
+      },
+      {
+         "display_name" : "Cantiga de Ninar",
+         "pre_requisites" : {
+            "BA_WHISTLE" : 10
+         },
+         "handle_name" : "BD_LULLABY",
+         "position" : "",
+         "id" : 306,
+         "skill_type" : "0x40",
+         "MaxLevel" : 1
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "0x40",
+         "id" : 307,
+         "position" : "",
+         "handle_name" : "BD_RICHMANKIM",
+         "pre_requisites" : {
+            "BD_SIEGFRIED" : 3
+         },
+         "display_name" : "Banquete de Njord"
+      },
+      {
+         "skill_type" : "0x40",
+         "MaxLevel" : 1,
+         "id" : 308,
+         "display_name" : "Ritmo Caótico",
+         "handle_name" : "BD_ETERNALCHAOS",
+         "position" : "",
+         "pre_requisites" : {
+            "BD_ROKISWEIL" : 1
+         }
+      },
+      {
+         "pre_requisites" : {
+            "BA_APPLEIDUN" : 10
+         },
+         "handle_name" : "BD_DRUMBATTLEFIELD",
+         "position" : "",
+         "display_name" : "Rufar dos Tambores",
+         "id" : 309,
+         "skill_type" : "0x40",
+         "MaxLevel" : 5
+      },
+      {
+         "pre_requisites" : {
+            "BD_DRUMBATTLEFIELD" : 3
+         },
+         "handle_name" : "BD_RINGNIBELUNGEN",
+         "position" : "",
+         "display_name" : "Anel de Nibelungos",
+         "id" : 310,
+         "skill_type" : "0x40",
+         "MaxLevel" : 5
+      },
+      {
+         "skill_type" : "0x40",
+         "MaxLevel" : 1,
+         "id" : 311,
+         "handle_name" : "BD_ROKISWEIL",
+         "position" : "",
+         "pre_requisites" : {
+            "BA_ASSASSINCROSS" : 10
+         },
+         "display_name" : "Lamento de Loki"
+      },
+      {
+         "position" : "",
+         "handle_name" : "BD_INTOABYSS",
+         "pre_requisites" : {
+            "BD_LULLABY" : 1
+         },
+         "display_name" : "Canção Preciosa",
+         "MaxLevel" : 1,
+         "skill_type" : "0x40",
+         "id" : 312
+      },
+      {
+         "display_name" : "Ode a Siegfried",
+         "handle_name" : "BD_SIEGFRIED",
+         "position" : "",
+         "pre_requisites" : {
+            "BA_POEMBRAGI" : 10
+         },
+         "skill_type" : "0x40",
+         "MaxLevel" : 5,
+         "id" : 313
+      },
+      {
+         "handle_name" : "BA_PANGVOICE",
+         "position" : "",
+         "id" : 1010,
+         "skill_type" : "0x1",
+         "display_name" : "Pang Voice",
+         "MaxLevel" : 1
+      }
+   ]
+}

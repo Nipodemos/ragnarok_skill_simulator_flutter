@@ -1,0 +1,139 @@
+{
+   "skills" : [
+      {
+         "position" : "",
+         "handle_name" : "KN_SPEARMASTERY",
+         "MaxLevel" : 10,
+         "display_name" : "Perícia com Lança",
+         "skill_type" : "",
+         "id" : 55
+      },
+      {
+         "display_name" : "Perfurar",
+         "handle_name" : "KN_PIERCE",
+         "position" : "",
+         "pre_requisites" : {
+            "KN_SPEARMASTERY" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 56
+      },
+      {
+         "display_name" : "Brandir Lança",
+         "position" : "",
+         "handle_name" : "KN_BRANDISHSPEAR",
+         "pre_requisites" : {
+            "KN_RIDING" : 1,
+            "KN_SPEARSTAB" : 3
+         },
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 57
+      },
+      {
+         "display_name" : "Estocada",
+         "pre_requisites" : {
+            "KN_PIERCE" : 5
+         },
+         "position" : "",
+         "handle_name" : "KN_SPEARSTAB",
+         "id" : 58,
+         "MaxLevel" : 10,
+         "skill_type" : ""
+      },
+      {
+         "position" : "",
+         "handle_name" : "KN_SPEARBOOMERANG",
+         "pre_requisites" : {
+            "KN_PIERCE" : 3
+         },
+         "display_name" : "Lança Bumerangue",
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 59
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 60,
+         "display_name" : "Rapidez com Duas Mãos",
+         "handle_name" : "KN_TWOHANDQUICKEN",
+         "position" : "",
+         "pre_requisites" : {
+            "SM_TWOHAND" : 1
+         }
+      },
+      {
+         "position" : "",
+         "handle_name" : "KN_AUTOCOUNTER",
+         "pre_requisites" : {
+            "SM_TWOHAND" : 1
+         },
+         "display_name" : "Contra-Ataque",
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 61
+      },
+      {
+         "id" : 62,
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "pre_requisites" : {
+            "KN_AUTOCOUNTER" : 5,
+            "SM_BASH" : 10,
+            "KN_TWOHANDQUICKEN" : 10,
+            "SM_TWOHAND" : 5,
+            "SM_MAGNUM" : 3
+         },
+         "handle_name" : "KN_BOWLINGBASH",
+         "position" : "",
+         "display_name" : "Impacto de Tyr"
+      },
+      {
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "id" : 63,
+         "position" : "",
+         "handle_name" : "KN_RIDING",
+         "pre_requisites" : {
+            "SM_ENDURE" : 1
+         },
+         "display_name" : "Montaria"
+      },
+      {
+         "id" : 64,
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "display_name" : "Perícia em Montaria",
+         "pre_requisites" : {
+            "KN_RIDING" : 1
+         },
+         "handle_name" : "KN_CAVALIERMASTERY",
+         "position" : ""
+      },
+      {
+         "position" : "",
+         "handle_name" : "KN_CHARGEATK",
+         "id" : 1001,
+         "MaxLevel" : 1,
+         "skill_type" : "0x1",
+         "display_name" : "Charge Attack"
+      },
+      {
+         "id" : 495,
+         "skill_type" : "0x8",
+         "MaxLevel" : 1,
+         "display_name" : "Rapidez com Uma Mão",
+         "pre_requisites" : {
+            "KN_TWOHANDQUICKEN" : 10
+         },
+         "handle_name" : "KN_ONEHAND",
+         "position" : ""
+      }
+   ],
+   "inherit" : [
+      "Swordsman"
+   ],
+   "ptbr_class_name" : "Cavaleiro"
+}

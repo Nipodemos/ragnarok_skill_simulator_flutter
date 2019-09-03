@@ -1,0 +1,209 @@
+{
+   "skills" : [
+      {
+         "id" : 323,
+         "MaxLevel" : 10,
+         "display_name" : "Lições de Dança",
+         "skill_type" : "",
+         "position" : "",
+         "handle_name" : "DC_DANCINGLESSON"
+      },
+      {
+         "position" : "",
+         "handle_name" : "DC_THROWARROW",
+         "pre_requisites" : {
+            "DC_DANCINGLESSON" : 3
+         },
+         "display_name" : "Estilingue",
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 324
+      },
+      {
+         "display_name" : "Dança do Ventre",
+         "position" : "",
+         "handle_name" : "DC_UGLYDANCE",
+         "pre_requisites" : {
+            "DC_DANCINGLESSON" : 1,
+            "BD_ADAPTATION" : 1
+         },
+         "MaxLevel" : 5,
+         "skill_type" : "0x20",
+         "id" : 325
+      },
+      {
+         "display_name" : "Escândalo",
+         "pre_requisites" : {
+            "BD_ENCORE" : 1
+         },
+         "position" : "",
+         "handle_name" : "DC_SCREAM",
+         "id" : 326,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Sibilo",
+         "pre_requisites" : {
+            "DC_UGLYDANCE" : 3
+         },
+         "position" : "",
+         "handle_name" : "DC_HUMMING",
+         "id" : 327,
+         "MaxLevel" : 10,
+         "skill_type" : "0x20"
+      },
+      {
+         "id" : 328,
+         "MaxLevel" : 10,
+         "skill_type" : "0x20",
+         "pre_requisites" : {
+            "DC_UGLYDANCE" : 3
+         },
+         "position" : "",
+         "handle_name" : "DC_DONTFORGETME",
+         "display_name" : "Não Me Abandones"
+      },
+      {
+         "display_name" : "Beijo da Sorte",
+         "handle_name" : "DC_FORTUNEKISS",
+         "position" : "",
+         "pre_requisites" : {
+            "DC_UGLYDANCE" : 3
+         },
+         "skill_type" : "0x20",
+         "MaxLevel" : 10,
+         "id" : 329
+      },
+      {
+         "skill_type" : "0x20",
+         "MaxLevel" : 10,
+         "id" : 330,
+         "handle_name" : "DC_SERVICEFORYOU",
+         "position" : "",
+         "pre_requisites" : {
+            "DC_UGLYDANCE" : 3
+         },
+         "display_name" : "Dança Cigana"
+      },
+      {
+         "id" : 304,
+         "display_name" : "Encerramento",
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "handle_name" : "BD_ADAPTATION",
+         "position" : ""
+      },
+      {
+         "position" : "",
+         "handle_name" : "BD_ENCORE",
+         "pre_requisites" : {
+            "BD_ADAPTATION" : 1
+         },
+         "display_name" : "Bis",
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "id" : 305
+      },
+      {
+         "display_name" : "Cantiga de Ninar",
+         "handle_name" : "BD_LULLABY",
+         "position" : "",
+         "pre_requisites" : {
+            "DC_HUMMING" : 10
+         },
+         "skill_type" : "0x40",
+         "MaxLevel" : 1,
+         "id" : 306
+      },
+      {
+         "skill_type" : "0x40",
+         "MaxLevel" : 5,
+         "id" : 307,
+         "display_name" : "Banquete de Njord",
+         "handle_name" : "BD_RICHMANKIM",
+         "position" : "",
+         "pre_requisites" : {
+            "BD_SIEGFRIED" : 3
+         }
+      },
+      {
+         "skill_type" : "0x40",
+         "MaxLevel" : 1,
+         "id" : 308,
+         "handle_name" : "BD_ETERNALCHAOS",
+         "position" : "",
+         "pre_requisites" : {
+            "BD_ROKISWEIL" : 1
+         },
+         "display_name" : "Ritmo Caótico"
+      },
+      {
+         "skill_type" : "0x40",
+         "MaxLevel" : 5,
+         "id" : 309,
+         "display_name" : "Rufar dos Tambores",
+         "handle_name" : "BD_DRUMBATTLEFIELD",
+         "position" : "",
+         "pre_requisites" : {
+            "DC_SERVICEFORYOU" : 10
+         }
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "0x40",
+         "id" : 310,
+         "position" : "",
+         "handle_name" : "BD_RINGNIBELUNGEN",
+         "pre_requisites" : {
+            "BD_DRUMBATTLEFIELD" : 3
+         },
+         "display_name" : "Anel de Nibelungos"
+      },
+      {
+         "display_name" : "Lamento de Loki",
+         "position" : "",
+         "handle_name" : "BD_ROKISWEIL",
+         "pre_requisites" : {
+            "DC_DONTFORGETME" : 10
+         },
+         "MaxLevel" : 1,
+         "skill_type" : "0x40",
+         "id" : 311
+      },
+      {
+         "display_name" : "Canção Preciosa",
+         "handle_name" : "BD_INTOABYSS",
+         "position" : "",
+         "pre_requisites" : {
+            "BD_LULLABY" : 1
+         },
+         "skill_type" : "0x40",
+         "MaxLevel" : 1,
+         "id" : 312
+      },
+      {
+         "handle_name" : "BD_SIEGFRIED",
+         "position" : "",
+         "pre_requisites" : {
+            "DC_FORTUNEKISS" : 10
+         },
+         "display_name" : "Ode a Siegfried",
+         "skill_type" : "0x40",
+         "MaxLevel" : 5,
+         "id" : 313
+      },
+      {
+         "skill_type" : "0x1",
+         "display_name" : "Wink of Charm",
+         "MaxLevel" : 1,
+         "id" : 1011,
+         "handle_name" : "DC_WINKCHARM",
+         "position" : ""
+      }
+   ],
+   "inherit" : [
+      "Archer"
+   ],
+   "ptbr_class_name" : "Odialisca"
+}

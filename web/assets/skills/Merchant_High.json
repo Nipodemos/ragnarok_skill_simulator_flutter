@@ -1,0 +1,6 @@
+{
+   "inherit" : [
+      "Merchant"
+   ],
+   "ptbr_class_name" : "Mercador Trans"
+}

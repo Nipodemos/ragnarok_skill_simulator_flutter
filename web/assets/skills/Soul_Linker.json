@@ -1,0 +1,283 @@
+{
+   "ptbr_class_name" : "Espiritualista",
+   "skills" : [
+      {
+         "id" : 445,
+         "display_name" : "Espírito do Alquimista",
+         "skill_type" : "0x200",
+         "MaxLevel" : 5,
+         "handle_name" : "SL_ALCHEMIST",
+         "position" : ""
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "0x200",
+         "display_name" : "Espírito do Monge",
+         "id" : 447,
+         "position" : "",
+         "handle_name" : "SL_MONK"
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "0x200",
+         "display_name" : "Espírito do Mestre Taekwon",
+         "id" : 448,
+         "position" : "",
+         "handle_name" : "SL_STAR"
+      },
+      {
+         "handle_name" : "SL_SAGE",
+         "position" : "",
+         "id" : 449,
+         "skill_type" : "0x200",
+         "display_name" : "Espírito do Sábio",
+         "MaxLevel" : 5
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "0x200",
+         "display_name" : "Espírito do Templário",
+         "id" : 450,
+         "position" : "",
+         "handle_name" : "SL_CRUSADER"
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "0x200",
+         "display_name" : "Espírito do Superaprendiz",
+         "id" : 451,
+         "position" : "",
+         "handle_name" : "SL_SUPERNOVICE"
+      },
+      {
+         "position" : "",
+         "handle_name" : "SL_KNIGHT",
+         "pre_requisites" : {
+            "SL_CRUSADER" : 1
+         },
+         "display_name" : "Espírito do Cavaleiro",
+         "MaxLevel" : 5,
+         "skill_type" : "0x200",
+         "id" : 452
+      },
+      {
+         "handle_name" : "SL_WIZARD",
+         "position" : "",
+         "pre_requisites" : {
+            "SL_SAGE" : 1
+         },
+         "display_name" : "Espírito do Bruxo",
+         "skill_type" : "0x200",
+         "MaxLevel" : 5,
+         "id" : 453
+      },
+      {
+         "id" : 454,
+         "MaxLevel" : 5,
+         "skill_type" : "0x200",
+         "display_name" : "Espírito do Sacerdote",
+         "pre_requisites" : {
+            "SL_MONK" : 1
+         },
+         "position" : "",
+         "handle_name" : "SL_PRIEST"
+      },
+      {
+         "position" : "",
+         "handle_name" : "SL_BARDDANCER",
+         "MaxLevel" : 5,
+         "display_name" : "Espírito dos Artistas",
+         "skill_type" : "0x200",
+         "id" : 455
+      },
+      {
+         "id" : 456,
+         "MaxLevel" : 5,
+         "skill_type" : "0x200",
+         "display_name" : "Espírito do Arruaceiro",
+         "pre_requisites" : {
+            "SL_ASSASIN" : 1
+         },
+         "position" : "",
+         "handle_name" : "SL_ROGUE"
+      },
+      {
+         "skill_type" : "0x200",
+         "display_name" : "Espírito do Mercenário",
+         "MaxLevel" : 5,
+         "id" : 457,
+         "handle_name" : "SL_ASSASIN",
+         "position" : ""
+      },
+      {
+         "pre_requisites" : {
+            "SL_ALCHEMIST" : 1
+         },
+         "handle_name" : "SL_BLACKSMITH",
+         "position" : "",
+         "display_name" : "Espírito do Ferreiro",
+         "id" : 458,
+         "skill_type" : "0x200",
+         "MaxLevel" : 5
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "0x200",
+         "id" : 460,
+         "display_name" : "Espírito do Caçador",
+         "position" : "",
+         "handle_name" : "SL_HUNTER",
+         "pre_requisites" : {
+            "SL_BARDDANCER" : 1
+         }
+      },
+      {
+         "display_name" : "Espírito do Espiritualista",
+         "position" : "",
+         "handle_name" : "SL_SOULLINKER",
+         "pre_requisites" : {
+            "SL_STAR" : 1
+         },
+         "MaxLevel" : 5,
+         "skill_type" : "0x200",
+         "id" : 461
+      },
+      {
+         "position" : "",
+         "handle_name" : "SL_KAIZEL",
+         "pre_requisites" : {
+            "SL_PRIEST" : 1
+         },
+         "display_name" : "Kaizel",
+         "MaxLevel" : 7,
+         "skill_type" : "",
+         "id" : 462
+      },
+      {
+         "id" : 463,
+         "MaxLevel" : 7,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "SL_PRIEST" : 1,
+            "SL_CRUSADER" : 1
+         },
+         "position" : "",
+         "handle_name" : "SL_KAAHI",
+         "display_name" : "Kaahi"
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 3,
+         "id" : 464,
+         "display_name" : "Kaupe",
+         "handle_name" : "SL_KAUPE",
+         "position" : "",
+         "pre_requisites" : {
+            "SL_ROGUE" : 1
+         }
+      },
+      {
+         "display_name" : "Kaite",
+         "position" : "",
+         "handle_name" : "SL_KAITE",
+         "pre_requisites" : {
+            "SL_WIZARD" : 1
+         },
+         "MaxLevel" : 7,
+         "skill_type" : "",
+         "id" : 465
+      },
+      {
+         "id" : 466,
+         "MaxLevel" : 7,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "TK_SPTIME" : 1
+         },
+         "position" : "",
+         "handle_name" : "SL_KAINA",
+         "display_name" : "Kaina"
+      },
+      {
+         "position" : "",
+         "handle_name" : "SL_STIN",
+         "pre_requisites" : {
+            "SL_WIZARD" : 1
+         },
+         "display_name" : "Estin",
+         "MaxLevel" : 7,
+         "skill_type" : "",
+         "id" : 467
+      },
+      {
+         "display_name" : "Estun",
+         "position" : "",
+         "handle_name" : "SL_STUN",
+         "pre_requisites" : {
+            "SL_WIZARD" : 1
+         },
+         "MaxLevel" : 7,
+         "skill_type" : "",
+         "id" : 468
+      },
+      {
+         "handle_name" : "SL_SMA",
+         "position" : "",
+         "pre_requisites" : {
+            "SL_STIN" : 7,
+            "SL_STUN" : 7
+         },
+         "display_name" : "Esma",
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 469
+      },
+      {
+         "id" : 470,
+         "skill_type" : "",
+         "MaxLevel" : 7,
+         "pre_requisites" : {
+            "SL_PRIEST" : 1
+         },
+         "handle_name" : "SL_SWOO",
+         "position" : "",
+         "display_name" : "Eswoo"
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 3,
+         "id" : 471,
+         "display_name" : "Eske",
+         "handle_name" : "SL_SKE",
+         "position" : "",
+         "pre_requisites" : {
+            "SL_KNIGHT" : 1
+         }
+      },
+      {
+         "pre_requisites" : {
+            "SL_MONK" : 1
+         },
+         "handle_name" : "SL_SKA",
+         "position" : "",
+         "display_name" : "Eska",
+         "id" : 472,
+         "skill_type" : "",
+         "MaxLevel" : 3
+      },
+      {
+         "handle_name" : "SL_HIGH",
+         "position" : "",
+         "pre_requisites" : {
+            "SL_SUPERNOVICE" : 5
+         },
+         "display_name" : "Espírito dos Transcendentais",
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 494
+      }
+   ],
+   "inherit" : [
+      "Taekwon"
+   ]
+}

@@ -1,0 +1,68 @@
+{
+   "ptbr_class_name" : "Algoz",
+   "inherit" : [
+      "Assassin"
+   ],
+   "skills" : [
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 376,
+         "display_name" : "Perícia com Katar Avançada",
+         "handle_name" : "ASC_KATAR",
+         "position" : "",
+         "pre_requisites" : {
+            "AS_KATAR" : 7,
+            "TF_DOUBLE" : 5
+         }
+      },
+      {
+         "handle_name" : "ASC_EDP",
+         "position" : "",
+         "display_name" : "Encantar com Veneno Mortal",
+         "ASC_CDP" : 1,
+         "id" : 378,
+         "skill_type" : "",
+         "MaxLevel" : 5
+      },
+      {
+         "id" : 379,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Destruidor de Almas",
+         "pre_requisites" : {
+            "AS_ENCHANTPOISON" : 6,
+            "TF_POISON" : 5,
+            "AS_CLOAKING" : 3,
+            "TF_DOUBLE" : 5
+         },
+         "position" : "",
+         "handle_name" : "ASC_BREAKER"
+      },
+      {
+         "AS_SONICBLOW" : 5,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 406,
+         "ASC_BREAKER" : 1,
+         "position" : "",
+         "AS_KATAR" : 5,
+         "handle_name" : "ASC_METEORASSAULT",
+         "AS_RIGHT" : 3,
+         "display_name" : "Impacto Meteoro"
+      },
+      {
+         "id" : 407,
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "display_name" : "Criar Veneno Mortal",
+         "pre_requisites" : {
+            "AS_ENCHANTPOISON" : 5,
+            "TF_POISON" : 10,
+            "TF_DETOXIFY" : 1
+         },
+         "handle_name" : "ASC_CDP",
+         "position" : ""
+      }
+   ]
+}

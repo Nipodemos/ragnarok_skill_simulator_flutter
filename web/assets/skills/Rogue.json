@@ -1,0 +1,232 @@
+{
+   "ptbr_class_name" : "Arruaceiro",
+   "inherit" : [
+      "Thief"
+   ],
+   "skills" : [
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Perícia com Espada",
+         "id" : 2,
+         "position" : "",
+         "handle_name" : "SM_SWORD"
+      },
+      {
+         "handle_name" : "AC_VULTURE",
+         "position" : "",
+         "id" : 44,
+         "skill_type" : "",
+         "display_name" : "Olhos de Águia",
+         "MaxLevel" : 10
+      },
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 46,
+         "display_name" : "Rajada de Flechas",
+         "position" : "",
+         "handle_name" : "AC_DOUBLE",
+         "pre_requisites" : {
+            "AC_VULTURE" : 10
+         }
+      },
+      {
+         "pre_requisites" : {
+            "AC_DOUBLE" : 5
+         },
+         "position" : "",
+         "handle_name" : "HT_REMOVETRAP",
+         "display_name" : "Remover Armadilha",
+         "id" : 124,
+         "MaxLevel" : 1,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Mãos Leves",
+         "pre_requisites" : {
+            "TF_STEAL" : 1
+         },
+         "position" : "",
+         "handle_name" : "RG_SNATCHER",
+         "id" : 210,
+         "MaxLevel" : 10,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Afanar",
+         "pre_requisites" : {
+            "RG_SNATCHER" : 4
+         },
+         "handle_name" : "RG_STEALCOIN",
+         "position" : "",
+         "id" : 211,
+         "skill_type" : "",
+         "MaxLevel" : 10
+      },
+      {
+         "id" : 212,
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "display_name" : "Apunhalar",
+         "pre_requisites" : {
+            "RG_STEALCOIN" : 4
+         },
+         "handle_name" : "RG_BACKSTAP",
+         "position" : ""
+      },
+      {
+         "pre_requisites" : {
+            "TF_HIDING" : 1
+         },
+         "position" : "",
+         "handle_name" : "RG_TUNNELDRIVE",
+         "display_name" : "Túnel de Fuga",
+         "id" : 213,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "pre_requisites" : {
+            "RG_TUNNELDRIVE" : 2,
+            "RG_BACKSTAP" : 2
+         },
+         "position" : "",
+         "handle_name" : "RG_RAID",
+         "display_name" : "Ataque Surpresa",
+         "id" : 214,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Remover Arma",
+         "position" : "",
+         "handle_name" : "RG_STRIPWEAPON",
+         "pre_requisites" : {
+            "RG_STRIPARMOR" : 5
+         },
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 215
+      },
+      {
+         "display_name" : "Remover Escudo",
+         "pre_requisites" : {
+            "RG_STRIPHELM" : 5
+         },
+         "position" : "",
+         "handle_name" : "RG_STRIPSHIELD",
+         "id" : 216,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "id" : 217,
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "display_name" : "Remover Armadura",
+         "pre_requisites" : {
+            "RG_STRIPSHIELD" : 5
+         },
+         "position" : "",
+         "handle_name" : "RG_STRIPARMOR"
+      },
+      {
+         "pre_requisites" : {
+            "RG_STEALCOIN" : 2
+         },
+         "position" : "",
+         "handle_name" : "RG_STRIPHELM",
+         "display_name" : "Remover Capacete",
+         "id" : 218,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "pre_requisites" : {
+            "RG_RAID" : 5,
+            "RG_BACKSTAP" : 4
+         },
+         "position" : "",
+         "handle_name" : "RG_INTIMIDATE",
+         "display_name" : "Rapto",
+         "id" : 219,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "id" : 220,
+         "display_name" : "Grafitti",
+         "handle_name" : "RG_GRAFFITI",
+         "position" : "",
+         "pre_requisites" : {
+            "RG_FLAGGRAFFITI" : 5
+         }
+      },
+      {
+         "display_name" : "Pichar",
+         "position" : "",
+         "handle_name" : "RG_FLAGGRAFFITI",
+         "pre_requisites" : {
+            "RG_CLEANER" : 1
+         },
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 221
+      },
+      {
+         "position" : "",
+         "handle_name" : "RG_CLEANER",
+         "pre_requisites" : {
+            "RG_GANGSTER" : 1
+         },
+         "display_name" : "Faxina",
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "id" : 222
+      },
+      {
+         "id" : 223,
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "display_name" : "Malandragem",
+         "pre_requisites" : {
+            "RG_STRIPSHIELD" : 3
+         },
+         "handle_name" : "RG_GANGSTER",
+         "position" : ""
+      },
+      {
+         "id" : 224,
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "display_name" : "Extorquir",
+         "pre_requisites" : {
+            "RG_GANGSTER" : 1
+         },
+         "position" : "",
+         "handle_name" : "RG_COMPULSION"
+      },
+      {
+         "pre_requisites" : {
+            "RG_INTIMIDATE" : 5
+         },
+         "handle_name" : "RG_PLAGIARISM",
+         "position" : "",
+         "display_name" : "Plágio",
+         "id" : 225,
+         "skill_type" : "",
+         "MaxLevel" : 10
+      },
+      {
+         "skill_type" : "0x1",
+         "display_name" : "Close Confine",
+         "MaxLevel" : 1,
+         "id" : 1005,
+         "handle_name" : "RG_CLOSECONFINE",
+         "position" : ""
+      }
+   ]
+}

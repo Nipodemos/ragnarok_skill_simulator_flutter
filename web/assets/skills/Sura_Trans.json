@@ -1,0 +1,7 @@
+{
+   "ptbr_class_name" : "Shura Trans",
+   "inherit" : [
+      "Champion",
+      "Sura"
+   ]
+}

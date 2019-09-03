@@ -1,0 +1,224 @@
+{
+   "ptbr_class_name" : "Insurgente",
+   "inherit" : [
+      "Gunslinger"
+   ],
+   "skills" : [
+      {
+         "display_name" : "Rich's Coin",
+         "handle_name" : "RL_RICHS_COIN",
+         "position" : "",
+         "pre_requisites" : {
+            "GS_GLITTERING" : 5
+         },
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "id" : 2552
+      },
+      {
+         "display_name" : "Mass Spiral",
+         "handle_name" : "RL_MASS_SPIRAL",
+         "position" : "",
+         "pre_requisites" : {
+            "GS_PIERCINGSHOT" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2553
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2554,
+         "display_name" : "Banishing Buster",
+         "handle_name" : "RL_BANISHING_BUSTER",
+         "position" : "",
+         "pre_requisites" : {
+            "RL_S_STORM" : 1
+         }
+      },
+      {
+         "handle_name" : "RL_B_TRAP",
+         "position" : "",
+         "display_name" : "Bind Trap",
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2555
+      },
+      {
+         "id" : 2556,
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "display_name" : "Flicker",
+         "pre_requisites" : {
+            "GS_FLING" : 1
+         },
+         "handle_name" : "RL_FLICKER",
+         "position" : ""
+      },
+      {
+         "display_name" : "Shatter Storm",
+         "handle_name" : "RL_S_STORM",
+         "position" : "",
+         "pre_requisites" : {
+            "GS_DUST" : 1,
+            "GS_DISARM" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2557
+      },
+      {
+         "display_name" : "Eternal Chain",
+         "handle_name" : "RL_E_CHAIN",
+         "position" : "",
+         "pre_requisites" : {
+            "GS_CHAINACTION" : 10
+         },
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 2558
+      },
+      {
+         "pre_requisites" : {
+            "RL_E_CHAIN" : 1
+         },
+         "position" : "",
+         "handle_name" : "RL_QD_SHOT",
+         "display_name" : "Quick Draw Shot",
+         "id" : 2559,
+         "MaxLevel" : 1,
+         "skill_type" : "0x0"
+      },
+      {
+         "display_name" : "Crimson Marker",
+         "handle_name" : "RL_C_MARKER",
+         "position" : "",
+         "pre_requisites" : {
+            "GS_INCREASING" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "id" : 2560
+      },
+      {
+         "handle_name" : "RL_FIREDANCE",
+         "position" : "",
+         "pre_requisites" : {
+            "RL_FALLEN_ANGEL" : 1
+         },
+         "display_name" : "Fire Dance",
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2561
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2562,
+         "display_name" : "Howling Mine",
+         "handle_name" : "RL_H_MINE",
+         "position" : "",
+         "pre_requisites" : {
+            "GS_SPREADATTACK" : 1
+         }
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "display_name" : "Platinum Alter",
+         "id" : 2563,
+         "position" : "",
+         "handle_name" : "RL_P_ALTER"
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 2564,
+         "display_name" : "Fallen Angel",
+         "position" : "",
+         "handle_name" : "RL_FALLEN_ANGEL",
+         "pre_requisites" : {
+            "GS_DESPERADO" : 10
+         }
+      },
+      {
+         "display_name" : "Round Trip",
+         "pre_requisites" : {
+            "RL_FIRE_RAIN" : 1
+         },
+         "handle_name" : "RL_R_TRIP",
+         "position" : "",
+         "id" : 2565,
+         "skill_type" : "",
+         "MaxLevel" : 5
+      },
+      {
+         "id" : 2566,
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "display_name" : "Dragon Tail",
+         "pre_requisites" : {
+            "RL_H_MINE" : 3,
+            "RL_C_MARKER" : 1
+         },
+         "position" : "",
+         "handle_name" : "RL_D_TAIL"
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2567,
+         "display_name" : "Fire Rain",
+         "handle_name" : "RL_FIRE_RAIN",
+         "position" : "",
+         "pre_requisites" : {
+            "GS_GATLINGFEVER" : 1
+         }
+      },
+      {
+         "pre_requisites" : {
+            "RL_FIREDANCE" : 2
+         },
+         "position" : "",
+         "handle_name" : "RL_HEAT_BARREL",
+         "display_name" : "Heat Barrel",
+         "id" : 2568,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "handle_name" : "RL_AM_BLAST",
+         "position" : "",
+         "pre_requisites" : {
+            "RL_MASS_SPIRAL" : 1
+         },
+         "display_name" : "Anti-Material Blast",
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2569
+      },
+      {
+         "position" : "",
+         "handle_name" : "RL_SLUGSHOT",
+         "pre_requisites" : {
+            "RL_BANISHING_BUSTER" : 3
+         },
+         "display_name" : "Slug Shot//Tester found it knocks back and forces sit.",
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 2570
+      },
+      {
+         "id" : 2571,
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "display_name" : "Hammer of God",
+         "pre_requisites" : {
+            "RL_AM_BLAST" : 3
+         },
+         "position" : "",
+         "handle_name" : "RL_HAMMER_OF_GOD"
+      }
+   ]
+}

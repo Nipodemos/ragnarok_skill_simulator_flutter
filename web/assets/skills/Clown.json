@@ -1,0 +1,80 @@
+{
+   "ptbr_class_name" : "",
+   "inherit" : [
+      "Bard"
+   ],
+   "skills" : [
+      {
+         "position" : "",
+         "handle_name" : "CG_ARROWVULCAN",
+         "pre_requisites" : {
+            "AC_SHOWER" : 5,
+            "BA_MUSICALSTRIKE" : 1
+         },
+         "display_name" : "Vulcão de Flechas",
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 394
+      },
+      {
+         "skill_type" : "0x40",
+         "MaxLevel" : 5,
+         "id" : 395,
+         "display_name" : "Bênção Protetora",
+         "handle_name" : "CG_MOONLIT",
+         "position" : "",
+         "pre_requisites" : {
+            "BA_MUSICALLESSON" : 7,
+            "AC_CONCENTRATION" : 5
+         }
+      },
+      {
+         "MaxLevel" : 1,
+         "skill_type" : "0x600",
+         "id" : 396,
+         "display_name" : "Controle de Marionete",
+         "position" : "",
+         "handle_name" : "CG_MARIONETTE",
+         "pre_requisites" : {
+            "AC_CONCENTRATION" : 5,
+            "BA_MUSICALLESSON" : 5
+         }
+      },
+      {
+         "display_name" : "Grito de Liberdade",
+         "pre_requisites" : {
+            "BA_MUSICALLESSON" : 10,
+            "CG_MARIONETTE" : 1
+         },
+         "position" : "",
+         "handle_name" : "CG_LONGINGFREEDOM",
+         "id" : 487,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "position" : "",
+         "handle_name" : "CG_HERMODE",
+         "pre_requisites" : {
+            "AC_CONCENTRATION" : 10,
+            "BA_MUSICALLESSON" : 10
+         },
+         "display_name" : "Bastão de Hermod",
+         "MaxLevel" : 5,
+         "skill_type" : "0x40",
+         "id" : 488
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 489,
+         "handle_name" : "CG_TAROTCARD",
+         "position" : "",
+         "pre_requisites" : {
+            "AC_CONCENTRATION" : 10,
+            "BA_DISSONANCE" : 3
+         },
+         "display_name" : "Destino nas Cartas"
+      }
+   ]
+}

@@ -1,0 +1,80 @@
+{
+   "ptbr_class_name" : "Cigana",
+   "inherit" : [
+      "Dancer"
+   ],
+   "skills" : [
+      {
+         "id" : 394,
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "pre_requisites" : {
+            "DC_THROWARROW" : 1,
+            "AC_SHOWER" : 5
+         },
+         "handle_name" : "CG_ARROWVULCAN",
+         "position" : "",
+         "display_name" : "Vulcão de Flechas"
+      },
+      {
+         "skill_type" : "0x40",
+         "MaxLevel" : 5,
+         "id" : 395,
+         "display_name" : "Bênção Protetora",
+         "handle_name" : "CG_MOONLIT",
+         "position" : "",
+         "pre_requisites" : {
+            "AC_CONCENTRATION" : 5,
+            "DC_DANCINGLESSON" : 7
+         }
+      },
+      {
+         "MaxLevel" : 1,
+         "skill_type" : "0x600",
+         "id" : 396,
+         "position" : "",
+         "handle_name" : "CG_MARIONETTE",
+         "pre_requisites" : {
+            "DC_DANCINGLESSON" : 5,
+            "AC_CONCENTRATION" : 5
+         },
+         "display_name" : "Controle de Marionete"
+      },
+      {
+         "display_name" : "Grito de Liberdade",
+         "handle_name" : "CG_LONGINGFREEDOM",
+         "position" : "",
+         "pre_requisites" : {
+            "DC_DANCINGLESSON" : 10,
+            "CG_MARIONETTE" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 487
+      },
+      {
+         "display_name" : "Bastão de Hermod",
+         "pre_requisites" : {
+            "DC_DANCINGLESSON" : 10,
+            "AC_CONCENTRATION" : 10
+         },
+         "handle_name" : "CG_HERMODE",
+         "position" : "",
+         "id" : 488,
+         "skill_type" : "0x40",
+         "MaxLevel" : 5
+      },
+      {
+         "display_name" : "Destino nas Cartas",
+         "handle_name" : "CG_TAROTCARD",
+         "position" : "",
+         "pre_requisites" : {
+            "DC_UGLYDANCE" : 3,
+            "AC_CONCENTRATION" : 10
+         },
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 489
+      }
+   ]
+}

@@ -1,0 +1,214 @@
+{
+   "skills" : [
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 2021,
+         "position" : "",
+         "handle_name" : "GC_VENOMIMPRESS",
+         "pre_requisites" : {
+            "AS_ENCHANTPOISON" : 3
+         },
+         "display_name" : "Potencializar Veneno"
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 2022,
+         "position" : "",
+         "handle_name" : "GC_CROSSIMPACT",
+         "pre_requisites" : {
+            "AS_SONICBLOW" : 10
+         },
+         "display_name" : "Lâminas Retalhadoras"
+      },
+      {
+         "id" : 2023,
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "GC_CROSSIMPACT" : 3
+         },
+         "position" : "",
+         "handle_name" : "GC_DARKILLUSION",
+         "display_name" : "Passo Sombrio"
+      },
+      {
+         "skill_type" : "",
+         "display_name" : "Pesquisa de Toxinas",
+         "MaxLevel" : 10,
+         "id" : 2024,
+         "handle_name" : "GC_RESEARCHNEWPOISON",
+         "position" : ""
+      },
+      {
+         "display_name" : "Criar Toxina",
+         "pre_requisites" : {
+            "GC_RESEARCHNEWPOISON" : 1
+         },
+         "position" : "",
+         "handle_name" : "GC_CREATENEWPOISON",
+         "id" : 2025,
+         "MaxLevel" : 1,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Aplicar Antídoto",
+         "pre_requisites" : {
+            "GC_RESEARCHNEWPOISON" : 5
+         },
+         "handle_name" : "GC_ANTIDOTE",
+         "position" : "",
+         "id" : 2026,
+         "skill_type" : "",
+         "MaxLevel" : 1
+      },
+      {
+         "position" : "",
+         "handle_name" : "GC_POISONINGWEAPON",
+         "pre_requisites" : {
+            "GC_CREATENEWPOISON" : 1
+         },
+         "display_name" : "Aplicar Toxina",
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 2027
+      },
+      {
+         "position" : "",
+         "handle_name" : "GC_WEAPONBLOCKING",
+         "pre_requisites" : {
+            "AS_LEFT" : 5
+         },
+         "display_name" : "Reflexo de Combate",
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 2028
+      },
+      {
+         "display_name" : "Retaliação",
+         "position" : "",
+         "handle_name" : "GC_COUNTERSLASH",
+         "pre_requisites" : {
+            "GC_WEAPONBLOCKING" : 1
+         },
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 2029
+      },
+      {
+         "id" : 2030,
+         "MaxLevel" : 5,
+         "skill_type" : "0x200",
+         "display_name" : "Estilhaçar Arma",
+         "pre_requisites" : {
+            "GC_WEAPONBLOCKING" : 1
+         },
+         "position" : "",
+         "handle_name" : "GC_WEAPONCRUSH"
+      },
+      {
+         "id" : 2031,
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "display_name" : "Intoxicar",
+         "pre_requisites" : {
+            "GC_POISONINGWEAPON" : 3,
+            "GC_WEAPONBLOCKING" : 1
+         },
+         "position" : "",
+         "handle_name" : "GC_VENOMPRESSURE"
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2032,
+         "display_name" : "Nevoeiro Tóxico",
+         "handle_name" : "GC_POISONSMOKE",
+         "position" : "",
+         "pre_requisites" : {
+            "GC_VENOMPRESSURE" : 5,
+            "GC_POISONINGWEAPON" : 5
+         }
+      },
+      {
+         "id" : 2033,
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "display_name" : "Ocultação",
+         "pre_requisites" : {
+            "AS_CLOAKING" : 3
+         },
+         "handle_name" : "GC_CLOAKINGEXCEED",
+         "position" : ""
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "id" : 2034,
+         "handle_name" : "GC_PHANTOMMENACE",
+         "position" : "",
+         "pre_requisites" : {
+            "GC_DARKILLUSION" : 5,
+            "GC_CLOAKINGEXCEED" : 5
+         },
+         "display_name" : "Ameaça Fantasma"
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2035,
+         "handle_name" : "GC_HALLUCINATIONWALK",
+         "position" : "",
+         "pre_requisites" : {
+            "GC_PHANTOMMENACE" : 1
+         },
+         "display_name" : "Passos da Ilusão"
+      },
+      {
+         "id" : 2036,
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "display_name" : "Lâminas de Loki",
+         "pre_requisites" : {
+            "AS_SONICBLOW" : 10
+         },
+         "handle_name" : "GC_ROLLINGCUTTER",
+         "position" : ""
+      },
+      {
+         "pre_requisites" : {
+            "GC_ROLLINGCUTTER" : 1
+         },
+         "position" : "",
+         "handle_name" : "GC_CROSSRIPPERSLASHER",
+         "display_name" : "Castigo de Loki",
+         "id" : 2037,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "id" : 5001,
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "GC_DARKILLUSION" : 5
+         },
+         "position" : "",
+         "handle_name" : "GC_DARKCROW",
+         "display_name" : "Dark Claw"
+      },
+      {
+         "position" : "",
+         "handle_name" : "ALL_FULL_THROTTLE",
+         "MaxLevel" : 5,
+         "display_name" : "Full Throttle",
+         "skill_type" : "",
+         "id" : 5014
+      }
+   ],
+   "inherit" : [
+      "Assassin"
+   ],
+   "ptbr_class_name" : "Sicário"
+}

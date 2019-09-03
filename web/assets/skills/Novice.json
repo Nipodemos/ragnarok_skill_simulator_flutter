@@ -1,0 +1,61 @@
+{
+   "skills" : [
+      {
+         "id" : 1,
+         "MaxLevel" : 9,
+         "display_name" : "Habilidades Básicas",
+         "skill_type" : "",
+         "position" : 0,
+         "handle_name" : "NV_BASIC"
+      },
+      {
+         "handle_name" : "NV_FIRSTAID",
+         "position" : 7,
+         "display_name" : "Primeiros Socorros",
+         "skill_type" : "0x1",
+         "MaxLevel" : 1,
+         "id" : 142
+      },
+      {
+         "MaxLevel" : 1,
+         "skill_type" : "0x1",
+         "display_name" : "Fingir de Morto",
+         "id" : 143,
+         "position" : 14,
+         "handle_name" : "NV_TRICKDEAD"
+      },
+      {
+         "id" : 408,
+         "display_name" : "Baby",
+         "skill_type" : "0x4",
+         "MaxLevel" : 1,
+         "handle_name" : "WE_BABY",
+         "position" : ""
+      },
+      {
+         "handle_name" : "WE_CALLPARENT",
+         "position" : "",
+         "id" : 409,
+         "skill_type" : "0x4",
+         "display_name" : "Call Parent",
+         "MaxLevel" : 1
+      },
+      {
+         "id" : 410,
+         "display_name" : "Call Baby",
+         "skill_type" : "0x4",
+         "MaxLevel" : 1,
+         "handle_name" : "WE_CALLBABY",
+         "position" : ""
+      },
+      {
+         "MaxLevel" : 1,
+         "skill_type" : "0x1",
+         "display_name" : "Increase Weight Limit R",
+         "id" : 681,
+         "position" : "",
+         "handle_name" : "ALL_INCCARRY"
+      }
+   ],
+   "ptbr_class_name" : "Aprendiz"
+}

@@ -1,0 +1,7 @@
+{
+   "inherit" : [
+      "Creator",
+      "Genetic"
+   ],
+   "ptbr_class_name" : "Bioquímico Trans"
+}

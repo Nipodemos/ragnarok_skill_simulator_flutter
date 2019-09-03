@@ -1,0 +1,242 @@
+{
+   "inherit" : [
+      "Priest"
+   ],
+   "skills" : [
+      {
+         "display_name" : "Judex",
+         "position" : "",
+         "handle_name" : "AB_JUDEX",
+         "pre_requisites" : {
+            "PR_TURNUNDEAD" : 1
+         },
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 2038
+      },
+      {
+         "display_name" : "Criar Ancilla",
+         "pre_requisites" : {
+            "AB_CLEMENTIA" : 3
+         },
+         "position" : "",
+         "handle_name" : "AB_ANCILLA",
+         "id" : 2039,
+         "MaxLevel" : 1,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Adoramus",
+         "pre_requisites" : {
+            "AB_ANCILLA" : 1,
+            "AB_JUDEX" : 1,
+            "PR_MAGNUS" : 1
+         },
+         "handle_name" : "AB_ADORAMUS",
+         "position" : "",
+         "id" : 2040,
+         "skill_type" : "",
+         "MaxLevel" : 10
+      },
+      {
+         "display_name" : "Crementia",
+         "handle_name" : "AB_CLEMENTIA",
+         "position" : "",
+         "pre_requisites" : {
+            "AL_BLESSING" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 3,
+         "id" : 2041
+      },
+      {
+         "id" : 2042,
+         "MaxLevel" : 3,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "AL_INCAGI" : 1
+         },
+         "position" : "",
+         "handle_name" : "AB_CANTO",
+         "display_name" : "Canto Candidus"
+      },
+      {
+         "MaxLevel" : 3,
+         "skill_type" : "",
+         "id" : 2043,
+         "position" : "",
+         "handle_name" : "AB_CHEAL",
+         "pre_requisites" : {
+            "AL_HEAL" : 1
+         },
+         "display_name" : "Sopro Divino"
+      },
+      {
+         "display_name" : "Epiclesis",
+         "pre_requisites" : {
+            "AB_HIGHNESSHEAL" : 1,
+            "AB_ANCILLA" : 1
+         },
+         "handle_name" : "AB_EPICLESIS",
+         "position" : "",
+         "id" : 2044,
+         "skill_type" : "",
+         "MaxLevel" : 5
+      },
+      {
+         "id" : 2045,
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "pre_requisites" : {
+            "PR_KYRIE" : 1
+         },
+         "handle_name" : "AB_PRAEFATIO",
+         "position" : "",
+         "display_name" : "Praefatio"
+      },
+      {
+         "position" : "",
+         "handle_name" : "AB_ORATIO",
+         "pre_requisites" : {
+            "AB_PRAEFATIO" : 5
+         },
+         "display_name" : "Oratio",
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 2046
+      },
+      {
+         "pre_requisites" : {
+            "PR_STRECOVERY" : 1
+         },
+         "position" : "",
+         "handle_name" : "AB_LAUDAAGNUS",
+         "display_name" : "Lauda Agnus",
+         "id" : 2047,
+         "MaxLevel" : 4,
+         "skill_type" : ""
+      },
+      {
+         "MaxLevel" : 4,
+         "skill_type" : "",
+         "id" : 2048,
+         "display_name" : "Lauda Ramus",
+         "position" : "",
+         "handle_name" : "AB_LAUDARAMUS",
+         "pre_requisites" : {
+            "AB_LAUDAAGNUS" : 2
+         }
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 2049,
+         "handle_name" : "AB_EUCHARISTICA",
+         "position" : "",
+         "pre_requisites" : {
+            "AB_EPICLESIS" : 1,
+            "AB_EXPIATIO" : 1
+         },
+         "display_name" : "Eucaristia"
+      },
+      {
+         "pre_requisites" : {
+            "AB_CHEAL" : 3
+         },
+         "position" : "",
+         "handle_name" : "AB_RENOVATIO",
+         "display_name" : "Renovatio",
+         "id" : 2050,
+         "MaxLevel" : 1,
+         "skill_type" : ""
+      },
+      {
+         "pre_requisites" : {
+            "AB_RENOVATIO" : 1
+         },
+         "position" : "",
+         "handle_name" : "AB_HIGHNESSHEAL",
+         "display_name" : "Highness Heal",
+         "id" : 2051,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 2052,
+         "display_name" : "Gênese",
+         "position" : "",
+         "handle_name" : "AB_CLEARANCE",
+         "pre_requisites" : {
+            "AB_LAUDARAMUS" : 2
+         }
+      },
+      {
+         "display_name" : "Expiatio",
+         "position" : "",
+         "handle_name" : "AB_EXPIATIO",
+         "pre_requisites" : {
+            "AB_ORATIO" : 5,
+            "AB_DUPLELIGHT" : 5
+         },
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 2053
+      },
+      {
+         "handle_name" : "AB_DUPLELIGHT",
+         "position" : "",
+         "pre_requisites" : {
+            "PR_ASPERSIO" : 1
+         },
+         "display_name" : "Gemini Lumen",
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 2054
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2057,
+         "handle_name" : "AB_SILENTIUM",
+         "position" : "",
+         "pre_requisites" : {
+            "AB_CLEARANCE" : 1
+         },
+         "display_name" : "Silentium"
+      },
+      {
+         "handle_name" : "AB_SECRAMENT",
+         "position" : "",
+         "pre_requisites" : {
+            "AB_EXPIATIO" : 1,
+            "AB_EPICLESIS" : 1
+         },
+         "display_name" : "Secrament",
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2515
+      },
+      {
+         "display_name" : "Offertorium",
+         "pre_requisites" : {
+            "AB_HIGHNESSHEAL" : 2
+         },
+         "handle_name" : "AB_OFFERTORIUM",
+         "position" : "",
+         "id" : 5011,
+         "skill_type" : "",
+         "MaxLevel" : 5
+      },
+      {
+         "position" : "",
+         "handle_name" : "ALL_FULL_THROTTLE",
+         "MaxLevel" : 5,
+         "display_name" : "Full Throttle",
+         "skill_type" : "",
+         "id" : 5014
+      }
+   ],
+   "ptbr_class_name" : "Arcebispo"
+}

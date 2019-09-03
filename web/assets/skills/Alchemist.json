@@ -1,0 +1,216 @@
+{
+   "skills" : [
+      {
+         "position" : "",
+         "handle_name" : "AM_AXEMASTERY",
+         "id" : 226,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Perícia com Machado"
+      },
+      {
+         "id" : 227,
+         "display_name" : "Pesquisa de Poções",
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "handle_name" : "AM_LEARNINGPOTION",
+         "position" : ""
+      },
+      {
+         "display_name" : "Preparar Poção",
+         "position" : "",
+         "handle_name" : "AM_PHARMACY",
+         "pre_requisites" : {
+            "AM_LEARNINGPOTION" : 5
+         },
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 228
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 229,
+         "handle_name" : "AM_DEMONSTRATION",
+         "position" : "",
+         "pre_requisites" : {
+            "AM_PHARMACY" : 4
+         },
+         "display_name" : "Fogo Grego"
+      },
+      {
+         "display_name" : "Terror Ácido",
+         "pre_requisites" : {
+            "AM_PHARMACY" : 5
+         },
+         "position" : "",
+         "handle_name" : "AM_ACIDTERROR",
+         "id" : 230,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "id" : 231,
+         "MaxLevel" : 5,
+         "skill_type" : "0xC00",
+         "display_name" : "Arremessar Poção",
+         "pre_requisites" : {
+            "AM_PHARMACY" : 3
+         },
+         "position" : "",
+         "handle_name" : "AM_POTIONPITCHER"
+      },
+      {
+         "id" : 232,
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "pre_requisites" : {
+            "AM_PHARMACY" : 6
+         },
+         "handle_name" : "AM_CANNIBALIZE",
+         "position" : "",
+         "display_name" : "Criar Monstro Planta"
+      },
+      {
+         "id" : 233,
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "display_name" : "Criar Esfera Marinha",
+         "pre_requisites" : {
+            "AM_PHARMACY" : 2
+         },
+         "handle_name" : "AM_SPHEREMINE",
+         "position" : ""
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 234,
+         "handle_name" : "AM_CP_WEAPON",
+         "position" : "",
+         "pre_requisites" : {
+            "AM_CP_ARMOR" : 3
+         },
+         "display_name" : "Revestir Arma"
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 235,
+         "display_name" : "Revestir Escudo",
+         "position" : "",
+         "handle_name" : "AM_CP_SHIELD",
+         "pre_requisites" : {
+            "AM_CP_HELM" : 3
+         }
+      },
+      {
+         "handle_name" : "AM_CP_ARMOR",
+         "position" : "",
+         "pre_requisites" : {
+            "AM_CP_SHIELD" : 3
+         },
+         "display_name" : "Revestir Armadura",
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 236
+      },
+      {
+         "display_name" : "Revestir Capacete",
+         "pre_requisites" : {
+            "AM_PHARMACY" : 2
+         },
+         "handle_name" : "AM_CP_HELM",
+         "position" : "",
+         "id" : 237,
+         "skill_type" : "",
+         "MaxLevel" : 5
+      },
+      {
+         "handle_name" : "AM_BIOETHICS",
+         "position" : "",
+         "display_name" : "Bioética",
+         "skill_type" : "0x1",
+         "MaxLevel" : 1,
+         "id" : 238
+      },
+      {
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "id" : 243,
+         "display_name" : "Criar Homunculus",
+         "position" : "",
+         "handle_name" : "AM_CALLHOMUN",
+         "pre_requisites" : {
+            "AM_REST" : 1
+         }
+      },
+      {
+         "display_name" : "Vaporizar",
+         "pre_requisites" : {
+            "AM_BIOETHICS" : 1
+         },
+         "handle_name" : "AM_REST",
+         "position" : "",
+         "id" : 244,
+         "skill_type" : "",
+         "MaxLevel" : 1
+      },
+      {
+         "display_name" : "Ressuscitar Homunculus",
+         "pre_requisites" : {
+            "AM_CALLHOMUN" : 1
+         },
+         "position" : "",
+         "handle_name" : "AM_RESURRECTHOMUN",
+         "id" : 247,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "id" : 446,
+         "MaxLevel" : 1,
+         "display_name" : "Arremessar Poção da Fúria Selvagem",
+         "skill_type" : "0xC08",
+         "position" : "",
+         "handle_name" : "AM_BERSERKPITCHER"
+      },
+      {
+         "skill_type" : "0x8",
+         "MaxLevel" : 1,
+         "id" : 496,
+         "handle_name" : "AM_TWILIGHT1",
+         "position" : "",
+         "pre_requisites" : {
+            "AM_PHARMACY" : 10
+         },
+         "display_name" : "Criação Espiritual de Poções I"
+      },
+      {
+         "display_name" : "Criação Espiritual de Poções II",
+         "pre_requisites" : {
+            "AM_PHARMACY" : 10
+         },
+         "handle_name" : "AM_TWILIGHT2",
+         "position" : "",
+         "id" : 497,
+         "skill_type" : "0x8",
+         "MaxLevel" : 1
+      },
+      {
+         "skill_type" : "0x8",
+         "MaxLevel" : 1,
+         "id" : 498,
+         "handle_name" : "AM_TWILIGHT3",
+         "position" : "",
+         "pre_requisites" : {
+            "AM_PHARMACY" : 10
+         },
+         "display_name" : "Criação Espiritual de Poções III"
+      }
+   ],
+   "inherit" : [
+      "Merchant"
+   ],
+   "ptbr_class_name" : "Alquimista"
+}

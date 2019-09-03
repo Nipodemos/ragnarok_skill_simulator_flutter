@@ -1,0 +1,6 @@
+{
+   "ptbr_class_name" : "Gatuno Trans",
+   "inherit" : [
+      "Thief"
+   ]
+}

@@ -1,0 +1,59 @@
+{
+   "inherit" : [
+      "Priest"
+   ],
+   "skills" : [
+      {
+         "display_name" : "Assumptio",
+         "handle_name" : "HP_ASSUMPTIO",
+         "position" : "",
+         "pre_requisites" : {
+            "PR_IMPOSITIO" : 3,
+            "MG_SRECOVERY" : 3,
+            "AL_ANGELUS" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 361
+      },
+      {
+         "pre_requisites" : {
+            "PR_KYRIE" : 3,
+            "MG_SRECOVERY" : 1,
+            "PR_GLORIA" : 2
+         },
+         "handle_name" : "HP_BASILICA",
+         "position" : "",
+         "display_name" : "Basílica",
+         "id" : 362,
+         "skill_type" : "",
+         "MaxLevel" : 5
+      },
+      {
+         "display_name" : "Meditatio",
+         "pre_requisites" : {
+            "PR_LEXDIVINA" : 5,
+            "MG_SRECOVERY" : 5,
+            "PR_ASPERSIO" : 3
+         },
+         "position" : "",
+         "handle_name" : "HP_MEDITATIO",
+         "id" : 363,
+         "MaxLevel" : 10,
+         "skill_type" : ""
+      },
+      {
+         "id" : 481,
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "PR_MACEMASTERY" : 10,
+            "AL_DEMONBANE" : 10
+         },
+         "position" : "",
+         "handle_name" : "HP_MANARECHARGE",
+         "display_name" : "Riqueza de Espírito"
+      }
+   ],
+   "ptbr_class_name" : "Sumo Sacerdote"
+}

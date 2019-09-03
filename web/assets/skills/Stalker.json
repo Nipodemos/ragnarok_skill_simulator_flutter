@@ -1,0 +1,53 @@
+{
+   "ptbr_class_name" : "Desordeiro",
+   "skills" : [
+      {
+         "display_name" : "Espreitar",
+         "handle_name" : "ST_CHASEWALK",
+         "position" : "",
+         "pre_requisites" : {
+            "TF_HIDING" : 5,
+            "RG_TUNNELDRIVE" : 3
+         },
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 389
+      },
+      {
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "display_name" : "Instinto de Defesa",
+         "id" : 390,
+         "position" : "",
+         "handle_name" : "ST_REJECTSWORD"
+      },
+      {
+         "id" : 475,
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "display_name" : "Preservar",
+         "pre_requisites" : {
+            "RG_PLAGIARISM" : 10
+         },
+         "position" : "",
+         "handle_name" : "ST_PRESERVE"
+      },
+      {
+         "id" : 476,
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "pre_requisites" : {
+            "RG_STRIPHELM" : 5,
+            "RG_STRIPSHIELD" : 5,
+            "RG_STRIPWEAPON" : 5,
+            "RG_STRIPARMOR" : 5
+         },
+         "handle_name" : "ST_FULLSTRIP",
+         "position" : "",
+         "display_name" : "Remoção Total"
+      }
+   ],
+   "inherit" : [
+      "Rogue"
+   ]
+}

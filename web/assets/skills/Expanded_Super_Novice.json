@@ -1,0 +1,322 @@
+{
+   "ptbr_class_name" : "Super Aprendiz Expandido",
+   "skills" : [
+      {
+         "id" : 66,
+         "display_name" : "Impositio Manus",
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "handle_name" : "PR_IMPOSITIO",
+         "position" : ""
+      },
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 70,
+         "display_name" : "Santuário",
+         "position" : "",
+         "handle_name" : "PR_SANCTUARY",
+         "pre_requisites" : {
+            "AL_HEAL" : 1
+         }
+      },
+      {
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "display_name" : "Graça Divina",
+         "id" : 72,
+         "position" : "",
+         "handle_name" : "PR_STRECOVERY"
+      },
+      {
+         "display_name" : "Glória",
+         "position" : "",
+         "handle_name" : "PR_GLORIA",
+         "pre_requisites" : {
+            "PR_SANCTUARY" : 7
+         },
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 75
+      },
+      {
+         "display_name" : "Coluna de Fogo",
+         "pre_requisites" : {
+            "MG_FIREWALL" : 1
+         },
+         "position" : "",
+         "handle_name" : "WZ_FIREPILLAR",
+         "id" : 80,
+         "MaxLevel" : 10,
+         "skill_type" : "0x80"
+      },
+      {
+         "display_name" : "Supernova",
+         "handle_name" : "WZ_SIGHTRASHER",
+         "position" : "",
+         "pre_requisites" : {
+            "MG_SIGHT" : 1,
+            "MG_LIGHTNINGBOLT" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 81
+      },
+      {
+         "id" : 84,
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "display_name" : "Trovão de Júpiter",
+         "pre_requisites" : {
+            "MG_NAPALMBEAT" : 1,
+            "MG_LIGHTNINGBOLT" : 1
+         },
+         "handle_name" : "WZ_JUPITEL",
+         "position" : ""
+      },
+      {
+         "display_name" : "Esfera d'Água",
+         "pre_requisites" : {
+            "MG_COLDBOLT" : 1,
+            "MG_LIGHTNINGBOLT" : 1
+         },
+         "handle_name" : "WZ_WATERBALL",
+         "position" : "",
+         "id" : 86,
+         "skill_type" : "",
+         "MaxLevel" : 5
+      },
+      {
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "id" : 87,
+         "display_name" : "Barreira de Gelo",
+         "position" : "",
+         "handle_name" : "WZ_ICEWALL",
+         "pre_requisites" : {
+            "MG_FROSTDIVER" : 1,
+            "MG_STONECURSE" : 1
+         }
+      },
+      {
+         "display_name" : "Congelar",
+         "handle_name" : "WZ_FROSTNOVA",
+         "position" : "",
+         "pre_requisites" : {
+            "WZ_ICEWALL" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 88
+      },
+      {
+         "id" : 90,
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "display_name" : "Coluna de Pedra",
+         "pre_requisites" : {
+            "MG_STONECURSE" : 1
+         },
+         "position" : "",
+         "handle_name" : "WZ_EARTHSPIKE"
+      },
+      {
+         "display_name" : "Fúria da Terra",
+         "position" : "",
+         "handle_name" : "WZ_HEAVENDRIVE",
+         "pre_requisites" : {
+            "WZ_EARTHSPIKE" : 3
+         },
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 91
+      },
+      {
+         "display_name" : "Pântano dos Mortos",
+         "position" : "",
+         "handle_name" : "WZ_QUAGMIRE",
+         "pre_requisites" : {
+            "WZ_HEAVENDRIVE" : 1
+         },
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 92
+      },
+      {
+         "position" : "",
+         "handle_name" : "WZ_ESTIMATION",
+         "id" : 93,
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "display_name" : "Sentido Sobrenatural"
+      },
+      {
+         "id" : 105,
+         "MaxLevel" : 1,
+         "display_name" : "Punho Firme",
+         "skill_type" : "",
+         "position" : "",
+         "handle_name" : "BS_HILTBINDING"
+      },
+      {
+         "display_name" : "Perícia em Armamento",
+         "handle_name" : "BS_WEAPONRESEARCH",
+         "position" : "",
+         "pre_requisites" : {
+            "BS_HILTBINDING" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 107
+      },
+      {
+         "handle_name" : "HT_SKIDTRAP",
+         "position" : "",
+         "id" : 115,
+         "skill_type" : "0x80",
+         "display_name" : "Armadilha Escorregadia",
+         "MaxLevel" : 5
+      },
+      {
+         "display_name" : "Armadilha Sonífera",
+         "pre_requisites" : {
+            "HT_FLASHER" : 1
+         },
+         "position" : "",
+         "handle_name" : "HT_SANDMAN",
+         "id" : 119,
+         "MaxLevel" : 5,
+         "skill_type" : "0x80"
+      },
+      {
+         "handle_name" : "HT_FLASHER",
+         "position" : "",
+         "pre_requisites" : {
+            "HT_SKIDTRAP" : 1
+         },
+         "display_name" : "Armadilha Luminosa",
+         "skill_type" : "0x80",
+         "MaxLevel" : 5,
+         "id" : 120
+      },
+      {
+         "skill_type" : "0x80",
+         "MaxLevel" : 5,
+         "id" : 121,
+         "handle_name" : "HT_FREEZINGTRAP",
+         "position" : "",
+         "pre_requisites" : {
+            "HT_FLASHER" : 1
+         },
+         "display_name" : "Armadilha Congelante"
+      },
+      {
+         "display_name" : "Envenenar Arma",
+         "pre_requisites" : {
+            "TF_POISON" : 1
+         },
+         "handle_name" : "AS_ENCHANTPOISON",
+         "position" : "",
+         "id" : 138,
+         "skill_type" : "0x400",
+         "MaxLevel" : 10
+      },
+      {
+         "display_name" : "Túnel de Fuga",
+         "pre_requisites" : {
+            "TF_HIDING" : 1
+         },
+         "handle_name" : "RG_TUNNELDRIVE",
+         "position" : "",
+         "id" : 213,
+         "skill_type" : "",
+         "MaxLevel" : 5
+      },
+      {
+         "skill_type" : "",
+         "display_name" : "Perícia com Machado",
+         "MaxLevel" : 10,
+         "id" : 226,
+         "handle_name" : "AM_AXEMASTERY",
+         "position" : ""
+      },
+      {
+         "position" : "",
+         "handle_name" : "CR_TRUST",
+         "MaxLevel" : 10,
+         "display_name" : "Fé",
+         "skill_type" : "",
+         "id" : 248
+      },
+      {
+         "handle_name" : "CR_HOLYCROSS",
+         "position" : "",
+         "pre_requisites" : {
+            "CR_TRUST" : 7
+         },
+         "display_name" : "Crux Divinum",
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "id" : 253
+      },
+      {
+         "id" : 259,
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "display_name" : "Punhos de Ferro",
+         "pre_requisites" : {
+            "AL_DP" : 10,
+            "AL_DEMONBANE" : 10
+         },
+         "handle_name" : "MO_IRONHAND",
+         "position" : ""
+      },
+      {
+         "pre_requisites" : {
+            "MO_IRONHAND" : 2
+         },
+         "position" : "",
+         "handle_name" : "MO_CALLSPIRITS",
+         "display_name" : "Invocar Esfera Espiritual",
+         "id" : 261,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Absorver Esferas Espirituais",
+         "pre_requisites" : {
+            "MO_CALLSPIRITS" : 5
+         },
+         "position" : "",
+         "handle_name" : "MO_ABSORBSPIRITS",
+         "id" : 262,
+         "MaxLevel" : 1,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Esmagamento Mágico",
+         "pre_requisites" : {
+            "MG_SRECOVERY" : 1
+         },
+         "position" : "",
+         "handle_name" : "HW_MAGICCRASHER",
+         "id" : 365,
+         "MaxLevel" : 1,
+         "skill_type" : ""
+      },
+      {
+         "id" : 2535,
+         "skill_type" : "0x1",
+         "MaxLevel" : 1,
+         "pre_requisites" : {
+            "MC_VENDING" : 1
+         },
+         "handle_name" : "ALL_BUYING_STORE",
+         "position" : "",
+         "display_name" : "Open Buying Store"
+      }
+   ],
+   "inherit" : [
+      "Super_Novice"
+   ]
+}

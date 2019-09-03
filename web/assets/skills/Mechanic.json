@@ -1,0 +1,336 @@
+{
+   "skills" : [
+      {
+         "skill_type" : "",
+         "display_name" : "Licença de Pilotagem",
+         "MaxLevel" : 5,
+         "id" : 2255,
+         "handle_name" : "NC_MADOLICENCE",
+         "position" : ""
+      },
+      {
+         "pre_requisites" : {
+            "NC_MADOLICENCE" : 1
+         },
+         "position" : "",
+         "handle_name" : "NC_BOOSTKNUCKLE",
+         "display_name" : "Punho Foguete",
+         "id" : 2256,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "MaxLevel" : 3,
+         "skill_type" : "",
+         "id" : 2257,
+         "display_name" : "Bate Estaca",
+         "position" : "",
+         "handle_name" : "NC_PILEBUNKER",
+         "pre_requisites" : {
+            "NC_BOOSTKNUCKLE" : 2
+         }
+      },
+      {
+         "id" : 2258,
+         "skill_type" : "",
+         "MaxLevel" : 3,
+         "pre_requisites" : {
+            "NC_BOOSTKNUCKLE" : 2
+         },
+         "handle_name" : "NC_VULCANARM",
+         "position" : "",
+         "display_name" : "Metralhadora"
+      },
+      {
+         "id" : 2259,
+         "MaxLevel" : 3,
+         "skill_type" : "",
+         "display_name" : "Lança Chamas",
+         "pre_requisites" : {
+            "NC_VULCANARM" : 3
+         },
+         "position" : "",
+         "handle_name" : "NC_FLAMELAUNCHER"
+      },
+      {
+         "id" : 2260,
+         "skill_type" : "",
+         "MaxLevel" : 3,
+         "display_name" : "Gás Criogênico",
+         "pre_requisites" : {
+            "NC_VULCANARM" : 3
+         },
+         "handle_name" : "NC_COLDSLOWER",
+         "position" : ""
+      },
+      {
+         "id" : 2261,
+         "skill_type" : "",
+         "MaxLevel" : 3,
+         "display_name" : "Canhão",
+         "pre_requisites" : {
+            "NC_FLAMELAUNCHER" : 2,
+            "NC_COLDSLOWER" : 2
+         },
+         "handle_name" : "NC_ARMSCANNON",
+         "position" : ""
+      },
+      {
+         "position" : "",
+         "handle_name" : "NC_ACCELERATION",
+         "pre_requisites" : {
+            "NC_MADOLICENCE" : 1
+         },
+         "display_name" : "Aceleração",
+         "MaxLevel" : 3,
+         "skill_type" : "",
+         "id" : 2262
+      },
+      {
+         "pre_requisites" : {
+            "NC_ACCELERATION" : 1
+         },
+         "handle_name" : "NC_HOVERING",
+         "position" : "",
+         "display_name" : "Planar",
+         "id" : 2263,
+         "skill_type" : "",
+         "MaxLevel" : 1
+      },
+      {
+         "id" : 2264,
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "pre_requisites" : {
+            "NC_HOVERING" : 1
+         },
+         "handle_name" : "NC_F_SIDESLIDE",
+         "position" : "",
+         "display_name" : "Propulsão Traseira"
+      },
+      {
+         "id" : 2265,
+         "MaxLevel" : 1,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "NC_HOVERING" : 1
+         },
+         "position" : "",
+         "handle_name" : "NC_B_SIDESLIDE",
+         "display_name" : "Propulsão Dianteira"
+      },
+      {
+         "pre_requisites" : {
+            "NC_MADOLICENCE" : 4
+         },
+         "position" : "",
+         "handle_name" : "NC_MAINFRAME",
+         "display_name" : "Reforçar Estrutura",
+         "id" : 2266,
+         "MaxLevel" : 4,
+         "skill_type" : ""
+      },
+      {
+         "pre_requisites" : {
+            "NC_MAINFRAME" : 2
+         },
+         "position" : "",
+         "handle_name" : "NC_SELFDESTRUCTION",
+         "display_name" : "Autodestruição",
+         "id" : 2267,
+         "MaxLevel" : 3,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Reconfigurar Elemento",
+         "pre_requisites" : {
+            "NC_MAINFRAME" : 2
+         },
+         "position" : "",
+         "handle_name" : "NC_SHAPESHIFT",
+         "id" : 2268,
+         "MaxLevel" : 4,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Resfriamento",
+         "handle_name" : "NC_EMERGENCYCOOL",
+         "position" : "",
+         "pre_requisites" : {
+            "NC_SELFDESTRUCTION" : 2
+         },
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "id" : 2269
+      },
+      {
+         "id" : 2270,
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "pre_requisites" : {
+            "NC_SHAPESHIFT" : 2
+         },
+         "handle_name" : "NC_INFRAREDSCAN",
+         "position" : "",
+         "display_name" : "Sensor Infravermelho"
+      },
+      {
+         "id" : 2271,
+         "skill_type" : "",
+         "MaxLevel" : 3,
+         "pre_requisites" : {
+            "NC_INFRAREDSCAN" : 1
+         },
+         "handle_name" : "NC_ANALYZE",
+         "position" : "",
+         "display_name" : "Analisar"
+      },
+      {
+         "display_name" : "Campo Magnético",
+         "position" : "",
+         "handle_name" : "NC_MAGNETICFIELD",
+         "pre_requisites" : {
+            "NC_EMERGENCYCOOL" : 1
+         },
+         "MaxLevel" : 3,
+         "skill_type" : "",
+         "id" : 2272
+      },
+      {
+         "id" : 2273,
+         "skill_type" : "",
+         "MaxLevel" : 3,
+         "display_name" : "Campo Protetor",
+         "pre_requisites" : {
+            "NC_MAGNETICFIELD" : 2
+         },
+         "handle_name" : "NC_NEUTRALBARRIER",
+         "position" : ""
+      },
+      {
+         "display_name" : "Campo de Invisibilidade",
+         "pre_requisites" : {
+            "NC_ANALYZE" : 3,
+            "NC_NEUTRALBARRIER" : 2
+         },
+         "handle_name" : "NC_STEALTHFIELD",
+         "position" : "",
+         "id" : 2274,
+         "skill_type" : "",
+         "MaxLevel" : 3
+      },
+      {
+         "id" : 2275,
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "display_name" : "Reparar",
+         "pre_requisites" : {
+            "NC_MADOLICENCE" : 1
+         },
+         "handle_name" : "NC_REPAIR",
+         "position" : ""
+      },
+      {
+         "skill_type" : "",
+         "display_name" : "Maestria com Machados",
+         "MaxLevel" : 10,
+         "id" : 2276,
+         "handle_name" : "NC_TRAININGAXE",
+         "position" : ""
+      },
+      {
+         "id" : 2277,
+         "MaxLevel" : 5,
+         "display_name" : "Sabedoria de Hefesto",
+         "skill_type" : "",
+         "position" : "",
+         "handle_name" : "NC_RESEARCHFE"
+      },
+      {
+         "display_name" : "Arremesso de Machado",
+         "pre_requisites" : {
+            "NC_TRAININGAXE" : 1
+         },
+         "position" : "",
+         "handle_name" : "NC_AXEBOOMERANG",
+         "id" : 2278,
+         "MaxLevel" : 5,
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Brandir Machado",
+         "position" : "",
+         "handle_name" : "NC_POWERSWING",
+         "pre_requisites" : {
+            "NC_AXEBOOMERANG" : 3
+         },
+         "MaxLevel" : 5,
+         "skill_type" : "",
+         "id" : 2279
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2280,
+         "handle_name" : "NC_AXETORNADO",
+         "position" : "",
+         "pre_requisites" : {
+            "NC_TRAININGAXE" : 1
+         },
+         "display_name" : "Fúria do Furacão"
+      },
+      {
+         "id" : 2281,
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "display_name" : "Artilharia Caçadora",
+         "pre_requisites" : {
+            "NC_RESEARCHFE" : 2
+         },
+         "handle_name" : "NC_SILVERSNIPER",
+         "position" : ""
+      },
+      {
+         "skill_type" : "",
+         "MaxLevel" : 5,
+         "id" : 2282,
+         "display_name" : "Artilharia Arcana",
+         "handle_name" : "NC_MAGICDECOY",
+         "position" : "",
+         "pre_requisites" : {
+            "NC_RESEARCHFE" : 2
+         }
+      },
+      {
+         "display_name" : "Remover Artilharia",
+         "handle_name" : "NC_DISJOINT",
+         "position" : "",
+         "pre_requisites" : {
+            "NC_SILVERSNIPER" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "id" : 2283
+      },
+      {
+         "position" : "",
+         "handle_name" : "NC_MAGMA_ERUPTION",
+         "MaxLevel" : 5,
+         "display_name" : "Magma Eruption",
+         "skill_type" : "",
+         "id" : 5006
+      },
+      {
+         "id" : 5014,
+         "MaxLevel" : 5,
+         "display_name" : "Full Throttle",
+         "skill_type" : "",
+         "position" : "",
+         "handle_name" : "ALL_FULL_THROTTLE"
+      }
+   ],
+   "inherit" : [
+      "Blacksmith"
+   ],
+   "ptbr_class_name" : "Mecânico"
+}

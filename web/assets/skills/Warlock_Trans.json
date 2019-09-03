@@ -1,0 +1,7 @@
+{
+   "inherit" : [
+      "High_Wizard",
+      "Warlock"
+   ],
+   "ptbr_class_name" : "Arcano Trans"
+}

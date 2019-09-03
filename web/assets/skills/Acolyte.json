@@ -1,0 +1,158 @@
+{
+   "ptbr_class_name" : "Noviço",
+   "skills" : [
+      {
+         "handle_name" : "AL_DP",
+         "position" : "",
+         "id" : 22,
+         "skill_type" : "",
+         "display_name" : "Proteção Divina",
+         "MaxLevel" : 10
+      },
+      {
+         "id" : 23,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "pre_requisites" : {
+            "AL_DP" : 3
+         },
+         "position" : "",
+         "handle_name" : "AL_DEMONBANE",
+         "display_name" : "Flagelo do Mal"
+      },
+      {
+         "id" : 24,
+         "display_name" : "Revelação",
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "handle_name" : "AL_RUWACH",
+         "position" : ""
+      },
+      {
+         "handle_name" : "AL_PNEUMA",
+         "position" : "",
+         "pre_requisites" : {
+            "AL_WARP" : 4
+         },
+         "display_name" : "Escudo Sagrado",
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "id" : 25
+      },
+      {
+         "display_name" : "Teleporte",
+         "handle_name" : "AL_TELEPORT",
+         "position" : "",
+         "pre_requisites" : {
+            "AL_RUWACH" : 1
+         },
+         "skill_type" : "",
+         "MaxLevel" : 2,
+         "id" : 26
+      },
+      {
+         "display_name" : "Portal",
+         "pre_requisites" : {
+            "AL_TELEPORT" : 2
+         },
+         "handle_name" : "AL_WARP",
+         "position" : "",
+         "id" : 27,
+         "skill_type" : "",
+         "MaxLevel" : 4
+      },
+      {
+         "id" : 28,
+         "display_name" : "Curar",
+         "skill_type" : "",
+         "MaxLevel" : 10,
+         "handle_name" : "AL_HEAL",
+         "position" : ""
+      },
+      {
+         "pre_requisites" : {
+            "AL_HEAL" : 3
+         },
+         "handle_name" : "AL_INCAGI",
+         "position" : "",
+         "display_name" : "Aumentar Agilidade",
+         "id" : 29,
+         "skill_type" : "",
+         "MaxLevel" : 10
+      },
+      {
+         "pre_requisites" : {
+            "AL_INCAGI" : 1
+         },
+         "position" : "",
+         "handle_name" : "AL_DECAGI",
+         "display_name" : "Diminuir Agilidade",
+         "id" : 30,
+         "MaxLevel" : 10,
+         "skill_type" : ""
+      },
+      {
+         "id" : 31,
+         "display_name" : "Aqua Benedicta",
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "handle_name" : "AL_HOLYWATER",
+         "position" : ""
+      },
+      {
+         "id" : 32,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Signum Crusis",
+         "pre_requisites" : {
+            "AL_DEMONBANE" : 3
+         },
+         "position" : "",
+         "handle_name" : "AL_CRUCIS"
+      },
+      {
+         "id" : 33,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Angelus",
+         "pre_requisites" : {
+            "AL_DP" : 3
+         },
+         "position" : "",
+         "handle_name" : "AL_ANGELUS"
+      },
+      {
+         "id" : 34,
+         "MaxLevel" : 10,
+         "skill_type" : "",
+         "display_name" : "Benção",
+         "pre_requisites" : {
+            "AL_DP" : 5
+         },
+         "position" : "",
+         "handle_name" : "AL_BLESSING"
+      },
+      {
+         "display_name" : "Medicar",
+         "handle_name" : "AL_CURE",
+         "position" : "",
+         "pre_requisites" : {
+            "AL_HEAL" : 2
+         },
+         "skill_type" : "",
+         "MaxLevel" : 1,
+         "id" : 35
+      },
+      {
+         "MaxLevel" : 1,
+         "skill_type" : "0x1",
+         "display_name" : "Luz Divina",
+         "id" : 156,
+         "position" : "",
+         "handle_name" : "AL_HOLYLIGHT"
+      }
+   ],
+   "inherit" : [
+      "Novice"
+   ]
+}

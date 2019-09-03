@@ -1,0 +1,7 @@
+{
+   "inherit" : [
+      "Clown",
+      "Minstrel"
+   ],
+   "ptbr_class_name" : "Menestrel Trans"
+}
