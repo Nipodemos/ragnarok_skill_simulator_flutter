@@ -1,0 +1,28 @@
+// exemplo referente a classe mercador
+{
+    "skills": [
+        {
+            "id": 36,
+            "MaxLevel": 10,
+            "display_name": "Aumentar Capacidade de Carga",
+            "skill_type": "",
+            "position": 1,
+            "handle_name": "MC_INCCARRY"
+        },
+        {
+            "skill_type": "",
+            "MaxLevel": 10,
+            "id": 37,
+            "display_name": "Desconto",
+            "handle_name": "MC_DISCOUNT",
+            "position": 8,
+            "pre_requisites": {
+                "MC_INCCARRY": 3
+            }
+        },
+    ],
+    "inherit": [
+        "Novice"
+    ],
+    "ptbr_class_name": "Mercador"
+}
