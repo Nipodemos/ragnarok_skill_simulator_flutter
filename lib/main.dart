@@ -31,18 +31,12 @@ class ActualGrid extends StatefulWidget {
 }
 
 class _ActualGridState extends State<ActualGrid> {
-  Future<List<Skill>> buildList() async {
-    print('eu estou aqui');
+  List<Skill> finalList;
 
-    List<Skill> finalList = List<Skill>.generate(42, (int index) {
+  Future<List<Skill>> buildList(String className) async {
+    finalList ??= List<Skill>.generate(42, (int index) {
       return Skill();
     });
-    finalList = await getSkillsList(finalList, widget.nomeClasse);
-
-    return finalList;
-  }
-
-  Future<List<Skill>> getSkillsList(List<Skill> finalList, String className) async {
     Classe playerClass = classeFromJson(await rootBundle.loadString('skills/' + className + '.json'));
     List<Skill> skills = playerClass.skills;
     for (var i = 0; i < skills.length; i++) {
@@ -54,7 +48,7 @@ class _ActualGridState extends State<ActualGrid> {
     }
     if (playerClass.inherit != null) {
       for (var newClass in playerClass.inherit) {
-        await getSkillsList(finalList, newClass);
+        await buildList(newClass);
       }
     }
     return finalList;
@@ -91,7 +85,7 @@ class _ActualGridState extends State<ActualGrid> {
             return Text('Aguardando dados');
           }
         },
-        future: buildList(),
+        future: buildList(widget.nomeClasse),
       ),
     );
   }
