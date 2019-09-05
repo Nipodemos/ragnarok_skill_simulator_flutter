@@ -2,8 +2,8 @@ use strict;
 use warnings;
 use JSON::XS;
 use utf8;
-use GetPosition qw( getPosition );
-use GetPtBrClassName qw( getBrazilianClassName );
+use GetPosition qw( &getPosition );
+use GetPtBrClassName qw( &getBrazilianClassName );
 
 my $skill_tree_file = 'skill_tree.json';
 my $data;
@@ -32,8 +32,8 @@ CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
     $json_skill_tree->{$class}{'ptbr_class_name'} =
       GetPtBrClassName::getBrazilianClassName($class);
 
-    #print "class is ". $class . "\n";
-    print Dumper( $json_skill_tree->{$class} );
+    print "\n\nclass is ". $class . "\n";
+    #print Dumper( $json_skill_tree->{$class} );
     if ( exists $json_skill_tree->{$class}{'skills'} ) {
 
       SKILL: for (
@@ -43,9 +43,9 @@ CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
           )
         {
 
-            print "skill is "
-              . $json_skill_tree->{$class}{'skills'}[$index]{'handle_name'}
-              . "\n";
+            #print "skill is "
+            #  . $json_skill_tree->{$class}{'skills'}[$index]{'handle_name'}
+            #  . "\n";
 
         #print( Dumper( $json_skill_tree->{$class}{'skills'}{$skill} ) . "\n" );
           CRONUSLINE: foreach my $line (@lines) {
@@ -106,7 +106,7 @@ foreach my $class ( keys %{$json_skill_tree} ) {
 
     #$utf8_encoded_json_text = encode_json $perl_hash_or_arrayref;
     #$perl_hash_or_arrayref  = decode_json $utf8_encoded_json_text;
-    my $json_text = JSON::XS->new->pretty->encode( $json_skill_tree->{$class} );
+    my $json_text = JSON::XS->new->canonical->pretty->encode( $json_skill_tree->{$class} );
     use Data::Dumper;
     print("abrindo arquivo $class.json... ");
     open( WRITE, '>:encoding(UTF-8)', "C:/new_test/$class.json" )
