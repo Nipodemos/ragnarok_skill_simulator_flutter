@@ -1,94 +1,94 @@
 {
+   "inherit" : [
+      "Novice"
+   ],
    "ptbr_class_name" : "Gatuno",
    "skills" : [
       {
-         "handle_name" : "TF_DOUBLE",
-         "position" : "",
          "display_name" : "Ataque Duplo",
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 48
-      },
-      {
-         "skill_type" : "",
-         "display_name" : "Perícia em Esquiva",
-         "MaxLevel" : 10,
-         "id" : 49,
-         "handle_name" : "TF_MISS",
-         "position" : ""
-      },
-      {
+         "handle_name" : "TF_DOUBLE",
+         "id" : 48,
+         "maxLevel" : 10,
          "position" : "",
-         "handle_name" : "TF_STEAL",
-         "MaxLevel" : 10,
-         "display_name" : "Furto",
-         "skill_type" : "",
-         "id" : 50
-      },
-      {
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 51,
-         "display_name" : "Esconderijo",
-         "handle_name" : "TF_HIDING",
-         "position" : "",
-         "pre_requisites" : {
-            "TF_STEAL" : 5
-         }
-      },
-      {
-         "position" : "",
-         "handle_name" : "TF_POISON",
-         "id" : 52,
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "display_name" : "Envenenar"
-      },
-      {
-         "pre_requisites" : {
-            "TF_POISON" : 3
-         },
-         "position" : "",
-         "handle_name" : "TF_DETOXIFY",
-         "display_name" : "Desintoxicar",
-         "id" : 53,
-         "MaxLevel" : 1,
          "skill_type" : ""
       },
       {
-         "skill_type" : "0x1",
+         "display_name" : "Perícia em Esquiva",
+         "handle_name" : "TF_MISS",
+         "id" : 49,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Furto",
+         "handle_name" : "TF_STEAL",
+         "id" : 50,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Esconderijo",
+         "handle_name" : "TF_HIDING",
+         "id" : 51,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "TF_STEAL" : 5
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Envenenar",
+         "handle_name" : "TF_POISON",
+         "id" : 52,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Desintoxicar",
+         "handle_name" : "TF_DETOXIFY",
+         "id" : 53,
+         "maxLevel" : 1,
+         "position" : "",
+         "pre_requisites" : {
+            "TF_POISON" : 3
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Chutar Areia",
-         "MaxLevel" : 1,
-         "id" : 149,
          "handle_name" : "TF_SPRINKLESAND",
-         "position" : ""
+         "id" : 149,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       },
       {
-         "id" : 150,
          "display_name" : "Recuar",
-         "skill_type" : "0x1",
-         "MaxLevel" : 1,
          "handle_name" : "TF_BACKSLIDING",
-         "position" : ""
+         "id" : 150,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       },
       {
-         "handle_name" : "TF_PICKSTONE",
-         "position" : "",
-         "id" : 151,
-         "skill_type" : "0x1",
          "display_name" : "Procurar Pedras",
-         "MaxLevel" : 1
+         "handle_name" : "TF_PICKSTONE",
+         "id" : 151,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       },
       {
-         "handle_name" : "TF_THROWSTONE",
-         "position" : "",
          "display_name" : "Arremessar Pedra",
-         "skill_type" : "0x1",
-         "MaxLevel" : 1,
-         "id" : 152
+         "handle_name" : "TF_THROWSTONE",
+         "id" : 152,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       }
-   ],
-   "inherit" : [
-      "Novice"
    ]
 }

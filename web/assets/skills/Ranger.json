@@ -1,265 +1,265 @@
 {
+   "inherit" : [
+      "Hunter"
+   ],
    "ptbr_class_name" : "Sentinela",
    "skills" : [
       {
-         "position" : "",
+         "display_name" : "Tempestade de Flechas",
          "handle_name" : "RA_ARROWSTORM",
+         "id" : 2233,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "RA_AIMEDBOLT" : 5
          },
-         "display_name" : "Tempestade de Flechas",
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 2233
+         "skill_type" : ""
       },
       {
-         "id" : 2234,
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "pre_requisites" : {
-            "RA_CAMOUFLAGE" : 1,
-            "RA_ARROWSTORM" : 5
-         },
+         "display_name" : "Disparo Selvagem",
          "handle_name" : "RA_FEARBREEZE",
+         "id" : 2234,
+         "maxLevel" : 5,
          "position" : "",
-         "display_name" : "Disparo Selvagem"
+         "pre_requisites" : {
+            "RA_ARROWSTORM" : 5,
+            "RA_CAMOUFLAGE" : 1
+         },
+         "skill_type" : ""
       },
       {
-         "position" : "",
-         "handle_name" : "RA_RANGERMAIN",
-         "MaxLevel" : 10,
          "display_name" : "Táticas de Sobrevivência",
-         "skill_type" : "",
-         "id" : 2235
+         "handle_name" : "RA_RANGERMAIN",
+         "id" : 2235,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
+         "display_name" : "Disparo Certeiro",
+         "handle_name" : "RA_AIMEDBOLT",
+         "id" : 2236,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "HT_ANKLESNARE" : 5
          },
-         "position" : "",
-         "handle_name" : "RA_AIMEDBOLT",
-         "display_name" : "Disparo Certeiro",
-         "id" : 2236,
-         "MaxLevel" : 10,
          "skill_type" : ""
       },
       {
+         "display_name" : "Detonador",
+         "handle_name" : "RA_DETONATOR",
+         "id" : 2237,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "RA_CLUSTERBOMB" : 3
          },
-         "position" : "",
-         "handle_name" : "RA_DETONATOR",
-         "display_name" : "Detonador",
-         "id" : 2237,
-         "MaxLevel" : 1,
          "skill_type" : ""
       },
       {
+         "display_name" : "Armadilha Energizada",
+         "handle_name" : "RA_ELECTRICSHOCKER",
+         "id" : 2238,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "HT_SHOCKWAVE" : 5
          },
-         "handle_name" : "RA_ELECTRICSHOCKER",
-         "position" : "",
-         "display_name" : "Armadilha Energizada",
-         "id" : 2238,
-         "skill_type" : "0x80",
-         "MaxLevel" : 5
+         "skill_type" : "0x80"
       },
       {
          "display_name" : "Bomba Relógio",
+         "handle_name" : "RA_CLUSTERBOMB",
+         "id" : 2239,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "RA_RESEARCHTRAP" : 3
          },
-         "handle_name" : "RA_CLUSTERBOMB",
-         "position" : "",
-         "id" : 2239,
-         "skill_type" : "0x80",
-         "MaxLevel" : 5
+         "skill_type" : "0x80"
       },
       {
-         "id" : 2240,
-         "MaxLevel" : 1,
          "display_name" : "Adestrar Warg",
-         "skill_type" : "",
+         "handle_name" : "RA_WUGMASTERY",
+         "id" : 2240,
+         "maxLevel" : 1,
          "position" : "",
-         "handle_name" : "RA_WUGMASTERY"
-      },
-      {
-         "position" : "",
-         "handle_name" : "RA_WUGRIDER",
-         "pre_requisites" : {
-            "RA_WUGMASTERY" : 1
-         },
-         "display_name" : "Montaria em Warg",
-         "MaxLevel" : 3,
-         "skill_type" : "",
-         "id" : 2241
-      },
-      {
-         "id" : 2242,
-         "MaxLevel" : 1,
-         "skill_type" : "",
-         "pre_requisites" : {
-            "RA_WUGRIDER" : 1
-         },
-         "position" : "",
-         "handle_name" : "RA_WUGDASH",
-         "display_name" : "Warg Dash"
-      },
-      {
-         "position" : "",
-         "handle_name" : "RA_WUGSTRIKE",
-         "pre_requisites" : {
-            "RA_TOOTHOFWUG" : 1
-         },
-         "display_name" : "Investida de Warg",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2243
-      },
-      {
-         "display_name" : "Mordida Feroz",
-         "position" : "",
-         "handle_name" : "RA_WUGBITE",
-         "pre_requisites" : {
-            "RA_WUGMASTERY" : 1
-         },
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2244
-      },
-      {
-         "pre_requisites" : {
-            "RA_WUGMASTERY" : 1
-         },
-         "handle_name" : "RA_TOOTHOFWUG",
-         "position" : "",
-         "display_name" : "Presas Afiadas",
-         "id" : 2245,
-         "skill_type" : "",
-         "MaxLevel" : 10
-      },
-      {
-         "id" : 2246,
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "pre_requisites" : {
-            "RA_TOOTHOFWUG" : 3
-         },
-         "handle_name" : "RA_SENSITIVEKEEN",
-         "position" : "",
-         "display_name" : "Faro Aguçado"
-      },
-      {
-         "display_name" : "Camuflagem",
-         "pre_requisites" : {
-            "RA_RANGERMAIN" : 1
-         },
-         "position" : "",
-         "handle_name" : "RA_CAMOUFLAGE",
-         "id" : 2247,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
-         "handle_name" : "RA_RESEARCHTRAP",
+         "display_name" : "Montaria em Warg",
+         "handle_name" : "RA_WUGRIDER",
+         "id" : 2241,
+         "maxLevel" : 3,
          "position" : "",
          "pre_requisites" : {
-            "HT_REMOVETRAP" : 1,
-            "HT_CLAYMORETRAP" : 1
+            "RA_WUGMASTERY" : 1
          },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Warg Dash",
+         "handle_name" : "RA_WUGDASH",
+         "id" : 2242,
+         "maxLevel" : 1,
+         "position" : "",
+         "pre_requisites" : {
+            "RA_WUGRIDER" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Investida de Warg",
+         "handle_name" : "RA_WUGSTRIKE",
+         "id" : 2243,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "RA_TOOTHOFWUG" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Mordida Feroz",
+         "handle_name" : "RA_WUGBITE",
+         "id" : 2244,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "RA_WUGMASTERY" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Presas Afiadas",
+         "handle_name" : "RA_TOOTHOFWUG",
+         "id" : 2245,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "RA_WUGMASTERY" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Faro Aguçado",
+         "handle_name" : "RA_SENSITIVEKEEN",
+         "id" : 2246,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "RA_TOOTHOFWUG" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Camuflagem",
+         "handle_name" : "RA_CAMOUFLAGE",
+         "id" : 2247,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "RA_RANGERMAIN" : 1
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Perícia com Armadilha",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2248
+         "handle_name" : "RA_RESEARCHTRAP",
+         "id" : 2248,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "HT_CLAYMORETRAP" : 1,
+            "HT_REMOVETRAP" : 1
+         },
+         "skill_type" : ""
       },
       {
-         "skill_type" : "0x80",
-         "MaxLevel" : 1,
-         "id" : 2249,
+         "display_name" : "Armadilha Escarlate",
          "handle_name" : "RA_MAGENTATRAP",
+         "id" : 2249,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "RA_RESEARCHTRAP" : 1
          },
-         "display_name" : "Armadilha Escarlate"
+         "skill_type" : "0x80"
       },
       {
-         "id" : 2250,
-         "MaxLevel" : 1,
-         "skill_type" : "0x80",
          "display_name" : "Armadilha Cobalto",
+         "handle_name" : "RA_COBALTTRAP",
+         "id" : 2250,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "RA_RESEARCHTRAP" : 1
          },
-         "position" : "",
-         "handle_name" : "RA_COBALTTRAP"
+         "skill_type" : "0x80"
       },
       {
-         "id" : 2251,
-         "MaxLevel" : 1,
-         "skill_type" : "0x80",
          "display_name" : "Armadilha Ocre",
+         "handle_name" : "RA_MAIZETRAP",
+         "id" : 2251,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "RA_RESEARCHTRAP" : 1
          },
-         "position" : "",
-         "handle_name" : "RA_MAIZETRAP"
+         "skill_type" : "0x80"
       },
       {
-         "MaxLevel" : 1,
-         "skill_type" : "0x80",
-         "id" : 2252,
-         "position" : "",
+         "display_name" : "Armadilha Esmeralda",
          "handle_name" : "RA_VERDURETRAP",
+         "id" : 2252,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "RA_RESEARCHTRAP" : 1
          },
-         "display_name" : "Armadilha Esmeralda"
+         "skill_type" : "0x80"
       },
       {
          "display_name" : "Armadilha Incendiária",
-         "pre_requisites" : {
-            "RA_DETONATOR" : 1
-         },
          "handle_name" : "RA_FIRINGTRAP",
-         "position" : "",
          "id" : 2253,
-         "skill_type" : "0x80",
-         "MaxLevel" : 5
-      },
-      {
-         "MaxLevel" : 5,
-         "skill_type" : "0x80",
-         "id" : 2254,
+         "maxLevel" : 5,
          "position" : "",
-         "handle_name" : "RA_ICEBOUNDTRAP",
          "pre_requisites" : {
             "RA_DETONATOR" : 1
          },
-         "display_name" : "Armadilha Glacial"
+         "skill_type" : "0x80"
       },
       {
+         "display_name" : "Armadilha Glacial",
+         "handle_name" : "RA_ICEBOUNDTRAP",
+         "id" : 2254,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "RA_DETONATOR" : 1
+         },
+         "skill_type" : "0x80"
+      },
+      {
+         "display_name" : "Unlimited",
+         "handle_name" : "RA_UNLIMIT",
          "id" : 5002,
-         "skill_type" : "",
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "RA_FEARBREEZE" : 5
          },
-         "handle_name" : "RA_UNLIMIT",
-         "position" : "",
-         "display_name" : "Unlimited"
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
          "display_name" : "Full Throttle",
-         "MaxLevel" : 5,
-         "id" : 5014,
          "handle_name" : "ALL_FULL_THROTTLE",
-         "position" : ""
+         "id" : 5014,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       }
-   ],
-   "inherit" : [
-      "Hunter"
    ]
 }

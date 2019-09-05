@@ -2,129 +2,129 @@
    "inherit" : [
       "Thief"
    ],
+   "ptbr_class_name" : "MercenÃ¡rio",
    "skills" : [
       {
-         "handle_name" : "AS_RIGHT",
-         "position" : "",
-         "id" : 132,
-         "skill_type" : "",
          "display_name" : "Perícia com Mão Direita",
-         "MaxLevel" : 5
+         "handle_name" : "AS_RIGHT",
+         "id" : 132,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       },
       {
          "display_name" : "Perícia com Mão Esquerda",
-         "position" : "",
          "handle_name" : "AS_LEFT",
+         "id" : 133,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "AS_RIGHT" : 2
          },
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 133
+         "skill_type" : ""
       },
       {
-         "id" : 134,
-         "MaxLevel" : 10,
          "display_name" : "Perícia com Katar",
-         "skill_type" : "",
+         "handle_name" : "AS_KATAR",
+         "id" : 134,
+         "maxLevel" : 10,
          "position" : "",
-         "handle_name" : "AS_KATAR"
+         "skill_type" : ""
       },
       {
          "display_name" : "Furtividade",
-         "position" : "",
          "handle_name" : "AS_CLOAKING",
+         "id" : 135,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "TF_HIDING" : 2
          },
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 135
+         "skill_type" : ""
       },
       {
+         "display_name" : "Lâminas Destruidoras",
+         "handle_name" : "AS_SONICBLOW",
+         "id" : 136,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AS_KATAR" : 4
          },
-         "handle_name" : "AS_SONICBLOW",
-         "position" : "",
-         "display_name" : "Lâminas Destruidoras",
-         "id" : 136,
-         "skill_type" : "",
-         "MaxLevel" : 10
+         "skill_type" : ""
       },
       {
          "display_name" : "Tocaia",
          "handle_name" : "AS_GRIMTOOTH",
+         "id" : 137,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
-            "AS_SONICBLOW" : 5,
-            "AS_CLOAKING" : 2
+            "AS_CLOAKING" : 2,
+            "AS_SONICBLOW" : 5
          },
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 137
-      },
-      {
-         "id" : 138,
-         "skill_type" : "0x400",
-         "MaxLevel" : 10,
-         "pre_requisites" : {
-            "TF_POISON" : 1
-         },
-         "handle_name" : "AS_ENCHANTPOISON",
-         "position" : "",
-         "display_name" : "Envenenar Arma"
-      },
-      {
-         "pre_requisites" : {
-            "AS_ENCHANTPOISON" : 3
-         },
-         "position" : "",
-         "handle_name" : "AS_POISONREACT",
-         "display_name" : "Refletir Veneno",
-         "id" : 139,
-         "MaxLevel" : 10,
          "skill_type" : ""
       },
       {
+         "display_name" : "Envenenar Arma",
+         "handle_name" : "AS_ENCHANTPOISON",
+         "id" : 138,
+         "maxLevel" : 10,
          "position" : "",
+         "pre_requisites" : {
+            "TF_POISON" : 1
+         },
+         "skill_type" : "0x400"
+      },
+      {
+         "display_name" : "Refletir Veneno",
+         "handle_name" : "AS_POISONREACT",
+         "id" : 139,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "AS_ENCHANTPOISON" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Névoa Tóxica",
          "handle_name" : "AS_VENOMDUST",
+         "id" : 140,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AS_ENCHANTPOISON" : 5
          },
-         "display_name" : "Névoa Tóxica",
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 140
+         "skill_type" : ""
       },
       {
+         "display_name" : "Explosão Tóxica",
+         "handle_name" : "AS_SPLASHER",
          "id" : 141,
-         "MaxLevel" : 10,
-         "skill_type" : "",
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AS_POISONREACT" : 5,
             "AS_VENOMDUST" : 5
          },
-         "position" : "",
-         "handle_name" : "AS_SPLASHER",
-         "display_name" : "Explosão Tóxica"
+         "skill_type" : ""
       },
       {
-         "skill_type" : "0x1",
          "display_name" : "Sonic Acceleration",
-         "MaxLevel" : 1,
-         "id" : 1003,
          "handle_name" : "AS_SONICACCEL",
-         "position" : ""
+         "id" : 1003,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       },
       {
-         "position" : "",
+         "display_name" : "Throw Venom Knife",
          "handle_name" : "AS_VENOMKNIFE",
          "id" : 1004,
-         "MaxLevel" : 1,
-         "skill_type" : "0x1",
-         "display_name" : "Throw Venom Knife"
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       }
-   ],
-   "ptbr_class_name" : "Mercenário"
+   ]
 }

@@ -1,163 +1,163 @@
 {
+   "inherit" : [
+      "Magician"
+   ],
    "ptbr_class_name" : "Bruxo",
    "skills" : [
       {
-         "id" : 80,
-         "skill_type" : "0x80",
-         "MaxLevel" : 10,
          "display_name" : "Coluna de Fogo",
+         "handle_name" : "WZ_FIREPILLAR",
+         "id" : 80,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "MG_FIREWALL" : 1
          },
-         "handle_name" : "WZ_FIREPILLAR",
-         "position" : ""
+         "skill_type" : "0x80"
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 81,
          "display_name" : "Supernova",
          "handle_name" : "WZ_SIGHTRASHER",
+         "id" : 81,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
-            "MG_SIGHT" : 1,
-            "MG_LIGHTNINGBOLT" : 1
-         }
+            "MG_LIGHTNINGBOLT" : 1,
+            "MG_SIGHT" : 1
+         },
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Chuva de Meteoros",
          "handle_name" : "WZ_METEOR",
+         "id" : 83,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "MG_THUNDERSTORM" : 1,
             "WZ_SIGHTRASHER" : 2
          },
-         "display_name" : "Chuva de Meteoros",
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 83
-      },
-      {
-         "pre_requisites" : {
-            "MG_NAPALMBEAT" : 1,
-            "MG_LIGHTNINGBOLT" : 1
-         },
-         "handle_name" : "WZ_JUPITEL",
-         "position" : "",
-         "display_name" : "Trovão de Júpiter",
-         "id" : 84,
-         "skill_type" : "",
-         "MaxLevel" : 10
-      },
-      {
-         "display_name" : "Ira de Thor",
-         "pre_requisites" : {
-            "WZ_JUPITEL" : 5,
-            "MG_THUNDERSTORM" : 1
-         },
-         "handle_name" : "WZ_VERMILION",
-         "position" : "",
-         "id" : 85,
-         "skill_type" : "",
-         "MaxLevel" : 10
-      },
-      {
-         "display_name" : "Esfera d'Água",
-         "pre_requisites" : {
-            "MG_LIGHTNINGBOLT" : 1,
-            "MG_COLDBOLT" : 1
-         },
-         "position" : "",
-         "handle_name" : "WZ_WATERBALL",
-         "id" : 86,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 87,
-         "handle_name" : "WZ_ICEWALL",
+         "display_name" : "Trovão de Júpiter",
+         "handle_name" : "WZ_JUPITEL",
+         "id" : 84,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
-            "MG_STONECURSE" : 1,
-            "MG_FROSTDIVER" : 1
+            "MG_LIGHTNINGBOLT" : 1,
+            "MG_NAPALMBEAT" : 1
          },
-         "display_name" : "Barreira de Gelo"
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 88,
+         "display_name" : "Ira de Thor",
+         "handle_name" : "WZ_VERMILION",
+         "id" : 85,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "MG_THUNDERSTORM" : 1,
+            "WZ_JUPITEL" : 5
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Esfera d'Água",
+         "handle_name" : "WZ_WATERBALL",
+         "id" : 86,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "MG_COLDBOLT" : 1,
+            "MG_LIGHTNINGBOLT" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Barreira de Gelo",
+         "handle_name" : "WZ_ICEWALL",
+         "id" : 87,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "MG_FROSTDIVER" : 1,
+            "MG_STONECURSE" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Congelar",
          "handle_name" : "WZ_FROSTNOVA",
+         "id" : 88,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
             "WZ_ICEWALL" : 1
          },
-         "display_name" : "Congelar"
+         "skill_type" : ""
       },
       {
-         "position" : "",
-         "handle_name" : "WZ_STORMGUST",
-         "pre_requisites" : {
-            "WZ_JUPITEL" : 3,
-            "MG_FROSTDIVER" : 1
-         },
          "display_name" : "Nevasca",
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 89
+         "handle_name" : "WZ_STORMGUST",
+         "id" : 89,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "MG_FROSTDIVER" : 1,
+            "WZ_JUPITEL" : 3
+         },
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 90,
          "display_name" : "Coluna de Pedra",
          "handle_name" : "WZ_EARTHSPIKE",
+         "id" : 90,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "MG_STONECURSE" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 91,
-         "position" : "",
+         "display_name" : "Fúria da Terra",
          "handle_name" : "WZ_HEAVENDRIVE",
+         "id" : 91,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WZ_EARTHSPIKE" : 3
          },
-         "display_name" : "Fúria da Terra"
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 92,
          "display_name" : "Pântano dos Mortos",
          "handle_name" : "WZ_QUAGMIRE",
+         "id" : 92,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "WZ_HEAVENDRIVE" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
-         "handle_name" : "WZ_ESTIMATION",
-         "position" : "",
-         "id" : 93,
-         "skill_type" : "",
          "display_name" : "Sentido Sobrenatural",
-         "MaxLevel" : 1
+         "handle_name" : "WZ_ESTIMATION",
+         "id" : 93,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "position" : "",
-         "handle_name" : "WZ_SIGHTBLASTER",
-         "MaxLevel" : 1,
          "display_name" : "Sight Blaster",
-         "skill_type" : "0x1",
-         "id" : 1006
+         "handle_name" : "WZ_SIGHTBLASTER",
+         "id" : 1006,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       }
-   ],
-   "inherit" : [
-      "Magician"
    ]
 }

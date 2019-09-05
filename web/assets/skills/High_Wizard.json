@@ -2,74 +2,74 @@
    "inherit" : [
       "Wizard"
    ],
+   "ptbr_class_name" : "Arquimago",
    "skills" : [
       {
-         "pre_requisites" : {
-            "MG_SRECOVERY" : 5,
-            "MG_SOULSTRIKE" : 7
-         },
-         "position" : "",
-         "handle_name" : "HW_SOULDRAIN",
          "display_name" : "Dreno de Alma",
+         "handle_name" : "HW_SOULDRAIN",
          "id" : 364,
-         "MaxLevel" : 10,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "MG_SOULSTRIKE" : 7,
+            "MG_SRECOVERY" : 5
+         },
          "skill_type" : ""
       },
       {
+         "display_name" : "Esmagamento Mágico",
+         "handle_name" : "HW_MAGICCRASHER",
          "id" : 365,
-         "MaxLevel" : 1,
-         "skill_type" : "",
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "MG_SRECOVERY" : 1
          },
-         "position" : "",
-         "handle_name" : "HW_MAGICCRASHER",
-         "display_name" : "Esmagamento Mágico"
-      },
-      {
-         "position" : "",
-         "handle_name" : "HW_MAGICPOWER",
-         "id" : 366,
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "display_name" : "Amplificação Mística"
-      },
-      {
-         "pre_requisites" : {
-            "MG_NAPALMBEAT" : 5
-         },
-         "position" : "",
-         "handle_name" : "HW_NAPALMVULCAN",
-         "display_name" : "Vulcão Napalm",
-         "id" : 400,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
+         "display_name" : "Amplificação Mística",
+         "handle_name" : "HW_MAGICPOWER",
+         "id" : 366,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Vulcão Napalm",
+         "handle_name" : "HW_NAPALMVULCAN",
+         "id" : 400,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "MG_NAPALMBEAT" : 5
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Ganbantein",
+         "handle_name" : "HW_GANBANTEIN",
          "id" : 483,
-         "skill_type" : "",
-         "MaxLevel" : 1,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "WZ_ESTIMATION" : 1,
             "WZ_ICEWALL" : 1
          },
-         "handle_name" : "HW_GANBANTEIN",
-         "position" : "",
-         "display_name" : "Ganbantein"
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 484,
          "display_name" : "Campo Gravitacional",
-         "position" : "",
          "handle_name" : "HW_GRAVITATION",
+         "id" : 484,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
-            "HW_MAGICPOWER" : 10,
             "HW_MAGICCRASHER" : 1,
+            "HW_MAGICPOWER" : 10,
             "WZ_QUAGMIRE" : 1
-         }
+         },
+         "skill_type" : ""
       }
-   ],
-   "ptbr_class_name" : "Arquimago"
+   ]
 }

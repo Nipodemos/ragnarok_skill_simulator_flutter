@@ -1,158 +1,158 @@
 {
-   "ptbr_class_name" : "Noviço",
+   "inherit" : [
+      "Novice"
+   ],
+   "ptbr_class_name" : "NoviÃ§o",
    "skills" : [
       {
-         "handle_name" : "AL_DP",
-         "position" : "",
-         "id" : 22,
-         "skill_type" : "",
          "display_name" : "Proteção Divina",
-         "MaxLevel" : 10
+         "handle_name" : "AL_DP",
+         "id" : 22,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
+         "display_name" : "Flagelo do Mal",
+         "handle_name" : "AL_DEMONBANE",
          "id" : 23,
-         "MaxLevel" : 10,
-         "skill_type" : "",
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AL_DP" : 3
          },
-         "position" : "",
-         "handle_name" : "AL_DEMONBANE",
-         "display_name" : "Flagelo do Mal"
+         "skill_type" : ""
       },
       {
-         "id" : 24,
          "display_name" : "Revelação",
-         "skill_type" : "",
-         "MaxLevel" : 1,
          "handle_name" : "AL_RUWACH",
-         "position" : ""
+         "id" : 24,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : ""
       },
       {
+         "display_name" : "Escudo Sagrado",
          "handle_name" : "AL_PNEUMA",
+         "id" : 25,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "AL_WARP" : 4
          },
-         "display_name" : "Escudo Sagrado",
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 25
+         "skill_type" : ""
       },
       {
          "display_name" : "Teleporte",
          "handle_name" : "AL_TELEPORT",
+         "id" : 26,
+         "maxLevel" : 2,
          "position" : "",
          "pre_requisites" : {
             "AL_RUWACH" : 1
          },
-         "skill_type" : "",
-         "MaxLevel" : 2,
-         "id" : 26
-      },
-      {
-         "display_name" : "Portal",
-         "pre_requisites" : {
-            "AL_TELEPORT" : 2
-         },
-         "handle_name" : "AL_WARP",
-         "position" : "",
-         "id" : 27,
-         "skill_type" : "",
-         "MaxLevel" : 4
-      },
-      {
-         "id" : 28,
-         "display_name" : "Curar",
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "handle_name" : "AL_HEAL",
-         "position" : ""
-      },
-      {
-         "pre_requisites" : {
-            "AL_HEAL" : 3
-         },
-         "handle_name" : "AL_INCAGI",
-         "position" : "",
-         "display_name" : "Aumentar Agilidade",
-         "id" : 29,
-         "skill_type" : "",
-         "MaxLevel" : 10
-      },
-      {
-         "pre_requisites" : {
-            "AL_INCAGI" : 1
-         },
-         "position" : "",
-         "handle_name" : "AL_DECAGI",
-         "display_name" : "Diminuir Agilidade",
-         "id" : 30,
-         "MaxLevel" : 10,
          "skill_type" : ""
       },
       {
-         "id" : 31,
-         "display_name" : "Aqua Benedicta",
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "handle_name" : "AL_HOLYWATER",
-         "position" : ""
+         "display_name" : "Portal",
+         "handle_name" : "AL_WARP",
+         "id" : 27,
+         "maxLevel" : 4,
+         "position" : "",
+         "pre_requisites" : {
+            "AL_TELEPORT" : 2
+         },
+         "skill_type" : ""
       },
       {
-         "id" : 32,
-         "MaxLevel" : 10,
-         "skill_type" : "",
+         "display_name" : "Curar",
+         "handle_name" : "AL_HEAL",
+         "id" : 28,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Aumentar Agilidade",
+         "handle_name" : "AL_INCAGI",
+         "id" : 29,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "AL_HEAL" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Diminuir Agilidade",
+         "handle_name" : "AL_DECAGI",
+         "id" : 30,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "AL_INCAGI" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Aqua Benedicta",
+         "handle_name" : "AL_HOLYWATER",
+         "id" : 31,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Signum Crusis",
+         "handle_name" : "AL_CRUCIS",
+         "id" : 32,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AL_DEMONBANE" : 3
          },
-         "position" : "",
-         "handle_name" : "AL_CRUCIS"
+         "skill_type" : ""
       },
       {
-         "id" : 33,
-         "MaxLevel" : 10,
-         "skill_type" : "",
          "display_name" : "Angelus",
+         "handle_name" : "AL_ANGELUS",
+         "id" : 33,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AL_DP" : 3
          },
-         "position" : "",
-         "handle_name" : "AL_ANGELUS"
+         "skill_type" : ""
       },
       {
-         "id" : 34,
-         "MaxLevel" : 10,
-         "skill_type" : "",
          "display_name" : "Benção",
+         "handle_name" : "AL_BLESSING",
+         "id" : 34,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AL_DP" : 5
          },
-         "position" : "",
-         "handle_name" : "AL_BLESSING"
+         "skill_type" : ""
       },
       {
          "display_name" : "Medicar",
          "handle_name" : "AL_CURE",
+         "id" : 35,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "AL_HEAL" : 2
          },
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 35
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 1,
-         "skill_type" : "0x1",
          "display_name" : "Luz Divina",
+         "handle_name" : "AL_HOLYLIGHT",
          "id" : 156,
+         "maxLevel" : 1,
          "position" : "",
-         "handle_name" : "AL_HOLYLIGHT"
+         "skill_type" : "0x1"
       }
-   ],
-   "inherit" : [
-      "Novice"
    ]
 }

@@ -1,224 +1,224 @@
 {
+   "inherit" : [
+      "Alchemist"
+   ],
+   "ptbr_class_name" : "BioquÃ­mico",
    "skills" : [
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
          "display_name" : "Perícia em Esgrima",
+         "handle_name" : "GN_TRAINING_SWORD",
          "id" : 2474,
+         "maxLevel" : 5,
          "position" : "",
-         "handle_name" : "GN_TRAINING_SWORD"
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Aprimorar Carrinho",
          "handle_name" : "GN_REMODELING_CART",
          "id" : 2475,
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "display_name" : "Aprimorar Carrinho"
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       },
       {
+         "display_name" : "Tornado de Carrinho",
+         "handle_name" : "GN_CART_TORNADO",
+         "id" : 2476,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "GN_REMODELING_CART" : 1
          },
-         "handle_name" : "GN_CART_TORNADO",
-         "position" : "",
-         "display_name" : "Tornado de Carrinho",
-         "id" : 2476,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2477,
+         "display_name" : "Canhão de Prótons",
          "handle_name" : "GN_CARTCANNON",
+         "id" : 2477,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "GN_REMODELING_CART" : 2
          },
-         "display_name" : "Canhão de Prótons"
-      },
-      {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2478,
-         "display_name" : "Propulsão do Carrinho",
-         "position" : "",
-         "handle_name" : "GN_CARTBOOST",
-         "pre_requisites" : {
-            "GN_REMODELING_CART" : 3
-         }
-      },
-      {
-         "id" : 2479,
-         "skill_type" : "0x80",
-         "MaxLevel" : 5,
-         "display_name" : "Armadilha de Espinhos",
-         "pre_requisites" : {
-            "GN_S_PHARMACY" : 2
-         },
-         "handle_name" : "GN_THORNS_TRAP",
-         "position" : ""
-      },
-      {
-         "display_name" : "Planta Sanguessuga",
-         "pre_requisites" : {
-            "GN_S_PHARMACY" : 3
-         },
-         "handle_name" : "GN_BLOOD_SUCKER",
-         "position" : "",
-         "id" : 2480,
-         "skill_type" : "",
-         "MaxLevel" : 5
-      },
-      {
-         "id" : 2481,
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "display_name" : "Esporo Explosivo",
-         "pre_requisites" : {
-            "GN_S_PHARMACY" : 4
-         },
-         "position" : "",
-         "handle_name" : "GN_SPORE_EXPLOSION"
-      },
-      {
-         "id" : 2482,
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "display_name" : "Muralha de Espinhos",
-         "pre_requisites" : {
-            "GN_THORNS_TRAP" : 3
-         },
-         "handle_name" : "GN_WALLOFTHORN",
-         "position" : ""
-      },
-      {
-         "pre_requisites" : {
-            "GN_WALLOFTHORN" : 3
-         },
-         "position" : "",
-         "handle_name" : "GN_CRAZYWEED",
-         "display_name" : "Erva Daninha",
-         "id" : 2483,
-         "MaxLevel" : 10,
          "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2485,
+         "display_name" : "Propulsão do Carrinho",
+         "handle_name" : "GN_CARTBOOST",
+         "id" : 2478,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "GN_REMODELING_CART" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Armadilha de Espinhos",
+         "handle_name" : "GN_THORNS_TRAP",
+         "id" : 2479,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "GN_S_PHARMACY" : 2
+         },
+         "skill_type" : "0x80"
+      },
+      {
+         "display_name" : "Planta Sanguessuga",
+         "handle_name" : "GN_BLOOD_SUCKER",
+         "id" : 2480,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "GN_S_PHARMACY" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Esporo Explosivo",
+         "handle_name" : "GN_SPORE_EXPLOSION",
+         "id" : 2481,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "GN_S_PHARMACY" : 4
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Muralha de Espinhos",
+         "handle_name" : "GN_WALLOFTHORN",
+         "id" : 2482,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "GN_THORNS_TRAP" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Erva Daninha",
+         "handle_name" : "GN_CRAZYWEED",
+         "id" : 2483,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "GN_WALLOFTHORN" : 3
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Bomba Napalm",
          "handle_name" : "GN_DEMONIC_FIRE",
+         "id" : 2485,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "GN_SPORE_EXPLOSION" : 3
-         }
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Catalisador Alquímico",
+         "handle_name" : "GN_FIRE_EXPANSION",
          "id" : 2486,
-         "MaxLevel" : 5,
-         "skill_type" : "",
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "GN_DEMONIC_FIRE" : 3
          },
-         "position" : "",
-         "handle_name" : "GN_FIRE_EXPANSION",
-         "display_name" : "Catalisador Alquímico"
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "0x80",
-         "id" : 2490,
          "display_name" : "Planta Infernal",
-         "position" : "",
          "handle_name" : "GN_HELLS_PLANT",
+         "id" : 2490,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "GN_BLOOD_SUCKER" : 3
-         }
+         },
+         "skill_type" : "0x80"
       },
       {
          "display_name" : "Grito da Mandrágora",
+         "handle_name" : "GN_MANDRAGORA",
+         "id" : 2492,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "GN_HELLS_PLANT" : 3
          },
-         "handle_name" : "GN_MANDRAGORA",
-         "position" : "",
-         "id" : 2492,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 1,
-         "skill_type" : "",
-         "id" : 2493,
-         "position" : "",
+         "display_name" : "Arremessar Item",
          "handle_name" : "GN_SLINGITEM",
+         "id" : 2493,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "GN_CHANGEMATERIAL" : 1
          },
-         "display_name" : "Arremessar Item"
+         "skill_type" : ""
       },
       {
-         "handle_name" : "GN_CHANGEMATERIAL",
-         "position" : "",
          "display_name" : "Reação Alquímica",
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 2494
+         "handle_name" : "GN_CHANGEMATERIAL",
+         "id" : 2494,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 2,
-         "id" : 2495,
          "display_name" : "Culinária Avançada",
          "handle_name" : "GN_MIX_COOKING",
+         "id" : 2495,
+         "maxLevel" : 2,
          "position" : "",
          "pre_requisites" : {
             "GN_S_PHARMACY" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Criar Bomba Orgânica",
          "handle_name" : "GN_MAKEBOMB",
+         "id" : 2496,
+         "maxLevel" : 2,
+         "position" : "",
          "pre_requisites" : {
             "GN_MIX_COOKING" : 1
          },
-         "display_name" : "Criar Bomba Orgânica",
-         "MaxLevel" : 2,
-         "skill_type" : "",
-         "id" : 2496
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
          "display_name" : "Farmacologia Avançada",
-         "MaxLevel" : 10,
-         "id" : 2497,
          "handle_name" : "GN_S_PHARMACY",
-         "position" : ""
+         "id" : 2497,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
+         "display_name" : "Illusion Doping",
+         "handle_name" : "GN_ILLUSIONDOPING",
          "id" : 5003,
-         "skill_type" : "",
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "GN_S_PHARMACY" : 1
          },
-         "handle_name" : "GN_ILLUSIONDOPING",
-         "position" : "",
-         "display_name" : "Illusion Doping"
+         "skill_type" : ""
       },
       {
-         "handle_name" : "ALL_FULL_THROTTLE",
-         "position" : "",
          "display_name" : "Full Throttle",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 5014
+         "handle_name" : "ALL_FULL_THROTTLE",
+         "id" : 5014,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       }
-   ],
-   "inherit" : [
-      "Alchemist"
-   ],
-   "ptbr_class_name" : "Bioquímico"
+   ]
 }

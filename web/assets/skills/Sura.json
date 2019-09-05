@@ -2,278 +2,278 @@
    "inherit" : [
       "Monk"
    ],
+   "ptbr_class_name" : "Shura",
    "skills" : [
       {
          "display_name" : "Punho do Dragão",
          "handle_name" : "SR_DRAGONCOMBO",
+         "id" : 2326,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
             "MO_TRIPLEATTACK" : 5
          },
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 2326
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2327,
-         "position" : "",
+         "display_name" : "Soco Furação",
          "handle_name" : "SR_SKYNETBLOW",
+         "id" : 2327,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SR_DRAGONCOMBO" : 3
          },
-         "display_name" : "Soco Furação"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Impacto Sísmico",
          "handle_name" : "SR_EARTHSHAKER",
+         "id" : 2328,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "SR_CURSEDCIRCLE" : 1,
             "SR_DRAGONCOMBO" : 1
          },
-         "display_name" : "Impacto Sísmico",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2328
+         "skill_type" : ""
       },
       {
          "display_name" : "Ruína",
          "handle_name" : "SR_FALLENEMPIRE",
+         "id" : 2329,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "SR_DRAGONCOMBO" : 1
          },
-         "skill_type" : "0x200",
-         "MaxLevel" : 5,
-         "id" : 2329
+         "skill_type" : "0x200"
       },
       {
+         "display_name" : "Garra de Tigre",
+         "handle_name" : "SR_TIGERCANNON",
+         "id" : 2330,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "SR_FALLENEMPIRE" : 3
          },
-         "position" : "",
-         "handle_name" : "SR_TIGERCANNON",
-         "display_name" : "Garra de Tigre",
-         "id" : 2330,
-         "MaxLevel" : 10,
          "skill_type" : ""
       },
       {
+         "display_name" : "Explosão Espiritual",
+         "handle_name" : "SR_RAMPAGEBLASTER",
+         "id" : 2332,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SR_EARTHSHAKER" : 2
          },
-         "handle_name" : "SR_RAMPAGEBLASTER",
-         "position" : "",
-         "display_name" : "Explosão Espiritual",
-         "id" : 2332,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
-         "id" : 2333,
-         "skill_type" : "",
-         "MaxLevel" : 5,
          "display_name" : "Cotovelada Ascendente",
+         "handle_name" : "SR_CRESCENTELBOW",
+         "id" : 2333,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SR_SKYNETBLOW" : 1
          },
-         "handle_name" : "SR_CRESCENTELBOW",
-         "position" : ""
+         "skill_type" : ""
       },
       {
          "display_name" : "Campo Amaldiçoado",
-         "position" : "",
          "handle_name" : "SR_CURSEDCIRCLE",
+         "id" : 2334,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "MO_BLADESTOP" : 2,
             "SR_GENTLETOUCH_QUIET" : 2
          },
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2334
-      },
-      {
-         "position" : "",
-         "handle_name" : "SR_LIGHTNINGWALK",
-         "pre_requisites" : {
-            "SR_WINDMILL" : 1
-         },
-         "display_name" : "Salto Relâmpago",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2335
-      },
-      {
-         "display_name" : "Investida de Shura",
-         "pre_requisites" : {
-            "SR_RAMPAGEBLASTER" : 3,
-            "SR_LIGHTNINGWALK" : 3
-         },
-         "position" : "",
-         "handle_name" : "SR_KNUCKLEARROW",
-         "id" : 2336,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
-         "MaxLevel" : 1,
-         "skill_type" : "",
-         "id" : 2337,
+         "display_name" : "Salto Relâmpago",
+         "handle_name" : "SR_LIGHTNINGWALK",
+         "id" : 2335,
+         "maxLevel" : 5,
          "position" : "",
+         "pre_requisites" : {
+            "SR_WINDMILL" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Investida de Shura",
+         "handle_name" : "SR_KNUCKLEARROW",
+         "id" : 2336,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SR_LIGHTNINGWALK" : 3,
+            "SR_RAMPAGEBLASTER" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Rasteira",
          "handle_name" : "SR_WINDMILL",
+         "id" : 2337,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "SR_CURSEDCIRCLE" : 1
          },
-         "display_name" : "Rasteira"
+         "skill_type" : ""
       },
       {
          "display_name" : "Dragão Ascendente",
          "handle_name" : "SR_RAISINGDRAGON",
+         "id" : 2338,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
-            "SR_RAMPAGEBLASTER" : 3,
-            "SR_GENTLETOUCH_ENERGYGAIN" : 3
+            "SR_GENTLETOUCH_ENERGYGAIN" : 3,
+            "SR_RAMPAGEBLASTER" : 3
          },
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 2338
+         "skill_type" : ""
       },
       {
-         "handle_name" : "SR_ASSIMILATEPOWER",
-         "position" : "",
-         "pre_requisites" : {
-            "SR_POWERVELOCITY" : 1,
-            "MO_ABSORBSPIRITS" : 1
-         },
          "display_name" : "Absorção Espiritual",
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 2340
+         "handle_name" : "SR_ASSIMILATEPOWER",
+         "id" : 2340,
+         "maxLevel" : 1,
+         "position" : "",
+         "pre_requisites" : {
+            "MO_ABSORBSPIRITS" : 1,
+            "SR_POWERVELOCITY" : 1
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Renúncia Espiritual",
          "handle_name" : "SR_POWERVELOCITY",
+         "id" : 2341,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "MO_CALLSPIRITS" : 5
          },
-         "display_name" : "Renúncia Espiritual",
-         "skill_type" : "0x200",
-         "MaxLevel" : 1,
-         "id" : 2341
+         "skill_type" : "0x200"
       },
       {
-         "id" : 2343,
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "pre_requisites" : {
-            "SR_TIGERCANNON" : 5,
-            "SR_RAISINGDRAGON" : 5
-         },
-         "position" : "",
+         "display_name" : "Portões do Inferno",
          "handle_name" : "SR_GATEOFHELL",
-         "display_name" : "Portões do Inferno"
-      },
-      {
+         "id" : 2343,
+         "maxLevel" : 10,
          "position" : "",
-         "handle_name" : "SR_GENTLETOUCH_QUIET",
          "pre_requisites" : {
-            "SR_POWERVELOCITY" : 1
+            "SR_RAISINGDRAGON" : 5,
+            "SR_TIGERCANNON" : 5
          },
-         "display_name" : "Chakra do Silêncio",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2344
-      },
-      {
-         "position" : "",
-         "handle_name" : "SR_GENTLETOUCH_CURE",
-         "pre_requisites" : {
-            "SR_POWERVELOCITY" : 1
-         },
-         "display_name" : "Chakra da Cura",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2345
-      },
-      {
-         "display_name" : "Chakra da Energia",
-         "pre_requisites" : {
-            "SR_GENTLETOUCH_QUIET" : 3
-         },
-         "position" : "",
-         "handle_name" : "SR_GENTLETOUCH_ENERGYGAIN",
-         "id" : 2346,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
+         "display_name" : "Chakra do Silêncio",
+         "handle_name" : "SR_GENTLETOUCH_QUIET",
+         "id" : 2344,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SR_POWERVELOCITY" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Chakra da Cura",
+         "handle_name" : "SR_GENTLETOUCH_CURE",
+         "id" : 2345,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SR_POWERVELOCITY" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Chakra da Energia",
+         "handle_name" : "SR_GENTLETOUCH_ENERGYGAIN",
+         "id" : 2346,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SR_GENTLETOUCH_QUIET" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Chakra da Fúria",
+         "handle_name" : "SR_GENTLETOUCH_CHANGE",
+         "id" : 2347,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SR_GENTLETOUCH_CURE" : 4
          },
-         "handle_name" : "SR_GENTLETOUCH_CHANGE",
-         "position" : "",
-         "display_name" : "Chakra da Fúria",
-         "id" : 2347,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
          "display_name" : "Chakra do Vigor",
          "handle_name" : "SR_GENTLETOUCH_REVITALIZE",
+         "id" : 2348,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "SR_GENTLETOUCH_CHANGE" : 5
          },
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2348
+         "skill_type" : ""
       },
       {
          "display_name" : "Rugido do Leão",
-         "position" : "",
          "handle_name" : "SR_HOWLINGOFLION",
+         "id" : 2517,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
-            "SR_RIDEINLIGHTNING" : 3,
-            "SR_ASSIMILATEPOWER" : 1
+            "SR_ASSIMILATEPOWER" : 1,
+            "SR_RIDEINLIGHTNING" : 3
          },
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2517
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Tempestade Espiritual",
          "handle_name" : "SR_RIDEINLIGHTNING",
+         "id" : 2518,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "MO_FINGEROFFENSIVE" : 3
          },
-         "display_name" : "Tempestade Espiritual",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2518
+         "skill_type" : ""
       },
       {
+         "display_name" : "Flash Combo",
+         "handle_name" : "SR_FLASHCOMBO",
          "id" : 5009,
-         "MaxLevel" : 5,
-         "skill_type" : "",
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SR_DRAGONCOMBO" : 3,
             "SR_FALLENEMPIRE" : 3,
             "SR_SKYNETBLOW" : 1,
             "SR_TIGERCANNON" : 1
          },
-         "position" : "",
-         "handle_name" : "SR_FLASHCOMBO",
-         "display_name" : "Flash Combo"
+         "skill_type" : ""
       },
       {
-         "position" : "",
-         "handle_name" : "ALL_FULL_THROTTLE",
-         "MaxLevel" : 5,
          "display_name" : "Full Throttle",
-         "skill_type" : "",
-         "id" : 5014
+         "handle_name" : "ALL_FULL_THROTTLE",
+         "id" : 5014,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       }
-   ],
-   "ptbr_class_name" : "Shura"
+   ]
 }

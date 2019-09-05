@@ -1,6 +1,6 @@
 {
-   "ptbr_class_name" : "Arqueiro Trans",
    "inherit" : [
       "Archer"
-   ]
+   ],
+   "ptbr_class_name" : "Arqueiro Trans"
 }

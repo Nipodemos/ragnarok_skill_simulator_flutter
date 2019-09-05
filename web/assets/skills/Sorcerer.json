@@ -1,325 +1,325 @@
 {
+   "inherit" : [
+      "Sage"
+   ],
+   "ptbr_class_name" : "Feiticeiro",
    "skills" : [
       {
+         "display_name" : "Passos da Salamandra",
+         "handle_name" : "SO_FIREWALK",
+         "id" : 2443,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SA_VOLCANO" : 1
          },
-         "handle_name" : "SO_FIREWALK",
-         "position" : "",
-         "display_name" : "Passos da Salamandra",
-         "id" : 2443,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2444,
          "display_name" : "Passos da Sílfide",
-         "position" : "",
          "handle_name" : "SO_ELECTRICWALK",
+         "id" : 2444,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SA_VIOLENTGALE" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Punho Arcano",
+         "handle_name" : "SO_SPELLFIST",
          "id" : 2445,
-         "skill_type" : "",
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SA_AUTOSPELL" : 4
          },
-         "handle_name" : "SO_SPELLFIST",
-         "position" : "",
-         "display_name" : "Punho Arcano"
+         "skill_type" : ""
       },
       {
          "display_name" : "Castigo de Nerthus",
+         "handle_name" : "SO_EARTHGRAVE",
+         "id" : 2446,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WZ_EARTHSPIKE" : 5
          },
-         "position" : "",
-         "handle_name" : "SO_EARTHGRAVE",
-         "id" : 2446,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
          "display_name" : "Pó de Diamante",
+         "handle_name" : "SO_DIAMONDDUST",
+         "id" : 2447,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SA_DELUGE" : 3
          },
-         "position" : "",
-         "handle_name" : "SO_DIAMONDDUST",
-         "id" : 2447,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
+         "display_name" : "Implosão Tóxica",
          "handle_name" : "SO_POISON_BUSTER",
+         "id" : 2448,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "SO_CLOUD_KILL" : 2
          },
-         "display_name" : "Implosão Tóxica",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2448
+         "skill_type" : ""
       },
       {
+         "display_name" : "Onda Psíquica",
+         "handle_name" : "SO_PSYCHIC_WAVE",
          "id" : 2449,
-         "skill_type" : "",
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SA_DISPELL" : 2
          },
-         "handle_name" : "SO_PSYCHIC_WAVE",
-         "position" : "",
-         "display_name" : "Onda Psíquica"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Maldição de Jormungand",
+         "handle_name" : "SO_CLOUD_KILL",
+         "id" : 2450,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WZ_HEAVENDRIVE" : 5
          },
-         "handle_name" : "SO_CLOUD_KILL",
-         "position" : "",
-         "display_name" : "Maldição de Jormungand",
-         "id" : 2450,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
+         "display_name" : "Encanto de Órion",
+         "handle_name" : "SO_STRIKING",
+         "id" : 2451,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
-            "SA_FROSTWEAPON" : 1,
             "SA_FLAMELAUNCHER" : 1,
+            "SA_FROSTWEAPON" : 1,
             "SA_LIGHTNINGLOADER" : 1,
             "SA_SEISMICWEAPON" : 1
          },
-         "position" : "",
-         "handle_name" : "SO_STRIKING",
-         "display_name" : "Encanto de Órion",
-         "id" : 2451,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
          "display_name" : "Aquecer Terreno",
          "handle_name" : "SO_WARMER",
+         "id" : 2452,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
-            "SA_VOLCANO" : 1,
-            "SA_VIOLENTGALE" : 1
+            "SA_VIOLENTGALE" : 1,
+            "SA_VOLCANO" : 1
          },
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2452
+         "skill_type" : ""
       },
       {
+         "display_name" : "Tornado",
+         "handle_name" : "SO_VACUUM_EXTREME",
+         "id" : 2453,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SA_LANDPROTECTOR" : 2
          },
-         "handle_name" : "SO_VACUUM_EXTREME",
-         "position" : "",
-         "display_name" : "Tornado",
-         "id" : 2453,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
+         "display_name" : "Lanças dos Aesir",
          "handle_name" : "SO_VARETYR_SPEAR",
+         "id" : 2454,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "SA_SEISMICWEAPON" : 1,
             "SA_VIOLENTGALE" : 4
          },
-         "display_name" : "Lanças dos Aesir",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2454
-      },
-      {
-         "id" : 2455,
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "display_name" : "Onda Hipnótica",
-         "pre_requisites" : {
-            "SO_WARMER" : 2
-         },
-         "position" : "",
-         "handle_name" : "SO_ARRULLO"
-      },
-      {
-         "pre_requisites" : {
-            "SO_EL_ANALYSIS" : 1
-         },
-         "position" : "",
-         "handle_name" : "SO_EL_CONTROL",
-         "display_name" : "Domínio Elemental",
-         "id" : 2456,
-         "MaxLevel" : 4,
          "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "id" : 2457,
+         "display_name" : "Onda Hipnótica",
+         "handle_name" : "SO_ARRULLO",
+         "id" : 2455,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SO_WARMER" : 2
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Domínio Elemental",
+         "handle_name" : "SO_EL_CONTROL",
+         "id" : 2456,
+         "maxLevel" : 4,
+         "position" : "",
+         "pre_requisites" : {
+            "SO_EL_ANALYSIS" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Invocar Agni",
          "handle_name" : "SO_SUMMON_AGNI",
+         "id" : 2457,
+         "maxLevel" : 3,
          "position" : "",
          "pre_requisites" : {
             "SO_EL_CONTROL" : 1,
             "SO_WARMER" : 3
          },
-         "display_name" : "Invocar Agni"
+         "skill_type" : ""
       },
       {
          "display_name" : "Invocar Varuna",
-         "pre_requisites" : {
-            "SO_EL_CONTROL" : 1,
-            "SO_DIAMONDDUST" : 3
-         },
          "handle_name" : "SO_SUMMON_AQUA",
-         "position" : "",
          "id" : 2458,
-         "skill_type" : "",
-         "MaxLevel" : 3
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SO_DIAMONDDUST" : 3,
+            "SO_EL_CONTROL" : 1
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Invocar Vayu",
+         "handle_name" : "SO_SUMMON_VENTUS",
          "id" : 2459,
-         "MaxLevel" : 3,
-         "skill_type" : "",
+         "maxLevel" : 3,
+         "position" : "",
          "pre_requisites" : {
             "SO_EL_CONTROL" : 1,
             "SO_VARETYR_SPEAR" : 3
          },
-         "position" : "",
-         "handle_name" : "SO_SUMMON_VENTUS",
-         "display_name" : "Invocar Vayu"
-      },
-      {
-         "pre_requisites" : {
-            "SO_EL_CONTROL" : 1,
-            "SO_EARTHGRAVE" : 3
-         },
-         "position" : "",
-         "handle_name" : "SO_SUMMON_TERA",
-         "display_name" : "Invocar Chandra",
-         "id" : 2460,
-         "MaxLevel" : 3,
          "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 2461,
+         "display_name" : "Invocar Chandra",
+         "handle_name" : "SO_SUMMON_TERA",
+         "id" : 2460,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SO_EARTHGRAVE" : 3,
+            "SO_EL_CONTROL" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Incitar Elemental",
          "handle_name" : "SO_EL_ACTION",
+         "id" : 2461,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "SO_EL_CONTROL" : 3
          },
-         "display_name" : "Incitar Elemental"
+         "skill_type" : ""
       },
       {
          "display_name" : "Análise Elemental",
          "handle_name" : "SO_EL_ANALYSIS",
+         "id" : 2462,
+         "maxLevel" : 2,
          "position" : "",
          "pre_requisites" : {
-            "SA_SEISMICWEAPON" : 1,
-            "SA_LIGHTNINGLOADER" : 1,
             "SA_FLAMELAUNCHER" : 1,
-            "SA_FROSTWEAPON" : 1
+            "SA_FROSTWEAPON" : 1,
+            "SA_LIGHTNINGLOADER" : 1,
+            "SA_SEISMICWEAPON" : 1
          },
-         "skill_type" : "",
-         "MaxLevel" : 2,
-         "id" : 2462
+         "skill_type" : ""
       },
       {
          "display_name" : "Empatia Elemental",
          "handle_name" : "SO_EL_SYMPATHY",
+         "id" : 2463,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "SO_EL_CONTROL" : 3
          },
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2463
-      },
-      {
-         "position" : "",
-         "handle_name" : "SO_EL_CURE",
-         "pre_requisites" : {
-            "SO_EL_SYMPATHY" : 1
-         },
-         "display_name" : "Troca Espiritual",
-         "MaxLevel" : 1,
-         "skill_type" : "",
-         "id" : 2464
-      },
-      {
-         "id" : 2465,
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "pre_requisites" : {
-            "SO_SUMMON_AGNI" : 3
-         },
-         "handle_name" : "SO_FIRE_INSIGNIA",
-         "position" : "",
-         "display_name" : "Insígnia do Fogo"
-      },
-      {
-         "id" : 2466,
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "display_name" : "Insígnia da Água",
-         "pre_requisites" : {
-            "SO_SUMMON_AQUA" : 3
-         },
-         "handle_name" : "SO_WATER_INSIGNIA",
-         "position" : ""
-      },
-      {
-         "display_name" : "Insígnia do Vento",
-         "position" : "",
-         "handle_name" : "SO_WIND_INSIGNIA",
-         "pre_requisites" : {
-            "SO_SUMMON_VENTUS" : 3
-         },
-         "MaxLevel" : 3,
-         "skill_type" : "",
-         "id" : 2467
-      },
-      {
-         "pre_requisites" : {
-            "SO_SUMMON_TERA" : 3
-         },
-         "position" : "",
-         "handle_name" : "SO_EARTH_INSIGNIA",
-         "display_name" : "Insígnia da Terra",
-         "id" : 2468,
-         "MaxLevel" : 3,
          "skill_type" : ""
       },
       {
+         "display_name" : "Troca Espiritual",
+         "handle_name" : "SO_EL_CURE",
+         "id" : 2464,
+         "maxLevel" : 1,
+         "position" : "",
+         "pre_requisites" : {
+            "SO_EL_SYMPATHY" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Insígnia do Fogo",
+         "handle_name" : "SO_FIRE_INSIGNIA",
+         "id" : 2465,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SO_SUMMON_AGNI" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Insígnia da Água",
+         "handle_name" : "SO_WATER_INSIGNIA",
+         "id" : 2466,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SO_SUMMON_AQUA" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Insígnia do Vento",
+         "handle_name" : "SO_WIND_INSIGNIA",
+         "id" : 2467,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SO_SUMMON_VENTUS" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Insígnia da Terra",
+         "handle_name" : "SO_EARTH_INSIGNIA",
+         "id" : 2468,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SO_SUMMON_TERA" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Elemental Shield",
+         "handle_name" : "SO_ELEMENTAL_SHIELD",
+         "id" : 5008,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SO_EL_CONTROL" : 3
          },
-         "handle_name" : "SO_ELEMENTAL_SHIELD",
-         "position" : "",
-         "display_name" : "Elemental Shield",
-         "id" : 5008,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Full Throttle",
          "handle_name" : "ALL_FULL_THROTTLE",
          "id" : 5014,
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "display_name" : "Full Throttle"
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       }
-   ],
-   "inherit" : [
-      "Sage"
-   ],
-   "ptbr_class_name" : "Feiticeiro"
+   ]
 }

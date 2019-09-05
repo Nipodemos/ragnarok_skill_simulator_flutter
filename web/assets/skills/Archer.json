@@ -2,72 +2,72 @@
    "inherit" : [
       "Novice"
    ],
+   "ptbr_class_name" : "Arqueiro",
    "skills" : [
       {
-         "handle_name" : "AC_OWL",
-         "position" : "",
-         "id" : 43,
-         "skill_type" : "",
          "display_name" : "Precisão",
-         "MaxLevel" : 10
+         "handle_name" : "AC_OWL",
+         "id" : 43,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Olhos de Águia",
          "handle_name" : "AC_VULTURE",
+         "id" : 44,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AC_OWL" : 3
          },
-         "display_name" : "Olhos de Águia",
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 44
+         "skill_type" : ""
       },
       {
+         "display_name" : "Concentração",
+         "handle_name" : "AC_CONCENTRATION",
          "id" : 45,
-         "MaxLevel" : 10,
-         "skill_type" : "",
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AC_VULTURE" : 1
          },
-         "position" : "",
-         "handle_name" : "AC_CONCENTRATION",
-         "display_name" : "Concentração"
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
          "display_name" : "Rajada de Flechas",
-         "MaxLevel" : 10,
-         "id" : 46,
          "handle_name" : "AC_DOUBLE",
-         "position" : ""
+         "id" : 46,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "id" : 47,
-         "skill_type" : "0x2000",
-         "MaxLevel" : 10,
          "display_name" : "Chuva de Flechas",
+         "handle_name" : "AC_SHOWER",
+         "id" : 47,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AC_DOUBLE" : 5
          },
-         "handle_name" : "AC_SHOWER",
-         "position" : ""
+         "skill_type" : "0x2000"
       },
       {
-         "skill_type" : "0x1",
          "display_name" : "Fabricar Flechas",
-         "MaxLevel" : 1,
-         "id" : 147,
          "handle_name" : "AC_MAKINGARROW",
-         "position" : ""
+         "id" : 147,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       },
       {
-         "position" : "",
+         "display_name" : "Disparo Violento",
          "handle_name" : "AC_CHARGEARROW",
          "id" : 148,
-         "MaxLevel" : 1,
-         "skill_type" : "0x1",
-         "display_name" : "Disparo Violento"
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       }
-   ],
-   "ptbr_class_name" : "Arqueiro"
+   ]
 }

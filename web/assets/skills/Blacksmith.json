@@ -2,253 +2,253 @@
    "inherit" : [
       "Merchant"
    ],
+   "ptbr_class_name" : "Ferreiro",
    "skills" : [
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
          "display_name" : "Trabalhar Ferro",
+         "handle_name" : "BS_IRON",
          "id" : 94,
+         "maxLevel" : 5,
          "position" : "",
-         "handle_name" : "BS_IRON"
+         "skill_type" : ""
       },
       {
-         "id" : 95,
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "pre_requisites" : {
-            "BS_IRON" : 1
-         },
+         "display_name" : "Trabalhar Aço",
          "handle_name" : "BS_STEEL",
+         "id" : 95,
+         "maxLevel" : 5,
          "position" : "",
-         "display_name" : "Trabalhar Aço"
-      },
-      {
-         "position" : "",
-         "handle_name" : "BS_ENCHANTEDSTONE",
          "pre_requisites" : {
             "BS_IRON" : 1
          },
-         "display_name" : "Produzir Pedra Fundamental",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 96
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 97,
-         "display_name" : "Perícia com Oridecon",
+         "display_name" : "Produzir Pedra Fundamental",
+         "handle_name" : "BS_ENCHANTEDSTONE",
+         "id" : 96,
+         "maxLevel" : 5,
          "position" : "",
+         "pre_requisites" : {
+            "BS_IRON" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Perícia com Oridecon",
          "handle_name" : "BS_ORIDEOCON",
+         "id" : 97,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "BS_ENCHANTEDSTONE" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
-         "handle_name" : "BS_DAGGER",
-         "position" : "",
          "display_name" : "Forjar Adaga",
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "id" : 98
+         "handle_name" : "BS_DAGGER",
+         "id" : 98,
+         "maxLevel" : 3,
+         "position" : "",
+         "skill_type" : ""
       },
       {
+         "display_name" : "Forjar Espada",
+         "handle_name" : "BS_SWORD",
          "id" : 99,
-         "skill_type" : "",
-         "MaxLevel" : 3,
+         "maxLevel" : 3,
+         "position" : "",
          "pre_requisites" : {
             "BS_DAGGER" : 1
          },
-         "handle_name" : "BS_SWORD",
-         "position" : "",
-         "display_name" : "Forjar Espada"
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Forjar Espada de Duas Mãos",
          "handle_name" : "BS_TWOHANDSWORD",
+         "id" : 100,
+         "maxLevel" : 3,
+         "position" : "",
          "pre_requisites" : {
             "BS_SWORD" : 1
          },
-         "display_name" : "Forjar Espada de Duas Mãos",
-         "MaxLevel" : 3,
-         "skill_type" : "",
-         "id" : 100
+         "skill_type" : ""
       },
       {
+         "display_name" : "Forjar Machado",
+         "handle_name" : "BS_AXE",
          "id" : 101,
-         "skill_type" : "",
-         "MaxLevel" : 3,
+         "maxLevel" : 3,
+         "position" : "",
          "pre_requisites" : {
             "BS_SWORD" : 2
          },
-         "handle_name" : "BS_AXE",
-         "position" : "",
-         "display_name" : "Forjar Machado"
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "id" : 102,
+         "display_name" : "Forjar Maça",
          "handle_name" : "BS_MACE",
+         "id" : 102,
+         "maxLevel" : 3,
          "position" : "",
          "pre_requisites" : {
             "BS_KNUCKLE" : 1
          },
-         "display_name" : "Forjar Maça"
-      },
-      {
-         "id" : 103,
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "pre_requisites" : {
-            "BS_DAGGER" : 1
-         },
-         "handle_name" : "BS_KNUCKLE",
-         "position" : "",
-         "display_name" : "Forjar Soqueira"
-      },
-      {
-         "pre_requisites" : {
-            "BS_DAGGER" : 2
-         },
-         "position" : "",
-         "handle_name" : "BS_SPEAR",
-         "display_name" : "Forjar Lança",
-         "id" : 104,
-         "MaxLevel" : 3,
          "skill_type" : ""
       },
       {
-         "handle_name" : "BS_HILTBINDING",
+         "display_name" : "Forjar Soqueira",
+         "handle_name" : "BS_KNUCKLE",
+         "id" : 103,
+         "maxLevel" : 3,
          "position" : "",
-         "id" : 105,
-         "skill_type" : "",
-         "display_name" : "Punho Firme",
-         "MaxLevel" : 1
+         "pre_requisites" : {
+            "BS_DAGGER" : 1
+         },
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 106,
+         "display_name" : "Forjar Lança",
+         "handle_name" : "BS_SPEAR",
+         "id" : 104,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "BS_DAGGER" : 2
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Punho Firme",
+         "handle_name" : "BS_HILTBINDING",
+         "id" : 105,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Encontrar Minério",
          "handle_name" : "BS_FINDINGORE",
+         "id" : 106,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "BS_HILTBINDING" : 1,
             "BS_STEEL" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
-         "id" : 107,
-         "MaxLevel" : 10,
-         "skill_type" : "",
          "display_name" : "Perícia em Armamento",
+         "handle_name" : "BS_WEAPONRESEARCH",
+         "id" : 107,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "BS_HILTBINDING" : 1
          },
-         "position" : "",
-         "handle_name" : "BS_WEAPONRESEARCH"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Consertar Armas",
+         "handle_name" : "BS_REPAIRWEAPON",
+         "id" : 108,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "BS_WEAPONRESEARCH" : 1
          },
-         "position" : "",
-         "handle_name" : "BS_REPAIRWEAPON",
-         "display_name" : "Consertar Armas",
-         "id" : 108,
-         "MaxLevel" : 1,
          "skill_type" : ""
       },
       {
-         "handle_name" : "BS_SKINTEMPER",
-         "position" : "",
          "display_name" : "Resistência ao Fogo",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 109
+         "handle_name" : "BS_SKINTEMPER",
+         "id" : 109,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "id" : 110,
          "display_name" : "Martelo de Thor",
-         "skill_type" : "",
-         "MaxLevel" : 5,
          "handle_name" : "BS_HAMMERFALL",
-         "position" : ""
+         "id" : 110,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       },
       {
+         "display_name" : "Adrenalina Pura",
+         "handle_name" : "BS_ADRENALINE",
+         "id" : 111,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "BS_HAMMERFALL" : 2
          },
-         "position" : "",
-         "handle_name" : "BS_ADRENALINE",
-         "display_name" : "Adrenalina Pura",
-         "id" : 111,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
+         "display_name" : "Manejo Perfeito",
+         "handle_name" : "BS_WEAPONPERFECT",
+         "id" : 112,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "BS_ADRENALINE" : 2,
             "BS_WEAPONRESEARCH" : 2
          },
-         "handle_name" : "BS_WEAPONPERFECT",
-         "position" : "",
-         "display_name" : "Manejo Perfeito",
-         "id" : 112,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Força Violenta",
          "handle_name" : "BS_OVERTHRUST",
+         "id" : 113,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "BS_ADRENALINE" : 3
          },
-         "display_name" : "Força Violenta",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 113
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 114,
          "display_name" : "Amplificar Poder",
          "handle_name" : "BS_MAXIMIZE",
+         "id" : 114,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
-            "BS_WEAPONPERFECT" : 3,
-            "BS_OVERTHRUST" : 2
-         }
+            "BS_OVERTHRUST" : 2,
+            "BS_WEAPONPERFECT" : 3
+         },
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 1,
-         "skill_type" : "0x1",
          "display_name" : "Unfair Trick",
+         "handle_name" : "BS_UNFAIRLYTRICK",
          "id" : 1012,
+         "maxLevel" : 1,
          "position" : "",
-         "handle_name" : "BS_UNFAIRLYTRICK"
+         "skill_type" : "0x1"
       },
       {
-         "position" : "",
+         "display_name" : "Greed",
          "handle_name" : "BS_GREED",
          "id" : 1013,
-         "MaxLevel" : 1,
-         "skill_type" : "0x1",
-         "display_name" : "Greed"
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       },
       {
+         "display_name" : "Advanced Adrenaline Rush",
+         "handle_name" : "BS_ADRENALINE2",
+         "id" : 459,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "BS_ADRENALINE" : 5
          },
-         "handle_name" : "BS_ADRENALINE2",
-         "position" : "",
-         "display_name" : "Advanced Adrenaline Rush",
-         "id" : 459,
-         "skill_type" : "0x8",
-         "MaxLevel" : 1
+         "skill_type" : "0x8"
       }
-   ],
-   "ptbr_class_name" : "Ferreiro"
+   ]
 }

@@ -1,6 +1,6 @@
 {
-   "ptbr_class_name" : "",
    "inherit" : [
       "Ranger"
-   ]
+   ],
+   "ptbr_class_name" : ""
 }

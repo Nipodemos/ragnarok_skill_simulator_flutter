@@ -1,97 +1,97 @@
 {
+   "inherit" : [
+      "Novice"
+   ],
    "ptbr_class_name" : "Espadachim",
    "skills" : [
       {
-         "MaxLevel" : 10,
-         "skill_type" : "",
          "display_name" : "Perícia com Espada",
+         "handle_name" : "SM_SWORD",
          "id" : 2,
+         "maxLevel" : 10,
          "position" : "",
-         "handle_name" : "SM_SWORD"
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Perícia com Espada de Duas Mãos",
          "handle_name" : "SM_TWOHAND",
+         "id" : 3,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "SM_SWORD" : 1
          },
-         "display_name" : "Perícia com Espada de Duas Mãos",
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 3
+         "skill_type" : ""
       },
       {
-         "id" : 4,
-         "MaxLevel" : 10,
          "display_name" : "Aumentar Recuperação de HP",
-         "skill_type" : "",
+         "handle_name" : "SM_RECOVERY",
+         "id" : 4,
+         "maxLevel" : 10,
          "position" : "",
-         "handle_name" : "SM_RECOVERY"
+         "skill_type" : ""
       },
       {
-         "handle_name" : "SM_BASH",
-         "position" : "",
-         "id" : 5,
-         "skill_type" : "",
          "display_name" : "Golpe Fulminante",
-         "MaxLevel" : 10
-      },
-      {
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "display_name" : "Provocar",
-         "id" : 6,
+         "handle_name" : "SM_BASH",
+         "id" : 5,
+         "maxLevel" : 10,
          "position" : "",
-         "handle_name" : "SM_PROVOKE"
+         "skill_type" : ""
       },
       {
-         "id" : 7,
-         "MaxLevel" : 10,
-         "skill_type" : "",
+         "display_name" : "Provocar",
+         "handle_name" : "SM_PROVOKE",
+         "id" : 6,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Impacto Explosivo",
+         "handle_name" : "SM_MAGNUM",
+         "id" : 7,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "SM_BASH" : 5
          },
-         "position" : "",
-         "handle_name" : "SM_MAGNUM"
+         "skill_type" : ""
       },
       {
          "display_name" : "Vigor",
-         "position" : "",
          "handle_name" : "SM_ENDURE",
+         "id" : 8,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "SM_PROVOKE" : 5
          },
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 8
+         "skill_type" : ""
       },
       {
-         "skill_type" : "0x1",
          "display_name" : "Recuperar HP em Movimento",
-         "MaxLevel" : 1,
-         "id" : 144,
          "handle_name" : "SM_MOVINGRECOVERY",
-         "position" : ""
+         "id" : 144,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       },
       {
-         "id" : 145,
-         "MaxLevel" : 1,
          "display_name" : "Ataque Fatal",
-         "skill_type" : "0x1",
+         "handle_name" : "SM_FATALBLOW",
+         "id" : 145,
+         "maxLevel" : 1,
          "position" : "",
-         "handle_name" : "SM_FATALBLOW"
+         "skill_type" : "0x1"
       },
       {
-         "handle_name" : "SM_AUTOBERSERK",
-         "position" : "",
-         "id" : 146,
-         "skill_type" : "0x1",
          "display_name" : "Instinto de Sobrevivência",
-         "MaxLevel" : 1
+         "handle_name" : "SM_AUTOBERSERK",
+         "id" : 146,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       }
-   ],
-   "inherit" : [
-      "Novice"
    ]
 }

@@ -1,204 +1,204 @@
 {
-   "ptbr_class_name" : "Sacerdote",
    "inherit" : [
       "Acolyte"
    ],
+   "ptbr_class_name" : "Sacerdote",
    "skills" : [
       {
-         "MaxLevel" : 10,
-         "skill_type" : "",
          "display_name" : "Aumentar Recuperação de SP",
+         "handle_name" : "MG_SRECOVERY",
          "id" : 9,
+         "maxLevel" : 10,
          "position" : "",
-         "handle_name" : "MG_SRECOVERY"
-      },
-      {
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 12,
-         "display_name" : "Escudo Mágico",
-         "handle_name" : "MG_SAFETYWALL",
-         "position" : "",
-         "pre_requisites" : {
-            "PR_SANCTUARY" : 3,
-            "PR_ASPERSIO" : 4
-         }
-      },
-      {
-         "pre_requisites" : {
-            "PR_STRECOVERY" : 1,
-            "MG_SRECOVERY" : 4
-         },
-         "position" : "",
-         "handle_name" : "ALL_RESURRECTION",
-         "display_name" : "Ressuscitar",
-         "id" : 54,
-         "MaxLevel" : 4,
          "skill_type" : ""
       },
       {
-         "handle_name" : "PR_MACEMASTERY",
+         "display_name" : "Escudo Mágico",
+         "handle_name" : "MG_SAFETYWALL",
+         "id" : 12,
+         "maxLevel" : 10,
          "position" : "",
-         "id" : 65,
-         "skill_type" : "",
+         "pre_requisites" : {
+            "PR_ASPERSIO" : 4,
+            "PR_SANCTUARY" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Ressuscitar",
+         "handle_name" : "ALL_RESURRECTION",
+         "id" : 54,
+         "maxLevel" : 4,
+         "position" : "",
+         "pre_requisites" : {
+            "MG_SRECOVERY" : 4,
+            "PR_STRECOVERY" : 1
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Perícia com Maça",
-         "MaxLevel" : 10
+         "handle_name" : "PR_MACEMASTERY",
+         "id" : 65,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "handle_name" : "PR_IMPOSITIO",
-         "position" : "",
          "display_name" : "Impositio Manus",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 66
+         "handle_name" : "PR_IMPOSITIO",
+         "id" : 66,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Suffragium",
          "handle_name" : "PR_SUFFRAGIUM",
+         "id" : 67,
+         "maxLevel" : 3,
+         "position" : "",
          "pre_requisites" : {
             "PR_IMPOSITIO" : 2
          },
-         "display_name" : "Suffragium",
-         "MaxLevel" : 3,
-         "skill_type" : "0x200",
-         "id" : 67
+         "skill_type" : "0x200"
       },
       {
          "display_name" : "Aspersio",
-         "position" : "",
          "handle_name" : "PR_ASPERSIO",
-         "pre_requisites" : {
-            "PR_IMPOSITIO" : 3,
-            "AL_HOLYWATER" : 1
-         },
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 68
-      },
-      {
-         "skill_type" : "0x40",
-         "MaxLevel" : 5,
-         "id" : 69,
-         "handle_name" : "PR_BENEDICTIO",
+         "id" : 68,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
-            "PR_GLORIA" : 3,
-            "PR_ASPERSIO" : 5
+            "AL_HOLYWATER" : 1,
+            "PR_IMPOSITIO" : 3
          },
-         "display_name" : "B.S. Sacramenti"
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 70,
+         "display_name" : "B.S. Sacramenti",
+         "handle_name" : "PR_BENEDICTIO",
+         "id" : 69,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "PR_ASPERSIO" : 5,
+            "PR_GLORIA" : 3
+         },
+         "skill_type" : "0x40"
+      },
+      {
+         "display_name" : "Santuário",
          "handle_name" : "PR_SANCTUARY",
+         "id" : 70,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
             "AL_HEAL" : 1
          },
-         "display_name" : "Santuário"
+         "skill_type" : ""
       },
       {
-         "position" : "",
-         "handle_name" : "PR_SLOWPOISON",
-         "MaxLevel" : 4,
          "display_name" : "Retardar Veneno",
-         "skill_type" : "",
-         "id" : 71
+         "handle_name" : "PR_SLOWPOISON",
+         "id" : 71,
+         "maxLevel" : 4,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "id" : 72,
          "display_name" : "Graça Divina",
-         "skill_type" : "",
-         "MaxLevel" : 1,
          "handle_name" : "PR_STRECOVERY",
-         "position" : ""
+         "id" : 72,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : ""
       },
       {
+         "display_name" : "Kyrie Eleison",
+         "handle_name" : "PR_KYRIE",
          "id" : 73,
-         "MaxLevel" : 10,
-         "skill_type" : "",
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AL_ANGELUS" : 2
          },
-         "position" : "",
-         "handle_name" : "PR_KYRIE",
-         "display_name" : "Kyrie Eleison"
+         "skill_type" : ""
       },
       {
-         "id" : 74,
          "display_name" : "Magnificat",
-         "skill_type" : "",
-         "MaxLevel" : 5,
          "handle_name" : "PR_MAGNIFICAT",
-         "position" : ""
+         "id" : 74,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 75,
-         "position" : "",
+         "display_name" : "Glória",
          "handle_name" : "PR_GLORIA",
+         "id" : 75,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
-            "PR_MAGNIFICAT" : 3,
-            "PR_KYRIE" : 4
+            "PR_KYRIE" : 4,
+            "PR_MAGNIFICAT" : 3
          },
-         "display_name" : "Glória"
+         "skill_type" : ""
       },
       {
          "display_name" : "Lex Divina",
-         "position" : "",
          "handle_name" : "PR_LEXDIVINA",
+         "id" : 76,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AL_RUWACH" : 1
          },
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 76
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 77,
          "ALL_RESURRECTION" : 1,
          "display_name" : "Esconjurar",
-         "position" : "",
          "handle_name" : "PR_TURNUNDEAD",
+         "id" : 77,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "PR_LEXDIVINA" : 3
-         }
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Lex Aeterna",
+         "handle_name" : "PR_LEXAETERNA",
          "id" : 78,
-         "skill_type" : "",
-         "MaxLevel" : 1,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "PR_LEXDIVINA" : 5
          },
-         "handle_name" : "PR_LEXAETERNA",
-         "position" : "",
-         "display_name" : "Lex Aeterna"
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Magnus Exorcismus",
          "handle_name" : "PR_MAGNUS",
+         "id" : 79,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
-            "PR_LEXAETERNA" : 1,
             "MG_SAFETYWALL" : 1,
+            "PR_LEXAETERNA" : 1,
             "PR_TURNUNDEAD" : 3
          },
-         "display_name" : "Magnus Exorcismus",
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 79
+         "skill_type" : ""
       },
       {
-         "position" : "",
-         "handle_name" : "PR_REDEMPTIO",
-         "MaxLevel" : 1,
          "display_name" : "Redemptio",
-         "skill_type" : "0x1",
-         "id" : 1014
+         "handle_name" : "PR_REDEMPTIO",
+         "id" : 1014,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       }
    ]
 }

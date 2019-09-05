@@ -1,53 +1,53 @@
 {
-   "ptbr_class_name" : "Criador",
    "inherit" : [
       "Alchemist"
    ],
+   "ptbr_class_name" : "Criador",
    "skills" : [
       {
-         "position" : "",
+         "display_name" : "Arremessar Poção Compacta",
          "handle_name" : "CR_SLIMPITCHER",
+         "id" : 478,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AM_POTIONPITCHER" : 5
          },
-         "display_name" : "Arremessar Poção Compacta",
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 478
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 479,
          "display_name" : "Proteção Química Total",
          "handle_name" : "CR_FULLPROTECTION",
+         "id" : 479,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
-            "AM_CP_HELM" : 5,
             "AM_CP_ARMOR" : 5,
-            "AM_CP_WEAPON" : 5,
-            "AM_CP_SHIELD" : 5
-         }
+            "AM_CP_HELM" : 5,
+            "AM_CP_SHIELD" : 5,
+            "AM_CP_WEAPON" : 5
+         },
+         "skill_type" : ""
       },
       {
          "display_name" : "Bomba Ácida",
-         "pre_requisites" : {
-            "AM_DEMONSTRATION" : 5,
-            "AM_ACIDTERROR" : 5
-         },
          "handle_name" : "CR_ACIDDEMONSTRATION",
-         "position" : "",
          "id" : 490,
-         "skill_type" : "",
-         "MaxLevel" : 10
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "AM_ACIDTERROR" : 5,
+            "AM_DEMONSTRATION" : 5
+         },
+         "skill_type" : ""
       },
       {
-         "id" : 491,
          "display_name" : "Cultivar Planta",
-         "skill_type" : "",
-         "MaxLevel" : 2,
          "handle_name" : "CR_CULTIVATION",
-         "position" : ""
+         "id" : 491,
+         "maxLevel" : 2,
+         "position" : "",
+         "skill_type" : ""
       }
    ]
 }

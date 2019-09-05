@@ -1,7 +1,7 @@
 {
-   "ptbr_class_name" : "Guadrião Real Trans",
    "inherit" : [
       "Paladin",
       "Royal_Guard"
-   ]
+   ],
+   "ptbr_class_name" : "GuadriÃ£o Real Trans"
 }

@@ -2,70 +2,70 @@
    "inherit" : [
       "Blacksmith"
    ],
+   "ptbr_class_name" : "Mestre-Ferreiro",
    "skills" : [
       {
          "display_name" : "Golpe Estilhaçante",
-         "pre_requisites" : {
-            "BS_SKINTEMPER" : 3,
-            "BS_OVERTHRUST" : 3,
-            "BS_WEAPONRESEARCH" : 5,
-            "BS_HILTBINDING" : 1
-         },
-         "position" : "",
          "handle_name" : "WS_MELTDOWN",
          "id" : 384,
-         "MaxLevel" : 10,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "BS_HILTBINDING" : 1,
+            "BS_OVERTHRUST" : 3,
+            "BS_SKINTEMPER" : 3,
+            "BS_WEAPONRESEARCH" : 5
+         },
          "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 387,
          "display_name" : "Impulso no Carrinho",
          "handle_name" : "WS_CARTBOOST",
+         "id" : 387,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
-            "MC_CARTREVOLUTION" : 1,
-            "MC_PUSHCART" : 5,
             "BS_HILTBINDING" : 1,
-            "MC_CHANGECART" : 1
-         }
+            "MC_CARTREVOLUTION" : 1,
+            "MC_CHANGECART" : 1,
+            "MC_PUSHCART" : 5
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Aprimorar Armamento",
+         "handle_name" : "WS_WEAPONREFINE",
+         "id" : 477,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "BS_WEAPONRESEARCH" : 10
          },
-         "position" : "",
-         "handle_name" : "WS_WEAPONREFINE",
-         "display_name" : "Aprimorar Armamento",
-         "id" : 477,
-         "MaxLevel" : 10,
          "skill_type" : ""
       },
       {
+         "display_name" : "Choque do Carrinho",
+         "handle_name" : "WS_CARTTERMINATION",
          "id" : 485,
-         "skill_type" : "",
-         "MaxLevel" : 10,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "BS_HAMMERFALL" : 5,
-            "WS_CARTBOOST" : 1,
-            "MC_MAMMONITE" : 10
+            "MC_MAMMONITE" : 10,
+            "WS_CARTBOOST" : 1
          },
-         "handle_name" : "WS_CARTTERMINATION",
-         "position" : "",
-         "display_name" : "Choque do Carrinho"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Força Violentíssima",
+         "handle_name" : "WS_OVERTHRUSTMAX",
+         "id" : 486,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "BS_OVERTHRUST" : 5
          },
-         "handle_name" : "WS_OVERTHRUSTMAX",
-         "position" : "",
-         "display_name" : "Força Violentíssima",
-         "id" : 486,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       }
-   ],
-   "ptbr_class_name" : "Mestre-Ferreiro"
+   ]
 }

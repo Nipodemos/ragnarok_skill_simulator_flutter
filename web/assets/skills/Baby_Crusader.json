@@ -1,6 +1,6 @@
 {
-   "ptbr_class_name" : "",
    "inherit" : [
       "Crusader"
-   ]
+   ],
+   "ptbr_class_name" : ""
 }

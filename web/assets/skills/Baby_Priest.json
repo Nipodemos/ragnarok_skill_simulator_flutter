@@ -1,6 +1,6 @@
 {
-   "ptbr_class_name" : "",
    "inherit" : [
       "Priest"
-   ]
+   ],
+   "ptbr_class_name" : ""
 }

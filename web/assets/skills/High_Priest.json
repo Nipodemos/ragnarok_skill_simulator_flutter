@@ -2,58 +2,58 @@
    "inherit" : [
       "Priest"
    ],
+   "ptbr_class_name" : "Sumo Sacerdote",
    "skills" : [
       {
          "display_name" : "Assumptio",
          "handle_name" : "HP_ASSUMPTIO",
+         "id" : 361,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
-            "PR_IMPOSITIO" : 3,
+            "AL_ANGELUS" : 1,
             "MG_SRECOVERY" : 3,
-            "AL_ANGELUS" : 1
+            "PR_IMPOSITIO" : 3
          },
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 361
-      },
-      {
-         "pre_requisites" : {
-            "PR_KYRIE" : 3,
-            "MG_SRECOVERY" : 1,
-            "PR_GLORIA" : 2
-         },
-         "handle_name" : "HP_BASILICA",
-         "position" : "",
-         "display_name" : "Basílica",
-         "id" : 362,
-         "skill_type" : "",
-         "MaxLevel" : 5
-      },
-      {
-         "display_name" : "Meditatio",
-         "pre_requisites" : {
-            "PR_LEXDIVINA" : 5,
-            "MG_SRECOVERY" : 5,
-            "PR_ASPERSIO" : 3
-         },
-         "position" : "",
-         "handle_name" : "HP_MEDITATIO",
-         "id" : 363,
-         "MaxLevel" : 10,
          "skill_type" : ""
       },
       {
-         "id" : 481,
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "pre_requisites" : {
-            "PR_MACEMASTERY" : 10,
-            "AL_DEMONBANE" : 10
-         },
+         "display_name" : "Basílica",
+         "handle_name" : "HP_BASILICA",
+         "id" : 362,
+         "maxLevel" : 5,
          "position" : "",
+         "pre_requisites" : {
+            "MG_SRECOVERY" : 1,
+            "PR_GLORIA" : 2,
+            "PR_KYRIE" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Meditatio",
+         "handle_name" : "HP_MEDITATIO",
+         "id" : 363,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "MG_SRECOVERY" : 5,
+            "PR_ASPERSIO" : 3,
+            "PR_LEXDIVINA" : 5
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Riqueza de Espírito",
          "handle_name" : "HP_MANARECHARGE",
-         "display_name" : "Riqueza de Espírito"
+         "id" : 481,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "AL_DEMONBANE" : 10,
+            "PR_MACEMASTERY" : 10
+         },
+         "skill_type" : ""
       }
-   ],
-   "ptbr_class_name" : "Sumo Sacerdote"
+   ]
 }

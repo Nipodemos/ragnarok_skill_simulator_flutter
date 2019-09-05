@@ -1,247 +1,247 @@
 {
+   "inherit" : [
+      "Novice"
+   ],
+   "ptbr_class_name" : "Justiceiro",
    "skills" : [
       {
-         "handle_name" : "GS_GLITTERING",
-         "position" : "",
-         "id" : 500,
-         "skill_type" : "",
          "display_name" : "Cara ou Coroa",
-         "MaxLevel" : 5
-      },
-      {
-         "pre_requisites" : {
-            "GS_GLITTERING" : 1
-         },
+         "handle_name" : "GS_GLITTERING",
+         "id" : 500,
+         "maxLevel" : 5,
          "position" : "",
-         "handle_name" : "GS_FLING",
-         "display_name" : "Atirar Moedas",
-         "id" : 501,
-         "MaxLevel" : 1,
          "skill_type" : ""
       },
       {
+         "display_name" : "Atirar Moedas",
+         "handle_name" : "GS_FLING",
+         "id" : 501,
+         "maxLevel" : 1,
+         "position" : "",
+         "pre_requisites" : {
+            "GS_GLITTERING" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Ataque Triplo",
+         "handle_name" : "GS_TRIPLEACTION",
+         "id" : 502,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "GS_CHAINACTION" : 10,
             "GS_GLITTERING" : 1
          },
-         "handle_name" : "GS_TRIPLEACTION",
-         "position" : "",
-         "display_name" : "Ataque Triplo",
-         "id" : 502,
-         "skill_type" : "",
-         "MaxLevel" : 1
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 503,
          "display_name" : "Ataque Certeiro",
          "handle_name" : "GS_BULLSEYE",
+         "id" : 503,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
-            "GS_TRACKING" : 10,
-            "GS_GLITTERING" : 5
-         }
-      },
-      {
-         "id" : 504,
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "display_name" : "Resistência Final",
-         "pre_requisites" : {
-            "GS_GLITTERING" : 4,
-            "GS_GATLINGFEVER" : 10
+            "GS_GLITTERING" : 5,
+            "GS_TRACKING" : 10
          },
-         "handle_name" : "GS_MADNESSCANCEL",
-         "position" : ""
+         "skill_type" : ""
       },
       {
+         "display_name" : "Resistência Final",
+         "handle_name" : "GS_MADNESSCANCEL",
+         "id" : 504,
+         "maxLevel" : 1,
+         "position" : "",
+         "pre_requisites" : {
+            "GS_GATLINGFEVER" : 10,
+            "GS_GLITTERING" : 4
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Pânico do Justiceiro",
+         "handle_name" : "GS_ADJUSTMENT",
          "id" : 505,
-         "skill_type" : "",
-         "MaxLevel" : 1,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "GS_DISARM" : 5,
             "GS_GLITTERING" : 4
          },
-         "handle_name" : "GS_ADJUSTMENT",
-         "position" : "",
-         "display_name" : "Pânico do Justiceiro"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Aumentar Precisão",
          "handle_name" : "GS_INCREASING",
+         "id" : 506,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "GS_GLITTERING" : 2,
             "GS_SNAKEEYE" : 10
          },
-         "display_name" : "Aumentar Precisão",
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 506
+         "skill_type" : ""
       },
       {
-         "id" : 507,
-         "MaxLevel" : 1,
-         "skill_type" : "",
          "display_name" : "Bala Mágica",
+         "handle_name" : "GS_MAGICALBULLET",
+         "id" : 507,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "GS_GLITTERING" : 1
          },
-         "position" : "",
-         "handle_name" : "GS_MAGICALBULLET"
+         "skill_type" : ""
       },
       {
          "display_name" : "Tiro Bombinha",
-         "position" : "",
          "handle_name" : "GS_CRACKER",
+         "id" : 508,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "GS_GLITTERING" : 1
          },
-         "MaxLevel" : 1,
-         "skill_type" : "",
-         "id" : 508
+         "skill_type" : ""
       },
       {
-         "id" : 509,
          "display_name" : "Ataque Concentrado",
-         "skill_type" : "",
-         "MaxLevel" : 10,
          "handle_name" : "GS_SINGLEACTION",
-         "position" : ""
+         "id" : 509,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "id" : 510,
-         "MaxLevel" : 10,
          "display_name" : "Olhos de Serpente",
-         "skill_type" : "",
+         "handle_name" : "GS_SNAKEEYE",
+         "id" : 510,
+         "maxLevel" : 10,
          "position" : "",
-         "handle_name" : "GS_SNAKEEYE"
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 511,
          "display_name" : "Reação em Cadeia",
-         "position" : "",
          "handle_name" : "GS_CHAINACTION",
+         "id" : 511,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "GS_SINGLEACTION" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Rastrear o Alvo",
+         "handle_name" : "GS_TRACKING",
+         "id" : 512,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "GS_SINGLEACTION" : 5
          },
-         "handle_name" : "GS_TRACKING",
-         "position" : "",
-         "display_name" : "Rastrear o Alvo",
-         "id" : 512,
-         "skill_type" : "",
-         "MaxLevel" : 10
+         "skill_type" : ""
       },
       {
-         "id" : 513,
-         "skill_type" : "",
-         "MaxLevel" : 5,
          "display_name" : "Desarmar",
+         "handle_name" : "GS_DISARM",
+         "id" : 513,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "GS_TRACKING" : 7
          },
-         "handle_name" : "GS_DISARM",
-         "position" : ""
+         "skill_type" : ""
       },
       {
          "display_name" : "Ferir Alvo",
          "handle_name" : "GS_PIERCINGSHOT",
+         "id" : 514,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "GS_TRACKING" : 5
          },
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 514
+         "skill_type" : ""
       },
       {
+         "display_name" : "Rajada Certeira",
+         "handle_name" : "GS_RAPIDSHOWER",
          "id" : 515,
-         "skill_type" : "",
-         "MaxLevel" : 10,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "GS_CHAINACTION" : 3
          },
-         "handle_name" : "GS_RAPIDSHOWER",
-         "position" : "",
-         "display_name" : "Rajada Certeira"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Desperado",
          "handle_name" : "GS_DESPERADO",
+         "id" : 516,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
             "GS_RAPIDSHOWER" : 5
          },
-         "display_name" : "Desperado",
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 516
+         "skill_type" : ""
       },
       {
+         "display_name" : "Ataque Gatling",
+         "handle_name" : "GS_GATLINGFEVER",
          "id" : 517,
-         "MaxLevel" : 10,
-         "skill_type" : "",
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "GS_DESPERADO" : 5,
             "GS_RAPIDSHOWER" : 7
          },
-         "position" : "",
-         "handle_name" : "GS_GATLINGFEVER",
-         "display_name" : "Ataque Gatling"
-      },
-      {
-         "display_name" : "Controle de Multidão",
-         "position" : "",
-         "handle_name" : "GS_DUST",
-         "pre_requisites" : {
-            "GS_SINGLEACTION" : 5
-         },
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 518
-      },
-      {
-         "pre_requisites" : {
-            "GS_DUST" : 3
-         },
-         "position" : "",
-         "handle_name" : "GS_FULLBUSTER",
-         "display_name" : "Ataque Total",
-         "id" : 519,
-         "MaxLevel" : 10,
          "skill_type" : ""
       },
       {
-         "id" : 520,
-         "MaxLevel" : 10,
-         "skill_type" : "",
+         "display_name" : "Controle de Multidão",
+         "handle_name" : "GS_DUST",
+         "id" : 518,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "GS_SINGLEACTION" : 5
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Ataque Total",
+         "handle_name" : "GS_FULLBUSTER",
+         "id" : 519,
+         "maxLevel" : 10,
+         "position" : "",
+         "pre_requisites" : {
+            "GS_DUST" : 3
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Disparo Espalhado",
+         "handle_name" : "GS_SPREADATTACK",
+         "id" : 520,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "GS_FULLBUSTER" : 5
          },
-         "position" : "",
-         "handle_name" : "GS_SPREADATTACK"
+         "skill_type" : ""
       },
       {
          "display_name" : "Mina do Justiceiro",
+         "handle_name" : "GS_GROUNDDRIFT",
+         "id" : 521,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "GS_SPREADATTACK" : 7
          },
-         "handle_name" : "GS_GROUNDDRIFT",
-         "position" : "",
-         "id" : 521,
-         "skill_type" : "",
-         "MaxLevel" : 10
+         "skill_type" : ""
       }
-   ],
-   "inherit" : [
-      "Novice"
-   ],
-   "ptbr_class_name" : "Justiceiro"
+   ]
 }

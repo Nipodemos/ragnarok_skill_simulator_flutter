@@ -1,6 +1,6 @@
 {
-   "ptbr_class_name" : "",
    "inherit" : [
       "Genetic"
-   ]
+   ],
+   "ptbr_class_name" : ""
 }

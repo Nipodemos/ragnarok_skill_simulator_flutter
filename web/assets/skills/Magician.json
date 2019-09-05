@@ -1,140 +1,140 @@
 {
+   "inherit" : [
+      "Novice"
+   ],
    "ptbr_class_name" : "Mago",
    "skills" : [
       {
-         "position" : "",
+         "display_name" : "Aumentar Recuperação de SP",
          "handle_name" : "MG_SRECOVERY",
          "id" : 9,
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "display_name" : "Aumentar Recuperação de SP"
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "position" : "",
-         "handle_name" : "MG_SIGHT",
-         "MaxLevel" : 1,
          "display_name" : "Chama Reveladora",
-         "skill_type" : "",
-         "id" : 10
-      },
-      {
-         "handle_name" : "MG_NAPALMBEAT",
+         "handle_name" : "MG_SIGHT",
+         "id" : 10,
+         "maxLevel" : 1,
          "position" : "",
-         "id" : 11,
-         "skill_type" : "",
-         "display_name" : "Ataque Espiritual",
-         "MaxLevel" : 10
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 12,
+         "display_name" : "Ataque Espiritual",
+         "handle_name" : "MG_NAPALMBEAT",
+         "id" : 11,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Escudo Mágico",
          "handle_name" : "MG_SAFETYWALL",
+         "id" : 12,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
             "MG_NAPALMBEAT" : 7,
             "MG_SOULSTRIKE" : 5
-         }
+         },
+         "skill_type" : ""
       },
       {
          "display_name" : "Espíritos Anciões",
          "handle_name" : "MG_SOULSTRIKE",
+         "id" : 13,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
             "MG_NAPALMBEAT" : 4
          },
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 13
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
          "display_name" : "Lanças de Gelo",
-         "MaxLevel" : 10,
-         "id" : 14,
          "handle_name" : "MG_COLDBOLT",
-         "position" : ""
+         "id" : 14,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "id" : 15,
-         "skill_type" : "",
-         "MaxLevel" : 10,
          "display_name" : "Rajada Congelante",
+         "handle_name" : "MG_FROSTDIVER",
+         "id" : 15,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "MG_COLDBOLT" : 5
          },
-         "handle_name" : "MG_FROSTDIVER",
-         "position" : ""
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Petrificar",
          "handle_name" : "MG_STONECURSE",
          "id" : 16,
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "display_name" : "Petrificar"
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "id" : 17,
-         "skill_type" : "",
-         "MaxLevel" : 10,
          "display_name" : "Bola de Fogo",
+         "handle_name" : "MG_FIREBALL",
+         "id" : 17,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "MG_FIREBOLT" : 4
          },
-         "handle_name" : "MG_FIREBALL",
-         "position" : ""
+         "skill_type" : ""
       },
       {
-         "id" : 18,
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "pre_requisites" : {
-            "MG_SIGHT" : 1,
-            "MG_FIREBALL" : 5
-         },
-         "position" : "",
+         "display_name" : "Barreira de Fogo",
          "handle_name" : "MG_FIREWALL",
-         "display_name" : "Barreira de Fogo"
-      },
-      {
-         "skill_type" : "",
-         "display_name" : "Lanças de Fogo",
-         "MaxLevel" : 10,
-         "id" : 19,
-         "handle_name" : "MG_FIREBOLT",
-         "position" : ""
-      },
-      {
+         "id" : 18,
+         "maxLevel" : 10,
          "position" : "",
+         "pre_requisites" : {
+            "MG_FIREBALL" : 5,
+            "MG_SIGHT" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Lanças de Fogo",
+         "handle_name" : "MG_FIREBOLT",
+         "id" : 19,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Relâmpago",
          "handle_name" : "MG_LIGHTNINGBOLT",
          "id" : 20,
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "display_name" : "Relâmpago"
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 21,
+         "display_name" : "Tempestade de Raios",
          "handle_name" : "MG_THUNDERSTORM",
+         "id" : 21,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
             "MG_LIGHTNINGBOLT" : 4
          },
-         "display_name" : "Tempestade de Raios"
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 1,
-         "skill_type" : "0x1",
          "display_name" : "Proteção Arcana",
+         "handle_name" : "MG_ENERGYCOAT",
          "id" : 157,
+         "maxLevel" : 1,
          "position" : "",
-         "handle_name" : "MG_ENERGYCOAT"
+         "skill_type" : "0x1"
       }
-   ],
-   "inherit" : [
-      "Novice"
    ]
 }

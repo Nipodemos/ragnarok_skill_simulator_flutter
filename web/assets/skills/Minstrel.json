@@ -2,295 +2,295 @@
    "inherit" : [
       "Bard"
    ],
+   "ptbr_class_name" : "Menestrel",
    "skills" : [
       {
-         "id" : 2381,
-         "MaxLevel" : 5,
-         "skill_type" : "",
          "display_name" : "Sinfonia dos Ventos",
+         "handle_name" : "MI_RUSH_WINDMILL",
+         "id" : 2381,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_LULLABY_DEEPSLEEP" : 1
          },
-         "position" : "",
-         "handle_name" : "MI_RUSH_WINDMILL"
-      },
-      {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2382,
-         "position" : "",
-         "handle_name" : "MI_ECHOSONG",
-         "pre_requisites" : {
-            "WM_LULLABY_DEEPSLEEP" : 1
-         },
-         "display_name" : "Canção de Balder"
-      },
-      {
-         "pre_requisites" : {
-            "WM_LULLABY_DEEPSLEEP" : 1
-         },
-         "position" : "",
-         "handle_name" : "MI_HARMONIZE",
-         "display_name" : "Harmonizar",
-         "id" : 2383,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
-         "handle_name" : "WM_LESSON",
+         "display_name" : "Canção de Balder",
+         "handle_name" : "MI_ECHOSONG",
+         "id" : 2382,
+         "maxLevel" : 5,
          "position" : "",
-         "id" : 2412,
-         "skill_type" : "",
+         "pre_requisites" : {
+            "WM_LULLABY_DEEPSLEEP" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Harmonizar",
+         "handle_name" : "MI_HARMONIZE",
+         "id" : 2383,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "WM_LULLABY_DEEPSLEEP" : 1
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Domínio Musical",
-         "MaxLevel" : 10
+         "handle_name" : "WM_LESSON",
+         "id" : 2412,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
          "display_name" : "Ruído Estridente",
+         "handle_name" : "WM_METALICSOUND",
+         "id" : 2413,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_DOMINION_IMPULSE" : 1
          },
-         "position" : "",
-         "handle_name" : "WM_METALICSOUND",
-         "id" : 2413,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
+         "display_name" : "Ressonância",
+         "handle_name" : "WM_REVERBERATION",
+         "id" : 2414,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "BA_DISSONANCE" : 5
          },
-         "position" : "",
-         "handle_name" : "WM_REVERBERATION",
-         "display_name" : "Ressonância",
-         "id" : 2414,
-         "MaxLevel" : 5,
          "skill_type" : "0x80"
       },
       {
+         "display_name" : "Ativar Ressonância",
+         "handle_name" : "WM_DOMINION_IMPULSE",
+         "id" : 2417,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "WM_REVERBERATION" : 1
          },
-         "handle_name" : "WM_DOMINION_IMPULSE",
-         "position" : "",
-         "display_name" : "Ativar Ressonância",
-         "id" : 2417,
-         "skill_type" : "",
-         "MaxLevel" : 1
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2418,
-         "position" : "",
+         "display_name" : "Temporal de Mil Flechas",
          "handle_name" : "WM_SEVERE_RAINSTORM",
+         "id" : 2418,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "BA_MUSICALSTRIKE" : 5
          },
-         "display_name" : "Temporal de Mil Flechas"
+         "skill_type" : ""
       },
       {
          "display_name" : "Poema de Nifflheim",
+         "handle_name" : "WM_POEMOFNETHERWORLD",
+         "id" : 2419,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_LESSON" : 1
          },
-         "position" : "",
-         "handle_name" : "WM_POEMOFNETHERWORLD",
-         "id" : 2419,
-         "MaxLevel" : 5,
          "skill_type" : "0x80"
       },
       {
+         "display_name" : "Canto da Sereia",
+         "handle_name" : "WM_VOICEOFSIREN",
          "id" : 2420,
-         "MaxLevel" : 5,
-         "skill_type" : "",
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_POEMOFNETHERWORLD" : 3
          },
-         "position" : "",
-         "handle_name" : "WM_VOICEOFSIREN",
-         "display_name" : "Canto da Sereia"
+         "skill_type" : ""
       },
       {
          "display_name" : "Réquiem de Orfeu",
          "handle_name" : "WM_DEADHILLHERE",
+         "id" : 2421,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "WM_SIRCLEOFNATURE" : 3
          },
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2421
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2422,
          "display_name" : "Melodia de Morfeu",
-         "position" : "",
          "handle_name" : "WM_LULLABY_DEEPSLEEP",
-         "pre_requisites" : {
-            "WM_LESSON" : 1
-         }
-      },
-      {
+         "id" : 2422,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_LESSON" : 1
          },
-         "handle_name" : "WM_SIRCLEOFNATURE",
-         "position" : "",
-         "display_name" : "Sibilo de Eir",
-         "id" : 2423,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
+         "display_name" : "Sibilo de Eir",
+         "handle_name" : "WM_SIRCLEOFNATURE",
+         "id" : 2423,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "WM_LESSON" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Improviso",
+         "handle_name" : "WM_RANDOMIZESPELL",
+         "id" : 2424,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_POEMOFNETHERWORLD" : 1
          },
-         "handle_name" : "WM_RANDOMIZESPELL",
-         "position" : "",
-         "display_name" : "Improviso",
-         "id" : 2424,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
          "display_name" : "Ode a Hela",
+         "handle_name" : "WM_GLOOMYDAY",
+         "id" : 2425,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_RANDOMIZESPELL" : 1
          },
-         "handle_name" : "WM_GLOOMYDAY",
-         "position" : "",
-         "id" : 2425,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
+         "display_name" : "Brado de Odin",
+         "handle_name" : "WM_GREAT_ECHO",
          "id" : 2426,
-         "MaxLevel" : 5,
-         "skill_type" : "0x4000",
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_METALICSOUND" : 1
          },
-         "position" : "",
-         "handle_name" : "WM_GREAT_ECHO",
-         "display_name" : "Brado de Odin"
+         "skill_type" : "0x4000"
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "0x4000",
-         "id" : 2427,
-         "position" : "",
+         "display_name" : "Canção de Alfheim",
          "handle_name" : "WM_SONG_OF_MANA",
+         "id" : 2427,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
-            "MI_HARMONIZE" : 1,
             "MI_ECHOSONG" : 1,
+            "MI_HARMONIZE" : 1,
             "MI_RUSH_WINDMILL" : 1
          },
-         "display_name" : "Canção de Alfheim"
+         "skill_type" : "0x4000"
       },
       {
-         "pre_requisites" : {
-            "MI_HARMONIZE" : 1,
-            "MI_RUSH_WINDMILL" : 1,
-            "MI_ECHOSONG" : 1
-         },
-         "position" : "",
-         "handle_name" : "WM_DANCE_WITH_WUG",
          "display_name" : "Dança com Lobos",
+         "handle_name" : "WM_DANCE_WITH_WUG",
          "id" : 2428,
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "MI_ECHOSONG" : 1,
+            "MI_HARMONIZE" : 1,
+            "MI_RUSH_WINDMILL" : 1
+         },
          "skill_type" : "0x4000"
       },
       {
          "display_name" : "Prelúdio do Ragnarök",
-         "pre_requisites" : {
-            "WM_SATURDAY_NIGHT_FEVER" : 3,
-            "WM_MELODYOFSINK" : 3
-         },
-         "position" : "",
          "handle_name" : "WM_SOUND_OF_DESTRUCTION",
          "id" : 2429,
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "WM_MELODYOFSINK" : 3,
+            "WM_SATURDAY_NIGHT_FEVER" : 3
+         },
          "skill_type" : "0x4000"
       },
       {
+         "display_name" : "Embalos de Sábado a Noite",
+         "handle_name" : "WM_SATURDAY_NIGHT_FEVER",
          "id" : 2430,
-         "skill_type" : "0x4000",
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_DANCE_WITH_WUG" : 1
          },
-         "handle_name" : "WM_SATURDAY_NIGHT_FEVER",
-         "position" : "",
-         "display_name" : "Embalos de Sábado a Noite"
-      },
-      {
-         "display_name" : "Orvalho de Idun",
-         "pre_requisites" : {
-            "MI_HARMONIZE" : 1,
-            "MI_RUSH_WINDMILL" : 1,
-            "MI_ECHOSONG" : 1
-         },
-         "position" : "",
-         "handle_name" : "WM_LERADS_DEW",
-         "id" : 2431,
-         "MaxLevel" : 5,
          "skill_type" : "0x4000"
       },
       {
+         "display_name" : "Orvalho de Idun",
+         "handle_name" : "WM_LERADS_DEW",
+         "id" : 2431,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "MI_ECHOSONG" : 1,
+            "MI_HARMONIZE" : 1,
+            "MI_RUSH_WINDMILL" : 1
+         },
+         "skill_type" : "0x4000"
+      },
+      {
+         "display_name" : "Cântico da Iluminação",
+         "handle_name" : "WM_MELODYOFSINK",
          "id" : 2432,
-         "skill_type" : "0x4000",
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_SONG_OF_MANA" : 1
          },
-         "handle_name" : "WM_MELODYOFSINK",
-         "position" : "",
-         "display_name" : "Cântico da Iluminação"
+         "skill_type" : "0x4000"
       },
       {
          "display_name" : "Clamor de Batalha",
-         "position" : "",
          "handle_name" : "WM_BEYOND_OF_WARCRY",
+         "id" : 2433,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_LERADS_DEW" : 1
          },
-         "MaxLevel" : 5,
-         "skill_type" : "0x4000",
-         "id" : 2433
+         "skill_type" : "0x4000"
       },
       {
          "display_name" : "Murmúrio Perene",
+         "handle_name" : "WM_UNLIMITED_HUMMING_VOICE",
+         "id" : 2434,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WM_BEYOND_OF_WARCRY" : 1,
             "WM_SOUND_OF_DESTRUCTION" : 1
          },
-         "position" : "",
-         "handle_name" : "WM_UNLIMITED_HUMMING_VOICE",
-         "id" : 2434,
-         "MaxLevel" : 5,
          "skill_type" : "0x4000"
       },
       {
          "display_name" : "Frigg's Song",
          "handle_name" : "WM_FRIGG_SONG",
+         "id" : 5007,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "WM_LESSON" : 1
          },
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 5007
+         "skill_type" : ""
       },
       {
-         "position" : "",
-         "handle_name" : "ALL_FULL_THROTTLE",
-         "MaxLevel" : 5,
          "display_name" : "Full Throttle",
-         "skill_type" : "",
-         "id" : 5014
+         "handle_name" : "ALL_FULL_THROTTLE",
+         "id" : 5014,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       }
-   ],
-   "ptbr_class_name" : "Menestrel"
+   ]
 }

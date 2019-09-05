@@ -1,270 +1,270 @@
 {
-   "ptbr_class_name" : "Sábio",
+   "inherit" : [
+      "Magician"
+   ],
+   "ptbr_class_name" : "SÃ¡bio",
    "skills" : [
       {
-         "id" : 93,
-         "MaxLevel" : 1,
          "display_name" : "Sentido Sobrenatural",
-         "skill_type" : "",
+         "handle_name" : "WZ_ESTIMATION",
+         "id" : 93,
+         "maxLevel" : 1,
          "position" : "",
-         "handle_name" : "WZ_ESTIMATION"
-      },
-      {
-         "id" : 90,
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "pre_requisites" : {
-            "SA_SEISMICWEAPON" : 1
-         },
-         "handle_name" : "WZ_EARTHSPIKE",
-         "position" : "",
-         "display_name" : "Coluna de Pedra"
-      },
-      {
-         "display_name" : "Fúria da Terra",
-         "pre_requisites" : {
-            "WZ_EARTHSPIKE" : 1
-         },
-         "handle_name" : "WZ_HEAVENDRIVE",
-         "position" : "",
-         "id" : 91,
-         "skill_type" : "",
-         "MaxLevel" : 5
-      },
-      {
-         "handle_name" : "SA_ADVANCEDBOOK",
-         "position" : "",
-         "id" : 274,
-         "skill_type" : "",
-         "display_name" : "Estudo de Livros",
-         "MaxLevel" : 10
-      },
-      {
-         "position" : "",
-         "handle_name" : "SA_CASTCANCEL",
-         "pre_requisites" : {
-            "SA_ADVANCEDBOOK" : 2
-         },
-         "display_name" : "Cancelar magia",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 275
-      },
-      {
-         "pre_requisites" : {
-            "SA_ADVANCEDBOOK" : 4
-         },
-         "position" : "",
-         "handle_name" : "SA_MAGICROD",
-         "display_name" : "Espelho Mágico",
-         "id" : 276,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
-         "id" : 277,
-         "skill_type" : "",
-         "MaxLevel" : 5,
+         "display_name" : "Coluna de Pedra",
+         "handle_name" : "WZ_EARTHSPIKE",
+         "id" : 90,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SA_SEISMICWEAPON" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Fúria da Terra",
+         "handle_name" : "WZ_HEAVENDRIVE",
+         "id" : 91,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "WZ_EARTHSPIKE" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Estudo de Livros",
+         "handle_name" : "SA_ADVANCEDBOOK",
+         "id" : 274,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Cancelar magia",
+         "handle_name" : "SA_CASTCANCEL",
+         "id" : 275,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SA_ADVANCEDBOOK" : 2
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Espelho Mágico",
+         "handle_name" : "SA_MAGICROD",
+         "id" : 276,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SA_ADVANCEDBOOK" : 4
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Desconcentrar",
+         "handle_name" : "SA_SPELLBREAKER",
+         "id" : 277,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SA_MAGICROD" : 1
          },
-         "handle_name" : "SA_SPELLBREAKER",
-         "position" : ""
+         "skill_type" : ""
       },
       {
          "display_name" : "Conjuração Livre",
-         "position" : "",
          "handle_name" : "SA_FREECAST",
+         "id" : 278,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "SA_CASTCANCEL" : 1
          },
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 278
+         "skill_type" : ""
       },
       {
+         "display_name" : "Desejo Arcano",
+         "handle_name" : "SA_AUTOSPELL",
+         "id" : 279,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "SA_FREECAST" : 4
          },
-         "handle_name" : "SA_AUTOSPELL",
-         "position" : "",
-         "display_name" : "Desejo Arcano",
-         "id" : 279,
-         "skill_type" : "",
-         "MaxLevel" : 10
+         "skill_type" : ""
       },
       {
          "display_name" : "Encantar com Chama",
-         "pre_requisites" : {
-            "SA_ADVANCEDBOOK" : 5,
-            "MG_FIREBOLT" : 1
-         },
-         "position" : "",
          "handle_name" : "SA_FLAMELAUNCHER",
          "id" : 280,
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "MG_FIREBOLT" : 1,
+            "SA_ADVANCEDBOOK" : 5
+         },
          "skill_type" : "0xC00"
       },
       {
-         "skill_type" : "0xC00",
-         "MaxLevel" : 5,
-         "id" : 281,
+         "display_name" : "Encantar com Geada",
          "handle_name" : "SA_FROSTWEAPON",
+         "id" : 281,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "MG_COLDBOLT" : 1,
             "SA_ADVANCEDBOOK" : 5
          },
-         "display_name" : "Encantar com Geada"
+         "skill_type" : "0xC00"
       },
       {
-         "id" : 282,
-         "skill_type" : "0xC00",
-         "MaxLevel" : 5,
          "display_name" : "Encantar com Ventania",
-         "pre_requisites" : {
-            "SA_ADVANCEDBOOK" : 5,
-            "MG_LIGHTNINGBOLT" : 1
-         },
          "handle_name" : "SA_LIGHTNINGLOADER",
-         "position" : ""
+         "id" : 282,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "MG_LIGHTNINGBOLT" : 1,
+            "SA_ADVANCEDBOOK" : 5
+         },
+         "skill_type" : "0xC00"
       },
       {
+         "display_name" : "Encantar com Terremoto",
+         "handle_name" : "SA_SEISMICWEAPON",
          "id" : 283,
-         "skill_type" : "0xC00",
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "MG_STONECURSE" : 1,
             "SA_ADVANCEDBOOK" : 5
          },
-         "handle_name" : "SA_SEISMICWEAPON",
-         "position" : "",
-         "display_name" : "Encantar com Terremoto"
+         "skill_type" : "0xC00"
       },
       {
+         "display_name" : "Dragonologia",
+         "handle_name" : "SA_DRAGONOLOGY",
+         "id" : 284,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SA_ADVANCEDBOOK" : 9
          },
-         "handle_name" : "SA_DRAGONOLOGY",
-         "position" : "",
-         "display_name" : "Dragonologia",
-         "id" : 284,
-         "skill_type" : "",
-         "MaxLevel" : 5
-      },
-      {
-         "pre_requisites" : {
-            "SA_FLAMELAUNCHER" : 2
-         },
-         "position" : "",
-         "handle_name" : "SA_VOLCANO",
-         "display_name" : "Vulcão",
-         "id" : 285,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
+         "display_name" : "Vulcão",
+         "handle_name" : "SA_VOLCANO",
+         "id" : 285,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SA_FLAMELAUNCHER" : 2
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Dilúvio",
+         "handle_name" : "SA_DELUGE",
          "id" : 286,
-         "MaxLevel" : 5,
-         "skill_type" : "",
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SA_FROSTWEAPON" : 2
          },
-         "position" : "",
-         "handle_name" : "SA_DELUGE",
-         "display_name" : "Dilúvio"
+         "skill_type" : ""
       },
       {
          "display_name" : "Furacão",
          "handle_name" : "SA_VIOLENTGALE",
+         "id" : 287,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "SA_LIGHTNINGLOADER" : 2
          },
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 287
+         "skill_type" : ""
       },
       {
-         "id" : 288,
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "pre_requisites" : {
-            "SA_VOLCANO" : 3,
-            "SA_DELUGE" : 3,
-            "SA_VIOLENTGALE" : 3
-         },
-         "position" : "",
+         "display_name" : "Proteger Terreno",
          "handle_name" : "SA_LANDPROTECTOR",
-         "display_name" : "Proteger Terreno"
+         "id" : 288,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SA_DELUGE" : 3,
+            "SA_VIOLENTGALE" : 3,
+            "SA_VOLCANO" : 3
+         },
+         "skill_type" : ""
       },
       {
-         "id" : 289,
-         "skill_type" : "0xE00",
-         "MaxLevel" : 5,
          "display_name" : "Desencantar",
+         "handle_name" : "SA_DISPELL",
+         "id" : 289,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SA_SPELLBREAKER" : 3
          },
-         "handle_name" : "SA_DISPELL",
-         "position" : ""
+         "skill_type" : "0xE00"
       },
       {
-         "id" : 290,
-         "MaxLevel" : 10,
-         "skill_type" : "",
          "display_name" : "Abracadabra",
+         "handle_name" : "SA_ABRACADABRA",
+         "id" : 290,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "SA_AUTOSPELL" : 5,
             "SA_DISPELL" : 1,
             "SA_LANDPROTECTOR" : 1
          },
-         "position" : "",
-         "handle_name" : "SA_ABRACADABRA"
+         "skill_type" : ""
       },
       {
-         "skill_type" : "0x1",
          "display_name" : "Criar Conversor Elemental",
-         "MaxLevel" : 1,
-         "id" : 1007,
          "handle_name" : "SA_CREATECON",
-         "position" : ""
+         "id" : 1007,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       },
       {
-         "id" : 1008,
          "display_name" : "Mudança Elemental da Água",
-         "skill_type" : "0x1",
-         "MaxLevel" : 1,
          "handle_name" : "SA_ELEMENTWATER",
-         "position" : ""
+         "id" : 1008,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       },
       {
-         "handle_name" : "SA_ELEMENTGROUND",
-         "position" : "",
-         "id" : 1017,
-         "skill_type" : "0x1",
          "display_name" : "Mudança Elemental da Terra",
-         "MaxLevel" : 1
+         "handle_name" : "SA_ELEMENTGROUND",
+         "id" : 1017,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       },
       {
-         "position" : "",
+         "display_name" : "Mudança Elemental do Água",
          "handle_name" : "SA_ELEMENTFIRE",
          "id" : 1018,
-         "MaxLevel" : 1,
-         "skill_type" : "0x1",
-         "display_name" : "Mudança Elemental do Água"
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       },
       {
-         "handle_name" : "SA_ELEMENTWIND",
-         "position" : "",
          "display_name" : "Mudança Elemental do Vento",
-         "skill_type" : "0x1",
-         "MaxLevel" : 1,
-         "id" : 1019
+         "handle_name" : "SA_ELEMENTWIND",
+         "id" : 1019,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       }
-   ],
-   "inherit" : [
-      "Magician"
    ]
 }

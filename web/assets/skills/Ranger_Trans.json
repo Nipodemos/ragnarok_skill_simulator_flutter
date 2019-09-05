@@ -1,7 +1,7 @@
 {
-   "ptbr_class_name" : "Sentinela Trans",
    "inherit" : [
       "Sniper",
       "Ranger"
-   ]
+   ],
+   "ptbr_class_name" : "Sentinela Trans"
 }

@@ -1,236 +1,236 @@
 {
+   "inherit" : [
+      "Crusader"
+   ],
+   "ptbr_class_name" : "GuadriÃ£o Real",
    "skills" : [
       {
+         "display_name" : "Disparo Perfurante",
+         "handle_name" : "LG_CANNONSPEAR",
          "id" : 2307,
-         "MaxLevel" : 5,
-         "skill_type" : "",
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "LG_PINPOINTATTACK" : 1
          },
-         "position" : "",
-         "handle_name" : "LG_CANNONSPEAR",
-         "display_name" : "Disparo Perfurante"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Toque do Oblívio",
+         "handle_name" : "LG_BANISHINGPOINT",
+         "id" : 2308,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "KN_SPEARMASTERY" : 1
          },
-         "handle_name" : "LG_BANISHINGPOINT",
-         "position" : "",
-         "display_name" : "Toque do Oblívio",
-         "id" : 2308,
-         "skill_type" : "",
-         "MaxLevel" : 10
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 3,
-         "skill_type" : "",
          "display_name" : "Pisotear Armadilha",
+         "handle_name" : "LG_TRAMPLE",
          "id" : 2309,
+         "maxLevel" : 3,
          "position" : "",
-         "handle_name" : "LG_TRAMPLE"
+         "skill_type" : ""
       },
       {
          "display_name" : "Escudo Compressor",
-         "position" : "",
          "handle_name" : "LG_SHIELDPRESS",
+         "id" : 2310,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "CR_SHIELDCHARGE" : 3
          },
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2310
+         "skill_type" : ""
       },
       {
+         "display_name" : "Reflexão Amplificada",
          "handle_name" : "LG_REFLECTDAMAGE",
+         "id" : 2311,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "CR_REFLECTSHIELD" : 5
          },
-         "display_name" : "Reflexão Amplificada",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2311
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2312,
-         "position" : "",
+         "display_name" : "Estocada Precisa",
          "handle_name" : "LG_PINPOINTATTACK",
+         "id" : 2312,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "LG_BANISHINGPOINT" : 5
          },
-         "display_name" : "Estocada Precisa"
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
          "display_name" : "Proteção da Vanguarda",
-         "MaxLevel" : 5,
-         "id" : 2313,
          "handle_name" : "LG_FORCEOFVANGUARD",
-         "position" : ""
+         "id" : 2313,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 2314,
          "display_name" : "Retribuição da Vanguarda",
          "handle_name" : "LG_RAGEBURST",
+         "id" : 2314,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "LG_FORCEOFVANGUARD" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 3,
-         "skill_type" : "",
-         "id" : 2315,
          "display_name" : "Aegis Domini",
-         "position" : "",
          "handle_name" : "LG_SHIELDSPELL",
+         "id" : 2315,
+         "maxLevel" : 3,
+         "position" : "",
          "pre_requisites" : {
             "LG_EARTHDRIVE" : 2,
             "LG_SHIELDPRESS" : 3
-         }
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Exceder Limite",
+         "handle_name" : "LG_EXEEDBREAK",
          "id" : 2316,
-         "skill_type" : "",
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "LG_BANISHINGPOINT" : 3
          },
-         "handle_name" : "LG_EXEEDBREAK",
-         "position" : "",
-         "display_name" : "Exceder Limite"
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2317,
          "display_name" : "Lança do Destino",
          "handle_name" : "LG_OVERBRAND",
+         "id" : 2317,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "LG_MOONSLASHER" : 3,
             "LG_PINPOINTATTACK" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Prestígio Divino",
          "handle_name" : "LG_PRESTIGE",
+         "id" : 2318,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "LG_TRAMPLE" : 3
          },
-         "display_name" : "Prestígio Divino",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2318
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2319,
          "display_name" : "Formação Real",
          "handle_name" : "LG_BANDING",
+         "id" : 2319,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "LG_PINPOINTATTACK" : 3,
             "LG_RAGEBURST" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
-         "id" : 2320,
-         "skill_type" : "",
-         "MaxLevel" : 5,
          "display_name" : "Espiral Lunar",
+         "handle_name" : "LG_MOONSLASHER",
+         "id" : 2320,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "KN_SPEARMASTERY" : 1
          },
-         "handle_name" : "LG_MOONSLASHER",
-         "position" : ""
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2321,
-         "position" : "",
+         "display_name" : "Luz da Criação",
          "handle_name" : "LG_RAYOFGENESIS",
+         "id" : 2321,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "CR_GRANDCROSS" : 5
          },
-         "display_name" : "Luz da Criação"
+         "skill_type" : ""
       },
       {
-         "id" : 2322,
-         "MaxLevel" : 5,
-         "skill_type" : "",
          "display_name" : "Devoção",
+         "handle_name" : "LG_PIETY",
+         "id" : 2322,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "CR_TRUST" : 3
          },
-         "position" : "",
-         "handle_name" : "LG_PIETY"
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2323,
-         "position" : "",
+         "display_name" : "Aegis Inferi",
          "handle_name" : "LG_EARTHDRIVE",
+         "id" : 2323,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "LG_REFLECTDAMAGE" : 3
          },
-         "display_name" : "Aegis Inferi"
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2324,
          "display_name" : "Trindade",
          "handle_name" : "LG_HESPERUSLIT",
+         "id" : 2324,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "LG_BANDING" : 3,
             "LG_PRESTIGE" : 3
-         }
+         },
+         "skill_type" : ""
       },
       {
          "display_name" : "Consagração",
-         "pre_requisites" : {
-            "LG_SHIELDSPELL" : 3,
-            "LG_RAYOFGENESIS" : 4,
-            "LG_PIETY" : 5
-         },
          "handle_name" : "LG_INSPIRATION",
-         "position" : "",
          "id" : 2325,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "LG_PIETY" : 5,
+            "LG_RAYOFGENESIS" : 4,
+            "LG_SHIELDSPELL" : 3
+         },
+         "skill_type" : ""
       },
       {
          "display_name" : "King's Grace",
+         "handle_name" : "LG_KINGS_GRACE",
+         "id" : 5013,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "LG_REFLECTDAMAGE" : 5
          },
-         "handle_name" : "LG_KINGS_GRACE",
-         "position" : "",
-         "id" : 5013,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
-         "handle_name" : "ALL_FULL_THROTTLE",
-         "position" : "",
-         "id" : 5014,
-         "skill_type" : "",
          "display_name" : "Full Throttle",
-         "MaxLevel" : 5
+         "handle_name" : "ALL_FULL_THROTTLE",
+         "id" : 5014,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       }
-   ],
-   "inherit" : [
-      "Crusader"
-   ],
-   "ptbr_class_name" : "Guadrião Real"
+   ]
 }

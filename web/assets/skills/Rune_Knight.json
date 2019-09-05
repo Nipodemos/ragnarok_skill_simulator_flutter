@@ -1,148 +1,148 @@
 {
-   "ptbr_class_name" : "Cavaleiro Rúnico",
    "inherit" : [
       "Knight"
    ],
+   "ptbr_class_name" : "Cavaleiro RÃºnico",
    "skills" : [
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2001,
          "display_name" : "Encantar Lâmina",
-         "position" : "",
          "handle_name" : "RK_ENCHANTBLADE",
+         "id" : 2001,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "RK_RUNEMASTERY" : 2
-         }
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Onda de Choque",
+         "handle_name" : "RK_SONICWAVE",
          "id" : 2002,
-         "MaxLevel" : 5,
-         "skill_type" : "",
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "RK_ENCHANTBLADE" : 3
          },
-         "position" : "",
-         "handle_name" : "RK_SONICWAVE",
-         "display_name" : "Onda de Choque"
+         "skill_type" : ""
       },
       {
          "display_name" : "Revidar Dano",
+         "handle_name" : "RK_DEATHBOUND",
+         "id" : 2003,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "KN_AUTOCOUNTER" : 1,
             "RK_ENCHANTBLADE" : 2
          },
-         "handle_name" : "RK_DEATHBOUND",
-         "position" : "",
-         "id" : 2003,
-         "skill_type" : "",
-         "MaxLevel" : 10
+         "skill_type" : ""
       },
       {
+         "display_name" : "Lança das Mil Pontas",
+         "handle_name" : "RK_HUNDREDSPEAR",
+         "id" : 2004,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "RK_PHANTOMTHRUST" : 3
          },
-         "position" : "",
-         "handle_name" : "RK_HUNDREDSPEAR",
-         "display_name" : "Lança das Mil Pontas",
-         "id" : 2004,
-         "MaxLevel" : 10,
          "skill_type" : ""
       },
       {
+         "display_name" : "Vento Cortante",
+         "handle_name" : "RK_WINDCUTTER",
+         "id" : 2005,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "RK_ENCHANTBLADE" : 5
          },
-         "handle_name" : "RK_WINDCUTTER",
-         "position" : "",
-         "display_name" : "Vento Cortante",
-         "id" : 2005,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
          "display_name" : "Impacto Flamejante",
-         "pre_requisites" : {
-            "RK_WINDCUTTER" : 3,
-            "RK_DEATHBOUND" : 5,
-            "RK_SONICWAVE" : 2
-         },
          "handle_name" : "RK_IGNITIONBREAK",
-         "position" : "",
          "id" : 2006,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "RK_DEATHBOUND" : 5,
+            "RK_SONICWAVE" : 2,
+            "RK_WINDCUTTER" : 3
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Adestrar Dragão",
+         "handle_name" : "RK_DRAGONTRAINING",
+         "id" : 2007,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "KN_CAVALIERMASTERY" : 1
          },
-         "position" : "",
-         "handle_name" : "RK_DRAGONTRAINING",
-         "display_name" : "Adestrar Dragão",
-         "id" : 2007,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
-         "pre_requisites" : {
-            "RK_DRAGONTRAINING" : 2
-         },
-         "position" : "",
-         "handle_name" : "RK_DRAGONBREATH",
          "display_name" : "Sopro do Dragão",
+         "handle_name" : "RK_DRAGONBREATH",
          "id" : 2008,
-         "MaxLevel" : 10,
-         "skill_type" : ""
-      },
-      {
-         "id" : 2009,
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "display_name" : "Rugido do Dragão",
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "RK_DRAGONTRAINING" : 2
          },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Rugido do Dragão",
          "handle_name" : "RK_DRAGONHOWLING",
-         "position" : ""
-      },
-      {
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "display_name" : "Perícia em Runas",
-         "id" : 2010,
+         "id" : 2009,
+         "maxLevel" : 5,
          "position" : "",
-         "handle_name" : "RK_RUNEMASTERY"
+         "pre_requisites" : {
+            "RK_DRAGONTRAINING" : 2
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Perícia em Runas",
+         "handle_name" : "RK_RUNEMASTERY",
+         "id" : 2010,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Arpão",
+         "handle_name" : "RK_PHANTOMTHRUST",
+         "id" : 2020,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "KN_BRANDISHSPEAR" : 2
          },
-         "handle_name" : "RK_PHANTOMTHRUST",
-         "position" : "",
-         "display_name" : "Arpão",
-         "id" : 2020,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
+         "display_name" : "Dragon Breath - Water",
          "handle_name" : "RK_DRAGONBREATH_WATER",
+         "id" : 5004,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
             "RK_DRAGONTRAINING" : 2
          },
-         "display_name" : "Dragon Breath - Water",
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 5004
+         "skill_type" : ""
       },
       {
-         "id" : 5014,
          "display_name" : "Full Throttle",
-         "skill_type" : "",
-         "MaxLevel" : 5,
          "handle_name" : "ALL_FULL_THROTTLE",
-         "position" : ""
+         "id" : 5014,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       }
    ]
 }

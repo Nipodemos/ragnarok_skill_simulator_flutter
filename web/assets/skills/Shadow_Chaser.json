@@ -1,264 +1,264 @@
 {
+   "inherit" : [
+      "Rogue"
+   ],
+   "ptbr_class_name" : "Renegado",
    "skills" : [
       {
+         "display_name" : "Acerto de Contas",
+         "handle_name" : "SC_FATALMENACE",
+         "id" : 2284,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "RG_INTIMIDATE" : 5
          },
-         "position" : "",
-         "handle_name" : "SC_FATALMENACE",
-         "display_name" : "Acerto de Contas",
-         "id" : 2284,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Mimetismo",
          "handle_name" : "SC_REPRODUCE",
+         "id" : 2285,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "RG_PLAGIARISM" : 5
          },
-         "display_name" : "Mimetismo",
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 2285
+         "skill_type" : ""
       },
       {
+         "display_name" : "Desejo das Sombras",
+         "handle_name" : "SC_AUTOSHADOWSPELL",
+         "id" : 2286,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "SC_REPRODUCE" : 5
          },
-         "handle_name" : "SC_AUTOSHADOWSPELL",
-         "position" : "",
-         "display_name" : "Desejo das Sombras",
-         "id" : 2286,
-         "skill_type" : "",
-         "MaxLevel" : 10
+         "skill_type" : ""
       },
       {
          "display_name" : "Vínculo Sombrio",
+         "handle_name" : "SC_SHADOWFORM",
+         "id" : 2287,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "RG_TUNNELDRIVE" : 3
          },
-         "handle_name" : "SC_SHADOWFORM",
-         "position" : "",
-         "id" : 2287,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
          "display_name" : "Disparo Triplo",
          "handle_name" : "SC_TRIANGLESHOT",
+         "id" : 2288,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
             "AC_DOUBLE" : 7
          },
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 2288
-      },
-      {
-         "id" : 2289,
-         "display_name" : "Borrifar Tinta",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "handle_name" : "SC_BODYPAINT",
-         "position" : ""
-      },
-      {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2290,
-         "display_name" : "Forma Etérea",
-         "handle_name" : "SC_INVISIBILITY",
-         "position" : "",
-         "pre_requisites" : {
-            "SC_UNLUCKY" : 3,
-            "SC_AUTOSHADOWSPELL" : 7,
-            "SC_DEADLYINFECT" : 5
-         }
-      },
-      {
-         "id" : 2291,
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "pre_requisites" : {
-            "SC_SHADOWFORM" : 3,
-            "SC_AUTOSHADOWSPELL" : 5
-         },
-         "position" : "",
-         "handle_name" : "SC_DEADLYINFECT",
-         "display_name" : "Pestilência"
-      },
-      {
-         "handle_name" : "SC_ENERVATION",
-         "position" : "",
-         "pre_requisites" : {
-            "SC_BODYPAINT" : 1
-         },
-         "display_name" : "Máscara da Fraqueza",
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "id" : 2292
-      },
-      {
-         "handle_name" : "SC_GROOMY",
-         "position" : "",
-         "pre_requisites" : {
-            "SC_BODYPAINT" : 1
-         },
-         "display_name" : "Máscara da Melancolia",
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "id" : 2293
-      },
-      {
-         "display_name" : "Máscara da Tolice",
-         "pre_requisites" : {
-            "SC_BODYPAINT" : 1
-         },
-         "position" : "",
-         "handle_name" : "SC_IGNORANCE",
-         "id" : 2294,
-         "MaxLevel" : 3,
          "skill_type" : ""
       },
       {
-         "handle_name" : "SC_LAZINESS",
+         "display_name" : "Borrifar Tinta",
+         "handle_name" : "SC_BODYPAINT",
+         "id" : 2289,
+         "maxLevel" : 5,
          "position" : "",
-         "pre_requisites" : {
-            "SC_GROOMY" : 1,
-            "SC_ENERVATION" : 1,
-            "SC_IGNORANCE" : 1
-         },
-         "display_name" : "Máscara da Ociosidade",
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "id" : 2295
+         "skill_type" : ""
       },
       {
-         "id" : 2296,
-         "MaxLevel" : 3,
-         "skill_type" : "",
+         "display_name" : "Forma Etérea",
+         "handle_name" : "SC_INVISIBILITY",
+         "id" : 2290,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_AUTOSHADOWSPELL" : 7,
+            "SC_DEADLYINFECT" : 5,
+            "SC_UNLUCKY" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Pestilência",
+         "handle_name" : "SC_DEADLYINFECT",
+         "id" : 2291,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_AUTOSHADOWSPELL" : 5,
+            "SC_SHADOWFORM" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Máscara da Fraqueza",
+         "handle_name" : "SC_ENERVATION",
+         "id" : 2292,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_BODYPAINT" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Máscara da Melancolia",
+         "handle_name" : "SC_GROOMY",
+         "id" : 2293,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_BODYPAINT" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Máscara da Tolice",
+         "handle_name" : "SC_IGNORANCE",
+         "id" : 2294,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_BODYPAINT" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Máscara da Ociosidade",
+         "handle_name" : "SC_LAZINESS",
+         "id" : 2295,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_ENERVATION" : 1,
+            "SC_GROOMY" : 1,
+            "SC_IGNORANCE" : 1
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Máscara do Infortúnio",
+         "handle_name" : "SC_UNLUCKY",
+         "id" : 2296,
+         "maxLevel" : 3,
+         "position" : "",
          "pre_requisites" : {
             "SC_LAZINESS" : 1,
             "SC_WEAKNESS" : 1
          },
-         "position" : "",
-         "handle_name" : "SC_UNLUCKY"
-      },
-      {
-         "display_name" : "Máscara da Vulnerabilidade",
-         "position" : "",
-         "handle_name" : "SC_WEAKNESS",
-         "pre_requisites" : {
-            "SC_IGNORANCE" : 1,
-            "SC_ENERVATION" : 1,
-            "SC_GROOMY" : 1
-         },
-         "MaxLevel" : 3,
-         "skill_type" : "",
-         "id" : 2297
-      },
-      {
-         "id" : 2298,
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "pre_requisites" : {
-            "RG_STRIPWEAPON" : 1
-         },
-         "position" : "",
-         "handle_name" : "SC_STRIPACCESSARY",
-         "display_name" : "Remover Acessório"
-      },
-      {
-         "id" : 2299,
-         "MaxLevel" : 3,
-         "skill_type" : "",
-         "display_name" : "Pintar Armadilha",
-         "pre_requisites" : {
-            "RG_FLAGGRAFFITI" : 1
-         },
-         "position" : "",
-         "handle_name" : "SC_MANHOLE"
-      },
-      {
-         "id" : 2300,
-         "MaxLevel" : 3,
-         "skill_type" : "",
-         "display_name" : "Portal Dimensional",
-         "pre_requisites" : {
-            "SC_MANHOLE" : 1
-         },
-         "position" : "",
-         "handle_name" : "SC_DIMENSIONDOOR"
-      },
-      {
-         "MaxLevel" : 3,
-         "skill_type" : "",
-         "id" : 2301,
-         "position" : "",
-         "handle_name" : "SC_CHAOSPANIC",
-         "pre_requisites" : {
-            "SC_MANHOLE" : 1
-         },
-         "display_name" : "Símbolo do Caos"
-      },
-      {
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "id" : 2302,
-         "display_name" : "Redemoinho de Absorção",
-         "handle_name" : "SC_MAELSTROM",
-         "position" : "",
-         "pre_requisites" : {
-            "SC_UNLUCKY" : 3,
-            "SC_CHAOSPANIC" : 3
-         }
-      },
-      {
-         "MaxLevel" : 3,
-         "skill_type" : "",
-         "id" : 2303,
-         "position" : "",
-         "handle_name" : "SC_BLOODYLUST",
-         "pre_requisites" : {
-            "SC_DIMENSIONDOOR" : 3
-         },
-         "display_name" : "Sede de Sangue"
-      },
-      {
-         "display_name" : "Cópia Explosiva",
-         "pre_requisites" : {
-            "SC_DIMENSIONDOOR" : 3
-         },
-         "handle_name" : "SC_FEINTBOMB",
-         "position" : "",
-         "id" : 2304,
-         "skill_type" : "",
-         "MaxLevel" : 3
-      },
-      {
-         "pre_requisites" : {
-            "SC_TRIANGLESHOT" : 2
-         },
-         "position" : "",
-         "handle_name" : "SC_ESCAPE",
-         "display_name" : "Emergency Escape",
-         "id" : 5010,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
-         "handle_name" : "ALL_FULL_THROTTLE",
+         "display_name" : "Máscara da Vulnerabilidade",
+         "handle_name" : "SC_WEAKNESS",
+         "id" : 2297,
+         "maxLevel" : 3,
          "position" : "",
+         "pre_requisites" : {
+            "SC_ENERVATION" : 1,
+            "SC_GROOMY" : 1,
+            "SC_IGNORANCE" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Remover Acessório",
+         "handle_name" : "SC_STRIPACCESSARY",
+         "id" : 2298,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "RG_STRIPWEAPON" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Pintar Armadilha",
+         "handle_name" : "SC_MANHOLE",
+         "id" : 2299,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "RG_FLAGGRAFFITI" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Portal Dimensional",
+         "handle_name" : "SC_DIMENSIONDOOR",
+         "id" : 2300,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_MANHOLE" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Símbolo do Caos",
+         "handle_name" : "SC_CHAOSPANIC",
+         "id" : 2301,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_MANHOLE" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Redemoinho de Absorção",
+         "handle_name" : "SC_MAELSTROM",
+         "id" : 2302,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_CHAOSPANIC" : 3,
+            "SC_UNLUCKY" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Sede de Sangue",
+         "handle_name" : "SC_BLOODYLUST",
+         "id" : 2303,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_DIMENSIONDOOR" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Cópia Explosiva",
+         "handle_name" : "SC_FEINTBOMB",
+         "id" : 2304,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_DIMENSIONDOOR" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Emergency Escape",
+         "handle_name" : "SC_ESCAPE",
+         "id" : 5010,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "SC_TRIANGLESHOT" : 2
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Full Throttle",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 5014
+         "handle_name" : "ALL_FULL_THROTTLE",
+         "id" : 5014,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       }
-   ],
-   "inherit" : [
-      "Rogue"
-   ],
-   "ptbr_class_name" : "Renegado"
+   ]
 }

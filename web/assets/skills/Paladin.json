@@ -1,58 +1,58 @@
 {
+   "inherit" : [
+      "Crusader"
+   ],
    "ptbr_class_name" : "Paladino",
    "skills" : [
       {
-         "id" : 367,
-         "MaxLevel" : 5,
-         "skill_type" : "",
          "display_name" : "Gloria Domini",
-         "pre_requisites" : {
-            "SM_ENDURE" : 5,
-            "CR_TRUST" : 5,
-            "CR_SHIELDCHARGE" : 2
-         },
+         "handle_name" : "PA_PRESSURE",
+         "id" : 367,
+         "maxLevel" : 5,
          "position" : "",
-         "handle_name" : "PA_PRESSURE"
+         "pre_requisites" : {
+            "CR_SHIELDCHARGE" : 2,
+            "CR_TRUST" : 5,
+            "SM_ENDURE" : 5
+         },
+         "skill_type" : ""
       },
       {
-         "id" : 368,
-         "MaxLevel" : 5,
-         "skill_type" : "",
          "display_name" : "Sacrifício do Mártir",
+         "handle_name" : "PA_SACRIFICE",
+         "id" : 368,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
-            "SM_ENDURE" : 1,
+            "CR_DEVOTION" : 3,
             "CR_TRUST" : 5,
-            "CR_DEVOTION" : 3
+            "SM_ENDURE" : 1
          },
-         "position" : "",
-         "handle_name" : "PA_SACRIFICE"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Canto de Batalha",
          "handle_name" : "PA_GOSPEL",
+         "id" : 369,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
-            "CR_TRUST" : 8,
             "AL_DEMONBANE" : 5,
-            "AL_DP" : 3
+            "AL_DP" : 3,
+            "CR_TRUST" : 8
          },
-         "display_name" : "Canto de Batalha",
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 369
+         "skill_type" : ""
       },
       {
+         "display_name" : "Choque Rápido",
+         "handle_name" : "PA_SHIELDCHAIN",
+         "id" : 480,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "CR_SHIELDBOOMERANG" : 5
          },
-         "handle_name" : "PA_SHIELDCHAIN",
-         "position" : "",
-         "display_name" : "Choque Rápido",
-         "id" : 480,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       }
-   ],
-   "inherit" : [
-      "Crusader"
    ]
 }

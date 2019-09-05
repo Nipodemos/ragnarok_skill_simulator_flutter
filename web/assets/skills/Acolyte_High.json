@@ -1,6 +1,6 @@
 {
-   "ptbr_class_name" : "Noviço Trans",
    "inherit" : [
       "Acolyte"
-   ]
+   ],
+   "ptbr_class_name" : "NoviÃ§o Trans"
 }

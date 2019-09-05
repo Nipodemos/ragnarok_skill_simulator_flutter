@@ -1,211 +1,211 @@
 {
-   "ptbr_class_name" : "Caçador",
+   "inherit" : [
+      "Archer"
+   ],
+   "ptbr_class_name" : "CaÃ§ador",
    "skills" : [
       {
-         "handle_name" : "HT_SKIDTRAP",
-         "position" : "",
          "display_name" : "Armadilha Escorregadia",
-         "skill_type" : "0x80",
-         "MaxLevel" : 5,
-         "id" : 115
+         "handle_name" : "HT_SKIDTRAP",
+         "id" : 115,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : "0x80"
       },
       {
-         "id" : 116,
-         "MaxLevel" : 5,
          "display_name" : "Armadilha Atordoante",
-         "skill_type" : "0x80",
+         "handle_name" : "HT_LANDMINE",
+         "id" : 116,
+         "maxLevel" : 5,
          "position" : "",
-         "handle_name" : "HT_LANDMINE"
+         "skill_type" : "0x80"
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "0x80",
-         "id" : 117,
          "display_name" : "Instalar Armadilha",
-         "position" : "",
          "handle_name" : "HT_ANKLESNARE",
+         "id" : 117,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "HT_SKIDTRAP" : 1
-         }
+         },
+         "skill_type" : "0x80"
       },
       {
-         "id" : 118,
-         "MaxLevel" : 5,
-         "skill_type" : "0x80",
          "display_name" : "Armadilha Extenuante",
+         "handle_name" : "HT_SHOCKWAVE",
+         "id" : 118,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "HT_ANKLESNARE" : 1
          },
-         "position" : "",
-         "handle_name" : "HT_SHOCKWAVE"
+         "skill_type" : "0x80"
       },
       {
-         "id" : 119,
-         "MaxLevel" : 5,
-         "skill_type" : "0x80",
          "display_name" : "Armadilha Sonífera",
+         "handle_name" : "HT_SANDMAN",
+         "id" : 119,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "HT_FLASHER" : 1
          },
-         "position" : "",
-         "handle_name" : "HT_SANDMAN"
+         "skill_type" : "0x80"
       },
       {
+         "display_name" : "Armadilha Luminosa",
+         "handle_name" : "HT_FLASHER",
+         "id" : 120,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "HT_SKIDTRAP" : 1
          },
-         "position" : "",
-         "handle_name" : "HT_FLASHER",
-         "display_name" : "Armadilha Luminosa",
-         "id" : 120,
-         "MaxLevel" : 5,
          "skill_type" : "0x80"
       },
       {
          "display_name" : "Armadilha Congelante",
          "handle_name" : "HT_FREEZINGTRAP",
+         "id" : 121,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "HT_FLASHER" : 1
          },
-         "skill_type" : "0x80",
-         "MaxLevel" : 5,
-         "id" : 121
+         "skill_type" : "0x80"
       },
       {
          "display_name" : "Instalar Mina",
+         "handle_name" : "HT_BLASTMINE",
+         "id" : 122,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "HT_FREEZINGTRAP" : 1,
             "HT_LANDMINE" : 1,
             "HT_SANDMAN" : 1
          },
-         "position" : "",
-         "handle_name" : "HT_BLASTMINE",
-         "id" : 122,
-         "MaxLevel" : 5,
          "skill_type" : "0x80"
       },
       {
+         "display_name" : "Armadilha Explosiva",
+         "handle_name" : "HT_CLAYMORETRAP",
+         "id" : 123,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "HT_BLASTMINE" : 1,
             "HT_SHOCKWAVE" : 1
          },
-         "position" : "",
-         "handle_name" : "HT_CLAYMORETRAP",
-         "display_name" : "Armadilha Explosiva",
-         "id" : 123,
-         "MaxLevel" : 5,
          "skill_type" : "0x80"
       },
       {
-         "id" : 124,
-         "skill_type" : "",
-         "MaxLevel" : 1,
          "display_name" : "Remover Armadilha",
+         "handle_name" : "HT_REMOVETRAP",
+         "id" : 124,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "HT_LANDMINE" : 1
          },
-         "handle_name" : "HT_REMOVETRAP",
-         "position" : ""
+         "skill_type" : ""
       },
       {
          "display_name" : "Mensagem Secreta",
+         "handle_name" : "HT_TALKIEBOX",
+         "id" : 125,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "HT_REMOVETRAP" : 1,
             "HT_SHOCKWAVE" : 1
          },
-         "position" : "",
-         "handle_name" : "HT_TALKIEBOX",
-         "id" : 125,
-         "MaxLevel" : 1,
          "skill_type" : "0x80"
       },
       {
-         "position" : "",
+         "display_name" : "Flagelo das Feras",
          "handle_name" : "HT_BEASTBANE",
          "id" : 126,
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "display_name" : "Flagelo das Feras"
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 127,
+         "display_name" : "Adestrar Falcão",
          "handle_name" : "HT_FALCON",
+         "id" : 127,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "HT_BEASTBANE" : 1
          },
-         "display_name" : "Adestrar Falcão"
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Garras de Aço",
          "handle_name" : "HT_STEELCROW",
+         "id" : 128,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "HT_BLITZBEAT" : 5
          },
-         "display_name" : "Garras de Aço",
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 128
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 129,
-         "position" : "",
+         "display_name" : "Ataque Aéreo",
          "handle_name" : "HT_BLITZBEAT",
+         "id" : 129,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "HT_FALCON" : 1
          },
-         "display_name" : "Ataque Aéreo"
+         "skill_type" : ""
       },
       {
-         "id" : 130,
-         "MaxLevel" : 4,
-         "skill_type" : "",
          "display_name" : "Alerta",
+         "handle_name" : "HT_DETECTING",
+         "id" : 130,
+         "maxLevel" : 4,
+         "position" : "",
          "pre_requisites" : {
             "AC_CONCENTRATION" : 1,
             "HT_FALCON" : 1
          },
-         "position" : "",
-         "handle_name" : "HT_DETECTING"
+         "skill_type" : ""
       },
       {
          "display_name" : "Desativar Armadilha",
-         "position" : "",
          "handle_name" : "HT_SPRINGTRAP",
-         "pre_requisites" : {
-            "HT_REMOVETRAP" : 1,
-            "HT_FALCON" : 1
-         },
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 131
-      },
-      {
-         "handle_name" : "HT_PHANTASMIC",
+         "id" : 131,
+         "maxLevel" : 5,
          "position" : "",
-         "display_name" : "Phantasmic Arrow",
-         "skill_type" : "0x1",
-         "MaxLevel" : 1,
-         "id" : 1009
+         "pre_requisites" : {
+            "HT_FALCON" : 1,
+            "HT_REMOVETRAP" : 1
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Phantasmic Arrow",
+         "handle_name" : "HT_PHANTASMIC",
+         "id" : 1009,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
+      },
+      {
+         "display_name" : "Beast Strafing",
+         "handle_name" : "HT_POWER",
+         "id" : 499,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "AC_DOUBLE" : 10
          },
-         "position" : "",
-         "handle_name" : "HT_POWER",
-         "display_name" : "Beast Strafing",
-         "id" : 499,
-         "MaxLevel" : 1,
          "skill_type" : "0x8"
       }
-   ],
-   "inherit" : [
-      "Archer"
    ]
 }

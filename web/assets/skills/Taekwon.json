@@ -1,167 +1,167 @@
 {
+   "inherit" : [
+      "Novice"
+   ],
+   "ptbr_class_name" : "Taekwon",
    "skills" : [
       {
-         "position" : "",
-         "handle_name" : "TK_RUN",
-         "MaxLevel" : 10,
          "display_name" : "Corrida",
-         "skill_type" : "",
-         "id" : 411
+         "handle_name" : "TK_RUN",
+         "id" : 411,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
          "display_name" : "Postura do Tornado",
+         "handle_name" : "TK_READYSTORM",
+         "id" : 412,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "TK_STORMKICK" : 1
          },
-         "handle_name" : "TK_READYSTORM",
-         "position" : "",
-         "id" : 412,
-         "skill_type" : "",
-         "MaxLevel" : 1
+         "skill_type" : ""
       },
       {
-         "position" : "",
-         "handle_name" : "TK_STORMKICK",
-         "MaxLevel" : 7,
          "display_name" : "Chute do Tornado",
-         "skill_type" : "0x200",
-         "id" : 413
+         "handle_name" : "TK_STORMKICK",
+         "id" : 413,
+         "maxLevel" : 7,
+         "position" : "",
+         "skill_type" : "0x200"
       },
       {
-         "position" : "",
+         "display_name" : "Postura da Patada Voadora",
          "handle_name" : "TK_READYDOWN",
+         "id" : 414,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "TK_DOWNKICK" : 1
          },
-         "display_name" : "Postura da Patada Voadora",
-         "MaxLevel" : 1,
-         "skill_type" : "",
-         "id" : 414
+         "skill_type" : ""
       },
       {
-         "position" : "",
-         "handle_name" : "TK_DOWNKICK",
-         "MaxLevel" : 7,
          "display_name" : "Patada Voadora",
-         "skill_type" : "0x200",
-         "id" : 415
+         "handle_name" : "TK_DOWNKICK",
+         "id" : 415,
+         "maxLevel" : 7,
+         "position" : "",
+         "skill_type" : "0x200"
       },
       {
-         "MaxLevel" : 1,
-         "skill_type" : "",
-         "id" : 416,
-         "position" : "",
+         "display_name" : "Postura da Rasteira",
          "handle_name" : "TK_READYTURN",
+         "id" : 416,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "TK_TURNKICK" : 1
          },
-         "display_name" : "Postura da Rasteira"
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 7,
-         "skill_type" : "0x200",
          "display_name" : "Rasteira (Taekwon)",
+         "handle_name" : "TK_TURNKICK",
          "id" : 417,
+         "maxLevel" : 7,
          "position" : "",
-         "handle_name" : "TK_TURNKICK"
+         "skill_type" : "0x200"
       },
       {
+         "display_name" : "Postura do Contrachute",
          "handle_name" : "TK_READYCOUNTER",
+         "id" : 418,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "TK_COUNTER" : 1
          },
-         "display_name" : "Postura do Contrachute",
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 418
+         "skill_type" : ""
       },
       {
-         "id" : 419,
-         "MaxLevel" : 7,
          "display_name" : "Contrachute",
-         "skill_type" : "0x200",
+         "handle_name" : "TK_COUNTER",
+         "id" : 419,
+         "maxLevel" : 7,
          "position" : "",
-         "handle_name" : "TK_COUNTER"
+         "skill_type" : "0x200"
       },
       {
-         "id" : 420,
-         "skill_type" : "",
-         "MaxLevel" : 1,
          "display_name" : "Cambalhota",
+         "handle_name" : "TK_DODGE",
+         "id" : 420,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "TK_JUMPKICK" : 7
          },
-         "handle_name" : "TK_DODGE",
-         "position" : ""
+         "skill_type" : ""
       },
       {
-         "id" : 421,
          "display_name" : "Chute Aéreo",
-         "skill_type" : "",
-         "MaxLevel" : 7,
          "handle_name" : "TK_JUMPKICK",
-         "position" : ""
+         "id" : 421,
+         "maxLevel" : 7,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "id" : 422,
-         "MaxLevel" : 10,
          "display_name" : "Trégua Rápida",
-         "skill_type" : "",
+         "handle_name" : "TK_HPTIME",
+         "id" : 422,
+         "maxLevel" : 10,
          "position" : "",
-         "handle_name" : "TK_HPTIME"
+         "skill_type" : ""
       },
       {
-         "handle_name" : "TK_SPTIME",
-         "position" : "",
          "display_name" : "Retiro Rápido",
-         "skill_type" : "",
-         "MaxLevel" : 10,
-         "id" : 423
+         "handle_name" : "TK_SPTIME",
+         "id" : 423,
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "handle_name" : "TK_POWER",
-         "position" : "",
-         "id" : 424,
-         "skill_type" : "",
          "display_name" : "Kihop",
-         "MaxLevel" : 5
-      },
-      {
-         "id" : 425,
-         "MaxLevel" : 7,
-         "skill_type" : "",
-         "display_name" : "Brisa Leve",
-         "pre_requisites" : {
-            "TK_POWER" : 5,
-            "TK_SPTIME" : 5,
-            "TK_HPTIME" : 5
-         },
+         "handle_name" : "TK_POWER",
+         "id" : 424,
+         "maxLevel" : 5,
          "position" : "",
-         "handle_name" : "TK_SEVENWIND"
+         "skill_type" : ""
       },
       {
-         "id" : 426,
+         "display_name" : "Brisa Leve",
+         "handle_name" : "TK_SEVENWIND",
+         "id" : 425,
+         "maxLevel" : 7,
+         "position" : "",
+         "pre_requisites" : {
+            "TK_HPTIME" : 5,
+            "TK_POWER" : 5,
+            "TK_SPTIME" : 5
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Salto",
-         "skill_type" : "",
-         "MaxLevel" : 5,
          "handle_name" : "TK_HIGHJUMP",
-         "position" : ""
+         "id" : 426,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       },
       {
+         "display_name" : "Missão Taekwon",
+         "handle_name" : "TK_MISSION",
          "id" : 493,
-         "skill_type" : "",
-         "MaxLevel" : 1,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "TK_POWER" : 5
          },
-         "handle_name" : "TK_MISSION",
-         "position" : "",
-         "display_name" : "Missão Taekwon"
+         "skill_type" : ""
       }
-   ],
-   "inherit" : [
-      "Novice"
-   ],
-   "ptbr_class_name" : "Taekwon"
+   ]
 }

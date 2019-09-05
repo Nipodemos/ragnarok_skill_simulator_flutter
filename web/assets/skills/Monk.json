@@ -2,193 +2,193 @@
    "inherit" : [
       "Acolyte"
    ],
+   "ptbr_class_name" : "Monge",
    "skills" : [
       {
-         "position" : "",
+         "display_name" : "Punhos de Ferro",
          "handle_name" : "MO_IRONHAND",
+         "id" : 259,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "AL_DEMONBANE" : 10,
             "AL_DP" : 10
          },
-         "display_name" : "Punhos de Ferro",
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 259
+         "skill_type" : ""
       },
       {
          "display_name" : "Meditação",
-         "position" : "",
          "handle_name" : "MO_SPIRITSRECOVERY",
+         "id" : 260,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "MO_BLADESTOP" : 2
          },
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 260
+         "skill_type" : ""
       },
       {
+         "display_name" : "Invocar Esfera Espiritual",
          "handle_name" : "MO_CALLSPIRITS",
+         "id" : 261,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "MO_IRONHAND" : 2
          },
-         "display_name" : "Invocar Esfera Espiritual",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 261
+         "skill_type" : ""
       },
       {
-         "id" : 262,
-         "skill_type" : "",
-         "MaxLevel" : 1,
          "display_name" : "Absorver Esferas Espirituais",
+         "handle_name" : "MO_ABSORBSPIRITS",
+         "id" : 262,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "MO_CALLSPIRITS" : 5
          },
-         "handle_name" : "MO_ABSORBSPIRITS",
-         "position" : ""
+         "skill_type" : ""
       },
       {
          "display_name" : "Combo Triplo",
-         "position" : "",
          "handle_name" : "MO_TRIPLEATTACK",
+         "id" : 263,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "MO_DODGE" : 5
          },
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 263
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 264,
+         "display_name" : "Passo Etéreo",
          "handle_name" : "MO_BODYRELOCATION",
+         "id" : 264,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "MO_EXTREMITYFIST" : 3,
-            "MO_STEELBODY" : 3,
-            "MO_SPIRITSRECOVERY" : 2
+            "MO_SPIRITSRECOVERY" : 2,
+            "MO_STEELBODY" : 3
          },
-         "display_name" : "Passo Etéreo"
+         "skill_type" : ""
       },
       {
          "display_name" : "Cair das Pétalas",
+         "handle_name" : "MO_DODGE",
+         "id" : 265,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
             "MO_CALLSPIRITS" : 5,
             "MO_IRONHAND" : 5
          },
-         "position" : "",
-         "handle_name" : "MO_DODGE",
-         "id" : 265,
-         "MaxLevel" : 10,
          "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 266,
          "display_name" : "Impacto Psíquico",
          "handle_name" : "MO_INVESTIGATE",
+         "id" : 266,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "MO_CALLSPIRITS" : 5
-         }
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Disparo de Esferas Espirituais",
          "handle_name" : "MO_FINGEROFFENSIVE",
+         "id" : 267,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "MO_INVESTIGATE" : 3
          },
-         "display_name" : "Disparo de Esferas Espirituais",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 267
-      },
-      {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 268,
-         "display_name" : "Corpo Fechado",
-         "handle_name" : "MO_STEELBODY",
-         "position" : "",
-         "pre_requisites" : {
-            "MO_COMBOFINISH" : 3
-         }
-      },
-      {
-         "id" : 269,
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "display_name" : "Dilema",
-         "pre_requisites" : {
-            "MO_DODGE" : 5
-         },
-         "handle_name" : "MO_BLADESTOP",
-         "position" : ""
-      },
-      {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 270,
-         "position" : "",
-         "handle_name" : "MO_EXPLOSIONSPIRITS",
-         "pre_requisites" : {
-            "MO_ABSORBSPIRITS" : 1
-         },
-         "display_name" : "Fúria Interior"
-      },
-      {
-         "display_name" : "Punho Supremo de Asura",
-         "pre_requisites" : {
-            "MO_FINGEROFFENSIVE" : 3,
-            "MO_EXPLOSIONSPIRITS" : 3
-         },
-         "position" : "",
-         "handle_name" : "MO_EXTREMITYFIST",
-         "id" : 271,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
-         "id" : 272,
-         "skill_type" : "0x200",
-         "MaxLevel" : 5,
+         "display_name" : "Corpo Fechado",
+         "handle_name" : "MO_STEELBODY",
+         "id" : 268,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "MO_COMBOFINISH" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Dilema",
+         "handle_name" : "MO_BLADESTOP",
+         "id" : 269,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "MO_DODGE" : 5
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Fúria Interior",
+         "handle_name" : "MO_EXPLOSIONSPIRITS",
+         "id" : 270,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "MO_ABSORBSPIRITS" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Punho Supremo de Asura",
+         "handle_name" : "MO_EXTREMITYFIST",
+         "id" : 271,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "MO_EXPLOSIONSPIRITS" : 3,
+            "MO_FINGEROFFENSIVE" : 3
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Combo Quádruplo",
+         "handle_name" : "MO_CHAINCOMBO",
+         "id" : 272,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "MO_TRIPLEATTACK" : 5
          },
-         "handle_name" : "MO_CHAINCOMBO",
-         "position" : ""
+         "skill_type" : "0x200"
       },
       {
-         "skill_type" : "0x200",
-         "MaxLevel" : 5,
-         "id" : 273,
          "display_name" : "O Último Dragão",
          "handle_name" : "MO_COMBOFINISH",
+         "id" : 273,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "MO_CHAINCOMBO" : 3
-         }
+         },
+         "skill_type" : "0x200"
       },
       {
-         "MaxLevel" : 1,
-         "skill_type" : "0x401",
          "display_name" : "Ki Translation",
+         "handle_name" : "MO_KITRANSLATION",
          "id" : 1015,
+         "maxLevel" : 1,
          "position" : "",
-         "handle_name" : "MO_KITRANSLATION"
+         "skill_type" : "0x401"
       },
       {
-         "handle_name" : "MO_BALKYOUNG",
-         "position" : "",
-         "id" : 1016,
-         "skill_type" : "0x1",
          "display_name" : "Ki Explosion",
-         "MaxLevel" : 1
+         "handle_name" : "MO_BALKYOUNG",
+         "id" : 1016,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : "0x1"
       }
-   ],
-   "ptbr_class_name" : "Monge"
+   ]
 }

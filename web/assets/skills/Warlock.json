@@ -1,273 +1,273 @@
 {
+   "inherit" : [
+      "Wizard"
+   ],
+   "ptbr_class_name" : "Arcano",
    "skills" : [
       {
+         "display_name" : "Exílio",
          "handle_name" : "WL_WHITEIMPRISON",
+         "id" : 2201,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "WL_SOULEXPANSION" : 3
          },
-         "display_name" : "Exílio",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2201
+         "skill_type" : ""
       },
       {
+         "display_name" : "Impacto Espiritual",
+         "handle_name" : "WL_SOULEXPANSION",
+         "id" : 2202,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WL_DRAINLIFE" : 1
          },
-         "handle_name" : "WL_SOULEXPANSION",
-         "position" : "",
-         "display_name" : "Impacto Espiritual",
-         "id" : 2202,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2203,
          "display_name" : "Frosty Misty",
          "handle_name" : "WL_FROSTMISTY",
+         "id" : 2203,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "WL_SUMMONWB" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
-         "id" : 2204,
-         "MaxLevel" : 5,
-         "skill_type" : "",
          "display_name" : "Jack Frost",
+         "handle_name" : "WL_JACKFROST",
+         "id" : 2204,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WL_FROSTMISTY" : 2
          },
-         "position" : "",
-         "handle_name" : "WL_JACKFROST"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Marsh of Abyss",
+         "handle_name" : "WL_MARSHOFABYSS",
          "id" : 2205,
-         "MaxLevel" : 5,
-         "skill_type" : "",
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WZ_QUAGMIRE" : 1
          },
-         "position" : "",
-         "handle_name" : "WL_MARSHOFABYSS",
-         "display_name" : "Marsh of Abyss"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Recognized Spell",
          "handle_name" : "WL_RECOGNIZEDSPELL",
+         "id" : 2206,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
-            "WL_WHITEIMPRISON" : 1,
+            "WL_RELEASE" : 2,
             "WL_STASIS" : 1,
-            "WL_RELEASE" : 2
+            "WL_WHITEIMPRISON" : 1
          },
-         "display_name" : "Recognized Spell",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2206
+         "skill_type" : ""
       },
       {
          "display_name" : "Sienna Execrate",
          "handle_name" : "WL_SIENNAEXECRATE",
+         "id" : 2207,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "WL_SUMMONSTONE" : 1
          },
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2207
-      },
-      {
-         "position" : "",
-         "handle_name" : "WL_RADIUS",
-         "id" : 2208,
-         "MaxLevel" : 3,
-         "skill_type" : "",
-         "display_name" : "Expansão Arcana"
-      },
-      {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2209,
-         "display_name" : "Stasis",
-         "handle_name" : "WL_STASIS",
-         "position" : "",
-         "pre_requisites" : {
-            "WL_DRAINLIFE" : 1
-         }
-      },
-      {
-         "display_name" : "Drenar Vida",
-         "pre_requisites" : {
-            "WL_RADIUS" : 1
-         },
-         "position" : "",
-         "handle_name" : "WL_DRAINLIFE",
-         "id" : 2210,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2211,
+         "display_name" : "Expansão Arcana",
+         "handle_name" : "WL_RADIUS",
+         "id" : 2208,
+         "maxLevel" : 3,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Stasis",
+         "handle_name" : "WL_STASIS",
+         "id" : 2209,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "WL_DRAINLIFE" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Drenar Vida",
+         "handle_name" : "WL_DRAINLIFE",
+         "id" : 2210,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "WL_RADIUS" : 1
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Meteoro Escarlate",
          "handle_name" : "WL_CRIMSONROCK",
+         "id" : 2211,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "WL_SUMMONFB" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Chamas de Hela",
+         "handle_name" : "WL_HELLINFERNO",
          "id" : 2212,
-         "skill_type" : "",
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WL_CRIMSONROCK" : 2
          },
-         "handle_name" : "WL_HELLINFERNO",
-         "position" : "",
-         "display_name" : "Chamas de Hela"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Cometa",
+         "handle_name" : "WL_COMET",
+         "id" : 2213,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WL_HELLINFERNO" : 3
          },
-         "handle_name" : "WL_COMET",
-         "position" : "",
-         "display_name" : "Cometa",
-         "id" : 2213,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 2214,
-         "position" : "",
+         "display_name" : "Corrente Elétrica",
          "handle_name" : "WL_CHAINLIGHTNING",
+         "id" : 2214,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WL_SUMMONBL" : 1
          },
-         "display_name" : "Corrente Elétrica"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Abalo Sísmico",
+         "handle_name" : "WL_EARTHSTRAIN",
+         "id" : 2216,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WL_SIENNAEXECRATE" : 2
          },
-         "handle_name" : "WL_EARTHSTRAIN",
-         "position" : "",
-         "display_name" : "Abalo Sísmico",
-         "id" : 2216,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
          "display_name" : "Tetra Vortex",
-         "pre_requisites" : {
-            "WL_JACKFROST" : 5,
-            "WL_CHAINLIGHTNING" : 5,
-            "WL_EARTHSTRAIN" : 5,
-            "WL_HELLINFERNO" : 5
-         },
-         "position" : "",
          "handle_name" : "WL_TETRAVORTEX",
          "id" : 2217,
-         "MaxLevel" : 5,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "WL_CHAINLIGHTNING" : 5,
+            "WL_EARTHSTRAIN" : 5,
+            "WL_HELLINFERNO" : 5,
+            "WL_JACKFROST" : 5
+         },
          "skill_type" : ""
       },
       {
          "display_name" : "Invocar Esfera de Fogo",
+         "handle_name" : "WL_SUMMONFB",
+         "id" : 2222,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WZ_METEOR" : 1
          },
-         "handle_name" : "WL_SUMMONFB",
-         "position" : "",
-         "id" : 2222,
-         "skill_type" : "",
-         "MaxLevel" : 5
-      },
-      {
-         "pre_requisites" : {
-            "WZ_VERMILION" : 1
-         },
-         "position" : "",
-         "handle_name" : "WL_SUMMONBL",
-         "display_name" : "Invocar Esfera de Vento",
-         "id" : 2223,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
+         "display_name" : "Invocar Esfera de Vento",
+         "handle_name" : "WL_SUMMONBL",
+         "id" : 2223,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "WZ_VERMILION" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Invocar Esfera de Água",
+         "handle_name" : "WL_SUMMONWB",
+         "id" : 2224,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "WZ_STORMGUST" : 1
          },
-         "handle_name" : "WL_SUMMONWB",
-         "position" : "",
-         "display_name" : "Invocar Esfera de Água",
-         "id" : 2224,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
+         "display_name" : "Invocar Esfera de Terra",
          "handle_name" : "WL_SUMMONSTONE",
+         "id" : 2229,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "WZ_HEAVENDRIVE" : 1
          },
-         "display_name" : "Invocar Esfera de Terra",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 2229
+         "skill_type" : ""
       },
       {
-         "id" : 2230,
-         "MaxLevel" : 2,
          "display_name" : "Release",
-         "skill_type" : "",
+         "handle_name" : "WL_RELEASE",
+         "id" : 2230,
+         "maxLevel" : 2,
          "position" : "",
-         "handle_name" : "WL_RELEASE"
+         "skill_type" : ""
       },
       {
-         "id" : 2231,
          "display_name" : "Estudo Arcano",
-         "skill_type" : "",
-         "MaxLevel" : 1,
          "handle_name" : "WL_READING_SB",
-         "position" : ""
-      },
-      {
-         "handle_name" : "WL_FREEZE_SP",
+         "id" : 2231,
+         "maxLevel" : 1,
          "position" : "",
-         "id" : 2232,
-         "skill_type" : "",
-         "display_name" : "Estudo Arcano Avançado",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 5012,
+         "display_name" : "Estudo Arcano Avançado",
+         "handle_name" : "WL_FREEZE_SP",
+         "id" : 2232,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Intense Telekinesis",
          "handle_name" : "WL_TELEKINESIS_INTENSE",
+         "id" : 5012,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "WL_SOULEXPANSION" : 5
          },
-         "display_name" : "Intense Telekinesis"
+         "skill_type" : ""
       },
       {
-         "id" : 5014,
          "display_name" : "Full Throttle",
-         "skill_type" : "",
-         "MaxLevel" : 5,
          "handle_name" : "ALL_FULL_THROTTLE",
-         "position" : ""
+         "id" : 5014,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
       }
-   ],
-   "inherit" : [
-      "Wizard"
-   ],
-   "ptbr_class_name" : "Arcano"
+   ]
 }

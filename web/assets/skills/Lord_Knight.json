@@ -1,108 +1,108 @@
 {
+   "inherit" : [
+      "Knight"
+   ],
+   "ptbr_class_name" : "Lorde",
    "skills" : [
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 355,
          "display_name" : "Lâmina de Aura",
-         "position" : "",
          "handle_name" : "LK_AURABLADE",
+         "id" : 355,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
-            "SM_TWOHAND" : 5,
+            "SM_BASH" : 5,
             "SM_MAGNUM" : 5,
-            "SM_BASH" : 5
-         }
+            "SM_TWOHAND" : 5
+         },
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 356,
-         "position" : "",
+         "display_name" : "Aparar Golpe",
          "handle_name" : "LK_PARRYING",
+         "id" : 356,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
-            "SM_TWOHAND" : 10,
+            "KN_TWOHANDQUICKEN" : 3,
             "SM_PROVOKE" : 5,
-            "KN_TWOHANDQUICKEN" : 3
+            "SM_TWOHAND" : 10
          },
-         "display_name" : "Aparar Golpe"
+         "skill_type" : ""
       },
       {
          "display_name" : "Dedicação",
+         "handle_name" : "LK_CONCENTRATION",
+         "id" : 357,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "KN_RIDING" : 1,
             "KN_SPEARMASTERY" : 5,
             "SM_RECOVERY" : 5
          },
-         "position" : "",
-         "handle_name" : "LK_CONCENTRATION",
-         "id" : 357,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
+         "display_name" : "Relaxar",
          "handle_name" : "LK_TENSIONRELAX",
+         "id" : 358,
+         "maxLevel" : 1,
          "position" : "",
          "pre_requisites" : {
             "SM_ENDURE" : 3,
             "SM_PROVOKE" : 5,
             "SM_RECOVERY" : 10
          },
-         "display_name" : "Relaxar",
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 358
+         "skill_type" : ""
       },
       {
-         "id" : 359,
-         "MaxLevel" : 1,
-         "skill_type" : "",
-         "position" : "",
-         "handle_name" : "LK_BERSERK",
          "MinJobLevel" : 50,
-         "display_name" : "Frenesi"
+         "display_name" : "Frenesi",
+         "handle_name" : "LK_BERSERK",
+         "id" : 359,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : ""
       },
       {
          "display_name" : "Perfurar em Espiral",
+         "handle_name" : "LK_SPIRALPIERCE",
+         "id" : 397,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "KN_PIERCE" : 5,
             "KN_RIDING" : 1,
-            "KN_SPEARSTAB" : 5,
-            "KN_SPEARMASTERY" : 5
+            "KN_SPEARMASTERY" : 5,
+            "KN_SPEARSTAB" : 5
          },
-         "handle_name" : "LK_SPIRALPIERCE",
-         "position" : "",
-         "id" : 397,
-         "skill_type" : "",
-         "MaxLevel" : 5
+         "skill_type" : ""
       },
       {
-         "position" : "",
-         "handle_name" : "LK_HEADCRUSH",
-         "pre_requisites" : {
-            "KN_SPEARMASTERY" : 9,
-            "KN_RIDING" : 1
-         },
          "display_name" : "Golpe Traumático",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 398
+         "handle_name" : "LK_HEADCRUSH",
+         "id" : 398,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "KN_RIDING" : 1,
+            "KN_SPEARMASTERY" : 9
+         },
+         "skill_type" : ""
       },
       {
-         "id" : 399,
-         "MaxLevel" : 10,
-         "skill_type" : "",
          "display_name" : "Ataque Vital",
+         "handle_name" : "LK_JOINTBEAT",
+         "id" : 399,
+         "maxLevel" : 10,
+         "position" : "",
          "pre_requisites" : {
-            "KN_SPEARMASTERY" : 9,
             "KN_CAVALIERMASTERY" : 3,
+            "KN_SPEARMASTERY" : 9,
             "LK_HEADCRUSH" : 3
          },
-         "position" : "",
-         "handle_name" : "LK_JOINTBEAT"
+         "skill_type" : ""
       }
-   ],
-   "inherit" : [
-      "Knight"
-   ],
-   "ptbr_class_name" : "Lorde"
+   ]
 }

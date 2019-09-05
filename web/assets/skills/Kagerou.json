@@ -2,268 +2,268 @@
    "inherit" : [
       "Ninja"
    ],
+   "ptbr_class_name" : "Kagerou",
    "skills" : [
       {
+         "display_name" : "Refúgio das Sombras",
+         "handle_name" : "KO_YAMIKUMO",
          "id" : 3001,
-         "MaxLevel" : 1,
-         "skill_type" : "",
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "NJ_KIRIKAGE" : 5
          },
-         "position" : "",
-         "handle_name" : "KO_YAMIKUMO",
-         "display_name" : "Refúgio das Sombras"
-      },
-      {
-         "handle_name" : "KO_RIGHT",
-         "position" : "",
-         "id" : 3002,
-         "skill_type" : "",
-         "display_name" : "Perícia com Mão Direita",
-         "MaxLevel" : 5
-      },
-      {
-         "position" : "",
-         "handle_name" : "KO_LEFT",
-         "id" : 3003,
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "display_name" : "Perícia com Mão Esquerda"
-      },
-      {
-         "pre_requisites" : {
-            "KO_YAMIKUMO" : 1
-         },
-         "position" : "",
-         "handle_name" : "KO_JYUMONJIKIRI",
-         "display_name" : "Impacto Cruzado",
-         "id" : 3004,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
+         "display_name" : "Perícia com Mão Direita",
+         "handle_name" : "KO_RIGHT",
+         "id" : 3002,
+         "maxLevel" : 5,
          "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Perícia com Mão Esquerda",
+         "handle_name" : "KO_LEFT",
+         "id" : 3003,
+         "maxLevel" : 5,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Impacto Cruzado",
+         "handle_name" : "KO_JYUMONJIKIRI",
+         "id" : 3004,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "KO_YAMIKUMO" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Corte Espiritual",
          "handle_name" : "KO_SETSUDAN",
+         "id" : 3005,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "KO_JYUMONJIKIRI" : 2
          },
-         "display_name" : "Corte Espiritual",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 3005
+         "skill_type" : ""
       },
       {
-         "id" : 3006,
-         "MaxLevel" : 5,
-         "skill_type" : "",
          "display_name" : "Kunai Explosiva",
+         "handle_name" : "KO_BAKURETSU",
+         "id" : 3006,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "NJ_KUNAI" : 5
          },
-         "position" : "",
-         "handle_name" : "KO_BAKURETSU"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Turbilhão de Kunais",
          "handle_name" : "KO_HAPPOKUNAI",
+         "id" : 3007,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "KO_BAKURETSU" : 1
          },
-         "display_name" : "Turbilhão de Kunais",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 3007
-      },
-      {
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "id" : 3008,
-         "display_name" : "Explosão de Moedas",
-         "position" : "",
-         "handle_name" : "KO_MUCHANAGE",
-         "pre_requisites" : {
-            "KO_MAKIBISHI" : 3
-         }
-      },
-      {
-         "id" : 3009,
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "pre_requisites" : {
-            "NJ_HUUMA" : 5
-         },
-         "handle_name" : "KO_HUUMARANKA",
-         "position" : "",
-         "display_name" : "Turbilhão de Pétalas"
-      },
-      {
-         "position" : "",
-         "handle_name" : "KO_MAKIBISHI",
-         "pre_requisites" : {
-            "NJ_ZENYNAGE" : 1
-         },
-         "display_name" : "Estrepes",
-         "MaxLevel" : 5,
-         "skill_type" : "0x80",
-         "id" : 3010
-      },
-      {
-         "display_name" : "Purificação da Alma",
-         "pre_requisites" : {
-            "NJ_NINPOU" : 10
-         },
-         "handle_name" : "KO_MEIKYOUSISUI",
-         "position" : "",
-         "id" : 3011,
-         "skill_type" : "",
-         "MaxLevel" : 5
-      },
-      {
-         "id" : 3012,
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "display_name" : "Genjutsu Clone das Sombras",
-         "pre_requisites" : {
-            "NJ_UTSUSEMI" : 1
-         },
-         "position" : "",
-         "handle_name" : "KO_ZANZOU"
-      },
-      {
-         "pre_requisites" : {
-            "KO_GENWAKU" : 2
-         },
-         "position" : "",
-         "handle_name" : "KO_KYOUGAKU",
-         "display_name" : "Genjutsu Assalto das Sombras",
-         "id" : 3013,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 3014,
-         "display_name" : "Genjutsu Chamado da Morte",
-         "handle_name" : "KO_JYUSATSU",
+         "display_name" : "Explosão de Moedas",
+         "handle_name" : "KO_MUCHANAGE",
+         "id" : 3008,
+         "maxLevel" : 10,
          "position" : "",
          "pre_requisites" : {
-            "KO_KYOUGAKU" : 3
-         }
-      },
-      {
-         "skill_type" : "",
-         "display_name" : "Amuleto Espiritual Fogo",
-         "MaxLevel" : 1,
-         "id" : 3015,
-         "handle_name" : "KO_KAHU_ENTEN",
-         "position" : ""
-      },
-      {
-         "handle_name" : "KO_HYOUHU_HUBUKI",
-         "position" : "",
-         "id" : 3016,
-         "skill_type" : "",
-         "display_name" : "Amuleto Espiritual Água",
-         "MaxLevel" : 1
-      },
-      {
-         "id" : 3017,
-         "MaxLevel" : 1,
-         "display_name" : "Amuleto Espiritual Vento",
-         "skill_type" : "",
-         "position" : "",
-         "handle_name" : "KO_KAZEHU_SEIRAN"
-      },
-      {
-         "position" : "",
-         "handle_name" : "KO_DOHU_KOUKAI",
-         "id" : 3018,
-         "MaxLevel" : 1,
-         "skill_type" : "",
-         "display_name" : "Amuleto Espiritual Terra"
-      },
-      {
-         "id" : 3019,
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "display_name" : "Arremessar Amuleto Espiritual",
-         "pre_requisites" : {
-            "KO_KAHU_ENTEN" : 1,
-            "KO_KAZEHU_SEIRAN" : 1,
-            "KO_HYOUHU_HUBUKI" : 1,
-            "KO_DOHU_KOUKAI" : 1
+            "KO_MAKIBISHI" : 3
          },
-         "handle_name" : "KO_KAIHOU",
-         "position" : ""
+         "skill_type" : ""
       },
       {
-         "handle_name" : "KO_ZENKAI",
+         "display_name" : "Turbilhão de Pétalas",
+         "handle_name" : "KO_HUUMARANKA",
+         "id" : 3009,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
-            "KO_KAIHOU" : 1,
-            "KO_IZAYOI" : 1
+            "NJ_HUUMA" : 5
          },
-         "display_name" : "Voragem Espiritual",
-         "skill_type" : "",
-         "MaxLevel" : 1,
-         "id" : 3020
+         "skill_type" : ""
       },
       {
-         "id" : 3021,
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "display_name" : "Genjutsu Substituição",
+         "display_name" : "Estrepes",
+         "handle_name" : "KO_MAKIBISHI",
+         "id" : 3010,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "NJ_ZENYNAGE" : 1
+         },
+         "skill_type" : "0x80"
+      },
+      {
+         "display_name" : "Purificação da Alma",
+         "handle_name" : "KO_MEIKYOUSISUI",
+         "id" : 3011,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "NJ_NINPOU" : 10
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Genjutsu Clone das Sombras",
+         "handle_name" : "KO_ZANZOU",
+         "id" : 3012,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "NJ_UTSUSEMI" : 1
          },
-         "handle_name" : "KO_GENWAKU",
-         "position" : ""
+         "skill_type" : ""
       },
       {
+         "display_name" : "Genjutsu Assalto das Sombras",
+         "handle_name" : "KO_KYOUGAKU",
+         "id" : 3013,
+         "maxLevel" : 5,
          "position" : "",
+         "pre_requisites" : {
+            "KO_GENWAKU" : 2
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Genjutsu Chamado da Morte",
+         "handle_name" : "KO_JYUSATSU",
+         "id" : 3014,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "KO_KYOUGAKU" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Amuleto Espiritual Fogo",
+         "handle_name" : "KO_KAHU_ENTEN",
+         "id" : 3015,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Amuleto Espiritual Água",
+         "handle_name" : "KO_HYOUHU_HUBUKI",
+         "id" : 3016,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Amuleto Espiritual Vento",
+         "handle_name" : "KO_KAZEHU_SEIRAN",
+         "id" : 3017,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Amuleto Espiritual Terra",
+         "handle_name" : "KO_DOHU_KOUKAI",
+         "id" : 3018,
+         "maxLevel" : 1,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Arremessar Amuleto Espiritual",
+         "handle_name" : "KO_KAIHOU",
+         "id" : 3019,
+         "maxLevel" : 1,
+         "position" : "",
+         "pre_requisites" : {
+            "KO_DOHU_KOUKAI" : 1,
+            "KO_HYOUHU_HUBUKI" : 1,
+            "KO_KAHU_ENTEN" : 1,
+            "KO_KAZEHU_SEIRAN" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Voragem Espiritual",
+         "handle_name" : "KO_ZENKAI",
+         "id" : 3020,
+         "maxLevel" : 1,
+         "position" : "",
+         "pre_requisites" : {
+            "KO_IZAYOI" : 1,
+            "KO_KAIHOU" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Genjutsu Substituição",
+         "handle_name" : "KO_GENWAKU",
+         "id" : 3021,
+         "maxLevel" : 5,
+         "position" : "",
+         "pre_requisites" : {
+            "NJ_UTSUSEMI" : 1
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Inspiração",
          "handle_name" : "KO_IZAYOI",
+         "id" : 3022,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "NJ_NINPOU" : 5
          },
-         "display_name" : "Inspiração",
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 3022
+         "skill_type" : ""
       },
       {
          "display_name" : "Esmagamento Sombrio",
+         "handle_name" : "KG_KAGEHUMI",
+         "id" : 3023,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "KO_ZANZOU" : 1
          },
-         "position" : "",
-         "handle_name" : "KG_KAGEHUMI",
-         "id" : 3023,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
          "display_name" : "Vazio das Sombras",
+         "handle_name" : "KG_KYOMU",
+         "id" : 3024,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "KG_KAGEHUMI" : 2
          },
-         "position" : "",
-         "handle_name" : "KG_KYOMU",
-         "id" : 3024,
-         "MaxLevel" : 5,
          "skill_type" : ""
       },
       {
          "display_name" : "Contrato das Sombras",
          "handle_name" : "KG_KAGEMUSYA",
+         "id" : 3025,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "KG_KYOMU" : 3
          },
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 3025
+         "skill_type" : ""
       }
-   ],
-   "ptbr_class_name" : "Kagerou"
+   ]
 }

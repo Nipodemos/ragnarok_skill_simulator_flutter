@@ -2,193 +2,193 @@
    "inherit" : [
       "Taekwon"
    ],
+   "ptbr_class_name" : "Mestre Taekwon",
    "skills" : [
       {
-         "skill_type" : "",
          "display_name" : "Percepção Solar Lunar e Estelar",
-         "MaxLevel" : 3,
-         "id" : 427,
          "handle_name" : "SG_FEEL",
-         "position" : ""
+         "id" : 427,
+         "maxLevel" : 3,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "id" : 428,
          "display_name" : "Calor Solar",
          "handle_name" : "SG_SUN_WARM",
+         "id" : 428,
+         "maxLevel" : 3,
          "position" : "",
          "pre_requisites" : {
             "SG_FEEL" : 1
-         }
+         },
+         "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "id" : 429,
+         "display_name" : "Calor Lunar",
          "handle_name" : "SG_MOON_WARM",
+         "id" : 429,
+         "maxLevel" : 3,
          "position" : "",
          "pre_requisites" : {
             "SG_FEEL" : 2
          },
-         "display_name" : "Calor Lunar"
+         "skill_type" : ""
       },
       {
+         "display_name" : "Calor Estelar",
          "handle_name" : "SG_STAR_WARM",
+         "id" : 430,
+         "maxLevel" : 3,
          "position" : "",
          "pre_requisites" : {
             "SG_FEEL" : 3
          },
-         "display_name" : "Calor Estelar",
-         "skill_type" : "",
-         "MaxLevel" : 3,
-         "id" : 430
+         "skill_type" : ""
       },
       {
          "display_name" : "Proteção Solar",
+         "handle_name" : "SG_SUN_COMFORT",
+         "id" : 431,
+         "maxLevel" : 4,
+         "position" : "",
          "pre_requisites" : {
             "SG_FEEL" : 1
          },
-         "position" : "",
-         "handle_name" : "SG_SUN_COMFORT",
-         "id" : 431,
-         "MaxLevel" : 4,
          "skill_type" : ""
       },
       {
-         "skill_type" : "",
-         "MaxLevel" : 4,
-         "id" : 432,
          "display_name" : "Proteção Lunar",
          "handle_name" : "SG_MOON_COMFORT",
+         "id" : 432,
+         "maxLevel" : 4,
          "position" : "",
          "pre_requisites" : {
             "SG_FEEL" : 2
-         }
-      },
-      {
-         "display_name" : "Proteção Estelar",
-         "position" : "",
-         "handle_name" : "SG_STAR_COMFORT",
-         "pre_requisites" : {
-            "SG_FEEL" : 3
          },
-         "MaxLevel" : 4,
-         "skill_type" : "",
-         "id" : 433
-      },
-      {
-         "skill_type" : "",
-         "display_name" : "Oposição Solar Lunar e Estelar",
-         "MaxLevel" : 3,
-         "id" : 434,
-         "handle_name" : "SG_HATE",
-         "position" : ""
-      },
-      {
-         "pre_requisites" : {
-            "SG_HATE" : 1
-         },
-         "position" : "",
-         "handle_name" : "SG_SUN_ANGER",
-         "display_name" : "Fúria Solar",
-         "id" : 435,
-         "MaxLevel" : 3,
          "skill_type" : ""
       },
       {
-         "id" : 436,
-         "skill_type" : "",
-         "MaxLevel" : 3,
+         "display_name" : "Proteção Estelar",
+         "handle_name" : "SG_STAR_COMFORT",
+         "id" : 433,
+         "maxLevel" : 4,
+         "position" : "",
+         "pre_requisites" : {
+            "SG_FEEL" : 3
+         },
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Oposição Solar Lunar e Estelar",
+         "handle_name" : "SG_HATE",
+         "id" : 434,
+         "maxLevel" : 3,
+         "position" : "",
+         "skill_type" : ""
+      },
+      {
+         "display_name" : "Fúria Solar",
+         "handle_name" : "SG_SUN_ANGER",
+         "id" : 435,
+         "maxLevel" : 3,
+         "position" : "",
+         "pre_requisites" : {
+            "SG_HATE" : 1
+         },
+         "skill_type" : ""
+      },
+      {
          "display_name" : "Fúria Lunar",
+         "handle_name" : "SG_MOON_ANGER",
+         "id" : 436,
+         "maxLevel" : 3,
+         "position" : "",
          "pre_requisites" : {
             "SG_HATE" : 2
          },
-         "handle_name" : "SG_MOON_ANGER",
-         "position" : ""
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 3,
-         "skill_type" : "",
-         "id" : 437,
          "display_name" : "Fúria Estelar",
-         "position" : "",
          "handle_name" : "SG_STAR_ANGER",
+         "id" : 437,
+         "maxLevel" : 3,
+         "position" : "",
          "pre_requisites" : {
             "SG_HATE" : 3
-         }
+         },
+         "skill_type" : ""
       },
       {
+         "display_name" : "Bênção Solar",
          "handle_name" : "SG_SUN_BLESS",
+         "id" : 438,
+         "maxLevel" : 5,
          "position" : "",
          "pre_requisites" : {
             "SG_FEEL" : 1,
             "SG_HATE" : 1
          },
-         "display_name" : "Bênção Solar",
-         "skill_type" : "",
-         "MaxLevel" : 5,
-         "id" : 438
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 439,
-         "position" : "",
+         "display_name" : "Bênção Lunar",
          "handle_name" : "SG_MOON_BLESS",
+         "id" : 439,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
-            "SG_HATE" : 2,
-            "SG_FEEL" : 2
+            "SG_FEEL" : 2,
+            "SG_HATE" : 2
          },
-         "display_name" : "Bênção Lunar"
+         "skill_type" : ""
       },
       {
          "display_name" : "Bênção Estelar",
-         "position" : "",
          "handle_name" : "SG_STAR_BLESS",
+         "id" : 440,
+         "maxLevel" : 5,
+         "position" : "",
          "pre_requisites" : {
             "SG_FEEL" : 3,
             "SG_HATE" : 3
          },
-         "MaxLevel" : 5,
-         "skill_type" : "",
-         "id" : 440
+         "skill_type" : ""
       },
       {
-         "MaxLevel" : 10,
-         "skill_type" : "",
          "display_name" : "Sombra Solar Lunar e Estelar",
+         "handle_name" : "SG_DEVIL",
          "id" : 441,
+         "maxLevel" : 10,
          "position" : "",
-         "handle_name" : "SG_DEVIL"
+         "skill_type" : ""
       },
       {
-         "handle_name" : "SG_FRIEND",
-         "position" : "",
-         "id" : 442,
-         "skill_type" : "",
          "display_name" : "Auxílio Solar Lunar e Estelar",
-         "MaxLevel" : 3
+         "handle_name" : "SG_FRIEND",
+         "id" : 442,
+         "maxLevel" : 3,
+         "position" : "",
+         "skill_type" : ""
       },
       {
-         "position" : "",
+         "display_name" : "Transmissão Solar Lunar e Estelar",
          "handle_name" : "SG_KNOWLEDGE",
          "id" : 443,
-         "MaxLevel" : 10,
-         "skill_type" : "",
-         "display_name" : "Transmissão Solar Lunar e Estelar"
+         "maxLevel" : 10,
+         "position" : "",
+         "skill_type" : ""
       },
       {
          "display_name" : "União Solar Lunar e Estelar",
-         "position" : "",
          "handle_name" : "SG_FUSION",
+         "id" : 444,
+         "maxLevel" : 1,
+         "position" : "",
          "pre_requisites" : {
             "SG_KNOWLEDGE" : 9
          },
-         "MaxLevel" : 1,
-         "skill_type" : "",
-         "id" : 444
+         "skill_type" : ""
       }
-   ],
-   "ptbr_class_name" : "Mestre Taekwon"
+   ]
 }
