@@ -9,7 +9,7 @@
          "handle_name" : "SG_FEEL",
          "id" : 427,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "SG_SUN_WARM",
          "id" : 428,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_FEEL" : 1
          },
@@ -28,7 +28,7 @@
          "handle_name" : "SG_MOON_WARM",
          "id" : 429,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_FEEL" : 2
          },
@@ -39,7 +39,7 @@
          "handle_name" : "SG_STAR_WARM",
          "id" : 430,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_FEEL" : 3
          },
@@ -50,7 +50,7 @@
          "handle_name" : "SG_SUN_COMFORT",
          "id" : 431,
          "maxLevel" : 4,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_FEEL" : 1
          },
@@ -61,7 +61,7 @@
          "handle_name" : "SG_MOON_COMFORT",
          "id" : 432,
          "maxLevel" : 4,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_FEEL" : 2
          },
@@ -72,7 +72,7 @@
          "handle_name" : "SG_STAR_COMFORT",
          "id" : 433,
          "maxLevel" : 4,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_FEEL" : 3
          },
@@ -83,7 +83,7 @@
          "handle_name" : "SG_HATE",
          "id" : 434,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -91,7 +91,7 @@
          "handle_name" : "SG_SUN_ANGER",
          "id" : 435,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_HATE" : 1
          },
@@ -102,7 +102,7 @@
          "handle_name" : "SG_MOON_ANGER",
          "id" : 436,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_HATE" : 2
          },
@@ -113,7 +113,7 @@
          "handle_name" : "SG_STAR_ANGER",
          "id" : 437,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_HATE" : 3
          },
@@ -124,7 +124,7 @@
          "handle_name" : "SG_SUN_BLESS",
          "id" : 438,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_FEEL" : 1,
             "SG_HATE" : 1
@@ -136,7 +136,7 @@
          "handle_name" : "SG_MOON_BLESS",
          "id" : 439,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_FEEL" : 2,
             "SG_HATE" : 2
@@ -148,7 +148,7 @@
          "handle_name" : "SG_STAR_BLESS",
          "id" : 440,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_FEEL" : 3,
             "SG_HATE" : 3
@@ -160,7 +160,7 @@
          "handle_name" : "SG_DEVIL",
          "id" : 441,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -168,7 +168,7 @@
          "handle_name" : "SG_FRIEND",
          "id" : 442,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -176,7 +176,7 @@
          "handle_name" : "SG_KNOWLEDGE",
          "id" : 443,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -184,7 +184,7 @@
          "handle_name" : "SG_FUSION",
          "id" : 444,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SG_KNOWLEDGE" : 9
          },

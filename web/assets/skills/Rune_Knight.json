@@ -9,7 +9,7 @@
          "handle_name" : "RK_ENCHANTBLADE",
          "id" : 2001,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RK_RUNEMASTERY" : 2
          },
@@ -20,7 +20,7 @@
          "handle_name" : "RK_SONICWAVE",
          "id" : 2002,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RK_ENCHANTBLADE" : 3
          },
@@ -31,7 +31,7 @@
          "handle_name" : "RK_DEATHBOUND",
          "id" : 2003,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_AUTOCOUNTER" : 1,
             "RK_ENCHANTBLADE" : 2
@@ -43,7 +43,7 @@
          "handle_name" : "RK_HUNDREDSPEAR",
          "id" : 2004,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RK_PHANTOMTHRUST" : 3
          },
@@ -54,7 +54,7 @@
          "handle_name" : "RK_WINDCUTTER",
          "id" : 2005,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RK_ENCHANTBLADE" : 5
          },
@@ -65,7 +65,7 @@
          "handle_name" : "RK_IGNITIONBREAK",
          "id" : 2006,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RK_DEATHBOUND" : 5,
             "RK_SONICWAVE" : 2,
@@ -78,7 +78,7 @@
          "handle_name" : "RK_DRAGONTRAINING",
          "id" : 2007,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_CAVALIERMASTERY" : 1
          },
@@ -89,7 +89,7 @@
          "handle_name" : "RK_DRAGONBREATH",
          "id" : 2008,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RK_DRAGONTRAINING" : 2
          },
@@ -100,7 +100,7 @@
          "handle_name" : "RK_DRAGONHOWLING",
          "id" : 2009,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RK_DRAGONTRAINING" : 2
          },
@@ -111,7 +111,7 @@
          "handle_name" : "RK_RUNEMASTERY",
          "id" : 2010,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -119,7 +119,7 @@
          "handle_name" : "RK_PHANTOMTHRUST",
          "id" : 2020,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_BRANDISHSPEAR" : 2
          },
@@ -130,7 +130,7 @@
          "handle_name" : "RK_DRAGONBREATH_WATER",
          "id" : 5004,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RK_DRAGONTRAINING" : 2
          },
@@ -141,7 +141,7 @@
          "handle_name" : "ALL_FULL_THROTTLE",
          "id" : 5014,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       }
    ]

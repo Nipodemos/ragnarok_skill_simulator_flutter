@@ -9,7 +9,7 @@
          "handle_name" : "SM_SWORD",
          "id" : 2,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : 1,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "SM_TWOHAND",
          "id" : 3,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : 8,
          "pre_requisites" : {
             "SM_SWORD" : 1
          },
@@ -28,7 +28,7 @@
          "handle_name" : "SM_RECOVERY",
          "id" : 4,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : 2,
          "skill_type" : ""
       },
       {
@@ -36,7 +36,7 @@
          "handle_name" : "SM_BASH",
          "id" : 5,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : 3,
          "skill_type" : ""
       },
       {
@@ -44,7 +44,7 @@
          "handle_name" : "SM_PROVOKE",
          "id" : 6,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : 4,
          "skill_type" : ""
       },
       {
@@ -52,7 +52,7 @@
          "handle_name" : "SM_MAGNUM",
          "id" : 7,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : 10,
          "pre_requisites" : {
             "SM_BASH" : 5
          },
@@ -63,7 +63,7 @@
          "handle_name" : "SM_ENDURE",
          "id" : 8,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : 11,
          "pre_requisites" : {
             "SM_PROVOKE" : 5
          },
@@ -74,7 +74,7 @@
          "handle_name" : "SM_MOVINGRECOVERY",
          "id" : 144,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : 6,
          "skill_type" : "0x1"
       },
       {
@@ -82,7 +82,7 @@
          "handle_name" : "SM_FATALBLOW",
          "id" : 145,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : 12,
          "skill_type" : "0x1"
       },
       {
@@ -90,7 +90,7 @@
          "handle_name" : "SM_AUTOBERSERK",
          "id" : 146,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : 5,
          "skill_type" : "0x1"
       }
    ]

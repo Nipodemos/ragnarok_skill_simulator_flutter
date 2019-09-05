@@ -9,7 +9,7 @@
          "handle_name" : "SM_SWORD",
          "id" : 2,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "SM_RECOVERY",
          "id" : 4,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -25,7 +25,7 @@
          "handle_name" : "SM_BASH",
          "id" : 5,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -33,7 +33,7 @@
          "handle_name" : "SM_PROVOKE",
          "id" : 6,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -41,7 +41,7 @@
          "handle_name" : "SM_MAGNUM",
          "id" : 7,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SM_BASH" : 5
          },
@@ -52,7 +52,7 @@
          "handle_name" : "SM_ENDURE",
          "id" : 8,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SM_PROVOKE" : 5
          },
@@ -63,7 +63,7 @@
          "handle_name" : "MG_SRECOVERY",
          "id" : 9,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -71,7 +71,7 @@
          "handle_name" : "MG_SIGHT",
          "id" : 10,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -79,7 +79,7 @@
          "handle_name" : "MG_NAPALMBEAT",
          "id" : 11,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -87,7 +87,7 @@
          "handle_name" : "MG_SAFETYWALL",
          "id" : 12,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_NAPALMBEAT" : 7,
             "MG_SOULSTRIKE" : 5
@@ -99,7 +99,7 @@
          "handle_name" : "MG_SOULSTRIKE",
          "id" : 13,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_NAPALMBEAT" : 4
          },
@@ -110,7 +110,7 @@
          "handle_name" : "MG_COLDBOLT",
          "id" : 14,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -118,7 +118,7 @@
          "handle_name" : "MG_FROSTDIVER",
          "id" : 15,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_COLDBOLT" : 5
          },
@@ -129,7 +129,7 @@
          "handle_name" : "MG_STONECURSE",
          "id" : 16,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -137,7 +137,7 @@
          "handle_name" : "MG_FIREBALL",
          "id" : 17,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_FIREBOLT" : 4
          },
@@ -148,7 +148,7 @@
          "handle_name" : "MG_FIREWALL",
          "id" : 18,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_FIREBALL" : 5,
             "MG_SIGHT" : 1
@@ -160,7 +160,7 @@
          "handle_name" : "MG_FIREBOLT",
          "id" : 19,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -168,7 +168,7 @@
          "handle_name" : "MG_LIGHTNINGBOLT",
          "id" : 20,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -176,7 +176,7 @@
          "handle_name" : "MG_THUNDERSTORM",
          "id" : 21,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_LIGHTNINGBOLT" : 4
          },
@@ -187,7 +187,7 @@
          "handle_name" : "AL_DP",
          "id" : 22,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -195,7 +195,7 @@
          "handle_name" : "AL_DEMONBANE",
          "id" : 23,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_DP" : 3
          },
@@ -206,7 +206,7 @@
          "handle_name" : "AL_RUWACH",
          "id" : 24,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -214,7 +214,7 @@
          "handle_name" : "AL_PNEUMA",
          "id" : 25,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_WARP" : 4
          },
@@ -225,7 +225,7 @@
          "handle_name" : "AL_TELEPORT",
          "id" : 26,
          "maxLevel" : 2,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_RUWACH" : 1
          },
@@ -236,7 +236,7 @@
          "handle_name" : "AL_WARP",
          "id" : 27,
          "maxLevel" : 4,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_TELEPORT" : 2
          },
@@ -247,7 +247,7 @@
          "handle_name" : "AL_HEAL",
          "id" : 28,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -255,7 +255,7 @@
          "handle_name" : "AL_INCAGI",
          "id" : 29,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_HEAL" : 3
          },
@@ -266,7 +266,7 @@
          "handle_name" : "AL_DECAGI",
          "id" : 30,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_INCAGI" : 1
          },
@@ -277,7 +277,7 @@
          "handle_name" : "AL_HOLYWATER",
          "id" : 31,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -285,7 +285,7 @@
          "handle_name" : "AL_CRUCIS",
          "id" : 32,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_DEMONBANE" : 3
          },
@@ -296,7 +296,7 @@
          "handle_name" : "AL_ANGELUS",
          "id" : 33,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_DP" : 3
          },
@@ -307,7 +307,7 @@
          "handle_name" : "AL_BLESSING",
          "id" : 34,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_DP" : 5
          },
@@ -318,7 +318,7 @@
          "handle_name" : "AL_CURE",
          "id" : 35,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_HEAL" : 2
          },
@@ -329,7 +329,7 @@
          "handle_name" : "MC_INCCARRY",
          "id" : 36,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -337,7 +337,7 @@
          "handle_name" : "MC_DISCOUNT",
          "id" : 37,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MC_INCCARRY" : 3
          },
@@ -348,7 +348,7 @@
          "handle_name" : "MC_OVERCHARGE",
          "id" : 38,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MC_DISCOUNT" : 3
          },
@@ -359,7 +359,7 @@
          "handle_name" : "MC_PUSHCART",
          "id" : 39,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MC_INCCARRY" : 5
          },
@@ -370,7 +370,7 @@
          "handle_name" : "MC_IDENTIFY",
          "id" : 40,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -378,7 +378,7 @@
          "handle_name" : "MC_VENDING",
          "id" : 41,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MC_PUSHCART" : 3
          },
@@ -389,7 +389,7 @@
          "handle_name" : "MC_MAMMONITE",
          "id" : 42,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -397,7 +397,7 @@
          "handle_name" : "AC_OWL",
          "id" : 43,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -405,7 +405,7 @@
          "handle_name" : "AC_VULTURE",
          "id" : 44,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_OWL" : 3
          },
@@ -416,7 +416,7 @@
          "handle_name" : "AC_CONCENTRATION",
          "id" : 45,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_VULTURE" : 1
          },
@@ -427,7 +427,7 @@
          "handle_name" : "TF_DOUBLE",
          "id" : 48,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -435,7 +435,7 @@
          "handle_name" : "TF_MISS",
          "id" : 49,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -443,7 +443,7 @@
          "handle_name" : "TF_STEAL",
          "id" : 50,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -451,7 +451,7 @@
          "handle_name" : "TF_HIDING",
          "id" : 51,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TF_STEAL" : 5
          },
@@ -462,7 +462,7 @@
          "handle_name" : "TF_POISON",
          "id" : 52,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -470,7 +470,7 @@
          "handle_name" : "TF_DETOXIFY",
          "id" : 53,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TF_POISON" : 3
          },
@@ -481,7 +481,7 @@
          "handle_name" : "ALL_BUYING_STORE",
          "id" : 2535,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MC_VENDING" : 1
          },

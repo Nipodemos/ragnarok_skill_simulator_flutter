@@ -9,7 +9,7 @@
          "handle_name" : "LG_CANNONSPEAR",
          "id" : 2307,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_PINPOINTATTACK" : 1
          },
@@ -20,7 +20,7 @@
          "handle_name" : "LG_BANISHINGPOINT",
          "id" : 2308,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_SPEARMASTERY" : 1
          },
@@ -31,7 +31,7 @@
          "handle_name" : "LG_TRAMPLE",
          "id" : 2309,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -39,7 +39,7 @@
          "handle_name" : "LG_SHIELDPRESS",
          "id" : 2310,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "CR_SHIELDCHARGE" : 3
          },
@@ -50,7 +50,7 @@
          "handle_name" : "LG_REFLECTDAMAGE",
          "id" : 2311,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "CR_REFLECTSHIELD" : 5
          },
@@ -61,7 +61,7 @@
          "handle_name" : "LG_PINPOINTATTACK",
          "id" : 2312,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_BANISHINGPOINT" : 5
          },
@@ -72,7 +72,7 @@
          "handle_name" : "LG_FORCEOFVANGUARD",
          "id" : 2313,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -80,7 +80,7 @@
          "handle_name" : "LG_RAGEBURST",
          "id" : 2314,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_FORCEOFVANGUARD" : 1
          },
@@ -91,7 +91,7 @@
          "handle_name" : "LG_SHIELDSPELL",
          "id" : 2315,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_EARTHDRIVE" : 2,
             "LG_SHIELDPRESS" : 3
@@ -103,7 +103,7 @@
          "handle_name" : "LG_EXEEDBREAK",
          "id" : 2316,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_BANISHINGPOINT" : 3
          },
@@ -114,7 +114,7 @@
          "handle_name" : "LG_OVERBRAND",
          "id" : 2317,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_MOONSLASHER" : 3,
             "LG_PINPOINTATTACK" : 1
@@ -126,7 +126,7 @@
          "handle_name" : "LG_PRESTIGE",
          "id" : 2318,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_TRAMPLE" : 3
          },
@@ -137,7 +137,7 @@
          "handle_name" : "LG_BANDING",
          "id" : 2319,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_PINPOINTATTACK" : 3,
             "LG_RAGEBURST" : 1
@@ -149,7 +149,7 @@
          "handle_name" : "LG_MOONSLASHER",
          "id" : 2320,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_SPEARMASTERY" : 1
          },
@@ -160,7 +160,7 @@
          "handle_name" : "LG_RAYOFGENESIS",
          "id" : 2321,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "CR_GRANDCROSS" : 5
          },
@@ -171,7 +171,7 @@
          "handle_name" : "LG_PIETY",
          "id" : 2322,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "CR_TRUST" : 3
          },
@@ -182,7 +182,7 @@
          "handle_name" : "LG_EARTHDRIVE",
          "id" : 2323,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_REFLECTDAMAGE" : 3
          },
@@ -193,7 +193,7 @@
          "handle_name" : "LG_HESPERUSLIT",
          "id" : 2324,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_BANDING" : 3,
             "LG_PRESTIGE" : 3
@@ -205,7 +205,7 @@
          "handle_name" : "LG_INSPIRATION",
          "id" : 2325,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_PIETY" : 5,
             "LG_RAYOFGENESIS" : 4,
@@ -218,7 +218,7 @@
          "handle_name" : "LG_KINGS_GRACE",
          "id" : 5013,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "LG_REFLECTDAMAGE" : 5
          },
@@ -229,7 +229,7 @@
          "handle_name" : "ALL_FULL_THROTTLE",
          "id" : 5014,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       }
    ]

@@ -9,7 +9,7 @@
          "handle_name" : "TF_DOUBLE",
          "id" : 48,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "TF_MISS",
          "id" : 49,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -25,7 +25,7 @@
          "handle_name" : "TF_STEAL",
          "id" : 50,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -33,7 +33,7 @@
          "handle_name" : "TF_HIDING",
          "id" : 51,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TF_STEAL" : 5
          },
@@ -44,7 +44,7 @@
          "handle_name" : "TF_POISON",
          "id" : 52,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -52,7 +52,7 @@
          "handle_name" : "TF_DETOXIFY",
          "id" : 53,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TF_POISON" : 3
          },
@@ -63,7 +63,7 @@
          "handle_name" : "TF_SPRINKLESAND",
          "id" : 149,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       },
       {
@@ -71,7 +71,7 @@
          "handle_name" : "TF_BACKSLIDING",
          "id" : 150,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       },
       {
@@ -79,7 +79,7 @@
          "handle_name" : "TF_PICKSTONE",
          "id" : 151,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       },
       {
@@ -87,7 +87,7 @@
          "handle_name" : "TF_THROWSTONE",
          "id" : 152,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       }
    ]

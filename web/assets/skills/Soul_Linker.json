@@ -9,7 +9,7 @@
          "handle_name" : "SL_ALCHEMIST",
          "id" : 445,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "SL_MONK",
          "id" : 447,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -25,7 +25,7 @@
          "handle_name" : "SL_STAR",
          "id" : 448,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -33,7 +33,7 @@
          "handle_name" : "SL_SAGE",
          "id" : 449,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -41,7 +41,7 @@
          "handle_name" : "SL_CRUSADER",
          "id" : 450,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -49,7 +49,7 @@
          "handle_name" : "SL_SUPERNOVICE",
          "id" : 451,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -57,7 +57,7 @@
          "handle_name" : "SL_KNIGHT",
          "id" : 452,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_CRUSADER" : 1
          },
@@ -68,7 +68,7 @@
          "handle_name" : "SL_WIZARD",
          "id" : 453,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_SAGE" : 1
          },
@@ -79,7 +79,7 @@
          "handle_name" : "SL_PRIEST",
          "id" : 454,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_MONK" : 1
          },
@@ -90,7 +90,7 @@
          "handle_name" : "SL_BARDDANCER",
          "id" : 455,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -98,7 +98,7 @@
          "handle_name" : "SL_ROGUE",
          "id" : 456,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_ASSASIN" : 1
          },
@@ -109,7 +109,7 @@
          "handle_name" : "SL_ASSASIN",
          "id" : 457,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -117,7 +117,7 @@
          "handle_name" : "SL_BLACKSMITH",
          "id" : 458,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_ALCHEMIST" : 1
          },
@@ -128,7 +128,7 @@
          "handle_name" : "SL_HUNTER",
          "id" : 460,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_BARDDANCER" : 1
          },
@@ -139,7 +139,7 @@
          "handle_name" : "SL_SOULLINKER",
          "id" : 461,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_STAR" : 1
          },
@@ -150,7 +150,7 @@
          "handle_name" : "SL_KAIZEL",
          "id" : 462,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_PRIEST" : 1
          },
@@ -161,7 +161,7 @@
          "handle_name" : "SL_KAAHI",
          "id" : 463,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_CRUSADER" : 1,
             "SL_PRIEST" : 1
@@ -173,7 +173,7 @@
          "handle_name" : "SL_KAUPE",
          "id" : 464,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_ROGUE" : 1
          },
@@ -184,7 +184,7 @@
          "handle_name" : "SL_KAITE",
          "id" : 465,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_WIZARD" : 1
          },
@@ -195,7 +195,7 @@
          "handle_name" : "SL_KAINA",
          "id" : 466,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TK_SPTIME" : 1
          },
@@ -206,7 +206,7 @@
          "handle_name" : "SL_STIN",
          "id" : 467,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_WIZARD" : 1
          },
@@ -217,7 +217,7 @@
          "handle_name" : "SL_STUN",
          "id" : 468,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_WIZARD" : 1
          },
@@ -228,7 +228,7 @@
          "handle_name" : "SL_SMA",
          "id" : 469,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_STIN" : 7,
             "SL_STUN" : 7
@@ -240,7 +240,7 @@
          "handle_name" : "SL_SWOO",
          "id" : 470,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_PRIEST" : 1
          },
@@ -251,7 +251,7 @@
          "handle_name" : "SL_SKE",
          "id" : 471,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_KNIGHT" : 1
          },
@@ -262,7 +262,7 @@
          "handle_name" : "SL_SKA",
          "id" : 472,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_MONK" : 1
          },
@@ -273,7 +273,7 @@
          "handle_name" : "SL_HIGH",
          "id" : 494,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SL_SUPERNOVICE" : 5
          },

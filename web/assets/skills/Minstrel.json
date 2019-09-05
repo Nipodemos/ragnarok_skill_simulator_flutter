@@ -9,7 +9,7 @@
          "handle_name" : "MI_RUSH_WINDMILL",
          "id" : 2381,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_LULLABY_DEEPSLEEP" : 1
          },
@@ -20,7 +20,7 @@
          "handle_name" : "MI_ECHOSONG",
          "id" : 2382,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_LULLABY_DEEPSLEEP" : 1
          },
@@ -31,7 +31,7 @@
          "handle_name" : "MI_HARMONIZE",
          "id" : 2383,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_LULLABY_DEEPSLEEP" : 1
          },
@@ -42,7 +42,7 @@
          "handle_name" : "WM_LESSON",
          "id" : 2412,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -50,7 +50,7 @@
          "handle_name" : "WM_METALICSOUND",
          "id" : 2413,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_DOMINION_IMPULSE" : 1
          },
@@ -61,7 +61,7 @@
          "handle_name" : "WM_REVERBERATION",
          "id" : 2414,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_DISSONANCE" : 5
          },
@@ -72,7 +72,7 @@
          "handle_name" : "WM_DOMINION_IMPULSE",
          "id" : 2417,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_REVERBERATION" : 1
          },
@@ -83,7 +83,7 @@
          "handle_name" : "WM_SEVERE_RAINSTORM",
          "id" : 2418,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_MUSICALSTRIKE" : 5
          },
@@ -94,7 +94,7 @@
          "handle_name" : "WM_POEMOFNETHERWORLD",
          "id" : 2419,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_LESSON" : 1
          },
@@ -105,7 +105,7 @@
          "handle_name" : "WM_VOICEOFSIREN",
          "id" : 2420,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_POEMOFNETHERWORLD" : 3
          },
@@ -116,7 +116,7 @@
          "handle_name" : "WM_DEADHILLHERE",
          "id" : 2421,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_SIRCLEOFNATURE" : 3
          },
@@ -127,7 +127,7 @@
          "handle_name" : "WM_LULLABY_DEEPSLEEP",
          "id" : 2422,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_LESSON" : 1
          },
@@ -138,7 +138,7 @@
          "handle_name" : "WM_SIRCLEOFNATURE",
          "id" : 2423,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_LESSON" : 1
          },
@@ -149,7 +149,7 @@
          "handle_name" : "WM_RANDOMIZESPELL",
          "id" : 2424,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_POEMOFNETHERWORLD" : 1
          },
@@ -160,7 +160,7 @@
          "handle_name" : "WM_GLOOMYDAY",
          "id" : 2425,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_RANDOMIZESPELL" : 1
          },
@@ -171,7 +171,7 @@
          "handle_name" : "WM_GREAT_ECHO",
          "id" : 2426,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_METALICSOUND" : 1
          },
@@ -182,7 +182,7 @@
          "handle_name" : "WM_SONG_OF_MANA",
          "id" : 2427,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MI_ECHOSONG" : 1,
             "MI_HARMONIZE" : 1,
@@ -195,7 +195,7 @@
          "handle_name" : "WM_DANCE_WITH_WUG",
          "id" : 2428,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MI_ECHOSONG" : 1,
             "MI_HARMONIZE" : 1,
@@ -208,7 +208,7 @@
          "handle_name" : "WM_SOUND_OF_DESTRUCTION",
          "id" : 2429,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_MELODYOFSINK" : 3,
             "WM_SATURDAY_NIGHT_FEVER" : 3
@@ -220,7 +220,7 @@
          "handle_name" : "WM_SATURDAY_NIGHT_FEVER",
          "id" : 2430,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_DANCE_WITH_WUG" : 1
          },
@@ -231,7 +231,7 @@
          "handle_name" : "WM_LERADS_DEW",
          "id" : 2431,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MI_ECHOSONG" : 1,
             "MI_HARMONIZE" : 1,
@@ -244,7 +244,7 @@
          "handle_name" : "WM_MELODYOFSINK",
          "id" : 2432,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_SONG_OF_MANA" : 1
          },
@@ -255,7 +255,7 @@
          "handle_name" : "WM_BEYOND_OF_WARCRY",
          "id" : 2433,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_LERADS_DEW" : 1
          },
@@ -266,7 +266,7 @@
          "handle_name" : "WM_UNLIMITED_HUMMING_VOICE",
          "id" : 2434,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_BEYOND_OF_WARCRY" : 1,
             "WM_SOUND_OF_DESTRUCTION" : 1
@@ -278,7 +278,7 @@
          "handle_name" : "WM_FRIGG_SONG",
          "id" : 5007,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WM_LESSON" : 1
          },
@@ -289,7 +289,7 @@
          "handle_name" : "ALL_FULL_THROTTLE",
          "id" : 5014,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       }
    ]

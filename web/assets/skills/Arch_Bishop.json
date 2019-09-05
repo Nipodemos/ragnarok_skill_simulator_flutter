@@ -9,7 +9,7 @@
          "handle_name" : "AB_JUDEX",
          "id" : 2038,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "PR_TURNUNDEAD" : 1
          },
@@ -20,7 +20,7 @@
          "handle_name" : "AB_ANCILLA",
          "id" : 2039,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_CLEMENTIA" : 3
          },
@@ -31,7 +31,7 @@
          "handle_name" : "AB_ADORAMUS",
          "id" : 2040,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_ANCILLA" : 1,
             "AB_JUDEX" : 1,
@@ -44,7 +44,7 @@
          "handle_name" : "AB_CLEMENTIA",
          "id" : 2041,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_BLESSING" : 1
          },
@@ -55,7 +55,7 @@
          "handle_name" : "AB_CANTO",
          "id" : 2042,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_INCAGI" : 1
          },
@@ -66,7 +66,7 @@
          "handle_name" : "AB_CHEAL",
          "id" : 2043,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_HEAL" : 1
          },
@@ -77,7 +77,7 @@
          "handle_name" : "AB_EPICLESIS",
          "id" : 2044,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_ANCILLA" : 1,
             "AB_HIGHNESSHEAL" : 1
@@ -89,7 +89,7 @@
          "handle_name" : "AB_PRAEFATIO",
          "id" : 2045,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "PR_KYRIE" : 1
          },
@@ -100,7 +100,7 @@
          "handle_name" : "AB_ORATIO",
          "id" : 2046,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_PRAEFATIO" : 5
          },
@@ -111,7 +111,7 @@
          "handle_name" : "AB_LAUDAAGNUS",
          "id" : 2047,
          "maxLevel" : 4,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "PR_STRECOVERY" : 1
          },
@@ -122,7 +122,7 @@
          "handle_name" : "AB_LAUDARAMUS",
          "id" : 2048,
          "maxLevel" : 4,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_LAUDAAGNUS" : 2
          },
@@ -133,7 +133,7 @@
          "handle_name" : "AB_EUCHARISTICA",
          "id" : 2049,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_EPICLESIS" : 1,
             "AB_EXPIATIO" : 1
@@ -145,7 +145,7 @@
          "handle_name" : "AB_RENOVATIO",
          "id" : 2050,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_CHEAL" : 3
          },
@@ -156,7 +156,7 @@
          "handle_name" : "AB_HIGHNESSHEAL",
          "id" : 2051,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_RENOVATIO" : 1
          },
@@ -167,7 +167,7 @@
          "handle_name" : "AB_CLEARANCE",
          "id" : 2052,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_LAUDARAMUS" : 2
          },
@@ -178,7 +178,7 @@
          "handle_name" : "AB_EXPIATIO",
          "id" : 2053,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_DUPLELIGHT" : 5,
             "AB_ORATIO" : 5
@@ -190,7 +190,7 @@
          "handle_name" : "AB_DUPLELIGHT",
          "id" : 2054,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "PR_ASPERSIO" : 1
          },
@@ -201,7 +201,7 @@
          "handle_name" : "AB_SILENTIUM",
          "id" : 2057,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_CLEARANCE" : 1
          },
@@ -212,7 +212,7 @@
          "handle_name" : "AB_SECRAMENT",
          "id" : 2515,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_EPICLESIS" : 1,
             "AB_EXPIATIO" : 1
@@ -224,7 +224,7 @@
          "handle_name" : "AB_OFFERTORIUM",
          "id" : 5011,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AB_HIGHNESSHEAL" : 2
          },
@@ -235,7 +235,7 @@
          "handle_name" : "ALL_FULL_THROTTLE",
          "id" : 5014,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       }
    ]

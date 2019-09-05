@@ -9,7 +9,7 @@
          "handle_name" : "AM_AXEMASTERY",
          "id" : 226,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "AM_LEARNINGPOTION",
          "id" : 227,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -25,7 +25,7 @@
          "handle_name" : "AM_PHARMACY",
          "id" : 228,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_LEARNINGPOTION" : 5
          },
@@ -36,7 +36,7 @@
          "handle_name" : "AM_DEMONSTRATION",
          "id" : 229,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_PHARMACY" : 4
          },
@@ -47,7 +47,7 @@
          "handle_name" : "AM_ACIDTERROR",
          "id" : 230,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_PHARMACY" : 5
          },
@@ -58,7 +58,7 @@
          "handle_name" : "AM_POTIONPITCHER",
          "id" : 231,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_PHARMACY" : 3
          },
@@ -69,7 +69,7 @@
          "handle_name" : "AM_CANNIBALIZE",
          "id" : 232,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_PHARMACY" : 6
          },
@@ -80,7 +80,7 @@
          "handle_name" : "AM_SPHEREMINE",
          "id" : 233,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_PHARMACY" : 2
          },
@@ -91,7 +91,7 @@
          "handle_name" : "AM_CP_WEAPON",
          "id" : 234,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_CP_ARMOR" : 3
          },
@@ -102,7 +102,7 @@
          "handle_name" : "AM_CP_SHIELD",
          "id" : 235,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_CP_HELM" : 3
          },
@@ -113,7 +113,7 @@
          "handle_name" : "AM_CP_ARMOR",
          "id" : 236,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_CP_SHIELD" : 3
          },
@@ -124,7 +124,7 @@
          "handle_name" : "AM_CP_HELM",
          "id" : 237,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_PHARMACY" : 2
          },
@@ -135,7 +135,7 @@
          "handle_name" : "AM_BIOETHICS",
          "id" : 238,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       },
       {
@@ -143,7 +143,7 @@
          "handle_name" : "AM_CALLHOMUN",
          "id" : 243,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_REST" : 1
          },
@@ -154,7 +154,7 @@
          "handle_name" : "AM_REST",
          "id" : 244,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_BIOETHICS" : 1
          },
@@ -165,7 +165,7 @@
          "handle_name" : "AM_RESURRECTHOMUN",
          "id" : 247,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_CALLHOMUN" : 1
          },
@@ -176,7 +176,7 @@
          "handle_name" : "AM_BERSERKPITCHER",
          "id" : 446,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0xC08"
       },
       {
@@ -184,7 +184,7 @@
          "handle_name" : "AM_TWILIGHT1",
          "id" : 496,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_PHARMACY" : 10
          },
@@ -195,7 +195,7 @@
          "handle_name" : "AM_TWILIGHT2",
          "id" : 497,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_PHARMACY" : 10
          },
@@ -206,7 +206,7 @@
          "handle_name" : "AM_TWILIGHT3",
          "id" : 498,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AM_PHARMACY" : 10
          },

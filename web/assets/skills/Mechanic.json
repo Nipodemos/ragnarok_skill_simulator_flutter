@@ -9,7 +9,7 @@
          "handle_name" : "NC_MADOLICENCE",
          "id" : 2255,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "NC_BOOSTKNUCKLE",
          "id" : 2256,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_MADOLICENCE" : 1
          },
@@ -28,7 +28,7 @@
          "handle_name" : "NC_PILEBUNKER",
          "id" : 2257,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_BOOSTKNUCKLE" : 2
          },
@@ -39,7 +39,7 @@
          "handle_name" : "NC_VULCANARM",
          "id" : 2258,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_BOOSTKNUCKLE" : 2
          },
@@ -50,7 +50,7 @@
          "handle_name" : "NC_FLAMELAUNCHER",
          "id" : 2259,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_VULCANARM" : 3
          },
@@ -61,7 +61,7 @@
          "handle_name" : "NC_COLDSLOWER",
          "id" : 2260,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_VULCANARM" : 3
          },
@@ -72,7 +72,7 @@
          "handle_name" : "NC_ARMSCANNON",
          "id" : 2261,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_COLDSLOWER" : 2,
             "NC_FLAMELAUNCHER" : 2
@@ -84,7 +84,7 @@
          "handle_name" : "NC_ACCELERATION",
          "id" : 2262,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_MADOLICENCE" : 1
          },
@@ -95,7 +95,7 @@
          "handle_name" : "NC_HOVERING",
          "id" : 2263,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_ACCELERATION" : 1
          },
@@ -106,7 +106,7 @@
          "handle_name" : "NC_F_SIDESLIDE",
          "id" : 2264,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_HOVERING" : 1
          },
@@ -117,7 +117,7 @@
          "handle_name" : "NC_B_SIDESLIDE",
          "id" : 2265,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_HOVERING" : 1
          },
@@ -128,7 +128,7 @@
          "handle_name" : "NC_MAINFRAME",
          "id" : 2266,
          "maxLevel" : 4,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_MADOLICENCE" : 4
          },
@@ -139,7 +139,7 @@
          "handle_name" : "NC_SELFDESTRUCTION",
          "id" : 2267,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_MAINFRAME" : 2
          },
@@ -150,7 +150,7 @@
          "handle_name" : "NC_SHAPESHIFT",
          "id" : 2268,
          "maxLevel" : 4,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_MAINFRAME" : 2
          },
@@ -161,7 +161,7 @@
          "handle_name" : "NC_EMERGENCYCOOL",
          "id" : 2269,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_SELFDESTRUCTION" : 2
          },
@@ -172,7 +172,7 @@
          "handle_name" : "NC_INFRAREDSCAN",
          "id" : 2270,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_SHAPESHIFT" : 2
          },
@@ -183,7 +183,7 @@
          "handle_name" : "NC_ANALYZE",
          "id" : 2271,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_INFRAREDSCAN" : 1
          },
@@ -194,7 +194,7 @@
          "handle_name" : "NC_MAGNETICFIELD",
          "id" : 2272,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_EMERGENCYCOOL" : 1
          },
@@ -205,7 +205,7 @@
          "handle_name" : "NC_NEUTRALBARRIER",
          "id" : 2273,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_MAGNETICFIELD" : 2
          },
@@ -216,7 +216,7 @@
          "handle_name" : "NC_STEALTHFIELD",
          "id" : 2274,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_ANALYZE" : 3,
             "NC_NEUTRALBARRIER" : 2
@@ -228,7 +228,7 @@
          "handle_name" : "NC_REPAIR",
          "id" : 2275,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_MADOLICENCE" : 1
          },
@@ -239,7 +239,7 @@
          "handle_name" : "NC_TRAININGAXE",
          "id" : 2276,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -247,7 +247,7 @@
          "handle_name" : "NC_RESEARCHFE",
          "id" : 2277,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -255,7 +255,7 @@
          "handle_name" : "NC_AXEBOOMERANG",
          "id" : 2278,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_TRAININGAXE" : 1
          },
@@ -266,7 +266,7 @@
          "handle_name" : "NC_POWERSWING",
          "id" : 2279,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_AXEBOOMERANG" : 3
          },
@@ -277,7 +277,7 @@
          "handle_name" : "NC_AXETORNADO",
          "id" : 2280,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_TRAININGAXE" : 1
          },
@@ -288,7 +288,7 @@
          "handle_name" : "NC_SILVERSNIPER",
          "id" : 2281,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_RESEARCHFE" : 2
          },
@@ -299,7 +299,7 @@
          "handle_name" : "NC_MAGICDECOY",
          "id" : 2282,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_RESEARCHFE" : 2
          },
@@ -310,7 +310,7 @@
          "handle_name" : "NC_DISJOINT",
          "id" : 2283,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "NC_SILVERSNIPER" : 1
          },
@@ -321,7 +321,7 @@
          "handle_name" : "NC_MAGMA_ERUPTION",
          "id" : 5006,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -329,7 +329,7 @@
          "handle_name" : "ALL_FULL_THROTTLE",
          "id" : 5014,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       }
    ]

@@ -9,7 +9,7 @@
          "handle_name" : "ST_CHASEWALK",
          "id" : 389,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_TUNNELDRIVE" : 3,
             "TF_HIDING" : 5
@@ -21,7 +21,7 @@
          "handle_name" : "ST_REJECTSWORD",
          "id" : 390,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -29,7 +29,7 @@
          "handle_name" : "ST_PRESERVE",
          "id" : 475,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_PLAGIARISM" : 10
          },
@@ -40,7 +40,7 @@
          "handle_name" : "ST_FULLSTRIP",
          "id" : 476,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_STRIPARMOR" : 5,
             "RG_STRIPHELM" : 5,

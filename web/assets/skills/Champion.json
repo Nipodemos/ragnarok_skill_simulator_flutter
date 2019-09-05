@@ -9,7 +9,7 @@
          "handle_name" : "CH_PALMSTRIKE",
          "id" : 370,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MO_CALLSPIRITS" : 5,
             "MO_IRONHAND" : 7
@@ -21,7 +21,7 @@
          "handle_name" : "CH_TIGERFIST",
          "id" : 371,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MO_CALLSPIRITS" : 5,
             "MO_COMBOFINISH" : 3,
@@ -35,7 +35,7 @@
          "handle_name" : "CH_CHAINCRUSH",
          "id" : 372,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "CH_TIGERFIST" : 2,
             "MO_CALLSPIRITS" : 5,
@@ -48,7 +48,7 @@
          "handle_name" : "CH_SOULCOLLECT",
          "id" : 401,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MO_ABSORBSPIRITS" : 1,
             "MO_CALLSPIRITS" : 5,

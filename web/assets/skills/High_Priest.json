@@ -9,7 +9,7 @@
          "handle_name" : "HP_ASSUMPTIO",
          "id" : 361,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_ANGELUS" : 1,
             "MG_SRECOVERY" : 3,
@@ -22,7 +22,7 @@
          "handle_name" : "HP_BASILICA",
          "id" : 362,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_SRECOVERY" : 1,
             "PR_GLORIA" : 2,
@@ -35,7 +35,7 @@
          "handle_name" : "HP_MEDITATIO",
          "id" : 363,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_SRECOVERY" : 5,
             "PR_ASPERSIO" : 3,
@@ -48,7 +48,7 @@
          "handle_name" : "HP_MANARECHARGE",
          "id" : 481,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_DEMONBANE" : 10,
             "PR_MACEMASTERY" : 10

@@ -9,7 +9,7 @@
          "handle_name" : "PR_IMPOSITIO",
          "id" : 66,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "PR_SANCTUARY",
          "id" : 70,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_HEAL" : 1
          },
@@ -28,7 +28,7 @@
          "handle_name" : "PR_STRECOVERY",
          "id" : 72,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -36,7 +36,7 @@
          "handle_name" : "PR_GLORIA",
          "id" : 75,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "PR_SANCTUARY" : 7
          },
@@ -47,7 +47,7 @@
          "handle_name" : "WZ_FIREPILLAR",
          "id" : 80,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_FIREWALL" : 1
          },
@@ -58,7 +58,7 @@
          "handle_name" : "WZ_SIGHTRASHER",
          "id" : 81,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_LIGHTNINGBOLT" : 1,
             "MG_SIGHT" : 1
@@ -70,7 +70,7 @@
          "handle_name" : "WZ_JUPITEL",
          "id" : 84,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_LIGHTNINGBOLT" : 1,
             "MG_NAPALMBEAT" : 1
@@ -82,7 +82,7 @@
          "handle_name" : "WZ_WATERBALL",
          "id" : 86,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_COLDBOLT" : 1,
             "MG_LIGHTNINGBOLT" : 1
@@ -94,7 +94,7 @@
          "handle_name" : "WZ_ICEWALL",
          "id" : 87,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_FROSTDIVER" : 1,
             "MG_STONECURSE" : 1
@@ -106,7 +106,7 @@
          "handle_name" : "WZ_FROSTNOVA",
          "id" : 88,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WZ_ICEWALL" : 1
          },
@@ -117,7 +117,7 @@
          "handle_name" : "WZ_EARTHSPIKE",
          "id" : 90,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_STONECURSE" : 1
          },
@@ -128,7 +128,7 @@
          "handle_name" : "WZ_HEAVENDRIVE",
          "id" : 91,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WZ_EARTHSPIKE" : 3
          },
@@ -139,7 +139,7 @@
          "handle_name" : "WZ_QUAGMIRE",
          "id" : 92,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WZ_HEAVENDRIVE" : 1
          },
@@ -150,7 +150,7 @@
          "handle_name" : "WZ_ESTIMATION",
          "id" : 93,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -158,7 +158,7 @@
          "handle_name" : "BS_HILTBINDING",
          "id" : 105,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -166,7 +166,7 @@
          "handle_name" : "BS_WEAPONRESEARCH",
          "id" : 107,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BS_HILTBINDING" : 1
          },
@@ -177,7 +177,7 @@
          "handle_name" : "HT_SKIDTRAP",
          "id" : 115,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x80"
       },
       {
@@ -185,7 +185,7 @@
          "handle_name" : "HT_SANDMAN",
          "id" : 119,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "HT_FLASHER" : 1
          },
@@ -196,7 +196,7 @@
          "handle_name" : "HT_FLASHER",
          "id" : 120,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "HT_SKIDTRAP" : 1
          },
@@ -207,7 +207,7 @@
          "handle_name" : "HT_FREEZINGTRAP",
          "id" : 121,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "HT_FLASHER" : 1
          },
@@ -218,7 +218,7 @@
          "handle_name" : "AS_ENCHANTPOISON",
          "id" : 138,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TF_POISON" : 1
          },
@@ -229,7 +229,7 @@
          "handle_name" : "RG_TUNNELDRIVE",
          "id" : 213,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TF_HIDING" : 1
          },
@@ -240,7 +240,7 @@
          "handle_name" : "AM_AXEMASTERY",
          "id" : 226,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -248,7 +248,7 @@
          "handle_name" : "CR_TRUST",
          "id" : 248,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -256,7 +256,7 @@
          "handle_name" : "CR_HOLYCROSS",
          "id" : 253,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "CR_TRUST" : 7
          },
@@ -267,7 +267,7 @@
          "handle_name" : "MO_IRONHAND",
          "id" : 259,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_DEMONBANE" : 10,
             "AL_DP" : 10
@@ -279,7 +279,7 @@
          "handle_name" : "MO_CALLSPIRITS",
          "id" : 261,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MO_IRONHAND" : 2
          },
@@ -290,7 +290,7 @@
          "handle_name" : "MO_ABSORBSPIRITS",
          "id" : 262,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MO_CALLSPIRITS" : 5
          },
@@ -301,7 +301,7 @@
          "handle_name" : "HW_MAGICCRASHER",
          "id" : 365,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MG_SRECOVERY" : 1
          },
@@ -312,7 +312,7 @@
          "handle_name" : "ALL_BUYING_STORE",
          "id" : 2535,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MC_VENDING" : 1
          },

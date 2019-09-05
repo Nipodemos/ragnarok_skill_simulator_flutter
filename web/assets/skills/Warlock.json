@@ -9,7 +9,7 @@
          "handle_name" : "WL_WHITEIMPRISON",
          "id" : 2201,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_SOULEXPANSION" : 3
          },
@@ -20,7 +20,7 @@
          "handle_name" : "WL_SOULEXPANSION",
          "id" : 2202,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_DRAINLIFE" : 1
          },
@@ -31,7 +31,7 @@
          "handle_name" : "WL_FROSTMISTY",
          "id" : 2203,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_SUMMONWB" : 1
          },
@@ -42,7 +42,7 @@
          "handle_name" : "WL_JACKFROST",
          "id" : 2204,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_FROSTMISTY" : 2
          },
@@ -53,7 +53,7 @@
          "handle_name" : "WL_MARSHOFABYSS",
          "id" : 2205,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WZ_QUAGMIRE" : 1
          },
@@ -64,7 +64,7 @@
          "handle_name" : "WL_RECOGNIZEDSPELL",
          "id" : 2206,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_RELEASE" : 2,
             "WL_STASIS" : 1,
@@ -77,7 +77,7 @@
          "handle_name" : "WL_SIENNAEXECRATE",
          "id" : 2207,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_SUMMONSTONE" : 1
          },
@@ -88,7 +88,7 @@
          "handle_name" : "WL_RADIUS",
          "id" : 2208,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -96,7 +96,7 @@
          "handle_name" : "WL_STASIS",
          "id" : 2209,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_DRAINLIFE" : 1
          },
@@ -107,7 +107,7 @@
          "handle_name" : "WL_DRAINLIFE",
          "id" : 2210,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_RADIUS" : 1
          },
@@ -118,7 +118,7 @@
          "handle_name" : "WL_CRIMSONROCK",
          "id" : 2211,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_SUMMONFB" : 1
          },
@@ -129,7 +129,7 @@
          "handle_name" : "WL_HELLINFERNO",
          "id" : 2212,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_CRIMSONROCK" : 2
          },
@@ -140,7 +140,7 @@
          "handle_name" : "WL_COMET",
          "id" : 2213,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_HELLINFERNO" : 3
          },
@@ -151,7 +151,7 @@
          "handle_name" : "WL_CHAINLIGHTNING",
          "id" : 2214,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_SUMMONBL" : 1
          },
@@ -162,7 +162,7 @@
          "handle_name" : "WL_EARTHSTRAIN",
          "id" : 2216,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_SIENNAEXECRATE" : 2
          },
@@ -173,7 +173,7 @@
          "handle_name" : "WL_TETRAVORTEX",
          "id" : 2217,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_CHAINLIGHTNING" : 5,
             "WL_EARTHSTRAIN" : 5,
@@ -187,7 +187,7 @@
          "handle_name" : "WL_SUMMONFB",
          "id" : 2222,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WZ_METEOR" : 1
          },
@@ -198,7 +198,7 @@
          "handle_name" : "WL_SUMMONBL",
          "id" : 2223,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WZ_VERMILION" : 1
          },
@@ -209,7 +209,7 @@
          "handle_name" : "WL_SUMMONWB",
          "id" : 2224,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WZ_STORMGUST" : 1
          },
@@ -220,7 +220,7 @@
          "handle_name" : "WL_SUMMONSTONE",
          "id" : 2229,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WZ_HEAVENDRIVE" : 1
          },
@@ -231,7 +231,7 @@
          "handle_name" : "WL_RELEASE",
          "id" : 2230,
          "maxLevel" : 2,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -239,7 +239,7 @@
          "handle_name" : "WL_READING_SB",
          "id" : 2231,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -247,7 +247,7 @@
          "handle_name" : "WL_FREEZE_SP",
          "id" : 2232,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -255,7 +255,7 @@
          "handle_name" : "WL_TELEKINESIS_INTENSE",
          "id" : 5012,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "WL_SOULEXPANSION" : 5
          },
@@ -266,7 +266,7 @@
          "handle_name" : "ALL_FULL_THROTTLE",
          "id" : 5014,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       }
    ]

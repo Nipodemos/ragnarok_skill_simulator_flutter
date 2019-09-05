@@ -9,7 +9,7 @@
          "handle_name" : "LK_AURABLADE",
          "id" : 355,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SM_BASH" : 5,
             "SM_MAGNUM" : 5,
@@ -22,7 +22,7 @@
          "handle_name" : "LK_PARRYING",
          "id" : 356,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_TWOHANDQUICKEN" : 3,
             "SM_PROVOKE" : 5,
@@ -35,7 +35,7 @@
          "handle_name" : "LK_CONCENTRATION",
          "id" : 357,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_RIDING" : 1,
             "KN_SPEARMASTERY" : 5,
@@ -48,7 +48,7 @@
          "handle_name" : "LK_TENSIONRELAX",
          "id" : 358,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SM_ENDURE" : 3,
             "SM_PROVOKE" : 5,
@@ -62,7 +62,7 @@
          "handle_name" : "LK_BERSERK",
          "id" : 359,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -70,7 +70,7 @@
          "handle_name" : "LK_SPIRALPIERCE",
          "id" : 397,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_PIERCE" : 5,
             "KN_RIDING" : 1,
@@ -84,7 +84,7 @@
          "handle_name" : "LK_HEADCRUSH",
          "id" : 398,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_RIDING" : 1,
             "KN_SPEARMASTERY" : 9
@@ -96,7 +96,7 @@
          "handle_name" : "LK_JOINTBEAT",
          "id" : 399,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_CAVALIERMASTERY" : 3,
             "KN_SPEARMASTERY" : 9,

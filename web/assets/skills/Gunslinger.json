@@ -9,7 +9,7 @@
          "handle_name" : "GS_GLITTERING",
          "id" : 500,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "GS_FLING",
          "id" : 501,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_GLITTERING" : 1
          },
@@ -28,7 +28,7 @@
          "handle_name" : "GS_TRIPLEACTION",
          "id" : 502,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_CHAINACTION" : 10,
             "GS_GLITTERING" : 1
@@ -40,7 +40,7 @@
          "handle_name" : "GS_BULLSEYE",
          "id" : 503,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_GLITTERING" : 5,
             "GS_TRACKING" : 10
@@ -52,7 +52,7 @@
          "handle_name" : "GS_MADNESSCANCEL",
          "id" : 504,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_GATLINGFEVER" : 10,
             "GS_GLITTERING" : 4
@@ -64,7 +64,7 @@
          "handle_name" : "GS_ADJUSTMENT",
          "id" : 505,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_DISARM" : 5,
             "GS_GLITTERING" : 4
@@ -76,7 +76,7 @@
          "handle_name" : "GS_INCREASING",
          "id" : 506,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_GLITTERING" : 2,
             "GS_SNAKEEYE" : 10
@@ -88,7 +88,7 @@
          "handle_name" : "GS_MAGICALBULLET",
          "id" : 507,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_GLITTERING" : 1
          },
@@ -99,7 +99,7 @@
          "handle_name" : "GS_CRACKER",
          "id" : 508,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_GLITTERING" : 1
          },
@@ -110,7 +110,7 @@
          "handle_name" : "GS_SINGLEACTION",
          "id" : 509,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -118,7 +118,7 @@
          "handle_name" : "GS_SNAKEEYE",
          "id" : 510,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -126,7 +126,7 @@
          "handle_name" : "GS_CHAINACTION",
          "id" : 511,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_SINGLEACTION" : 1
          },
@@ -137,7 +137,7 @@
          "handle_name" : "GS_TRACKING",
          "id" : 512,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_SINGLEACTION" : 5
          },
@@ -148,7 +148,7 @@
          "handle_name" : "GS_DISARM",
          "id" : 513,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_TRACKING" : 7
          },
@@ -159,7 +159,7 @@
          "handle_name" : "GS_PIERCINGSHOT",
          "id" : 514,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_TRACKING" : 5
          },
@@ -170,7 +170,7 @@
          "handle_name" : "GS_RAPIDSHOWER",
          "id" : 515,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_CHAINACTION" : 3
          },
@@ -181,7 +181,7 @@
          "handle_name" : "GS_DESPERADO",
          "id" : 516,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_RAPIDSHOWER" : 5
          },
@@ -192,7 +192,7 @@
          "handle_name" : "GS_GATLINGFEVER",
          "id" : 517,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_DESPERADO" : 5,
             "GS_RAPIDSHOWER" : 7
@@ -204,7 +204,7 @@
          "handle_name" : "GS_DUST",
          "id" : 518,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_SINGLEACTION" : 5
          },
@@ -215,7 +215,7 @@
          "handle_name" : "GS_FULLBUSTER",
          "id" : 519,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_DUST" : 3
          },
@@ -226,7 +226,7 @@
          "handle_name" : "GS_SPREADATTACK",
          "id" : 520,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_FULLBUSTER" : 5
          },
@@ -237,7 +237,7 @@
          "handle_name" : "GS_GROUNDDRIFT",
          "id" : 521,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GS_SPREADATTACK" : 7
          },

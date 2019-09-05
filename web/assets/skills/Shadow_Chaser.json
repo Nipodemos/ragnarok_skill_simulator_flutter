@@ -9,7 +9,7 @@
          "handle_name" : "SC_FATALMENACE",
          "id" : 2284,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_INTIMIDATE" : 5
          },
@@ -20,7 +20,7 @@
          "handle_name" : "SC_REPRODUCE",
          "id" : 2285,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_PLAGIARISM" : 5
          },
@@ -31,7 +31,7 @@
          "handle_name" : "SC_AUTOSHADOWSPELL",
          "id" : 2286,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_REPRODUCE" : 5
          },
@@ -42,7 +42,7 @@
          "handle_name" : "SC_SHADOWFORM",
          "id" : 2287,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_TUNNELDRIVE" : 3
          },
@@ -53,7 +53,7 @@
          "handle_name" : "SC_TRIANGLESHOT",
          "id" : 2288,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_DOUBLE" : 7
          },
@@ -64,7 +64,7 @@
          "handle_name" : "SC_BODYPAINT",
          "id" : 2289,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -72,7 +72,7 @@
          "handle_name" : "SC_INVISIBILITY",
          "id" : 2290,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_AUTOSHADOWSPELL" : 7,
             "SC_DEADLYINFECT" : 5,
@@ -85,7 +85,7 @@
          "handle_name" : "SC_DEADLYINFECT",
          "id" : 2291,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_AUTOSHADOWSPELL" : 5,
             "SC_SHADOWFORM" : 3
@@ -97,7 +97,7 @@
          "handle_name" : "SC_ENERVATION",
          "id" : 2292,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_BODYPAINT" : 1
          },
@@ -108,7 +108,7 @@
          "handle_name" : "SC_GROOMY",
          "id" : 2293,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_BODYPAINT" : 1
          },
@@ -119,7 +119,7 @@
          "handle_name" : "SC_IGNORANCE",
          "id" : 2294,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_BODYPAINT" : 1
          },
@@ -130,7 +130,7 @@
          "handle_name" : "SC_LAZINESS",
          "id" : 2295,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_ENERVATION" : 1,
             "SC_GROOMY" : 1,
@@ -143,7 +143,7 @@
          "handle_name" : "SC_UNLUCKY",
          "id" : 2296,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_LAZINESS" : 1,
             "SC_WEAKNESS" : 1
@@ -155,7 +155,7 @@
          "handle_name" : "SC_WEAKNESS",
          "id" : 2297,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_ENERVATION" : 1,
             "SC_GROOMY" : 1,
@@ -168,7 +168,7 @@
          "handle_name" : "SC_STRIPACCESSARY",
          "id" : 2298,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_STRIPWEAPON" : 1
          },
@@ -179,7 +179,7 @@
          "handle_name" : "SC_MANHOLE",
          "id" : 2299,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_FLAGGRAFFITI" : 1
          },
@@ -190,7 +190,7 @@
          "handle_name" : "SC_DIMENSIONDOOR",
          "id" : 2300,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_MANHOLE" : 1
          },
@@ -201,7 +201,7 @@
          "handle_name" : "SC_CHAOSPANIC",
          "id" : 2301,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_MANHOLE" : 1
          },
@@ -212,7 +212,7 @@
          "handle_name" : "SC_MAELSTROM",
          "id" : 2302,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_CHAOSPANIC" : 3,
             "SC_UNLUCKY" : 3
@@ -224,7 +224,7 @@
          "handle_name" : "SC_BLOODYLUST",
          "id" : 2303,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_DIMENSIONDOOR" : 3
          },
@@ -235,7 +235,7 @@
          "handle_name" : "SC_FEINTBOMB",
          "id" : 2304,
          "maxLevel" : 3,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_DIMENSIONDOOR" : 3
          },
@@ -246,7 +246,7 @@
          "handle_name" : "SC_ESCAPE",
          "id" : 5010,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SC_TRIANGLESHOT" : 2
          },
@@ -257,7 +257,7 @@
          "handle_name" : "ALL_FULL_THROTTLE",
          "id" : 5014,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       }
    ]

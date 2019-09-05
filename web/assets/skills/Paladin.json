@@ -9,7 +9,7 @@
          "handle_name" : "PA_PRESSURE",
          "id" : 367,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "CR_SHIELDCHARGE" : 2,
             "CR_TRUST" : 5,
@@ -22,7 +22,7 @@
          "handle_name" : "PA_SACRIFICE",
          "id" : 368,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "CR_DEVOTION" : 3,
             "CR_TRUST" : 5,
@@ -35,7 +35,7 @@
          "handle_name" : "PA_GOSPEL",
          "id" : 369,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_DEMONBANE" : 5,
             "AL_DP" : 3,
@@ -48,7 +48,7 @@
          "handle_name" : "PA_SHIELDCHAIN",
          "id" : 480,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "CR_SHIELDBOOMERANG" : 5
          },

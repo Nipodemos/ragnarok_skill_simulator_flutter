@@ -9,7 +9,7 @@
          "handle_name" : "CG_ARROWVULCAN",
          "id" : 394,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_SHOWER" : 5,
             "DC_THROWARROW" : 1
@@ -21,7 +21,7 @@
          "handle_name" : "CG_MOONLIT",
          "id" : 395,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_CONCENTRATION" : 5,
             "DC_DANCINGLESSON" : 7
@@ -33,7 +33,7 @@
          "handle_name" : "CG_MARIONETTE",
          "id" : 396,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_CONCENTRATION" : 5,
             "DC_DANCINGLESSON" : 5
@@ -45,7 +45,7 @@
          "handle_name" : "CG_LONGINGFREEDOM",
          "id" : 487,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "CG_MARIONETTE" : 1,
             "DC_DANCINGLESSON" : 10
@@ -57,7 +57,7 @@
          "handle_name" : "CG_HERMODE",
          "id" : 488,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_CONCENTRATION" : 10,
             "DC_DANCINGLESSON" : 10
@@ -69,7 +69,7 @@
          "handle_name" : "CG_TAROTCARD",
          "id" : 489,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_CONCENTRATION" : 10,
             "DC_UGLYDANCE" : 3

@@ -9,7 +9,7 @@
          "handle_name" : "WS_MELTDOWN",
          "id" : 384,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BS_HILTBINDING" : 1,
             "BS_OVERTHRUST" : 3,
@@ -23,7 +23,7 @@
          "handle_name" : "WS_CARTBOOST",
          "id" : 387,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BS_HILTBINDING" : 1,
             "MC_CARTREVOLUTION" : 1,
@@ -37,7 +37,7 @@
          "handle_name" : "WS_WEAPONREFINE",
          "id" : 477,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BS_WEAPONRESEARCH" : 10
          },
@@ -48,7 +48,7 @@
          "handle_name" : "WS_CARTTERMINATION",
          "id" : 485,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BS_HAMMERFALL" : 5,
             "MC_MAMMONITE" : 10,
@@ -61,7 +61,7 @@
          "handle_name" : "WS_OVERTHRUSTMAX",
          "id" : 486,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BS_OVERTHRUST" : 5
          },

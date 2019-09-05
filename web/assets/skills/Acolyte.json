@@ -9,7 +9,7 @@
          "handle_name" : "AL_DP",
          "id" : 22,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "AL_DEMONBANE",
          "id" : 23,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_DP" : 3
          },
@@ -28,7 +28,7 @@
          "handle_name" : "AL_RUWACH",
          "id" : 24,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -36,7 +36,7 @@
          "handle_name" : "AL_PNEUMA",
          "id" : 25,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_WARP" : 4
          },
@@ -47,7 +47,7 @@
          "handle_name" : "AL_TELEPORT",
          "id" : 26,
          "maxLevel" : 2,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_RUWACH" : 1
          },
@@ -58,7 +58,7 @@
          "handle_name" : "AL_WARP",
          "id" : 27,
          "maxLevel" : 4,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_TELEPORT" : 2
          },
@@ -69,7 +69,7 @@
          "handle_name" : "AL_HEAL",
          "id" : 28,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -77,7 +77,7 @@
          "handle_name" : "AL_INCAGI",
          "id" : 29,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_HEAL" : 3
          },
@@ -88,7 +88,7 @@
          "handle_name" : "AL_DECAGI",
          "id" : 30,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_INCAGI" : 1
          },
@@ -99,7 +99,7 @@
          "handle_name" : "AL_HOLYWATER",
          "id" : 31,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -107,7 +107,7 @@
          "handle_name" : "AL_CRUCIS",
          "id" : 32,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_DEMONBANE" : 3
          },
@@ -118,7 +118,7 @@
          "handle_name" : "AL_ANGELUS",
          "id" : 33,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_DP" : 3
          },
@@ -129,7 +129,7 @@
          "handle_name" : "AL_BLESSING",
          "id" : 34,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_DP" : 5
          },
@@ -140,7 +140,7 @@
          "handle_name" : "AL_CURE",
          "id" : 35,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AL_HEAL" : 2
          },
@@ -151,7 +151,7 @@
          "handle_name" : "AL_HOLYLIGHT",
          "id" : 156,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       }
    ]

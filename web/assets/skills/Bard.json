@@ -9,7 +9,7 @@
          "handle_name" : "BA_MUSICALLESSON",
          "id" : 315,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "BA_MUSICALSTRIKE",
          "id" : 316,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_MUSICALLESSON" : 3
          },
@@ -28,7 +28,7 @@
          "handle_name" : "BA_DISSONANCE",
          "id" : 317,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_MUSICALLESSON" : 1,
             "BD_ADAPTATION" : 1
@@ -40,7 +40,7 @@
          "handle_name" : "BA_FROSTJOKER",
          "id" : 318,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BD_ENCORE" : 1
          },
@@ -51,7 +51,7 @@
          "handle_name" : "BA_WHISTLE",
          "id" : 319,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_DISSONANCE" : 3
          },
@@ -62,7 +62,7 @@
          "handle_name" : "BA_ASSASSINCROSS",
          "id" : 320,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_DISSONANCE" : 3
          },
@@ -73,7 +73,7 @@
          "handle_name" : "BA_POEMBRAGI",
          "id" : 321,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_DISSONANCE" : 3
          },
@@ -84,7 +84,7 @@
          "handle_name" : "BA_APPLEIDUN",
          "id" : 322,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_DISSONANCE" : 3
          },
@@ -95,7 +95,7 @@
          "handle_name" : "BD_ADAPTATION",
          "id" : 304,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -103,7 +103,7 @@
          "handle_name" : "BD_ENCORE",
          "id" : 305,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BD_ADAPTATION" : 1
          },
@@ -114,7 +114,7 @@
          "handle_name" : "BD_LULLABY",
          "id" : 306,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_WHISTLE" : 10
          },
@@ -125,7 +125,7 @@
          "handle_name" : "BD_RICHMANKIM",
          "id" : 307,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BD_SIEGFRIED" : 3
          },
@@ -136,7 +136,7 @@
          "handle_name" : "BD_ETERNALCHAOS",
          "id" : 308,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BD_ROKISWEIL" : 1
          },
@@ -147,7 +147,7 @@
          "handle_name" : "BD_DRUMBATTLEFIELD",
          "id" : 309,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_APPLEIDUN" : 10
          },
@@ -158,7 +158,7 @@
          "handle_name" : "BD_RINGNIBELUNGEN",
          "id" : 310,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BD_DRUMBATTLEFIELD" : 3
          },
@@ -169,7 +169,7 @@
          "handle_name" : "BD_ROKISWEIL",
          "id" : 311,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_ASSASSINCROSS" : 10
          },
@@ -180,7 +180,7 @@
          "handle_name" : "BD_INTOABYSS",
          "id" : 312,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BD_LULLABY" : 1
          },
@@ -191,7 +191,7 @@
          "handle_name" : "BD_SIEGFRIED",
          "id" : 313,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "BA_POEMBRAGI" : 10
          },
@@ -202,7 +202,7 @@
          "handle_name" : "BA_PANGVOICE",
          "id" : 1010,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       }
    ]

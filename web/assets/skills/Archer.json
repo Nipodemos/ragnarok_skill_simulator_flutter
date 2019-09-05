@@ -9,7 +9,7 @@
          "handle_name" : "AC_OWL",
          "id" : 43,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "AC_VULTURE",
          "id" : 44,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_OWL" : 3
          },
@@ -28,7 +28,7 @@
          "handle_name" : "AC_CONCENTRATION",
          "id" : 45,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_VULTURE" : 1
          },
@@ -39,7 +39,7 @@
          "handle_name" : "AC_DOUBLE",
          "id" : 46,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -47,7 +47,7 @@
          "handle_name" : "AC_SHOWER",
          "id" : 47,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_DOUBLE" : 5
          },
@@ -58,7 +58,7 @@
          "handle_name" : "AC_MAKINGARROW",
          "id" : 147,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       },
       {
@@ -66,7 +66,7 @@
          "handle_name" : "AC_CHARGEARROW",
          "id" : 148,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       }
    ]

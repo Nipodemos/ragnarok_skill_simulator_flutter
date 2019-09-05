@@ -9,7 +9,7 @@
          "handle_name" : "SM_SWORD",
          "id" : 2,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "AC_VULTURE",
          "id" : 44,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -25,7 +25,7 @@
          "handle_name" : "AC_DOUBLE",
          "id" : 46,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_VULTURE" : 10
          },
@@ -36,7 +36,7 @@
          "handle_name" : "HT_REMOVETRAP",
          "id" : 124,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AC_DOUBLE" : 5
          },
@@ -47,7 +47,7 @@
          "handle_name" : "RG_SNATCHER",
          "id" : 210,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TF_STEAL" : 1
          },
@@ -58,7 +58,7 @@
          "handle_name" : "RG_STEALCOIN",
          "id" : 211,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_SNATCHER" : 4
          },
@@ -69,7 +69,7 @@
          "handle_name" : "RG_BACKSTAP",
          "id" : 212,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_STEALCOIN" : 4
          },
@@ -80,7 +80,7 @@
          "handle_name" : "RG_TUNNELDRIVE",
          "id" : 213,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TF_HIDING" : 1
          },
@@ -91,7 +91,7 @@
          "handle_name" : "RG_RAID",
          "id" : 214,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_BACKSTAP" : 2,
             "RG_TUNNELDRIVE" : 2
@@ -103,7 +103,7 @@
          "handle_name" : "RG_STRIPWEAPON",
          "id" : 215,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_STRIPARMOR" : 5
          },
@@ -114,7 +114,7 @@
          "handle_name" : "RG_STRIPSHIELD",
          "id" : 216,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_STRIPHELM" : 5
          },
@@ -125,7 +125,7 @@
          "handle_name" : "RG_STRIPARMOR",
          "id" : 217,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_STRIPSHIELD" : 5
          },
@@ -136,7 +136,7 @@
          "handle_name" : "RG_STRIPHELM",
          "id" : 218,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_STEALCOIN" : 2
          },
@@ -147,7 +147,7 @@
          "handle_name" : "RG_INTIMIDATE",
          "id" : 219,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_BACKSTAP" : 4,
             "RG_RAID" : 5
@@ -159,7 +159,7 @@
          "handle_name" : "RG_GRAFFITI",
          "id" : 220,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_FLAGGRAFFITI" : 5
          },
@@ -170,7 +170,7 @@
          "handle_name" : "RG_FLAGGRAFFITI",
          "id" : 221,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_CLEANER" : 1
          },
@@ -181,7 +181,7 @@
          "handle_name" : "RG_CLEANER",
          "id" : 222,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_GANGSTER" : 1
          },
@@ -192,7 +192,7 @@
          "handle_name" : "RG_GANGSTER",
          "id" : 223,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_STRIPSHIELD" : 3
          },
@@ -203,7 +203,7 @@
          "handle_name" : "RG_COMPULSION",
          "id" : 224,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_GANGSTER" : 1
          },
@@ -214,7 +214,7 @@
          "handle_name" : "RG_PLAGIARISM",
          "id" : 225,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "RG_INTIMIDATE" : 5
          },
@@ -225,7 +225,7 @@
          "handle_name" : "RG_CLOSECONFINE",
          "id" : 1005,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       }
    ]

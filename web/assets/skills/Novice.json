@@ -6,7 +6,7 @@
          "handle_name" : "NV_BASIC",
          "id" : 1,
          "maxLevel" : 9,
-         "position" : "",
+         "position" : 0,
          "skill_type" : ""
       },
       {
@@ -14,7 +14,7 @@
          "handle_name" : "NV_FIRSTAID",
          "id" : 142,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : 7,
          "skill_type" : "0x1"
       },
       {
@@ -22,7 +22,7 @@
          "handle_name" : "NV_TRICKDEAD",
          "id" : 143,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : 14,
          "skill_type" : "0x1"
       },
       {
@@ -30,7 +30,7 @@
          "handle_name" : "WE_BABY",
          "id" : 408,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x4"
       },
       {
@@ -38,7 +38,7 @@
          "handle_name" : "WE_CALLPARENT",
          "id" : 409,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x4"
       },
       {
@@ -46,7 +46,7 @@
          "handle_name" : "WE_CALLBABY",
          "id" : 410,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x4"
       },
       {
@@ -54,7 +54,7 @@
          "handle_name" : "ALL_INCCARRY",
          "id" : 681,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       }
    ]

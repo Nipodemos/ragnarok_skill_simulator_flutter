@@ -78,7 +78,7 @@ CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
                     $json_skill_tree->{$class}{'skills'}[$index]{'id'} = int($id);
                     $json_skill_tree->{$class}{'skills'}[$index]{'skill_type'} = $Inf2 ne '0' ? $Inf2 : '';
                     $json_skill_tree->{$class}{'skills'}[$index]{'position'} = 
-                    GetPosition::getPosition( $class, $name_handle );
+                    GetPosition::getPosition( $class, uc($name_handle) );
 
                     #print(  "\n"
                     #      . Dumper( $json_skill_tree->{$class}{'skills'}{$skill} )

@@ -9,7 +9,7 @@
          "handle_name" : "SR_DRAGONCOMBO",
          "id" : 2326,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MO_TRIPLEATTACK" : 5
          },
@@ -20,7 +20,7 @@
          "handle_name" : "SR_SKYNETBLOW",
          "id" : 2327,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_DRAGONCOMBO" : 3
          },
@@ -31,7 +31,7 @@
          "handle_name" : "SR_EARTHSHAKER",
          "id" : 2328,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_CURSEDCIRCLE" : 1,
             "SR_DRAGONCOMBO" : 1
@@ -43,7 +43,7 @@
          "handle_name" : "SR_FALLENEMPIRE",
          "id" : 2329,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_DRAGONCOMBO" : 1
          },
@@ -54,7 +54,7 @@
          "handle_name" : "SR_TIGERCANNON",
          "id" : 2330,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_FALLENEMPIRE" : 3
          },
@@ -65,7 +65,7 @@
          "handle_name" : "SR_RAMPAGEBLASTER",
          "id" : 2332,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_EARTHSHAKER" : 2
          },
@@ -76,7 +76,7 @@
          "handle_name" : "SR_CRESCENTELBOW",
          "id" : 2333,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_SKYNETBLOW" : 1
          },
@@ -87,7 +87,7 @@
          "handle_name" : "SR_CURSEDCIRCLE",
          "id" : 2334,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MO_BLADESTOP" : 2,
             "SR_GENTLETOUCH_QUIET" : 2
@@ -99,7 +99,7 @@
          "handle_name" : "SR_LIGHTNINGWALK",
          "id" : 2335,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_WINDMILL" : 1
          },
@@ -110,7 +110,7 @@
          "handle_name" : "SR_KNUCKLEARROW",
          "id" : 2336,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_LIGHTNINGWALK" : 3,
             "SR_RAMPAGEBLASTER" : 3
@@ -122,7 +122,7 @@
          "handle_name" : "SR_WINDMILL",
          "id" : 2337,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_CURSEDCIRCLE" : 1
          },
@@ -133,7 +133,7 @@
          "handle_name" : "SR_RAISINGDRAGON",
          "id" : 2338,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_GENTLETOUCH_ENERGYGAIN" : 3,
             "SR_RAMPAGEBLASTER" : 3
@@ -145,7 +145,7 @@
          "handle_name" : "SR_ASSIMILATEPOWER",
          "id" : 2340,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MO_ABSORBSPIRITS" : 1,
             "SR_POWERVELOCITY" : 1
@@ -157,7 +157,7 @@
          "handle_name" : "SR_POWERVELOCITY",
          "id" : 2341,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MO_CALLSPIRITS" : 5
          },
@@ -168,7 +168,7 @@
          "handle_name" : "SR_GATEOFHELL",
          "id" : 2343,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_RAISINGDRAGON" : 5,
             "SR_TIGERCANNON" : 5
@@ -180,7 +180,7 @@
          "handle_name" : "SR_GENTLETOUCH_QUIET",
          "id" : 2344,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_POWERVELOCITY" : 1
          },
@@ -191,7 +191,7 @@
          "handle_name" : "SR_GENTLETOUCH_CURE",
          "id" : 2345,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_POWERVELOCITY" : 1
          },
@@ -202,7 +202,7 @@
          "handle_name" : "SR_GENTLETOUCH_ENERGYGAIN",
          "id" : 2346,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_GENTLETOUCH_QUIET" : 3
          },
@@ -213,7 +213,7 @@
          "handle_name" : "SR_GENTLETOUCH_CHANGE",
          "id" : 2347,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_GENTLETOUCH_CURE" : 4
          },
@@ -224,7 +224,7 @@
          "handle_name" : "SR_GENTLETOUCH_REVITALIZE",
          "id" : 2348,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_GENTLETOUCH_CHANGE" : 5
          },
@@ -235,7 +235,7 @@
          "handle_name" : "SR_HOWLINGOFLION",
          "id" : 2517,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_ASSIMILATEPOWER" : 1,
             "SR_RIDEINLIGHTNING" : 3
@@ -247,7 +247,7 @@
          "handle_name" : "SR_RIDEINLIGHTNING",
          "id" : 2518,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "MO_FINGEROFFENSIVE" : 3
          },
@@ -258,7 +258,7 @@
          "handle_name" : "SR_FLASHCOMBO",
          "id" : 5009,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SR_DRAGONCOMBO" : 3,
             "SR_FALLENEMPIRE" : 3,
@@ -272,7 +272,7 @@
          "handle_name" : "ALL_FULL_THROTTLE",
          "id" : 5014,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       }
    ]

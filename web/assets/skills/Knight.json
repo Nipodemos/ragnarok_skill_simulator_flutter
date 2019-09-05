@@ -9,7 +9,7 @@
          "handle_name" : "KN_SPEARMASTERY",
          "id" : 55,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "KN_PIERCE",
          "id" : 56,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_SPEARMASTERY" : 1
          },
@@ -28,7 +28,7 @@
          "handle_name" : "KN_BRANDISHSPEAR",
          "id" : 57,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_RIDING" : 1,
             "KN_SPEARSTAB" : 3
@@ -40,7 +40,7 @@
          "handle_name" : "KN_SPEARSTAB",
          "id" : 58,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_PIERCE" : 5
          },
@@ -51,7 +51,7 @@
          "handle_name" : "KN_SPEARBOOMERANG",
          "id" : 59,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_PIERCE" : 3
          },
@@ -62,7 +62,7 @@
          "handle_name" : "KN_TWOHANDQUICKEN",
          "id" : 60,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SM_TWOHAND" : 1
          },
@@ -73,7 +73,7 @@
          "handle_name" : "KN_AUTOCOUNTER",
          "id" : 61,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SM_TWOHAND" : 1
          },
@@ -84,7 +84,7 @@
          "handle_name" : "KN_BOWLINGBASH",
          "id" : 62,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_AUTOCOUNTER" : 5,
             "KN_TWOHANDQUICKEN" : 10,
@@ -99,7 +99,7 @@
          "handle_name" : "KN_RIDING",
          "id" : 63,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "SM_ENDURE" : 1
          },
@@ -110,7 +110,7 @@
          "handle_name" : "KN_CAVALIERMASTERY",
          "id" : 64,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_RIDING" : 1
          },
@@ -121,7 +121,7 @@
          "handle_name" : "KN_CHARGEATK",
          "id" : 1001,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x1"
       },
       {
@@ -129,7 +129,7 @@
          "handle_name" : "KN_ONEHAND",
          "id" : 495,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "KN_TWOHANDQUICKEN" : 10
          },

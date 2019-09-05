@@ -9,7 +9,7 @@
          "handle_name" : "GC_VENOMIMPRESS",
          "id" : 2021,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AS_ENCHANTPOISON" : 3
          },
@@ -20,7 +20,7 @@
          "handle_name" : "GC_CROSSIMPACT",
          "id" : 2022,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AS_SONICBLOW" : 10
          },
@@ -31,7 +31,7 @@
          "handle_name" : "GC_DARKILLUSION",
          "id" : 2023,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_CROSSIMPACT" : 3
          },
@@ -42,7 +42,7 @@
          "handle_name" : "GC_RESEARCHNEWPOISON",
          "id" : 2024,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -50,7 +50,7 @@
          "handle_name" : "GC_CREATENEWPOISON",
          "id" : 2025,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_RESEARCHNEWPOISON" : 1
          },
@@ -61,7 +61,7 @@
          "handle_name" : "GC_ANTIDOTE",
          "id" : 2026,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_RESEARCHNEWPOISON" : 5
          },
@@ -72,7 +72,7 @@
          "handle_name" : "GC_POISONINGWEAPON",
          "id" : 2027,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_CREATENEWPOISON" : 1
          },
@@ -83,7 +83,7 @@
          "handle_name" : "GC_WEAPONBLOCKING",
          "id" : 2028,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AS_LEFT" : 5
          },
@@ -94,7 +94,7 @@
          "handle_name" : "GC_COUNTERSLASH",
          "id" : 2029,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_WEAPONBLOCKING" : 1
          },
@@ -105,7 +105,7 @@
          "handle_name" : "GC_WEAPONCRUSH",
          "id" : 2030,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_WEAPONBLOCKING" : 1
          },
@@ -116,7 +116,7 @@
          "handle_name" : "GC_VENOMPRESSURE",
          "id" : 2031,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_POISONINGWEAPON" : 3,
             "GC_WEAPONBLOCKING" : 1
@@ -128,7 +128,7 @@
          "handle_name" : "GC_POISONSMOKE",
          "id" : 2032,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_POISONINGWEAPON" : 5,
             "GC_VENOMPRESSURE" : 5
@@ -140,7 +140,7 @@
          "handle_name" : "GC_CLOAKINGEXCEED",
          "id" : 2033,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AS_CLOAKING" : 3
          },
@@ -151,7 +151,7 @@
          "handle_name" : "GC_PHANTOMMENACE",
          "id" : 2034,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_CLOAKINGEXCEED" : 5,
             "GC_DARKILLUSION" : 5
@@ -163,7 +163,7 @@
          "handle_name" : "GC_HALLUCINATIONWALK",
          "id" : 2035,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_PHANTOMMENACE" : 1
          },
@@ -174,7 +174,7 @@
          "handle_name" : "GC_ROLLINGCUTTER",
          "id" : 2036,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "AS_SONICBLOW" : 10
          },
@@ -185,7 +185,7 @@
          "handle_name" : "GC_CROSSRIPPERSLASHER",
          "id" : 2037,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_ROLLINGCUTTER" : 1
          },
@@ -196,7 +196,7 @@
          "handle_name" : "GC_DARKCROW",
          "id" : 5001,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "GC_DARKILLUSION" : 5
          },
@@ -207,7 +207,7 @@
          "handle_name" : "ALL_FULL_THROTTLE",
          "id" : 5014,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       }
    ]

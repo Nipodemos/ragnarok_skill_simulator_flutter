@@ -9,7 +9,7 @@
          "handle_name" : "TK_RUN",
          "id" : 411,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "TK_READYSTORM",
          "id" : 412,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TK_STORMKICK" : 1
          },
@@ -28,7 +28,7 @@
          "handle_name" : "TK_STORMKICK",
          "id" : 413,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -36,7 +36,7 @@
          "handle_name" : "TK_READYDOWN",
          "id" : 414,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TK_DOWNKICK" : 1
          },
@@ -47,7 +47,7 @@
          "handle_name" : "TK_DOWNKICK",
          "id" : 415,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -55,7 +55,7 @@
          "handle_name" : "TK_READYTURN",
          "id" : 416,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TK_TURNKICK" : 1
          },
@@ -66,7 +66,7 @@
          "handle_name" : "TK_TURNKICK",
          "id" : 417,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -74,7 +74,7 @@
          "handle_name" : "TK_READYCOUNTER",
          "id" : 418,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TK_COUNTER" : 1
          },
@@ -85,7 +85,7 @@
          "handle_name" : "TK_COUNTER",
          "id" : 419,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "skill_type" : "0x200"
       },
       {
@@ -93,7 +93,7 @@
          "handle_name" : "TK_DODGE",
          "id" : 420,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TK_JUMPKICK" : 7
          },
@@ -104,7 +104,7 @@
          "handle_name" : "TK_JUMPKICK",
          "id" : 421,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -112,7 +112,7 @@
          "handle_name" : "TK_HPTIME",
          "id" : 422,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -120,7 +120,7 @@
          "handle_name" : "TK_SPTIME",
          "id" : 423,
          "maxLevel" : 10,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -128,7 +128,7 @@
          "handle_name" : "TK_POWER",
          "id" : 424,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -136,7 +136,7 @@
          "handle_name" : "TK_SEVENWIND",
          "id" : 425,
          "maxLevel" : 7,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TK_HPTIME" : 5,
             "TK_POWER" : 5,
@@ -149,7 +149,7 @@
          "handle_name" : "TK_HIGHJUMP",
          "id" : 426,
          "maxLevel" : 5,
-         "position" : "",
+         "position" : null,
          "skill_type" : ""
       },
       {
@@ -157,7 +157,7 @@
          "handle_name" : "TK_MISSION",
          "id" : 493,
          "maxLevel" : 1,
-         "position" : "",
+         "position" : null,
          "pre_requisites" : {
             "TK_POWER" : 5
          },
