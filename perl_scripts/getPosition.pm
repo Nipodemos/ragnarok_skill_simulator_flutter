@@ -7,3011 +7,3011 @@ our @ISA    = ('Exporter');
 our @EXPORT_OK = ('getPosition');
 
 sub getPosition {
-    my ( $class, $name_display ) = @_;
+    my ( $class, $handle ) = @_;
     if ( $class eq 'Blacksmith' ) {    #Ferreiro
-        if ( $name_display eq 'BS_IRON' ) {    #Trabalhar Ferro
+        if ( $handle eq 'BS_IRON' ) {    #Trabalhar Ferro
             return;
         }
-        if ( $name_display eq 'BS_STEEL' ) {    #Trabalhar Aço
+        if ( $handle eq 'BS_STEEL' ) {    #Trabalhar Aço
             return;
         }
-        if ( $name_display eq 'BS_ENCHANTEDSTONE' )
+        if ( $handle eq 'BS_ENCHANTEDSTONE' )
         {                                       #Produzir Pedra Fundamental
             return;
         }
-        if ( $name_display eq 'BS_ORIDEOCON' ) {    #Perícia com Oridecon
+        if ( $handle eq 'BS_ORIDEOCON' ) {    #Perícia com Oridecon
             return;
         }
-        if ( $name_display eq 'BS_DAGGER' ) {       #Forjar Adaga
+        if ( $handle eq 'BS_DAGGER' ) {       #Forjar Adaga
             return;
         }
-        if ( $name_display eq 'BS_SWORD' ) {        #Forjar Espada
+        if ( $handle eq 'BS_SWORD' ) {        #Forjar Espada
             return;
         }
-        if ( $name_display eq 'BS_TWOHANDSWORD' ) { #Forjar Espada de Duas Mãos
+        if ( $handle eq 'BS_TWOHANDSWORD' ) { #Forjar Espada de Duas Mãos
             return;
         }
-        if ( $name_display eq 'BS_AXE' ) {          #Forjar Machado
+        if ( $handle eq 'BS_AXE' ) {          #Forjar Machado
             return;
         }
-        if ( $name_display eq 'BS_MACE' ) {         #Forjar Maça
+        if ( $handle eq 'BS_MACE' ) {         #Forjar Maça
             return;
         }
-        if ( $name_display eq 'BS_KNUCKLE' ) {      #Forjar Soqueira
+        if ( $handle eq 'BS_KNUCKLE' ) {      #Forjar Soqueira
             return;
         }
-        if ( $name_display eq 'BS_SPEAR' ) {        #Forjar Lança
+        if ( $handle eq 'BS_SPEAR' ) {        #Forjar Lança
             return;
         }
-        if ( $name_display eq 'BS_HILTBINDING' ) {    #Punho Firme
+        if ( $handle eq 'BS_HILTBINDING' ) {    #Punho Firme
             return;
         }
-        if ( $name_display eq 'BS_FINDINGORE' ) {     #Encontrar Minério
+        if ( $handle eq 'BS_FINDINGORE' ) {     #Encontrar Minério
             return;
         }
-        if ( $name_display eq 'BS_WEAPONRESEARCH' ) {    #Perícia em Armamento
+        if ( $handle eq 'BS_WEAPONRESEARCH' ) {    #Perícia em Armamento
             return;
         }
-        if ( $name_display eq 'BS_REPAIRWEAPON' ) {      #Consertar Armas
+        if ( $handle eq 'BS_REPAIRWEAPON' ) {      #Consertar Armas
             return;
         }
-        if ( $name_display eq 'BS_SKINTEMPER' ) {        #Resistência ao Fogo
+        if ( $handle eq 'BS_SKINTEMPER' ) {        #Resistência ao Fogo
             return;
         }
-        if ( $name_display eq 'BS_HAMMERFALL' ) {        #Martelo de Thor
+        if ( $handle eq 'BS_HAMMERFALL' ) {        #Martelo de Thor
             return;
         }
-        if ( $name_display eq 'BS_ADRENALINE' ) {        #Adrenalina Pura
+        if ( $handle eq 'BS_ADRENALINE' ) {        #Adrenalina Pura
             return;
         }
-        if ( $name_display eq 'BS_WEAPONPERFECT' ) {     #Manejo Perfeito
+        if ( $handle eq 'BS_WEAPONPERFECT' ) {     #Manejo Perfeito
             return;
         }
-        if ( $name_display eq 'BS_OVERTHRUST' ) {        #Força Violenta
+        if ( $handle eq 'BS_OVERTHRUST' ) {        #Força Violenta
             return;
         }
-        if ( $name_display eq 'BS_MAXIMIZE' ) {          #Amplificar Poder
+        if ( $handle eq 'BS_MAXIMIZE' ) {          #Amplificar Poder
             return;
         }
-        if ( $name_display eq 'BS_UNFAIRLYTRICK' ) {     #Unfair Trick
+        if ( $handle eq 'BS_UNFAIRLYTRICK' ) {     #Unfair Trick
             return;
         }
-        if ( $name_display eq 'BS_GREED' ) {             #Greed
+        if ( $handle eq 'BS_GREED' ) {             #Greed
             return;
         }
-        if ( $name_display eq 'BS_ADRENALINE2' ) {    #Advanced Adrenaline Rush
+        if ( $handle eq 'BS_ADRENALINE2' ) {    #Advanced Adrenaline Rush
             return;
         }
     }
 
     if ( $class eq 'Arch_Bishop' ) {                  #Arcebispo
-        if ( $name_display eq 'AB_JUDEX' ) {          #Judex
+        if ( $handle eq 'AB_JUDEX' ) {          #Judex
             return;
         }
-        if ( $name_display eq 'AB_ANCILLA' ) {        #Criar Ancilla
+        if ( $handle eq 'AB_ANCILLA' ) {        #Criar Ancilla
             return;
         }
-        if ( $name_display eq 'AB_ADORAMUS' ) {       #Adoramus
+        if ( $handle eq 'AB_ADORAMUS' ) {       #Adoramus
             return;
         }
-        if ( $name_display eq 'AB_CLEMENTIA' ) {      #Crementia
+        if ( $handle eq 'AB_CLEMENTIA' ) {      #Crementia
             return;
         }
-        if ( $name_display eq 'AB_CANTO' ) {          #Canto Candidus
+        if ( $handle eq 'AB_CANTO' ) {          #Canto Candidus
             return;
         }
-        if ( $name_display eq 'AB_CHEAL' ) {          #Sopro Divino
+        if ( $handle eq 'AB_CHEAL' ) {          #Sopro Divino
             return;
         }
-        if ( $name_display eq 'AB_EPICLESIS' ) {      #Epiclesis
+        if ( $handle eq 'AB_EPICLESIS' ) {      #Epiclesis
             return;
         }
-        if ( $name_display eq 'AB_PRAEFATIO' ) {      #Praefatio
+        if ( $handle eq 'AB_PRAEFATIO' ) {      #Praefatio
             return;
         }
-        if ( $name_display eq 'AB_ORATIO' ) {         #Oratio
+        if ( $handle eq 'AB_ORATIO' ) {         #Oratio
             return;
         }
-        if ( $name_display eq 'AB_LAUDAAGNUS' ) {     #Lauda Agnus
+        if ( $handle eq 'AB_LAUDAAGNUS' ) {     #Lauda Agnus
             return;
         }
-        if ( $name_display eq 'AB_LAUDARAMUS' ) {     #Lauda Ramus
+        if ( $handle eq 'AB_LAUDARAMUS' ) {     #Lauda Ramus
             return;
         }
-        if ( $name_display eq 'AB_EUCHARISTICA' ) {    #Eucaristia
+        if ( $handle eq 'AB_EUCHARISTICA' ) {    #Eucaristia
             return;
         }
-        if ( $name_display eq 'AB_RENOVATIO' ) {       #Renovatio
+        if ( $handle eq 'AB_RENOVATIO' ) {       #Renovatio
             return;
         }
-        if ( $name_display eq 'AB_HIGHNESSHEAL' ) {    #Highness Heal
+        if ( $handle eq 'AB_HIGHNESSHEAL' ) {    #Highness Heal
             return;
         }
-        if ( $name_display eq 'AB_CLEARANCE' ) {       #Gênese
+        if ( $handle eq 'AB_CLEARANCE' ) {       #Gênese
             return;
         }
-        if ( $name_display eq 'AB_EXPIATIO' ) {        #Expiatio
+        if ( $handle eq 'AB_EXPIATIO' ) {        #Expiatio
             return;
         }
-        if ( $name_display eq 'AB_DUPLELIGHT' ) {      #Gemini Lumen
+        if ( $handle eq 'AB_DUPLELIGHT' ) {      #Gemini Lumen
             return;
         }
-        if ( $name_display eq 'AB_SILENTIUM' ) {       #Silentium
+        if ( $handle eq 'AB_SILENTIUM' ) {       #Silentium
             return;
         }
-        if ( $name_display eq 'AB_SECRAMENT' ) {       #Secrament
+        if ( $handle eq 'AB_SECRAMENT' ) {       #Secrament
             return;
         }
-        if ( $name_display eq 'AB_OFFERTORIUM' ) {     #Offertorium
+        if ( $handle eq 'AB_OFFERTORIUM' ) {     #Offertorium
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Sura' ) {                            #Shura
-        if ( $name_display eq 'SR_DRAGONCOMBO' ) {       #Punho do Dragão
+        if ( $handle eq 'SR_DRAGONCOMBO' ) {       #Punho do Dragão
             return;
         }
-        if ( $name_display eq 'SR_SKYNETBLOW' ) {        #Soco Furação
+        if ( $handle eq 'SR_SKYNETBLOW' ) {        #Soco Furação
             return;
         }
-        if ( $name_display eq 'SR_EARTHSHAKER' ) {       #Impacto Sísmico
+        if ( $handle eq 'SR_EARTHSHAKER' ) {       #Impacto Sísmico
             return;
         }
-        if ( $name_display eq 'SR_FALLENEMPIRE' ) {      #Ruína
+        if ( $handle eq 'SR_FALLENEMPIRE' ) {      #Ruína
             return;
         }
-        if ( $name_display eq 'SR_TIGERCANNON' ) {       #Garra de Tigre
+        if ( $handle eq 'SR_TIGERCANNON' ) {       #Garra de Tigre
             return;
         }
-        if ( $name_display eq 'SR_RAMPAGEBLASTER' ) {    #Explosão Espiritual
+        if ( $handle eq 'SR_RAMPAGEBLASTER' ) {    #Explosão Espiritual
             return;
         }
-        if ( $name_display eq 'SR_CRESCENTELBOW' ) {     #Cotovelada Ascendente
+        if ( $handle eq 'SR_CRESCENTELBOW' ) {     #Cotovelada Ascendente
             return;
         }
-        if ( $name_display eq 'SR_CURSEDCIRCLE' ) {      #Campo Amaldiçoado
+        if ( $handle eq 'SR_CURSEDCIRCLE' ) {      #Campo Amaldiçoado
             return;
         }
-        if ( $name_display eq 'SR_LIGHTNINGWALK' ) {     #Salto Relâmpago
+        if ( $handle eq 'SR_LIGHTNINGWALK' ) {     #Salto Relâmpago
             return;
         }
-        if ( $name_display eq 'SR_KNUCKLEARROW' ) {      #Investida de Shura
+        if ( $handle eq 'SR_KNUCKLEARROW' ) {      #Investida de Shura
             return;
         }
-        if ( $name_display eq 'SR_WINDMILL' ) {          #Rasteira
+        if ( $handle eq 'SR_WINDMILL' ) {          #Rasteira
             return;
         }
-        if ( $name_display eq 'SR_RAISINGDRAGON' ) {     #Dragão Ascendente
+        if ( $handle eq 'SR_RAISINGDRAGON' ) {     #Dragão Ascendente
             return;
         }
-        if ( $name_display eq 'SR_ASSIMILATEPOWER' ) {    #Absorção Espiritual
+        if ( $handle eq 'SR_ASSIMILATEPOWER' ) {    #Absorção Espiritual
             return;
         }
-        if ( $name_display eq 'SR_POWERVELOCITY' ) {      #Renúncia Espiritual
+        if ( $handle eq 'SR_POWERVELOCITY' ) {      #Renúncia Espiritual
             return;
         }
-        if ( $name_display eq 'SR_GATEOFHELL' ) {         #Portões do Inferno
+        if ( $handle eq 'SR_GATEOFHELL' ) {         #Portões do Inferno
             return;
         }
-        if ( $name_display eq 'SR_GENTLETOUCH_QUIET' ) {    #Chakra do Silêncio
+        if ( $handle eq 'SR_GENTLETOUCH_QUIET' ) {    #Chakra do Silêncio
             return;
         }
-        if ( $name_display eq 'SR_GENTLETOUCH_CURE' ) {     #Chakra da Cura
+        if ( $handle eq 'SR_GENTLETOUCH_CURE' ) {     #Chakra da Cura
             return;
         }
-        if ( $name_display eq 'SR_GENTLETOUCH_ENERGYGAIN' ) { #Chakra da Energia
+        if ( $handle eq 'SR_GENTLETOUCH_ENERGYGAIN' ) { #Chakra da Energia
             return;
         }
-        if ( $name_display eq 'SR_GENTLETOUCH_CHANGE' ) {     #Chakra da Fúria
+        if ( $handle eq 'SR_GENTLETOUCH_CHANGE' ) {     #Chakra da Fúria
             return;
         }
-        if ( $name_display eq 'SR_GENTLETOUCH_REVITALIZE' ) {   #Chakra do Vigor
+        if ( $handle eq 'SR_GENTLETOUCH_REVITALIZE' ) {   #Chakra do Vigor
             return;
         }
-        if ( $name_display eq 'SR_HOWLINGOFLION' ) {            #Rugido do Leão
+        if ( $handle eq 'SR_HOWLINGOFLION' ) {            #Rugido do Leão
             return;
         }
-        if ( $name_display eq 'SR_RIDEINLIGHTNING' ) {    #Tempestade Espiritual
+        if ( $handle eq 'SR_RIDEINLIGHTNING' ) {    #Tempestade Espiritual
             return;
         }
-        if ( $name_display eq 'SR_FLASHCOMBO' ) {         #Flash Combo
+        if ( $handle eq 'SR_FLASHCOMBO' ) {         #Flash Combo
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {     #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {     #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Gypsy' ) {                            #Cigana
-        if ( $name_display eq 'CG_ARROWVULCAN' ) {        #Vulcão de Flechas
+        if ( $handle eq 'CG_ARROWVULCAN' ) {        #Vulcão de Flechas
             return;
         }
-        if ( $name_display eq 'CG_MOONLIT' ) {            #Bênção Protetora
+        if ( $handle eq 'CG_MOONLIT' ) {            #Bênção Protetora
             return;
         }
-        if ( $name_display eq 'CG_MARIONETTE' ) {         #Controle de Marionete
+        if ( $handle eq 'CG_MARIONETTE' ) {         #Controle de Marionete
             return;
         }
-        if ( $name_display eq 'CG_LONGINGFREEDOM' ) {     #Grito de Liberdade
+        if ( $handle eq 'CG_LONGINGFREEDOM' ) {     #Grito de Liberdade
             return;
         }
-        if ( $name_display eq 'CG_HERMODE' ) {            #Bastão de Hermod
+        if ( $handle eq 'CG_HERMODE' ) {            #Bastão de Hermod
             return;
         }
-        if ( $name_display eq 'CG_TAROTCARD' ) {          #Destino nas Cartas
+        if ( $handle eq 'CG_TAROTCARD' ) {          #Destino nas Cartas
             return;
         }
     }
 
     if ( $class eq 'Rune_Knight' ) {                      #Cavaleiro Rúnico
-        if ( $name_display eq 'RK_ENCHANTBLADE' ) {       #Encantar Lâmina
+        if ( $handle eq 'RK_ENCHANTBLADE' ) {       #Encantar Lâmina
             return;
         }
-        if ( $name_display eq 'RK_SONICWAVE' ) {          #Onda de Choque
+        if ( $handle eq 'RK_SONICWAVE' ) {          #Onda de Choque
             return;
         }
-        if ( $name_display eq 'RK_DEATHBOUND' ) {         #Revidar Dano
+        if ( $handle eq 'RK_DEATHBOUND' ) {         #Revidar Dano
             return;
         }
-        if ( $name_display eq 'RK_HUNDREDSPEAR' ) {       #Lança das Mil Pontas
+        if ( $handle eq 'RK_HUNDREDSPEAR' ) {       #Lança das Mil Pontas
             return;
         }
-        if ( $name_display eq 'RK_WINDCUTTER' ) {         #Vento Cortante
+        if ( $handle eq 'RK_WINDCUTTER' ) {         #Vento Cortante
             return;
         }
-        if ( $name_display eq 'RK_IGNITIONBREAK' ) {      #Impacto Flamejante
+        if ( $handle eq 'RK_IGNITIONBREAK' ) {      #Impacto Flamejante
             return;
         }
-        if ( $name_display eq 'RK_DRAGONTRAINING' ) {     #Adestrar Dragão
+        if ( $handle eq 'RK_DRAGONTRAINING' ) {     #Adestrar Dragão
             return;
         }
-        if ( $name_display eq 'RK_DRAGONBREATH' ) {       #Sopro do Dragão
+        if ( $handle eq 'RK_DRAGONBREATH' ) {       #Sopro do Dragão
             return;
         }
-        if ( $name_display eq 'RK_DRAGONHOWLING' ) {      #Rugido do Dragão
+        if ( $handle eq 'RK_DRAGONHOWLING' ) {      #Rugido do Dragão
             return;
         }
-        if ( $name_display eq 'RK_RUNEMASTERY' ) {        #Perícia em Runas
+        if ( $handle eq 'RK_RUNEMASTERY' ) {        #Perícia em Runas
             return;
         }
-        if ( $name_display eq 'RK_PHANTOMTHRUST' ) {      #Arpão
+        if ( $handle eq 'RK_PHANTOMTHRUST' ) {      #Arpão
             return;
         }
-        if ( $name_display eq 'RK_DRAGONBREATH_WATER' ) { #Dragon Breath - Water
+        if ( $handle eq 'RK_DRAGONBREATH_WATER' ) { #Dragon Breath - Water
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {     #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {     #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Assassin_Cross' ) {                   #Algoz
-        if ( $name_display eq 'ASC_KATAR' ) {    #Perícia com Katar Avançada
+        if ( $handle eq 'ASC_KATAR' ) {    #Perícia com Katar Avançada
             return;
         }
-        if ( $name_display eq 'ASC_EDP' ) {      #Encantar com Veneno Mortal
+        if ( $handle eq 'ASC_EDP' ) {      #Encantar com Veneno Mortal
             return;
         }
-        if ( $name_display eq 'ASC_BREAKER' ) {    #Destruidor de Almas
+        if ( $handle eq 'ASC_BREAKER' ) {    #Destruidor de Almas
             return;
         }
-        if ( $name_display eq 'ASC_METEORASSAULT' ) {    #Impacto Meteoro
+        if ( $handle eq 'ASC_METEORASSAULT' ) {    #Impacto Meteoro
             return;
         }
-        if ( $name_display eq 'ASC_CDP' ) {              #Criar Veneno Mortal
+        if ( $handle eq 'ASC_CDP' ) {              #Criar Veneno Mortal
             return;
         }
     }
 
     if ( $class eq 'Gunslinger' ) {                      #Justiceiro
-        if ( $name_display eq 'GS_GLITTERING' ) {        #Cara ou Coroa
+        if ( $handle eq 'GS_GLITTERING' ) {        #Cara ou Coroa
             return;
         }
-        if ( $name_display eq 'GS_FLING' ) {             #Atirar Moedas
+        if ( $handle eq 'GS_FLING' ) {             #Atirar Moedas
             return;
         }
-        if ( $name_display eq 'GS_TRIPLEACTION' ) {      #Ataque Triplo
+        if ( $handle eq 'GS_TRIPLEACTION' ) {      #Ataque Triplo
             return;
         }
-        if ( $name_display eq 'GS_BULLSEYE' ) {          #Ataque Certeiro
+        if ( $handle eq 'GS_BULLSEYE' ) {          #Ataque Certeiro
             return;
         }
-        if ( $name_display eq 'GS_MADNESSCANCEL' ) {     #Resistência Final
+        if ( $handle eq 'GS_MADNESSCANCEL' ) {     #Resistência Final
             return;
         }
-        if ( $name_display eq 'GS_ADJUSTMENT' ) {        #Pânico do Justiceiro
+        if ( $handle eq 'GS_ADJUSTMENT' ) {        #Pânico do Justiceiro
             return;
         }
-        if ( $name_display eq 'GS_INCREASING' ) {        #Aumentar Precisão
+        if ( $handle eq 'GS_INCREASING' ) {        #Aumentar Precisão
             return;
         }
-        if ( $name_display eq 'GS_MAGICALBULLET' ) {     #Bala Mágica
+        if ( $handle eq 'GS_MAGICALBULLET' ) {     #Bala Mágica
             return;
         }
-        if ( $name_display eq 'GS_CRACKER' ) {           #Tiro Bombinha
+        if ( $handle eq 'GS_CRACKER' ) {           #Tiro Bombinha
             return;
         }
-        if ( $name_display eq 'GS_SINGLEACTION' ) {      #Ataque Concentrado
+        if ( $handle eq 'GS_SINGLEACTION' ) {      #Ataque Concentrado
             return;
         }
-        if ( $name_display eq 'GS_SNAKEEYE' ) {          #Olhos de Serpente
+        if ( $handle eq 'GS_SNAKEEYE' ) {          #Olhos de Serpente
             return;
         }
-        if ( $name_display eq 'GS_CHAINACTION' ) {       #Reação em Cadeia
+        if ( $handle eq 'GS_CHAINACTION' ) {       #Reação em Cadeia
             return;
         }
-        if ( $name_display eq 'GS_TRACKING' ) {          #Rastrear o Alvo
+        if ( $handle eq 'GS_TRACKING' ) {          #Rastrear o Alvo
             return;
         }
-        if ( $name_display eq 'GS_DISARM' ) {            #Desarmar
+        if ( $handle eq 'GS_DISARM' ) {            #Desarmar
             return;
         }
-        if ( $name_display eq 'GS_PIERCINGSHOT' ) {      #Ferir Alvo
+        if ( $handle eq 'GS_PIERCINGSHOT' ) {      #Ferir Alvo
             return;
         }
-        if ( $name_display eq 'GS_RAPIDSHOWER' ) {       #Rajada Certeira
+        if ( $handle eq 'GS_RAPIDSHOWER' ) {       #Rajada Certeira
             return;
         }
-        if ( $name_display eq 'GS_DESPERADO' ) {         #Desperado
+        if ( $handle eq 'GS_DESPERADO' ) {         #Desperado
             return;
         }
-        if ( $name_display eq 'GS_GATLINGFEVER' ) {      #Ataque Gatling
+        if ( $handle eq 'GS_GATLINGFEVER' ) {      #Ataque Gatling
             return;
         }
-        if ( $name_display eq 'GS_DUST' ) {              #Controle de Multidão
+        if ( $handle eq 'GS_DUST' ) {              #Controle de Multidão
             return;
         }
-        if ( $name_display eq 'GS_FULLBUSTER' ) {        #Ataque Total
+        if ( $handle eq 'GS_FULLBUSTER' ) {        #Ataque Total
             return;
         }
-        if ( $name_display eq 'GS_SPREADATTACK' ) {      #Disparo Espalhado
+        if ( $handle eq 'GS_SPREADATTACK' ) {      #Disparo Espalhado
             return;
         }
-        if ( $name_display eq 'GS_GROUNDDRIFT' ) {       #Mina do Justiceiro
+        if ( $handle eq 'GS_GROUNDDRIFT' ) {       #Mina do Justiceiro
             return;
         }
     }
 
     if ( $class eq 'Ranger' ) {                          #Sentinela
-        if ( $name_display eq 'RA_ARROWSTORM' ) {        #Tempestade de Flechas
+        if ( $handle eq 'RA_ARROWSTORM' ) {        #Tempestade de Flechas
             return;
         }
-        if ( $name_display eq 'RA_FEARBREEZE' ) {        #Disparo Selvagem
+        if ( $handle eq 'RA_FEARBREEZE' ) {        #Disparo Selvagem
             return;
         }
-        if ( $name_display eq 'RA_RANGERMAIN' ) {    #Táticas de Sobrevivência
+        if ( $handle eq 'RA_RANGERMAIN' ) {    #Táticas de Sobrevivência
             return;
         }
-        if ( $name_display eq 'RA_AIMEDBOLT' ) {     #Disparo Certeiro
+        if ( $handle eq 'RA_AIMEDBOLT' ) {     #Disparo Certeiro
             return;
         }
-        if ( $name_display eq 'RA_DETONATOR' ) {     #Detonador
+        if ( $handle eq 'RA_DETONATOR' ) {     #Detonador
             return;
         }
-        if ( $name_display eq 'RA_ELECTRICSHOCKER' ) {    #Armadilha Energizada
+        if ( $handle eq 'RA_ELECTRICSHOCKER' ) {    #Armadilha Energizada
             return;
         }
-        if ( $name_display eq 'RA_CLUSTERBOMB' ) {        #Bomba Relógio
+        if ( $handle eq 'RA_CLUSTERBOMB' ) {        #Bomba Relógio
             return;
         }
-        if ( $name_display eq 'RA_WUGMASTERY' ) {         #Adestrar Warg
+        if ( $handle eq 'RA_WUGMASTERY' ) {         #Adestrar Warg
             return;
         }
-        if ( $name_display eq 'RA_WUGRIDER' ) {           #Montaria em Warg
+        if ( $handle eq 'RA_WUGRIDER' ) {           #Montaria em Warg
             return;
         }
-        if ( $name_display eq 'RA_WUGDASH' ) {            #Warg Dash
+        if ( $handle eq 'RA_WUGDASH' ) {            #Warg Dash
             return;
         }
-        if ( $name_display eq 'RA_WUGSTRIKE' ) {          #Investida de Warg
+        if ( $handle eq 'RA_WUGSTRIKE' ) {          #Investida de Warg
             return;
         }
-        if ( $name_display eq 'RA_WUGBITE' ) {            #Mordida Feroz
+        if ( $handle eq 'RA_WUGBITE' ) {            #Mordida Feroz
             return;
         }
-        if ( $name_display eq 'RA_TOOTHOFWUG' ) {         #Presas Afiadas
+        if ( $handle eq 'RA_TOOTHOFWUG' ) {         #Presas Afiadas
             return;
         }
-        if ( $name_display eq 'RA_SENSITIVEKEEN' ) {      #Faro Aguçado
+        if ( $handle eq 'RA_SENSITIVEKEEN' ) {      #Faro Aguçado
             return;
         }
-        if ( $name_display eq 'RA_CAMOUFLAGE' ) {         #Camuflagem
+        if ( $handle eq 'RA_CAMOUFLAGE' ) {         #Camuflagem
             return;
         }
-        if ( $name_display eq 'RA_RESEARCHTRAP' ) {    #Perícia com Armadilha
+        if ( $handle eq 'RA_RESEARCHTRAP' ) {    #Perícia com Armadilha
             return;
         }
-        if ( $name_display eq 'RA_MAGENTATRAP' ) {     #Armadilha Escarlate
+        if ( $handle eq 'RA_MAGENTATRAP' ) {     #Armadilha Escarlate
             return;
         }
-        if ( $name_display eq 'RA_COBALTTRAP' ) {      #Armadilha Cobalto
+        if ( $handle eq 'RA_COBALTTRAP' ) {      #Armadilha Cobalto
             return;
         }
-        if ( $name_display eq 'RA_MAIZETRAP' ) {       #Armadilha Ocre
+        if ( $handle eq 'RA_MAIZETRAP' ) {       #Armadilha Ocre
             return;
         }
-        if ( $name_display eq 'RA_VERDURETRAP' ) {     #Armadilha Esmeralda
+        if ( $handle eq 'RA_VERDURETRAP' ) {     #Armadilha Esmeralda
             return;
         }
-        if ( $name_display eq 'RA_FIRINGTRAP' ) {      #Armadilha Incendiária
+        if ( $handle eq 'RA_FIRINGTRAP' ) {      #Armadilha Incendiária
             return;
         }
-        if ( $name_display eq 'RA_ICEBOUNDTRAP' ) {    #Armadilha Glacial
+        if ( $handle eq 'RA_ICEBOUNDTRAP' ) {    #Armadilha Glacial
             return;
         }
-        if ( $name_display eq 'RA_UNLIMIT' ) {         #Unlimited
+        if ( $handle eq 'RA_UNLIMIT' ) {         #Unlimited
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Merchant' ) {                        #Mercador
-        if ( $name_display eq 'MC_INCCARRY' ) {    #Aumentar Capacidade de Carga
+        if ( $handle eq 'MC_INCCARRY' ) {    #Aumentar Capacidade de Carga
             return 1;
         }
-        if ( $name_display eq 'MC_DISCOUNT' ) {    #Desconto
+        if ( $handle eq 'MC_DISCOUNT' ) {    #Desconto
             return 8;
         }
-        if ( $name_display eq 'MC_OVERCHARGE' ) {    #Superfaturar
+        if ( $handle eq 'MC_OVERCHARGE' ) {    #Superfaturar
             return 15;
         }
-        if ( $name_display eq 'MC_PUSHCART' ) {      #Usar Carrinho
+        if ( $handle eq 'MC_PUSHCART' ) {      #Usar Carrinho
             return 9;
         }
-        if ( $name_display eq 'MC_IDENTIFY' ) {      #Identificar Item
+        if ( $handle eq 'MC_IDENTIFY' ) {      #Identificar Item
             return 4;
         }
-        if ( $name_display eq 'MC_VENDING' ) {       #Comércio
+        if ( $handle eq 'MC_VENDING' ) {       #Comércio
             return 16;
         }
-        if ( $name_display eq 'MC_MAMMONITE' ) {     #Mammonita
+        if ( $handle eq 'MC_MAMMONITE' ) {     #Mammonita
             return 3;
         }
-        if ( $name_display eq 'MC_CARTREVOLUTION' ) {    #Cavalo-de-Pau
+        if ( $handle eq 'MC_CARTREVOLUTION' ) {    #Cavalo-de-Pau
             return 19;
         }
-        if ( $name_display eq 'MC_CHANGECART' ) {        #Personalizar Carrinho
+        if ( $handle eq 'MC_CHANGECART' ) {        #Personalizar Carrinho
             return 12;
         }
-        if ( $name_display eq 'MC_LOUD' ) {              #Grito de Guerra
+        if ( $handle eq 'MC_LOUD' ) {              #Grito de Guerra
             return 5;
         }
-        if ( $name_display eq 'ALL_BUYING_STORE' ) {     #Open Buying Store
+        if ( $handle eq 'ALL_BUYING_STORE' ) {     #Open Buying Store
             return;
         }
     }
 
     if ( $class eq 'Super_Novice' ) {                    #SuperAprendiz
-        if ( $name_display eq 'SM_SWORD' ) {             #Perícia com Espada
+        if ( $handle eq 'SM_SWORD' ) {             #Perícia com Espada
             return;
         }
-        if ( $name_display eq 'SM_RECOVERY' ) {    #Aumentar Recuperação de HP
+        if ( $handle eq 'SM_RECOVERY' ) {    #Aumentar Recuperação de HP
             return;
         }
-        if ( $name_display eq 'SM_BASH' ) {        #Golpe Fulminante
+        if ( $handle eq 'SM_BASH' ) {        #Golpe Fulminante
             return;
         }
-        if ( $name_display eq 'SM_PROVOKE' ) {     #Provocar
+        if ( $handle eq 'SM_PROVOKE' ) {     #Provocar
             return;
         }
-        if ( $name_display eq 'SM_MAGNUM' ) {      #Impacto Explosivo
+        if ( $handle eq 'SM_MAGNUM' ) {      #Impacto Explosivo
             return;
         }
-        if ( $name_display eq 'SM_ENDURE' ) {      #Vigor
+        if ( $handle eq 'SM_ENDURE' ) {      #Vigor
             return;
         }
-        if ( $name_display eq 'MG_SRECOVERY' ) {   #Aumentar Recuperação de SP
+        if ( $handle eq 'MG_SRECOVERY' ) {   #Aumentar Recuperação de SP
             return;
         }
-        if ( $name_display eq 'MG_SIGHT' ) {       #Chama Reveladora
+        if ( $handle eq 'MG_SIGHT' ) {       #Chama Reveladora
             return;
         }
-        if ( $name_display eq 'MG_NAPALMBEAT' ) {    #Ataque Espiritual
+        if ( $handle eq 'MG_NAPALMBEAT' ) {    #Ataque Espiritual
             return;
         }
-        if ( $name_display eq 'MG_SAFETYWALL' ) {    #Escudo Mágico
+        if ( $handle eq 'MG_SAFETYWALL' ) {    #Escudo Mágico
             return;
         }
-        if ( $name_display eq 'MG_SOULSTRIKE' ) {    #Espíritos Anciões
+        if ( $handle eq 'MG_SOULSTRIKE' ) {    #Espíritos Anciões
             return;
         }
-        if ( $name_display eq 'MG_COLDBOLT' ) {      #Lanças de Gelo
+        if ( $handle eq 'MG_COLDBOLT' ) {      #Lanças de Gelo
             return;
         }
-        if ( $name_display eq 'MG_FROSTDIVER' ) {    #Rajada Congelante
+        if ( $handle eq 'MG_FROSTDIVER' ) {    #Rajada Congelante
             return;
         }
-        if ( $name_display eq 'MG_STONECURSE' ) {    #Petrificar
+        if ( $handle eq 'MG_STONECURSE' ) {    #Petrificar
             return;
         }
-        if ( $name_display eq 'MG_FIREBALL' ) {      #Bola de Fogo
+        if ( $handle eq 'MG_FIREBALL' ) {      #Bola de Fogo
             return;
         }
-        if ( $name_display eq 'MG_FIREWALL' ) {      #Barreira de Fogo
+        if ( $handle eq 'MG_FIREWALL' ) {      #Barreira de Fogo
             return;
         }
-        if ( $name_display eq 'MG_FIREBOLT' ) {      #Lanças de Fogo
+        if ( $handle eq 'MG_FIREBOLT' ) {      #Lanças de Fogo
             return;
         }
-        if ( $name_display eq 'MG_LIGHTNINGBOLT' ) {    #Relâmpago
+        if ( $handle eq 'MG_LIGHTNINGBOLT' ) {    #Relâmpago
             return;
         }
-        if ( $name_display eq 'MG_THUNDERSTORM' ) {     #Tempestade de Raios
+        if ( $handle eq 'MG_THUNDERSTORM' ) {     #Tempestade de Raios
             return;
         }
-        if ( $name_display eq 'AL_DP' ) {               #Proteção Divina
+        if ( $handle eq 'AL_DP' ) {               #Proteção Divina
             return;
         }
-        if ( $name_display eq 'AL_DEMONBANE' ) {        #Flagelo do Mal
+        if ( $handle eq 'AL_DEMONBANE' ) {        #Flagelo do Mal
             return;
         }
-        if ( $name_display eq 'AL_RUWACH' ) {           #Revelação
+        if ( $handle eq 'AL_RUWACH' ) {           #Revelação
             return;
         }
-        if ( $name_display eq 'AL_PNEUMA' ) {           #Escudo Sagrado
+        if ( $handle eq 'AL_PNEUMA' ) {           #Escudo Sagrado
             return;
         }
-        if ( $name_display eq 'AL_TELEPORT' ) {         #Teleporte
+        if ( $handle eq 'AL_TELEPORT' ) {         #Teleporte
             return;
         }
-        if ( $name_display eq 'AL_WARP' ) {             #Portal
+        if ( $handle eq 'AL_WARP' ) {             #Portal
             return;
         }
-        if ( $name_display eq 'AL_HEAL' ) {             #Curar
+        if ( $handle eq 'AL_HEAL' ) {             #Curar
             return;
         }
-        if ( $name_display eq 'AL_INCAGI' ) {           #Aumentar Agilidade
+        if ( $handle eq 'AL_INCAGI' ) {           #Aumentar Agilidade
             return;
         }
-        if ( $name_display eq 'AL_DECAGI' ) {           #Diminuir Agilidade
+        if ( $handle eq 'AL_DECAGI' ) {           #Diminuir Agilidade
             return;
         }
-        if ( $name_display eq 'AL_HOLYWATER' ) {        #Aqua Benedicta
+        if ( $handle eq 'AL_HOLYWATER' ) {        #Aqua Benedicta
             return;
         }
-        if ( $name_display eq 'AL_CRUCIS' ) {           #Signum Crusis
+        if ( $handle eq 'AL_CRUCIS' ) {           #Signum Crusis
             return;
         }
-        if ( $name_display eq 'AL_ANGELUS' ) {          #Angelus
+        if ( $handle eq 'AL_ANGELUS' ) {          #Angelus
             return;
         }
-        if ( $name_display eq 'AL_BLESSING' ) {         #Benção
+        if ( $handle eq 'AL_BLESSING' ) {         #Benção
             return;
         }
-        if ( $name_display eq 'AL_CURE' ) {             #Medicar
+        if ( $handle eq 'AL_CURE' ) {             #Medicar
             return;
         }
-        if ( $name_display eq 'MC_INCCARRY' ) {    #Aumentar Capacidade de Carga
+        if ( $handle eq 'MC_INCCARRY' ) {    #Aumentar Capacidade de Carga
             return;
         }
-        if ( $name_display eq 'MC_DISCOUNT' ) {    #Desconto
+        if ( $handle eq 'MC_DISCOUNT' ) {    #Desconto
             return;
         }
-        if ( $name_display eq 'MC_OVERCHARGE' ) {    #Superfaturar
+        if ( $handle eq 'MC_OVERCHARGE' ) {    #Superfaturar
             return;
         }
-        if ( $name_display eq 'MC_PUSHCART' ) {      #Usar Carrinho
+        if ( $handle eq 'MC_PUSHCART' ) {      #Usar Carrinho
             return;
         }
-        if ( $name_display eq 'MC_IDENTIFY' ) {      #Identificar Item
+        if ( $handle eq 'MC_IDENTIFY' ) {      #Identificar Item
             return;
         }
-        if ( $name_display eq 'MC_VENDING' ) {       #Comércio
+        if ( $handle eq 'MC_VENDING' ) {       #Comércio
             return;
         }
-        if ( $name_display eq 'MC_MAMMONITE' ) {     #Mammonita
+        if ( $handle eq 'MC_MAMMONITE' ) {     #Mammonita
             return;
         }
-        if ( $name_display eq 'AC_OWL' ) {           #Precisão
+        if ( $handle eq 'AC_OWL' ) {           #Precisão
             return;
         }
-        if ( $name_display eq 'AC_VULTURE' ) {       #Olhos de Águia
+        if ( $handle eq 'AC_VULTURE' ) {       #Olhos de Águia
             return;
         }
-        if ( $name_display eq 'AC_CONCENTRATION' ) {    #Concentração
+        if ( $handle eq 'AC_CONCENTRATION' ) {    #Concentração
             return;
         }
-        if ( $name_display eq 'TF_DOUBLE' ) {           #Ataque Duplo
+        if ( $handle eq 'TF_DOUBLE' ) {           #Ataque Duplo
             return;
         }
-        if ( $name_display eq 'TF_MISS' ) {             #Perícia em Esquiva
+        if ( $handle eq 'TF_MISS' ) {             #Perícia em Esquiva
             return;
         }
-        if ( $name_display eq 'TF_STEAL' ) {            #Furto
+        if ( $handle eq 'TF_STEAL' ) {            #Furto
             return;
         }
-        if ( $name_display eq 'TF_HIDING' ) {           #Esconderijo
+        if ( $handle eq 'TF_HIDING' ) {           #Esconderijo
             return;
         }
-        if ( $name_display eq 'TF_POISON' ) {           #Envenenar
+        if ( $handle eq 'TF_POISON' ) {           #Envenenar
             return;
         }
-        if ( $name_display eq 'TF_DETOXIFY' ) {         #Desintoxicar
+        if ( $handle eq 'TF_DETOXIFY' ) {         #Desintoxicar
             return;
         }
-        if ( $name_display eq 'ALL_BUYING_STORE' ) {    #Open Buying Store
+        if ( $handle eq 'ALL_BUYING_STORE' ) {    #Open Buying Store
             return;
         }
     }
 
     if ( $class eq 'Whitesmith' ) {                     #Mestre-Ferreiro
-        if ( $name_display eq 'WS_MELTDOWN' ) {         #Golpe Estilhaçante
+        if ( $handle eq 'WS_MELTDOWN' ) {         #Golpe Estilhaçante
             return;
         }
-        if ( $name_display eq 'WS_CARTBOOST' ) {        #Impulso no Carrinho
+        if ( $handle eq 'WS_CARTBOOST' ) {        #Impulso no Carrinho
             return;
         }
-        if ( $name_display eq 'WS_WEAPONREFINE' ) {     #Aprimorar Armamento
+        if ( $handle eq 'WS_WEAPONREFINE' ) {     #Aprimorar Armamento
             return;
         }
-        if ( $name_display eq 'WS_CARTTERMINATION' ) {    #Choque do Carrinho
+        if ( $handle eq 'WS_CARTTERMINATION' ) {    #Choque do Carrinho
             return;
         }
-        if ( $name_display eq 'WS_OVERTHRUSTMAX' ) {      #Força Violentíssima
+        if ( $handle eq 'WS_OVERTHRUSTMAX' ) {      #Força Violentíssima
             return;
         }
     }
 
     if ( $class eq 'Shadow_Chaser' ) {                    #Renegado
-        if ( $name_display eq 'SC_FATALMENACE' ) {        #Acerto de Contas
+        if ( $handle eq 'SC_FATALMENACE' ) {        #Acerto de Contas
             return;
         }
-        if ( $name_display eq 'SC_REPRODUCE' ) {          #Mimetismo
+        if ( $handle eq 'SC_REPRODUCE' ) {          #Mimetismo
             return;
         }
-        if ( $name_display eq 'SC_AUTOSHADOWSPELL' ) {    #Desejo das Sombras
+        if ( $handle eq 'SC_AUTOSHADOWSPELL' ) {    #Desejo das Sombras
             return;
         }
-        if ( $name_display eq 'SC_SHADOWFORM' ) {         #Vínculo Sombrio
+        if ( $handle eq 'SC_SHADOWFORM' ) {         #Vínculo Sombrio
             return;
         }
-        if ( $name_display eq 'SC_TRIANGLESHOT' ) {       #Disparo Triplo
+        if ( $handle eq 'SC_TRIANGLESHOT' ) {       #Disparo Triplo
             return;
         }
-        if ( $name_display eq 'SC_BODYPAINT' ) {          #Borrifar Tinta
+        if ( $handle eq 'SC_BODYPAINT' ) {          #Borrifar Tinta
             return;
         }
-        if ( $name_display eq 'SC_INVISIBILITY' ) {       #Forma Etérea
+        if ( $handle eq 'SC_INVISIBILITY' ) {       #Forma Etérea
             return;
         }
-        if ( $name_display eq 'SC_DEADLYINFECT' ) {       #Pestilência
+        if ( $handle eq 'SC_DEADLYINFECT' ) {       #Pestilência
             return;
         }
-        if ( $name_display eq 'SC_ENERVATION' ) {         #Máscara da Fraqueza
+        if ( $handle eq 'SC_ENERVATION' ) {         #Máscara da Fraqueza
             return;
         }
-        if ( $name_display eq 'SC_GROOMY' ) {    #Máscara da Melancolia
+        if ( $handle eq 'SC_GROOMY' ) {    #Máscara da Melancolia
             return;
         }
-        if ( $name_display eq 'SC_IGNORANCE' ) {    #Máscara da Tolice
+        if ( $handle eq 'SC_IGNORANCE' ) {    #Máscara da Tolice
             return;
         }
-        if ( $name_display eq 'SC_LAZINESS' ) {     #Máscara da Ociosidade
+        if ( $handle eq 'SC_LAZINESS' ) {     #Máscara da Ociosidade
             return;
         }
-        if ( $name_display eq 'SC_UNLUCKY' ) {      #Máscara do Infortúnio
+        if ( $handle eq 'SC_UNLUCKY' ) {      #Máscara do Infortúnio
             return;
         }
-        if ( $name_display eq 'SC_WEAKNESS' ) {     #Máscara da Vulnerabilidade
+        if ( $handle eq 'SC_WEAKNESS' ) {     #Máscara da Vulnerabilidade
             return;
         }
-        if ( $name_display eq 'SC_STRIPACCESSARY' ) {    #Remover Acessório
+        if ( $handle eq 'SC_STRIPACCESSARY' ) {    #Remover Acessório
             return;
         }
-        if ( $name_display eq 'SC_MANHOLE' ) {           #Pintar Armadilha
+        if ( $handle eq 'SC_MANHOLE' ) {           #Pintar Armadilha
             return;
         }
-        if ( $name_display eq 'SC_DIMENSIONDOOR' ) {     #Portal Dimensional
+        if ( $handle eq 'SC_DIMENSIONDOOR' ) {     #Portal Dimensional
             return;
         }
-        if ( $name_display eq 'SC_CHAOSPANIC' ) {        #Símbolo do Caos
+        if ( $handle eq 'SC_CHAOSPANIC' ) {        #Símbolo do Caos
             return;
         }
-        if ( $name_display eq 'SC_MAELSTROM' ) {    #Redemoinho de Absorção
+        if ( $handle eq 'SC_MAELSTROM' ) {    #Redemoinho de Absorção
             return;
         }
-        if ( $name_display eq 'SC_BLOODYLUST' ) {    #Sede de Sangue
+        if ( $handle eq 'SC_BLOODYLUST' ) {    #Sede de Sangue
             return;
         }
-        if ( $name_display eq 'SC_FEINTBOMB' ) {     #Cópia Explosiva
+        if ( $handle eq 'SC_FEINTBOMB' ) {     #Cópia Explosiva
             return;
         }
-        if ( $name_display eq 'SC_ESCAPE' ) {        #Emergency Escape
+        if ( $handle eq 'SC_ESCAPE' ) {        #Emergency Escape
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'High_Wizard' ) {                     #Arquimago
-        if ( $name_display eq 'HW_SOULDRAIN' ) {         #Dreno de Alma
+        if ( $handle eq 'HW_SOULDRAIN' ) {         #Dreno de Alma
             return;
         }
-        if ( $name_display eq 'HW_MAGICCRASHER' ) {      #Esmagamento Mágico
+        if ( $handle eq 'HW_MAGICCRASHER' ) {      #Esmagamento Mágico
             return;
         }
-        if ( $name_display eq 'HW_MAGICPOWER' ) {    #Amplificação Mística
+        if ( $handle eq 'HW_MAGICPOWER' ) {    #Amplificação Mística
             return;
         }
-        if ( $name_display eq 'HW_NAPALMVULCAN' ) {    #Vulcão Napalm
+        if ( $handle eq 'HW_NAPALMVULCAN' ) {    #Vulcão Napalm
             return;
         }
-        if ( $name_display eq 'HW_GANBANTEIN' ) {      #Ganbantein
+        if ( $handle eq 'HW_GANBANTEIN' ) {      #Ganbantein
             return;
         }
-        if ( $name_display eq 'HW_GRAVITATION' ) {     #Campo Gravitacional
+        if ( $handle eq 'HW_GRAVITATION' ) {     #Campo Gravitacional
             return;
         }
     }
 
     if ( $class eq 'Paladin' ) {                       #Paladino
-        if ( $name_display eq 'PA_PRESSURE' ) {        #Gloria Domini
+        if ( $handle eq 'PA_PRESSURE' ) {        #Gloria Domini
             return;
         }
-        if ( $name_display eq 'PA_SACRIFICE' ) {       #Sacrifício do Mártir
+        if ( $handle eq 'PA_SACRIFICE' ) {       #Sacrifício do Mártir
             return;
         }
-        if ( $name_display eq 'PA_GOSPEL' ) {          #Canto de Batalha
+        if ( $handle eq 'PA_GOSPEL' ) {          #Canto de Batalha
             return;
         }
-        if ( $name_display eq 'PA_SHIELDCHAIN' ) {     #Choque Rápido
+        if ( $handle eq 'PA_SHIELDCHAIN' ) {     #Choque Rápido
             return;
         }
     }
 
     if ( $class eq 'Ninja' ) {                         #Ninja
-        if ( $name_display eq 'NJ_TOBIDOUGU' )
+        if ( $handle eq 'NJ_TOBIDOUGU' )
         {    #Prática de Arremesso de Shuriken
             return;
         }
-        if ( $name_display eq 'NJ_SYURIKEN' ) {    #Arremessar Shuriken
+        if ( $handle eq 'NJ_SYURIKEN' ) {    #Arremessar Shuriken
             return;
         }
-        if ( $name_display eq 'NJ_KUNAI' ) {       #Arremessar Kunai
+        if ( $handle eq 'NJ_KUNAI' ) {       #Arremessar Kunai
             return;
         }
-        if ( $name_display eq 'NJ_HUUMA' ) {       #Arremessar Shuriken Huuma
+        if ( $handle eq 'NJ_HUUMA' ) {       #Arremessar Shuriken Huuma
             return;
         }
-        if ( $name_display eq 'NJ_ZENYNAGE' ) {    #Chuva de Moedas
+        if ( $handle eq 'NJ_ZENYNAGE' ) {    #Chuva de Moedas
             return;
         }
-        if ( $name_display eq 'NJ_TATAMIGAESHI' ) {    #Virar Tatami
+        if ( $handle eq 'NJ_TATAMIGAESHI' ) {    #Virar Tatami
             return;
         }
-        if ( $name_display eq 'NJ_KASUMIKIRI' ) {      #Corte da Névoa
+        if ( $handle eq 'NJ_KASUMIKIRI' ) {      #Corte da Névoa
             return;
         }
-        if ( $name_display eq 'NJ_SHADOWJUMP' ) {      #Salto das Sombras
+        if ( $handle eq 'NJ_SHADOWJUMP' ) {      #Salto das Sombras
             return;
         }
-        if ( $name_display eq 'NJ_KIRIKAGE' ) {        #Corte das Sombras
+        if ( $handle eq 'NJ_KIRIKAGE' ) {        #Corte das Sombras
             return;
         }
-        if ( $name_display eq 'NJ_UTSUSEMI' ) {        #Troca de Pele
+        if ( $handle eq 'NJ_UTSUSEMI' ) {        #Troca de Pele
             return;
         }
-        if ( $name_display eq 'NJ_BUNSINJYUTSU' ) {    #Imagem Falsa
+        if ( $handle eq 'NJ_BUNSINJYUTSU' ) {    #Imagem Falsa
             return;
         }
-        if ( $name_display eq 'NJ_NINPOU' ) {          #Perícia Ninja
+        if ( $handle eq 'NJ_NINPOU' ) {          #Perícia Ninja
             return;
         }
-        if ( $name_display eq 'NJ_KOUENKA' ) {         #Pétalas Flamejantes
+        if ( $handle eq 'NJ_KOUENKA' ) {         #Pétalas Flamejantes
             return;
         }
-        if ( $name_display eq 'NJ_KAENSIN' ) {         #Escudo de Chamas
+        if ( $handle eq 'NJ_KAENSIN' ) {         #Escudo de Chamas
             return;
         }
-        if ( $name_display eq 'NJ_BAKUENRYU' ) {       #Dragão Explosivo
+        if ( $handle eq 'NJ_BAKUENRYU' ) {       #Dragão Explosivo
             return;
         }
-        if ( $name_display eq 'NJ_HYOUSENSOU' ) {      #Lança Congelante
+        if ( $handle eq 'NJ_HYOUSENSOU' ) {      #Lança Congelante
             return;
         }
-        if ( $name_display eq 'NJ_SUITON' ) {          #Evasão Aquática
+        if ( $handle eq 'NJ_SUITON' ) {          #Evasão Aquática
             return;
         }
-        if ( $name_display eq 'NJ_HYOUSYOURAKU' ) {    #Grande Floco de Neve
+        if ( $handle eq 'NJ_HYOUSYOURAKU' ) {    #Grande Floco de Neve
             return;
         }
-        if ( $name_display eq 'NJ_HUUJIN' ) {          #Lâmina de Vento
+        if ( $handle eq 'NJ_HUUJIN' ) {          #Lâmina de Vento
             return;
         }
-        if ( $name_display eq 'NJ_RAIGEKISAI' ) {      #Descarga Elétrica
+        if ( $handle eq 'NJ_RAIGEKISAI' ) {      #Descarga Elétrica
             return;
         }
-        if ( $name_display eq 'NJ_KAMAITACHI' ) {      #Brisa Cortante
+        if ( $handle eq 'NJ_KAMAITACHI' ) {      #Brisa Cortante
             return;
         }
-        if ( $name_display eq 'NJ_NEN' ) {             #Aura Ninja
+        if ( $handle eq 'NJ_NEN' ) {             #Aura Ninja
             return;
         }
-        if ( $name_display eq 'NJ_ISSEN' ) {           #Ataque Mortal
+        if ( $handle eq 'NJ_ISSEN' ) {           #Ataque Mortal
             return;
         }
     }
 
     if ( $class eq 'Taekwon' ) {                       #Taekwon
-        if ( $name_display eq 'TK_RUN' ) {             #Corrida
+        if ( $handle eq 'TK_RUN' ) {             #Corrida
             return;
         }
-        if ( $name_display eq 'TK_READYSTORM' ) {      #Postura do Tornado
+        if ( $handle eq 'TK_READYSTORM' ) {      #Postura do Tornado
             return;
         }
-        if ( $name_display eq 'TK_STORMKICK' ) {       #Chute do Tornado
+        if ( $handle eq 'TK_STORMKICK' ) {       #Chute do Tornado
             return;
         }
-        if ( $name_display eq 'TK_READYDOWN' ) {    #Postura da Patada Voadora
+        if ( $handle eq 'TK_READYDOWN' ) {    #Postura da Patada Voadora
             return;
         }
-        if ( $name_display eq 'TK_DOWNKICK' ) {     #Patada Voadora
+        if ( $handle eq 'TK_DOWNKICK' ) {     #Patada Voadora
             return;
         }
-        if ( $name_display eq 'TK_READYTURN' ) {    #Postura da Rasteira
+        if ( $handle eq 'TK_READYTURN' ) {    #Postura da Rasteira
             return;
         }
-        if ( $name_display eq 'TK_TURNKICK' ) {     #Rasteira (Taekwon)
+        if ( $handle eq 'TK_TURNKICK' ) {     #Rasteira (Taekwon)
             return;
         }
-        if ( $name_display eq 'TK_READYCOUNTER' ) {    #Postura do Contrachute
+        if ( $handle eq 'TK_READYCOUNTER' ) {    #Postura do Contrachute
             return;
         }
-        if ( $name_display eq 'TK_COUNTER' ) {         #Contrachute
+        if ( $handle eq 'TK_COUNTER' ) {         #Contrachute
             return;
         }
-        if ( $name_display eq 'TK_DODGE' ) {           #Cambalhota
+        if ( $handle eq 'TK_DODGE' ) {           #Cambalhota
             return;
         }
-        if ( $name_display eq 'TK_JUMPKICK' ) {        #Chute Aéreo
+        if ( $handle eq 'TK_JUMPKICK' ) {        #Chute Aéreo
             return;
         }
-        if ( $name_display eq 'TK_HPTIME' ) {          #Trégua Rápida
+        if ( $handle eq 'TK_HPTIME' ) {          #Trégua Rápida
             return;
         }
-        if ( $name_display eq 'TK_SPTIME' ) {          #Retiro Rápido
+        if ( $handle eq 'TK_SPTIME' ) {          #Retiro Rápido
             return;
         }
-        if ( $name_display eq 'TK_POWER' ) {           #Kihop
+        if ( $handle eq 'TK_POWER' ) {           #Kihop
             return;
         }
-        if ( $name_display eq 'TK_SEVENWIND' ) {       #Brisa Leve
+        if ( $handle eq 'TK_SEVENWIND' ) {       #Brisa Leve
             return;
         }
-        if ( $name_display eq 'TK_HIGHJUMP' ) {        #Salto
+        if ( $handle eq 'TK_HIGHJUMP' ) {        #Salto
             return;
         }
-        if ( $name_display eq 'TK_MISSION' ) {         #Missão Taekwon
+        if ( $handle eq 'TK_MISSION' ) {         #Missão Taekwon
             return;
         }
     }
 
     if ( $class eq 'Novice' ) {                        #Aprendiz
-        if ( $name_display eq 'NV_BASIC' ) {           #Habilidades Básicas
+        if ( $handle eq 'NV_BASIC' ) {           #Habilidades Básicas
             return 0;
         }
-        if ( $name_display eq 'NV_FIRSTAID' ) {        #Primeiros Socorros
+        if ( $handle eq 'NV_FIRSTAID' ) {        #Primeiros Socorros
             return 7;
         }
-        if ( $name_display eq 'NV_TRICKDEAD' ) {       #Fingir de Morto
+        if ( $handle eq 'NV_TRICKDEAD' ) {       #Fingir de Morto
             return 14;
         }
-        if ( $name_display eq 'WE_BABY' ) {            #Baby
+        if ( $handle eq 'WE_BABY' ) {            #Baby
             return;
         }
-        if ( $name_display eq 'WE_CALLPARENT' ) {      #Call Parent
+        if ( $handle eq 'WE_CALLPARENT' ) {      #Call Parent
             return;
         }
-        if ( $name_display eq 'WE_CALLBABY' ) {        #Call Baby
+        if ( $handle eq 'WE_CALLBABY' ) {        #Call Baby
             return;
         }
-        if ( $name_display eq 'ALL_INCCARRY' ) {       #Increase Weight Limit R
+        if ( $handle eq 'ALL_INCCARRY' ) {       #Increase Weight Limit R
             return;
         }
     }
 
     if ( $class eq 'Warlock' ) {                       #Arcano
-        if ( $name_display eq 'WL_WHITEIMPRISON' ) {    #Exílio
+        if ( $handle eq 'WL_WHITEIMPRISON' ) {    #Exílio
             return;
         }
-        if ( $name_display eq 'WL_SOULEXPANSION' ) {    #Impacto Espiritual
+        if ( $handle eq 'WL_SOULEXPANSION' ) {    #Impacto Espiritual
             return;
         }
-        if ( $name_display eq 'WL_FROSTMISTY' ) {       #Frosty Misty
+        if ( $handle eq 'WL_FROSTMISTY' ) {       #Frosty Misty
             return;
         }
-        if ( $name_display eq 'WL_JACKFROST' ) {        #Jack Frost
+        if ( $handle eq 'WL_JACKFROST' ) {        #Jack Frost
             return;
         }
-        if ( $name_display eq 'WL_MARSHOFABYSS' ) {     #Marsh of Abyss
+        if ( $handle eq 'WL_MARSHOFABYSS' ) {     #Marsh of Abyss
             return;
         }
-        if ( $name_display eq 'WL_RECOGNIZEDSPELL' ) {    #Recognized Spell
+        if ( $handle eq 'WL_RECOGNIZEDSPELL' ) {    #Recognized Spell
             return;
         }
-        if ( $name_display eq 'WL_SIENNAEXECRATE' ) {     #Sienna Execrate
+        if ( $handle eq 'WL_SIENNAEXECRATE' ) {     #Sienna Execrate
             return;
         }
-        if ( $name_display eq 'WL_RADIUS' ) {             #Expansão Arcana
+        if ( $handle eq 'WL_RADIUS' ) {             #Expansão Arcana
             return;
         }
-        if ( $name_display eq 'WL_STASIS' ) {             #Stasis
+        if ( $handle eq 'WL_STASIS' ) {             #Stasis
             return;
         }
-        if ( $name_display eq 'WL_DRAINLIFE' ) {          #Drenar Vida
+        if ( $handle eq 'WL_DRAINLIFE' ) {          #Drenar Vida
             return;
         }
-        if ( $name_display eq 'WL_CRIMSONROCK' ) {        #Meteoro Escarlate
+        if ( $handle eq 'WL_CRIMSONROCK' ) {        #Meteoro Escarlate
             return;
         }
-        if ( $name_display eq 'WL_HELLINFERNO' ) {        #Chamas de Hela
+        if ( $handle eq 'WL_HELLINFERNO' ) {        #Chamas de Hela
             return;
         }
-        if ( $name_display eq 'WL_COMET' ) {              #Cometa
+        if ( $handle eq 'WL_COMET' ) {              #Cometa
             return;
         }
-        if ( $name_display eq 'WL_CHAINLIGHTNING' ) {     #Corrente Elétrica
+        if ( $handle eq 'WL_CHAINLIGHTNING' ) {     #Corrente Elétrica
             return;
         }
-        if ( $name_display eq 'WL_EARTHSTRAIN' ) {        #Abalo Sísmico
+        if ( $handle eq 'WL_EARTHSTRAIN' ) {        #Abalo Sísmico
             return;
         }
-        if ( $name_display eq 'WL_TETRAVORTEX' ) {        #Tetra Vortex
+        if ( $handle eq 'WL_TETRAVORTEX' ) {        #Tetra Vortex
             return;
         }
-        if ( $name_display eq 'WL_SUMMONFB' ) {    #Invocar Esfera de Fogo
+        if ( $handle eq 'WL_SUMMONFB' ) {    #Invocar Esfera de Fogo
             return;
         }
-        if ( $name_display eq 'WL_SUMMONBL' ) {    #Invocar Esfera de Vento
+        if ( $handle eq 'WL_SUMMONBL' ) {    #Invocar Esfera de Vento
             return;
         }
-        if ( $name_display eq 'WL_SUMMONWB' ) {    #Invocar Esfera de Água
+        if ( $handle eq 'WL_SUMMONWB' ) {    #Invocar Esfera de Água
             return;
         }
-        if ( $name_display eq 'WL_SUMMONSTONE' ) {    #Invocar Esfera de Terra
+        if ( $handle eq 'WL_SUMMONSTONE' ) {    #Invocar Esfera de Terra
             return;
         }
-        if ( $name_display eq 'WL_RELEASE' ) {        #Release
+        if ( $handle eq 'WL_RELEASE' ) {        #Release
             return;
         }
-        if ( $name_display eq 'WL_READING_SB' ) {     #Estudo Arcano
+        if ( $handle eq 'WL_READING_SB' ) {     #Estudo Arcano
             return;
         }
-        if ( $name_display eq 'WL_FREEZE_SP' ) {      #Estudo Arcano Avançado
+        if ( $handle eq 'WL_FREEZE_SP' ) {      #Estudo Arcano Avançado
             return;
         }
-        if ( $name_display eq 'WL_TELEKINESIS_INTENSE' ) {  #Intense Telekinesis
+        if ( $handle eq 'WL_TELEKINESIS_INTENSE' ) {  #Intense Telekinesis
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {       #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {       #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Sniper' ) {                             #Atirador de Elite
-        if ( $name_display eq 'SN_SIGHT' ) {                #Visão Real
+        if ( $handle eq 'SN_SIGHT' ) {                #Visão Real
             return;
         }
-        if ( $name_display eq 'SN_FALCONASSAULT' ) {        #Assalto do Falcão
+        if ( $handle eq 'SN_FALCONASSAULT' ) {        #Assalto do Falcão
             return;
         }
-        if ( $name_display eq 'SN_SHARPSHOOTING' ) {        #Tiro Preciso
+        if ( $handle eq 'SN_SHARPSHOOTING' ) {        #Tiro Preciso
             return;
         }
-        if ( $name_display eq 'SN_WINDWALK' ) {             #Caminho do Vento
+        if ( $handle eq 'SN_WINDWALK' ) {             #Caminho do Vento
             return;
         }
     }
 
     if ( $class eq 'Expanded_Super_Novice' ) {    #Super Aprendiz Expandido
-        if ( $name_display eq 'PR_IMPOSITIO' ) {    #Impositio Manus
+        if ( $handle eq 'PR_IMPOSITIO' ) {    #Impositio Manus
             return;
         }
-        if ( $name_display eq 'PR_SANCTUARY' ) {    #Santuário
+        if ( $handle eq 'PR_SANCTUARY' ) {    #Santuário
             return;
         }
-        if ( $name_display eq 'PR_STRECOVERY' ) {    #Graça Divina
+        if ( $handle eq 'PR_STRECOVERY' ) {    #Graça Divina
             return;
         }
-        if ( $name_display eq 'PR_GLORIA' ) {        #Glória
+        if ( $handle eq 'PR_GLORIA' ) {        #Glória
             return;
         }
-        if ( $name_display eq 'WZ_FIREPILLAR' ) {    #Coluna de Fogo
+        if ( $handle eq 'WZ_FIREPILLAR' ) {    #Coluna de Fogo
             return;
         }
-        if ( $name_display eq 'WZ_SIGHTRASHER' ) {    #Supernova
+        if ( $handle eq 'WZ_SIGHTRASHER' ) {    #Supernova
             return;
         }
-        if ( $name_display eq 'WZ_JUPITEL' ) {        #Trovão de Júpiter
+        if ( $handle eq 'WZ_JUPITEL' ) {        #Trovão de Júpiter
             return;
         }
-        if ( $name_display eq 'WZ_WATERBALL' ) {      #Esfera d'Água
+        if ( $handle eq 'WZ_WATERBALL' ) {      #Esfera d'Água
             return;
         }
-        if ( $name_display eq 'WZ_ICEWALL' ) {        #Barreira de Gelo
+        if ( $handle eq 'WZ_ICEWALL' ) {        #Barreira de Gelo
             return;
         }
-        if ( $name_display eq 'WZ_FROSTNOVA' ) {      #Congelar
+        if ( $handle eq 'WZ_FROSTNOVA' ) {      #Congelar
             return;
         }
-        if ( $name_display eq 'WZ_EARTHSPIKE' ) {     #Coluna de Pedra
+        if ( $handle eq 'WZ_EARTHSPIKE' ) {     #Coluna de Pedra
             return;
         }
-        if ( $name_display eq 'WZ_HEAVENDRIVE' ) {    #Fúria da Terra
+        if ( $handle eq 'WZ_HEAVENDRIVE' ) {    #Fúria da Terra
             return;
         }
-        if ( $name_display eq 'WZ_QUAGMIRE' ) {       #Pântano dos Mortos
+        if ( $handle eq 'WZ_QUAGMIRE' ) {       #Pântano dos Mortos
             return;
         }
-        if ( $name_display eq 'WZ_ESTIMATION' ) {     #Sentido Sobrenatural
+        if ( $handle eq 'WZ_ESTIMATION' ) {     #Sentido Sobrenatural
             return;
         }
-        if ( $name_display eq 'BS_HILTBINDING' ) {    #Punho Firme
+        if ( $handle eq 'BS_HILTBINDING' ) {    #Punho Firme
             return;
         }
-        if ( $name_display eq 'BS_WEAPONRESEARCH' ) {    #Perícia em Armamento
+        if ( $handle eq 'BS_WEAPONRESEARCH' ) {    #Perícia em Armamento
             return;
         }
-        if ( $name_display eq 'HT_SKIDTRAP' ) {          #Armadilha Escorregadia
+        if ( $handle eq 'HT_SKIDTRAP' ) {          #Armadilha Escorregadia
             return;
         }
-        if ( $name_display eq 'HT_SANDMAN' ) {           #Armadilha Sonífera
+        if ( $handle eq 'HT_SANDMAN' ) {           #Armadilha Sonífera
             return;
         }
-        if ( $name_display eq 'HT_FLASHER' ) {           #Armadilha Luminosa
+        if ( $handle eq 'HT_FLASHER' ) {           #Armadilha Luminosa
             return;
         }
-        if ( $name_display eq 'HT_FREEZINGTRAP' ) {      #Armadilha Congelante
+        if ( $handle eq 'HT_FREEZINGTRAP' ) {      #Armadilha Congelante
             return;
         }
-        if ( $name_display eq 'AS_ENCHANTPOISON' ) {     #Envenenar Arma
+        if ( $handle eq 'AS_ENCHANTPOISON' ) {     #Envenenar Arma
             return;
         }
-        if ( $name_display eq 'RG_TUNNELDRIVE' ) {       #Túnel de Fuga
+        if ( $handle eq 'RG_TUNNELDRIVE' ) {       #Túnel de Fuga
             return;
         }
-        if ( $name_display eq 'AM_AXEMASTERY' ) {        #Perícia com Machado
+        if ( $handle eq 'AM_AXEMASTERY' ) {        #Perícia com Machado
             return;
         }
-        if ( $name_display eq 'CR_TRUST' ) {             #Fé
+        if ( $handle eq 'CR_TRUST' ) {             #Fé
             return;
         }
-        if ( $name_display eq 'CR_HOLYCROSS' ) {         #Crux Divinum
+        if ( $handle eq 'CR_HOLYCROSS' ) {         #Crux Divinum
             return;
         }
-        if ( $name_display eq 'MO_IRONHAND' ) {          #Punhos de Ferro
+        if ( $handle eq 'MO_IRONHAND' ) {          #Punhos de Ferro
             return;
         }
-        if ( $name_display eq 'MO_CALLSPIRITS' ) {    #Invocar Esfera Espiritual
+        if ( $handle eq 'MO_CALLSPIRITS' ) {    #Invocar Esfera Espiritual
             return;
         }
-        if ( $name_display eq 'MO_ABSORBSPIRITS' )
+        if ( $handle eq 'MO_ABSORBSPIRITS' )
         {    #Absorver Esferas Espirituais
             return;
         }
-        if ( $name_display eq 'HW_MAGICCRASHER' ) {    #Esmagamento Mágico
+        if ( $handle eq 'HW_MAGICCRASHER' ) {    #Esmagamento Mágico
             return;
         }
-        if ( $name_display eq 'ALL_BUYING_STORE' ) {    #Open Buying Store
+        if ( $handle eq 'ALL_BUYING_STORE' ) {    #Open Buying Store
             return;
         }
     }
 
     if ( $class eq 'Royal_Guard' ) {                    #Guadrião Real
-        if ( $name_display eq 'LG_CANNONSPEAR' ) {      #Disparo Perfurante
+        if ( $handle eq 'LG_CANNONSPEAR' ) {      #Disparo Perfurante
             return;
         }
-        if ( $name_display eq 'LG_BANISHINGPOINT' ) {    #Toque do Oblívio
+        if ( $handle eq 'LG_BANISHINGPOINT' ) {    #Toque do Oblívio
             return;
         }
-        if ( $name_display eq 'LG_TRAMPLE' ) {           #Pisotear Armadilha
+        if ( $handle eq 'LG_TRAMPLE' ) {           #Pisotear Armadilha
             return;
         }
-        if ( $name_display eq 'LG_SHIELDPRESS' ) {       #Escudo Compressor
+        if ( $handle eq 'LG_SHIELDPRESS' ) {       #Escudo Compressor
             return;
         }
-        if ( $name_display eq 'LG_REFLECTDAMAGE' ) {     #Reflexão Amplificada
+        if ( $handle eq 'LG_REFLECTDAMAGE' ) {     #Reflexão Amplificada
             return;
         }
-        if ( $name_display eq 'LG_PINPOINTATTACK' ) {    #Estocada Precisa
+        if ( $handle eq 'LG_PINPOINTATTACK' ) {    #Estocada Precisa
             return;
         }
-        if ( $name_display eq 'LG_FORCEOFVANGUARD' ) {  #Proteção da Vanguarda
+        if ( $handle eq 'LG_FORCEOFVANGUARD' ) {  #Proteção da Vanguarda
             return;
         }
-        if ( $name_display eq 'LG_RAGEBURST' ) {    #Retribuição da Vanguarda
+        if ( $handle eq 'LG_RAGEBURST' ) {    #Retribuição da Vanguarda
             return;
         }
-        if ( $name_display eq 'LG_SHIELDSPELL' ) {    #Aegis Domini
+        if ( $handle eq 'LG_SHIELDSPELL' ) {    #Aegis Domini
             return;
         }
-        if ( $name_display eq 'LG_EXEEDBREAK' ) {     #Exceder Limite
+        if ( $handle eq 'LG_EXEEDBREAK' ) {     #Exceder Limite
             return;
         }
-        if ( $name_display eq 'LG_OVERBRAND' ) {      #Lança do Destino
+        if ( $handle eq 'LG_OVERBRAND' ) {      #Lança do Destino
             return;
         }
-        if ( $name_display eq 'LG_PRESTIGE' ) {       #Prestígio Divino
+        if ( $handle eq 'LG_PRESTIGE' ) {       #Prestígio Divino
             return;
         }
-        if ( $name_display eq 'LG_BANDING' ) {        #Formação Real
+        if ( $handle eq 'LG_BANDING' ) {        #Formação Real
             return;
         }
-        if ( $name_display eq 'LG_MOONSLASHER' ) {    #Espiral Lunar
+        if ( $handle eq 'LG_MOONSLASHER' ) {    #Espiral Lunar
             return;
         }
-        if ( $name_display eq 'LG_RAYOFGENESIS' ) {    #Luz da Criação
+        if ( $handle eq 'LG_RAYOFGENESIS' ) {    #Luz da Criação
             return;
         }
-        if ( $name_display eq 'LG_PIETY' ) {           #Devoção
+        if ( $handle eq 'LG_PIETY' ) {           #Devoção
             return;
         }
-        if ( $name_display eq 'LG_EARTHDRIVE' ) {      #Aegis Inferi
+        if ( $handle eq 'LG_EARTHDRIVE' ) {      #Aegis Inferi
             return;
         }
-        if ( $name_display eq 'LG_HESPERUSLIT' ) {     #Trindade
+        if ( $handle eq 'LG_HESPERUSLIT' ) {     #Trindade
             return;
         }
-        if ( $name_display eq 'LG_INSPIRATION' ) {     #Consagração
+        if ( $handle eq 'LG_INSPIRATION' ) {     #Consagração
             return;
         }
-        if ( $name_display eq 'LG_KINGS_GRACE' ) {     #King's Grace
+        if ( $handle eq 'LG_KINGS_GRACE' ) {     #King's Grace
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Creator' ) {                         #Criador
-        if ( $name_display eq 'CR_SLIMPITCHER' ) {  #Arremessar Poção Compacta
+        if ( $handle eq 'CR_SLIMPITCHER' ) {  #Arremessar Poção Compacta
             return;
         }
-        if ( $name_display eq 'CR_FULLPROTECTION' ) { #Proteção Química Total
+        if ( $handle eq 'CR_FULLPROTECTION' ) { #Proteção Química Total
             return;
         }
-        if ( $name_display eq 'CR_ACIDDEMONSTRATION' ) {    #Bomba Ácida
+        if ( $handle eq 'CR_ACIDDEMONSTRATION' ) {    #Bomba Ácida
             return;
         }
-        if ( $name_display eq 'CR_CULTIVATION' ) {          #Cultivar Planta
+        if ( $handle eq 'CR_CULTIVATION' ) {          #Cultivar Planta
             return;
         }
     }
 
     if ( $class eq 'Magician' ) {                           #Mago
-        if ( $name_display eq 'MG_SRECOVERY' ) {   #Aumentar Recuperação de SP
+        if ( $handle eq 'MG_SRECOVERY' ) {   #Aumentar Recuperação de SP
             return;
         }
-        if ( $name_display eq 'MG_SIGHT' ) {       #Chama Reveladora
+        if ( $handle eq 'MG_SIGHT' ) {       #Chama Reveladora
             return;
         }
-        if ( $name_display eq 'MG_NAPALMBEAT' ) {    #Ataque Espiritual
+        if ( $handle eq 'MG_NAPALMBEAT' ) {    #Ataque Espiritual
             return;
         }
-        if ( $name_display eq 'MG_SAFETYWALL' ) {    #Escudo Mágico
+        if ( $handle eq 'MG_SAFETYWALL' ) {    #Escudo Mágico
             return;
         }
-        if ( $name_display eq 'MG_SOULSTRIKE' ) {    #Espíritos Anciões
+        if ( $handle eq 'MG_SOULSTRIKE' ) {    #Espíritos Anciões
             return;
         }
-        if ( $name_display eq 'MG_COLDBOLT' ) {      #Lanças de Gelo
+        if ( $handle eq 'MG_COLDBOLT' ) {      #Lanças de Gelo
             return;
         }
-        if ( $name_display eq 'MG_FROSTDIVER' ) {    #Rajada Congelante
+        if ( $handle eq 'MG_FROSTDIVER' ) {    #Rajada Congelante
             return;
         }
-        if ( $name_display eq 'MG_STONECURSE' ) {    #Petrificar
+        if ( $handle eq 'MG_STONECURSE' ) {    #Petrificar
             return;
         }
-        if ( $name_display eq 'MG_FIREBALL' ) {      #Bola de Fogo
+        if ( $handle eq 'MG_FIREBALL' ) {      #Bola de Fogo
             return;
         }
-        if ( $name_display eq 'MG_FIREWALL' ) {      #Barreira de Fogo
+        if ( $handle eq 'MG_FIREWALL' ) {      #Barreira de Fogo
             return;
         }
-        if ( $name_display eq 'MG_FIREBOLT' ) {      #Lanças de Fogo
+        if ( $handle eq 'MG_FIREBOLT' ) {      #Lanças de Fogo
             return;
         }
-        if ( $name_display eq 'MG_LIGHTNINGBOLT' ) {    #Relâmpago
+        if ( $handle eq 'MG_LIGHTNINGBOLT' ) {    #Relâmpago
             return;
         }
-        if ( $name_display eq 'MG_THUNDERSTORM' ) {     #Tempestade de Raios
+        if ( $handle eq 'MG_THUNDERSTORM' ) {     #Tempestade de Raios
             return;
         }
-        if ( $name_display eq 'MG_ENERGYCOAT' ) {       #Proteção Arcana
+        if ( $handle eq 'MG_ENERGYCOAT' ) {       #Proteção Arcana
             return;
         }
     }
 
     if ( $class eq 'Lord_Knight' ) {                    #Lorde
-        if ( $name_display eq 'LK_AURABLADE' ) {        #Lâmina de Aura
+        if ( $handle eq 'LK_AURABLADE' ) {        #Lâmina de Aura
             return;
         }
-        if ( $name_display eq 'LK_PARRYING' ) {         #Aparar Golpe
+        if ( $handle eq 'LK_PARRYING' ) {         #Aparar Golpe
             return;
         }
-        if ( $name_display eq 'LK_CONCENTRATION' ) {    #Dedicação
+        if ( $handle eq 'LK_CONCENTRATION' ) {    #Dedicação
             return;
         }
-        if ( $name_display eq 'LK_TENSIONRELAX' ) {     #Relaxar
+        if ( $handle eq 'LK_TENSIONRELAX' ) {     #Relaxar
             return;
         }
-        if ( $name_display eq 'LK_BERSERK' ) {          #Frenesi
+        if ( $handle eq 'LK_BERSERK' ) {          #Frenesi
             return;
         }
-        if ( $name_display eq 'LK_SPIRALPIERCE' ) {     #Perfurar em Espiral
+        if ( $handle eq 'LK_SPIRALPIERCE' ) {     #Perfurar em Espiral
             return;
         }
-        if ( $name_display eq 'LK_HEADCRUSH' ) {        #Golpe Traumático
+        if ( $handle eq 'LK_HEADCRUSH' ) {        #Golpe Traumático
             return;
         }
-        if ( $name_display eq 'LK_JOINTBEAT' ) {        #Ataque Vital
+        if ( $handle eq 'LK_JOINTBEAT' ) {        #Ataque Vital
             return;
         }
     }
 
     if ( $class eq 'Priest' ) {                         #Sacerdote
-        if ( $name_display eq 'MG_SRECOVERY' ) {   #Aumentar Recuperação de SP
+        if ( $handle eq 'MG_SRECOVERY' ) {   #Aumentar Recuperação de SP
             return;
         }
-        if ( $name_display eq 'MG_SAFETYWALL' ) {    #Escudo Mágico
+        if ( $handle eq 'MG_SAFETYWALL' ) {    #Escudo Mágico
             return;
         }
-        if ( $name_display eq 'ALL_RESURRECTION' ) {    #Ressuscitar
+        if ( $handle eq 'ALL_RESURRECTION' ) {    #Ressuscitar
             return;
         }
-        if ( $name_display eq 'PR_MACEMASTERY' ) {      #Perícia com Maça
+        if ( $handle eq 'PR_MACEMASTERY' ) {      #Perícia com Maça
             return;
         }
-        if ( $name_display eq 'PR_IMPOSITIO' ) {        #Impositio Manus
+        if ( $handle eq 'PR_IMPOSITIO' ) {        #Impositio Manus
             return;
         }
-        if ( $name_display eq 'PR_SUFFRAGIUM' ) {       #Suffragium
+        if ( $handle eq 'PR_SUFFRAGIUM' ) {       #Suffragium
             return;
         }
-        if ( $name_display eq 'PR_ASPERSIO' ) {         #Aspersio
+        if ( $handle eq 'PR_ASPERSIO' ) {         #Aspersio
             return;
         }
-        if ( $name_display eq 'PR_BENEDICTIO' ) {       #B.S. Sacramenti
+        if ( $handle eq 'PR_BENEDICTIO' ) {       #B.S. Sacramenti
             return;
         }
-        if ( $name_display eq 'PR_SANCTUARY' ) {        #Santuário
+        if ( $handle eq 'PR_SANCTUARY' ) {        #Santuário
             return;
         }
-        if ( $name_display eq 'PR_SLOWPOISON' ) {       #Retardar Veneno
+        if ( $handle eq 'PR_SLOWPOISON' ) {       #Retardar Veneno
             return;
         }
-        if ( $name_display eq 'PR_STRECOVERY' ) {       #Graça Divina
+        if ( $handle eq 'PR_STRECOVERY' ) {       #Graça Divina
             return;
         }
-        if ( $name_display eq 'PR_KYRIE' ) {            #Kyrie Eleison
+        if ( $handle eq 'PR_KYRIE' ) {            #Kyrie Eleison
             return;
         }
-        if ( $name_display eq 'PR_MAGNIFICAT' ) {       #Magnificat
+        if ( $handle eq 'PR_MAGNIFICAT' ) {       #Magnificat
             return;
         }
-        if ( $name_display eq 'PR_GLORIA' ) {           #Glória
+        if ( $handle eq 'PR_GLORIA' ) {           #Glória
             return;
         }
-        if ( $name_display eq 'PR_LEXDIVINA' ) {        #Lex Divina
+        if ( $handle eq 'PR_LEXDIVINA' ) {        #Lex Divina
             return;
         }
-        if ( $name_display eq 'PR_TURNUNDEAD' ) {       #Esconjurar
+        if ( $handle eq 'PR_TURNUNDEAD' ) {       #Esconjurar
             return;
         }
-        if ( $name_display eq 'PR_LEXAETERNA' ) {       #Lex Aeterna
+        if ( $handle eq 'PR_LEXAETERNA' ) {       #Lex Aeterna
             return;
         }
-        if ( $name_display eq 'PR_MAGNUS' ) {           #Magnus Exorcismus
+        if ( $handle eq 'PR_MAGNUS' ) {           #Magnus Exorcismus
             return;
         }
-        if ( $name_display eq 'PR_REDEMPTIO' ) {        #Redemptio
+        if ( $handle eq 'PR_REDEMPTIO' ) {        #Redemptio
             return;
         }
     }
 
     if ( $class eq 'Thief' ) {                          #Gatuno
-        if ( $name_display eq 'TF_DOUBLE' ) {           #Ataque Duplo
+        if ( $handle eq 'TF_DOUBLE' ) {           #Ataque Duplo
             return;
         }
-        if ( $name_display eq 'TF_MISS' ) {             #Perícia em Esquiva
+        if ( $handle eq 'TF_MISS' ) {             #Perícia em Esquiva
             return;
         }
-        if ( $name_display eq 'TF_STEAL' ) {            #Furto
+        if ( $handle eq 'TF_STEAL' ) {            #Furto
             return;
         }
-        if ( $name_display eq 'TF_HIDING' ) {           #Esconderijo
+        if ( $handle eq 'TF_HIDING' ) {           #Esconderijo
             return;
         }
-        if ( $name_display eq 'TF_POISON' ) {           #Envenenar
+        if ( $handle eq 'TF_POISON' ) {           #Envenenar
             return;
         }
-        if ( $name_display eq 'TF_DETOXIFY' ) {         #Desintoxicar
+        if ( $handle eq 'TF_DETOXIFY' ) {         #Desintoxicar
             return;
         }
-        if ( $name_display eq 'TF_SPRINKLESAND' ) {     #Chutar Areia
+        if ( $handle eq 'TF_SPRINKLESAND' ) {     #Chutar Areia
             return;
         }
-        if ( $name_display eq 'TF_BACKSLIDING' ) {      #Recuar
+        if ( $handle eq 'TF_BACKSLIDING' ) {      #Recuar
             return;
         }
-        if ( $name_display eq 'TF_PICKSTONE' ) {        #Procurar Pedras
+        if ( $handle eq 'TF_PICKSTONE' ) {        #Procurar Pedras
             return;
         }
-        if ( $name_display eq 'TF_THROWSTONE' ) {       #Arremessar Pedra
+        if ( $handle eq 'TF_THROWSTONE' ) {       #Arremessar Pedra
             return;
         }
     }
 
     if ( $class eq 'Alchemist' ) {                      #Alquimista
-        if ( $name_display eq 'AM_AXEMASTERY' ) {       #Perícia com Machado
+        if ( $handle eq 'AM_AXEMASTERY' ) {       #Perícia com Machado
             return;
         }
-        if ( $name_display eq 'AM_LEARNINGPOTION' ) {    #Pesquisa de Poções
+        if ( $handle eq 'AM_LEARNINGPOTION' ) {    #Pesquisa de Poções
             return;
         }
-        if ( $name_display eq 'AM_PHARMACY' ) {          #Preparar Poção
+        if ( $handle eq 'AM_PHARMACY' ) {          #Preparar Poção
             return;
         }
-        if ( $name_display eq 'AM_DEMONSTRATION' ) {     #Fogo Grego
+        if ( $handle eq 'AM_DEMONSTRATION' ) {     #Fogo Grego
             return;
         }
-        if ( $name_display eq 'AM_ACIDTERROR' ) {        #Terror Ácido
+        if ( $handle eq 'AM_ACIDTERROR' ) {        #Terror Ácido
             return;
         }
-        if ( $name_display eq 'AM_POTIONPITCHER' ) {     #Arremessar Poção
+        if ( $handle eq 'AM_POTIONPITCHER' ) {     #Arremessar Poção
             return;
         }
-        if ( $name_display eq 'AM_CANNIBALIZE' ) {       #Criar Monstro Planta
+        if ( $handle eq 'AM_CANNIBALIZE' ) {       #Criar Monstro Planta
             return;
         }
-        if ( $name_display eq 'AM_SPHEREMINE' ) {        #Criar Esfera Marinha
+        if ( $handle eq 'AM_SPHEREMINE' ) {        #Criar Esfera Marinha
             return;
         }
-        if ( $name_display eq 'AM_CP_WEAPON' ) {         #Revestir Arma
+        if ( $handle eq 'AM_CP_WEAPON' ) {         #Revestir Arma
             return;
         }
-        if ( $name_display eq 'AM_CP_SHIELD' ) {         #Revestir Escudo
+        if ( $handle eq 'AM_CP_SHIELD' ) {         #Revestir Escudo
             return;
         }
-        if ( $name_display eq 'AM_CP_ARMOR' ) {          #Revestir Armadura
+        if ( $handle eq 'AM_CP_ARMOR' ) {          #Revestir Armadura
             return;
         }
-        if ( $name_display eq 'AM_CP_HELM' ) {           #Revestir Capacete
+        if ( $handle eq 'AM_CP_HELM' ) {           #Revestir Capacete
             return;
         }
-        if ( $name_display eq 'AM_BIOETHICS' ) {         #Bioética
+        if ( $handle eq 'AM_BIOETHICS' ) {         #Bioética
             return;
         }
-        if ( $name_display eq 'AM_CALLHOMUN' ) {         #Criar Homunculus
+        if ( $handle eq 'AM_CALLHOMUN' ) {         #Criar Homunculus
             return;
         }
-        if ( $name_display eq 'AM_REST' ) {              #Vaporizar
+        if ( $handle eq 'AM_REST' ) {              #Vaporizar
             return;
         }
-        if ( $name_display eq 'AM_RESURRECTHOMUN' ) {    #Ressuscitar Homunculus
+        if ( $handle eq 'AM_RESURRECTHOMUN' ) {    #Ressuscitar Homunculus
             return;
         }
-        if ( $name_display eq 'AM_BERSERKPITCHER' )
+        if ( $handle eq 'AM_BERSERKPITCHER' )
         {    #Arremessar Poção da Fúria Selvagem
             return;
         }
-        if ( $name_display eq 'AM_TWILIGHT1' )
+        if ( $handle eq 'AM_TWILIGHT1' )
         {    #Criação Espiritual de Poções I
             return;
         }
-        if ( $name_display eq 'AM_TWILIGHT2' )
+        if ( $handle eq 'AM_TWILIGHT2' )
         {    #Criação Espiritual de Poções II
             return;
         }
-        if ( $name_display eq 'AM_TWILIGHT3' )
+        if ( $handle eq 'AM_TWILIGHT3' )
         {    #Criação Espiritual de Poções III
             return;
         }
     }
 
     if ( $class eq 'Assassin' ) {    #Mercenário
-        if ( $name_display eq 'AS_RIGHT' ) {    #Perícia com Mão Direita
+        if ( $handle eq 'AS_RIGHT' ) {    #Perícia com Mão Direita
             return;
         }
-        if ( $name_display eq 'AS_LEFT' ) {     #Perícia com Mão Esquerda
+        if ( $handle eq 'AS_LEFT' ) {     #Perícia com Mão Esquerda
             return;
         }
-        if ( $name_display eq 'AS_KATAR' ) {    #Perícia com Katar
+        if ( $handle eq 'AS_KATAR' ) {    #Perícia com Katar
             return;
         }
-        if ( $name_display eq 'AS_CLOAKING' ) {    #Furtividade
+        if ( $handle eq 'AS_CLOAKING' ) {    #Furtividade
             return;
         }
-        if ( $name_display eq 'AS_SONICBLOW' ) {    #Lâminas Destruidoras
+        if ( $handle eq 'AS_SONICBLOW' ) {    #Lâminas Destruidoras
             return;
         }
-        if ( $name_display eq 'AS_GRIMTOOTH' ) {    #Tocaia
+        if ( $handle eq 'AS_GRIMTOOTH' ) {    #Tocaia
             return;
         }
-        if ( $name_display eq 'AS_ENCHANTPOISON' ) {    #Envenenar Arma
+        if ( $handle eq 'AS_ENCHANTPOISON' ) {    #Envenenar Arma
             return;
         }
-        if ( $name_display eq 'AS_POISONREACT' ) {      #Refletir Veneno
+        if ( $handle eq 'AS_POISONREACT' ) {      #Refletir Veneno
             return;
         }
-        if ( $name_display eq 'AS_VENOMDUST' ) {        #Névoa Tóxica
+        if ( $handle eq 'AS_VENOMDUST' ) {        #Névoa Tóxica
             return;
         }
-        if ( $name_display eq 'AS_SPLASHER' ) {         #Explosão Tóxica
+        if ( $handle eq 'AS_SPLASHER' ) {         #Explosão Tóxica
             return;
         }
-        if ( $name_display eq 'AS_SONICACCEL' ) {       #Sonic Acceleration
+        if ( $handle eq 'AS_SONICACCEL' ) {       #Sonic Acceleration
             return;
         }
-        if ( $name_display eq 'AS_VENOMKNIFE' ) {       #Throw Venom Knife
+        if ( $handle eq 'AS_VENOMKNIFE' ) {       #Throw Venom Knife
             return;
         }
     }
 
     if ( $class eq 'Guillotine_Cross' ) {               #Sicário
-        if ( $name_display eq 'GC_VENOMIMPRESS' ) {     #Potencializar Veneno
+        if ( $handle eq 'GC_VENOMIMPRESS' ) {     #Potencializar Veneno
             return;
         }
-        if ( $name_display eq 'GC_CROSSIMPACT' ) {      #Lâminas Retalhadoras
+        if ( $handle eq 'GC_CROSSIMPACT' ) {      #Lâminas Retalhadoras
             return;
         }
-        if ( $name_display eq 'GC_DARKILLUSION' ) {     #Passo Sombrio
+        if ( $handle eq 'GC_DARKILLUSION' ) {     #Passo Sombrio
             return;
         }
-        if ( $name_display eq 'GC_RESEARCHNEWPOISON' ) {    #Pesquisa de Toxinas
+        if ( $handle eq 'GC_RESEARCHNEWPOISON' ) {    #Pesquisa de Toxinas
             return;
         }
-        if ( $name_display eq 'GC_CREATENEWPOISON' ) {      #Criar Toxina
+        if ( $handle eq 'GC_CREATENEWPOISON' ) {      #Criar Toxina
             return;
         }
-        if ( $name_display eq 'GC_ANTIDOTE' ) {             #Aplicar Antídoto
+        if ( $handle eq 'GC_ANTIDOTE' ) {             #Aplicar Antídoto
             return;
         }
-        if ( $name_display eq 'GC_POISONINGWEAPON' ) {      #Aplicar Toxina
+        if ( $handle eq 'GC_POISONINGWEAPON' ) {      #Aplicar Toxina
             return;
         }
-        if ( $name_display eq 'GC_WEAPONBLOCKING' ) {       #Reflexo de Combate
+        if ( $handle eq 'GC_WEAPONBLOCKING' ) {       #Reflexo de Combate
             return;
         }
-        if ( $name_display eq 'GC_COUNTERSLASH' ) {         #Retaliação
+        if ( $handle eq 'GC_COUNTERSLASH' ) {         #Retaliação
             return;
         }
-        if ( $name_display eq 'GC_WEAPONCRUSH' ) {          #Estilhaçar Arma
+        if ( $handle eq 'GC_WEAPONCRUSH' ) {          #Estilhaçar Arma
             return;
         }
-        if ( $name_display eq 'GC_VENOMPRESSURE' ) {        #Intoxicar
+        if ( $handle eq 'GC_VENOMPRESSURE' ) {        #Intoxicar
             return;
         }
-        if ( $name_display eq 'GC_POISONSMOKE' ) {          #Nevoeiro Tóxico
+        if ( $handle eq 'GC_POISONSMOKE' ) {          #Nevoeiro Tóxico
             return;
         }
-        if ( $name_display eq 'GC_CLOAKINGEXCEED' ) {       #Ocultação
+        if ( $handle eq 'GC_CLOAKINGEXCEED' ) {       #Ocultação
             return;
         }
-        if ( $name_display eq 'GC_PHANTOMMENACE' ) {        #Ameaça Fantasma
+        if ( $handle eq 'GC_PHANTOMMENACE' ) {        #Ameaça Fantasma
             return;
         }
-        if ( $name_display eq 'GC_HALLUCINATIONWALK' ) {    #Passos da Ilusão
+        if ( $handle eq 'GC_HALLUCINATIONWALK' ) {    #Passos da Ilusão
             return;
         }
-        if ( $name_display eq 'GC_ROLLINGCUTTER' ) {        #Lâminas de Loki
+        if ( $handle eq 'GC_ROLLINGCUTTER' ) {        #Lâminas de Loki
             return;
         }
-        if ( $name_display eq 'GC_CROSSRIPPERSLASHER' ) {    #Castigo de Loki
+        if ( $handle eq 'GC_CROSSRIPPERSLASHER' ) {    #Castigo de Loki
             return;
         }
-        if ( $name_display eq 'GC_DARKCROW' ) {              #Dark Claw
+        if ( $handle eq 'GC_DARKCROW' ) {              #Dark Claw
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {        #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {        #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Wizard' ) {                              #Bruxo
-        if ( $name_display eq 'WZ_FIREPILLAR' ) {            #Coluna de Fogo
+        if ( $handle eq 'WZ_FIREPILLAR' ) {            #Coluna de Fogo
             return;
         }
-        if ( $name_display eq 'WZ_SIGHTRASHER' ) {           #Supernova
+        if ( $handle eq 'WZ_SIGHTRASHER' ) {           #Supernova
             return;
         }
-        if ( $name_display eq 'WZ_METEOR' ) {                #Chuva de Meteoros
+        if ( $handle eq 'WZ_METEOR' ) {                #Chuva de Meteoros
             return;
         }
-        if ( $name_display eq 'WZ_JUPITEL' ) {    #Trovão de Júpiter
+        if ( $handle eq 'WZ_JUPITEL' ) {    #Trovão de Júpiter
             return;
         }
-        if ( $name_display eq 'WZ_VERMILION' ) {    #Ira de Thor
+        if ( $handle eq 'WZ_VERMILION' ) {    #Ira de Thor
             return;
         }
-        if ( $name_display eq 'WZ_WATERBALL' ) {    #Esfera d'Água
+        if ( $handle eq 'WZ_WATERBALL' ) {    #Esfera d'Água
             return;
         }
-        if ( $name_display eq 'WZ_ICEWALL' ) {      #Barreira de Gelo
+        if ( $handle eq 'WZ_ICEWALL' ) {      #Barreira de Gelo
             return;
         }
-        if ( $name_display eq 'WZ_FROSTNOVA' ) {    #Congelar
+        if ( $handle eq 'WZ_FROSTNOVA' ) {    #Congelar
             return;
         }
-        if ( $name_display eq 'WZ_STORMGUST' ) {    #Nevasca
+        if ( $handle eq 'WZ_STORMGUST' ) {    #Nevasca
             return;
         }
-        if ( $name_display eq 'WZ_EARTHSPIKE' ) {    #Coluna de Pedra
+        if ( $handle eq 'WZ_EARTHSPIKE' ) {    #Coluna de Pedra
             return;
         }
-        if ( $name_display eq 'WZ_HEAVENDRIVE' ) {    #Fúria da Terra
+        if ( $handle eq 'WZ_HEAVENDRIVE' ) {    #Fúria da Terra
             return;
         }
-        if ( $name_display eq 'WZ_QUAGMIRE' ) {       #Pântano dos Mortos
+        if ( $handle eq 'WZ_QUAGMIRE' ) {       #Pântano dos Mortos
             return;
         }
-        if ( $name_display eq 'WZ_ESTIMATION' ) {     #Sentido Sobrenatural
+        if ( $handle eq 'WZ_ESTIMATION' ) {     #Sentido Sobrenatural
             return;
         }
-        if ( $name_display eq 'WZ_SIGHTBLASTER' ) {    #Sight Blaster
+        if ( $handle eq 'WZ_SIGHTBLASTER' ) {    #Sight Blaster
             return;
         }
     }
 
     if ( $class eq 'Rebellion' ) {                     #Insurgente
-        if ( $name_display eq 'RL_RICHS_COIN' ) {      #Rich's Coin
+        if ( $handle eq 'RL_RICHS_COIN' ) {      #Rich's Coin
             return;
         }
-        if ( $name_display eq 'RL_MASS_SPIRAL' ) {     #Mass Spiral
+        if ( $handle eq 'RL_MASS_SPIRAL' ) {     #Mass Spiral
             return;
         }
-        if ( $name_display eq 'RL_BANISHING_BUSTER' ) {    #Banishing Buster
+        if ( $handle eq 'RL_BANISHING_BUSTER' ) {    #Banishing Buster
             return;
         }
-        if ( $name_display eq 'RL_B_TRAP' ) {              #Bind Trap
+        if ( $handle eq 'RL_B_TRAP' ) {              #Bind Trap
             return;
         }
-        if ( $name_display eq 'RL_FLICKER' ) {             #Flicker
+        if ( $handle eq 'RL_FLICKER' ) {             #Flicker
             return;
         }
-        if ( $name_display eq 'RL_S_STORM' ) {             #Shatter Storm
+        if ( $handle eq 'RL_S_STORM' ) {             #Shatter Storm
             return;
         }
-        if ( $name_display eq 'RL_E_CHAIN' ) {             #Eternal Chain
+        if ( $handle eq 'RL_E_CHAIN' ) {             #Eternal Chain
             return;
         }
-        if ( $name_display eq 'RL_QD_SHOT' ) {             #Quick Draw Shot
+        if ( $handle eq 'RL_QD_SHOT' ) {             #Quick Draw Shot
             return;
         }
-        if ( $name_display eq 'RL_C_MARKER' ) {            #Crimson Marker
+        if ( $handle eq 'RL_C_MARKER' ) {            #Crimson Marker
             return;
         }
-        if ( $name_display eq 'RL_FIREDANCE' ) {           #Fire Dance
+        if ( $handle eq 'RL_FIREDANCE' ) {           #Fire Dance
             return;
         }
-        if ( $name_display eq 'RL_H_MINE' ) {              #Howling Mine
+        if ( $handle eq 'RL_H_MINE' ) {              #Howling Mine
             return;
         }
-        if ( $name_display eq 'RL_P_ALTER' ) {             #Platinum Alter
+        if ( $handle eq 'RL_P_ALTER' ) {             #Platinum Alter
             return;
         }
-        if ( $name_display eq 'RL_FALLEN_ANGEL' ) {        #Fallen Angel
+        if ( $handle eq 'RL_FALLEN_ANGEL' ) {        #Fallen Angel
             return;
         }
-        if ( $name_display eq 'RL_R_TRIP' ) {              #Round Trip
+        if ( $handle eq 'RL_R_TRIP' ) {              #Round Trip
             return;
         }
-        if ( $name_display eq 'RL_D_TAIL' ) {              #Dragon Tail
+        if ( $handle eq 'RL_D_TAIL' ) {              #Dragon Tail
             return;
         }
-        if ( $name_display eq 'RL_FIRE_RAIN' ) {           #Fire Rain
+        if ( $handle eq 'RL_FIRE_RAIN' ) {           #Fire Rain
             return;
         }
-        if ( $name_display eq 'RL_HEAT_BARREL' ) {         #Heat Barrel
+        if ( $handle eq 'RL_HEAT_BARREL' ) {         #Heat Barrel
             return;
         }
-        if ( $name_display eq 'RL_AM_BLAST' ) {            #Anti-Material Blast
+        if ( $handle eq 'RL_AM_BLAST' ) {            #Anti-Material Blast
             return;
         }
-        if ( $name_display eq 'RL_SLUGSHOT' )
+        if ( $handle eq 'RL_SLUGSHOT' )
         {    #Slug Shot//Tester found it knocks back and forces sit.
             return;
         }
-        if ( $name_display eq 'RL_HAMMER_OF_GOD' ) {    #Hammer of God
+        if ( $handle eq 'RL_HAMMER_OF_GOD' ) {    #Hammer of God
             return;
         }
     }
 
     if ( $class eq 'Champion' ) {                       #Mestre
-        if ( $name_display eq 'CH_PALMSTRIKE' ) {    #Golpe da Palma em Fúria
+        if ( $handle eq 'CH_PALMSTRIKE' ) {    #Golpe da Palma em Fúria
             return;
         }
-        if ( $name_display eq 'CH_TIGERFIST' ) {     #Punho do Tigre
+        if ( $handle eq 'CH_TIGERFIST' ) {     #Punho do Tigre
             return;
         }
-        if ( $name_display eq 'CH_CHAINCRUSH' ) {    #Combo Esmagador
+        if ( $handle eq 'CH_CHAINCRUSH' ) {    #Combo Esmagador
             return;
         }
-        if ( $name_display eq 'CH_SOULCOLLECT' ) {    #Zen
+        if ( $handle eq 'CH_SOULCOLLECT' ) {    #Zen
             return;
         }
     }
 
     if ( $class eq 'Archer' ) {                       #Arqueiro
-        if ( $name_display eq 'AC_OWL' ) {            #Precisão
+        if ( $handle eq 'AC_OWL' ) {            #Precisão
             return;
         }
-        if ( $name_display eq 'AC_VULTURE' ) {        #Olhos de Águia
+        if ( $handle eq 'AC_VULTURE' ) {        #Olhos de Águia
             return;
         }
-        if ( $name_display eq 'AC_CONCENTRATION' ) {    #Concentração
+        if ( $handle eq 'AC_CONCENTRATION' ) {    #Concentração
             return;
         }
-        if ( $name_display eq 'AC_DOUBLE' ) {           #Rajada de Flechas
+        if ( $handle eq 'AC_DOUBLE' ) {           #Rajada de Flechas
             return;
         }
-        if ( $name_display eq 'AC_SHOWER' ) {           #Chuva de Flechas
+        if ( $handle eq 'AC_SHOWER' ) {           #Chuva de Flechas
             return;
         }
-        if ( $name_display eq 'AC_MAKINGARROW' ) {      #Fabricar Flechas
+        if ( $handle eq 'AC_MAKINGARROW' ) {      #Fabricar Flechas
             return;
         }
-        if ( $name_display eq 'AC_CHARGEARROW' ) {      #Disparo Violento
+        if ( $handle eq 'AC_CHARGEARROW' ) {      #Disparo Violento
             return;
         }
     }
 
     if ( $class eq 'Wanderer' ) {                       #Cigana
-        if ( $name_display eq 'WA_SWING_DANCE' ) {      #Ritmo Contagiante
+        if ( $handle eq 'WA_SWING_DANCE' ) {      #Ritmo Contagiante
             return;
         }
-        if ( $name_display eq 'WA_SYMPHONY_OF_LOVER' ) {    #Balada Sinfônica
+        if ( $handle eq 'WA_SYMPHONY_OF_LOVER' ) {    #Balada Sinfônica
             return;
         }
-        if ( $name_display eq 'WA_MOONLIT_SERENADE' ) {     #Serenata ao Luar
+        if ( $handle eq 'WA_MOONLIT_SERENADE' ) {     #Serenata ao Luar
             return;
         }
-        if ( $name_display eq 'WM_LESSON' ) {               #Domínio Musical
+        if ( $handle eq 'WM_LESSON' ) {               #Domínio Musical
             return;
         }
-        if ( $name_display eq 'WM_METALICSOUND' ) {         #Ruído Estridente
+        if ( $handle eq 'WM_METALICSOUND' ) {         #Ruído Estridente
             return;
         }
-        if ( $name_display eq 'WM_REVERBERATION' ) {        #Ressonância
+        if ( $handle eq 'WM_REVERBERATION' ) {        #Ressonância
             return;
         }
-        if ( $name_display eq 'WM_DOMINION_IMPULSE' ) {     #Ativar Ressonância
+        if ( $handle eq 'WM_DOMINION_IMPULSE' ) {     #Ativar Ressonância
             return;
         }
-        if ( $name_display eq 'WM_SEVERE_RAINSTORM' ) { #Temporal de Mil Flechas
+        if ( $handle eq 'WM_SEVERE_RAINSTORM' ) { #Temporal de Mil Flechas
             return;
         }
-        if ( $name_display eq 'WM_POEMOFNETHERWORLD' ) {    #Poema de Nifflheim
+        if ( $handle eq 'WM_POEMOFNETHERWORLD' ) {    #Poema de Nifflheim
             return;
         }
-        if ( $name_display eq 'WM_VOICEOFSIREN' ) {         #Canto da Sereia
+        if ( $handle eq 'WM_VOICEOFSIREN' ) {         #Canto da Sereia
             return;
         }
-        if ( $name_display eq 'WM_DEADHILLHERE' ) {         #Réquiem de Orfeu
+        if ( $handle eq 'WM_DEADHILLHERE' ) {         #Réquiem de Orfeu
             return;
         }
-        if ( $name_display eq 'WM_LULLABY_DEEPSLEEP' ) {    #Melodia de Morfeu
+        if ( $handle eq 'WM_LULLABY_DEEPSLEEP' ) {    #Melodia de Morfeu
             return;
         }
-        if ( $name_display eq 'WM_SIRCLEOFNATURE' ) {       #Sibilo de Eir
+        if ( $handle eq 'WM_SIRCLEOFNATURE' ) {       #Sibilo de Eir
             return;
         }
-        if ( $name_display eq 'WM_RANDOMIZESPELL' ) {       #Improviso
+        if ( $handle eq 'WM_RANDOMIZESPELL' ) {       #Improviso
             return;
         }
-        if ( $name_display eq 'WM_GLOOMYDAY' ) {            #Ode a Hela
+        if ( $handle eq 'WM_GLOOMYDAY' ) {            #Ode a Hela
             return;
         }
-        if ( $name_display eq 'WM_GREAT_ECHO' ) {           #Brado de Odin
+        if ( $handle eq 'WM_GREAT_ECHO' ) {           #Brado de Odin
             return;
         }
-        if ( $name_display eq 'WM_SONG_OF_MANA' ) {         #Canção de Alfheim
+        if ( $handle eq 'WM_SONG_OF_MANA' ) {         #Canção de Alfheim
             return;
         }
-        if ( $name_display eq 'WM_DANCE_WITH_WUG' ) {       #Dança com Lobos
+        if ( $handle eq 'WM_DANCE_WITH_WUG' ) {       #Dança com Lobos
             return;
         }
-        if ( $name_display eq 'WM_SOUND_OF_DESTRUCTION' )
+        if ( $handle eq 'WM_SOUND_OF_DESTRUCTION' )
         {    #Prelúdio do Ragnarök
             return;
         }
-        if ( $name_display eq 'WM_SATURDAY_NIGHT_FEVER' )
+        if ( $handle eq 'WM_SATURDAY_NIGHT_FEVER' )
         {    #Embalos de Sábado a Noite
             return;
         }
-        if ( $name_display eq 'WM_LERADS_DEW' ) {    #Orvalho de Idun
+        if ( $handle eq 'WM_LERADS_DEW' ) {    #Orvalho de Idun
             return;
         }
-        if ( $name_display eq 'WM_MELODYOFSINK' ) {    #Cântico da Iluminação
+        if ( $handle eq 'WM_MELODYOFSINK' ) {    #Cântico da Iluminação
             return;
         }
-        if ( $name_display eq 'WM_BEYOND_OF_WARCRY' ) {    #Clamor de Batalha
+        if ( $handle eq 'WM_BEYOND_OF_WARCRY' ) {    #Clamor de Batalha
             return;
         }
-        if ( $name_display eq 'WM_UNLIMITED_HUMMING_VOICE' ) { #Murmúrio Perene
+        if ( $handle eq 'WM_UNLIMITED_HUMMING_VOICE' ) { #Murmúrio Perene
             return;
         }
-        if ( $name_display eq 'WM_FRIGG_SONG' ) {              #Frigg's Song
+        if ( $handle eq 'WM_FRIGG_SONG' ) {              #Frigg's Song
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {          #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {          #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Professor' ) {                             #Professor
-        if ( $name_display eq 'PF_HPCONVERSION' ) {            #Indulgir
+        if ( $handle eq 'PF_HPCONVERSION' ) {            #Indulgir
             return;
         }
-        if ( $name_display eq 'PF_SOULCHANGE' ) {              #Exalar Alma
+        if ( $handle eq 'PF_SOULCHANGE' ) {              #Exalar Alma
             return;
         }
-        if ( $name_display eq 'PF_SOULBURN' ) {                #Sifão de Alma
+        if ( $handle eq 'PF_SOULBURN' ) {                #Sifão de Alma
             return;
         }
-        if ( $name_display eq 'PF_MINDBREAKER' ) {             #Enlouquecedor
+        if ( $handle eq 'PF_MINDBREAKER' ) {             #Enlouquecedor
             return;
         }
-        if ( $name_display eq 'PF_MEMORIZE' ) {                #Presciência
+        if ( $handle eq 'PF_MEMORIZE' ) {                #Presciência
             return;
         }
-        if ( $name_display eq 'PF_FOGWALL' ) {                 #Bruma Ofuscante
+        if ( $handle eq 'PF_FOGWALL' ) {                 #Bruma Ofuscante
             return;
         }
-        if ( $name_display eq 'PF_SPIDERWEB' ) {               #Prisão de Teia
+        if ( $handle eq 'PF_SPIDERWEB' ) {               #Prisão de Teia
             return;
         }
-        if ( $name_display eq 'PF_DOUBLECASTING' ) {           #Lanças Duplas
+        if ( $handle eq 'PF_DOUBLECASTING' ) {           #Lanças Duplas
             return;
         }
     }
 
     if ( $class eq 'Monk' ) {                                  #Monge
-        if ( $name_display eq 'MO_IRONHAND' ) {                #Punhos de Ferro
+        if ( $handle eq 'MO_IRONHAND' ) {                #Punhos de Ferro
             return;
         }
-        if ( $name_display eq 'MO_SPIRITSRECOVERY' ) {         #Meditação
+        if ( $handle eq 'MO_SPIRITSRECOVERY' ) {         #Meditação
             return;
         }
-        if ( $name_display eq 'MO_CALLSPIRITS' ) {    #Invocar Esfera Espiritual
+        if ( $handle eq 'MO_CALLSPIRITS' ) {    #Invocar Esfera Espiritual
             return;
         }
-        if ( $name_display eq 'MO_ABSORBSPIRITS' )
+        if ( $handle eq 'MO_ABSORBSPIRITS' )
         {    #Absorver Esferas Espirituais
             return;
         }
-        if ( $name_display eq 'MO_TRIPLEATTACK' ) {    #Combo Triplo
+        if ( $handle eq 'MO_TRIPLEATTACK' ) {    #Combo Triplo
             return;
         }
-        if ( $name_display eq 'MO_BODYRELOCATION' ) {    #Passo Etéreo
+        if ( $handle eq 'MO_BODYRELOCATION' ) {    #Passo Etéreo
             return;
         }
-        if ( $name_display eq 'MO_DODGE' ) {             #Cair das Pétalas
+        if ( $handle eq 'MO_DODGE' ) {             #Cair das Pétalas
             return;
         }
-        if ( $name_display eq 'MO_INVESTIGATE' ) {       #Impacto Psíquico
+        if ( $handle eq 'MO_INVESTIGATE' ) {       #Impacto Psíquico
             return;
         }
-        if ( $name_display eq 'MO_FINGEROFFENSIVE' )
+        if ( $handle eq 'MO_FINGEROFFENSIVE' )
         {    #Disparo de Esferas Espirituais
             return;
         }
-        if ( $name_display eq 'MO_STEELBODY' ) {    #Corpo Fechado
+        if ( $handle eq 'MO_STEELBODY' ) {    #Corpo Fechado
             return;
         }
-        if ( $name_display eq 'MO_BLADESTOP' ) {    #Dilema
+        if ( $handle eq 'MO_BLADESTOP' ) {    #Dilema
             return;
         }
-        if ( $name_display eq 'MO_EXPLOSIONSPIRITS' ) {    #Fúria Interior
+        if ( $handle eq 'MO_EXPLOSIONSPIRITS' ) {    #Fúria Interior
             return;
         }
-        if ( $name_display eq 'MO_EXTREMITYFIST' ) {    #Punho Supremo de Asura
+        if ( $handle eq 'MO_EXTREMITYFIST' ) {    #Punho Supremo de Asura
             return;
         }
-        if ( $name_display eq 'MO_CHAINCOMBO' ) {       #Combo Quádruplo
+        if ( $handle eq 'MO_CHAINCOMBO' ) {       #Combo Quádruplo
             return;
         }
-        if ( $name_display eq 'MO_COMBOFINISH' ) {      #O Último Dragão
+        if ( $handle eq 'MO_COMBOFINISH' ) {      #O Último Dragão
             return;
         }
-        if ( $name_display eq 'MO_KITRANSLATION' ) {    #Ki Translation
+        if ( $handle eq 'MO_KITRANSLATION' ) {    #Ki Translation
             return;
         }
-        if ( $name_display eq 'MO_BALKYOUNG' ) {        #Ki Explosion
+        if ( $handle eq 'MO_BALKYOUNG' ) {        #Ki Explosion
             return;
         }
     }
 
     if ( $class eq 'Oboro' ) {                          #Oboro
-        if ( $name_display eq 'KO_YAMIKUMO' ) {         #Refúgio das Sombras
+        if ( $handle eq 'KO_YAMIKUMO' ) {         #Refúgio das Sombras
             return;
         }
-        if ( $name_display eq 'KO_RIGHT' ) {    #Perícia com Mão Direita
+        if ( $handle eq 'KO_RIGHT' ) {    #Perícia com Mão Direita
             return;
         }
-        if ( $name_display eq 'KO_LEFT' ) {     #Perícia com Mão Esquerda
+        if ( $handle eq 'KO_LEFT' ) {     #Perícia com Mão Esquerda
             return;
         }
-        if ( $name_display eq 'KO_JYUMONJIKIRI' ) {    #Impacto Cruzado
+        if ( $handle eq 'KO_JYUMONJIKIRI' ) {    #Impacto Cruzado
             return;
         }
-        if ( $name_display eq 'KO_SETSUDAN' ) {        #Corte Espiritual
+        if ( $handle eq 'KO_SETSUDAN' ) {        #Corte Espiritual
             return;
         }
-        if ( $name_display eq 'KO_BAKURETSU' ) {       #Kunai Explosiva
+        if ( $handle eq 'KO_BAKURETSU' ) {       #Kunai Explosiva
             return;
         }
-        if ( $name_display eq 'KO_HAPPOKUNAI' ) {      #Turbilhão de Kunais
+        if ( $handle eq 'KO_HAPPOKUNAI' ) {      #Turbilhão de Kunais
             return;
         }
-        if ( $name_display eq 'KO_MUCHANAGE' ) {       #Explosão de Moedas
+        if ( $handle eq 'KO_MUCHANAGE' ) {       #Explosão de Moedas
             return;
         }
-        if ( $name_display eq 'KO_HUUMARANKA' ) {      #Turbilhão de Pétalas
+        if ( $handle eq 'KO_HUUMARANKA' ) {      #Turbilhão de Pétalas
             return;
         }
-        if ( $name_display eq 'KO_MAKIBISHI' ) {       #Estrepes
+        if ( $handle eq 'KO_MAKIBISHI' ) {       #Estrepes
             return;
         }
-        if ( $name_display eq 'KO_MEIKYOUSISUI' ) {    #Purificação da Alma
+        if ( $handle eq 'KO_MEIKYOUSISUI' ) {    #Purificação da Alma
             return;
         }
-        if ( $name_display eq 'KO_ZANZOU' ) {    #Genjutsu Clone das Sombras
+        if ( $handle eq 'KO_ZANZOU' ) {    #Genjutsu Clone das Sombras
             return;
         }
-        if ( $name_display eq 'KO_KYOUGAKU' ) {    #Genjutsu Assalto das Sombras
+        if ( $handle eq 'KO_KYOUGAKU' ) {    #Genjutsu Assalto das Sombras
             return;
         }
-        if ( $name_display eq 'KO_JYUSATSU' ) {    #Genjutsu Chamado da Morte
+        if ( $handle eq 'KO_JYUSATSU' ) {    #Genjutsu Chamado da Morte
             return;
         }
-        if ( $name_display eq 'KO_KAHU_ENTEN' ) {    #Amuleto Espiritual Fogo
+        if ( $handle eq 'KO_KAHU_ENTEN' ) {    #Amuleto Espiritual Fogo
             return;
         }
-        if ( $name_display eq 'KO_HYOUHU_HUBUKI' ) {   #Amuleto Espiritual Água
+        if ( $handle eq 'KO_HYOUHU_HUBUKI' ) {   #Amuleto Espiritual Água
             return;
         }
-        if ( $name_display eq 'KO_KAZEHU_SEIRAN' ) {   #Amuleto Espiritual Vento
+        if ( $handle eq 'KO_KAZEHU_SEIRAN' ) {   #Amuleto Espiritual Vento
             return;
         }
-        if ( $name_display eq 'KO_DOHU_KOUKAI' ) {     #Amuleto Espiritual Terra
+        if ( $handle eq 'KO_DOHU_KOUKAI' ) {     #Amuleto Espiritual Terra
             return;
         }
-        if ( $name_display eq 'KO_KAIHOU' ) {    #Arremessar Amuleto Espiritual
+        if ( $handle eq 'KO_KAIHOU' ) {    #Arremessar Amuleto Espiritual
             return;
         }
-        if ( $name_display eq 'KO_ZENKAI' ) {    #Voragem Espiritual
+        if ( $handle eq 'KO_ZENKAI' ) {    #Voragem Espiritual
             return;
         }
-        if ( $name_display eq 'KO_GENWAKU' ) {    #Genjutsu Substituição
+        if ( $handle eq 'KO_GENWAKU' ) {    #Genjutsu Substituição
             return;
         }
-        if ( $name_display eq 'KO_IZAYOI' ) {     #Inspiração
+        if ( $handle eq 'KO_IZAYOI' ) {     #Inspiração
             return;
         }
-        if ( $name_display eq 'OB_ZANGETSU' ) {    #Distorção Crescente
+        if ( $handle eq 'OB_ZANGETSU' ) {    #Distorção Crescente
             return;
         }
-        if ( $name_display eq 'OB_OBOROGENSOU' ) {    #Ilusão do Luar
+        if ( $handle eq 'OB_OBOROGENSOU' ) {    #Ilusão do Luar
             return;
         }
-        if ( $name_display eq 'OB_AKAITSUKI' ) {      #Luar Sinistro
+        if ( $handle eq 'OB_AKAITSUKI' ) {      #Luar Sinistro
             return;
         }
     }
 
     if ( $class eq 'Sage' ) {                         #Sábio
-        if ( $name_display eq 'WZ_ESTIMATION' ) {     #Sentido Sobrenatural
+        if ( $handle eq 'WZ_ESTIMATION' ) {     #Sentido Sobrenatural
             return;
         }
-        if ( $name_display eq 'WZ_EARTHSPIKE' ) {     #Coluna de Pedra
+        if ( $handle eq 'WZ_EARTHSPIKE' ) {     #Coluna de Pedra
             return;
         }
-        if ( $name_display eq 'WZ_HEAVENDRIVE' ) {    #Fúria da Terra
+        if ( $handle eq 'WZ_HEAVENDRIVE' ) {    #Fúria da Terra
             return;
         }
-        if ( $name_display eq 'SA_ADVANCEDBOOK' ) {    #Estudo de Livros
+        if ( $handle eq 'SA_ADVANCEDBOOK' ) {    #Estudo de Livros
             return;
         }
-        if ( $name_display eq 'SA_CASTCANCEL' ) {      #Cancelar magia
+        if ( $handle eq 'SA_CASTCANCEL' ) {      #Cancelar magia
             return;
         }
-        if ( $name_display eq 'SA_MAGICROD' ) {        #Espelho Mágico
+        if ( $handle eq 'SA_MAGICROD' ) {        #Espelho Mágico
             return;
         }
-        if ( $name_display eq 'SA_SPELLBREAKER' ) {    #Desconcentrar
+        if ( $handle eq 'SA_SPELLBREAKER' ) {    #Desconcentrar
             return;
         }
-        if ( $name_display eq 'SA_FREECAST' ) {        #Conjuração Livre
+        if ( $handle eq 'SA_FREECAST' ) {        #Conjuração Livre
             return;
         }
-        if ( $name_display eq 'SA_AUTOSPELL' ) {       #Desejo Arcano
+        if ( $handle eq 'SA_AUTOSPELL' ) {       #Desejo Arcano
             return;
         }
-        if ( $name_display eq 'SA_FLAMELAUNCHER' ) {    #Encantar com Chama
+        if ( $handle eq 'SA_FLAMELAUNCHER' ) {    #Encantar com Chama
             return;
         }
-        if ( $name_display eq 'SA_FROSTWEAPON' ) {      #Encantar com Geada
+        if ( $handle eq 'SA_FROSTWEAPON' ) {      #Encantar com Geada
             return;
         }
-        if ( $name_display eq 'SA_LIGHTNINGLOADER' ) {    #Encantar com Ventania
+        if ( $handle eq 'SA_LIGHTNINGLOADER' ) {    #Encantar com Ventania
             return;
         }
-        if ( $name_display eq 'SA_SEISMICWEAPON' ) {    #Encantar com Terremoto
+        if ( $handle eq 'SA_SEISMICWEAPON' ) {    #Encantar com Terremoto
             return;
         }
-        if ( $name_display eq 'SA_DRAGONOLOGY' ) {      #Dragonologia
+        if ( $handle eq 'SA_DRAGONOLOGY' ) {      #Dragonologia
             return;
         }
-        if ( $name_display eq 'SA_VOLCANO' ) {          #Vulcão
+        if ( $handle eq 'SA_VOLCANO' ) {          #Vulcão
             return;
         }
-        if ( $name_display eq 'SA_DELUGE' ) {           #Dilúvio
+        if ( $handle eq 'SA_DELUGE' ) {           #Dilúvio
             return;
         }
-        if ( $name_display eq 'SA_VIOLENTGALE' ) {      #Furacão
+        if ( $handle eq 'SA_VIOLENTGALE' ) {      #Furacão
             return;
         }
-        if ( $name_display eq 'SA_LANDPROTECTOR' ) {    #Proteger Terreno
+        if ( $handle eq 'SA_LANDPROTECTOR' ) {    #Proteger Terreno
             return;
         }
-        if ( $name_display eq 'SA_DISPELL' ) {          #Desencantar
+        if ( $handle eq 'SA_DISPELL' ) {          #Desencantar
             return;
         }
-        if ( $name_display eq 'SA_ABRACADABRA' ) {      #Abracadabra
+        if ( $handle eq 'SA_ABRACADABRA' ) {      #Abracadabra
             return;
         }
-        if ( $name_display eq 'SA_CREATECON' ) {    #Criar Conversor Elemental
+        if ( $handle eq 'SA_CREATECON' ) {    #Criar Conversor Elemental
             return;
         }
-        if ( $name_display eq 'SA_ELEMENTWATER' ) { #Mudança Elemental da Água
+        if ( $handle eq 'SA_ELEMENTWATER' ) { #Mudança Elemental da Água
             return;
         }
-        if ( $name_display eq 'SA_ELEMENTGROUND' )
+        if ( $handle eq 'SA_ELEMENTGROUND' )
         {                                           #Mudança Elemental da Terra
             return;
         }
-        if ( $name_display eq 'SA_ELEMENTFIRE' ) {  #Mudança Elemental do Água
+        if ( $handle eq 'SA_ELEMENTFIRE' ) {  #Mudança Elemental do Água
             return;
         }
-        if ( $name_display eq 'SA_ELEMENTWIND' ) {  #Mudança Elemental do Vento
+        if ( $handle eq 'SA_ELEMENTWIND' ) {  #Mudança Elemental do Vento
             return;
         }
     }
 
     if ( $class eq 'Crusader' ) {                   #Templário
-        if ( $name_display eq 'KN_RIDING' ) {       #Montaria
+        if ( $handle eq 'KN_RIDING' ) {       #Montaria
             return;
         }
-        if ( $name_display eq 'KN_CAVALIERMASTERY' ) {    #Perícia em Montaria
+        if ( $handle eq 'KN_CAVALIERMASTERY' ) {    #Perícia em Montaria
             return;
         }
-        if ( $name_display eq 'KN_SPEARMASTERY' ) {       #Perícia com Lança
+        if ( $handle eq 'KN_SPEARMASTERY' ) {       #Perícia com Lança
             return;
         }
-        if ( $name_display eq 'AL_CURE' ) {               #Medicar
+        if ( $handle eq 'AL_CURE' ) {               #Medicar
             return;
         }
-        if ( $name_display eq 'AL_DP' ) {                 #Proteção Divina
+        if ( $handle eq 'AL_DP' ) {                 #Proteção Divina
             return;
         }
-        if ( $name_display eq 'AL_DEMONBANE' ) {          #Flagelo do Mal
+        if ( $handle eq 'AL_DEMONBANE' ) {          #Flagelo do Mal
             return;
         }
-        if ( $name_display eq 'AL_HEAL' ) {               #Curar
+        if ( $handle eq 'AL_HEAL' ) {               #Curar
             return;
         }
-        if ( $name_display eq 'CR_TRUST' ) {              #Fé
+        if ( $handle eq 'CR_TRUST' ) {              #Fé
             return;
         }
-        if ( $name_display eq 'CR_AUTOGUARD' ) {          #Bloqueio
+        if ( $handle eq 'CR_AUTOGUARD' ) {          #Bloqueio
             return;
         }
-        if ( $name_display eq 'CR_SHIELDCHARGE' ) {       #Punição Divina
+        if ( $handle eq 'CR_SHIELDCHARGE' ) {       #Punição Divina
             return;
         }
-        if ( $name_display eq 'CR_SHIELDBOOMERANG' ) {    #Escudo Bumerangue
+        if ( $handle eq 'CR_SHIELDBOOMERANG' ) {    #Escudo Bumerangue
             return;
         }
-        if ( $name_display eq 'CR_REFLECTSHIELD' ) {      #Escudo Refletor
+        if ( $handle eq 'CR_REFLECTSHIELD' ) {      #Escudo Refletor
             return;
         }
-        if ( $name_display eq 'CR_HOLYCROSS' ) {          #Crux Divinum
+        if ( $handle eq 'CR_HOLYCROSS' ) {          #Crux Divinum
             return;
         }
-        if ( $name_display eq 'CR_GRANDCROSS' ) {         #Crux Magnun
+        if ( $handle eq 'CR_GRANDCROSS' ) {         #Crux Magnun
             return;
         }
-        if ( $name_display eq 'CR_DEVOTION' ) {           #Redenção
+        if ( $handle eq 'CR_DEVOTION' ) {           #Redenção
             return;
         }
-        if ( $name_display eq 'CR_PROVIDENCE' ) {         #Divina Providência
+        if ( $handle eq 'CR_PROVIDENCE' ) {         #Divina Providência
             return;
         }
-        if ( $name_display eq 'CR_DEFENDER' ) {           #Aura Sagrada
+        if ( $handle eq 'CR_DEFENDER' ) {           #Aura Sagrada
             return;
         }
-        if ( $name_display eq 'CR_SPEARQUICKEN' ) {       #Rapidez com Lança
+        if ( $handle eq 'CR_SPEARQUICKEN' ) {       #Rapidez com Lança
             return;
         }
-        if ( $name_display eq 'CR_SHRINK' ) {             #Shrink
+        if ( $handle eq 'CR_SHRINK' ) {             #Shrink
             return;
         }
     }
 
     if ( $class eq 'Acolyte' ) {                          #Noviço
-        if ( $name_display eq 'AL_DP' ) {                 #Proteção Divina
+        if ( $handle eq 'AL_DP' ) {                 #Proteção Divina
             return;
         }
-        if ( $name_display eq 'AL_DEMONBANE' ) {          #Flagelo do Mal
+        if ( $handle eq 'AL_DEMONBANE' ) {          #Flagelo do Mal
             return;
         }
-        if ( $name_display eq 'AL_RUWACH' ) {             #Revelação
+        if ( $handle eq 'AL_RUWACH' ) {             #Revelação
             return;
         }
-        if ( $name_display eq 'AL_PNEUMA' ) {             #Escudo Sagrado
+        if ( $handle eq 'AL_PNEUMA' ) {             #Escudo Sagrado
             return;
         }
-        if ( $name_display eq 'AL_TELEPORT' ) {           #Teleporte
+        if ( $handle eq 'AL_TELEPORT' ) {           #Teleporte
             return;
         }
-        if ( $name_display eq 'AL_WARP' ) {               #Portal
+        if ( $handle eq 'AL_WARP' ) {               #Portal
             return;
         }
-        if ( $name_display eq 'AL_HEAL' ) {               #Curar
+        if ( $handle eq 'AL_HEAL' ) {               #Curar
             return;
         }
-        if ( $name_display eq 'AL_INCAGI' ) {             #Aumentar Agilidade
+        if ( $handle eq 'AL_INCAGI' ) {             #Aumentar Agilidade
             return;
         }
-        if ( $name_display eq 'AL_DECAGI' ) {             #Diminuir Agilidade
+        if ( $handle eq 'AL_DECAGI' ) {             #Diminuir Agilidade
             return;
         }
-        if ( $name_display eq 'AL_HOLYWATER' ) {          #Aqua Benedicta
+        if ( $handle eq 'AL_HOLYWATER' ) {          #Aqua Benedicta
             return;
         }
-        if ( $name_display eq 'AL_CRUCIS' ) {             #Signum Crusis
+        if ( $handle eq 'AL_CRUCIS' ) {             #Signum Crusis
             return;
         }
-        if ( $name_display eq 'AL_ANGELUS' ) {            #Angelus
+        if ( $handle eq 'AL_ANGELUS' ) {            #Angelus
             return;
         }
-        if ( $name_display eq 'AL_BLESSING' ) {           #Benção
+        if ( $handle eq 'AL_BLESSING' ) {           #Benção
             return;
         }
-        if ( $name_display eq 'AL_CURE' ) {               #Medicar
+        if ( $handle eq 'AL_CURE' ) {               #Medicar
             return;
         }
-        if ( $name_display eq 'AL_HOLYLIGHT' ) {          #Luz Divina
+        if ( $handle eq 'AL_HOLYLIGHT' ) {          #Luz Divina
             return;
         }
     }
 
     if ( $class eq 'Soul_Linker' ) {                      #Espiritualista
-        if ( $name_display eq 'SL_ALCHEMIST' ) {    #Espírito do Alquimista
+        if ( $handle eq 'SL_ALCHEMIST' ) {    #Espírito do Alquimista
             return;
         }
-        if ( $name_display eq 'SL_MONK' ) {         #Espírito do Monge
+        if ( $handle eq 'SL_MONK' ) {         #Espírito do Monge
             return;
         }
-        if ( $name_display eq 'SL_STAR' ) {         #Espírito do Mestre Taekwon
+        if ( $handle eq 'SL_STAR' ) {         #Espírito do Mestre Taekwon
             return;
         }
-        if ( $name_display eq 'SL_SAGE' ) {         #Espírito do Sábio
+        if ( $handle eq 'SL_SAGE' ) {         #Espírito do Sábio
             return;
         }
-        if ( $name_display eq 'SL_CRUSADER' ) {     #Espírito do Templário
+        if ( $handle eq 'SL_CRUSADER' ) {     #Espírito do Templário
             return;
         }
-        if ( $name_display eq 'SL_SUPERNOVICE' ) {   #Espírito do Superaprendiz
+        if ( $handle eq 'SL_SUPERNOVICE' ) {   #Espírito do Superaprendiz
             return;
         }
-        if ( $name_display eq 'SL_KNIGHT' ) {        #Espírito do Cavaleiro
+        if ( $handle eq 'SL_KNIGHT' ) {        #Espírito do Cavaleiro
             return;
         }
-        if ( $name_display eq 'SL_WIZARD' ) {        #Espírito do Bruxo
+        if ( $handle eq 'SL_WIZARD' ) {        #Espírito do Bruxo
             return;
         }
-        if ( $name_display eq 'SL_PRIEST' ) {        #Espírito do Sacerdote
+        if ( $handle eq 'SL_PRIEST' ) {        #Espírito do Sacerdote
             return;
         }
-        if ( $name_display eq 'SL_BARDDANCER' ) {    #Espírito dos Artistas
+        if ( $handle eq 'SL_BARDDANCER' ) {    #Espírito dos Artistas
             return;
         }
-        if ( $name_display eq 'SL_ROGUE' ) {         #Espírito do Arruaceiro
+        if ( $handle eq 'SL_ROGUE' ) {         #Espírito do Arruaceiro
             return;
         }
-        if ( $name_display eq 'SL_ASSASIN' ) {       #Espírito do Mercenário
+        if ( $handle eq 'SL_ASSASIN' ) {       #Espírito do Mercenário
             return;
         }
-        if ( $name_display eq 'SL_BLACKSMITH' ) {    #Espírito do Ferreiro
+        if ( $handle eq 'SL_BLACKSMITH' ) {    #Espírito do Ferreiro
             return;
         }
-        if ( $name_display eq 'SL_HUNTER' ) {        #Espírito do Caçador
+        if ( $handle eq 'SL_HUNTER' ) {        #Espírito do Caçador
             return;
         }
-        if ( $name_display eq 'SL_SOULLINKER' ) {   #Espírito do Espiritualista
+        if ( $handle eq 'SL_SOULLINKER' ) {   #Espírito do Espiritualista
             return;
         }
-        if ( $name_display eq 'SL_KAIZEL' ) {       #Kaizel
+        if ( $handle eq 'SL_KAIZEL' ) {       #Kaizel
             return;
         }
-        if ( $name_display eq 'SL_KAAHI' ) {        #Kaahi
+        if ( $handle eq 'SL_KAAHI' ) {        #Kaahi
             return;
         }
-        if ( $name_display eq 'SL_KAUPE' ) {        #Kaupe
+        if ( $handle eq 'SL_KAUPE' ) {        #Kaupe
             return;
         }
-        if ( $name_display eq 'SL_KAITE' ) {        #Kaite
+        if ( $handle eq 'SL_KAITE' ) {        #Kaite
             return;
         }
-        if ( $name_display eq 'SL_KAINA' ) {        #Kaina
+        if ( $handle eq 'SL_KAINA' ) {        #Kaina
             return;
         }
-        if ( $name_display eq 'SL_STIN' ) {         #Estin
+        if ( $handle eq 'SL_STIN' ) {         #Estin
             return;
         }
-        if ( $name_display eq 'SL_STUN' ) {         #Estun
+        if ( $handle eq 'SL_STUN' ) {         #Estun
             return;
         }
-        if ( $name_display eq 'SL_SMA' ) {          #Esma
+        if ( $handle eq 'SL_SMA' ) {          #Esma
             return;
         }
-        if ( $name_display eq 'SL_SWOO' ) {         #Eswoo
+        if ( $handle eq 'SL_SWOO' ) {         #Eswoo
             return;
         }
-        if ( $name_display eq 'SL_SKE' ) {          #Eske
+        if ( $handle eq 'SL_SKE' ) {          #Eske
             return;
         }
-        if ( $name_display eq 'SL_SKA' ) {          #Eska
+        if ( $handle eq 'SL_SKA' ) {          #Eska
             return;
         }
-        if ( $name_display eq 'SL_HIGH' ) {    #Espírito dos Transcendentais
+        if ( $handle eq 'SL_HIGH' ) {    #Espírito dos Transcendentais
             return;
         }
     }
 
     if ( $class eq 'Minstrel' ) {              #Menestrel
-        if ( $name_display eq 'MI_RUSH_WINDMILL' ) {    #Sinfonia dos Ventos
+        if ( $handle eq 'MI_RUSH_WINDMILL' ) {    #Sinfonia dos Ventos
             return;
         }
-        if ( $name_display eq 'MI_ECHOSONG' ) {         #Canção de Balder
+        if ( $handle eq 'MI_ECHOSONG' ) {         #Canção de Balder
             return;
         }
-        if ( $name_display eq 'MI_HARMONIZE' ) {        #Harmonizar
+        if ( $handle eq 'MI_HARMONIZE' ) {        #Harmonizar
             return;
         }
-        if ( $name_display eq 'WM_LESSON' ) {           #Domínio Musical
+        if ( $handle eq 'WM_LESSON' ) {           #Domínio Musical
             return;
         }
-        if ( $name_display eq 'WM_METALICSOUND' ) {     #Ruído Estridente
+        if ( $handle eq 'WM_METALICSOUND' ) {     #Ruído Estridente
             return;
         }
-        if ( $name_display eq 'WM_REVERBERATION' ) {    #Ressonância
+        if ( $handle eq 'WM_REVERBERATION' ) {    #Ressonância
             return;
         }
-        if ( $name_display eq 'WM_DOMINION_IMPULSE' ) {    #Ativar Ressonância
+        if ( $handle eq 'WM_DOMINION_IMPULSE' ) {    #Ativar Ressonância
             return;
         }
-        if ( $name_display eq 'WM_SEVERE_RAINSTORM' ) { #Temporal de Mil Flechas
+        if ( $handle eq 'WM_SEVERE_RAINSTORM' ) { #Temporal de Mil Flechas
             return;
         }
-        if ( $name_display eq 'WM_POEMOFNETHERWORLD' ) {    #Poema de Nifflheim
+        if ( $handle eq 'WM_POEMOFNETHERWORLD' ) {    #Poema de Nifflheim
             return;
         }
-        if ( $name_display eq 'WM_VOICEOFSIREN' ) {         #Canto da Sereia
+        if ( $handle eq 'WM_VOICEOFSIREN' ) {         #Canto da Sereia
             return;
         }
-        if ( $name_display eq 'WM_DEADHILLHERE' ) {         #Réquiem de Orfeu
+        if ( $handle eq 'WM_DEADHILLHERE' ) {         #Réquiem de Orfeu
             return;
         }
-        if ( $name_display eq 'WM_LULLABY_DEEPSLEEP' ) {    #Melodia de Morfeu
+        if ( $handle eq 'WM_LULLABY_DEEPSLEEP' ) {    #Melodia de Morfeu
             return;
         }
-        if ( $name_display eq 'WM_SIRCLEOFNATURE' ) {       #Sibilo de Eir
+        if ( $handle eq 'WM_SIRCLEOFNATURE' ) {       #Sibilo de Eir
             return;
         }
-        if ( $name_display eq 'WM_RANDOMIZESPELL' ) {       #Improviso
+        if ( $handle eq 'WM_RANDOMIZESPELL' ) {       #Improviso
             return;
         }
-        if ( $name_display eq 'WM_GLOOMYDAY' ) {            #Ode a Hela
+        if ( $handle eq 'WM_GLOOMYDAY' ) {            #Ode a Hela
             return;
         }
-        if ( $name_display eq 'WM_GREAT_ECHO' ) {           #Brado de Odin
+        if ( $handle eq 'WM_GREAT_ECHO' ) {           #Brado de Odin
             return;
         }
-        if ( $name_display eq 'WM_SONG_OF_MANA' ) {         #Canção de Alfheim
+        if ( $handle eq 'WM_SONG_OF_MANA' ) {         #Canção de Alfheim
             return;
         }
-        if ( $name_display eq 'WM_DANCE_WITH_WUG' ) {       #Dança com Lobos
+        if ( $handle eq 'WM_DANCE_WITH_WUG' ) {       #Dança com Lobos
             return;
         }
-        if ( $name_display eq 'WM_SOUND_OF_DESTRUCTION' )
+        if ( $handle eq 'WM_SOUND_OF_DESTRUCTION' )
         {    #Prelúdio do Ragnarök
             return;
         }
-        if ( $name_display eq 'WM_SATURDAY_NIGHT_FEVER' )
+        if ( $handle eq 'WM_SATURDAY_NIGHT_FEVER' )
         {    #Embalos de Sábado a Noite
             return;
         }
-        if ( $name_display eq 'WM_LERADS_DEW' ) {    #Orvalho de Idun
+        if ( $handle eq 'WM_LERADS_DEW' ) {    #Orvalho de Idun
             return;
         }
-        if ( $name_display eq 'WM_MELODYOFSINK' ) {    #Cântico da Iluminação
+        if ( $handle eq 'WM_MELODYOFSINK' ) {    #Cântico da Iluminação
             return;
         }
-        if ( $name_display eq 'WM_BEYOND_OF_WARCRY' ) {    #Clamor de Batalha
+        if ( $handle eq 'WM_BEYOND_OF_WARCRY' ) {    #Clamor de Batalha
             return;
         }
-        if ( $name_display eq 'WM_UNLIMITED_HUMMING_VOICE' ) { #Murmúrio Perene
+        if ( $handle eq 'WM_UNLIMITED_HUMMING_VOICE' ) { #Murmúrio Perene
             return;
         }
-        if ( $name_display eq 'WM_FRIGG_SONG' ) {              #Frigg's Song
+        if ( $handle eq 'WM_FRIGG_SONG' ) {              #Frigg's Song
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {          #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {          #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Mechanic' ) {                              #Mecânico
-        if ( $name_display eq 'NC_MADOLICENCE' ) {    #Licença de Pilotagem
+        if ( $handle eq 'NC_MADOLICENCE' ) {    #Licença de Pilotagem
             return;
         }
-        if ( $name_display eq 'NC_BOOSTKNUCKLE' ) {    #Punho Foguete
+        if ( $handle eq 'NC_BOOSTKNUCKLE' ) {    #Punho Foguete
             return;
         }
-        if ( $name_display eq 'NC_PILEBUNKER' ) {      #Bate Estaca
+        if ( $handle eq 'NC_PILEBUNKER' ) {      #Bate Estaca
             return;
         }
-        if ( $name_display eq 'NC_VULCANARM' ) {       #Metralhadora
+        if ( $handle eq 'NC_VULCANARM' ) {       #Metralhadora
             return;
         }
-        if ( $name_display eq 'NC_FLAMELAUNCHER' ) {    #Lança Chamas
+        if ( $handle eq 'NC_FLAMELAUNCHER' ) {    #Lança Chamas
             return;
         }
-        if ( $name_display eq 'NC_COLDSLOWER' ) {       #Gás Criogênico
+        if ( $handle eq 'NC_COLDSLOWER' ) {       #Gás Criogênico
             return;
         }
-        if ( $name_display eq 'NC_ARMSCANNON' ) {       #Canhão
+        if ( $handle eq 'NC_ARMSCANNON' ) {       #Canhão
             return;
         }
-        if ( $name_display eq 'NC_ACCELERATION' ) {     #Aceleração
+        if ( $handle eq 'NC_ACCELERATION' ) {     #Aceleração
             return;
         }
-        if ( $name_display eq 'NC_HOVERING' ) {         #Planar
+        if ( $handle eq 'NC_HOVERING' ) {         #Planar
             return;
         }
-        if ( $name_display eq 'NC_F_SIDESLIDE' ) {      #Propulsão Traseira
+        if ( $handle eq 'NC_F_SIDESLIDE' ) {      #Propulsão Traseira
             return;
         }
-        if ( $name_display eq 'NC_B_SIDESLIDE' ) {      #Propulsão Dianteira
+        if ( $handle eq 'NC_B_SIDESLIDE' ) {      #Propulsão Dianteira
             return;
         }
-        if ( $name_display eq 'NC_MAINFRAME' ) {        #Reforçar Estrutura
+        if ( $handle eq 'NC_MAINFRAME' ) {        #Reforçar Estrutura
             return;
         }
-        if ( $name_display eq 'NC_SELFDESTRUCTION' ) {    #Autodestruição
+        if ( $handle eq 'NC_SELFDESTRUCTION' ) {    #Autodestruição
             return;
         }
-        if ( $name_display eq 'NC_SHAPESHIFT' ) {         #Reconfigurar Elemento
+        if ( $handle eq 'NC_SHAPESHIFT' ) {         #Reconfigurar Elemento
             return;
         }
-        if ( $name_display eq 'NC_EMERGENCYCOOL' ) {      #Resfriamento
+        if ( $handle eq 'NC_EMERGENCYCOOL' ) {      #Resfriamento
             return;
         }
-        if ( $name_display eq 'NC_INFRAREDSCAN' ) {       #Sensor Infravermelho
+        if ( $handle eq 'NC_INFRAREDSCAN' ) {       #Sensor Infravermelho
             return;
         }
-        if ( $name_display eq 'NC_ANALYZE' ) {            #Analisar
+        if ( $handle eq 'NC_ANALYZE' ) {            #Analisar
             return;
         }
-        if ( $name_display eq 'NC_MAGNETICFIELD' ) {      #Campo Magnético
+        if ( $handle eq 'NC_MAGNETICFIELD' ) {      #Campo Magnético
             return;
         }
-        if ( $name_display eq 'NC_NEUTRALBARRIER' ) {     #Campo Protetor
+        if ( $handle eq 'NC_NEUTRALBARRIER' ) {     #Campo Protetor
             return;
         }
-        if ( $name_display eq 'NC_STEALTHFIELD' ) {    #Campo de Invisibilidade
+        if ( $handle eq 'NC_STEALTHFIELD' ) {    #Campo de Invisibilidade
             return;
         }
-        if ( $name_display eq 'NC_REPAIR' ) {          #Reparar
+        if ( $handle eq 'NC_REPAIR' ) {          #Reparar
             return;
         }
-        if ( $name_display eq 'NC_TRAININGAXE' ) {     #Maestria com Machados
+        if ( $handle eq 'NC_TRAININGAXE' ) {     #Maestria com Machados
             return;
         }
-        if ( $name_display eq 'NC_RESEARCHFE' ) {      #Sabedoria de Hefesto
+        if ( $handle eq 'NC_RESEARCHFE' ) {      #Sabedoria de Hefesto
             return;
         }
-        if ( $name_display eq 'NC_AXEBOOMERANG' ) {    #Arremesso de Machado
+        if ( $handle eq 'NC_AXEBOOMERANG' ) {    #Arremesso de Machado
             return;
         }
-        if ( $name_display eq 'NC_POWERSWING' ) {      #Brandir Machado
+        if ( $handle eq 'NC_POWERSWING' ) {      #Brandir Machado
             return;
         }
-        if ( $name_display eq 'NC_AXETORNADO' ) {      #Fúria do Furacão
+        if ( $handle eq 'NC_AXETORNADO' ) {      #Fúria do Furacão
             return;
         }
-        if ( $name_display eq 'NC_SILVERSNIPER' ) {    #Artilharia Caçadora
+        if ( $handle eq 'NC_SILVERSNIPER' ) {    #Artilharia Caçadora
             return;
         }
-        if ( $name_display eq 'NC_MAGICDECOY' ) {      #Artilharia Arcana
+        if ( $handle eq 'NC_MAGICDECOY' ) {      #Artilharia Arcana
             return;
         }
-        if ( $name_display eq 'NC_DISJOINT' ) {        #Remover Artilharia
+        if ( $handle eq 'NC_DISJOINT' ) {        #Remover Artilharia
             return;
         }
-        if ( $name_display eq 'NC_MAGMA_ERUPTION' ) {    #Magma Eruption
+        if ( $handle eq 'NC_MAGMA_ERUPTION' ) {    #Magma Eruption
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Sorcerer' ) {                        #Feiticeiro
-        if ( $name_display eq 'SO_FIREWALK' ) {          #Passos da Salamandra
+        if ( $handle eq 'SO_FIREWALK' ) {          #Passos da Salamandra
             return;
         }
-        if ( $name_display eq 'SO_ELECTRICWALK' ) {      #Passos da Sílfide
+        if ( $handle eq 'SO_ELECTRICWALK' ) {      #Passos da Sílfide
             return;
         }
-        if ( $name_display eq 'SO_SPELLFIST' ) {         #Punho Arcano
+        if ( $handle eq 'SO_SPELLFIST' ) {         #Punho Arcano
             return;
         }
-        if ( $name_display eq 'SO_EARTHGRAVE' ) {        #Castigo de Nerthus
+        if ( $handle eq 'SO_EARTHGRAVE' ) {        #Castigo de Nerthus
             return;
         }
-        if ( $name_display eq 'SO_DIAMONDDUST' ) {       #Pó de Diamante
+        if ( $handle eq 'SO_DIAMONDDUST' ) {       #Pó de Diamante
             return;
         }
-        if ( $name_display eq 'SO_POISON_BUSTER' ) {     #Implosão Tóxica
+        if ( $handle eq 'SO_POISON_BUSTER' ) {     #Implosão Tóxica
             return;
         }
-        if ( $name_display eq 'SO_PSYCHIC_WAVE' ) {      #Onda Psíquica
+        if ( $handle eq 'SO_PSYCHIC_WAVE' ) {      #Onda Psíquica
             return;
         }
-        if ( $name_display eq 'SO_CLOUD_KILL' ) {    #Maldição de Jormungand
+        if ( $handle eq 'SO_CLOUD_KILL' ) {    #Maldição de Jormungand
             return;
         }
-        if ( $name_display eq 'SO_STRIKING' ) {      #Encanto de Órion
+        if ( $handle eq 'SO_STRIKING' ) {      #Encanto de Órion
             return;
         }
-        if ( $name_display eq 'SO_WARMER' ) {        #Aquecer Terreno
+        if ( $handle eq 'SO_WARMER' ) {        #Aquecer Terreno
             return;
         }
-        if ( $name_display eq 'SO_VACUUM_EXTREME' ) {    #Tornado
+        if ( $handle eq 'SO_VACUUM_EXTREME' ) {    #Tornado
             return;
         }
-        if ( $name_display eq 'SO_VARETYR_SPEAR' ) {     #Lanças dos Aesir
+        if ( $handle eq 'SO_VARETYR_SPEAR' ) {     #Lanças dos Aesir
             return;
         }
-        if ( $name_display eq 'SO_ARRULLO' ) {           #Onda Hipnótica
+        if ( $handle eq 'SO_ARRULLO' ) {           #Onda Hipnótica
             return;
         }
-        if ( $name_display eq 'SO_EL_CONTROL' ) {        #Domínio Elemental
+        if ( $handle eq 'SO_EL_CONTROL' ) {        #Domínio Elemental
             return;
         }
-        if ( $name_display eq 'SO_SUMMON_AGNI' ) {       #Invocar Agni
+        if ( $handle eq 'SO_SUMMON_AGNI' ) {       #Invocar Agni
             return;
         }
-        if ( $name_display eq 'SO_SUMMON_AQUA' ) {       #Invocar Varuna
+        if ( $handle eq 'SO_SUMMON_AQUA' ) {       #Invocar Varuna
             return;
         }
-        if ( $name_display eq 'SO_SUMMON_VENTUS' ) {     #Invocar Vayu
+        if ( $handle eq 'SO_SUMMON_VENTUS' ) {     #Invocar Vayu
             return;
         }
-        if ( $name_display eq 'SO_SUMMON_TERA' ) {       #Invocar Chandra
+        if ( $handle eq 'SO_SUMMON_TERA' ) {       #Invocar Chandra
             return;
         }
-        if ( $name_display eq 'SO_EL_ACTION' ) {         #Incitar Elemental
+        if ( $handle eq 'SO_EL_ACTION' ) {         #Incitar Elemental
             return;
         }
-        if ( $name_display eq 'SO_EL_ANALYSIS' ) {       #Análise Elemental
+        if ( $handle eq 'SO_EL_ANALYSIS' ) {       #Análise Elemental
             return;
         }
-        if ( $name_display eq 'SO_EL_SYMPATHY' ) {       #Empatia Elemental
+        if ( $handle eq 'SO_EL_SYMPATHY' ) {       #Empatia Elemental
             return;
         }
-        if ( $name_display eq 'SO_EL_CURE' ) {           #Troca Espiritual
+        if ( $handle eq 'SO_EL_CURE' ) {           #Troca Espiritual
             return;
         }
-        if ( $name_display eq 'SO_FIRE_INSIGNIA' ) {     #Insígnia do Fogo
+        if ( $handle eq 'SO_FIRE_INSIGNIA' ) {     #Insígnia do Fogo
             return;
         }
-        if ( $name_display eq 'SO_WATER_INSIGNIA' ) {    #Insígnia da Água
+        if ( $handle eq 'SO_WATER_INSIGNIA' ) {    #Insígnia da Água
             return;
         }
-        if ( $name_display eq 'SO_WIND_INSIGNIA' ) {     #Insígnia do Vento
+        if ( $handle eq 'SO_WIND_INSIGNIA' ) {     #Insígnia do Vento
             return;
         }
-        if ( $name_display eq 'SO_EARTH_INSIGNIA' ) {    #Insígnia da Terra
+        if ( $handle eq 'SO_EARTH_INSIGNIA' ) {    #Insígnia da Terra
             return;
         }
-        if ( $name_display eq 'SO_ELEMENTAL_SHIELD' ) {    #Elemental Shield
+        if ( $handle eq 'SO_ELEMENTAL_SHIELD' ) {    #Elemental Shield
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {      #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {      #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Bard' ) {                              #Bardo
-        if ( $name_display eq 'BA_MUSICALLESSON' ) {       #Lições de Música
+        if ( $handle eq 'BA_MUSICALLESSON' ) {       #Lições de Música
             return;
         }
-        if ( $name_display eq 'BA_MUSICALSTRIKE' ) {       #Flecha Melódica
+        if ( $handle eq 'BA_MUSICALSTRIKE' ) {       #Flecha Melódica
             return;
         }
-        if ( $name_display eq 'BA_DISSONANCE' ) {          #Dissonância
+        if ( $handle eq 'BA_DISSONANCE' ) {          #Dissonância
             return;
         }
-        if ( $name_display eq 'BA_FROSTJOKER' ) {          #Piada Infame
+        if ( $handle eq 'BA_FROSTJOKER' ) {          #Piada Infame
             return;
         }
-        if ( $name_display eq 'BA_WHISTLE' ) {             #Assovio
+        if ( $handle eq 'BA_WHISTLE' ) {             #Assovio
             return;
         }
-        if ( $name_display eq 'BA_ASSASSINCROSS' ) {    #Crepúsculo Sangrento
+        if ( $handle eq 'BA_ASSASSINCROSS' ) {    #Crepúsculo Sangrento
             return;
         }
-        if ( $name_display eq 'BA_POEMBRAGI' ) {        #Poema de Bragi
+        if ( $handle eq 'BA_POEMBRAGI' ) {        #Poema de Bragi
             return;
         }
-        if ( $name_display eq 'BA_APPLEIDUN' ) {        #Maçãs de Idun
+        if ( $handle eq 'BA_APPLEIDUN' ) {        #Maçãs de Idun
             return;
         }
-        if ( $name_display eq 'BD_ADAPTATION' ) {       #Encerramento
+        if ( $handle eq 'BD_ADAPTATION' ) {       #Encerramento
             return;
         }
-        if ( $name_display eq 'BD_ENCORE' ) {           #Bis
+        if ( $handle eq 'BD_ENCORE' ) {           #Bis
             return;
         }
-        if ( $name_display eq 'BD_LULLABY' ) {          #Cantiga de Ninar
+        if ( $handle eq 'BD_LULLABY' ) {          #Cantiga de Ninar
             return;
         }
-        if ( $name_display eq 'BD_RICHMANKIM' ) {       #Banquete de Njord
+        if ( $handle eq 'BD_RICHMANKIM' ) {       #Banquete de Njord
             return;
         }
-        if ( $name_display eq 'BD_ETERNALCHAOS' ) {     #Ritmo Caótico
+        if ( $handle eq 'BD_ETERNALCHAOS' ) {     #Ritmo Caótico
             return;
         }
-        if ( $name_display eq 'BD_DRUMBATTLEFIELD' ) {    #Rufar dos Tambores
+        if ( $handle eq 'BD_DRUMBATTLEFIELD' ) {    #Rufar dos Tambores
             return;
         }
-        if ( $name_display eq 'BD_RINGNIBELUNGEN' ) {     #Anel de Nibelungos
+        if ( $handle eq 'BD_RINGNIBELUNGEN' ) {     #Anel de Nibelungos
             return;
         }
-        if ( $name_display eq 'BD_ROKISWEIL' ) {          #Lamento de Loki
+        if ( $handle eq 'BD_ROKISWEIL' ) {          #Lamento de Loki
             return;
         }
-        if ( $name_display eq 'BD_INTOABYSS' ) {          #Canção Preciosa
+        if ( $handle eq 'BD_INTOABYSS' ) {          #Canção Preciosa
             return;
         }
-        if ( $name_display eq 'BD_SIEGFRIED' ) {          #Ode a Siegfried
+        if ( $handle eq 'BD_SIEGFRIED' ) {          #Ode a Siegfried
             return;
         }
-        if ( $name_display eq 'BA_PANGVOICE' ) {          #Pang Voice
+        if ( $handle eq 'BA_PANGVOICE' ) {          #Pang Voice
             return;
         }
     }
 
     if ( $class eq 'Dancer' ) {                           #Odialisca
-        if ( $name_display eq 'DC_DANCINGLESSON' ) {      #Lições de Dança
+        if ( $handle eq 'DC_DANCINGLESSON' ) {      #Lições de Dança
             return;
         }
-        if ( $name_display eq 'DC_THROWARROW' ) {         #Estilingue
+        if ( $handle eq 'DC_THROWARROW' ) {         #Estilingue
             return;
         }
-        if ( $name_display eq 'DC_UGLYDANCE' ) {          #Dança do Ventre
+        if ( $handle eq 'DC_UGLYDANCE' ) {          #Dança do Ventre
             return;
         }
-        if ( $name_display eq 'DC_SCREAM' ) {             #Escândalo
+        if ( $handle eq 'DC_SCREAM' ) {             #Escândalo
             return;
         }
-        if ( $name_display eq 'DC_HUMMING' ) {            #Sibilo
+        if ( $handle eq 'DC_HUMMING' ) {            #Sibilo
             return;
         }
-        if ( $name_display eq 'DC_DONTFORGETME' ) {       #Não Me Abandones
+        if ( $handle eq 'DC_DONTFORGETME' ) {       #Não Me Abandones
             return;
         }
-        if ( $name_display eq 'DC_FORTUNEKISS' ) {        #Beijo da Sorte
+        if ( $handle eq 'DC_FORTUNEKISS' ) {        #Beijo da Sorte
             return;
         }
-        if ( $name_display eq 'DC_SERVICEFORYOU' ) {      #Dança Cigana
+        if ( $handle eq 'DC_SERVICEFORYOU' ) {      #Dança Cigana
             return;
         }
-        if ( $name_display eq 'BD_ADAPTATION' ) {         #Encerramento
+        if ( $handle eq 'BD_ADAPTATION' ) {         #Encerramento
             return;
         }
-        if ( $name_display eq 'BD_ENCORE' ) {             #Bis
+        if ( $handle eq 'BD_ENCORE' ) {             #Bis
             return;
         }
-        if ( $name_display eq 'BD_LULLABY' ) {            #Cantiga de Ninar
+        if ( $handle eq 'BD_LULLABY' ) {            #Cantiga de Ninar
             return;
         }
-        if ( $name_display eq 'BD_RICHMANKIM' ) {         #Banquete de Njord
+        if ( $handle eq 'BD_RICHMANKIM' ) {         #Banquete de Njord
             return;
         }
-        if ( $name_display eq 'BD_ETERNALCHAOS' ) {       #Ritmo Caótico
+        if ( $handle eq 'BD_ETERNALCHAOS' ) {       #Ritmo Caótico
             return;
         }
-        if ( $name_display eq 'BD_DRUMBATTLEFIELD' ) {    #Rufar dos Tambores
+        if ( $handle eq 'BD_DRUMBATTLEFIELD' ) {    #Rufar dos Tambores
             return;
         }
-        if ( $name_display eq 'BD_RINGNIBELUNGEN' ) {     #Anel de Nibelungos
+        if ( $handle eq 'BD_RINGNIBELUNGEN' ) {     #Anel de Nibelungos
             return;
         }
-        if ( $name_display eq 'BD_ROKISWEIL' ) {          #Lamento de Loki
+        if ( $handle eq 'BD_ROKISWEIL' ) {          #Lamento de Loki
             return;
         }
-        if ( $name_display eq 'BD_INTOABYSS' ) {          #Canção Preciosa
+        if ( $handle eq 'BD_INTOABYSS' ) {          #Canção Preciosa
             return;
         }
-        if ( $name_display eq 'BD_SIEGFRIED' ) {          #Ode a Siegfried
+        if ( $handle eq 'BD_SIEGFRIED' ) {          #Ode a Siegfried
             return;
         }
-        if ( $name_display eq 'DC_WINKCHARM' ) {          #Wink of Charm
+        if ( $handle eq 'DC_WINKCHARM' ) {          #Wink of Charm
             return;
         }
     }
 
     if ( $class eq 'Rogue' ) {                            #Arruaceiro
-        if ( $name_display eq 'SM_SWORD' ) {              #Perícia com Espada
+        if ( $handle eq 'SM_SWORD' ) {              #Perícia com Espada
             return;
         }
-        if ( $name_display eq 'AC_VULTURE' ) {            #Olhos de Águia
+        if ( $handle eq 'AC_VULTURE' ) {            #Olhos de Águia
             return;
         }
-        if ( $name_display eq 'AC_DOUBLE' ) {             #Rajada de Flechas
+        if ( $handle eq 'AC_DOUBLE' ) {             #Rajada de Flechas
             return;
         }
-        if ( $name_display eq 'HT_REMOVETRAP' ) {         #Remover Armadilha
+        if ( $handle eq 'HT_REMOVETRAP' ) {         #Remover Armadilha
             return;
         }
-        if ( $name_display eq 'RG_SNATCHER' ) {           #Mãos Leves
+        if ( $handle eq 'RG_SNATCHER' ) {           #Mãos Leves
             return;
         }
-        if ( $name_display eq 'RG_STEALCOIN' ) {          #Afanar
+        if ( $handle eq 'RG_STEALCOIN' ) {          #Afanar
             return;
         }
-        if ( $name_display eq 'RG_BACKSTAP' ) {           #Apunhalar
+        if ( $handle eq 'RG_BACKSTAP' ) {           #Apunhalar
             return;
         }
-        if ( $name_display eq 'RG_TUNNELDRIVE' ) {        #Túnel de Fuga
+        if ( $handle eq 'RG_TUNNELDRIVE' ) {        #Túnel de Fuga
             return;
         }
-        if ( $name_display eq 'RG_RAID' ) {               #Ataque Surpresa
+        if ( $handle eq 'RG_RAID' ) {               #Ataque Surpresa
             return;
         }
-        if ( $name_display eq 'RG_STRIPWEAPON' ) {        #Remover Arma
+        if ( $handle eq 'RG_STRIPWEAPON' ) {        #Remover Arma
             return;
         }
-        if ( $name_display eq 'RG_STRIPSHIELD' ) {        #Remover Escudo
+        if ( $handle eq 'RG_STRIPSHIELD' ) {        #Remover Escudo
             return;
         }
-        if ( $name_display eq 'RG_STRIPARMOR' ) {         #Remover Armadura
+        if ( $handle eq 'RG_STRIPARMOR' ) {         #Remover Armadura
             return;
         }
-        if ( $name_display eq 'RG_STRIPHELM' ) {          #Remover Capacete
+        if ( $handle eq 'RG_STRIPHELM' ) {          #Remover Capacete
             return;
         }
-        if ( $name_display eq 'RG_INTIMIDATE' ) {         #Rapto
+        if ( $handle eq 'RG_INTIMIDATE' ) {         #Rapto
             return;
         }
-        if ( $name_display eq 'RG_GRAFFITI' ) {           #Grafitti
+        if ( $handle eq 'RG_GRAFFITI' ) {           #Grafitti
             return;
         }
-        if ( $name_display eq 'RG_FLAGGRAFFITI' ) {       #Pichar
+        if ( $handle eq 'RG_FLAGGRAFFITI' ) {       #Pichar
             return;
         }
-        if ( $name_display eq 'RG_CLEANER' ) {            #Faxina
+        if ( $handle eq 'RG_CLEANER' ) {            #Faxina
             return;
         }
-        if ( $name_display eq 'RG_GANGSTER' ) {           #Malandragem
+        if ( $handle eq 'RG_GANGSTER' ) {           #Malandragem
             return;
         }
-        if ( $name_display eq 'RG_COMPULSION' ) {         #Extorquir
+        if ( $handle eq 'RG_COMPULSION' ) {         #Extorquir
             return;
         }
-        if ( $name_display eq 'RG_PLAGIARISM' ) {         #Plágio
+        if ( $handle eq 'RG_PLAGIARISM' ) {         #Plágio
             return;
         }
-        if ( $name_display eq 'RG_CLOSECONFINE' ) {       #Close Confine
+        if ( $handle eq 'RG_CLOSECONFINE' ) {       #Close Confine
             return;
         }
     }
 
     if ( $class eq 'Stalker' ) {                          #Desordeiro
-        if ( $name_display eq 'ST_CHASEWALK' ) {          #Espreitar
+        if ( $handle eq 'ST_CHASEWALK' ) {          #Espreitar
             return;
         }
-        if ( $name_display eq 'ST_REJECTSWORD' ) {        #Instinto de Defesa
+        if ( $handle eq 'ST_REJECTSWORD' ) {        #Instinto de Defesa
             return;
         }
-        if ( $name_display eq 'ST_PRESERVE' ) {           #Preservar
+        if ( $handle eq 'ST_PRESERVE' ) {           #Preservar
             return;
         }
-        if ( $name_display eq 'ST_FULLSTRIP' ) {          #Remoção Total
+        if ( $handle eq 'ST_FULLSTRIP' ) {          #Remoção Total
             return;
         }
     }
 
     if ( $class eq 'Hunter' ) {                           #Caçador
-        if ( $name_display eq 'HT_SKIDTRAP' ) {    #Armadilha Escorregadia
+        if ( $handle eq 'HT_SKIDTRAP' ) {    #Armadilha Escorregadia
             return;
         }
-        if ( $name_display eq 'HT_LANDMINE' ) {    #Armadilha Atordoante
+        if ( $handle eq 'HT_LANDMINE' ) {    #Armadilha Atordoante
             return;
         }
-        if ( $name_display eq 'HT_ANKLESNARE' ) {    #Instalar Armadilha
+        if ( $handle eq 'HT_ANKLESNARE' ) {    #Instalar Armadilha
             return;
         }
-        if ( $name_display eq 'HT_SHOCKWAVE' ) {     #Armadilha Extenuante
+        if ( $handle eq 'HT_SHOCKWAVE' ) {     #Armadilha Extenuante
             return;
         }
-        if ( $name_display eq 'HT_SANDMAN' ) {       #Armadilha Sonífera
+        if ( $handle eq 'HT_SANDMAN' ) {       #Armadilha Sonífera
             return;
         }
-        if ( $name_display eq 'HT_FLASHER' ) {       #Armadilha Luminosa
+        if ( $handle eq 'HT_FLASHER' ) {       #Armadilha Luminosa
             return;
         }
-        if ( $name_display eq 'HT_FREEZINGTRAP' ) {    #Armadilha Congelante
+        if ( $handle eq 'HT_FREEZINGTRAP' ) {    #Armadilha Congelante
             return;
         }
-        if ( $name_display eq 'HT_BLASTMINE' ) {       #Instalar Mina
+        if ( $handle eq 'HT_BLASTMINE' ) {       #Instalar Mina
             return;
         }
-        if ( $name_display eq 'HT_CLAYMORETRAP' ) {    #Armadilha Explosiva
+        if ( $handle eq 'HT_CLAYMORETRAP' ) {    #Armadilha Explosiva
             return;
         }
-        if ( $name_display eq 'HT_REMOVETRAP' ) {      #Remover Armadilha
+        if ( $handle eq 'HT_REMOVETRAP' ) {      #Remover Armadilha
             return;
         }
-        if ( $name_display eq 'HT_TALKIEBOX' ) {       #Mensagem Secreta
+        if ( $handle eq 'HT_TALKIEBOX' ) {       #Mensagem Secreta
             return;
         }
-        if ( $name_display eq 'HT_BEASTBANE' ) {       #Flagelo das Feras
+        if ( $handle eq 'HT_BEASTBANE' ) {       #Flagelo das Feras
             return;
         }
-        if ( $name_display eq 'HT_FALCON' ) {          #Adestrar Falcão
+        if ( $handle eq 'HT_FALCON' ) {          #Adestrar Falcão
             return;
         }
-        if ( $name_display eq 'HT_STEELCROW' ) {       #Garras de Aço
+        if ( $handle eq 'HT_STEELCROW' ) {       #Garras de Aço
             return;
         }
-        if ( $name_display eq 'HT_BLITZBEAT' ) {       #Ataque Aéreo
+        if ( $handle eq 'HT_BLITZBEAT' ) {       #Ataque Aéreo
             return;
         }
-        if ( $name_display eq 'HT_DETECTING' ) {       #Alerta
+        if ( $handle eq 'HT_DETECTING' ) {       #Alerta
             return;
         }
-        if ( $name_display eq 'HT_SPRINGTRAP' ) {      #Desativar Armadilha
+        if ( $handle eq 'HT_SPRINGTRAP' ) {      #Desativar Armadilha
             return;
         }
-        if ( $name_display eq 'HT_PHANTASMIC' ) {      #Phantasmic Arrow
+        if ( $handle eq 'HT_PHANTASMIC' ) {      #Phantasmic Arrow
             return;
         }
-        if ( $name_display eq 'HT_POWER' ) {           #Beast Strafing
+        if ( $handle eq 'HT_POWER' ) {           #Beast Strafing
             return;
         }
     }
 
     if ( $class eq 'Genetic' ) {                       #Bioquímico
-        if ( $name_display eq 'GN_TRAINING_SWORD' ) {    #Perícia em Esgrima
+        if ( $handle eq 'GN_TRAINING_SWORD' ) {    #Perícia em Esgrima
             return;
         }
-        if ( $name_display eq 'GN_REMODELING_CART' ) {    #Aprimorar Carrinho
+        if ( $handle eq 'GN_REMODELING_CART' ) {    #Aprimorar Carrinho
             return;
         }
-        if ( $name_display eq 'GN_CART_TORNADO' ) {       #Tornado de Carrinho
+        if ( $handle eq 'GN_CART_TORNADO' ) {       #Tornado de Carrinho
             return;
         }
-        if ( $name_display eq 'GN_CARTCANNON' ) {         #Canhão de Prótons
+        if ( $handle eq 'GN_CARTCANNON' ) {         #Canhão de Prótons
             return;
         }
-        if ( $name_display eq 'GN_CARTBOOST' ) {    #Propulsão do Carrinho
+        if ( $handle eq 'GN_CARTBOOST' ) {    #Propulsão do Carrinho
             return;
         }
-        if ( $name_display eq 'GN_THORNS_TRAP' ) {    #Armadilha de Espinhos
+        if ( $handle eq 'GN_THORNS_TRAP' ) {    #Armadilha de Espinhos
             return;
         }
-        if ( $name_display eq 'GN_BLOOD_SUCKER' ) {    #Planta Sanguessuga
+        if ( $handle eq 'GN_BLOOD_SUCKER' ) {    #Planta Sanguessuga
             return;
         }
-        if ( $name_display eq 'GN_SPORE_EXPLOSION' ) {    #Esporo Explosivo
+        if ( $handle eq 'GN_SPORE_EXPLOSION' ) {    #Esporo Explosivo
             return;
         }
-        if ( $name_display eq 'GN_WALLOFTHORN' ) {        #Muralha de Espinhos
+        if ( $handle eq 'GN_WALLOFTHORN' ) {        #Muralha de Espinhos
             return;
         }
-        if ( $name_display eq 'GN_CRAZYWEED' ) {          #Erva Daninha
+        if ( $handle eq 'GN_CRAZYWEED' ) {          #Erva Daninha
             return;
         }
-        if ( $name_display eq 'GN_DEMONIC_FIRE' ) {       #Bomba Napalm
+        if ( $handle eq 'GN_DEMONIC_FIRE' ) {       #Bomba Napalm
             return;
         }
-        if ( $name_display eq 'GN_FIRE_EXPANSION' ) {    #Catalisador Alquímico
+        if ( $handle eq 'GN_FIRE_EXPANSION' ) {    #Catalisador Alquímico
             return;
         }
-        if ( $name_display eq 'GN_HELLS_PLANT' ) {       #Planta Infernal
+        if ( $handle eq 'GN_HELLS_PLANT' ) {       #Planta Infernal
             return;
         }
-        if ( $name_display eq 'GN_MANDRAGORA' ) {        #Grito da Mandrágora
+        if ( $handle eq 'GN_MANDRAGORA' ) {        #Grito da Mandrágora
             return;
         }
-        if ( $name_display eq 'GN_SLINGITEM' ) {         #Arremessar Item
+        if ( $handle eq 'GN_SLINGITEM' ) {         #Arremessar Item
             return;
         }
-        if ( $name_display eq 'GN_CHANGEMATERIAL' ) {    #Reação Alquímica
+        if ( $handle eq 'GN_CHANGEMATERIAL' ) {    #Reação Alquímica
             return;
         }
-        if ( $name_display eq 'GN_MIX_COOKING' ) {       #Culinária Avançada
+        if ( $handle eq 'GN_MIX_COOKING' ) {       #Culinária Avançada
             return;
         }
-        if ( $name_display eq 'GN_MAKEBOMB' ) {          #Criar Bomba Orgânica
+        if ( $handle eq 'GN_MAKEBOMB' ) {          #Criar Bomba Orgânica
             return;
         }
-        if ( $name_display eq 'GN_S_PHARMACY' ) {        #Farmacologia Avançada
+        if ( $handle eq 'GN_S_PHARMACY' ) {        #Farmacologia Avançada
             return;
         }
-        if ( $name_display eq 'GN_ILLUSIONDOPING' ) {    #Illusion Doping
+        if ( $handle eq 'GN_ILLUSIONDOPING' ) {    #Illusion Doping
             return;
         }
-        if ( $name_display eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
+        if ( $handle eq 'ALL_FULL_THROTTLE' ) {    #Full Throttle
             return;
         }
     }
 
     if ( $class eq 'Swordsman' ) {                       #Espadachim
-        if ( $name_display eq 'SM_SWORD' ) {             #Perícia com Espada
+        if ( $handle eq 'SM_SWORD' ) {             #Perícia com Espada
             return 1;
         }
-        if ( $name_display eq 'SM_TWOHAND' )
+        if ( $handle eq 'SM_TWOHAND' )
         {    #Perícia com Espada de Duas Mãos
             return 8;
         }
-        if ( $name_display eq 'SM_RECOVERY' ) {    #Aumentar Recuperação de HP
+        if ( $handle eq 'SM_RECOVERY' ) {    #Aumentar Recuperação de HP
             return 2;
         }
-        if ( $name_display eq 'SM_BASH' ) {        #Golpe Fulminante
+        if ( $handle eq 'SM_BASH' ) {        #Golpe Fulminante
             return 3;
         }
-        if ( $name_display eq 'SM_PROVOKE' ) {     #Provocar
+        if ( $handle eq 'SM_PROVOKE' ) {     #Provocar
             return 4;
         }
-        if ( $name_display eq 'SM_MAGNUM' ) {      #Impacto Explosivo
+        if ( $handle eq 'SM_MAGNUM' ) {      #Impacto Explosivo
             return 10;
         }
-        if ( $name_display eq 'SM_ENDURE' ) {      #Vigor
+        if ( $handle eq 'SM_ENDURE' ) {      #Vigor
             return 11;
         }
-        if ( $name_display eq 'SM_MOVINGRECOVERY' ) { #Recuperar HP em Movimento
+        if ( $handle eq 'SM_MOVINGRECOVERY' ) { #Recuperar HP em Movimento
             return 6;
         }
-        if ( $name_display eq 'SM_FATALBLOW' ) {      #Ataque Fatal
+        if ( $handle eq 'SM_FATALBLOW' ) {      #Ataque Fatal
             return 12;
         }
-        if ( $name_display eq 'SM_AUTOBERSERK' ) {   #Instinto de Sobrevivência
+        if ( $handle eq 'SM_AUTOBERSERK' ) {   #Instinto de Sobrevivência
             return 5;
         }
     }
 
     if ( $class eq 'Kagerou' ) {                     #Kagerou
-        if ( $name_display eq 'KO_YAMIKUMO' ) {      #Refúgio das Sombras
+        if ( $handle eq 'KO_YAMIKUMO' ) {      #Refúgio das Sombras
             return;
         }
-        if ( $name_display eq 'KO_RIGHT' ) {         #Perícia com Mão Direita
+        if ( $handle eq 'KO_RIGHT' ) {         #Perícia com Mão Direita
             return;
         }
-        if ( $name_display eq 'KO_LEFT' ) {          #Perícia com Mão Esquerda
+        if ( $handle eq 'KO_LEFT' ) {          #Perícia com Mão Esquerda
             return;
         }
-        if ( $name_display eq 'KO_JYUMONJIKIRI' ) {    #Impacto Cruzado
+        if ( $handle eq 'KO_JYUMONJIKIRI' ) {    #Impacto Cruzado
             return;
         }
-        if ( $name_display eq 'KO_SETSUDAN' ) {        #Corte Espiritual
+        if ( $handle eq 'KO_SETSUDAN' ) {        #Corte Espiritual
             return;
         }
-        if ( $name_display eq 'KO_BAKURETSU' ) {       #Kunai Explosiva
+        if ( $handle eq 'KO_BAKURETSU' ) {       #Kunai Explosiva
             return;
         }
-        if ( $name_display eq 'KO_HAPPOKUNAI' ) {      #Turbilhão de Kunais
+        if ( $handle eq 'KO_HAPPOKUNAI' ) {      #Turbilhão de Kunais
             return;
         }
-        if ( $name_display eq 'KO_MUCHANAGE' ) {       #Explosão de Moedas
+        if ( $handle eq 'KO_MUCHANAGE' ) {       #Explosão de Moedas
             return;
         }
-        if ( $name_display eq 'KO_HUUMARANKA' ) {      #Turbilhão de Pétalas
+        if ( $handle eq 'KO_HUUMARANKA' ) {      #Turbilhão de Pétalas
             return;
         }
-        if ( $name_display eq 'KO_MAKIBISHI' ) {       #Estrepes
+        if ( $handle eq 'KO_MAKIBISHI' ) {       #Estrepes
             return;
         }
-        if ( $name_display eq 'KO_MEIKYOUSISUI' ) {    #Purificação da Alma
+        if ( $handle eq 'KO_MEIKYOUSISUI' ) {    #Purificação da Alma
             return;
         }
-        if ( $name_display eq 'KO_ZANZOU' ) {    #Genjutsu Clone das Sombras
+        if ( $handle eq 'KO_ZANZOU' ) {    #Genjutsu Clone das Sombras
             return;
         }
-        if ( $name_display eq 'KO_KYOUGAKU' ) {    #Genjutsu Assalto das Sombras
+        if ( $handle eq 'KO_KYOUGAKU' ) {    #Genjutsu Assalto das Sombras
             return;
         }
-        if ( $name_display eq 'KO_JYUSATSU' ) {    #Genjutsu Chamado da Morte
+        if ( $handle eq 'KO_JYUSATSU' ) {    #Genjutsu Chamado da Morte
             return;
         }
-        if ( $name_display eq 'KO_KAHU_ENTEN' ) {    #Amuleto Espiritual Fogo
+        if ( $handle eq 'KO_KAHU_ENTEN' ) {    #Amuleto Espiritual Fogo
             return;
         }
-        if ( $name_display eq 'KO_HYOUHU_HUBUKI' ) {   #Amuleto Espiritual Água
+        if ( $handle eq 'KO_HYOUHU_HUBUKI' ) {   #Amuleto Espiritual Água
             return;
         }
-        if ( $name_display eq 'KO_KAZEHU_SEIRAN' ) {   #Amuleto Espiritual Vento
+        if ( $handle eq 'KO_KAZEHU_SEIRAN' ) {   #Amuleto Espiritual Vento
             return;
         }
-        if ( $name_display eq 'KO_DOHU_KOUKAI' ) {     #Amuleto Espiritual Terra
+        if ( $handle eq 'KO_DOHU_KOUKAI' ) {     #Amuleto Espiritual Terra
             return;
         }
-        if ( $name_display eq 'KO_KAIHOU' ) {    #Arremessar Amuleto Espiritual
+        if ( $handle eq 'KO_KAIHOU' ) {    #Arremessar Amuleto Espiritual
             return;
         }
-        if ( $name_display eq 'KO_ZENKAI' ) {    #Voragem Espiritual
+        if ( $handle eq 'KO_ZENKAI' ) {    #Voragem Espiritual
             return;
         }
-        if ( $name_display eq 'KO_GENWAKU' ) {    #Genjutsu Substituição
+        if ( $handle eq 'KO_GENWAKU' ) {    #Genjutsu Substituição
             return;
         }
-        if ( $name_display eq 'KO_IZAYOI' ) {     #Inspiração
+        if ( $handle eq 'KO_IZAYOI' ) {     #Inspiração
             return;
         }
-        if ( $name_display eq 'KG_KAGEHUMI' ) {    #Esmagamento Sombrio
+        if ( $handle eq 'KG_KAGEHUMI' ) {    #Esmagamento Sombrio
             return;
         }
-        if ( $name_display eq 'KG_KYOMU' ) {       #Vazio das Sombras
+        if ( $handle eq 'KG_KYOMU' ) {       #Vazio das Sombras
             return;
         }
-        if ( $name_display eq 'KG_KAGEMUSYA' ) {    #Contrato das Sombras
+        if ( $handle eq 'KG_KAGEMUSYA' ) {    #Contrato das Sombras
             return;
         }
     }
 
     if ( $class eq 'Star_Gladiator' ) {             #Mestre Taekwon
-        if ( $name_display eq 'SG_FEEL' ) {   #Percepção Solar Lunar e Estelar
+        if ( $handle eq 'SG_FEEL' ) {   #Percepção Solar Lunar e Estelar
             return;
         }
-        if ( $name_display eq 'SG_SUN_WARM' ) {    #Calor Solar
+        if ( $handle eq 'SG_SUN_WARM' ) {    #Calor Solar
             return;
         }
-        if ( $name_display eq 'SG_MOON_WARM' ) {    #Calor Lunar
+        if ( $handle eq 'SG_MOON_WARM' ) {    #Calor Lunar
             return;
         }
-        if ( $name_display eq 'SG_STAR_WARM' ) {    #Calor Estelar
+        if ( $handle eq 'SG_STAR_WARM' ) {    #Calor Estelar
             return;
         }
-        if ( $name_display eq 'SG_SUN_COMFORT' ) {    #Proteção Solar
+        if ( $handle eq 'SG_SUN_COMFORT' ) {    #Proteção Solar
             return;
         }
-        if ( $name_display eq 'SG_MOON_COMFORT' ) {    #Proteção Lunar
+        if ( $handle eq 'SG_MOON_COMFORT' ) {    #Proteção Lunar
             return;
         }
-        if ( $name_display eq 'SG_STAR_COMFORT' ) {    #Proteção Estelar
+        if ( $handle eq 'SG_STAR_COMFORT' ) {    #Proteção Estelar
             return;
         }
-        if ( $name_display eq 'SG_HATE' ) {    #Oposição Solar Lunar e Estelar
+        if ( $handle eq 'SG_HATE' ) {    #Oposição Solar Lunar e Estelar
             return;
         }
-        if ( $name_display eq 'SG_SUN_ANGER' ) {    #Fúria Solar
+        if ( $handle eq 'SG_SUN_ANGER' ) {    #Fúria Solar
             return;
         }
-        if ( $name_display eq 'SG_MOON_ANGER' ) {    #Fúria Lunar
+        if ( $handle eq 'SG_MOON_ANGER' ) {    #Fúria Lunar
             return;
         }
-        if ( $name_display eq 'SG_STAR_ANGER' ) {    #Fúria Estelar
+        if ( $handle eq 'SG_STAR_ANGER' ) {    #Fúria Estelar
             return;
         }
-        if ( $name_display eq 'SG_SUN_BLESS' ) {     #Bênção Solar
+        if ( $handle eq 'SG_SUN_BLESS' ) {     #Bênção Solar
             return;
         }
-        if ( $name_display eq 'SG_MOON_BLESS' ) {    #Bênção Lunar
+        if ( $handle eq 'SG_MOON_BLESS' ) {    #Bênção Lunar
             return;
         }
-        if ( $name_display eq 'SG_STAR_BLESS' ) {    #Bênção Estelar
+        if ( $handle eq 'SG_STAR_BLESS' ) {    #Bênção Estelar
             return;
         }
-        if ( $name_display eq 'SG_DEVIL' ) {    #Sombra Solar Lunar e Estelar
+        if ( $handle eq 'SG_DEVIL' ) {    #Sombra Solar Lunar e Estelar
             return;
         }
-        if ( $name_display eq 'SG_FRIEND' ) {    #Auxílio Solar Lunar e Estelar
+        if ( $handle eq 'SG_FRIEND' ) {    #Auxílio Solar Lunar e Estelar
             return;
         }
-        if ( $name_display eq 'SG_KNOWLEDGE' )
+        if ( $handle eq 'SG_KNOWLEDGE' )
         {    #Transmissão Solar Lunar e Estelar
             return;
         }
-        if ( $name_display eq 'SG_FUSION' ) {    #União Solar Lunar e Estelar
+        if ( $handle eq 'SG_FUSION' ) {    #União Solar Lunar e Estelar
             return;
         }
     }
 
     if ( $class eq 'High_Priest' ) {             #Sumo Sacerdote
-        if ( $name_display eq 'HP_ASSUMPTIO' ) {    #Assumptio
+        if ( $handle eq 'HP_ASSUMPTIO' ) {    #Assumptio
             return;
         }
-        if ( $name_display eq 'HP_BASILICA' ) {     #Basílica
+        if ( $handle eq 'HP_BASILICA' ) {     #Basílica
             return;
         }
-        if ( $name_display eq 'HP_MEDITATIO' ) {    #Meditatio
+        if ( $handle eq 'HP_MEDITATIO' ) {    #Meditatio
             return;
         }
-        if ( $name_display eq 'HP_MANARECHARGE' ) {    #Riqueza de Espírito
+        if ( $handle eq 'HP_MANARECHARGE' ) {    #Riqueza de Espírito
             return;
         }
     }
 
     if ( $class eq 'Clown' ) {                         #
-        if ( $name_display eq 'CG_ARROWVULCAN' ) {     #Vulcão de Flechas
+        if ( $handle eq 'CG_ARROWVULCAN' ) {     #Vulcão de Flechas
             return;
         }
-        if ( $name_display eq 'CG_MOONLIT' ) {         #Bênção Protetora
+        if ( $handle eq 'CG_MOONLIT' ) {         #Bênção Protetora
             return;
         }
-        if ( $name_display eq 'CG_MARIONETTE' ) {      #Controle de Marionete
+        if ( $handle eq 'CG_MARIONETTE' ) {      #Controle de Marionete
             return;
         }
-        if ( $name_display eq 'CG_LONGINGFREEDOM' ) {    #Grito de Liberdade
+        if ( $handle eq 'CG_LONGINGFREEDOM' ) {    #Grito de Liberdade
             return;
         }
-        if ( $name_display eq 'CG_HERMODE' ) {           #Bastão de Hermod
+        if ( $handle eq 'CG_HERMODE' ) {           #Bastão de Hermod
             return;
         }
-        if ( $name_display eq 'CG_TAROTCARD' ) {         #Destino nas Cartas
+        if ( $handle eq 'CG_TAROTCARD' ) {         #Destino nas Cartas
             return;
         }
     }
 
     if ( $class eq 'Knight' ) {                          #Cavaleiro
-        if ( $name_display eq 'KN_SPEARMASTERY' ) {      #Perícia com Lança
+        if ( $handle eq 'KN_SPEARMASTERY' ) {      #Perícia com Lança
             return;
         }
-        if ( $name_display eq 'KN_PIERCE' ) {            #Perfurar
+        if ( $handle eq 'KN_PIERCE' ) {            #Perfurar
             return;
         }
-        if ( $name_display eq 'KN_BRANDISHSPEAR' ) {     #Brandir Lança
+        if ( $handle eq 'KN_BRANDISHSPEAR' ) {     #Brandir Lança
             return;
         }
-        if ( $name_display eq 'KN_SPEARSTAB' ) {         #Estocada
+        if ( $handle eq 'KN_SPEARSTAB' ) {         #Estocada
             return;
         }
-        if ( $name_display eq 'KN_SPEARBOOMERANG' ) {    #Lança Bumerangue
+        if ( $handle eq 'KN_SPEARBOOMERANG' ) {    #Lança Bumerangue
             return;
         }
-        if ( $name_display eq 'KN_TWOHANDQUICKEN' ) {    #Rapidez com Duas Mãos
+        if ( $handle eq 'KN_TWOHANDQUICKEN' ) {    #Rapidez com Duas Mãos
             return;
         }
-        if ( $name_display eq 'KN_AUTOCOUNTER' ) {       #Contra-Ataque
+        if ( $handle eq 'KN_AUTOCOUNTER' ) {       #Contra-Ataque
             return;
         }
-        if ( $name_display eq 'KN_BOWLINGBASH' ) {       #Impacto de Tyr
+        if ( $handle eq 'KN_BOWLINGBASH' ) {       #Impacto de Tyr
             return;
         }
-        if ( $name_display eq 'KN_RIDING' ) {            #Montaria
+        if ( $handle eq 'KN_RIDING' ) {            #Montaria
             return;
         }
-        if ( $name_display eq 'KN_CAVALIERMASTERY' ) {    #Perícia em Montaria
+        if ( $handle eq 'KN_CAVALIERMASTERY' ) {    #Perícia em Montaria
             return;
         }
-        if ( $name_display eq 'KN_CHARGEATK' ) {          #Charge Attack
+        if ( $handle eq 'KN_CHARGEATK' ) {          #Charge Attack
             return;
         }
-        if ( $name_display eq 'KN_ONEHAND' ) {            #Rapidez com Uma Mão
+        if ( $handle eq 'KN_ONEHAND' ) {            #Rapidez com Uma Mão
             return;
         }
     }
