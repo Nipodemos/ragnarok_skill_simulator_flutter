@@ -16,9 +16,6 @@ my $data;
 
 my $json_skill_tree = decode_json($data);
 
-#getAllClasses();
-#die;
-
 my $cronus_file = 'cronus_skills.txt';
 open( FILE, '<', $cronus_file ) or die "failed to open cronus_file\n";
 binmode( FILE, ":encoding(UTF-8)" );
@@ -29,26 +26,27 @@ chomp @lines;
 use Data::Dumper;
 
 CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
-    $json_skill_tree->{$class}{'ptbr_class_name'} =
-      GetPtBrClassName::getBrazilianClassName($class);
+    $json_skill_tree->{$class}{'ptbr_class_name'} = GetPtBrClassName::getBrazilianClassName($class);
 
-    print "\n\nclass is ". $class . "\n";
+    print "\n\nclass is " . $class . "\n";
+
     #print Dumper( $json_skill_tree->{$class} );
     if ( exists $json_skill_tree->{$class}{'skills'} ) {
 
-      SKILL: for (
+        SKILL: 
+        for (
             my $index = 0 ;
             $index < scalar( @{ $json_skill_tree->{$class}{'skills'} } ) ;
             $index++
-          )
+        )
         {
 
             #print "skill is "
             #  . $json_skill_tree->{$class}{'skills'}[$index]{'handle_name'}
             #  . "\n";
 
-        #print( Dumper( $json_skill_tree->{$class}{'skills'}{$skill} ) . "\n" );
-          CRONUSLINE: foreach my $line (@lines) {
+            #print( Dumper( $json_skill_tree->{$class}{'skills'}{$skill} ) . "\n" );
+            CRONUSLINE: foreach my $line (@lines) {
                 next CRONUSLINE if ( $line =~ /^\/\// );
                 next CRONUSLINE if ( !$line );
                 $line =~ s/\t+//;
@@ -75,23 +73,16 @@ CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
                 $name_handle  =~ s/^\s+|\s+$//g;
                 $name_display =~ s/^\s+|\s+$//g;
 
-                if ( $json_skill_tree->{$class}{'skills'}[$index]{'handle_name'}
-                    eq $name_handle )
-                {
-                    $json_skill_tree->{$class}{'skills'}[$index]{'display_name'}
-                      = $name_display;
-                    $json_skill_tree->{$class}{'skills'}[$index]{'id'} =
-                      int($id);
-                    $json_skill_tree->{$class}{'skills'}[$index]{'skill_type'}
-                      = $Inf2 ne '0' ? $Inf2 : '';
-                    $json_skill_tree->{$class}{'skills'}[$index]{'position'} =
-                      GetPosition::getPosition(
-                        $json_skill_tree->{$class}{'ptbr_class_name'},
-                        $name_display );
+                if ( $json_skill_tree->{$class}{'skills'}[$index]{'handle_name'} eq $name_handle ) {
+                    $json_skill_tree->{$class}{'skills'}[$index]{'display_name'} = $name_display;
+                    $json_skill_tree->{$class}{'skills'}[$index]{'id'} = int($id);
+                    $json_skill_tree->{$class}{'skills'}[$index]{'skill_type'} = $Inf2 ne '0' ? $Inf2 : '';
+                    $json_skill_tree->{$class}{'skills'}[$index]{'position'} = 
+                    GetPosition::getPosition( $class, $name_handle );
 
-                 #print(  "\n"
-                 #      . Dumper( $json_skill_tree->{$class}{'skills'}{$skill} )
-                 #      . "\n" );
+                    #print(  "\n"
+                    #      . Dumper( $json_skill_tree->{$class}{'skills'}{$skill} )
+                    #      . "\n" );
                     next SKILL;
                 }
             }
@@ -110,7 +101,7 @@ foreach my $class ( keys %{$json_skill_tree} ) {
     use Data::Dumper;
     print("abrindo arquivo $class.json... ");
     open( WRITE, '>:encoding(UTF-8)', "C:/new_test/$class.json" )
-      or die "nao foi possivel abrir o arquivo $class.json\n";
+        or die "nao foi possivel abrir o arquivo $class.json\n";
     print WRITE $json_text;
     print('colocando dados dentro... ');
     close(WRITE);
@@ -123,10 +114,9 @@ system(
 
 print("acabou tudo\n");
 
-
 sub getAllClasses {
     open( WRITE, '>:encoding(UTF-8)', "C:/all_classes/classes.txt" )
-      or die "nao foi possivel abrir o arquivo classes.txt\n";
+        or die "nao foi possivel abrir o arquivo classes.txt\n";
     my @lines;
     foreach my $class ( keys %{$json_skill_tree} ) {
         push( @lines, "elsif (\$class eq '$class') { return '' }" );
@@ -136,53 +126,53 @@ sub getAllClasses {
 }
 
 sub generateSubGetPosition {
-    my @generatedLines = (); 
-    push(@generatedLines, 'package GetPosition;');
-    push(@generatedLines, 'use Exporter;');
-    push(@generatedLines, '@ISA    = (\'Exporter\');');
-    push(@generatedLines, '@EXPORT = (\'getPosition\');');
-    push(@generatedLines, 'sub getPosition {');
-    push(@generatedLines, 'my ( $class, $name_display ) = @_;');
+    my @generatedLines = ();
+    push( @generatedLines, 'package GetPosition;' );
+    push( @generatedLines, 'use Exporter;' );
+    push( @generatedLines, '@ISA    = (\'Exporter\');' );
+    push( @generatedLines, '@EXPORT = (\'getPosition\');' );
+    push( @generatedLines, 'sub getPosition {' );
+    push( @generatedLines, 'my ( $class, $name_display ) = @_;' );
 
-  CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
-        $json_skill_tree->{$class}{'ptbr_class_name'} =
-          GetPtBrClassName::getBrazilianClassName($class);
+    CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
+        $json_skill_tree->{$class}{'ptbr_class_name'} = GetPtBrClassName::getBrazilianClassName($class);
+
         #print "class is ". $class . "\n";
         #print Dumper( $json_skill_tree->{$class} );
         if ( exists $json_skill_tree->{$class}{'skills'} ) {
-        push(@generatedLines, "if ( \$class eq '$class' ) { \#$json_skill_tree->{$class}{'ptbr_class_name'}");
+            push( @generatedLines, "if ( \$class eq '$class' ) { \#$json_skill_tree->{$class}{'ptbr_class_name'}" );
 
-          SKILL:
+            SKILL:
             for (
                 my $index = 0 ;
                 $index < scalar( @{ $json_skill_tree->{$class}{'skills'} } ) ;
                 $index++
-              )
+            )
             {
-                my $handle = $json_skill_tree->{$class}{'skills'}[$index]{'handle_name'};
+                my $handle   = $json_skill_tree->{$class}{'skills'}[$index]{'handle_name'};
                 my $ptbrName = $json_skill_tree->{$class}{'skills'}[$index]{'display_name'};
-                
-                push(@generatedLines, "if ( \$name_display eq '$handle' ) { \#$ptbrName");
-                push(@generatedLines, "return  ;");
-                push(@generatedLines, "}");
-              
+
+                push( @generatedLines, "if ( \$name_display eq '$handle' ) { \#$ptbrName" );
+                push( @generatedLines, "return  ;" );
+                push( @generatedLines, "}" );
+
             }
-        } else {
-          next CLASS;
         }
-        push(@generatedLines, "}\n");
+        else {
+            next CLASS;
+        }
+        push( @generatedLines, "}\n" );
     }
-    
-    push(@generatedLines, '}');
-    push(@generatedLines, '1;');
+
+    push( @generatedLines, '}' );
+    push( @generatedLines, '1;' );
     open( WRITE, '>:encoding(UTF-8)', "C:/all_classes/getPositionTest.pm" )
-    or die "nao foi possivel abrir o arquivo classes_skills.txt\n";
+        or die "nao foi possivel abrir o arquivo classes_skills.txt\n";
 
     print WRITE join( "\n", @generatedLines );
     close(WRITE);
-    
-    system(
-      'xcopy C:\all_classes\getPositionTest.pm "C:\Users\Alan\Google Drive\Apps_em_Flutter\testing_flutter_web_for_first_time\perl_scripts" /E /H'
+
+    system( 'xcopy C:\all_classes\getPositionTest.pm "C:\Users\Alan\Google Drive\Apps_em_Flutter\testing_flutter_web_for_first_time\perl_scripts" /E /H'
     );
 
 }
