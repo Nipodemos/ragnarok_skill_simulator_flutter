@@ -30,7 +30,7 @@ use Data::Dumper;
 
 CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
     $json_skill_tree->{$class}{'ptbr_class_name'} =
-      getBrazilianClassName($class);
+      GetPtBrClassName::getBrazilianClassName($class);
 
     #print "class is ". $class . "\n";
     print Dumper( $json_skill_tree->{$class} );
@@ -85,7 +85,7 @@ CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
                     $json_skill_tree->{$class}{'skills'}[$index]{'skill_type'}
                       = $Inf2 ne '0' ? $Inf2 : '';
                     $json_skill_tree->{$class}{'skills'}[$index]{'position'} =
-                      getPosition(
+                      GetPosition::getPosition(
                         $json_skill_tree->{$class}{'ptbr_class_name'},
                         $name_display );
 
@@ -146,7 +146,7 @@ sub generateSubGetPosition {
 
   CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
         $json_skill_tree->{$class}{'ptbr_class_name'} =
-          getBrazilianClassName($class);
+          GetPtBrClassName::getBrazilianClassName($class);
         #print "class is ". $class . "\n";
         #print Dumper( $json_skill_tree->{$class} );
         if ( exists $json_skill_tree->{$class}{'skills'} ) {

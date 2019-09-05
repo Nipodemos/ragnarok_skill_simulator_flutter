@@ -2,8 +2,8 @@ package GetPtBrClassName;
 use warnings;
 use strict;
 require Exporter;
-@ISA    = ('Exporter');
-@EXPORT_OK = ('getBrazilianClassName');
+our @ISA    = ('Exporter');
+our @EXPORT_OK = ('getBrazilianClassName');
 
 
 sub getBrazilianClassName {

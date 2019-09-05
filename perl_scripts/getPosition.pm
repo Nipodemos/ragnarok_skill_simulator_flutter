@@ -3,8 +3,8 @@ use warnings;
 use strict;
 require Exporter;
 
-@ISA    = ('Exporter');
-@EXPORT_OK = ('getPosition');
+our @ISA    = ('Exporter');
+our @EXPORT_OK = ('getPosition');
 
 sub getPosition {
     my ( $class, $name_display ) = @_;
