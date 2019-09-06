@@ -9,7 +9,7 @@
          "handle_name" : "MG_SRECOVERY",
          "id" : 9,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 8,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "MG_SIGHT",
          "id" : 10,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 6,
          "skill_type" : ""
       },
       {
@@ -25,7 +25,7 @@
          "handle_name" : "MG_NAPALMBEAT",
          "id" : 11,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 4,
          "skill_type" : ""
       },
       {
@@ -33,7 +33,7 @@
          "handle_name" : "MG_SAFETYWALL",
          "id" : 12,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 18,
          "pre_requisites" : [
             {
                "MG_NAPALMBEAT" : 7
@@ -49,7 +49,7 @@
          "handle_name" : "MG_SOULSTRIKE",
          "id" : 13,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 11,
          "pre_requisites" : [
             {
                "MG_NAPALMBEAT" : 4
@@ -62,7 +62,7 @@
          "handle_name" : "MG_COLDBOLT",
          "id" : 14,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 2,
          "skill_type" : ""
       },
       {
@@ -70,7 +70,7 @@
          "handle_name" : "MG_FROSTDIVER",
          "id" : 15,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "MG_COLDBOLT" : 5
@@ -83,7 +83,7 @@
          "handle_name" : "MG_STONECURSE",
          "id" : 16,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 1,
          "skill_type" : ""
       },
       {
@@ -91,7 +91,7 @@
          "handle_name" : "MG_FIREBALL",
          "id" : 17,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 12,
          "pre_requisites" : [
             {
                "MG_FIREBOLT" : 4
@@ -104,7 +104,7 @@
          "handle_name" : "MG_FIREWALL",
          "id" : 18,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 19,
          "pre_requisites" : [
             {
                "MG_FIREBALL" : 5
@@ -120,7 +120,7 @@
          "handle_name" : "MG_FIREBOLT",
          "id" : 19,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 5,
          "skill_type" : ""
       },
       {
@@ -128,7 +128,7 @@
          "handle_name" : "MG_LIGHTNINGBOLT",
          "id" : 20,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 3,
          "skill_type" : ""
       },
       {
@@ -136,7 +136,7 @@
          "handle_name" : "MG_THUNDERSTORM",
          "id" : 21,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 10,
          "pre_requisites" : [
             {
                "MG_LIGHTNINGBOLT" : 4
@@ -149,7 +149,7 @@
          "handle_name" : "MG_ENERGYCOAT",
          "id" : 157,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 13,
          "skill_type" : "0x1"
       }
    ]
