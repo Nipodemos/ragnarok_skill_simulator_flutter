@@ -31,26 +31,23 @@ class ActualGrid extends StatefulWidget {
 }
 
 class _ActualGridState extends State<ActualGrid> {
-  List<Skill> finalList;
-
   Future<List<Skill>> buildList(String className) async {
-    finalList ??= List<Skill>.generate(42, (int index) {
+    List<Skill> finalList = List<Skill>.generate(42, (_) {
       return Skill();
     });
+    print('lista com skill vazias geradas');
     Classe playerClass = classeFromJson(await rootBundle.loadString('skills/' + className + '.json'));
     List<Skill> skills = playerClass.skills;
+    print('criada a outra list de skills');
     for (var i = 0; i < skills.length; i++) {
-      if (skills[i].position != '') {
+      if (skills[i].position != null) {
         finalList[skills[i].position as int] = skills[i];
+        print('skill ${skills[i].displayName} will show normally');
       } else {
         print('skill ${skills[i].displayName} will not be shown');
       }
     }
-    if (playerClass.inherit != null) {
-      for (var newClass in playerClass.inherit) {
-        await buildList(newClass);
-      }
-    }
+    print('tudo terminado');
     return finalList;
   }
 
