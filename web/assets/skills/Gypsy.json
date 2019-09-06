@@ -10,10 +10,14 @@
          "id" : 394,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AC_SHOWER" : 5,
-            "DC_THROWARROW" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AC_SHOWER" : 5
+            },
+            {
+               "DC_THROWARROW" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -22,10 +26,14 @@
          "id" : 395,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AC_CONCENTRATION" : 5,
-            "DC_DANCINGLESSON" : 7
-         },
+         "pre_requisites" : [
+            {
+               "AC_CONCENTRATION" : 5
+            },
+            {
+               "DC_DANCINGLESSON" : 7
+            }
+         ],
          "skill_type" : "0x40"
       },
       {
@@ -34,10 +42,14 @@
          "id" : 396,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "AC_CONCENTRATION" : 5,
-            "DC_DANCINGLESSON" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AC_CONCENTRATION" : 5
+            },
+            {
+               "DC_DANCINGLESSON" : 5
+            }
+         ],
          "skill_type" : "0x600"
       },
       {
@@ -46,10 +58,14 @@
          "id" : 487,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "CG_MARIONETTE" : 1,
-            "DC_DANCINGLESSON" : 10
-         },
+         "pre_requisites" : [
+            {
+               "DC_DANCINGLESSON" : 10
+            },
+            {
+               "CG_MARIONETTE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -58,10 +74,14 @@
          "id" : 488,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AC_CONCENTRATION" : 10,
-            "DC_DANCINGLESSON" : 10
-         },
+         "pre_requisites" : [
+            {
+               "AC_CONCENTRATION" : 10
+            },
+            {
+               "DC_DANCINGLESSON" : 10
+            }
+         ],
          "skill_type" : "0x40"
       },
       {
@@ -70,10 +90,14 @@
          "id" : 489,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AC_CONCENTRATION" : 10,
-            "DC_UGLYDANCE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AC_CONCENTRATION" : 10
+            },
+            {
+               "DC_UGLYDANCE" : 3
+            }
+         ],
          "skill_type" : ""
       }
    ]

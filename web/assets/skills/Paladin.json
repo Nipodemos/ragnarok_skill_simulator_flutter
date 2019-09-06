@@ -10,11 +10,17 @@
          "id" : 367,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "CR_SHIELDCHARGE" : 2,
-            "CR_TRUST" : 5,
-            "SM_ENDURE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "SM_ENDURE" : 5
+            },
+            {
+               "CR_TRUST" : 5
+            },
+            {
+               "CR_SHIELDCHARGE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -23,11 +29,17 @@
          "id" : 368,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "CR_DEVOTION" : 3,
-            "CR_TRUST" : 5,
-            "SM_ENDURE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SM_ENDURE" : 1
+            },
+            {
+               "CR_TRUST" : 5
+            },
+            {
+               "CR_DEVOTION" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -36,11 +48,17 @@
          "id" : 369,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AL_DEMONBANE" : 5,
-            "AL_DP" : 3,
-            "CR_TRUST" : 8
-         },
+         "pre_requisites" : [
+            {
+               "CR_TRUST" : 8
+            },
+            {
+               "AL_DP" : 3
+            },
+            {
+               "AL_DEMONBANE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -49,9 +67,11 @@
          "id" : 480,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "CR_SHIELDBOOMERANG" : 5
-         },
+         "pre_requisites" : [
+            {
+               "CR_SHIELDBOOMERANG" : 5
+            }
+         ],
          "skill_type" : ""
       }
    ]

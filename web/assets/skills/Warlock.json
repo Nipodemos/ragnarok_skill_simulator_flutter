@@ -10,9 +10,11 @@
          "id" : 2201,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_SOULEXPANSION" : 3
-         },
+         "pre_requisites" : [
+            {
+               "WL_SOULEXPANSION" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -21,9 +23,11 @@
          "id" : 2202,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_DRAINLIFE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WL_DRAINLIFE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -32,9 +36,11 @@
          "id" : 2203,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_SUMMONWB" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WL_SUMMONWB" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -43,9 +49,11 @@
          "id" : 2204,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_FROSTMISTY" : 2
-         },
+         "pre_requisites" : [
+            {
+               "WL_FROSTMISTY" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -54,9 +62,11 @@
          "id" : 2205,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_QUAGMIRE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WZ_QUAGMIRE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -65,11 +75,17 @@
          "id" : 2206,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_RELEASE" : 2,
-            "WL_STASIS" : 1,
-            "WL_WHITEIMPRISON" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WL_WHITEIMPRISON" : 1
+            },
+            {
+               "WL_STASIS" : 1
+            },
+            {
+               "WL_RELEASE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -78,9 +94,11 @@
          "id" : 2207,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_SUMMONSTONE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WL_SUMMONSTONE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -97,9 +115,11 @@
          "id" : 2209,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_DRAINLIFE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WL_DRAINLIFE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -108,9 +128,11 @@
          "id" : 2210,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_RADIUS" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WL_RADIUS" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -119,9 +141,11 @@
          "id" : 2211,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_SUMMONFB" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WL_SUMMONFB" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -130,9 +154,11 @@
          "id" : 2212,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_CRIMSONROCK" : 2
-         },
+         "pre_requisites" : [
+            {
+               "WL_CRIMSONROCK" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -141,9 +167,11 @@
          "id" : 2213,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_HELLINFERNO" : 3
-         },
+         "pre_requisites" : [
+            {
+               "WL_HELLINFERNO" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -152,9 +180,11 @@
          "id" : 2214,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_SUMMONBL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WL_SUMMONBL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -163,9 +193,11 @@
          "id" : 2216,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_SIENNAEXECRATE" : 2
-         },
+         "pre_requisites" : [
+            {
+               "WL_SIENNAEXECRATE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -174,12 +206,20 @@
          "id" : 2217,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_CHAINLIGHTNING" : 5,
-            "WL_EARTHSTRAIN" : 5,
-            "WL_HELLINFERNO" : 5,
-            "WL_JACKFROST" : 5
-         },
+         "pre_requisites" : [
+            {
+               "WL_JACKFROST" : 5
+            },
+            {
+               "WL_HELLINFERNO" : 5
+            },
+            {
+               "WL_CHAINLIGHTNING" : 5
+            },
+            {
+               "WL_EARTHSTRAIN" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -188,9 +228,11 @@
          "id" : 2222,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_METEOR" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WZ_METEOR" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -199,9 +241,11 @@
          "id" : 2223,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_VERMILION" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WZ_VERMILION" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -210,9 +254,11 @@
          "id" : 2224,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_STORMGUST" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WZ_STORMGUST" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -221,9 +267,11 @@
          "id" : 2229,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_HEAVENDRIVE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WZ_HEAVENDRIVE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -256,9 +304,11 @@
          "id" : 5012,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WL_SOULEXPANSION" : 5
-         },
+         "pre_requisites" : [
+            {
+               "WL_SOULEXPANSION" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {

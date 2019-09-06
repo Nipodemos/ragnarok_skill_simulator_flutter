@@ -18,9 +18,11 @@
          "id" : 133,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AS_RIGHT" : 2
-         },
+         "pre_requisites" : [
+            {
+               "AS_RIGHT" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -37,9 +39,11 @@
          "id" : 135,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "TF_HIDING" : 2
-         },
+         "pre_requisites" : [
+            {
+               "TF_HIDING" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -48,9 +52,11 @@
          "id" : 136,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AS_KATAR" : 4
-         },
+         "pre_requisites" : [
+            {
+               "AS_KATAR" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -59,10 +65,14 @@
          "id" : 137,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AS_CLOAKING" : 2,
-            "AS_SONICBLOW" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AS_CLOAKING" : 2
+            },
+            {
+               "AS_SONICBLOW" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -71,9 +81,11 @@
          "id" : 138,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "TF_POISON" : 1
-         },
+         "pre_requisites" : [
+            {
+               "TF_POISON" : 1
+            }
+         ],
          "skill_type" : "0x400"
       },
       {
@@ -82,9 +94,11 @@
          "id" : 139,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AS_ENCHANTPOISON" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AS_ENCHANTPOISON" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -93,9 +107,11 @@
          "id" : 140,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AS_ENCHANTPOISON" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AS_ENCHANTPOISON" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -104,10 +120,14 @@
          "id" : 141,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AS_POISONREACT" : 5,
-            "AS_VENOMDUST" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AS_POISONREACT" : 5
+            },
+            {
+               "AS_VENOMDUST" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {

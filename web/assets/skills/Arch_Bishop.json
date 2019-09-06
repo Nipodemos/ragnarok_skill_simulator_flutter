@@ -10,9 +10,11 @@
          "id" : 2038,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "PR_TURNUNDEAD" : 1
-         },
+         "pre_requisites" : [
+            {
+               "PR_TURNUNDEAD" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -21,9 +23,11 @@
          "id" : 2039,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "AB_CLEMENTIA" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AB_CLEMENTIA" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -32,11 +36,17 @@
          "id" : 2040,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AB_ANCILLA" : 1,
-            "AB_JUDEX" : 1,
-            "PR_MAGNUS" : 1
-         },
+         "pre_requisites" : [
+            {
+               "PR_MAGNUS" : 1
+            },
+            {
+               "AB_JUDEX" : 1
+            },
+            {
+               "AB_ANCILLA" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -45,9 +55,11 @@
          "id" : 2041,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "AL_BLESSING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AL_BLESSING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -56,9 +68,11 @@
          "id" : 2042,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "AL_INCAGI" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AL_INCAGI" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -67,9 +81,11 @@
          "id" : 2043,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "AL_HEAL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AL_HEAL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -78,10 +94,14 @@
          "id" : 2044,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AB_ANCILLA" : 1,
-            "AB_HIGHNESSHEAL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AB_ANCILLA" : 1
+            },
+            {
+               "AB_HIGHNESSHEAL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -90,9 +110,11 @@
          "id" : 2045,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "PR_KYRIE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "PR_KYRIE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -101,9 +123,11 @@
          "id" : 2046,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AB_PRAEFATIO" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AB_PRAEFATIO" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -112,9 +136,11 @@
          "id" : 2047,
          "maxLevel" : 4,
          "position" : null,
-         "pre_requisites" : {
-            "PR_STRECOVERY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "PR_STRECOVERY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -123,9 +149,11 @@
          "id" : 2048,
          "maxLevel" : 4,
          "position" : null,
-         "pre_requisites" : {
-            "AB_LAUDAAGNUS" : 2
-         },
+         "pre_requisites" : [
+            {
+               "AB_LAUDAAGNUS" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -134,10 +162,14 @@
          "id" : 2049,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AB_EPICLESIS" : 1,
-            "AB_EXPIATIO" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AB_EPICLESIS" : 1
+            },
+            {
+               "AB_EXPIATIO" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -146,9 +178,11 @@
          "id" : 2050,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "AB_CHEAL" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AB_CHEAL" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -157,9 +191,11 @@
          "id" : 2051,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AB_RENOVATIO" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AB_RENOVATIO" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -168,9 +204,11 @@
          "id" : 2052,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AB_LAUDARAMUS" : 2
-         },
+         "pre_requisites" : [
+            {
+               "AB_LAUDARAMUS" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -179,10 +217,14 @@
          "id" : 2053,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AB_DUPLELIGHT" : 5,
-            "AB_ORATIO" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AB_ORATIO" : 5
+            },
+            {
+               "AB_DUPLELIGHT" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -191,9 +233,11 @@
          "id" : 2054,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "PR_ASPERSIO" : 1
-         },
+         "pre_requisites" : [
+            {
+               "PR_ASPERSIO" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -202,9 +246,11 @@
          "id" : 2057,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AB_CLEARANCE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AB_CLEARANCE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -213,10 +259,14 @@
          "id" : 2515,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AB_EPICLESIS" : 1,
-            "AB_EXPIATIO" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AB_EPICLESIS" : 1
+            },
+            {
+               "AB_EXPIATIO" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -225,9 +275,11 @@
          "id" : 5011,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AB_HIGHNESSHEAL" : 2
-         },
+         "pre_requisites" : [
+            {
+               "AB_HIGHNESSHEAL" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {

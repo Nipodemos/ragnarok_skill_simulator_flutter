@@ -10,9 +10,11 @@
          "id" : 3001,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_KIRIKAGE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_KIRIKAGE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -37,9 +39,11 @@
          "id" : 3004,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "KO_YAMIKUMO" : 1
-         },
+         "pre_requisites" : [
+            {
+               "KO_YAMIKUMO" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -48,9 +52,11 @@
          "id" : 3005,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "KO_JYUMONJIKIRI" : 2
-         },
+         "pre_requisites" : [
+            {
+               "KO_JYUMONJIKIRI" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -59,9 +65,11 @@
          "id" : 3006,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_KUNAI" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_KUNAI" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -70,9 +78,11 @@
          "id" : 3007,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "KO_BAKURETSU" : 1
-         },
+         "pre_requisites" : [
+            {
+               "KO_BAKURETSU" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -81,9 +91,11 @@
          "id" : 3008,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "KO_MAKIBISHI" : 3
-         },
+         "pre_requisites" : [
+            {
+               "KO_MAKIBISHI" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -92,9 +104,11 @@
          "id" : 3009,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_HUUMA" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_HUUMA" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -103,9 +117,11 @@
          "id" : 3010,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_ZENYNAGE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NJ_ZENYNAGE" : 1
+            }
+         ],
          "skill_type" : "0x80"
       },
       {
@@ -114,9 +130,11 @@
          "id" : 3011,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_NINPOU" : 10
-         },
+         "pre_requisites" : [
+            {
+               "NJ_NINPOU" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -125,9 +143,11 @@
          "id" : 3012,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_UTSUSEMI" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NJ_UTSUSEMI" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -136,9 +156,11 @@
          "id" : 3013,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "KO_GENWAKU" : 2
-         },
+         "pre_requisites" : [
+            {
+               "KO_GENWAKU" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -147,9 +169,11 @@
          "id" : 3014,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "KO_KYOUGAKU" : 3
-         },
+         "pre_requisites" : [
+            {
+               "KO_KYOUGAKU" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -190,12 +214,20 @@
          "id" : 3019,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "KO_DOHU_KOUKAI" : 1,
-            "KO_HYOUHU_HUBUKI" : 1,
-            "KO_KAHU_ENTEN" : 1,
-            "KO_KAZEHU_SEIRAN" : 1
-         },
+         "pre_requisites" : [
+            {
+               "KO_KAHU_ENTEN" : 1
+            },
+            {
+               "KO_HYOUHU_HUBUKI" : 1
+            },
+            {
+               "KO_KAZEHU_SEIRAN" : 1
+            },
+            {
+               "KO_DOHU_KOUKAI" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -204,10 +236,14 @@
          "id" : 3020,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "KO_IZAYOI" : 1,
-            "KO_KAIHOU" : 1
-         },
+         "pre_requisites" : [
+            {
+               "KO_KAIHOU" : 1
+            },
+            {
+               "KO_IZAYOI" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -216,9 +252,11 @@
          "id" : 3021,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_UTSUSEMI" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NJ_UTSUSEMI" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -227,9 +265,11 @@
          "id" : 3022,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_NINPOU" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_NINPOU" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -238,9 +278,11 @@
          "id" : 3026,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "KO_GENWAKU" : 1
-         },
+         "pre_requisites" : [
+            {
+               "KO_GENWAKU" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -249,9 +291,11 @@
          "id" : 3027,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "OB_AKAITSUKI" : 3
-         },
+         "pre_requisites" : [
+            {
+               "OB_AKAITSUKI" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -260,9 +304,11 @@
          "id" : 3029,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "OB_ZANGETSU" : 2
-         },
+         "pre_requisites" : [
+            {
+               "OB_ZANGETSU" : 2
+            }
+         ],
          "skill_type" : ""
       }
    ]

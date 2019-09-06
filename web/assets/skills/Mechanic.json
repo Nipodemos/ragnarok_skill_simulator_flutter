@@ -18,9 +18,11 @@
          "id" : 2256,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NC_MADOLICENCE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NC_MADOLICENCE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -29,9 +31,11 @@
          "id" : 2257,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "NC_BOOSTKNUCKLE" : 2
-         },
+         "pre_requisites" : [
+            {
+               "NC_BOOSTKNUCKLE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -40,9 +44,11 @@
          "id" : 2258,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "NC_BOOSTKNUCKLE" : 2
-         },
+         "pre_requisites" : [
+            {
+               "NC_BOOSTKNUCKLE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -51,9 +57,11 @@
          "id" : 2259,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "NC_VULCANARM" : 3
-         },
+         "pre_requisites" : [
+            {
+               "NC_VULCANARM" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -62,9 +70,11 @@
          "id" : 2260,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "NC_VULCANARM" : 3
-         },
+         "pre_requisites" : [
+            {
+               "NC_VULCANARM" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -73,10 +83,14 @@
          "id" : 2261,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "NC_COLDSLOWER" : 2,
-            "NC_FLAMELAUNCHER" : 2
-         },
+         "pre_requisites" : [
+            {
+               "NC_FLAMELAUNCHER" : 2
+            },
+            {
+               "NC_COLDSLOWER" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -85,9 +99,11 @@
          "id" : 2262,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "NC_MADOLICENCE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NC_MADOLICENCE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -96,9 +112,11 @@
          "id" : 2263,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "NC_ACCELERATION" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NC_ACCELERATION" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -107,9 +125,11 @@
          "id" : 2264,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "NC_HOVERING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NC_HOVERING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -118,9 +138,11 @@
          "id" : 2265,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "NC_HOVERING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NC_HOVERING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -129,9 +151,11 @@
          "id" : 2266,
          "maxLevel" : 4,
          "position" : null,
-         "pre_requisites" : {
-            "NC_MADOLICENCE" : 4
-         },
+         "pre_requisites" : [
+            {
+               "NC_MADOLICENCE" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -140,9 +164,11 @@
          "id" : 2267,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "NC_MAINFRAME" : 2
-         },
+         "pre_requisites" : [
+            {
+               "NC_MAINFRAME" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -151,9 +177,11 @@
          "id" : 2268,
          "maxLevel" : 4,
          "position" : null,
-         "pre_requisites" : {
-            "NC_MAINFRAME" : 2
-         },
+         "pre_requisites" : [
+            {
+               "NC_MAINFRAME" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -162,9 +190,11 @@
          "id" : 2269,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "NC_SELFDESTRUCTION" : 2
-         },
+         "pre_requisites" : [
+            {
+               "NC_SELFDESTRUCTION" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -173,9 +203,11 @@
          "id" : 2270,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "NC_SHAPESHIFT" : 2
-         },
+         "pre_requisites" : [
+            {
+               "NC_SHAPESHIFT" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -184,9 +216,11 @@
          "id" : 2271,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "NC_INFRAREDSCAN" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NC_INFRAREDSCAN" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -195,9 +229,11 @@
          "id" : 2272,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "NC_EMERGENCYCOOL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NC_EMERGENCYCOOL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -206,9 +242,11 @@
          "id" : 2273,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "NC_MAGNETICFIELD" : 2
-         },
+         "pre_requisites" : [
+            {
+               "NC_MAGNETICFIELD" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -217,10 +255,14 @@
          "id" : 2274,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "NC_ANALYZE" : 3,
-            "NC_NEUTRALBARRIER" : 2
-         },
+         "pre_requisites" : [
+            {
+               "NC_ANALYZE" : 3
+            },
+            {
+               "NC_NEUTRALBARRIER" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -229,9 +271,11 @@
          "id" : 2275,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NC_MADOLICENCE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NC_MADOLICENCE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -256,9 +300,11 @@
          "id" : 2278,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NC_TRAININGAXE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NC_TRAININGAXE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -267,9 +313,11 @@
          "id" : 2279,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NC_AXEBOOMERANG" : 3
-         },
+         "pre_requisites" : [
+            {
+               "NC_AXEBOOMERANG" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -278,9 +326,11 @@
          "id" : 2280,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NC_TRAININGAXE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NC_TRAININGAXE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -289,9 +339,11 @@
          "id" : 2281,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NC_RESEARCHFE" : 2
-         },
+         "pre_requisites" : [
+            {
+               "NC_RESEARCHFE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -300,9 +352,11 @@
          "id" : 2282,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NC_RESEARCHFE" : 2
-         },
+         "pre_requisites" : [
+            {
+               "NC_RESEARCHFE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -311,9 +365,11 @@
          "id" : 2283,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "NC_SILVERSNIPER" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NC_SILVERSNIPER" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {

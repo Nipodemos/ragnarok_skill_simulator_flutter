@@ -26,9 +26,11 @@
          "id" : 2476,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_REMODELING_CART" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GN_REMODELING_CART" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -37,9 +39,11 @@
          "id" : 2477,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_REMODELING_CART" : 2
-         },
+         "pre_requisites" : [
+            {
+               "GN_REMODELING_CART" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -48,9 +52,11 @@
          "id" : 2478,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_REMODELING_CART" : 3
-         },
+         "pre_requisites" : [
+            {
+               "GN_REMODELING_CART" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -59,9 +65,11 @@
          "id" : 2479,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_S_PHARMACY" : 2
-         },
+         "pre_requisites" : [
+            {
+               "GN_S_PHARMACY" : 2
+            }
+         ],
          "skill_type" : "0x80"
       },
       {
@@ -70,9 +78,11 @@
          "id" : 2480,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_S_PHARMACY" : 3
-         },
+         "pre_requisites" : [
+            {
+               "GN_S_PHARMACY" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -81,9 +91,11 @@
          "id" : 2481,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_S_PHARMACY" : 4
-         },
+         "pre_requisites" : [
+            {
+               "GN_S_PHARMACY" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -92,9 +104,11 @@
          "id" : 2482,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_THORNS_TRAP" : 3
-         },
+         "pre_requisites" : [
+            {
+               "GN_THORNS_TRAP" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -103,9 +117,11 @@
          "id" : 2483,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "GN_WALLOFTHORN" : 3
-         },
+         "pre_requisites" : [
+            {
+               "GN_WALLOFTHORN" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -114,9 +130,11 @@
          "id" : 2485,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_SPORE_EXPLOSION" : 3
-         },
+         "pre_requisites" : [
+            {
+               "GN_SPORE_EXPLOSION" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -125,9 +143,11 @@
          "id" : 2486,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_DEMONIC_FIRE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "GN_DEMONIC_FIRE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -136,9 +156,11 @@
          "id" : 2490,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_BLOOD_SUCKER" : 3
-         },
+         "pre_requisites" : [
+            {
+               "GN_BLOOD_SUCKER" : 3
+            }
+         ],
          "skill_type" : "0x80"
       },
       {
@@ -147,9 +169,11 @@
          "id" : 2492,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_HELLS_PLANT" : 3
-         },
+         "pre_requisites" : [
+            {
+               "GN_HELLS_PLANT" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -158,9 +182,11 @@
          "id" : 2493,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GN_CHANGEMATERIAL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GN_CHANGEMATERIAL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -177,9 +203,11 @@
          "id" : 2495,
          "maxLevel" : 2,
          "position" : null,
-         "pre_requisites" : {
-            "GN_S_PHARMACY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GN_S_PHARMACY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -188,9 +216,11 @@
          "id" : 2496,
          "maxLevel" : 2,
          "position" : null,
-         "pre_requisites" : {
-            "GN_MIX_COOKING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GN_MIX_COOKING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -207,9 +237,11 @@
          "id" : 5003,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GN_S_PHARMACY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GN_S_PHARMACY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {

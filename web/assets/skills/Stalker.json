@@ -10,10 +10,14 @@
          "id" : 389,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RG_TUNNELDRIVE" : 3,
-            "TF_HIDING" : 5
-         },
+         "pre_requisites" : [
+            {
+               "TF_HIDING" : 5
+            },
+            {
+               "RG_TUNNELDRIVE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -30,9 +34,11 @@
          "id" : 475,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "RG_PLAGIARISM" : 10
-         },
+         "pre_requisites" : [
+            {
+               "RG_PLAGIARISM" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -41,12 +47,20 @@
          "id" : 476,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RG_STRIPARMOR" : 5,
-            "RG_STRIPHELM" : 5,
-            "RG_STRIPSHIELD" : 5,
-            "RG_STRIPWEAPON" : 5
-         },
+         "pre_requisites" : [
+            {
+               "RG_STRIPWEAPON" : 5
+            },
+            {
+               "RG_STRIPSHIELD" : 5
+            },
+            {
+               "RG_STRIPARMOR" : 5
+            },
+            {
+               "RG_STRIPHELM" : 5
+            }
+         ],
          "skill_type" : ""
       }
    ]

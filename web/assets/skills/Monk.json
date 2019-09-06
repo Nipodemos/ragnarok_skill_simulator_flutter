@@ -10,10 +10,14 @@
          "id" : 259,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AL_DEMONBANE" : 10,
-            "AL_DP" : 10
-         },
+         "pre_requisites" : [
+            {
+               "AL_DEMONBANE" : 10
+            },
+            {
+               "AL_DP" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -22,9 +26,11 @@
          "id" : 260,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_BLADESTOP" : 2
-         },
+         "pre_requisites" : [
+            {
+               "MO_BLADESTOP" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -33,9 +39,11 @@
          "id" : 261,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_IRONHAND" : 2
-         },
+         "pre_requisites" : [
+            {
+               "MO_IRONHAND" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -44,9 +52,11 @@
          "id" : 262,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "MO_CALLSPIRITS" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MO_CALLSPIRITS" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -55,9 +65,11 @@
          "id" : 263,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MO_DODGE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MO_DODGE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -66,11 +78,17 @@
          "id" : 264,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "MO_EXTREMITYFIST" : 3,
-            "MO_SPIRITSRECOVERY" : 2,
-            "MO_STEELBODY" : 3
-         },
+         "pre_requisites" : [
+            {
+               "MO_EXTREMITYFIST" : 3
+            },
+            {
+               "MO_SPIRITSRECOVERY" : 2
+            },
+            {
+               "MO_STEELBODY" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -79,10 +97,14 @@
          "id" : 265,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MO_CALLSPIRITS" : 5,
-            "MO_IRONHAND" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MO_IRONHAND" : 5
+            },
+            {
+               "MO_CALLSPIRITS" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -91,9 +113,11 @@
          "id" : 266,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_CALLSPIRITS" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MO_CALLSPIRITS" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -102,9 +126,11 @@
          "id" : 267,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_INVESTIGATE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "MO_INVESTIGATE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -113,9 +139,11 @@
          "id" : 268,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_COMBOFINISH" : 3
-         },
+         "pre_requisites" : [
+            {
+               "MO_COMBOFINISH" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -124,9 +152,11 @@
          "id" : 269,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_DODGE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MO_DODGE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -135,9 +165,11 @@
          "id" : 270,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_ABSORBSPIRITS" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MO_ABSORBSPIRITS" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -146,10 +178,14 @@
          "id" : 271,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_EXPLOSIONSPIRITS" : 3,
-            "MO_FINGEROFFENSIVE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "MO_EXPLOSIONSPIRITS" : 3
+            },
+            {
+               "MO_FINGEROFFENSIVE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -158,9 +194,11 @@
          "id" : 272,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_TRIPLEATTACK" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MO_TRIPLEATTACK" : 5
+            }
+         ],
          "skill_type" : "0x200"
       },
       {
@@ -169,9 +207,11 @@
          "id" : 273,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_CHAINCOMBO" : 3
-         },
+         "pre_requisites" : [
+            {
+               "MO_CHAINCOMBO" : 3
+            }
+         ],
          "skill_type" : "0x200"
       },
       {

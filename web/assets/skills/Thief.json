@@ -34,9 +34,11 @@
          "id" : 51,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "TF_STEAL" : 5
-         },
+         "pre_requisites" : [
+            {
+               "TF_STEAL" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -53,9 +55,11 @@
          "id" : 53,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "TF_POISON" : 3
-         },
+         "pre_requisites" : [
+            {
+               "TF_POISON" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {

@@ -10,10 +10,14 @@
          "id" : 370,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_CALLSPIRITS" : 5,
-            "MO_IRONHAND" : 7
-         },
+         "pre_requisites" : [
+            {
+               "MO_IRONHAND" : 7
+            },
+            {
+               "MO_CALLSPIRITS" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -22,12 +26,20 @@
          "id" : 371,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_CALLSPIRITS" : 5,
-            "MO_COMBOFINISH" : 3,
-            "MO_IRONHAND" : 5,
-            "MO_TRIPLEATTACK" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MO_IRONHAND" : 5
+            },
+            {
+               "MO_TRIPLEATTACK" : 5
+            },
+            {
+               "MO_CALLSPIRITS" : 5
+            },
+            {
+               "MO_COMBOFINISH" : 3
+            }
+         ],
          "skill_type" : "0x200"
       },
       {
@@ -36,11 +48,17 @@
          "id" : 372,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "CH_TIGERFIST" : 2,
-            "MO_CALLSPIRITS" : 5,
-            "MO_IRONHAND" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MO_IRONHAND" : 5
+            },
+            {
+               "MO_CALLSPIRITS" : 5
+            },
+            {
+               "CH_TIGERFIST" : 2
+            }
+         ],
          "skill_type" : "0x200"
       },
       {
@@ -49,11 +67,17 @@
          "id" : 401,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "MO_ABSORBSPIRITS" : 1,
-            "MO_CALLSPIRITS" : 5,
-            "MO_EXPLOSIONSPIRITS" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MO_CALLSPIRITS" : 5
+            },
+            {
+               "MO_ABSORBSPIRITS" : 1
+            },
+            {
+               "MO_EXPLOSIONSPIRITS" : 5
+            }
+         ],
          "skill_type" : ""
       }
    ]

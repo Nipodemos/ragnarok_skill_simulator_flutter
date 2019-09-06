@@ -18,10 +18,14 @@
          "id" : 12,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "PR_ASPERSIO" : 4,
-            "PR_SANCTUARY" : 3
-         },
+         "pre_requisites" : [
+            {
+               "PR_ASPERSIO" : 4
+            },
+            {
+               "PR_SANCTUARY" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -30,10 +34,14 @@
          "id" : 54,
          "maxLevel" : 4,
          "position" : null,
-         "pre_requisites" : {
-            "MG_SRECOVERY" : 4,
-            "PR_STRECOVERY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "PR_STRECOVERY" : 1
+            },
+            {
+               "MG_SRECOVERY" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -58,9 +66,11 @@
          "id" : 67,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "PR_IMPOSITIO" : 2
-         },
+         "pre_requisites" : [
+            {
+               "PR_IMPOSITIO" : 2
+            }
+         ],
          "skill_type" : "0x200"
       },
       {
@@ -69,10 +79,14 @@
          "id" : 68,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AL_HOLYWATER" : 1,
-            "PR_IMPOSITIO" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AL_HOLYWATER" : 1
+            },
+            {
+               "PR_IMPOSITIO" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -81,10 +95,14 @@
          "id" : 69,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "PR_ASPERSIO" : 5,
-            "PR_GLORIA" : 3
-         },
+         "pre_requisites" : [
+            {
+               "PR_GLORIA" : 3
+            },
+            {
+               "PR_ASPERSIO" : 5
+            }
+         ],
          "skill_type" : "0x40"
       },
       {
@@ -93,9 +111,11 @@
          "id" : 70,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AL_HEAL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AL_HEAL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -120,9 +140,11 @@
          "id" : 73,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AL_ANGELUS" : 2
-         },
+         "pre_requisites" : [
+            {
+               "AL_ANGELUS" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -139,10 +161,14 @@
          "id" : 75,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "PR_KYRIE" : 4,
-            "PR_MAGNIFICAT" : 3
-         },
+         "pre_requisites" : [
+            {
+               "PR_KYRIE" : 4
+            },
+            {
+               "PR_MAGNIFICAT" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -151,9 +177,11 @@
          "id" : 76,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AL_RUWACH" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AL_RUWACH" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -163,9 +191,11 @@
          "id" : 77,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "PR_LEXDIVINA" : 3
-         },
+         "pre_requisites" : [
+            {
+               "PR_LEXDIVINA" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -174,9 +204,11 @@
          "id" : 78,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "PR_LEXDIVINA" : 5
-         },
+         "pre_requisites" : [
+            {
+               "PR_LEXDIVINA" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -185,11 +217,17 @@
          "id" : 79,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MG_SAFETYWALL" : 1,
-            "PR_LEXAETERNA" : 1,
-            "PR_TURNUNDEAD" : 3
-         },
+         "pre_requisites" : [
+            {
+               "MG_SAFETYWALL" : 1
+            },
+            {
+               "PR_LEXAETERNA" : 1
+            },
+            {
+               "PR_TURNUNDEAD" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {

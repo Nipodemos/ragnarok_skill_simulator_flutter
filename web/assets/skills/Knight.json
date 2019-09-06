@@ -18,9 +18,11 @@
          "id" : 56,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "KN_SPEARMASTERY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "KN_SPEARMASTERY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -29,10 +31,14 @@
          "id" : 57,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "KN_RIDING" : 1,
-            "KN_SPEARSTAB" : 3
-         },
+         "pre_requisites" : [
+            {
+               "KN_RIDING" : 1
+            },
+            {
+               "KN_SPEARSTAB" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -41,9 +47,11 @@
          "id" : 58,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "KN_PIERCE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "KN_PIERCE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -52,9 +60,11 @@
          "id" : 59,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "KN_PIERCE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "KN_PIERCE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -63,9 +73,11 @@
          "id" : 60,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "SM_TWOHAND" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SM_TWOHAND" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -74,9 +86,11 @@
          "id" : 61,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SM_TWOHAND" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SM_TWOHAND" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -85,13 +99,23 @@
          "id" : 62,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "KN_AUTOCOUNTER" : 5,
-            "KN_TWOHANDQUICKEN" : 10,
-            "SM_BASH" : 10,
-            "SM_MAGNUM" : 3,
-            "SM_TWOHAND" : 5
-         },
+         "pre_requisites" : [
+            {
+               "SM_BASH" : 10
+            },
+            {
+               "SM_MAGNUM" : 3
+            },
+            {
+               "SM_TWOHAND" : 5
+            },
+            {
+               "KN_TWOHANDQUICKEN" : 10
+            },
+            {
+               "KN_AUTOCOUNTER" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -100,9 +124,11 @@
          "id" : 63,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "SM_ENDURE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SM_ENDURE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -111,9 +137,11 @@
          "id" : 64,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "KN_RIDING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "KN_RIDING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -130,9 +158,11 @@
          "id" : 495,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "KN_TWOHANDQUICKEN" : 10
-         },
+         "pre_requisites" : [
+            {
+               "KN_TWOHANDQUICKEN" : 10
+            }
+         ],
          "skill_type" : "0x8"
       }
    ]

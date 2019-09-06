@@ -26,9 +26,11 @@
          "id" : 228,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AM_LEARNINGPOTION" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AM_LEARNINGPOTION" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -37,9 +39,11 @@
          "id" : 229,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AM_PHARMACY" : 4
-         },
+         "pre_requisites" : [
+            {
+               "AM_PHARMACY" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -48,9 +52,11 @@
          "id" : 230,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AM_PHARMACY" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AM_PHARMACY" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -59,9 +65,11 @@
          "id" : 231,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AM_PHARMACY" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AM_PHARMACY" : 3
+            }
+         ],
          "skill_type" : "0xC00"
       },
       {
@@ -70,9 +78,11 @@
          "id" : 232,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AM_PHARMACY" : 6
-         },
+         "pre_requisites" : [
+            {
+               "AM_PHARMACY" : 6
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -81,9 +91,11 @@
          "id" : 233,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AM_PHARMACY" : 2
-         },
+         "pre_requisites" : [
+            {
+               "AM_PHARMACY" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -92,9 +104,11 @@
          "id" : 234,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AM_CP_ARMOR" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AM_CP_ARMOR" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -103,9 +117,11 @@
          "id" : 235,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AM_CP_HELM" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AM_CP_HELM" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -114,9 +130,11 @@
          "id" : 236,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AM_CP_SHIELD" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AM_CP_SHIELD" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -125,9 +143,11 @@
          "id" : 237,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AM_PHARMACY" : 2
-         },
+         "pre_requisites" : [
+            {
+               "AM_PHARMACY" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -144,9 +164,11 @@
          "id" : 243,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "AM_REST" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AM_REST" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -155,9 +177,11 @@
          "id" : 244,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "AM_BIOETHICS" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AM_BIOETHICS" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -166,9 +190,11 @@
          "id" : 247,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AM_CALLHOMUN" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AM_CALLHOMUN" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -185,9 +211,11 @@
          "id" : 496,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "AM_PHARMACY" : 10
-         },
+         "pre_requisites" : [
+            {
+               "AM_PHARMACY" : 10
+            }
+         ],
          "skill_type" : "0x8"
       },
       {
@@ -196,9 +224,11 @@
          "id" : 497,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "AM_PHARMACY" : 10
-         },
+         "pre_requisites" : [
+            {
+               "AM_PHARMACY" : 10
+            }
+         ],
          "skill_type" : "0x8"
       },
       {
@@ -207,9 +237,11 @@
          "id" : 498,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "AM_PHARMACY" : 10
-         },
+         "pre_requisites" : [
+            {
+               "AM_PHARMACY" : 10
+            }
+         ],
          "skill_type" : "0x8"
       }
    ]

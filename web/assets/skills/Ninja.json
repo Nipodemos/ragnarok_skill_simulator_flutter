@@ -18,9 +18,11 @@
          "id" : 523,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_TOBIDOUGU" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NJ_TOBIDOUGU" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -29,9 +31,11 @@
          "id" : 524,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_SYURIKEN" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_SYURIKEN" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -40,10 +44,14 @@
          "id" : 525,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_KUNAI" : 5,
-            "NJ_TOBIDOUGU" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_TOBIDOUGU" : 5
+            },
+            {
+               "NJ_KUNAI" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -52,10 +60,14 @@
          "id" : 526,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_HUUMA" : 5,
-            "NJ_TOBIDOUGU" : 10
-         },
+         "pre_requisites" : [
+            {
+               "NJ_TOBIDOUGU" : 10
+            },
+            {
+               "NJ_HUUMA" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -72,9 +84,11 @@
          "id" : 528,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_SHADOWJUMP" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NJ_SHADOWJUMP" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -83,9 +97,11 @@
          "id" : 529,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_TATAMIGAESHI" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NJ_TATAMIGAESHI" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -94,9 +110,11 @@
          "id" : 530,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_KASUMIKIRI" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_KASUMIKIRI" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -105,9 +123,11 @@
          "id" : 531,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_SHADOWJUMP" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_SHADOWJUMP" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -116,11 +136,17 @@
          "id" : 532,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_KIRIKAGE" : 3,
-            "NJ_NEN" : 1,
-            "NJ_UTSUSEMI" : 4
-         },
+         "pre_requisites" : [
+            {
+               "NJ_UTSUSEMI" : 4
+            },
+            {
+               "NJ_KIRIKAGE" : 3
+            },
+            {
+               "NJ_NEN" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -137,9 +163,11 @@
          "id" : 534,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_NINPOU" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NJ_NINPOU" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -148,9 +176,11 @@
          "id" : 535,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_KOUENKA" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_KOUENKA" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -159,10 +189,14 @@
          "id" : 536,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_KAENSIN" : 7,
-            "NJ_NINPOU" : 10
-         },
+         "pre_requisites" : [
+            {
+               "NJ_NINPOU" : 10
+            },
+            {
+               "NJ_KAENSIN" : 7
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -171,9 +205,11 @@
          "id" : 537,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_NINPOU" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NJ_NINPOU" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -182,9 +218,11 @@
          "id" : 538,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_HYOUSENSOU" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_HYOUSENSOU" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -193,10 +231,14 @@
          "id" : 539,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_NINPOU" : 10,
-            "NJ_SUITON" : 7
-         },
+         "pre_requisites" : [
+            {
+               "NJ_NINPOU" : 10
+            },
+            {
+               "NJ_SUITON" : 7
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -205,9 +247,11 @@
          "id" : 540,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_NINPOU" : 1
-         },
+         "pre_requisites" : [
+            {
+               "NJ_NINPOU" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -216,9 +260,11 @@
          "id" : 541,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_HUUJIN" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_HUUJIN" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -227,10 +273,14 @@
          "id" : 542,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_NINPOU" : 10,
-            "NJ_RAIGEKISAI" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_NINPOU" : 10
+            },
+            {
+               "NJ_RAIGEKISAI" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -239,9 +289,11 @@
          "id" : 543,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_NINPOU" : 5
-         },
+         "pre_requisites" : [
+            {
+               "NJ_NINPOU" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -250,11 +302,17 @@
          "id" : 544,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "NJ_KIRIKAGE" : 5,
-            "NJ_NEN" : 1,
-            "NJ_TOBIDOUGU" : 7
-         },
+         "pre_requisites" : [
+            {
+               "NJ_TOBIDOUGU" : 7
+            },
+            {
+               "NJ_KIRIKAGE" : 5
+            },
+            {
+               "NJ_NEN" : 1
+            }
+         ],
          "skill_type" : ""
       }
    ]

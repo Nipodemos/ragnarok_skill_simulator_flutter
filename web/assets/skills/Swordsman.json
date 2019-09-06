@@ -18,9 +18,11 @@
          "id" : 3,
          "maxLevel" : 10,
          "position" : 8,
-         "pre_requisites" : {
-            "SM_SWORD" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SM_SWORD" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -53,9 +55,11 @@
          "id" : 7,
          "maxLevel" : 10,
          "position" : 10,
-         "pre_requisites" : {
-            "SM_BASH" : 5
-         },
+         "pre_requisites" : [
+            {
+               "SM_BASH" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -64,9 +68,11 @@
          "id" : 8,
          "maxLevel" : 10,
          "position" : 11,
-         "pre_requisites" : {
-            "SM_PROVOKE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "SM_PROVOKE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {

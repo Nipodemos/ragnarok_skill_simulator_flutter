@@ -18,9 +18,11 @@
          "id" : 44,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AC_OWL" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AC_OWL" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -29,9 +31,11 @@
          "id" : 45,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AC_VULTURE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AC_VULTURE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -48,9 +52,11 @@
          "id" : 47,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AC_DOUBLE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AC_DOUBLE" : 5
+            }
+         ],
          "skill_type" : "0x2000"
       },
       {

@@ -10,9 +10,11 @@
          "id" : 2552,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GS_GLITTERING" : 5
-         },
+         "pre_requisites" : [
+            {
+               "GS_GLITTERING" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -21,9 +23,11 @@
          "id" : 2553,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GS_PIERCINGSHOT" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GS_PIERCINGSHOT" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -32,9 +36,11 @@
          "id" : 2554,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RL_S_STORM" : 1
-         },
+         "pre_requisites" : [
+            {
+               "RL_S_STORM" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -51,9 +57,11 @@
          "id" : 2556,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GS_FLING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GS_FLING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -62,10 +70,14 @@
          "id" : 2557,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GS_DISARM" : 1,
-            "GS_DUST" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GS_DISARM" : 1
+            },
+            {
+               "GS_DUST" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -74,9 +86,11 @@
          "id" : 2558,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "GS_CHAINACTION" : 10
-         },
+         "pre_requisites" : [
+            {
+               "GS_CHAINACTION" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -85,9 +99,11 @@
          "id" : 2559,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "RL_E_CHAIN" : 1
-         },
+         "pre_requisites" : [
+            {
+               "RL_E_CHAIN" : 1
+            }
+         ],
          "skill_type" : "0x0"
       },
       {
@@ -96,9 +112,11 @@
          "id" : 2560,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GS_INCREASING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GS_INCREASING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -107,9 +125,11 @@
          "id" : 2561,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RL_FALLEN_ANGEL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "RL_FALLEN_ANGEL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -118,9 +138,11 @@
          "id" : 2562,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GS_SPREADATTACK" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GS_SPREADATTACK" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -137,9 +159,11 @@
          "id" : 2564,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GS_DESPERADO" : 10
-         },
+         "pre_requisites" : [
+            {
+               "GS_DESPERADO" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -148,9 +172,11 @@
          "id" : 2565,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RL_FIRE_RAIN" : 1
-         },
+         "pre_requisites" : [
+            {
+               "RL_FIRE_RAIN" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -159,10 +185,14 @@
          "id" : 2566,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RL_C_MARKER" : 1,
-            "RL_H_MINE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "RL_H_MINE" : 3
+            },
+            {
+               "RL_C_MARKER" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -171,9 +201,11 @@
          "id" : 2567,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GS_GATLINGFEVER" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GS_GATLINGFEVER" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -182,9 +214,11 @@
          "id" : 2568,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RL_FIREDANCE" : 2
-         },
+         "pre_requisites" : [
+            {
+               "RL_FIREDANCE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -193,9 +227,11 @@
          "id" : 2569,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RL_MASS_SPIRAL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "RL_MASS_SPIRAL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -204,9 +240,11 @@
          "id" : 2570,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RL_BANISHING_BUSTER" : 3
-         },
+         "pre_requisites" : [
+            {
+               "RL_BANISHING_BUSTER" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -215,9 +253,11 @@
          "id" : 2571,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RL_AM_BLAST" : 3
-         },
+         "pre_requisites" : [
+            {
+               "RL_AM_BLAST" : 3
+            }
+         ],
          "skill_type" : ""
       }
    ]

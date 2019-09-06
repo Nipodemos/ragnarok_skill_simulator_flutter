@@ -10,9 +10,11 @@
          "id" : 478,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AM_POTIONPITCHER" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AM_POTIONPITCHER" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -21,12 +23,20 @@
          "id" : 479,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AM_CP_ARMOR" : 5,
-            "AM_CP_HELM" : 5,
-            "AM_CP_SHIELD" : 5,
-            "AM_CP_WEAPON" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AM_CP_WEAPON" : 5
+            },
+            {
+               "AM_CP_SHIELD" : 5
+            },
+            {
+               "AM_CP_ARMOR" : 5
+            },
+            {
+               "AM_CP_HELM" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -35,10 +45,14 @@
          "id" : 490,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AM_ACIDTERROR" : 5,
-            "AM_DEMONSTRATION" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AM_DEMONSTRATION" : 5
+            },
+            {
+               "AM_ACIDTERROR" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {

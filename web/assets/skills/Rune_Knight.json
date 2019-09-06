@@ -10,9 +10,11 @@
          "id" : 2001,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RK_RUNEMASTERY" : 2
-         },
+         "pre_requisites" : [
+            {
+               "RK_RUNEMASTERY" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -21,9 +23,11 @@
          "id" : 2002,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RK_ENCHANTBLADE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "RK_ENCHANTBLADE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -32,10 +36,14 @@
          "id" : 2003,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "KN_AUTOCOUNTER" : 1,
-            "RK_ENCHANTBLADE" : 2
-         },
+         "pre_requisites" : [
+            {
+               "KN_AUTOCOUNTER" : 1
+            },
+            {
+               "RK_ENCHANTBLADE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -44,9 +52,11 @@
          "id" : 2004,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "RK_PHANTOMTHRUST" : 3
-         },
+         "pre_requisites" : [
+            {
+               "RK_PHANTOMTHRUST" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -55,9 +65,11 @@
          "id" : 2005,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RK_ENCHANTBLADE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "RK_ENCHANTBLADE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -66,11 +78,17 @@
          "id" : 2006,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RK_DEATHBOUND" : 5,
-            "RK_SONICWAVE" : 2,
-            "RK_WINDCUTTER" : 3
-         },
+         "pre_requisites" : [
+            {
+               "RK_SONICWAVE" : 2
+            },
+            {
+               "RK_DEATHBOUND" : 5
+            },
+            {
+               "RK_WINDCUTTER" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -79,9 +97,11 @@
          "id" : 2007,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "KN_CAVALIERMASTERY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "KN_CAVALIERMASTERY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -90,9 +110,11 @@
          "id" : 2008,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "RK_DRAGONTRAINING" : 2
-         },
+         "pre_requisites" : [
+            {
+               "RK_DRAGONTRAINING" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -101,9 +123,11 @@
          "id" : 2009,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RK_DRAGONTRAINING" : 2
-         },
+         "pre_requisites" : [
+            {
+               "RK_DRAGONTRAINING" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -120,9 +144,11 @@
          "id" : 2020,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "KN_BRANDISHSPEAR" : 2
-         },
+         "pre_requisites" : [
+            {
+               "KN_BRANDISHSPEAR" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -131,9 +157,11 @@
          "id" : 5004,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "RK_DRAGONTRAINING" : 2
-         },
+         "pre_requisites" : [
+            {
+               "RK_DRAGONTRAINING" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {

@@ -18,9 +18,11 @@
          "id" : 501,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GS_GLITTERING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GS_GLITTERING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -29,10 +31,14 @@
          "id" : 502,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GS_CHAINACTION" : 10,
-            "GS_GLITTERING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GS_GLITTERING" : 1
+            },
+            {
+               "GS_CHAINACTION" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -41,10 +47,14 @@
          "id" : 503,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GS_GLITTERING" : 5,
-            "GS_TRACKING" : 10
-         },
+         "pre_requisites" : [
+            {
+               "GS_GLITTERING" : 5
+            },
+            {
+               "GS_TRACKING" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -53,10 +63,14 @@
          "id" : 504,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GS_GATLINGFEVER" : 10,
-            "GS_GLITTERING" : 4
-         },
+         "pre_requisites" : [
+            {
+               "GS_GLITTERING" : 4
+            },
+            {
+               "GS_GATLINGFEVER" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -65,10 +79,14 @@
          "id" : 505,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GS_DISARM" : 5,
-            "GS_GLITTERING" : 4
-         },
+         "pre_requisites" : [
+            {
+               "GS_GLITTERING" : 4
+            },
+            {
+               "GS_DISARM" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -77,10 +95,14 @@
          "id" : 506,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GS_GLITTERING" : 2,
-            "GS_SNAKEEYE" : 10
-         },
+         "pre_requisites" : [
+            {
+               "GS_GLITTERING" : 2
+            },
+            {
+               "GS_SNAKEEYE" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -89,9 +111,11 @@
          "id" : 507,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GS_GLITTERING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GS_GLITTERING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -100,9 +124,11 @@
          "id" : 508,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GS_GLITTERING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GS_GLITTERING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -127,9 +153,11 @@
          "id" : 511,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "GS_SINGLEACTION" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GS_SINGLEACTION" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -138,9 +166,11 @@
          "id" : 512,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "GS_SINGLEACTION" : 5
-         },
+         "pre_requisites" : [
+            {
+               "GS_SINGLEACTION" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -149,9 +179,11 @@
          "id" : 513,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GS_TRACKING" : 7
-         },
+         "pre_requisites" : [
+            {
+               "GS_TRACKING" : 7
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -160,9 +192,11 @@
          "id" : 514,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GS_TRACKING" : 5
-         },
+         "pre_requisites" : [
+            {
+               "GS_TRACKING" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -171,9 +205,11 @@
          "id" : 515,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "GS_CHAINACTION" : 3
-         },
+         "pre_requisites" : [
+            {
+               "GS_CHAINACTION" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -182,9 +218,11 @@
          "id" : 516,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "GS_RAPIDSHOWER" : 5
-         },
+         "pre_requisites" : [
+            {
+               "GS_RAPIDSHOWER" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -193,10 +231,14 @@
          "id" : 517,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "GS_DESPERADO" : 5,
-            "GS_RAPIDSHOWER" : 7
-         },
+         "pre_requisites" : [
+            {
+               "GS_RAPIDSHOWER" : 7
+            },
+            {
+               "GS_DESPERADO" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -205,9 +247,11 @@
          "id" : 518,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "GS_SINGLEACTION" : 5
-         },
+         "pre_requisites" : [
+            {
+               "GS_SINGLEACTION" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -216,9 +260,11 @@
          "id" : 519,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "GS_DUST" : 3
-         },
+         "pre_requisites" : [
+            {
+               "GS_DUST" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -227,9 +273,11 @@
          "id" : 520,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "GS_FULLBUSTER" : 5
-         },
+         "pre_requisites" : [
+            {
+               "GS_FULLBUSTER" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -238,9 +286,11 @@
          "id" : 521,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "GS_SPREADATTACK" : 7
-         },
+         "pre_requisites" : [
+            {
+               "GS_SPREADATTACK" : 7
+            }
+         ],
          "skill_type" : ""
       }
    ]

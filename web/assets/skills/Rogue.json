@@ -26,9 +26,11 @@
          "id" : 46,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AC_VULTURE" : 10
-         },
+         "pre_requisites" : [
+            {
+               "AC_VULTURE" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -37,9 +39,11 @@
          "id" : 124,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "AC_DOUBLE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AC_DOUBLE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -48,9 +52,11 @@
          "id" : 210,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "TF_STEAL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "TF_STEAL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -59,9 +65,11 @@
          "id" : 211,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "RG_SNATCHER" : 4
-         },
+         "pre_requisites" : [
+            {
+               "RG_SNATCHER" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -70,9 +78,11 @@
          "id" : 212,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "RG_STEALCOIN" : 4
-         },
+         "pre_requisites" : [
+            {
+               "RG_STEALCOIN" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -81,9 +91,11 @@
          "id" : 213,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "TF_HIDING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "TF_HIDING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -92,10 +104,14 @@
          "id" : 214,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RG_BACKSTAP" : 2,
-            "RG_TUNNELDRIVE" : 2
-         },
+         "pre_requisites" : [
+            {
+               "RG_BACKSTAP" : 2
+            },
+            {
+               "RG_TUNNELDRIVE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -104,9 +120,11 @@
          "id" : 215,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RG_STRIPARMOR" : 5
-         },
+         "pre_requisites" : [
+            {
+               "RG_STRIPARMOR" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -115,9 +133,11 @@
          "id" : 216,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RG_STRIPHELM" : 5
-         },
+         "pre_requisites" : [
+            {
+               "RG_STRIPHELM" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -126,9 +146,11 @@
          "id" : 217,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RG_STRIPSHIELD" : 5
-         },
+         "pre_requisites" : [
+            {
+               "RG_STRIPSHIELD" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -137,9 +159,11 @@
          "id" : 218,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RG_STEALCOIN" : 2
-         },
+         "pre_requisites" : [
+            {
+               "RG_STEALCOIN" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -148,10 +172,14 @@
          "id" : 219,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RG_BACKSTAP" : 4,
-            "RG_RAID" : 5
-         },
+         "pre_requisites" : [
+            {
+               "RG_BACKSTAP" : 4
+            },
+            {
+               "RG_RAID" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -160,9 +188,11 @@
          "id" : 220,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "RG_FLAGGRAFFITI" : 5
-         },
+         "pre_requisites" : [
+            {
+               "RG_FLAGGRAFFITI" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -171,9 +201,11 @@
          "id" : 221,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RG_CLEANER" : 1
-         },
+         "pre_requisites" : [
+            {
+               "RG_CLEANER" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -182,9 +214,11 @@
          "id" : 222,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "RG_GANGSTER" : 1
-         },
+         "pre_requisites" : [
+            {
+               "RG_GANGSTER" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -193,9 +227,11 @@
          "id" : 223,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "RG_STRIPSHIELD" : 3
-         },
+         "pre_requisites" : [
+            {
+               "RG_STRIPSHIELD" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -204,9 +240,11 @@
          "id" : 224,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "RG_GANGSTER" : 1
-         },
+         "pre_requisites" : [
+            {
+               "RG_GANGSTER" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -215,9 +253,11 @@
          "id" : 225,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "RG_INTIMIDATE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "RG_INTIMIDATE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {

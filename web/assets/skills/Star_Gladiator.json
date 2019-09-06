@@ -18,9 +18,11 @@
          "id" : 428,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SG_FEEL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SG_FEEL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -29,9 +31,11 @@
          "id" : 429,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SG_FEEL" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SG_FEEL" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -40,9 +44,11 @@
          "id" : 430,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SG_FEEL" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SG_FEEL" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -51,9 +57,11 @@
          "id" : 431,
          "maxLevel" : 4,
          "position" : null,
-         "pre_requisites" : {
-            "SG_FEEL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SG_FEEL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -62,9 +70,11 @@
          "id" : 432,
          "maxLevel" : 4,
          "position" : null,
-         "pre_requisites" : {
-            "SG_FEEL" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SG_FEEL" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -73,9 +83,11 @@
          "id" : 433,
          "maxLevel" : 4,
          "position" : null,
-         "pre_requisites" : {
-            "SG_FEEL" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SG_FEEL" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -92,9 +104,11 @@
          "id" : 435,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SG_HATE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SG_HATE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -103,9 +117,11 @@
          "id" : 436,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SG_HATE" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SG_HATE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -114,9 +130,11 @@
          "id" : 437,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SG_HATE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SG_HATE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -125,10 +143,14 @@
          "id" : 438,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SG_FEEL" : 1,
-            "SG_HATE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SG_FEEL" : 1
+            },
+            {
+               "SG_HATE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -137,10 +159,14 @@
          "id" : 439,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SG_FEEL" : 2,
-            "SG_HATE" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SG_FEEL" : 2
+            },
+            {
+               "SG_HATE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -149,10 +175,14 @@
          "id" : 440,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SG_FEEL" : 3,
-            "SG_HATE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SG_FEEL" : 3
+            },
+            {
+               "SG_HATE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -185,9 +215,11 @@
          "id" : 444,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "SG_KNOWLEDGE" : 9
-         },
+         "pre_requisites" : [
+            {
+               "SG_KNOWLEDGE" : 9
+            }
+         ],
          "skill_type" : ""
       }
    ]

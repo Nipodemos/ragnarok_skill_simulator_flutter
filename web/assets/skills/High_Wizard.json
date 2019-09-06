@@ -10,10 +10,14 @@
          "id" : 364,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MG_SOULSTRIKE" : 7,
-            "MG_SRECOVERY" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MG_SRECOVERY" : 5
+            },
+            {
+               "MG_SOULSTRIKE" : 7
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -22,9 +26,11 @@
          "id" : 365,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "MG_SRECOVERY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MG_SRECOVERY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -41,9 +47,11 @@
          "id" : 400,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MG_NAPALMBEAT" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MG_NAPALMBEAT" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -52,10 +60,14 @@
          "id" : 483,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_ESTIMATION" : 1,
-            "WZ_ICEWALL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WZ_ESTIMATION" : 1
+            },
+            {
+               "WZ_ICEWALL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -64,11 +76,17 @@
          "id" : 484,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "HW_MAGICCRASHER" : 1,
-            "HW_MAGICPOWER" : 10,
-            "WZ_QUAGMIRE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "HW_MAGICCRASHER" : 1
+            },
+            {
+               "HW_MAGICPOWER" : 10
+            },
+            {
+               "WZ_QUAGMIRE" : 1
+            }
+         ],
          "skill_type" : ""
       }
    ]

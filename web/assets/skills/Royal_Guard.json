@@ -10,9 +10,11 @@
          "id" : 2307,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "LG_PINPOINTATTACK" : 1
-         },
+         "pre_requisites" : [
+            {
+               "LG_PINPOINTATTACK" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -21,9 +23,11 @@
          "id" : 2308,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "KN_SPEARMASTERY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "KN_SPEARMASTERY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -40,9 +44,11 @@
          "id" : 2310,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "CR_SHIELDCHARGE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "CR_SHIELDCHARGE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -51,9 +57,11 @@
          "id" : 2311,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "CR_REFLECTSHIELD" : 5
-         },
+         "pre_requisites" : [
+            {
+               "CR_REFLECTSHIELD" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -62,9 +70,11 @@
          "id" : 2312,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "LG_BANISHINGPOINT" : 5
-         },
+         "pre_requisites" : [
+            {
+               "LG_BANISHINGPOINT" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -81,9 +91,11 @@
          "id" : 2314,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "LG_FORCEOFVANGUARD" : 1
-         },
+         "pre_requisites" : [
+            {
+               "LG_FORCEOFVANGUARD" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -92,10 +104,14 @@
          "id" : 2315,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "LG_EARTHDRIVE" : 2,
-            "LG_SHIELDPRESS" : 3
-         },
+         "pre_requisites" : [
+            {
+               "LG_SHIELDPRESS" : 3
+            },
+            {
+               "LG_EARTHDRIVE" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -104,9 +120,11 @@
          "id" : 2316,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "LG_BANISHINGPOINT" : 3
-         },
+         "pre_requisites" : [
+            {
+               "LG_BANISHINGPOINT" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -115,10 +133,14 @@
          "id" : 2317,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "LG_MOONSLASHER" : 3,
-            "LG_PINPOINTATTACK" : 1
-         },
+         "pre_requisites" : [
+            {
+               "LG_PINPOINTATTACK" : 1
+            },
+            {
+               "LG_MOONSLASHER" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -127,9 +149,11 @@
          "id" : 2318,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "LG_TRAMPLE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "LG_TRAMPLE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -138,10 +162,14 @@
          "id" : 2319,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "LG_PINPOINTATTACK" : 3,
-            "LG_RAGEBURST" : 1
-         },
+         "pre_requisites" : [
+            {
+               "LG_PINPOINTATTACK" : 3
+            },
+            {
+               "LG_RAGEBURST" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -150,9 +178,11 @@
          "id" : 2320,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "KN_SPEARMASTERY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "KN_SPEARMASTERY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -161,9 +191,11 @@
          "id" : 2321,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "CR_GRANDCROSS" : 5
-         },
+         "pre_requisites" : [
+            {
+               "CR_GRANDCROSS" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -172,9 +204,11 @@
          "id" : 2322,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "CR_TRUST" : 3
-         },
+         "pre_requisites" : [
+            {
+               "CR_TRUST" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -183,9 +217,11 @@
          "id" : 2323,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "LG_REFLECTDAMAGE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "LG_REFLECTDAMAGE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -194,10 +230,14 @@
          "id" : 2324,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "LG_BANDING" : 3,
-            "LG_PRESTIGE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "LG_PRESTIGE" : 3
+            },
+            {
+               "LG_BANDING" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -206,11 +246,17 @@
          "id" : 2325,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "LG_PIETY" : 5,
-            "LG_RAYOFGENESIS" : 4,
-            "LG_SHIELDSPELL" : 3
-         },
+         "pre_requisites" : [
+            {
+               "LG_SHIELDSPELL" : 3
+            },
+            {
+               "LG_RAYOFGENESIS" : 4
+            },
+            {
+               "LG_PIETY" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -219,9 +265,11 @@
          "id" : 5013,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "LG_REFLECTDAMAGE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "LG_REFLECTDAMAGE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {

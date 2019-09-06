@@ -18,9 +18,11 @@
          "id" : 316,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "BA_MUSICALLESSON" : 3
-         },
+         "pre_requisites" : [
+            {
+               "BA_MUSICALLESSON" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -29,10 +31,14 @@
          "id" : 317,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "BA_MUSICALLESSON" : 1,
-            "BD_ADAPTATION" : 1
-         },
+         "pre_requisites" : [
+            {
+               "BA_MUSICALLESSON" : 1
+            },
+            {
+               "BD_ADAPTATION" : 1
+            }
+         ],
          "skill_type" : "0x20"
       },
       {
@@ -41,9 +47,11 @@
          "id" : 318,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "BD_ENCORE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "BD_ENCORE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -52,9 +60,11 @@
          "id" : 319,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "BA_DISSONANCE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "BA_DISSONANCE" : 3
+            }
+         ],
          "skill_type" : "0x20"
       },
       {
@@ -63,9 +73,11 @@
          "id" : 320,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "BA_DISSONANCE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "BA_DISSONANCE" : 3
+            }
+         ],
          "skill_type" : "0x20"
       },
       {
@@ -74,9 +86,11 @@
          "id" : 321,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "BA_DISSONANCE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "BA_DISSONANCE" : 3
+            }
+         ],
          "skill_type" : "0x20"
       },
       {
@@ -85,9 +99,11 @@
          "id" : 322,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "BA_DISSONANCE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "BA_DISSONANCE" : 3
+            }
+         ],
          "skill_type" : "0x20"
       },
       {
@@ -104,9 +120,11 @@
          "id" : 305,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "BD_ADAPTATION" : 1
-         },
+         "pre_requisites" : [
+            {
+               "BD_ADAPTATION" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -115,9 +133,11 @@
          "id" : 306,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "BA_WHISTLE" : 10
-         },
+         "pre_requisites" : [
+            {
+               "BA_WHISTLE" : 10
+            }
+         ],
          "skill_type" : "0x40"
       },
       {
@@ -126,9 +146,11 @@
          "id" : 307,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "BD_SIEGFRIED" : 3
-         },
+         "pre_requisites" : [
+            {
+               "BD_SIEGFRIED" : 3
+            }
+         ],
          "skill_type" : "0x40"
       },
       {
@@ -137,9 +159,11 @@
          "id" : 308,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "BD_ROKISWEIL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "BD_ROKISWEIL" : 1
+            }
+         ],
          "skill_type" : "0x40"
       },
       {
@@ -148,9 +172,11 @@
          "id" : 309,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "BA_APPLEIDUN" : 10
-         },
+         "pre_requisites" : [
+            {
+               "BA_APPLEIDUN" : 10
+            }
+         ],
          "skill_type" : "0x40"
       },
       {
@@ -159,9 +185,11 @@
          "id" : 310,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "BD_DRUMBATTLEFIELD" : 3
-         },
+         "pre_requisites" : [
+            {
+               "BD_DRUMBATTLEFIELD" : 3
+            }
+         ],
          "skill_type" : "0x40"
       },
       {
@@ -170,9 +198,11 @@
          "id" : 311,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "BA_ASSASSINCROSS" : 10
-         },
+         "pre_requisites" : [
+            {
+               "BA_ASSASSINCROSS" : 10
+            }
+         ],
          "skill_type" : "0x40"
       },
       {
@@ -181,9 +211,11 @@
          "id" : 312,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "BD_LULLABY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "BD_LULLABY" : 1
+            }
+         ],
          "skill_type" : "0x40"
       },
       {
@@ -192,9 +224,11 @@
          "id" : 313,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "BA_POEMBRAGI" : 10
-         },
+         "pre_requisites" : [
+            {
+               "BA_POEMBRAGI" : 10
+            }
+         ],
          "skill_type" : "0x40"
       },
       {

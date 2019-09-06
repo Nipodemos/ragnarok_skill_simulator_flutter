@@ -18,9 +18,11 @@
          "id" : 37,
          "maxLevel" : 10,
          "position" : 8,
-         "pre_requisites" : {
-            "MC_INCCARRY" : 3
-         },
+         "pre_requisites" : [
+            {
+               "MC_INCCARRY" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -29,9 +31,11 @@
          "id" : 38,
          "maxLevel" : 10,
          "position" : 15,
-         "pre_requisites" : {
-            "MC_DISCOUNT" : 3
-         },
+         "pre_requisites" : [
+            {
+               "MC_DISCOUNT" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -40,9 +44,11 @@
          "id" : 39,
          "maxLevel" : 10,
          "position" : 9,
-         "pre_requisites" : {
-            "MC_INCCARRY" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MC_INCCARRY" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -59,9 +65,11 @@
          "id" : 41,
          "maxLevel" : 10,
          "position" : 16,
-         "pre_requisites" : {
-            "MC_PUSHCART" : 3
-         },
+         "pre_requisites" : [
+            {
+               "MC_PUSHCART" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -102,9 +110,11 @@
          "id" : 2535,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "MC_VENDING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MC_VENDING" : 1
+            }
+         ],
          "skill_type" : "0x1"
       }
    ]

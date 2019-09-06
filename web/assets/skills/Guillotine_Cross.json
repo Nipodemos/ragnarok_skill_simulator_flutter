@@ -10,9 +10,11 @@
          "id" : 2021,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AS_ENCHANTPOISON" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AS_ENCHANTPOISON" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -21,9 +23,11 @@
          "id" : 2022,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AS_SONICBLOW" : 10
-         },
+         "pre_requisites" : [
+            {
+               "AS_SONICBLOW" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -32,9 +36,11 @@
          "id" : 2023,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GC_CROSSIMPACT" : 3
-         },
+         "pre_requisites" : [
+            {
+               "GC_CROSSIMPACT" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -51,9 +57,11 @@
          "id" : 2025,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GC_RESEARCHNEWPOISON" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GC_RESEARCHNEWPOISON" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -62,9 +70,11 @@
          "id" : 2026,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GC_RESEARCHNEWPOISON" : 5
-         },
+         "pre_requisites" : [
+            {
+               "GC_RESEARCHNEWPOISON" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -73,9 +83,11 @@
          "id" : 2027,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GC_CREATENEWPOISON" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GC_CREATENEWPOISON" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -84,9 +96,11 @@
          "id" : 2028,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AS_LEFT" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AS_LEFT" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -95,9 +109,11 @@
          "id" : 2029,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GC_WEAPONBLOCKING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GC_WEAPONBLOCKING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -106,9 +122,11 @@
          "id" : 2030,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GC_WEAPONBLOCKING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GC_WEAPONBLOCKING" : 1
+            }
+         ],
          "skill_type" : "0x200"
       },
       {
@@ -117,10 +135,14 @@
          "id" : 2031,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GC_POISONINGWEAPON" : 3,
-            "GC_WEAPONBLOCKING" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GC_POISONINGWEAPON" : 3
+            },
+            {
+               "GC_WEAPONBLOCKING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -129,10 +151,14 @@
          "id" : 2032,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GC_POISONINGWEAPON" : 5,
-            "GC_VENOMPRESSURE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "GC_POISONINGWEAPON" : 5
+            },
+            {
+               "GC_VENOMPRESSURE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -141,9 +167,11 @@
          "id" : 2033,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AS_CLOAKING" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AS_CLOAKING" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -152,10 +180,14 @@
          "id" : 2034,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "GC_CLOAKINGEXCEED" : 5,
-            "GC_DARKILLUSION" : 5
-         },
+         "pre_requisites" : [
+            {
+               "GC_DARKILLUSION" : 5
+            },
+            {
+               "GC_CLOAKINGEXCEED" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -164,9 +196,11 @@
          "id" : 2035,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GC_PHANTOMMENACE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GC_PHANTOMMENACE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -175,9 +209,11 @@
          "id" : 2036,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AS_SONICBLOW" : 10
-         },
+         "pre_requisites" : [
+            {
+               "AS_SONICBLOW" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -186,9 +222,11 @@
          "id" : 2037,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GC_ROLLINGCUTTER" : 1
-         },
+         "pre_requisites" : [
+            {
+               "GC_ROLLINGCUTTER" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -197,9 +235,11 @@
          "id" : 5001,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "GC_DARKILLUSION" : 5
-         },
+         "pre_requisites" : [
+            {
+               "GC_DARKILLUSION" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {

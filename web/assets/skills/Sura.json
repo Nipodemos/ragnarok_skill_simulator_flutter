@@ -10,9 +10,11 @@
          "id" : 2326,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MO_TRIPLEATTACK" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MO_TRIPLEATTACK" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -21,9 +23,11 @@
          "id" : 2327,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_DRAGONCOMBO" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SR_DRAGONCOMBO" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -32,10 +36,14 @@
          "id" : 2328,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_CURSEDCIRCLE" : 1,
-            "SR_DRAGONCOMBO" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SR_DRAGONCOMBO" : 1
+            },
+            {
+               "SR_CURSEDCIRCLE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -44,9 +52,11 @@
          "id" : 2329,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_DRAGONCOMBO" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SR_DRAGONCOMBO" : 1
+            }
+         ],
          "skill_type" : "0x200"
       },
       {
@@ -55,9 +65,11 @@
          "id" : 2330,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "SR_FALLENEMPIRE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SR_FALLENEMPIRE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -66,9 +78,11 @@
          "id" : 2332,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_EARTHSHAKER" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SR_EARTHSHAKER" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -77,9 +91,11 @@
          "id" : 2333,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_SKYNETBLOW" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SR_SKYNETBLOW" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -88,10 +104,14 @@
          "id" : 2334,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_BLADESTOP" : 2,
-            "SR_GENTLETOUCH_QUIET" : 2
-         },
+         "pre_requisites" : [
+            {
+               "MO_BLADESTOP" : 2
+            },
+            {
+               "SR_GENTLETOUCH_QUIET" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -100,9 +120,11 @@
          "id" : 2335,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_WINDMILL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SR_WINDMILL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -111,10 +133,14 @@
          "id" : 2336,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_LIGHTNINGWALK" : 3,
-            "SR_RAMPAGEBLASTER" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SR_RAMPAGEBLASTER" : 3
+            },
+            {
+               "SR_LIGHTNINGWALK" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -123,9 +149,11 @@
          "id" : 2337,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "SR_CURSEDCIRCLE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SR_CURSEDCIRCLE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -134,10 +162,14 @@
          "id" : 2338,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "SR_GENTLETOUCH_ENERGYGAIN" : 3,
-            "SR_RAMPAGEBLASTER" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SR_RAMPAGEBLASTER" : 3
+            },
+            {
+               "SR_GENTLETOUCH_ENERGYGAIN" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -146,10 +178,14 @@
          "id" : 2340,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "MO_ABSORBSPIRITS" : 1,
-            "SR_POWERVELOCITY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MO_ABSORBSPIRITS" : 1
+            },
+            {
+               "SR_POWERVELOCITY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -158,9 +194,11 @@
          "id" : 2341,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "MO_CALLSPIRITS" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MO_CALLSPIRITS" : 5
+            }
+         ],
          "skill_type" : "0x200"
       },
       {
@@ -169,10 +207,14 @@
          "id" : 2343,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "SR_RAISINGDRAGON" : 5,
-            "SR_TIGERCANNON" : 5
-         },
+         "pre_requisites" : [
+            {
+               "SR_TIGERCANNON" : 5
+            },
+            {
+               "SR_RAISINGDRAGON" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -181,9 +223,11 @@
          "id" : 2344,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_POWERVELOCITY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SR_POWERVELOCITY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -192,9 +236,11 @@
          "id" : 2345,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_POWERVELOCITY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SR_POWERVELOCITY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -203,9 +249,11 @@
          "id" : 2346,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_GENTLETOUCH_QUIET" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SR_GENTLETOUCH_QUIET" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -214,9 +262,11 @@
          "id" : 2347,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_GENTLETOUCH_CURE" : 4
-         },
+         "pre_requisites" : [
+            {
+               "SR_GENTLETOUCH_CURE" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -225,9 +275,11 @@
          "id" : 2348,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_GENTLETOUCH_CHANGE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "SR_GENTLETOUCH_CHANGE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -236,10 +288,14 @@
          "id" : 2517,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_ASSIMILATEPOWER" : 1,
-            "SR_RIDEINLIGHTNING" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SR_ASSIMILATEPOWER" : 1
+            },
+            {
+               "SR_RIDEINLIGHTNING" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -248,9 +304,11 @@
          "id" : 2518,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MO_FINGEROFFENSIVE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "MO_FINGEROFFENSIVE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -259,12 +317,20 @@
          "id" : 5009,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SR_DRAGONCOMBO" : 3,
-            "SR_FALLENEMPIRE" : 3,
-            "SR_SKYNETBLOW" : 1,
-            "SR_TIGERCANNON" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SR_DRAGONCOMBO" : 3
+            },
+            {
+               "SR_FALLENEMPIRE" : 3
+            },
+            {
+               "SR_TIGERCANNON" : 1
+            },
+            {
+               "SR_SKYNETBLOW" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {

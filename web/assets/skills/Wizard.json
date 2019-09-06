@@ -10,9 +10,11 @@
          "id" : 80,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MG_FIREWALL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MG_FIREWALL" : 1
+            }
+         ],
          "skill_type" : "0x80"
       },
       {
@@ -21,10 +23,14 @@
          "id" : 81,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MG_LIGHTNINGBOLT" : 1,
-            "MG_SIGHT" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MG_LIGHTNINGBOLT" : 1
+            },
+            {
+               "MG_SIGHT" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -33,10 +39,14 @@
          "id" : 83,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MG_THUNDERSTORM" : 1,
-            "WZ_SIGHTRASHER" : 2
-         },
+         "pre_requisites" : [
+            {
+               "WZ_SIGHTRASHER" : 2
+            },
+            {
+               "MG_THUNDERSTORM" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -45,10 +55,14 @@
          "id" : 84,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MG_LIGHTNINGBOLT" : 1,
-            "MG_NAPALMBEAT" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MG_NAPALMBEAT" : 1
+            },
+            {
+               "MG_LIGHTNINGBOLT" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -57,10 +71,14 @@
          "id" : 85,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MG_THUNDERSTORM" : 1,
-            "WZ_JUPITEL" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MG_THUNDERSTORM" : 1
+            },
+            {
+               "WZ_JUPITEL" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -69,10 +87,14 @@
          "id" : 86,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MG_COLDBOLT" : 1,
-            "MG_LIGHTNINGBOLT" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MG_COLDBOLT" : 1
+            },
+            {
+               "MG_LIGHTNINGBOLT" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -81,10 +103,14 @@
          "id" : 87,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MG_FROSTDIVER" : 1,
-            "MG_STONECURSE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MG_STONECURSE" : 1
+            },
+            {
+               "MG_FROSTDIVER" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -93,9 +119,11 @@
          "id" : 88,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_ICEWALL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WZ_ICEWALL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -104,10 +132,14 @@
          "id" : 89,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MG_FROSTDIVER" : 1,
-            "WZ_JUPITEL" : 3
-         },
+         "pre_requisites" : [
+            {
+               "MG_FROSTDIVER" : 1
+            },
+            {
+               "WZ_JUPITEL" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -116,9 +148,11 @@
          "id" : 90,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MG_STONECURSE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MG_STONECURSE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -127,9 +161,11 @@
          "id" : 91,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_EARTHSPIKE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "WZ_EARTHSPIKE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -138,9 +174,11 @@
          "id" : 92,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_HEAVENDRIVE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WZ_HEAVENDRIVE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {

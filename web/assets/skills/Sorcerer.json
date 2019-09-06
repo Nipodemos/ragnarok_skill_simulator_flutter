@@ -10,9 +10,11 @@
          "id" : 2443,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_VOLCANO" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SA_VOLCANO" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -21,9 +23,11 @@
          "id" : 2444,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_VIOLENTGALE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SA_VIOLENTGALE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -32,9 +36,11 @@
          "id" : 2445,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_AUTOSPELL" : 4
-         },
+         "pre_requisites" : [
+            {
+               "SA_AUTOSPELL" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -43,9 +49,11 @@
          "id" : 2446,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_EARTHSPIKE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "WZ_EARTHSPIKE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -54,9 +62,11 @@
          "id" : 2447,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_DELUGE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SA_DELUGE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -65,9 +75,11 @@
          "id" : 2448,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SO_CLOUD_KILL" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SO_CLOUD_KILL" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -76,9 +88,11 @@
          "id" : 2449,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_DISPELL" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SA_DISPELL" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -87,9 +101,11 @@
          "id" : 2450,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_HEAVENDRIVE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "WZ_HEAVENDRIVE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -98,12 +114,20 @@
          "id" : 2451,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_FLAMELAUNCHER" : 1,
-            "SA_FROSTWEAPON" : 1,
-            "SA_LIGHTNINGLOADER" : 1,
-            "SA_SEISMICWEAPON" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SA_FLAMELAUNCHER" : 1
+            },
+            {
+               "SA_FROSTWEAPON" : 1
+            },
+            {
+               "SA_LIGHTNINGLOADER" : 1
+            },
+            {
+               "SA_SEISMICWEAPON" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -112,10 +136,14 @@
          "id" : 2452,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_VIOLENTGALE" : 1,
-            "SA_VOLCANO" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SA_VOLCANO" : 1
+            },
+            {
+               "SA_VIOLENTGALE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -124,9 +152,11 @@
          "id" : 2453,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_LANDPROTECTOR" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SA_LANDPROTECTOR" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -135,10 +165,14 @@
          "id" : 2454,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_SEISMICWEAPON" : 1,
-            "SA_VIOLENTGALE" : 4
-         },
+         "pre_requisites" : [
+            {
+               "SA_SEISMICWEAPON" : 1
+            },
+            {
+               "SA_VIOLENTGALE" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -147,9 +181,11 @@
          "id" : 2455,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SO_WARMER" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SO_WARMER" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -158,9 +194,11 @@
          "id" : 2456,
          "maxLevel" : 4,
          "position" : null,
-         "pre_requisites" : {
-            "SO_EL_ANALYSIS" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SO_EL_ANALYSIS" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -169,10 +207,14 @@
          "id" : 2457,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SO_EL_CONTROL" : 1,
-            "SO_WARMER" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SO_WARMER" : 3
+            },
+            {
+               "SO_EL_CONTROL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -181,10 +223,14 @@
          "id" : 2458,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SO_DIAMONDDUST" : 3,
-            "SO_EL_CONTROL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SO_DIAMONDDUST" : 3
+            },
+            {
+               "SO_EL_CONTROL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -193,10 +239,14 @@
          "id" : 2459,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SO_EL_CONTROL" : 1,
-            "SO_VARETYR_SPEAR" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SO_VARETYR_SPEAR" : 3
+            },
+            {
+               "SO_EL_CONTROL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -205,10 +255,14 @@
          "id" : 2460,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SO_EARTHGRAVE" : 3,
-            "SO_EL_CONTROL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SO_EARTHGRAVE" : 3
+            },
+            {
+               "SO_EL_CONTROL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -217,9 +271,11 @@
          "id" : 2461,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "SO_EL_CONTROL" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SO_EL_CONTROL" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -228,12 +284,20 @@
          "id" : 2462,
          "maxLevel" : 2,
          "position" : null,
-         "pre_requisites" : {
-            "SA_FLAMELAUNCHER" : 1,
-            "SA_FROSTWEAPON" : 1,
-            "SA_LIGHTNINGLOADER" : 1,
-            "SA_SEISMICWEAPON" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SA_FLAMELAUNCHER" : 1
+            },
+            {
+               "SA_FROSTWEAPON" : 1
+            },
+            {
+               "SA_LIGHTNINGLOADER" : 1
+            },
+            {
+               "SA_SEISMICWEAPON" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -242,9 +306,11 @@
          "id" : 2463,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SO_EL_CONTROL" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SO_EL_CONTROL" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -253,9 +319,11 @@
          "id" : 2464,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "SO_EL_SYMPATHY" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SO_EL_SYMPATHY" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -264,9 +332,11 @@
          "id" : 2465,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SO_SUMMON_AGNI" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SO_SUMMON_AGNI" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -275,9 +345,11 @@
          "id" : 2466,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SO_SUMMON_AQUA" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SO_SUMMON_AQUA" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -286,9 +358,11 @@
          "id" : 2467,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SO_SUMMON_VENTUS" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SO_SUMMON_VENTUS" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -297,9 +371,11 @@
          "id" : 2468,
          "maxLevel" : 3,
          "position" : null,
-         "pre_requisites" : {
-            "SO_SUMMON_TERA" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SO_SUMMON_TERA" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -308,9 +384,11 @@
          "id" : 5008,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SO_EL_CONTROL" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SO_EL_CONTROL" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {

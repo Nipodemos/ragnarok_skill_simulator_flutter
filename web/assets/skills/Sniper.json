@@ -10,12 +10,20 @@
          "id" : 380,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AC_CONCENTRATION" : 10,
-            "AC_OWL" : 10,
-            "AC_VULTURE" : 10,
-            "HT_FALCON" : 1
-         },
+         "pre_requisites" : [
+            {
+               "AC_OWL" : 10
+            },
+            {
+               "AC_VULTURE" : 10
+            },
+            {
+               "AC_CONCENTRATION" : 10
+            },
+            {
+               "HT_FALCON" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -24,12 +32,20 @@
          "id" : 381,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AC_VULTURE" : 5,
-            "HT_BLITZBEAT" : 5,
-            "HT_FALCON" : 1,
-            "HT_STEELCROW" : 3
-         },
+         "pre_requisites" : [
+            {
+               "HT_STEELCROW" : 3
+            },
+            {
+               "AC_VULTURE" : 5
+            },
+            {
+               "HT_BLITZBEAT" : 5
+            },
+            {
+               "HT_FALCON" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -38,10 +54,14 @@
          "id" : 382,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AC_CONCENTRATION" : 10,
-            "AC_DOUBLE" : 5
-         },
+         "pre_requisites" : [
+            {
+               "AC_CONCENTRATION" : 10
+            },
+            {
+               "AC_DOUBLE" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -50,9 +70,11 @@
          "id" : 383,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "AC_CONCENTRATION" : 9
-         },
+         "pre_requisites" : [
+            {
+               "AC_CONCENTRATION" : 9
+            }
+         ],
          "skill_type" : ""
       }
    ]

@@ -10,11 +10,17 @@
          "id" : 361,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AL_ANGELUS" : 1,
-            "MG_SRECOVERY" : 3,
-            "PR_IMPOSITIO" : 3
-         },
+         "pre_requisites" : [
+            {
+               "AL_ANGELUS" : 1
+            },
+            {
+               "MG_SRECOVERY" : 3
+            },
+            {
+               "PR_IMPOSITIO" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -23,11 +29,17 @@
          "id" : 362,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MG_SRECOVERY" : 1,
-            "PR_GLORIA" : 2,
-            "PR_KYRIE" : 3
-         },
+         "pre_requisites" : [
+            {
+               "PR_GLORIA" : 2
+            },
+            {
+               "MG_SRECOVERY" : 1
+            },
+            {
+               "PR_KYRIE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -36,11 +48,17 @@
          "id" : 363,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "MG_SRECOVERY" : 5,
-            "PR_ASPERSIO" : 3,
-            "PR_LEXDIVINA" : 5
-         },
+         "pre_requisites" : [
+            {
+               "PR_ASPERSIO" : 3
+            },
+            {
+               "MG_SRECOVERY" : 5
+            },
+            {
+               "PR_LEXDIVINA" : 5
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -49,10 +67,14 @@
          "id" : 481,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "AL_DEMONBANE" : 10,
-            "PR_MACEMASTERY" : 10
-         },
+         "pre_requisites" : [
+            {
+               "PR_MACEMASTERY" : 10
+            },
+            {
+               "AL_DEMONBANE" : 10
+            }
+         ],
          "skill_type" : ""
       }
    ]

@@ -18,9 +18,11 @@
          "id" : 90,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_SEISMICWEAPON" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SA_SEISMICWEAPON" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -29,9 +31,11 @@
          "id" : 91,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "WZ_EARTHSPIKE" : 1
-         },
+         "pre_requisites" : [
+            {
+               "WZ_EARTHSPIKE" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -48,9 +52,11 @@
          "id" : 275,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_ADVANCEDBOOK" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SA_ADVANCEDBOOK" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -59,9 +65,11 @@
          "id" : 276,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_ADVANCEDBOOK" : 4
-         },
+         "pre_requisites" : [
+            {
+               "SA_ADVANCEDBOOK" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -70,9 +78,11 @@
          "id" : 277,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_MAGICROD" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SA_MAGICROD" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -81,9 +91,11 @@
          "id" : 278,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "SA_CASTCANCEL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SA_CASTCANCEL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -92,9 +104,11 @@
          "id" : 279,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "SA_FREECAST" : 4
-         },
+         "pre_requisites" : [
+            {
+               "SA_FREECAST" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -103,10 +117,14 @@
          "id" : 280,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MG_FIREBOLT" : 1,
-            "SA_ADVANCEDBOOK" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MG_FIREBOLT" : 1
+            },
+            {
+               "SA_ADVANCEDBOOK" : 5
+            }
+         ],
          "skill_type" : "0xC00"
       },
       {
@@ -115,10 +133,14 @@
          "id" : 281,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MG_COLDBOLT" : 1,
-            "SA_ADVANCEDBOOK" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MG_COLDBOLT" : 1
+            },
+            {
+               "SA_ADVANCEDBOOK" : 5
+            }
+         ],
          "skill_type" : "0xC00"
       },
       {
@@ -127,10 +149,14 @@
          "id" : 282,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MG_LIGHTNINGBOLT" : 1,
-            "SA_ADVANCEDBOOK" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MG_LIGHTNINGBOLT" : 1
+            },
+            {
+               "SA_ADVANCEDBOOK" : 5
+            }
+         ],
          "skill_type" : "0xC00"
       },
       {
@@ -139,10 +165,14 @@
          "id" : 283,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MG_STONECURSE" : 1,
-            "SA_ADVANCEDBOOK" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MG_STONECURSE" : 1
+            },
+            {
+               "SA_ADVANCEDBOOK" : 5
+            }
+         ],
          "skill_type" : "0xC00"
       },
       {
@@ -151,9 +181,11 @@
          "id" : 284,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_ADVANCEDBOOK" : 9
-         },
+         "pre_requisites" : [
+            {
+               "SA_ADVANCEDBOOK" : 9
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -162,9 +194,11 @@
          "id" : 285,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_FLAMELAUNCHER" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SA_FLAMELAUNCHER" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -173,9 +207,11 @@
          "id" : 286,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_FROSTWEAPON" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SA_FROSTWEAPON" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -184,9 +220,11 @@
          "id" : 287,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_LIGHTNINGLOADER" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SA_LIGHTNINGLOADER" : 2
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -195,11 +233,17 @@
          "id" : 288,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_DELUGE" : 3,
-            "SA_VIOLENTGALE" : 3,
-            "SA_VOLCANO" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SA_VOLCANO" : 3
+            },
+            {
+               "SA_DELUGE" : 3
+            },
+            {
+               "SA_VIOLENTGALE" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -208,9 +252,11 @@
          "id" : 289,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_SPELLBREAKER" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SA_SPELLBREAKER" : 3
+            }
+         ],
          "skill_type" : "0xE00"
       },
       {
@@ -219,11 +265,17 @@
          "id" : 290,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "SA_AUTOSPELL" : 5,
-            "SA_DISPELL" : 1,
-            "SA_LANDPROTECTOR" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SA_AUTOSPELL" : 5
+            },
+            {
+               "SA_DISPELL" : 1
+            },
+            {
+               "SA_LANDPROTECTOR" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {

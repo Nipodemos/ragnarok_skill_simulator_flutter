@@ -10,12 +10,20 @@
          "id" : 384,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "BS_HILTBINDING" : 1,
-            "BS_OVERTHRUST" : 3,
-            "BS_SKINTEMPER" : 3,
-            "BS_WEAPONRESEARCH" : 5
-         },
+         "pre_requisites" : [
+            {
+               "BS_SKINTEMPER" : 3
+            },
+            {
+               "BS_HILTBINDING" : 1
+            },
+            {
+               "BS_WEAPONRESEARCH" : 5
+            },
+            {
+               "BS_OVERTHRUST" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -24,12 +32,20 @@
          "id" : 387,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "BS_HILTBINDING" : 1,
-            "MC_CARTREVOLUTION" : 1,
-            "MC_CHANGECART" : 1,
-            "MC_PUSHCART" : 5
-         },
+         "pre_requisites" : [
+            {
+               "MC_PUSHCART" : 5
+            },
+            {
+               "MC_CARTREVOLUTION" : 1
+            },
+            {
+               "MC_CHANGECART" : 1
+            },
+            {
+               "BS_HILTBINDING" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -38,9 +54,11 @@
          "id" : 477,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "BS_WEAPONRESEARCH" : 10
-         },
+         "pre_requisites" : [
+            {
+               "BS_WEAPONRESEARCH" : 10
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -49,11 +67,17 @@
          "id" : 485,
          "maxLevel" : 10,
          "position" : null,
-         "pre_requisites" : {
-            "BS_HAMMERFALL" : 5,
-            "MC_MAMMONITE" : 10,
-            "WS_CARTBOOST" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MC_MAMMONITE" : 10
+            },
+            {
+               "BS_HAMMERFALL" : 5
+            },
+            {
+               "WS_CARTBOOST" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -62,9 +86,11 @@
          "id" : 486,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "BS_OVERTHRUST" : 5
-         },
+         "pre_requisites" : [
+            {
+               "BS_OVERTHRUST" : 5
+            }
+         ],
          "skill_type" : ""
       }
    ]

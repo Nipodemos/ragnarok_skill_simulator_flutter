@@ -10,10 +10,14 @@
          "id" : 373,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MG_SRECOVERY" : 1,
-            "SA_MAGICROD" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MG_SRECOVERY" : 1
+            },
+            {
+               "SA_MAGICROD" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -22,10 +26,14 @@
          "id" : 374,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "SA_MAGICROD" : 3,
-            "SA_SPELLBREAKER" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SA_MAGICROD" : 3
+            },
+            {
+               "SA_SPELLBREAKER" : 2
+            }
+         ],
          "skill_type" : "0xE00"
       },
       {
@@ -34,11 +42,17 @@
          "id" : 375,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_CASTCANCEL" : 5,
-            "SA_DISPELL" : 3,
-            "SA_MAGICROD" : 3
-         },
+         "pre_requisites" : [
+            {
+               "SA_CASTCANCEL" : 5
+            },
+            {
+               "SA_MAGICROD" : 3
+            },
+            {
+               "SA_DISPELL" : 3
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -47,10 +61,14 @@
          "id" : 402,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "MG_SRECOVERY" : 3,
-            "PF_SOULBURN" : 1
-         },
+         "pre_requisites" : [
+            {
+               "MG_SRECOVERY" : 3
+            },
+            {
+               "PF_SOULBURN" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -59,11 +77,17 @@
          "id" : 403,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "SA_ADVANCEDBOOK" : 5,
-            "SA_AUTOSPELL" : 1,
-            "SA_FREECAST" : 5
-         },
+         "pre_requisites" : [
+            {
+               "SA_ADVANCEDBOOK" : 5
+            },
+            {
+               "SA_FREECAST" : 5
+            },
+            {
+               "SA_AUTOSPELL" : 1
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -72,10 +96,14 @@
          "id" : 404,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "SA_DELUGE" : 2,
-            "SA_VIOLENTGALE" : 2
-         },
+         "pre_requisites" : [
+            {
+               "SA_DELUGE" : 2
+            },
+            {
+               "SA_VIOLENTGALE" : 2
+            }
+         ],
          "skill_type" : "0x100"
       },
       {
@@ -84,9 +112,11 @@
          "id" : 405,
          "maxLevel" : 1,
          "position" : null,
-         "pre_requisites" : {
-            "SA_DRAGONOLOGY" : 4
-         },
+         "pre_requisites" : [
+            {
+               "SA_DRAGONOLOGY" : 4
+            }
+         ],
          "skill_type" : ""
       },
       {
@@ -95,9 +125,11 @@
          "id" : 482,
          "maxLevel" : 5,
          "position" : null,
-         "pre_requisites" : {
-            "SA_AUTOSPELL" : 1
-         },
+         "pre_requisites" : [
+            {
+               "SA_AUTOSPELL" : 1
+            }
+         ],
          "skill_type" : ""
       }
    ]
