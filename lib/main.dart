@@ -60,11 +60,12 @@ class _ActualGridState extends State<ActualGrid> {
   Widget build(BuildContext context) {
     return Center(
       child: FutureBuilder(
+        future: buildList(widget.nomeClasse),
         builder: (BuildContext context, AsyncSnapshot<List<Skill>> snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             if (snapshot.hasError) {
-              throw snapshot.error;
-              //return Text('Ocorreu um erro desconhecido');
+              return Text('Erro: ${snapshot.error}');
+              //throw snapshot.error;
             } else if (snapshot.hasData) {
               return GridView.count(
                 crossAxisCount: 7,
@@ -79,10 +80,16 @@ class _ActualGridState extends State<ActualGrid> {
               );
             }
           } else {
-            return Text('Aguardando dados');
+            return Center(
+              child: Column(
+                children: <Widget>[
+                  Text('Aguardando dados'),
+                  CircularProgressIndicator(),
+                ],
+              ),
+            );
           }
         },
-        future: buildList(widget.nomeClasse),
       ),
     );
   }
