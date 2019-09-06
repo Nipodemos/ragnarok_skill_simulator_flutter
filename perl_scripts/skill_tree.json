@@ -43,9 +43,11 @@
 			{
 				"handle_name": "SM_TWOHAND",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SM_SWORD": 1
-				}
+				"pre_requisites": [
+					{
+						"SM_SWORD": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SM_RECOVERY",
@@ -62,16 +64,20 @@
 			{
 				"handle_name": "SM_MAGNUM",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SM_BASH": 5
-				}
+				"pre_requisites": [
+					{
+						"SM_BASH": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SM_ENDURE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SM_PROVOKE": 5
-				}
+				"pre_requisites": [
+					{
+						"SM_PROVOKE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SM_MOVINGRECOVERY",
@@ -107,17 +113,23 @@
 			{
 				"handle_name": "MG_SAFETYWALL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_NAPALMBEAT": 7,
-					"MG_SOULSTRIKE": 5
-				}
+				"pre_requisites": [
+					{
+						"MG_NAPALMBEAT": 7
+					},
+					{
+						"MG_SOULSTRIKE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MG_SOULSTRIKE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_NAPALMBEAT": 4
-				}
+				"pre_requisites": [
+					{
+						"MG_NAPALMBEAT": 4
+					}
+				]
 			},
 			{
 				"handle_name": "MG_COLDBOLT",
@@ -126,9 +138,11 @@
 			{
 				"handle_name": "MG_FROSTDIVER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_COLDBOLT": 5
-				}
+				"pre_requisites": [
+					{
+						"MG_COLDBOLT": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MG_STONECURSE",
@@ -137,17 +151,23 @@
 			{
 				"handle_name": "MG_FIREBALL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_FIREBOLT": 4
-				}
+				"pre_requisites": [
+					{
+						"MG_FIREBOLT": 4
+					}
+				]
 			},
 			{
 				"handle_name": "MG_FIREWALL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_FIREBALL": 5,
-					"MG_SIGHT": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_FIREBALL": 5
+					},
+					{
+						"MG_SIGHT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "MG_FIREBOLT",
@@ -160,9 +180,11 @@
 			{
 				"handle_name": "MG_THUNDERSTORM",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_LIGHTNINGBOLT": 4
-				}
+				"pre_requisites": [
+					{
+						"MG_LIGHTNINGBOLT": 4
+					}
+				]
 			},
 			{
 				"handle_name": "MG_ENERGYCOAT",
@@ -182,16 +204,20 @@
 			{
 				"handle_name": "AC_VULTURE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AC_OWL": 3
-				}
+				"pre_requisites": [
+					{
+						"AC_OWL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AC_CONCENTRATION",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AC_VULTURE": 1
-				}
+				"pre_requisites": [
+					{
+						"AC_VULTURE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AC_DOUBLE",
@@ -200,9 +226,11 @@
 			{
 				"handle_name": "AC_SHOWER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AC_DOUBLE": 5
-				}
+				"pre_requisites": [
+					{
+						"AC_DOUBLE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "AC_MAKINGARROW",
@@ -226,9 +254,11 @@
 			{
 				"handle_name": "AL_DEMONBANE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DP": 3
-				}
+				"pre_requisites": [
+					{
+						"AL_DP": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AL_RUWACH",
@@ -237,23 +267,29 @@
 			{
 				"handle_name": "AL_PNEUMA",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AL_WARP": 4
-				}
+				"pre_requisites": [
+					{
+						"AL_WARP": 4
+					}
+				]
 			},
 			{
 				"handle_name": "AL_TELEPORT",
 				"maxLevel": 2,
-				"pre_requisites": {
-					"AL_RUWACH": 1
-				}
+				"pre_requisites": [
+					{
+						"AL_RUWACH": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AL_WARP",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"AL_TELEPORT": 2
-				}
+				"pre_requisites": [
+					{
+						"AL_TELEPORT": 2
+					}
+				]
 			},
 			{
 				"handle_name": "AL_HEAL",
@@ -262,16 +298,20 @@
 			{
 				"handle_name": "AL_INCAGI",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_HEAL": 3
-				}
+				"pre_requisites": [
+					{
+						"AL_HEAL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AL_DECAGI",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_INCAGI": 1
-				}
+				"pre_requisites": [
+					{
+						"AL_INCAGI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AL_HOLYWATER",
@@ -280,30 +320,38 @@
 			{
 				"handle_name": "AL_CRUCIS",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DEMONBANE": 3
-				}
+				"pre_requisites": [
+					{
+						"AL_DEMONBANE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AL_ANGELUS",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DP": 3
-				}
+				"pre_requisites": [
+					{
+						"AL_DP": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AL_BLESSING",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DP": 5
-				}
+				"pre_requisites": [
+					{
+						"AL_DP": 5
+					}
+				]
 			},
 			{
 				"handle_name": "AL_CURE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AL_HEAL": 2
-				}
+				"pre_requisites": [
+					{
+						"AL_HEAL": 2
+					}
+				]
 			},
 			{
 				"handle_name": "AL_HOLYLIGHT",
@@ -323,23 +371,29 @@
 			{
 				"handle_name": "MC_DISCOUNT",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MC_INCCARRY": 3
-				}
+				"pre_requisites": [
+					{
+						"MC_INCCARRY": 3
+					}
+				]
 			},
 			{
 				"handle_name": "MC_OVERCHARGE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MC_DISCOUNT": 3
-				}
+				"pre_requisites": [
+					{
+						"MC_DISCOUNT": 3
+					}
+				]
 			},
 			{
 				"handle_name": "MC_PUSHCART",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MC_INCCARRY": 5
-				}
+				"pre_requisites": [
+					{
+						"MC_INCCARRY": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MC_IDENTIFY",
@@ -348,9 +402,11 @@
 			{
 				"handle_name": "MC_VENDING",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MC_PUSHCART": 3
-				}
+				"pre_requisites": [
+					{
+						"MC_PUSHCART": 3
+					}
+				]
 			},
 			{
 				"handle_name": "MC_MAMMONITE",
@@ -371,9 +427,11 @@
 			{
 				"handle_name": "ALL_BUYING_STORE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MC_VENDING": 1
-				}
+				"pre_requisites": [
+					{
+						"MC_VENDING": 1
+					}
+				]
 			}
 		]
 	},
@@ -397,9 +455,11 @@
 			{
 				"handle_name": "TF_HIDING",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"TF_STEAL": 5
-				}
+				"pre_requisites": [
+					{
+						"TF_STEAL": 5
+					}
+				]
 			},
 			{
 				"handle_name": "TF_POISON",
@@ -408,9 +468,11 @@
 			{
 				"handle_name": "TF_DETOXIFY",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"TF_POISON": 3
-				}
+				"pre_requisites": [
+					{
+						"TF_POISON": 3
+					}
+				]
 			},
 			{
 				"handle_name": "TF_SPRINKLESAND",
@@ -442,70 +504,98 @@
 			{
 				"handle_name": "KN_PIERCE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"KN_SPEARMASTERY": 1
-				}
+				"pre_requisites": [
+					{
+						"KN_SPEARMASTERY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KN_BRANDISHSPEAR",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"KN_RIDING": 1,
-					"KN_SPEARSTAB": 3
-				}
+				"pre_requisites": [
+					{
+						"KN_RIDING": 1
+					},
+					{
+						"KN_SPEARSTAB": 3
+					}
+				]
 			},
 			{
 				"handle_name": "KN_SPEARSTAB",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"KN_PIERCE": 5
-				}
+				"pre_requisites": [
+					{
+						"KN_PIERCE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "KN_SPEARBOOMERANG",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KN_PIERCE": 3
-				}
+				"pre_requisites": [
+					{
+						"KN_PIERCE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "KN_TWOHANDQUICKEN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SM_TWOHAND": 1
-				}
+				"pre_requisites": [
+					{
+						"SM_TWOHAND": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KN_AUTOCOUNTER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SM_TWOHAND": 1
-				}
+				"pre_requisites": [
+					{
+						"SM_TWOHAND": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KN_BOWLINGBASH",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SM_BASH": 10,
-					"SM_MAGNUM": 3,
-					"SM_TWOHAND": 5,
-					"KN_TWOHANDQUICKEN": 10,
-					"KN_AUTOCOUNTER": 5
-				}
+				"pre_requisites": [
+					{
+						"SM_BASH": 10
+					},
+					{
+						"SM_MAGNUM": 3
+					},
+					{
+						"SM_TWOHAND": 5
+					},
+					{
+						"KN_TWOHANDQUICKEN": 10
+					},
+					{
+						"KN_AUTOCOUNTER": 5
+					}
+				]
 			},
 			{
 				"handle_name": "KN_RIDING",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"SM_ENDURE": 1
-				}
+				"pre_requisites": [
+					{
+						"SM_ENDURE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KN_CAVALIERMASTERY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KN_RIDING": 1
-				}
+				"pre_requisites": [
+					{
+						"KN_RIDING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KN_CHARGEATK",
@@ -514,9 +604,11 @@
 			{
 				"handle_name": "KN_ONEHAND",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"KN_TWOHANDQUICKEN": 10
-				}
+				"pre_requisites": [
+					{
+						"KN_TWOHANDQUICKEN": 10
+					}
+				]
 			}
 		]
 	},
@@ -532,18 +624,26 @@
 			{
 				"handle_name": "MG_SAFETYWALL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"PR_ASPERSIO": 4,
-					"PR_SANCTUARY": 3
-				}
+				"pre_requisites": [
+					{
+						"PR_ASPERSIO": 4
+					},
+					{
+						"PR_SANCTUARY": 3
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_RESURRECTION",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"PR_STRECOVERY": 1,
-					"MG_SRECOVERY": 4
-				}
+				"pre_requisites": [
+					{
+						"PR_STRECOVERY": 1
+					},
+					{
+						"MG_SRECOVERY": 4
+					}
+				]
 			},
 			{
 				"handle_name": "PR_MACEMASTERY",
@@ -556,32 +656,44 @@
 			{
 				"handle_name": "PR_SUFFRAGIUM",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"PR_IMPOSITIO": 2
-				}
+				"pre_requisites": [
+					{
+						"PR_IMPOSITIO": 2
+					}
+				]
 			},
 			{
 				"handle_name": "PR_ASPERSIO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AL_HOLYWATER": 1,
-					"PR_IMPOSITIO": 3
-				}
+				"pre_requisites": [
+					{
+						"AL_HOLYWATER": 1
+					},
+					{
+						"PR_IMPOSITIO": 3
+					}
+				]
 			},
 			{
 				"handle_name": "PR_BENEDICTIO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"PR_GLORIA": 3,
-					"PR_ASPERSIO": 5
-				}
+				"pre_requisites": [
+					{
+						"PR_GLORIA": 3
+					},
+					{
+						"PR_ASPERSIO": 5
+					}
+				]
 			},
 			{
 				"handle_name": "PR_SANCTUARY",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_HEAL": 1
-				}
+				"pre_requisites": [
+					{
+						"AL_HEAL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "PR_SLOWPOISON",
@@ -594,9 +706,11 @@
 			{
 				"handle_name": "PR_KYRIE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_ANGELUS": 2
-				}
+				"pre_requisites": [
+					{
+						"AL_ANGELUS": 2
+					}
+				]
 			},
 			{
 				"handle_name": "PR_MAGNIFICAT",
@@ -605,41 +719,57 @@
 			{
 				"handle_name": "PR_GLORIA",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"PR_KYRIE": 4,
-					"PR_MAGNIFICAT": 3
-				}
+				"pre_requisites": [
+					{
+						"PR_KYRIE": 4
+					},
+					{
+						"PR_MAGNIFICAT": 3
+					}
+				]
 			},
 			{
 				"handle_name": "PR_LEXDIVINA",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_RUWACH": 1
-				}
+				"pre_requisites": [
+					{
+						"AL_RUWACH": 1
+					}
+				]
 			},
 			{
 				"handle_name": "PR_TURNUNDEAD",
 				"maxLevel": 10,
 				"ALL_RESURRECTION": 1,
-				"pre_requisites": {
-					"PR_LEXDIVINA": 3
-				}
+				"pre_requisites": [
+					{
+						"PR_LEXDIVINA": 3
+					}
+				]
 			},
 			{
 				"handle_name": "PR_LEXAETERNA",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"PR_LEXDIVINA": 5
-				}
+				"pre_requisites": [
+					{
+						"PR_LEXDIVINA": 5
+					}
+				]
 			},
 			{
 				"handle_name": "PR_MAGNUS",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_SAFETYWALL": 1,
-					"PR_LEXAETERNA": 1,
-					"PR_TURNUNDEAD": 3
-				}
+				"pre_requisites": [
+					{
+						"MG_SAFETYWALL": 1
+					},
+					{
+						"PR_LEXAETERNA": 1
+					},
+					{
+						"PR_TURNUNDEAD": 3
+					}
+				]
 			},
 			{
 				"handle_name": "PR_REDEMPTIO",
@@ -655,93 +785,131 @@
 			{
 				"handle_name": "WZ_FIREPILLAR",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_FIREWALL": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_FIREWALL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_SIGHTRASHER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_LIGHTNINGBOLT": 1,
-					"MG_SIGHT": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_LIGHTNINGBOLT": 1
+					},
+					{
+						"MG_SIGHT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_METEOR",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"WZ_SIGHTRASHER": 2,
-					"MG_THUNDERSTORM": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_SIGHTRASHER": 2
+					},
+					{
+						"MG_THUNDERSTORM": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_JUPITEL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_NAPALMBEAT": 1,
-					"MG_LIGHTNINGBOLT": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_NAPALMBEAT": 1
+					},
+					{
+						"MG_LIGHTNINGBOLT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_VERMILION",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_THUNDERSTORM": 1,
-					"WZ_JUPITEL": 5
-				}
+				"pre_requisites": [
+					{
+						"MG_THUNDERSTORM": 1
+					},
+					{
+						"WZ_JUPITEL": 5
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_WATERBALL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MG_COLDBOLT": 1,
-					"MG_LIGHTNINGBOLT": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_COLDBOLT": 1
+					},
+					{
+						"MG_LIGHTNINGBOLT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_ICEWALL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_STONECURSE": 1,
-					"MG_FROSTDIVER": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_STONECURSE": 1
+					},
+					{
+						"MG_FROSTDIVER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_FROSTNOVA",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"WZ_ICEWALL": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_ICEWALL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_STORMGUST",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_FROSTDIVER": 1,
-					"WZ_JUPITEL": 3
-				}
+				"pre_requisites": [
+					{
+						"MG_FROSTDIVER": 1
+					},
+					{
+						"WZ_JUPITEL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_EARTHSPIKE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MG_STONECURSE": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_STONECURSE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_HEAVENDRIVE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_EARTHSPIKE": 3
-				}
+				"pre_requisites": [
+					{
+						"WZ_EARTHSPIKE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_QUAGMIRE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_HEAVENDRIVE": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_HEAVENDRIVE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_ESTIMATION",
@@ -765,23 +933,29 @@
 			{
 				"handle_name": "BS_STEEL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BS_IRON": 1
-				}
+				"pre_requisites": [
+					{
+						"BS_IRON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BS_ENCHANTEDSTONE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BS_IRON": 1
-				}
+				"pre_requisites": [
+					{
+						"BS_IRON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BS_ORIDEOCON",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BS_ENCHANTEDSTONE": 1
-				}
+				"pre_requisites": [
+					{
+						"BS_ENCHANTEDSTONE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BS_DAGGER",
@@ -790,44 +964,56 @@
 			{
 				"handle_name": "BS_SWORD",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"BS_DAGGER": 1
-				}
+				"pre_requisites": [
+					{
+						"BS_DAGGER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BS_TWOHANDSWORD",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"BS_SWORD": 1
-				}
+				"pre_requisites": [
+					{
+						"BS_SWORD": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BS_AXE",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"BS_SWORD": 2
-				}
+				"pre_requisites": [
+					{
+						"BS_SWORD": 2
+					}
+				]
 			},
 			{
 				"handle_name": "BS_MACE",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"BS_KNUCKLE": 1
-				}
+				"pre_requisites": [
+					{
+						"BS_KNUCKLE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BS_KNUCKLE",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"BS_DAGGER": 1
-				}
+				"pre_requisites": [
+					{
+						"BS_DAGGER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BS_SPEAR",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"BS_DAGGER": 2
-				}
+				"pre_requisites": [
+					{
+						"BS_DAGGER": 2
+					}
+				]
 			},
 			{
 				"handle_name": "BS_HILTBINDING",
@@ -836,24 +1022,32 @@
 			{
 				"handle_name": "BS_FINDINGORE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"BS_STEEL": 1,
-					"BS_HILTBINDING": 1
-				}
+				"pre_requisites": [
+					{
+						"BS_STEEL": 1
+					},
+					{
+						"BS_HILTBINDING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BS_WEAPONRESEARCH",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"BS_HILTBINDING": 1
-				}
+				"pre_requisites": [
+					{
+						"BS_HILTBINDING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BS_REPAIRWEAPON",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"BS_WEAPONRESEARCH": 1
-				}
+				"pre_requisites": [
+					{
+						"BS_WEAPONRESEARCH": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BS_SKINTEMPER",
@@ -866,32 +1060,44 @@
 			{
 				"handle_name": "BS_ADRENALINE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BS_HAMMERFALL": 2
-				}
+				"pre_requisites": [
+					{
+						"BS_HAMMERFALL": 2
+					}
+				]
 			},
 			{
 				"handle_name": "BS_WEAPONPERFECT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BS_WEAPONRESEARCH": 2,
-					"BS_ADRENALINE": 2
-				}
+				"pre_requisites": [
+					{
+						"BS_WEAPONRESEARCH": 2
+					},
+					{
+						"BS_ADRENALINE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "BS_OVERTHRUST",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BS_ADRENALINE": 3
-				}
+				"pre_requisites": [
+					{
+						"BS_ADRENALINE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "BS_MAXIMIZE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BS_WEAPONPERFECT": 3,
-					"BS_OVERTHRUST": 2
-				}
+				"pre_requisites": [
+					{
+						"BS_WEAPONPERFECT": 3
+					},
+					{
+						"BS_OVERTHRUST": 2
+					}
+				]
 			},
 			{
 				"handle_name": "BS_UNFAIRLYTRICK",
@@ -904,9 +1110,11 @@
 			{
 				"handle_name": "BS_ADRENALINE2",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"BS_ADRENALINE": 5
-				}
+				"pre_requisites": [
+					{
+						"BS_ADRENALINE": 5
+					}
+				]
 			}
 		]
 	},
@@ -926,69 +1134,95 @@
 			{
 				"handle_name": "HT_ANKLESNARE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_SKIDTRAP": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_SKIDTRAP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_SHOCKWAVE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_ANKLESNARE": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_ANKLESNARE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_SANDMAN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_FLASHER": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_FLASHER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_FLASHER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_SKIDTRAP": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_SKIDTRAP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_FREEZINGTRAP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_FLASHER": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_FLASHER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_BLASTMINE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_LANDMINE": 1,
-					"HT_SANDMAN": 1,
-					"HT_FREEZINGTRAP": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_LANDMINE": 1
+					},
+					{
+						"HT_SANDMAN": 1
+					},
+					{
+						"HT_FREEZINGTRAP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_CLAYMORETRAP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_SHOCKWAVE": 1,
-					"HT_BLASTMINE": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_SHOCKWAVE": 1
+					},
+					{
+						"HT_BLASTMINE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_REMOVETRAP",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"HT_LANDMINE": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_LANDMINE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_TALKIEBOX",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"HT_SHOCKWAVE": 1,
-					"HT_REMOVETRAP": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_SHOCKWAVE": 1
+					},
+					{
+						"HT_REMOVETRAP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_BEASTBANE",
@@ -997,39 +1231,53 @@
 			{
 				"handle_name": "HT_FALCON",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"HT_BEASTBANE": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_BEASTBANE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_STEELCROW",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"HT_BLITZBEAT": 5
-				}
+				"pre_requisites": [
+					{
+						"HT_BLITZBEAT": 5
+					}
+				]
 			},
 			{
 				"handle_name": "HT_BLITZBEAT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_FALCON": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_FALCON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_DETECTING",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"AC_CONCENTRATION": 1,
-					"HT_FALCON": 1
-				}
+				"pre_requisites": [
+					{
+						"AC_CONCENTRATION": 1
+					},
+					{
+						"HT_FALCON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_SPRINGTRAP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_REMOVETRAP": 1,
-					"HT_FALCON": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_REMOVETRAP": 1
+					},
+					{
+						"HT_FALCON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_PHANTASMIC",
@@ -1038,9 +1286,11 @@
 			{
 				"handle_name": "HT_POWER",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AC_DOUBLE": 10
-				}
+				"pre_requisites": [
+					{
+						"AC_DOUBLE": 10
+					}
+				]
 			}
 		]
 	},
@@ -1056,9 +1306,11 @@
 			{
 				"handle_name": "AS_LEFT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AS_RIGHT": 2
-				}
+				"pre_requisites": [
+					{
+						"AS_RIGHT": 2
+					}
+				]
 			},
 			{
 				"handle_name": "AS_KATAR",
@@ -1067,53 +1319,71 @@
 			{
 				"handle_name": "AS_CLOAKING",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"TF_HIDING": 2
-				}
+				"pre_requisites": [
+					{
+						"TF_HIDING": 2
+					}
+				]
 			},
 			{
 				"handle_name": "AS_SONICBLOW",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AS_KATAR": 4
-				}
+				"pre_requisites": [
+					{
+						"AS_KATAR": 4
+					}
+				]
 			},
 			{
 				"handle_name": "AS_GRIMTOOTH",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AS_CLOAKING": 2,
-					"AS_SONICBLOW": 5
-				}
+				"pre_requisites": [
+					{
+						"AS_CLOAKING": 2
+					},
+					{
+						"AS_SONICBLOW": 5
+					}
+				]
 			},
 			{
 				"handle_name": "AS_ENCHANTPOISON",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"TF_POISON": 1
-				}
+				"pre_requisites": [
+					{
+						"TF_POISON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AS_POISONREACT",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AS_ENCHANTPOISON": 3
-				}
+				"pre_requisites": [
+					{
+						"AS_ENCHANTPOISON": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AS_VENOMDUST",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AS_ENCHANTPOISON": 5
-				}
+				"pre_requisites": [
+					{
+						"AS_ENCHANTPOISON": 5
+					}
+				]
 			},
 			{
 				"handle_name": "AS_SPLASHER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AS_POISONREACT": 5,
-					"AS_VENOMDUST": 5
-				}
+				"pre_requisites": [
+					{
+						"AS_POISONREACT": 5
+					},
+					{
+						"AS_VENOMDUST": 5
+					}
+				]
 			},
 			{
 				"handle_name": "AS_SONICACCEL",
@@ -1133,16 +1403,20 @@
 			{
 				"handle_name": "KN_RIDING",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"SM_ENDURE": 1
-				}
+				"pre_requisites": [
+					{
+						"SM_ENDURE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KN_CAVALIERMASTERY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KN_RIDING": 1
-				}
+				"pre_requisites": [
+					{
+						"KN_RIDING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KN_SPEARMASTERY",
@@ -1151,31 +1425,41 @@
 			{
 				"handle_name": "AL_CURE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"CR_TRUST": 5
-				}
+				"pre_requisites": [
+					{
+						"CR_TRUST": 5
+					}
+				]
 			},
 			{
 				"handle_name": "AL_DP",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_CURE": 1
-				}
+				"pre_requisites": [
+					{
+						"AL_CURE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AL_DEMONBANE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DP": 3
-				}
+				"pre_requisites": [
+					{
+						"AL_DP": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AL_HEAL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DEMONBANE": 5,
-					"CR_TRUST": 10
-				}
+				"pre_requisites": [
+					{
+						"AL_DEMONBANE": 5
+					},
+					{
+						"CR_TRUST": 10
+					}
+				]
 			},
 			{
 				"handle_name": "CR_TRUST",
@@ -1188,68 +1472,92 @@
 			{
 				"handle_name": "CR_SHIELDCHARGE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"CR_AUTOGUARD": 5
-				}
+				"pre_requisites": [
+					{
+						"CR_AUTOGUARD": 5
+					}
+				]
 			},
 			{
 				"handle_name": "CR_SHIELDBOOMERANG",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"CR_SHIELDCHARGE": 3
-				}
+				"pre_requisites": [
+					{
+						"CR_SHIELDCHARGE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "CR_REFLECTSHIELD",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"CR_SHIELDBOOMERANG": 3
-				}
+				"pre_requisites": [
+					{
+						"CR_SHIELDBOOMERANG": 3
+					}
+				]
 			},
 			{
 				"handle_name": "CR_HOLYCROSS",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"CR_TRUST": 7
-				}
+				"pre_requisites": [
+					{
+						"CR_TRUST": 7
+					}
+				]
 			},
 			{
 				"handle_name": "CR_GRANDCROSS",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"CR_HOLYCROSS": 6,
-					"CR_TRUST": 10
-				}
+				"pre_requisites": [
+					{
+						"CR_HOLYCROSS": 6
+					},
+					{
+						"CR_TRUST": 10
+					}
+				]
 			},
 			{
 				"handle_name": "CR_DEVOTION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"CR_REFLECTSHIELD": 5,
-					"CR_GRANDCROSS": 4
-				}
+				"pre_requisites": [
+					{
+						"CR_REFLECTSHIELD": 5
+					},
+					{
+						"CR_GRANDCROSS": 4
+					}
+				]
 			},
 			{
 				"handle_name": "CR_PROVIDENCE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AL_DP": 5,
-					"AL_HEAL": 5
-				}
+				"pre_requisites": [
+					{
+						"AL_DP": 5
+					},
+					{
+						"AL_HEAL": 5
+					}
+				]
 			},
 			{
 				"handle_name": "CR_DEFENDER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"CR_SHIELDBOOMERANG": 1
-				}
+				"pre_requisites": [
+					{
+						"CR_SHIELDBOOMERANG": 1
+					}
+				]
 			},
 			{
 				"handle_name": "CR_SPEARQUICKEN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"KN_SPEARMASTERY": 10
-				}
+				"pre_requisites": [
+					{
+						"KN_SPEARMASTERY": 10
+					}
+				]
 			},
 			{
 				"handle_name": "CR_SHRINK",
@@ -1265,112 +1573,152 @@
 			{
 				"handle_name": "MO_IRONHAND",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DEMONBANE": 10,
-					"AL_DP": 10
-				}
+				"pre_requisites": [
+					{
+						"AL_DEMONBANE": 10
+					},
+					{
+						"AL_DP": 10
+					}
+				]
 			},
 			{
 				"handle_name": "MO_SPIRITSRECOVERY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_BLADESTOP": 2
-				}
+				"pre_requisites": [
+					{
+						"MO_BLADESTOP": 2
+					}
+				]
 			},
 			{
 				"handle_name": "MO_CALLSPIRITS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_IRONHAND": 2
-				}
+				"pre_requisites": [
+					{
+						"MO_IRONHAND": 2
+					}
+				]
 			},
 			{
 				"handle_name": "MO_ABSORBSPIRITS",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MO_CALLSPIRITS": 5
-				}
+				"pre_requisites": [
+					{
+						"MO_CALLSPIRITS": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MO_TRIPLEATTACK",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MO_DODGE": 5
-				}
+				"pre_requisites": [
+					{
+						"MO_DODGE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MO_BODYRELOCATION",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MO_EXTREMITYFIST": 3,
-					"MO_SPIRITSRECOVERY": 2,
-					"MO_STEELBODY": 3
-				}
+				"pre_requisites": [
+					{
+						"MO_EXTREMITYFIST": 3
+					},
+					{
+						"MO_SPIRITSRECOVERY": 2
+					},
+					{
+						"MO_STEELBODY": 3
+					}
+				]
 			},
 			{
 				"handle_name": "MO_DODGE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MO_IRONHAND": 5,
-					"MO_CALLSPIRITS": 5
-				}
+				"pre_requisites": [
+					{
+						"MO_IRONHAND": 5
+					},
+					{
+						"MO_CALLSPIRITS": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MO_INVESTIGATE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_CALLSPIRITS": 5
-				}
+				"pre_requisites": [
+					{
+						"MO_CALLSPIRITS": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MO_FINGEROFFENSIVE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_INVESTIGATE": 3
-				}
+				"pre_requisites": [
+					{
+						"MO_INVESTIGATE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "MO_STEELBODY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_COMBOFINISH": 3
-				}
+				"pre_requisites": [
+					{
+						"MO_COMBOFINISH": 3
+					}
+				]
 			},
 			{
 				"handle_name": "MO_BLADESTOP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_DODGE": 5
-				}
+				"pre_requisites": [
+					{
+						"MO_DODGE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MO_EXPLOSIONSPIRITS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_ABSORBSPIRITS": 1
-				}
+				"pre_requisites": [
+					{
+						"MO_ABSORBSPIRITS": 1
+					}
+				]
 			},
 			{
 				"handle_name": "MO_EXTREMITYFIST",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_EXPLOSIONSPIRITS": 3,
-					"MO_FINGEROFFENSIVE": 3
-				}
+				"pre_requisites": [
+					{
+						"MO_EXPLOSIONSPIRITS": 3
+					},
+					{
+						"MO_FINGEROFFENSIVE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "MO_CHAINCOMBO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_TRIPLEATTACK": 5
-				}
+				"pre_requisites": [
+					{
+						"MO_TRIPLEATTACK": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MO_COMBOFINISH",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_CHAINCOMBO": 3
-				}
+				"pre_requisites": [
+					{
+						"MO_CHAINCOMBO": 3
+					}
+				]
 			},
 			{
 				"handle_name": "MO_KITRANSLATION",
@@ -1394,16 +1742,20 @@
 			{
 				"handle_name": "WZ_EARTHSPIKE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_SEISMICWEAPON": 1
-				}
+				"pre_requisites": [
+					{
+						"SA_SEISMICWEAPON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_HEAVENDRIVE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_EARTHSPIKE": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_EARTHSPIKE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SA_ADVANCEDBOOK",
@@ -1412,122 +1764,170 @@
 			{
 				"handle_name": "SA_CASTCANCEL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_ADVANCEDBOOK": 2
-				}
+				"pre_requisites": [
+					{
+						"SA_ADVANCEDBOOK": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SA_MAGICROD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_ADVANCEDBOOK": 4
-				}
+				"pre_requisites": [
+					{
+						"SA_ADVANCEDBOOK": 4
+					}
+				]
 			},
 			{
 				"handle_name": "SA_SPELLBREAKER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_MAGICROD": 1
-				}
+				"pre_requisites": [
+					{
+						"SA_MAGICROD": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SA_FREECAST",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SA_CASTCANCEL": 1
-				}
+				"pre_requisites": [
+					{
+						"SA_CASTCANCEL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SA_AUTOSPELL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SA_FREECAST": 4
-				}
+				"pre_requisites": [
+					{
+						"SA_FREECAST": 4
+					}
+				]
 			},
 			{
 				"handle_name": "SA_FLAMELAUNCHER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MG_FIREBOLT": 1,
-					"SA_ADVANCEDBOOK": 5
-				}
+				"pre_requisites": [
+					{
+						"MG_FIREBOLT": 1
+					},
+					{
+						"SA_ADVANCEDBOOK": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SA_FROSTWEAPON",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MG_COLDBOLT": 1,
-					"SA_ADVANCEDBOOK": 5
-				}
+				"pre_requisites": [
+					{
+						"MG_COLDBOLT": 1
+					},
+					{
+						"SA_ADVANCEDBOOK": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SA_LIGHTNINGLOADER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MG_LIGHTNINGBOLT": 1,
-					"SA_ADVANCEDBOOK": 5
-				}
+				"pre_requisites": [
+					{
+						"MG_LIGHTNINGBOLT": 1
+					},
+					{
+						"SA_ADVANCEDBOOK": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SA_SEISMICWEAPON",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MG_STONECURSE": 1,
-					"SA_ADVANCEDBOOK": 5
-				}
+				"pre_requisites": [
+					{
+						"MG_STONECURSE": 1
+					},
+					{
+						"SA_ADVANCEDBOOK": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SA_DRAGONOLOGY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_ADVANCEDBOOK": 9
-				}
+				"pre_requisites": [
+					{
+						"SA_ADVANCEDBOOK": 9
+					}
+				]
 			},
 			{
 				"handle_name": "SA_VOLCANO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_FLAMELAUNCHER": 2
-				}
+				"pre_requisites": [
+					{
+						"SA_FLAMELAUNCHER": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SA_DELUGE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_FROSTWEAPON": 2
-				}
+				"pre_requisites": [
+					{
+						"SA_FROSTWEAPON": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SA_VIOLENTGALE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_LIGHTNINGLOADER": 2
-				}
+				"pre_requisites": [
+					{
+						"SA_LIGHTNINGLOADER": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SA_LANDPROTECTOR",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_VOLCANO": 3,
-					"SA_DELUGE": 3,
-					"SA_VIOLENTGALE": 3
-				}
+				"pre_requisites": [
+					{
+						"SA_VOLCANO": 3
+					},
+					{
+						"SA_DELUGE": 3
+					},
+					{
+						"SA_VIOLENTGALE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SA_DISPELL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_SPELLBREAKER": 3
-				}
+				"pre_requisites": [
+					{
+						"SA_SPELLBREAKER": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SA_ABRACADABRA",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SA_AUTOSPELL": 5,
-					"SA_DISPELL": 1,
-					"SA_LANDPROTECTOR": 1
-				}
+				"pre_requisites": [
+					{
+						"SA_AUTOSPELL": 5
+					},
+					{
+						"SA_DISPELL": 1
+					},
+					{
+						"SA_LANDPROTECTOR": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SA_CREATECON",
@@ -1567,130 +1967,170 @@
 			{
 				"handle_name": "AC_DOUBLE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AC_VULTURE": 10
-				}
+				"pre_requisites": [
+					{
+						"AC_VULTURE": 10
+					}
+				]
 			},
 			{
 				"handle_name": "HT_REMOVETRAP",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AC_DOUBLE": 5
-				}
+				"pre_requisites": [
+					{
+						"AC_DOUBLE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RG_SNATCHER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"TF_STEAL": 1
-				}
+				"pre_requisites": [
+					{
+						"TF_STEAL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RG_STEALCOIN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"RG_SNATCHER": 4
-				}
+				"pre_requisites": [
+					{
+						"RG_SNATCHER": 4
+					}
+				]
 			},
 			{
 				"handle_name": "RG_BACKSTAP",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"RG_STEALCOIN": 4
-				}
+				"pre_requisites": [
+					{
+						"RG_STEALCOIN": 4
+					}
+				]
 			},
 			{
 				"handle_name": "RG_TUNNELDRIVE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"TF_HIDING": 1
-				}
+				"pre_requisites": [
+					{
+						"TF_HIDING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RG_RAID",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_BACKSTAP": 2,
-					"RG_TUNNELDRIVE": 2
-				}
+				"pre_requisites": [
+					{
+						"RG_BACKSTAP": 2
+					},
+					{
+						"RG_TUNNELDRIVE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "RG_STRIPWEAPON",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_STRIPARMOR": 5
-				}
+				"pre_requisites": [
+					{
+						"RG_STRIPARMOR": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RG_STRIPSHIELD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_STRIPHELM": 5
-				}
+				"pre_requisites": [
+					{
+						"RG_STRIPHELM": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RG_STRIPARMOR",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_STRIPSHIELD": 5
-				}
+				"pre_requisites": [
+					{
+						"RG_STRIPSHIELD": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RG_STRIPHELM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_STEALCOIN": 2
-				}
+				"pre_requisites": [
+					{
+						"RG_STEALCOIN": 2
+					}
+				]
 			},
 			{
 				"handle_name": "RG_INTIMIDATE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_BACKSTAP": 4,
-					"RG_RAID": 5
-				}
+				"pre_requisites": [
+					{
+						"RG_BACKSTAP": 4
+					},
+					{
+						"RG_RAID": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RG_GRAFFITI",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"RG_FLAGGRAFFITI": 5
-				}
+				"pre_requisites": [
+					{
+						"RG_FLAGGRAFFITI": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RG_FLAGGRAFFITI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_CLEANER": 1
-				}
+				"pre_requisites": [
+					{
+						"RG_CLEANER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RG_CLEANER",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"RG_GANGSTER": 1
-				}
+				"pre_requisites": [
+					{
+						"RG_GANGSTER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RG_GANGSTER",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"RG_STRIPSHIELD": 3
-				}
+				"pre_requisites": [
+					{
+						"RG_STRIPSHIELD": 3
+					}
+				]
 			},
 			{
 				"handle_name": "RG_COMPULSION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_GANGSTER": 1
-				}
+				"pre_requisites": [
+					{
+						"RG_GANGSTER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RG_PLAGIARISM",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"RG_INTIMIDATE": 5
-				}
+				"pre_requisites": [
+					{
+						"RG_INTIMIDATE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RG_CLOSECONFINE",
@@ -1714,72 +2154,92 @@
 			{
 				"handle_name": "AM_PHARMACY",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AM_LEARNINGPOTION": 5
-				}
+				"pre_requisites": [
+					{
+						"AM_LEARNINGPOTION": 5
+					}
+				]
 			},
 			{
 				"handle_name": "AM_DEMONSTRATION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AM_PHARMACY": 4
-				}
+				"pre_requisites": [
+					{
+						"AM_PHARMACY": 4
+					}
+				]
 			},
 			{
 				"handle_name": "AM_ACIDTERROR",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AM_PHARMACY": 5
-				}
+				"pre_requisites": [
+					{
+						"AM_PHARMACY": 5
+					}
+				]
 			},
 			{
 				"handle_name": "AM_POTIONPITCHER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AM_PHARMACY": 3
-				}
+				"pre_requisites": [
+					{
+						"AM_PHARMACY": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AM_CANNIBALIZE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AM_PHARMACY": 6
-				}
+				"pre_requisites": [
+					{
+						"AM_PHARMACY": 6
+					}
+				]
 			},
 			{
 				"handle_name": "AM_SPHEREMINE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AM_PHARMACY": 2
-				}
+				"pre_requisites": [
+					{
+						"AM_PHARMACY": 2
+					}
+				]
 			},
 			{
 				"handle_name": "AM_CP_WEAPON",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AM_CP_ARMOR": 3
-				}
+				"pre_requisites": [
+					{
+						"AM_CP_ARMOR": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AM_CP_SHIELD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AM_CP_HELM": 3
-				}
+				"pre_requisites": [
+					{
+						"AM_CP_HELM": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AM_CP_ARMOR",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AM_CP_SHIELD": 3
-				}
+				"pre_requisites": [
+					{
+						"AM_CP_SHIELD": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AM_CP_HELM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AM_PHARMACY": 2
-				}
+				"pre_requisites": [
+					{
+						"AM_PHARMACY": 2
+					}
+				]
 			},
 			{
 				"handle_name": "AM_BIOETHICS",
@@ -1788,23 +2248,29 @@
 			{
 				"handle_name": "AM_CALLHOMUN",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AM_REST": 1
-				}
+				"pre_requisites": [
+					{
+						"AM_REST": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AM_REST",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AM_BIOETHICS": 1
-				}
+				"pre_requisites": [
+					{
+						"AM_BIOETHICS": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AM_RESURRECTHOMUN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AM_CALLHOMUN": 1
-				}
+				"pre_requisites": [
+					{
+						"AM_CALLHOMUN": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AM_BERSERKPITCHER",
@@ -1813,23 +2279,29 @@
 			{
 				"handle_name": "AM_TWILIGHT1",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AM_PHARMACY": 10
-				}
+				"pre_requisites": [
+					{
+						"AM_PHARMACY": 10
+					}
+				]
 			},
 			{
 				"handle_name": "AM_TWILIGHT2",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AM_PHARMACY": 10
-				}
+				"pre_requisites": [
+					{
+						"AM_PHARMACY": 10
+					}
+				]
 			},
 			{
 				"handle_name": "AM_TWILIGHT3",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AM_PHARMACY": 10
-				}
+				"pre_requisites": [
+					{
+						"AM_PHARMACY": 10
+					}
+				]
 			}
 		]
 	},
@@ -1845,52 +2317,68 @@
 			{
 				"handle_name": "BA_MUSICALSTRIKE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BA_MUSICALLESSON": 3
-				}
+				"pre_requisites": [
+					{
+						"BA_MUSICALLESSON": 3
+					}
+				]
 			},
 			{
 				"handle_name": "BA_DISSONANCE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BA_MUSICALLESSON": 1,
-					"BD_ADAPTATION": 1
-				}
+				"pre_requisites": [
+					{
+						"BA_MUSICALLESSON": 1
+					},
+					{
+						"BD_ADAPTATION": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BA_FROSTJOKER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BD_ENCORE": 1
-				}
+				"pre_requisites": [
+					{
+						"BD_ENCORE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BA_WHISTLE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"BA_DISSONANCE": 3
-				}
+				"pre_requisites": [
+					{
+						"BA_DISSONANCE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "BA_ASSASSINCROSS",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"BA_DISSONANCE": 3
-				}
+				"pre_requisites": [
+					{
+						"BA_DISSONANCE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "BA_POEMBRAGI",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"BA_DISSONANCE": 3
-				}
+				"pre_requisites": [
+					{
+						"BA_DISSONANCE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "BA_APPLEIDUN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"BA_DISSONANCE": 3
-				}
+				"pre_requisites": [
+					{
+						"BA_DISSONANCE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "BD_ADAPTATION",
@@ -1899,65 +2387,83 @@
 			{
 				"handle_name": "BD_ENCORE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"BD_ADAPTATION": 1
-				}
+				"pre_requisites": [
+					{
+						"BD_ADAPTATION": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BD_LULLABY",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"BA_WHISTLE": 10
-				}
+				"pre_requisites": [
+					{
+						"BA_WHISTLE": 10
+					}
+				]
 			},
 			{
 				"handle_name": "BD_RICHMANKIM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BD_SIEGFRIED": 3
-				}
+				"pre_requisites": [
+					{
+						"BD_SIEGFRIED": 3
+					}
+				]
 			},
 			{
 				"handle_name": "BD_ETERNALCHAOS",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"BD_ROKISWEIL": 1
-				}
+				"pre_requisites": [
+					{
+						"BD_ROKISWEIL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BD_DRUMBATTLEFIELD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BA_APPLEIDUN": 10
-				}
+				"pre_requisites": [
+					{
+						"BA_APPLEIDUN": 10
+					}
+				]
 			},
 			{
 				"handle_name": "BD_RINGNIBELUNGEN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BD_DRUMBATTLEFIELD": 3
-				}
+				"pre_requisites": [
+					{
+						"BD_DRUMBATTLEFIELD": 3
+					}
+				]
 			},
 			{
 				"handle_name": "BD_ROKISWEIL",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"BA_ASSASSINCROSS": 10
-				}
+				"pre_requisites": [
+					{
+						"BA_ASSASSINCROSS": 10
+					}
+				]
 			},
 			{
 				"handle_name": "BD_INTOABYSS",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"BD_LULLABY": 1
-				}
+				"pre_requisites": [
+					{
+						"BD_LULLABY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BD_SIEGFRIED",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BA_POEMBRAGI": 10
-				}
+				"pre_requisites": [
+					{
+						"BA_POEMBRAGI": 10
+					}
+				]
 			},
 			{
 				"handle_name": "BA_PANGVOICE",
@@ -1977,52 +2483,68 @@
 			{
 				"handle_name": "DC_THROWARROW",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"DC_DANCINGLESSON": 3
-				}
+				"pre_requisites": [
+					{
+						"DC_DANCINGLESSON": 3
+					}
+				]
 			},
 			{
 				"handle_name": "DC_UGLYDANCE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"DC_DANCINGLESSON": 1,
-					"BD_ADAPTATION": 1
-				}
+				"pre_requisites": [
+					{
+						"DC_DANCINGLESSON": 1
+					},
+					{
+						"BD_ADAPTATION": 1
+					}
+				]
 			},
 			{
 				"handle_name": "DC_SCREAM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BD_ENCORE": 1
-				}
+				"pre_requisites": [
+					{
+						"BD_ENCORE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "DC_HUMMING",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"DC_UGLYDANCE": 3
-				}
+				"pre_requisites": [
+					{
+						"DC_UGLYDANCE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "DC_DONTFORGETME",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"DC_UGLYDANCE": 3
-				}
+				"pre_requisites": [
+					{
+						"DC_UGLYDANCE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "DC_FORTUNEKISS",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"DC_UGLYDANCE": 3
-				}
+				"pre_requisites": [
+					{
+						"DC_UGLYDANCE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "DC_SERVICEFORYOU",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"DC_UGLYDANCE": 3
-				}
+				"pre_requisites": [
+					{
+						"DC_UGLYDANCE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "BD_ADAPTATION",
@@ -2031,65 +2553,83 @@
 			{
 				"handle_name": "BD_ENCORE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"BD_ADAPTATION": 1
-				}
+				"pre_requisites": [
+					{
+						"BD_ADAPTATION": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BD_LULLABY",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"DC_HUMMING": 10
-				}
+				"pre_requisites": [
+					{
+						"DC_HUMMING": 10
+					}
+				]
 			},
 			{
 				"handle_name": "BD_RICHMANKIM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BD_SIEGFRIED": 3
-				}
+				"pre_requisites": [
+					{
+						"BD_SIEGFRIED": 3
+					}
+				]
 			},
 			{
 				"handle_name": "BD_ETERNALCHAOS",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"BD_ROKISWEIL": 1
-				}
+				"pre_requisites": [
+					{
+						"BD_ROKISWEIL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BD_DRUMBATTLEFIELD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"DC_SERVICEFORYOU": 10
-				}
+				"pre_requisites": [
+					{
+						"DC_SERVICEFORYOU": 10
+					}
+				]
 			},
 			{
 				"handle_name": "BD_RINGNIBELUNGEN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BD_DRUMBATTLEFIELD": 3
-				}
+				"pre_requisites": [
+					{
+						"BD_DRUMBATTLEFIELD": 3
+					}
+				]
 			},
 			{
 				"handle_name": "BD_ROKISWEIL",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"DC_DONTFORGETME": 10
-				}
+				"pre_requisites": [
+					{
+						"DC_DONTFORGETME": 10
+					}
+				]
 			},
 			{
 				"handle_name": "BD_INTOABYSS",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"BD_LULLABY": 1
-				}
+				"pre_requisites": [
+					{
+						"BD_LULLABY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "BD_SIEGFRIED",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"DC_FORTUNEKISS": 10
-				}
+				"pre_requisites": [
+					{
+						"DC_FORTUNEKISS": 10
+					}
+				]
 			},
 			{
 				"handle_name": "DC_WINKCHARM",
@@ -2121,16 +2661,20 @@
 			{
 				"handle_name": "SM_MAGNUM",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SM_BASH": 5
-				}
+				"pre_requisites": [
+					{
+						"SM_BASH": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SM_ENDURE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SM_PROVOKE": 5
-				}
+				"pre_requisites": [
+					{
+						"SM_PROVOKE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MG_SRECOVERY",
@@ -2147,17 +2691,23 @@
 			{
 				"handle_name": "MG_SAFETYWALL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_NAPALMBEAT": 7,
-					"MG_SOULSTRIKE": 5
-				}
+				"pre_requisites": [
+					{
+						"MG_NAPALMBEAT": 7
+					},
+					{
+						"MG_SOULSTRIKE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MG_SOULSTRIKE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_NAPALMBEAT": 4
-				}
+				"pre_requisites": [
+					{
+						"MG_NAPALMBEAT": 4
+					}
+				]
 			},
 			{
 				"handle_name": "MG_COLDBOLT",
@@ -2166,9 +2716,11 @@
 			{
 				"handle_name": "MG_FROSTDIVER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_COLDBOLT": 5
-				}
+				"pre_requisites": [
+					{
+						"MG_COLDBOLT": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MG_STONECURSE",
@@ -2177,17 +2729,23 @@
 			{
 				"handle_name": "MG_FIREBALL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_FIREBOLT": 4
-				}
+				"pre_requisites": [
+					{
+						"MG_FIREBOLT": 4
+					}
+				]
 			},
 			{
 				"handle_name": "MG_FIREWALL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_FIREBALL": 5,
-					"MG_SIGHT": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_FIREBALL": 5
+					},
+					{
+						"MG_SIGHT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "MG_FIREBOLT",
@@ -2200,9 +2758,11 @@
 			{
 				"handle_name": "MG_THUNDERSTORM",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_LIGHTNINGBOLT": 4
-				}
+				"pre_requisites": [
+					{
+						"MG_LIGHTNINGBOLT": 4
+					}
+				]
 			},
 			{
 				"handle_name": "AL_DP",
@@ -2211,9 +2771,11 @@
 			{
 				"handle_name": "AL_DEMONBANE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DP": 3
-				}
+				"pre_requisites": [
+					{
+						"AL_DP": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AL_RUWACH",
@@ -2222,23 +2784,29 @@
 			{
 				"handle_name": "AL_PNEUMA",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AL_WARP": 4
-				}
+				"pre_requisites": [
+					{
+						"AL_WARP": 4
+					}
+				]
 			},
 			{
 				"handle_name": "AL_TELEPORT",
 				"maxLevel": 2,
-				"pre_requisites": {
-					"AL_RUWACH": 1
-				}
+				"pre_requisites": [
+					{
+						"AL_RUWACH": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AL_WARP",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"AL_TELEPORT": 2
-				}
+				"pre_requisites": [
+					{
+						"AL_TELEPORT": 2
+					}
+				]
 			},
 			{
 				"handle_name": "AL_HEAL",
@@ -2247,16 +2815,20 @@
 			{
 				"handle_name": "AL_INCAGI",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_HEAL": 3
-				}
+				"pre_requisites": [
+					{
+						"AL_HEAL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AL_DECAGI",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_INCAGI": 1
-				}
+				"pre_requisites": [
+					{
+						"AL_INCAGI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AL_HOLYWATER",
@@ -2265,30 +2837,38 @@
 			{
 				"handle_name": "AL_CRUCIS",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DEMONBANE": 3
-				}
+				"pre_requisites": [
+					{
+						"AL_DEMONBANE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AL_ANGELUS",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DP": 3
-				}
+				"pre_requisites": [
+					{
+						"AL_DP": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AL_BLESSING",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DP": 5
-				}
+				"pre_requisites": [
+					{
+						"AL_DP": 5
+					}
+				]
 			},
 			{
 				"handle_name": "AL_CURE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AL_HEAL": 2
-				}
+				"pre_requisites": [
+					{
+						"AL_HEAL": 2
+					}
+				]
 			},
 			{
 				"handle_name": "MC_INCCARRY",
@@ -2297,23 +2877,29 @@
 			{
 				"handle_name": "MC_DISCOUNT",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MC_INCCARRY": 3
-				}
+				"pre_requisites": [
+					{
+						"MC_INCCARRY": 3
+					}
+				]
 			},
 			{
 				"handle_name": "MC_OVERCHARGE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MC_DISCOUNT": 3
-				}
+				"pre_requisites": [
+					{
+						"MC_DISCOUNT": 3
+					}
+				]
 			},
 			{
 				"handle_name": "MC_PUSHCART",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MC_INCCARRY": 5
-				}
+				"pre_requisites": [
+					{
+						"MC_INCCARRY": 5
+					}
+				]
 			},
 			{
 				"handle_name": "MC_IDENTIFY",
@@ -2322,9 +2908,11 @@
 			{
 				"handle_name": "MC_VENDING",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MC_PUSHCART": 3
-				}
+				"pre_requisites": [
+					{
+						"MC_PUSHCART": 3
+					}
+				]
 			},
 			{
 				"handle_name": "MC_MAMMONITE",
@@ -2337,16 +2925,20 @@
 			{
 				"handle_name": "AC_VULTURE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AC_OWL": 3
-				}
+				"pre_requisites": [
+					{
+						"AC_OWL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AC_CONCENTRATION",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AC_VULTURE": 1
-				}
+				"pre_requisites": [
+					{
+						"AC_VULTURE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "TF_DOUBLE",
@@ -2363,9 +2955,11 @@
 			{
 				"handle_name": "TF_HIDING",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"TF_STEAL": 5
-				}
+				"pre_requisites": [
+					{
+						"TF_STEAL": 5
+					}
+				]
 			},
 			{
 				"handle_name": "TF_POISON",
@@ -2374,16 +2968,20 @@
 			{
 				"handle_name": "TF_DETOXIFY",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"TF_POISON": 3
-				}
+				"pre_requisites": [
+					{
+						"TF_POISON": 3
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_BUYING_STORE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MC_VENDING": 1
-				}
+				"pre_requisites": [
+					{
+						"MC_VENDING": 1
+					}
+				]
 			}
 		]
 	},
@@ -2399,63 +2997,89 @@
 			{
 				"handle_name": "GS_FLING",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GS_GLITTERING": 1
-				}
+				"pre_requisites": [
+					{
+						"GS_GLITTERING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GS_TRIPLEACTION",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GS_GLITTERING": 1,
-					"GS_CHAINACTION": 10
-				}
+				"pre_requisites": [
+					{
+						"GS_GLITTERING": 1
+					},
+					{
+						"GS_CHAINACTION": 10
+					}
+				]
 			},
 			{
 				"handle_name": "GS_BULLSEYE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GS_GLITTERING": 5,
-					"GS_TRACKING": 10
-				}
+				"pre_requisites": [
+					{
+						"GS_GLITTERING": 5
+					},
+					{
+						"GS_TRACKING": 10
+					}
+				]
 			},
 			{
 				"handle_name": "GS_MADNESSCANCEL",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GS_GLITTERING": 4,
-					"GS_GATLINGFEVER": 10
-				}
+				"pre_requisites": [
+					{
+						"GS_GLITTERING": 4
+					},
+					{
+						"GS_GATLINGFEVER": 10
+					}
+				]
 			},
 			{
 				"handle_name": "GS_ADJUSTMENT",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GS_GLITTERING": 4,
-					"GS_DISARM": 5
-				}
+				"pre_requisites": [
+					{
+						"GS_GLITTERING": 4
+					},
+					{
+						"GS_DISARM": 5
+					}
+				]
 			},
 			{
 				"handle_name": "GS_INCREASING",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GS_GLITTERING": 2,
-					"GS_SNAKEEYE": 10
-				}
+				"pre_requisites": [
+					{
+						"GS_GLITTERING": 2
+					},
+					{
+						"GS_SNAKEEYE": 10
+					}
+				]
 			},
 			{
 				"handle_name": "GS_MAGICALBULLET",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GS_GLITTERING": 1
-				}
+				"pre_requisites": [
+					{
+						"GS_GLITTERING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GS_CRACKER",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GS_GLITTERING": 1
-				}
+				"pre_requisites": [
+					{
+						"GS_GLITTERING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GS_SINGLEACTION",
@@ -2468,80 +3092,104 @@
 			{
 				"handle_name": "GS_CHAINACTION",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"GS_SINGLEACTION": 1
-				}
+				"pre_requisites": [
+					{
+						"GS_SINGLEACTION": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GS_TRACKING",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"GS_SINGLEACTION": 5
-				}
+				"pre_requisites": [
+					{
+						"GS_SINGLEACTION": 5
+					}
+				]
 			},
 			{
 				"handle_name": "GS_DISARM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GS_TRACKING": 7
-				}
+				"pre_requisites": [
+					{
+						"GS_TRACKING": 7
+					}
+				]
 			},
 			{
 				"handle_name": "GS_PIERCINGSHOT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GS_TRACKING": 5
-				}
+				"pre_requisites": [
+					{
+						"GS_TRACKING": 5
+					}
+				]
 			},
 			{
 				"handle_name": "GS_RAPIDSHOWER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"GS_CHAINACTION": 3
-				}
+				"pre_requisites": [
+					{
+						"GS_CHAINACTION": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GS_DESPERADO",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"GS_RAPIDSHOWER": 5
-				}
+				"pre_requisites": [
+					{
+						"GS_RAPIDSHOWER": 5
+					}
+				]
 			},
 			{
 				"handle_name": "GS_GATLINGFEVER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"GS_RAPIDSHOWER": 7,
-					"GS_DESPERADO": 5
-				}
+				"pre_requisites": [
+					{
+						"GS_RAPIDSHOWER": 7
+					},
+					{
+						"GS_DESPERADO": 5
+					}
+				]
 			},
 			{
 				"handle_name": "GS_DUST",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"GS_SINGLEACTION": 5
-				}
+				"pre_requisites": [
+					{
+						"GS_SINGLEACTION": 5
+					}
+				]
 			},
 			{
 				"handle_name": "GS_FULLBUSTER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"GS_DUST": 3
-				}
+				"pre_requisites": [
+					{
+						"GS_DUST": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GS_SPREADATTACK",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"GS_FULLBUSTER": 5
-				}
+				"pre_requisites": [
+					{
+						"GS_FULLBUSTER": 5
+					}
+				]
 			},
 			{
 				"handle_name": "GS_GROUNDDRIFT",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"GS_SPREADATTACK": 7
-				}
+				"pre_requisites": [
+					{
+						"GS_SPREADATTACK": 7
+					}
+				]
 			}
 		]
 	},
@@ -2557,32 +3205,44 @@
 			{
 				"handle_name": "NJ_SYURIKEN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"NJ_TOBIDOUGU": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_TOBIDOUGU": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_KUNAI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_SYURIKEN": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_SYURIKEN": 5
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_HUUMA",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_TOBIDOUGU": 5,
-					"NJ_KUNAI": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_TOBIDOUGU": 5
+					},
+					{
+						"NJ_KUNAI": 5
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_ZENYNAGE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"NJ_TOBIDOUGU": 10,
-					"NJ_HUUMA": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_TOBIDOUGU": 10
+					},
+					{
+						"NJ_HUUMA": 5
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_TATAMIGAESHI",
@@ -2591,39 +3251,53 @@
 			{
 				"handle_name": "NJ_KASUMIKIRI",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"NJ_SHADOWJUMP": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_SHADOWJUMP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_SHADOWJUMP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_TATAMIGAESHI": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_TATAMIGAESHI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_KIRIKAGE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_KASUMIKIRI": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_KASUMIKIRI": 5
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_UTSUSEMI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_SHADOWJUMP": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_SHADOWJUMP": 5
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_BUNSINJYUTSU",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"NJ_UTSUSEMI": 4,
-					"NJ_KIRIKAGE": 3,
-					"NJ_NEN": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_UTSUSEMI": 4
+					},
+					{
+						"NJ_KIRIKAGE": 3
+					},
+					{
+						"NJ_NEN": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_NINPOU",
@@ -2632,84 +3306,116 @@
 			{
 				"handle_name": "NJ_KOUENKA",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"NJ_NINPOU": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_NINPOU": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_KAENSIN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"NJ_KOUENKA": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_KOUENKA": 5
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_BAKUENRYU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_NINPOU": 10,
-					"NJ_KAENSIN": 7
-				}
+				"pre_requisites": [
+					{
+						"NJ_NINPOU": 10
+					},
+					{
+						"NJ_KAENSIN": 7
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_HYOUSENSOU",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"NJ_NINPOU": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_NINPOU": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_SUITON",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"NJ_HYOUSENSOU": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_HYOUSENSOU": 5
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_HYOUSYOURAKU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_NINPOU": 10,
-					"NJ_SUITON": 7
-				}
+				"pre_requisites": [
+					{
+						"NJ_NINPOU": 10
+					},
+					{
+						"NJ_SUITON": 7
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_HUUJIN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"NJ_NINPOU": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_NINPOU": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_RAIGEKISAI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_HUUJIN": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_HUUJIN": 5
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_KAMAITACHI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_NINPOU": 10,
-					"NJ_RAIGEKISAI": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_NINPOU": 10
+					},
+					{
+						"NJ_RAIGEKISAI": 5
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_NEN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_NINPOU": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_NINPOU": 5
+					}
+				]
 			},
 			{
 				"handle_name": "NJ_ISSEN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"NJ_TOBIDOUGU": 7,
-					"NJ_KIRIKAGE": 5,
-					"NJ_NEN": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_TOBIDOUGU": 7
+					},
+					{
+						"NJ_KIRIKAGE": 5
+					},
+					{
+						"NJ_NEN": 1
+					}
+				]
 			}
 		]
 	},
@@ -2756,38 +3462,62 @@
 			{
 				"handle_name": "LK_AURABLADE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SM_BASH": 5,
-					"SM_MAGNUM": 5,
-					"SM_TWOHAND": 5
-				}
+				"pre_requisites": [
+					{
+						"SM_BASH": 5
+					},
+					{
+						"SM_MAGNUM": 5
+					},
+					{
+						"SM_TWOHAND": 5
+					}
+				]
 			},
 			{
 				"handle_name": "LK_PARRYING",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SM_TWOHAND": 10,
-					"SM_PROVOKE": 5,
-					"KN_TWOHANDQUICKEN": 3
-				}
+				"pre_requisites": [
+					{
+						"SM_TWOHAND": 10
+					},
+					{
+						"SM_PROVOKE": 5
+					},
+					{
+						"KN_TWOHANDQUICKEN": 3
+					}
+				]
 			},
 			{
 				"handle_name": "LK_CONCENTRATION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SM_RECOVERY": 5,
-					"KN_SPEARMASTERY": 5,
-					"KN_RIDING": 1
-				}
+				"pre_requisites": [
+					{
+						"SM_RECOVERY": 5
+					},
+					{
+						"KN_SPEARMASTERY": 5
+					},
+					{
+						"KN_RIDING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "LK_TENSIONRELAX",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"SM_RECOVERY": 10,
-					"SM_PROVOKE": 5,
-					"SM_ENDURE": 3
-				}
+				"pre_requisites": [
+					{
+						"SM_RECOVERY": 10
+					},
+					{
+						"SM_PROVOKE": 5
+					},
+					{
+						"SM_ENDURE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "LK_BERSERK",
@@ -2797,29 +3527,47 @@
 			{
 				"handle_name": "LK_SPIRALPIERCE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KN_SPEARMASTERY": 5,
-					"KN_PIERCE": 5,
-					"KN_SPEARSTAB": 5,
-					"KN_RIDING": 1
-				}
+				"pre_requisites": [
+					{
+						"KN_SPEARMASTERY": 5
+					},
+					{
+						"KN_PIERCE": 5
+					},
+					{
+						"KN_SPEARSTAB": 5
+					},
+					{
+						"KN_RIDING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "LK_HEADCRUSH",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KN_SPEARMASTERY": 9,
-					"KN_RIDING": 1
-				}
+				"pre_requisites": [
+					{
+						"KN_SPEARMASTERY": 9
+					},
+					{
+						"KN_RIDING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "LK_JOINTBEAT",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"KN_SPEARMASTERY": 9,
-					"KN_CAVALIERMASTERY": 3,
-					"LK_HEADCRUSH": 3
-				}
+				"pre_requisites": [
+					{
+						"KN_SPEARMASTERY": 9
+					},
+					{
+						"KN_CAVALIERMASTERY": 3
+					},
+					{
+						"LK_HEADCRUSH": 3
+					}
+				]
 			}
 		]
 	},
@@ -2831,37 +3579,59 @@
 			{
 				"handle_name": "HP_ASSUMPTIO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AL_ANGELUS": 1,
-					"MG_SRECOVERY": 3,
-					"PR_IMPOSITIO": 3
-				}
+				"pre_requisites": [
+					{
+						"AL_ANGELUS": 1
+					},
+					{
+						"MG_SRECOVERY": 3
+					},
+					{
+						"PR_IMPOSITIO": 3
+					}
+				]
 			},
 			{
 				"handle_name": "HP_BASILICA",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"PR_GLORIA": 2,
-					"MG_SRECOVERY": 1,
-					"PR_KYRIE": 3
-				}
+				"pre_requisites": [
+					{
+						"PR_GLORIA": 2
+					},
+					{
+						"MG_SRECOVERY": 1
+					},
+					{
+						"PR_KYRIE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "HP_MEDITATIO",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"PR_ASPERSIO": 3,
-					"MG_SRECOVERY": 5,
-					"PR_LEXDIVINA": 5
-				}
+				"pre_requisites": [
+					{
+						"PR_ASPERSIO": 3
+					},
+					{
+						"MG_SRECOVERY": 5
+					},
+					{
+						"PR_LEXDIVINA": 5
+					}
+				]
 			},
 			{
 				"handle_name": "HP_MANARECHARGE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"PR_MACEMASTERY": 10,
-					"AL_DEMONBANE": 10
-				}
+				"pre_requisites": [
+					{
+						"PR_MACEMASTERY": 10
+					},
+					{
+						"AL_DEMONBANE": 10
+					}
+				]
 			}
 		]
 	},
@@ -2873,17 +3643,23 @@
 			{
 				"handle_name": "HW_SOULDRAIN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_SRECOVERY": 5,
-					"MG_SOULSTRIKE": 7
-				}
+				"pre_requisites": [
+					{
+						"MG_SRECOVERY": 5
+					},
+					{
+						"MG_SOULSTRIKE": 7
+					}
+				]
 			},
 			{
 				"handle_name": "HW_MAGICCRASHER",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MG_SRECOVERY": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_SRECOVERY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HW_MAGICPOWER",
@@ -2892,26 +3668,38 @@
 			{
 				"handle_name": "HW_NAPALMVULCAN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MG_NAPALMBEAT": 5
-				}
+				"pre_requisites": [
+					{
+						"MG_NAPALMBEAT": 5
+					}
+				]
 			},
 			{
 				"handle_name": "HW_GANBANTEIN",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"WZ_ESTIMATION": 1,
-					"WZ_ICEWALL": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_ESTIMATION": 1
+					},
+					{
+						"WZ_ICEWALL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HW_GRAVITATION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HW_MAGICCRASHER": 1,
-					"HW_MAGICPOWER": 10,
-					"WZ_QUAGMIRE": 1
-				}
+				"pre_requisites": [
+					{
+						"HW_MAGICCRASHER": 1
+					},
+					{
+						"HW_MAGICPOWER": 10
+					},
+					{
+						"WZ_QUAGMIRE": 1
+					}
+				]
 			}
 		]
 	},
@@ -2923,45 +3711,71 @@
 			{
 				"handle_name": "WS_MELTDOWN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"BS_SKINTEMPER": 3,
-					"BS_HILTBINDING": 1,
-					"BS_WEAPONRESEARCH": 5,
-					"BS_OVERTHRUST": 3
-				}
+				"pre_requisites": [
+					{
+						"BS_SKINTEMPER": 3
+					},
+					{
+						"BS_HILTBINDING": 1
+					},
+					{
+						"BS_WEAPONRESEARCH": 5
+					},
+					{
+						"BS_OVERTHRUST": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WS_CARTBOOST",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MC_PUSHCART": 5,
-					"MC_CARTREVOLUTION": 1,
-					"MC_CHANGECART": 1,
-					"BS_HILTBINDING": 1
-				}
+				"pre_requisites": [
+					{
+						"MC_PUSHCART": 5
+					},
+					{
+						"MC_CARTREVOLUTION": 1
+					},
+					{
+						"MC_CHANGECART": 1
+					},
+					{
+						"BS_HILTBINDING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WS_WEAPONREFINE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"BS_WEAPONRESEARCH": 10
-				}
+				"pre_requisites": [
+					{
+						"BS_WEAPONRESEARCH": 10
+					}
+				]
 			},
 			{
 				"handle_name": "WS_CARTTERMINATION",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MC_MAMMONITE": 10,
-					"BS_HAMMERFALL": 5,
-					"WS_CARTBOOST": 1
-				}
+				"pre_requisites": [
+					{
+						"MC_MAMMONITE": 10
+					},
+					{
+						"BS_HAMMERFALL": 5
+					},
+					{
+						"WS_CARTBOOST": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WS_OVERTHRUSTMAX",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BS_OVERTHRUST": 5
-				}
+				"pre_requisites": [
+					{
+						"BS_OVERTHRUST": 5
+					}
+				]
 			}
 		]
 	},
@@ -2973,37 +3787,59 @@
 			{
 				"handle_name": "SN_SIGHT",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AC_OWL": 10,
-					"AC_VULTURE": 10,
-					"AC_CONCENTRATION": 10,
-					"HT_FALCON": 1
-				}
+				"pre_requisites": [
+					{
+						"AC_OWL": 10
+					},
+					{
+						"AC_VULTURE": 10
+					},
+					{
+						"AC_CONCENTRATION": 10
+					},
+					{
+						"HT_FALCON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SN_FALCONASSAULT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_STEELCROW": 3,
-					"AC_VULTURE": 5,
-					"HT_BLITZBEAT": 5,
-					"HT_FALCON": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_STEELCROW": 3
+					},
+					{
+						"AC_VULTURE": 5
+					},
+					{
+						"HT_BLITZBEAT": 5
+					},
+					{
+						"HT_FALCON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SN_SHARPSHOOTING",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AC_CONCENTRATION": 10,
-					"AC_DOUBLE": 5
-				}
+				"pre_requisites": [
+					{
+						"AC_CONCENTRATION": 10
+					},
+					{
+						"AC_DOUBLE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SN_WINDWALK",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AC_CONCENTRATION": 9
-				}
+				"pre_requisites": [
+					{
+						"AC_CONCENTRATION": 9
+					}
+				]
 			}
 		]
 	},
@@ -3015,10 +3851,14 @@
 			{
 				"handle_name": "ASC_KATAR",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"TF_DOUBLE": 5,
-					"AS_KATAR": 7
-				}
+				"pre_requisites": [
+					{
+						"TF_DOUBLE": 5
+					},
+					{
+						"AS_KATAR": 7
+					}
+				]
 			},
 			{
 				"handle_name": "ASC_EDP",
@@ -3028,12 +3868,20 @@
 			{
 				"handle_name": "ASC_BREAKER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"TF_DOUBLE": 5,
-					"AS_CLOAKING": 3,
-					"AS_ENCHANTPOISON": 6,
-					"TF_POISON": 5
-				}
+				"pre_requisites": [
+					{
+						"TF_DOUBLE": 5
+					},
+					{
+						"AS_CLOAKING": 3
+					},
+					{
+						"AS_ENCHANTPOISON": 6
+					},
+					{
+						"TF_POISON": 5
+					}
+				]
 			},
 			{
 				"handle_name": "ASC_METEORASSAULT",
@@ -3046,11 +3894,17 @@
 			{
 				"handle_name": "ASC_CDP",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"TF_POISON": 10,
-					"TF_DETOXIFY": 1,
-					"AS_ENCHANTPOISON": 5
-				}
+				"pre_requisites": [
+					{
+						"TF_POISON": 10
+					},
+					{
+						"TF_DETOXIFY": 1
+					},
+					{
+						"AS_ENCHANTPOISON": 5
+					}
+				]
 			}
 		]
 	},
@@ -3062,36 +3916,56 @@
 			{
 				"handle_name": "PA_PRESSURE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SM_ENDURE": 5,
-					"CR_TRUST": 5,
-					"CR_SHIELDCHARGE": 2
-				}
+				"pre_requisites": [
+					{
+						"SM_ENDURE": 5
+					},
+					{
+						"CR_TRUST": 5
+					},
+					{
+						"CR_SHIELDCHARGE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "PA_SACRIFICE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SM_ENDURE": 1,
-					"CR_TRUST": 5,
-					"CR_DEVOTION": 3
-				}
+				"pre_requisites": [
+					{
+						"SM_ENDURE": 1
+					},
+					{
+						"CR_TRUST": 5
+					},
+					{
+						"CR_DEVOTION": 3
+					}
+				]
 			},
 			{
 				"handle_name": "PA_GOSPEL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"CR_TRUST": 8,
-					"AL_DP": 3,
-					"AL_DEMONBANE": 5
-				}
+				"pre_requisites": [
+					{
+						"CR_TRUST": 8
+					},
+					{
+						"AL_DP": 3
+					},
+					{
+						"AL_DEMONBANE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "PA_SHIELDCHAIN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"CR_SHIELDBOOMERANG": 5
-				}
+				"pre_requisites": [
+					{
+						"CR_SHIELDBOOMERANG": 5
+					}
+				]
 			}
 		]
 	},
@@ -3103,38 +3977,62 @@
 			{
 				"handle_name": "CH_PALMSTRIKE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_IRONHAND": 7,
-					"MO_CALLSPIRITS": 5
-				}
+				"pre_requisites": [
+					{
+						"MO_IRONHAND": 7
+					},
+					{
+						"MO_CALLSPIRITS": 5
+					}
+				]
 			},
 			{
 				"handle_name": "CH_TIGERFIST",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_IRONHAND": 5,
-					"MO_TRIPLEATTACK": 5,
-					"MO_CALLSPIRITS": 5,
-					"MO_COMBOFINISH": 3
-				}
+				"pre_requisites": [
+					{
+						"MO_IRONHAND": 5
+					},
+					{
+						"MO_TRIPLEATTACK": 5
+					},
+					{
+						"MO_CALLSPIRITS": 5
+					},
+					{
+						"MO_COMBOFINISH": 3
+					}
+				]
 			},
 			{
 				"handle_name": "CH_CHAINCRUSH",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MO_IRONHAND": 5,
-					"MO_CALLSPIRITS": 5,
-					"CH_TIGERFIST": 2
-				}
+				"pre_requisites": [
+					{
+						"MO_IRONHAND": 5
+					},
+					{
+						"MO_CALLSPIRITS": 5
+					},
+					{
+						"CH_TIGERFIST": 2
+					}
+				]
 			},
 			{
 				"handle_name": "CH_SOULCOLLECT",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MO_CALLSPIRITS": 5,
-					"MO_ABSORBSPIRITS": 1,
-					"MO_EXPLOSIONSPIRITS": 5
-				}
+				"pre_requisites": [
+					{
+						"MO_CALLSPIRITS": 5
+					},
+					{
+						"MO_ABSORBSPIRITS": 1
+					},
+					{
+						"MO_EXPLOSIONSPIRITS": 5
+					}
+				]
 			}
 		]
 	},
@@ -3146,66 +4044,98 @@
 			{
 				"handle_name": "PF_HPCONVERSION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MG_SRECOVERY": 1,
-					"SA_MAGICROD": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_SRECOVERY": 1
+					},
+					{
+						"SA_MAGICROD": 1
+					}
+				]
 			},
 			{
 				"handle_name": "PF_SOULCHANGE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"SA_MAGICROD": 3,
-					"SA_SPELLBREAKER": 2
-				}
+				"pre_requisites": [
+					{
+						"SA_MAGICROD": 3
+					},
+					{
+						"SA_SPELLBREAKER": 2
+					}
+				]
 			},
 			{
 				"handle_name": "PF_SOULBURN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_CASTCANCEL": 5,
-					"SA_MAGICROD": 3,
-					"SA_DISPELL": 3
-				}
+				"pre_requisites": [
+					{
+						"SA_CASTCANCEL": 5
+					},
+					{
+						"SA_MAGICROD": 3
+					},
+					{
+						"SA_DISPELL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "PF_MINDBREAKER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MG_SRECOVERY": 3,
-					"PF_SOULBURN": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_SRECOVERY": 3
+					},
+					{
+						"PF_SOULBURN": 1
+					}
+				]
 			},
 			{
 				"handle_name": "PF_MEMORIZE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"SA_ADVANCEDBOOK": 5,
-					"SA_FREECAST": 5,
-					"SA_AUTOSPELL": 1
-				}
+				"pre_requisites": [
+					{
+						"SA_ADVANCEDBOOK": 5
+					},
+					{
+						"SA_FREECAST": 5
+					},
+					{
+						"SA_AUTOSPELL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "PF_FOGWALL",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"SA_DELUGE": 2,
-					"SA_VIOLENTGALE": 2
-				}
+				"pre_requisites": [
+					{
+						"SA_DELUGE": 2
+					},
+					{
+						"SA_VIOLENTGALE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "PF_SPIDERWEB",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"SA_DRAGONOLOGY": 4
-				}
+				"pre_requisites": [
+					{
+						"SA_DRAGONOLOGY": 4
+					}
+				]
 			},
 			{
 				"handle_name": "PF_DOUBLECASTING",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_AUTOSPELL": 1
-				}
+				"pre_requisites": [
+					{
+						"SA_AUTOSPELL": 1
+					}
+				]
 			}
 		]
 	},
@@ -3217,10 +4147,14 @@
 			{
 				"handle_name": "ST_CHASEWALK",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"TF_HIDING": 5,
-					"RG_TUNNELDRIVE": 3
-				}
+				"pre_requisites": [
+					{
+						"TF_HIDING": 5
+					},
+					{
+						"RG_TUNNELDRIVE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "ST_REJECTSWORD",
@@ -3229,19 +4163,29 @@
 			{
 				"handle_name": "ST_PRESERVE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"RG_PLAGIARISM": 10
-				}
+				"pre_requisites": [
+					{
+						"RG_PLAGIARISM": 10
+					}
+				]
 			},
 			{
 				"handle_name": "ST_FULLSTRIP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_STRIPWEAPON": 5,
-					"RG_STRIPSHIELD": 5,
-					"RG_STRIPARMOR": 5,
-					"RG_STRIPHELM": 5
-				}
+				"pre_requisites": [
+					{
+						"RG_STRIPWEAPON": 5
+					},
+					{
+						"RG_STRIPSHIELD": 5
+					},
+					{
+						"RG_STRIPARMOR": 5
+					},
+					{
+						"RG_STRIPHELM": 5
+					}
+				]
 			}
 		]
 	},
@@ -3253,27 +4197,41 @@
 			{
 				"handle_name": "CR_SLIMPITCHER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AM_POTIONPITCHER": 5
-				}
+				"pre_requisites": [
+					{
+						"AM_POTIONPITCHER": 5
+					}
+				]
 			},
 			{
 				"handle_name": "CR_FULLPROTECTION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AM_CP_WEAPON": 5,
-					"AM_CP_SHIELD": 5,
-					"AM_CP_ARMOR": 5,
-					"AM_CP_HELM": 5
-				}
+				"pre_requisites": [
+					{
+						"AM_CP_WEAPON": 5
+					},
+					{
+						"AM_CP_SHIELD": 5
+					},
+					{
+						"AM_CP_ARMOR": 5
+					},
+					{
+						"AM_CP_HELM": 5
+					}
+				]
 			},
 			{
 				"handle_name": "CR_ACIDDEMONSTRATION",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AM_DEMONSTRATION": 5,
-					"AM_ACIDTERROR": 5
-				}
+				"pre_requisites": [
+					{
+						"AM_DEMONSTRATION": 5
+					},
+					{
+						"AM_ACIDTERROR": 5
+					}
+				]
 			},
 			{
 				"handle_name": "CR_CULTIVATION",
@@ -3289,50 +4247,74 @@
 			{
 				"handle_name": "CG_ARROWVULCAN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AC_SHOWER": 5,
-					"BA_MUSICALSTRIKE": 1
-				}
+				"pre_requisites": [
+					{
+						"AC_SHOWER": 5
+					},
+					{
+						"BA_MUSICALSTRIKE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "CG_MOONLIT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AC_CONCENTRATION": 5,
-					"BA_MUSICALLESSON": 7
-				}
+				"pre_requisites": [
+					{
+						"AC_CONCENTRATION": 5
+					},
+					{
+						"BA_MUSICALLESSON": 7
+					}
+				]
 			},
 			{
 				"handle_name": "CG_MARIONETTE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AC_CONCENTRATION": 5,
-					"BA_MUSICALLESSON": 5
-				}
+				"pre_requisites": [
+					{
+						"AC_CONCENTRATION": 5
+					},
+					{
+						"BA_MUSICALLESSON": 5
+					}
+				]
 			},
 			{
 				"handle_name": "CG_LONGINGFREEDOM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BA_MUSICALLESSON": 10,
-					"CG_MARIONETTE": 1
-				}
+				"pre_requisites": [
+					{
+						"BA_MUSICALLESSON": 10
+					},
+					{
+						"CG_MARIONETTE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "CG_HERMODE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AC_CONCENTRATION": 10,
-					"BA_MUSICALLESSON": 10
-				}
+				"pre_requisites": [
+					{
+						"AC_CONCENTRATION": 10
+					},
+					{
+						"BA_MUSICALLESSON": 10
+					}
+				]
 			},
 			{
 				"handle_name": "CG_TAROTCARD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AC_CONCENTRATION": 10,
-					"BA_DISSONANCE": 3
-				}
+				"pre_requisites": [
+					{
+						"AC_CONCENTRATION": 10
+					},
+					{
+						"BA_DISSONANCE": 3
+					}
+				]
 			}
 		]
 	},
@@ -3344,50 +4326,74 @@
 			{
 				"handle_name": "CG_ARROWVULCAN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AC_SHOWER": 5,
-					"DC_THROWARROW": 1
-				}
+				"pre_requisites": [
+					{
+						"AC_SHOWER": 5
+					},
+					{
+						"DC_THROWARROW": 1
+					}
+				]
 			},
 			{
 				"handle_name": "CG_MOONLIT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AC_CONCENTRATION": 5,
-					"DC_DANCINGLESSON": 7
-				}
+				"pre_requisites": [
+					{
+						"AC_CONCENTRATION": 5
+					},
+					{
+						"DC_DANCINGLESSON": 7
+					}
+				]
 			},
 			{
 				"handle_name": "CG_MARIONETTE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AC_CONCENTRATION": 5,
-					"DC_DANCINGLESSON": 5
-				}
+				"pre_requisites": [
+					{
+						"AC_CONCENTRATION": 5
+					},
+					{
+						"DC_DANCINGLESSON": 5
+					}
+				]
 			},
 			{
 				"handle_name": "CG_LONGINGFREEDOM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"DC_DANCINGLESSON": 10,
-					"CG_MARIONETTE": 1
-				}
+				"pre_requisites": [
+					{
+						"DC_DANCINGLESSON": 10
+					},
+					{
+						"CG_MARIONETTE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "CG_HERMODE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AC_CONCENTRATION": 10,
-					"DC_DANCINGLESSON": 10
-				}
+				"pre_requisites": [
+					{
+						"AC_CONCENTRATION": 10
+					},
+					{
+						"DC_DANCINGLESSON": 10
+					}
+				]
 			},
 			{
 				"handle_name": "CG_TAROTCARD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AC_CONCENTRATION": 10,
-					"DC_UGLYDANCE": 3
-				}
+				"pre_requisites": [
+					{
+						"AC_CONCENTRATION": 10
+					},
+					{
+						"DC_UGLYDANCE": 3
+					}
+				]
 			}
 		]
 	},
@@ -3508,9 +4514,11 @@
 			{
 				"handle_name": "TK_READYSTORM",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"TK_STORMKICK": 1
-				}
+				"pre_requisites": [
+					{
+						"TK_STORMKICK": 1
+					}
+				]
 			},
 			{
 				"handle_name": "TK_STORMKICK",
@@ -3519,9 +4527,11 @@
 			{
 				"handle_name": "TK_READYDOWN",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"TK_DOWNKICK": 1
-				}
+				"pre_requisites": [
+					{
+						"TK_DOWNKICK": 1
+					}
+				]
 			},
 			{
 				"handle_name": "TK_DOWNKICK",
@@ -3530,9 +4540,11 @@
 			{
 				"handle_name": "TK_READYTURN",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"TK_TURNKICK": 1
-				}
+				"pre_requisites": [
+					{
+						"TK_TURNKICK": 1
+					}
+				]
 			},
 			{
 				"handle_name": "TK_TURNKICK",
@@ -3541,9 +4553,11 @@
 			{
 				"handle_name": "TK_READYCOUNTER",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"TK_COUNTER": 1
-				}
+				"pre_requisites": [
+					{
+						"TK_COUNTER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "TK_COUNTER",
@@ -3552,9 +4566,11 @@
 			{
 				"handle_name": "TK_DODGE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"TK_JUMPKICK": 7
-				}
+				"pre_requisites": [
+					{
+						"TK_JUMPKICK": 7
+					}
+				]
 			},
 			{
 				"handle_name": "TK_JUMPKICK",
@@ -3575,11 +4591,17 @@
 			{
 				"handle_name": "TK_SEVENWIND",
 				"maxLevel": 7,
-				"pre_requisites": {
-					"TK_HPTIME": 5,
-					"TK_SPTIME": 5,
-					"TK_POWER": 5
-				}
+				"pre_requisites": [
+					{
+						"TK_HPTIME": 5
+					},
+					{
+						"TK_SPTIME": 5
+					},
+					{
+						"TK_POWER": 5
+					}
+				]
 			},
 			{
 				"handle_name": "TK_HIGHJUMP",
@@ -3588,9 +4610,11 @@
 			{
 				"handle_name": "TK_MISSION",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"TK_POWER": 5
-				}
+				"pre_requisites": [
+					{
+						"TK_POWER": 5
+					}
+				]
 			}
 		]
 	},
@@ -3606,44 +4630,56 @@
 			{
 				"handle_name": "SG_SUN_WARM",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SG_FEEL": 1
-				}
+				"pre_requisites": [
+					{
+						"SG_FEEL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SG_MOON_WARM",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SG_FEEL": 2
-				}
+				"pre_requisites": [
+					{
+						"SG_FEEL": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SG_STAR_WARM",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SG_FEEL": 3
-				}
+				"pre_requisites": [
+					{
+						"SG_FEEL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SG_SUN_COMFORT",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"SG_FEEL": 1
-				}
+				"pre_requisites": [
+					{
+						"SG_FEEL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SG_MOON_COMFORT",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"SG_FEEL": 2
-				}
+				"pre_requisites": [
+					{
+						"SG_FEEL": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SG_STAR_COMFORT",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"SG_FEEL": 3
-				}
+				"pre_requisites": [
+					{
+						"SG_FEEL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SG_HATE",
@@ -3652,47 +4688,65 @@
 			{
 				"handle_name": "SG_SUN_ANGER",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SG_HATE": 1
-				}
+				"pre_requisites": [
+					{
+						"SG_HATE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SG_MOON_ANGER",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SG_HATE": 2
-				}
+				"pre_requisites": [
+					{
+						"SG_HATE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SG_STAR_ANGER",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SG_HATE": 3
-				}
+				"pre_requisites": [
+					{
+						"SG_HATE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SG_SUN_BLESS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SG_FEEL": 1,
-					"SG_HATE": 1
-				}
+				"pre_requisites": [
+					{
+						"SG_FEEL": 1
+					},
+					{
+						"SG_HATE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SG_MOON_BLESS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SG_FEEL": 2,
-					"SG_HATE": 2
-				}
+				"pre_requisites": [
+					{
+						"SG_FEEL": 2
+					},
+					{
+						"SG_HATE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SG_STAR_BLESS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SG_FEEL": 3,
-					"SG_HATE": 3
-				}
+				"pre_requisites": [
+					{
+						"SG_FEEL": 3
+					},
+					{
+						"SG_HATE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SG_DEVIL",
@@ -3709,9 +4763,11 @@
 			{
 				"handle_name": "SG_FUSION",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"SG_KNOWLEDGE": 9
-				}
+				"pre_requisites": [
+					{
+						"SG_KNOWLEDGE": 9
+					}
+				]
 			}
 		]
 	},
@@ -3747,23 +4803,29 @@
 			{
 				"handle_name": "SL_KNIGHT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SL_CRUSADER": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_CRUSADER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_WIZARD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SL_SAGE": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_SAGE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_PRIEST",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SL_MONK": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_MONK": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_BARDDANCER",
@@ -3772,9 +4834,11 @@
 			{
 				"handle_name": "SL_ROGUE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SL_ASSASIN": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_ASSASIN": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_ASSASIN",
@@ -3783,109 +4847,143 @@
 			{
 				"handle_name": "SL_BLACKSMITH",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SL_ALCHEMIST": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_ALCHEMIST": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_HUNTER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SL_BARDDANCER": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_BARDDANCER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_SOULLINKER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SL_STAR": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_STAR": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_KAIZEL",
 				"maxLevel": 7,
-				"pre_requisites": {
-					"SL_PRIEST": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_PRIEST": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_KAAHI",
 				"maxLevel": 7,
-				"pre_requisites": {
-					"SL_PRIEST": 1,
-					"SL_CRUSADER": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_PRIEST": 1
+					},
+					{
+						"SL_CRUSADER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_KAUPE",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SL_ROGUE": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_ROGUE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_KAITE",
 				"maxLevel": 7,
-				"pre_requisites": {
-					"SL_WIZARD": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_WIZARD": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_KAINA",
 				"maxLevel": 7,
-				"pre_requisites": {
-					"TK_SPTIME": 1
-				}
+				"pre_requisites": [
+					{
+						"TK_SPTIME": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_STIN",
 				"maxLevel": 7,
-				"pre_requisites": {
-					"SL_WIZARD": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_WIZARD": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_STUN",
 				"maxLevel": 7,
-				"pre_requisites": {
-					"SL_WIZARD": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_WIZARD": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_SMA",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SL_STIN": 7,
-					"SL_STUN": 7
-				}
+				"pre_requisites": [
+					{
+						"SL_STIN": 7
+					},
+					{
+						"SL_STUN": 7
+					}
+				]
 			},
 			{
 				"handle_name": "SL_SWOO",
 				"maxLevel": 7,
-				"pre_requisites": {
-					"SL_PRIEST": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_PRIEST": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_SKE",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SL_KNIGHT": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_KNIGHT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_SKA",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SL_MONK": 1
-				}
+				"pre_requisites": [
+					{
+						"SL_MONK": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SL_HIGH",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SL_SUPERNOVICE": 5
-				}
+				"pre_requisites": [
+					{
+						"SL_SUPERNOVICE": 5
+					}
+				]
 			}
 		]
 	},
@@ -3897,68 +4995,92 @@
 			{
 				"handle_name": "RK_ENCHANTBLADE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RK_RUNEMASTERY": 2
-				}
+				"pre_requisites": [
+					{
+						"RK_RUNEMASTERY": 2
+					}
+				]
 			},
 			{
 				"handle_name": "RK_SONICWAVE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RK_ENCHANTBLADE": 3
-				}
+				"pre_requisites": [
+					{
+						"RK_ENCHANTBLADE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "RK_DEATHBOUND",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"KN_AUTOCOUNTER": 1,
-					"RK_ENCHANTBLADE": 2
-				}
+				"pre_requisites": [
+					{
+						"KN_AUTOCOUNTER": 1
+					},
+					{
+						"RK_ENCHANTBLADE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "RK_HUNDREDSPEAR",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"RK_PHANTOMTHRUST": 3
-				}
+				"pre_requisites": [
+					{
+						"RK_PHANTOMTHRUST": 3
+					}
+				]
 			},
 			{
 				"handle_name": "RK_WINDCUTTER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RK_ENCHANTBLADE": 5
-				}
+				"pre_requisites": [
+					{
+						"RK_ENCHANTBLADE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RK_IGNITIONBREAK",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RK_SONICWAVE": 2,
-					"RK_DEATHBOUND": 5,
-					"RK_WINDCUTTER": 3
-				}
+				"pre_requisites": [
+					{
+						"RK_SONICWAVE": 2
+					},
+					{
+						"RK_DEATHBOUND": 5
+					},
+					{
+						"RK_WINDCUTTER": 3
+					}
+				]
 			},
 			{
 				"handle_name": "RK_DRAGONTRAINING",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KN_CAVALIERMASTERY": 1
-				}
+				"pre_requisites": [
+					{
+						"KN_CAVALIERMASTERY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RK_DRAGONBREATH",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"RK_DRAGONTRAINING": 2
-				}
+				"pre_requisites": [
+					{
+						"RK_DRAGONTRAINING": 2
+					}
+				]
 			},
 			{
 				"handle_name": "RK_DRAGONHOWLING",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RK_DRAGONTRAINING": 2
-				}
+				"pre_requisites": [
+					{
+						"RK_DRAGONTRAINING": 2
+					}
+				]
 			},
 			{
 				"handle_name": "RK_RUNEMASTERY",
@@ -3967,16 +5089,20 @@
 			{
 				"handle_name": "RK_PHANTOMTHRUST",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KN_BRANDISHSPEAR": 2
-				}
+				"pre_requisites": [
+					{
+						"KN_BRANDISHSPEAR": 2
+					}
+				]
 			},
 			{
 				"handle_name": "RK_DRAGONBREATH_WATER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"RK_DRAGONTRAINING": 2
-				}
+				"pre_requisites": [
+					{
+						"RK_DRAGONTRAINING": 2
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -3992,53 +5118,71 @@
 			{
 				"handle_name": "WL_WHITEIMPRISON",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_SOULEXPANSION": 3
-				}
+				"pre_requisites": [
+					{
+						"WL_SOULEXPANSION": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WL_SOULEXPANSION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_DRAINLIFE": 1
-				}
+				"pre_requisites": [
+					{
+						"WL_DRAINLIFE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_FROSTMISTY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_SUMMONWB": 1
-				}
+				"pre_requisites": [
+					{
+						"WL_SUMMONWB": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_JACKFROST",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_FROSTMISTY": 2
-				}
+				"pre_requisites": [
+					{
+						"WL_FROSTMISTY": 2
+					}
+				]
 			},
 			{
 				"handle_name": "WL_MARSHOFABYSS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_QUAGMIRE": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_QUAGMIRE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_RECOGNIZEDSPELL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_WHITEIMPRISON": 1,
-					"WL_STASIS": 1,
-					"WL_RELEASE": 2
-				}
+				"pre_requisites": [
+					{
+						"WL_WHITEIMPRISON": 1
+					},
+					{
+						"WL_STASIS": 1
+					},
+					{
+						"WL_RELEASE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "WL_SIENNAEXECRATE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_SUMMONSTONE": 1
-				}
+				"pre_requisites": [
+					{
+						"WL_SUMMONSTONE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_RADIUS",
@@ -4047,89 +5191,119 @@
 			{
 				"handle_name": "WL_STASIS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_DRAINLIFE": 1
-				}
+				"pre_requisites": [
+					{
+						"WL_DRAINLIFE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_DRAINLIFE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_RADIUS": 1
-				}
+				"pre_requisites": [
+					{
+						"WL_RADIUS": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_CRIMSONROCK",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_SUMMONFB": 1
-				}
+				"pre_requisites": [
+					{
+						"WL_SUMMONFB": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_HELLINFERNO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_CRIMSONROCK": 2
-				}
+				"pre_requisites": [
+					{
+						"WL_CRIMSONROCK": 2
+					}
+				]
 			},
 			{
 				"handle_name": "WL_COMET",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_HELLINFERNO": 3
-				}
+				"pre_requisites": [
+					{
+						"WL_HELLINFERNO": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WL_CHAINLIGHTNING",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_SUMMONBL": 1
-				}
+				"pre_requisites": [
+					{
+						"WL_SUMMONBL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_EARTHSTRAIN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_SIENNAEXECRATE": 2
-				}
+				"pre_requisites": [
+					{
+						"WL_SIENNAEXECRATE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "WL_TETRAVORTEX",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_JACKFROST": 5,
-					"WL_HELLINFERNO": 5,
-					"WL_CHAINLIGHTNING": 5,
-					"WL_EARTHSTRAIN": 5
-				}
+				"pre_requisites": [
+					{
+						"WL_JACKFROST": 5
+					},
+					{
+						"WL_HELLINFERNO": 5
+					},
+					{
+						"WL_CHAINLIGHTNING": 5
+					},
+					{
+						"WL_EARTHSTRAIN": 5
+					}
+				]
 			},
 			{
 				"handle_name": "WL_SUMMONFB",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_METEOR": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_METEOR": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_SUMMONBL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_VERMILION": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_VERMILION": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_SUMMONWB",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_STORMGUST": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_STORMGUST": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_SUMMONSTONE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_HEAVENDRIVE": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_HEAVENDRIVE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WL_RELEASE",
@@ -4146,9 +5320,11 @@
 			{
 				"handle_name": "WL_TELEKINESIS_INTENSE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WL_SOULEXPANSION": 5
-				}
+				"pre_requisites": [
+					{
+						"WL_SOULEXPANSION": 5
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -4164,17 +5340,23 @@
 			{
 				"handle_name": "RA_ARROWSTORM",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"RA_AIMEDBOLT": 5
-				}
+				"pre_requisites": [
+					{
+						"RA_AIMEDBOLT": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RA_FEARBREEZE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RA_ARROWSTORM": 5,
-					"RA_CAMOUFLAGE": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_ARROWSTORM": 5
+					},
+					{
+						"RA_CAMOUFLAGE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_RANGERMAIN",
@@ -4183,30 +5365,38 @@
 			{
 				"handle_name": "RA_AIMEDBOLT",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"HT_ANKLESNARE": 5
-				}
+				"pre_requisites": [
+					{
+						"HT_ANKLESNARE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RA_DETONATOR",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"RA_CLUSTERBOMB": 3
-				}
+				"pre_requisites": [
+					{
+						"RA_CLUSTERBOMB": 3
+					}
+				]
 			},
 			{
 				"handle_name": "RA_ELECTRICSHOCKER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_SHOCKWAVE": 5
-				}
+				"pre_requisites": [
+					{
+						"HT_SHOCKWAVE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RA_CLUSTERBOMB",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RA_RESEARCHTRAP": 3
-				}
+				"pre_requisites": [
+					{
+						"RA_RESEARCHTRAP": 3
+					}
+				]
 			},
 			{
 				"handle_name": "RA_WUGMASTERY",
@@ -4215,108 +5405,140 @@
 			{
 				"handle_name": "RA_WUGRIDER",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"RA_WUGMASTERY": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_WUGMASTERY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_WUGDASH",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"RA_WUGRIDER": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_WUGRIDER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_WUGSTRIKE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RA_TOOTHOFWUG": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_TOOTHOFWUG": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_WUGBITE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RA_WUGMASTERY": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_WUGMASTERY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_TOOTHOFWUG",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"RA_WUGMASTERY": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_WUGMASTERY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_SENSITIVEKEEN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RA_TOOTHOFWUG": 3
-				}
+				"pre_requisites": [
+					{
+						"RA_TOOTHOFWUG": 3
+					}
+				]
 			},
 			{
 				"handle_name": "RA_CAMOUFLAGE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RA_RANGERMAIN": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_RANGERMAIN": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_RESEARCHTRAP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_CLAYMORETRAP": 1,
-					"HT_REMOVETRAP": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_CLAYMORETRAP": 1
+					},
+					{
+						"HT_REMOVETRAP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_MAGENTATRAP",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"RA_RESEARCHTRAP": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_RESEARCHTRAP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_COBALTTRAP",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"RA_RESEARCHTRAP": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_RESEARCHTRAP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_MAIZETRAP",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"RA_RESEARCHTRAP": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_RESEARCHTRAP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_VERDURETRAP",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"RA_RESEARCHTRAP": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_RESEARCHTRAP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_FIRINGTRAP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RA_DETONATOR": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_DETONATOR": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_ICEBOUNDTRAP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RA_DETONATOR": 1
-				}
+				"pre_requisites": [
+					{
+						"RA_DETONATOR": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RA_UNLIMIT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RA_FEARBREEZE": 5
-				}
+				"pre_requisites": [
+					{
+						"RA_FEARBREEZE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -4332,148 +5554,200 @@
 			{
 				"handle_name": "AB_JUDEX",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"PR_TURNUNDEAD": 1
-				}
+				"pre_requisites": [
+					{
+						"PR_TURNUNDEAD": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_ANCILLA",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AB_CLEMENTIA": 3
-				}
+				"pre_requisites": [
+					{
+						"AB_CLEMENTIA": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AB_ADORAMUS",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"PR_MAGNUS": 1,
-					"AB_JUDEX": 1,
-					"AB_ANCILLA": 1
-				}
+				"pre_requisites": [
+					{
+						"PR_MAGNUS": 1
+					},
+					{
+						"AB_JUDEX": 1
+					},
+					{
+						"AB_ANCILLA": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_CLEMENTIA",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"AL_BLESSING": 1
-				}
+				"pre_requisites": [
+					{
+						"AL_BLESSING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_CANTO",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"AL_INCAGI": 1
-				}
+				"pre_requisites": [
+					{
+						"AL_INCAGI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_CHEAL",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"AL_HEAL": 1
-				}
+				"pre_requisites": [
+					{
+						"AL_HEAL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_EPICLESIS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AB_ANCILLA": 1,
-					"AB_HIGHNESSHEAL": 1
-				}
+				"pre_requisites": [
+					{
+						"AB_ANCILLA": 1
+					},
+					{
+						"AB_HIGHNESSHEAL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_PRAEFATIO",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"PR_KYRIE": 1
-				}
+				"pre_requisites": [
+					{
+						"PR_KYRIE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_ORATIO",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AB_PRAEFATIO": 5
-				}
+				"pre_requisites": [
+					{
+						"AB_PRAEFATIO": 5
+					}
+				]
 			},
 			{
 				"handle_name": "AB_LAUDAAGNUS",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"PR_STRECOVERY": 1
-				}
+				"pre_requisites": [
+					{
+						"PR_STRECOVERY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_LAUDARAMUS",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"AB_LAUDAAGNUS": 2
-				}
+				"pre_requisites": [
+					{
+						"AB_LAUDAAGNUS": 2
+					}
+				]
 			},
 			{
 				"handle_name": "AB_EUCHARISTICA",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AB_EPICLESIS": 1,
-					"AB_EXPIATIO": 1
-				}
+				"pre_requisites": [
+					{
+						"AB_EPICLESIS": 1
+					},
+					{
+						"AB_EXPIATIO": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_RENOVATIO",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"AB_CHEAL": 3
-				}
+				"pre_requisites": [
+					{
+						"AB_CHEAL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "AB_HIGHNESSHEAL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AB_RENOVATIO": 1
-				}
+				"pre_requisites": [
+					{
+						"AB_RENOVATIO": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_CLEARANCE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AB_LAUDARAMUS": 2
-				}
+				"pre_requisites": [
+					{
+						"AB_LAUDARAMUS": 2
+					}
+				]
 			},
 			{
 				"handle_name": "AB_EXPIATIO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AB_ORATIO": 5,
-					"AB_DUPLELIGHT": 5
-				}
+				"pre_requisites": [
+					{
+						"AB_ORATIO": 5
+					},
+					{
+						"AB_DUPLELIGHT": 5
+					}
+				]
 			},
 			{
 				"handle_name": "AB_DUPLELIGHT",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"PR_ASPERSIO": 1
-				}
+				"pre_requisites": [
+					{
+						"PR_ASPERSIO": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_SILENTIUM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AB_CLEARANCE": 1
-				}
+				"pre_requisites": [
+					{
+						"AB_CLEARANCE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_SECRAMENT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AB_EPICLESIS": 1,
-					"AB_EXPIATIO": 1
-				}
+				"pre_requisites": [
+					{
+						"AB_EPICLESIS": 1
+					},
+					{
+						"AB_EXPIATIO": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AB_OFFERTORIUM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AB_HIGHNESSHEAL": 2
-				}
+				"pre_requisites": [
+					{
+						"AB_HIGHNESSHEAL": 2
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -4493,144 +5767,188 @@
 			{
 				"handle_name": "NC_BOOSTKNUCKLE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NC_MADOLICENCE": 1
-				}
+				"pre_requisites": [
+					{
+						"NC_MADOLICENCE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NC_PILEBUNKER",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"NC_BOOSTKNUCKLE": 2
-				}
+				"pre_requisites": [
+					{
+						"NC_BOOSTKNUCKLE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "NC_VULCANARM",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"NC_BOOSTKNUCKLE": 2
-				}
+				"pre_requisites": [
+					{
+						"NC_BOOSTKNUCKLE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "NC_FLAMELAUNCHER",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"NC_VULCANARM": 3
-				}
+				"pre_requisites": [
+					{
+						"NC_VULCANARM": 3
+					}
+				]
 			},
 			{
 				"handle_name": "NC_COLDSLOWER",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"NC_VULCANARM": 3
-				}
+				"pre_requisites": [
+					{
+						"NC_VULCANARM": 3
+					}
+				]
 			},
 			{
 				"handle_name": "NC_ARMSCANNON",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"NC_FLAMELAUNCHER": 2,
-					"NC_COLDSLOWER": 2
-				}
+				"pre_requisites": [
+					{
+						"NC_FLAMELAUNCHER": 2
+					},
+					{
+						"NC_COLDSLOWER": 2
+					}
+				]
 			},
 			{
 				"handle_name": "NC_ACCELERATION",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"NC_MADOLICENCE": 1
-				}
+				"pre_requisites": [
+					{
+						"NC_MADOLICENCE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NC_HOVERING",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"NC_ACCELERATION": 1
-				}
+				"pre_requisites": [
+					{
+						"NC_ACCELERATION": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NC_F_SIDESLIDE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"NC_HOVERING": 1
-				}
+				"pre_requisites": [
+					{
+						"NC_HOVERING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NC_B_SIDESLIDE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"NC_HOVERING": 1
-				}
+				"pre_requisites": [
+					{
+						"NC_HOVERING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NC_MAINFRAME",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"NC_MADOLICENCE": 4
-				}
+				"pre_requisites": [
+					{
+						"NC_MADOLICENCE": 4
+					}
+				]
 			},
 			{
 				"handle_name": "NC_SELFDESTRUCTION",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"NC_MAINFRAME": 2
-				}
+				"pre_requisites": [
+					{
+						"NC_MAINFRAME": 2
+					}
+				]
 			},
 			{
 				"handle_name": "NC_SHAPESHIFT",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"NC_MAINFRAME": 2
-				}
+				"pre_requisites": [
+					{
+						"NC_MAINFRAME": 2
+					}
+				]
 			},
 			{
 				"handle_name": "NC_EMERGENCYCOOL",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"NC_SELFDESTRUCTION": 2
-				}
+				"pre_requisites": [
+					{
+						"NC_SELFDESTRUCTION": 2
+					}
+				]
 			},
 			{
 				"handle_name": "NC_INFRAREDSCAN",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"NC_SHAPESHIFT": 2
-				}
+				"pre_requisites": [
+					{
+						"NC_SHAPESHIFT": 2
+					}
+				]
 			},
 			{
 				"handle_name": "NC_ANALYZE",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"NC_INFRAREDSCAN": 1
-				}
+				"pre_requisites": [
+					{
+						"NC_INFRAREDSCAN": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NC_MAGNETICFIELD",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"NC_EMERGENCYCOOL": 1
-				}
+				"pre_requisites": [
+					{
+						"NC_EMERGENCYCOOL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NC_NEUTRALBARRIER",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"NC_MAGNETICFIELD": 2
-				}
+				"pre_requisites": [
+					{
+						"NC_MAGNETICFIELD": 2
+					}
+				]
 			},
 			{
 				"handle_name": "NC_STEALTHFIELD",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"NC_ANALYZE": 3,
-					"NC_NEUTRALBARRIER": 2
-				}
+				"pre_requisites": [
+					{
+						"NC_ANALYZE": 3
+					},
+					{
+						"NC_NEUTRALBARRIER": 2
+					}
+				]
 			},
 			{
 				"handle_name": "NC_REPAIR",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NC_MADOLICENCE": 1
-				}
+				"pre_requisites": [
+					{
+						"NC_MADOLICENCE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NC_TRAININGAXE",
@@ -4643,44 +5961,56 @@
 			{
 				"handle_name": "NC_AXEBOOMERANG",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NC_TRAININGAXE": 1
-				}
+				"pre_requisites": [
+					{
+						"NC_TRAININGAXE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NC_POWERSWING",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NC_AXEBOOMERANG": 3
-				}
+				"pre_requisites": [
+					{
+						"NC_AXEBOOMERANG": 3
+					}
+				]
 			},
 			{
 				"handle_name": "NC_AXETORNADO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NC_TRAININGAXE": 1
-				}
+				"pre_requisites": [
+					{
+						"NC_TRAININGAXE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NC_SILVERSNIPER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NC_RESEARCHFE": 2
-				}
+				"pre_requisites": [
+					{
+						"NC_RESEARCHFE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "NC_MAGICDECOY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NC_RESEARCHFE": 2
-				}
+				"pre_requisites": [
+					{
+						"NC_RESEARCHFE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "NC_DISJOINT",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"NC_SILVERSNIPER": 1
-				}
+				"pre_requisites": [
+					{
+						"NC_SILVERSNIPER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "NC_MAGMA_ERUPTION",
@@ -4700,23 +6030,29 @@
 			{
 				"handle_name": "GC_VENOMIMPRESS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AS_ENCHANTPOISON": 3
-				}
+				"pre_requisites": [
+					{
+						"AS_ENCHANTPOISON": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GC_CROSSIMPACT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AS_SONICBLOW": 10
-				}
+				"pre_requisites": [
+					{
+						"AS_SONICBLOW": 10
+					}
+				]
 			},
 			{
 				"handle_name": "GC_DARKILLUSION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GC_CROSSIMPACT": 3
-				}
+				"pre_requisites": [
+					{
+						"GC_CROSSIMPACT": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GC_RESEARCHNEWPOISON",
@@ -4725,103 +6061,137 @@
 			{
 				"handle_name": "GC_CREATENEWPOISON",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GC_RESEARCHNEWPOISON": 1
-				}
+				"pre_requisites": [
+					{
+						"GC_RESEARCHNEWPOISON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GC_ANTIDOTE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GC_RESEARCHNEWPOISON": 5
-				}
+				"pre_requisites": [
+					{
+						"GC_RESEARCHNEWPOISON": 5
+					}
+				]
 			},
 			{
 				"handle_name": "GC_POISONINGWEAPON",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GC_CREATENEWPOISON": 1
-				}
+				"pre_requisites": [
+					{
+						"GC_CREATENEWPOISON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GC_WEAPONBLOCKING",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AS_LEFT": 5
-				}
+				"pre_requisites": [
+					{
+						"AS_LEFT": 5
+					}
+				]
 			},
 			{
 				"handle_name": "GC_COUNTERSLASH",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GC_WEAPONBLOCKING": 1
-				}
+				"pre_requisites": [
+					{
+						"GC_WEAPONBLOCKING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GC_WEAPONCRUSH",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GC_WEAPONBLOCKING": 1
-				}
+				"pre_requisites": [
+					{
+						"GC_WEAPONBLOCKING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GC_VENOMPRESSURE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GC_POISONINGWEAPON": 3,
-					"GC_WEAPONBLOCKING": 1
-				}
+				"pre_requisites": [
+					{
+						"GC_POISONINGWEAPON": 3
+					},
+					{
+						"GC_WEAPONBLOCKING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GC_POISONSMOKE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GC_POISONINGWEAPON": 5,
-					"GC_VENOMPRESSURE": 5
-				}
+				"pre_requisites": [
+					{
+						"GC_POISONINGWEAPON": 5
+					},
+					{
+						"GC_VENOMPRESSURE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "GC_CLOAKINGEXCEED",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AS_CLOAKING": 3
-				}
+				"pre_requisites": [
+					{
+						"AS_CLOAKING": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GC_PHANTOMMENACE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GC_DARKILLUSION": 5,
-					"GC_CLOAKINGEXCEED": 5
-				}
+				"pre_requisites": [
+					{
+						"GC_DARKILLUSION": 5
+					},
+					{
+						"GC_CLOAKINGEXCEED": 5
+					}
+				]
 			},
 			{
 				"handle_name": "GC_HALLUCINATIONWALK",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GC_PHANTOMMENACE": 1
-				}
+				"pre_requisites": [
+					{
+						"GC_PHANTOMMENACE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GC_ROLLINGCUTTER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"AS_SONICBLOW": 10
-				}
+				"pre_requisites": [
+					{
+						"AS_SONICBLOW": 10
+					}
+				]
 			},
 			{
 				"handle_name": "GC_CROSSRIPPERSLASHER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GC_ROLLINGCUTTER": 1
-				}
+				"pre_requisites": [
+					{
+						"GC_ROLLINGCUTTER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GC_DARKCROW",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GC_DARKILLUSION": 5
-				}
+				"pre_requisites": [
+					{
+						"GC_DARKILLUSION": 5
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -4873,16 +6243,20 @@
 			{
 				"handle_name": "LG_CANNONSPEAR",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"LG_PINPOINTATTACK": 1
-				}
+				"pre_requisites": [
+					{
+						"LG_PINPOINTATTACK": 1
+					}
+				]
 			},
 			{
 				"handle_name": "LG_BANISHINGPOINT",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"KN_SPEARMASTERY": 1
-				}
+				"pre_requisites": [
+					{
+						"KN_SPEARMASTERY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "LG_TRAMPLE",
@@ -4891,23 +6265,29 @@
 			{
 				"handle_name": "LG_SHIELDPRESS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"CR_SHIELDCHARGE": 3
-				}
+				"pre_requisites": [
+					{
+						"CR_SHIELDCHARGE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "LG_REFLECTDAMAGE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"CR_REFLECTSHIELD": 5
-				}
+				"pre_requisites": [
+					{
+						"CR_REFLECTSHIELD": 5
+					}
+				]
 			},
 			{
 				"handle_name": "LG_PINPOINTATTACK",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"LG_BANISHINGPOINT": 5
-				}
+				"pre_requisites": [
+					{
+						"LG_BANISHINGPOINT": 5
+					}
+				]
 			},
 			{
 				"handle_name": "LG_FORCEOFVANGUARD",
@@ -4916,99 +6296,137 @@
 			{
 				"handle_name": "LG_RAGEBURST",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"LG_FORCEOFVANGUARD": 1
-				}
+				"pre_requisites": [
+					{
+						"LG_FORCEOFVANGUARD": 1
+					}
+				]
 			},
 			{
 				"handle_name": "LG_SHIELDSPELL",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"LG_SHIELDPRESS": 3,
-					"LG_EARTHDRIVE": 2
-				}
+				"pre_requisites": [
+					{
+						"LG_SHIELDPRESS": 3
+					},
+					{
+						"LG_EARTHDRIVE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "LG_EXEEDBREAK",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"LG_BANISHINGPOINT": 3
-				}
+				"pre_requisites": [
+					{
+						"LG_BANISHINGPOINT": 3
+					}
+				]
 			},
 			{
 				"handle_name": "LG_OVERBRAND",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"LG_PINPOINTATTACK": 1,
-					"LG_MOONSLASHER": 3
-				}
+				"pre_requisites": [
+					{
+						"LG_PINPOINTATTACK": 1
+					},
+					{
+						"LG_MOONSLASHER": 3
+					}
+				]
 			},
 			{
 				"handle_name": "LG_PRESTIGE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"LG_TRAMPLE": 3
-				}
+				"pre_requisites": [
+					{
+						"LG_TRAMPLE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "LG_BANDING",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"LG_PINPOINTATTACK": 3,
-					"LG_RAGEBURST": 1
-				}
+				"pre_requisites": [
+					{
+						"LG_PINPOINTATTACK": 3
+					},
+					{
+						"LG_RAGEBURST": 1
+					}
+				]
 			},
 			{
 				"handle_name": "LG_MOONSLASHER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KN_SPEARMASTERY": 1
-				}
+				"pre_requisites": [
+					{
+						"KN_SPEARMASTERY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "LG_RAYOFGENESIS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"CR_GRANDCROSS": 5
-				}
+				"pre_requisites": [
+					{
+						"CR_GRANDCROSS": 5
+					}
+				]
 			},
 			{
 				"handle_name": "LG_PIETY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"CR_TRUST": 3
-				}
+				"pre_requisites": [
+					{
+						"CR_TRUST": 3
+					}
+				]
 			},
 			{
 				"handle_name": "LG_EARTHDRIVE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"LG_REFLECTDAMAGE": 3
-				}
+				"pre_requisites": [
+					{
+						"LG_REFLECTDAMAGE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "LG_HESPERUSLIT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"LG_PRESTIGE": 3,
-					"LG_BANDING": 3
-				}
+				"pre_requisites": [
+					{
+						"LG_PRESTIGE": 3
+					},
+					{
+						"LG_BANDING": 3
+					}
+				]
 			},
 			{
 				"handle_name": "LG_INSPIRATION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"LG_SHIELDSPELL": 3,
-					"LG_RAYOFGENESIS": 4,
-					"LG_PIETY": 5
-				}
+				"pre_requisites": [
+					{
+						"LG_SHIELDSPELL": 3
+					},
+					{
+						"LG_RAYOFGENESIS": 4
+					},
+					{
+						"LG_PIETY": 5
+					}
+				]
 			},
 			{
 				"handle_name": "LG_KINGS_GRACE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"LG_REFLECTDAMAGE": 5
-				}
+				"pre_requisites": [
+					{
+						"LG_REFLECTDAMAGE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -5024,203 +6442,281 @@
 			{
 				"handle_name": "SO_FIREWALK",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_VOLCANO": 1
-				}
+				"pre_requisites": [
+					{
+						"SA_VOLCANO": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SO_ELECTRICWALK",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_VIOLENTGALE": 1
-				}
+				"pre_requisites": [
+					{
+						"SA_VIOLENTGALE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SO_SPELLFIST",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_AUTOSPELL": 4
-				}
+				"pre_requisites": [
+					{
+						"SA_AUTOSPELL": 4
+					}
+				]
 			},
 			{
 				"handle_name": "SO_EARTHGRAVE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_EARTHSPIKE": 5
-				}
+				"pre_requisites": [
+					{
+						"WZ_EARTHSPIKE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SO_DIAMONDDUST",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_DELUGE": 3
-				}
+				"pre_requisites": [
+					{
+						"SA_DELUGE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SO_POISON_BUSTER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SO_CLOUD_KILL": 2
-				}
+				"pre_requisites": [
+					{
+						"SO_CLOUD_KILL": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SO_PSYCHIC_WAVE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_DISPELL": 2
-				}
+				"pre_requisites": [
+					{
+						"SA_DISPELL": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SO_CLOUD_KILL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_HEAVENDRIVE": 5
-				}
+				"pre_requisites": [
+					{
+						"WZ_HEAVENDRIVE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SO_STRIKING",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_FLAMELAUNCHER": 1,
-					"SA_FROSTWEAPON": 1,
-					"SA_LIGHTNINGLOADER": 1,
-					"SA_SEISMICWEAPON": 1
-				}
+				"pre_requisites": [
+					{
+						"SA_FLAMELAUNCHER": 1
+					},
+					{
+						"SA_FROSTWEAPON": 1
+					},
+					{
+						"SA_LIGHTNINGLOADER": 1
+					},
+					{
+						"SA_SEISMICWEAPON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SO_WARMER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_VOLCANO": 1,
-					"SA_VIOLENTGALE": 1
-				}
+				"pre_requisites": [
+					{
+						"SA_VOLCANO": 1
+					},
+					{
+						"SA_VIOLENTGALE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SO_VACUUM_EXTREME",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_LANDPROTECTOR": 2
-				}
+				"pre_requisites": [
+					{
+						"SA_LANDPROTECTOR": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SO_VARETYR_SPEAR",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SA_SEISMICWEAPON": 1,
-					"SA_VIOLENTGALE": 4
-				}
+				"pre_requisites": [
+					{
+						"SA_SEISMICWEAPON": 1
+					},
+					{
+						"SA_VIOLENTGALE": 4
+					}
+				]
 			},
 			{
 				"handle_name": "SO_ARRULLO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SO_WARMER": 2
-				}
+				"pre_requisites": [
+					{
+						"SO_WARMER": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SO_EL_CONTROL",
 				"maxLevel": 4,
-				"pre_requisites": {
-					"SO_EL_ANALYSIS": 1
-				}
+				"pre_requisites": [
+					{
+						"SO_EL_ANALYSIS": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SO_SUMMON_AGNI",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SO_WARMER": 3,
-					"SO_EL_CONTROL": 1
-				}
+				"pre_requisites": [
+					{
+						"SO_WARMER": 3
+					},
+					{
+						"SO_EL_CONTROL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SO_SUMMON_AQUA",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SO_DIAMONDDUST": 3,
-					"SO_EL_CONTROL": 1
-				}
+				"pre_requisites": [
+					{
+						"SO_DIAMONDDUST": 3
+					},
+					{
+						"SO_EL_CONTROL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SO_SUMMON_VENTUS",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SO_VARETYR_SPEAR": 3,
-					"SO_EL_CONTROL": 1
-				}
+				"pre_requisites": [
+					{
+						"SO_VARETYR_SPEAR": 3
+					},
+					{
+						"SO_EL_CONTROL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SO_SUMMON_TERA",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SO_EARTHGRAVE": 3,
-					"SO_EL_CONTROL": 1
-				}
+				"pre_requisites": [
+					{
+						"SO_EARTHGRAVE": 3
+					},
+					{
+						"SO_EL_CONTROL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SO_EL_ACTION",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"SO_EL_CONTROL": 3
-				}
+				"pre_requisites": [
+					{
+						"SO_EL_CONTROL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SO_EL_ANALYSIS",
 				"maxLevel": 2,
-				"pre_requisites": {
-					"SA_FLAMELAUNCHER": 1,
-					"SA_FROSTWEAPON": 1,
-					"SA_LIGHTNINGLOADER": 1,
-					"SA_SEISMICWEAPON": 1
-				}
+				"pre_requisites": [
+					{
+						"SA_FLAMELAUNCHER": 1
+					},
+					{
+						"SA_FROSTWEAPON": 1
+					},
+					{
+						"SA_LIGHTNINGLOADER": 1
+					},
+					{
+						"SA_SEISMICWEAPON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SO_EL_SYMPATHY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SO_EL_CONTROL": 3
-				}
+				"pre_requisites": [
+					{
+						"SO_EL_CONTROL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SO_EL_CURE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"SO_EL_SYMPATHY": 1
-				}
+				"pre_requisites": [
+					{
+						"SO_EL_SYMPATHY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SO_FIRE_INSIGNIA",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SO_SUMMON_AGNI": 3
-				}
+				"pre_requisites": [
+					{
+						"SO_SUMMON_AGNI": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SO_WATER_INSIGNIA",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SO_SUMMON_AQUA": 3
-				}
+				"pre_requisites": [
+					{
+						"SO_SUMMON_AQUA": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SO_WIND_INSIGNIA",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SO_SUMMON_VENTUS": 3
-				}
+				"pre_requisites": [
+					{
+						"SO_SUMMON_VENTUS": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SO_EARTH_INSIGNIA",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SO_SUMMON_TERA": 3
-				}
+				"pre_requisites": [
+					{
+						"SO_SUMMON_TERA": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SO_ELEMENTAL_SHIELD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SO_EL_CONTROL": 3
-				}
+				"pre_requisites": [
+					{
+						"SO_EL_CONTROL": 3
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -5236,23 +6732,29 @@
 			{
 				"handle_name": "MI_RUSH_WINDMILL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LULLABY_DEEPSLEEP": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LULLABY_DEEPSLEEP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "MI_ECHOSONG",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LULLABY_DEEPSLEEP": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LULLABY_DEEPSLEEP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "MI_HARMONIZE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LULLABY_DEEPSLEEP": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LULLABY_DEEPSLEEP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_LESSON",
@@ -5261,157 +6763,215 @@
 			{
 				"handle_name": "WM_METALICSOUND",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_DOMINION_IMPULSE": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_DOMINION_IMPULSE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_REVERBERATION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BA_DISSONANCE": 5
-				}
+				"pre_requisites": [
+					{
+						"BA_DISSONANCE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "WM_DOMINION_IMPULSE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"WM_REVERBERATION": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_REVERBERATION": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_SEVERE_RAINSTORM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"BA_MUSICALSTRIKE": 5
-				}
+				"pre_requisites": [
+					{
+						"BA_MUSICALSTRIKE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "WM_POEMOFNETHERWORLD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LESSON": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LESSON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_VOICEOFSIREN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_POEMOFNETHERWORLD": 3
-				}
+				"pre_requisites": [
+					{
+						"WM_POEMOFNETHERWORLD": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WM_DEADHILLHERE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_SIRCLEOFNATURE": 3
-				}
+				"pre_requisites": [
+					{
+						"WM_SIRCLEOFNATURE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WM_LULLABY_DEEPSLEEP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LESSON": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LESSON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_SIRCLEOFNATURE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LESSON": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LESSON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_RANDOMIZESPELL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_POEMOFNETHERWORLD": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_POEMOFNETHERWORLD": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_GLOOMYDAY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_RANDOMIZESPELL": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_RANDOMIZESPELL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_GREAT_ECHO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_METALICSOUND": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_METALICSOUND": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_SONG_OF_MANA",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MI_RUSH_WINDMILL": 1,
-					"MI_ECHOSONG": 1,
-					"MI_HARMONIZE": 1
-				}
+				"pre_requisites": [
+					{
+						"MI_RUSH_WINDMILL": 1
+					},
+					{
+						"MI_ECHOSONG": 1
+					},
+					{
+						"MI_HARMONIZE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_DANCE_WITH_WUG",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MI_RUSH_WINDMILL": 1,
-					"MI_ECHOSONG": 1,
-					"MI_HARMONIZE": 1
-				}
+				"pre_requisites": [
+					{
+						"MI_RUSH_WINDMILL": 1
+					},
+					{
+						"MI_ECHOSONG": 1
+					},
+					{
+						"MI_HARMONIZE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_SOUND_OF_DESTRUCTION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_SATURDAY_NIGHT_FEVER": 3,
-					"WM_MELODYOFSINK": 3
-				}
+				"pre_requisites": [
+					{
+						"WM_SATURDAY_NIGHT_FEVER": 3
+					},
+					{
+						"WM_MELODYOFSINK": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WM_SATURDAY_NIGHT_FEVER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_DANCE_WITH_WUG": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_DANCE_WITH_WUG": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_LERADS_DEW",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MI_RUSH_WINDMILL": 1,
-					"MI_ECHOSONG": 1,
-					"MI_HARMONIZE": 1
-				}
+				"pre_requisites": [
+					{
+						"MI_RUSH_WINDMILL": 1
+					},
+					{
+						"MI_ECHOSONG": 1
+					},
+					{
+						"MI_HARMONIZE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_MELODYOFSINK",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_SONG_OF_MANA": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_SONG_OF_MANA": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_BEYOND_OF_WARCRY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LERADS_DEW": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LERADS_DEW": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_UNLIMITED_HUMMING_VOICE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_SOUND_OF_DESTRUCTION": 1,
-					"WM_BEYOND_OF_WARCRY": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_SOUND_OF_DESTRUCTION": 1
+					},
+					{
+						"WM_BEYOND_OF_WARCRY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_FRIGG_SONG",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LESSON": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LESSON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -5427,23 +6987,29 @@
 			{
 				"handle_name": "WA_SWING_DANCE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LULLABY_DEEPSLEEP": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LULLABY_DEEPSLEEP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WA_SYMPHONY_OF_LOVER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LULLABY_DEEPSLEEP": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LULLABY_DEEPSLEEP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WA_MOONLIT_SERENADE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LULLABY_DEEPSLEEP": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LULLABY_DEEPSLEEP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_LESSON",
@@ -5452,157 +7018,215 @@
 			{
 				"handle_name": "WM_METALICSOUND",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_DOMINION_IMPULSE": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_DOMINION_IMPULSE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_REVERBERATION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"DC_UGLYDANCE": 5
-				}
+				"pre_requisites": [
+					{
+						"DC_UGLYDANCE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "WM_DOMINION_IMPULSE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"WM_REVERBERATION": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_REVERBERATION": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_SEVERE_RAINSTORM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"DC_THROWARROW": 5
-				}
+				"pre_requisites": [
+					{
+						"DC_THROWARROW": 5
+					}
+				]
 			},
 			{
 				"handle_name": "WM_POEMOFNETHERWORLD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LESSON": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LESSON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_VOICEOFSIREN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_POEMOFNETHERWORLD": 3
-				}
+				"pre_requisites": [
+					{
+						"WM_POEMOFNETHERWORLD": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WM_DEADHILLHERE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_SIRCLEOFNATURE": 3
-				}
+				"pre_requisites": [
+					{
+						"WM_SIRCLEOFNATURE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WM_LULLABY_DEEPSLEEP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LESSON": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LESSON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_SIRCLEOFNATURE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LESSON": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LESSON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_RANDOMIZESPELL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_POEMOFNETHERWORLD": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_POEMOFNETHERWORLD": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_GLOOMYDAY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_RANDOMIZESPELL": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_RANDOMIZESPELL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_GREAT_ECHO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_METALICSOUND": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_METALICSOUND": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_SONG_OF_MANA",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WA_SWING_DANCE": 1,
-					"WA_SYMPHONY_OF_LOVER": 1,
-					"WA_MOONLIT_SERENADE": 1
-				}
+				"pre_requisites": [
+					{
+						"WA_SWING_DANCE": 1
+					},
+					{
+						"WA_SYMPHONY_OF_LOVER": 1
+					},
+					{
+						"WA_MOONLIT_SERENADE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_DANCE_WITH_WUG",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WA_SWING_DANCE": 1,
-					"WA_SYMPHONY_OF_LOVER": 1,
-					"WA_MOONLIT_SERENADE": 1
-				}
+				"pre_requisites": [
+					{
+						"WA_SWING_DANCE": 1
+					},
+					{
+						"WA_SYMPHONY_OF_LOVER": 1
+					},
+					{
+						"WA_MOONLIT_SERENADE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_SOUND_OF_DESTRUCTION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_SATURDAY_NIGHT_FEVER": 3,
-					"WM_MELODYOFSINK": 3
-				}
+				"pre_requisites": [
+					{
+						"WM_SATURDAY_NIGHT_FEVER": 3
+					},
+					{
+						"WM_MELODYOFSINK": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WM_SATURDAY_NIGHT_FEVER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_DANCE_WITH_WUG": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_DANCE_WITH_WUG": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_LERADS_DEW",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WA_SWING_DANCE": 1,
-					"WA_SYMPHONY_OF_LOVER": 1,
-					"WA_MOONLIT_SERENADE": 1
-				}
+				"pre_requisites": [
+					{
+						"WA_SWING_DANCE": 1
+					},
+					{
+						"WA_SYMPHONY_OF_LOVER": 1
+					},
+					{
+						"WA_MOONLIT_SERENADE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_MELODYOFSINK",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_SONG_OF_MANA": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_SONG_OF_MANA": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_BEYOND_OF_WARCRY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LERADS_DEW": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LERADS_DEW": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_UNLIMITED_HUMMING_VOICE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_SOUND_OF_DESTRUCTION": 1,
-					"WM_BEYOND_OF_WARCRY": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_SOUND_OF_DESTRUCTION": 1
+					},
+					{
+						"WM_BEYOND_OF_WARCRY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WM_FRIGG_SONG",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WM_LESSON": 1
-				}
+				"pre_requisites": [
+					{
+						"WM_LESSON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -5618,173 +7242,239 @@
 			{
 				"handle_name": "SR_DRAGONCOMBO",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MO_TRIPLEATTACK": 5
-				}
+				"pre_requisites": [
+					{
+						"MO_TRIPLEATTACK": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SR_SKYNETBLOW",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_DRAGONCOMBO": 3
-				}
+				"pre_requisites": [
+					{
+						"SR_DRAGONCOMBO": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SR_EARTHSHAKER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_DRAGONCOMBO": 1,
-					"SR_CURSEDCIRCLE": 1
-				}
+				"pre_requisites": [
+					{
+						"SR_DRAGONCOMBO": 1
+					},
+					{
+						"SR_CURSEDCIRCLE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SR_FALLENEMPIRE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_DRAGONCOMBO": 1
-				}
+				"pre_requisites": [
+					{
+						"SR_DRAGONCOMBO": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SR_TIGERCANNON",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SR_FALLENEMPIRE": 3
-				}
+				"pre_requisites": [
+					{
+						"SR_FALLENEMPIRE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SR_RAMPAGEBLASTER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_EARTHSHAKER": 2
-				}
+				"pre_requisites": [
+					{
+						"SR_EARTHSHAKER": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SR_CRESCENTELBOW",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_SKYNETBLOW": 1
-				}
+				"pre_requisites": [
+					{
+						"SR_SKYNETBLOW": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SR_CURSEDCIRCLE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_BLADESTOP": 2,
-					"SR_GENTLETOUCH_QUIET": 2
-				}
+				"pre_requisites": [
+					{
+						"MO_BLADESTOP": 2
+					},
+					{
+						"SR_GENTLETOUCH_QUIET": 2
+					}
+				]
 			},
 			{
 				"handle_name": "SR_LIGHTNINGWALK",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_WINDMILL": 1
-				}
+				"pre_requisites": [
+					{
+						"SR_WINDMILL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SR_KNUCKLEARROW",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_RAMPAGEBLASTER": 3,
-					"SR_LIGHTNINGWALK": 3
-				}
+				"pre_requisites": [
+					{
+						"SR_RAMPAGEBLASTER": 3
+					},
+					{
+						"SR_LIGHTNINGWALK": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SR_WINDMILL",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"SR_CURSEDCIRCLE": 1
-				}
+				"pre_requisites": [
+					{
+						"SR_CURSEDCIRCLE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SR_RAISINGDRAGON",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SR_RAMPAGEBLASTER": 3,
-					"SR_GENTLETOUCH_ENERGYGAIN": 3
-				}
+				"pre_requisites": [
+					{
+						"SR_RAMPAGEBLASTER": 3
+					},
+					{
+						"SR_GENTLETOUCH_ENERGYGAIN": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SR_ASSIMILATEPOWER",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MO_ABSORBSPIRITS": 1,
-					"SR_POWERVELOCITY": 1
-				}
+				"pre_requisites": [
+					{
+						"MO_ABSORBSPIRITS": 1
+					},
+					{
+						"SR_POWERVELOCITY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SR_POWERVELOCITY",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MO_CALLSPIRITS": 5
-				}
+				"pre_requisites": [
+					{
+						"MO_CALLSPIRITS": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SR_GATEOFHELL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SR_TIGERCANNON": 5,
-					"SR_RAISINGDRAGON": 5
-				}
+				"pre_requisites": [
+					{
+						"SR_TIGERCANNON": 5
+					},
+					{
+						"SR_RAISINGDRAGON": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SR_GENTLETOUCH_QUIET",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_POWERVELOCITY": 1
-				}
+				"pre_requisites": [
+					{
+						"SR_POWERVELOCITY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SR_GENTLETOUCH_CURE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_POWERVELOCITY": 1
-				}
+				"pre_requisites": [
+					{
+						"SR_POWERVELOCITY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SR_GENTLETOUCH_ENERGYGAIN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_GENTLETOUCH_QUIET": 3
-				}
+				"pre_requisites": [
+					{
+						"SR_GENTLETOUCH_QUIET": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SR_GENTLETOUCH_CHANGE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_GENTLETOUCH_CURE": 4
-				}
+				"pre_requisites": [
+					{
+						"SR_GENTLETOUCH_CURE": 4
+					}
+				]
 			},
 			{
 				"handle_name": "SR_GENTLETOUCH_REVITALIZE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_GENTLETOUCH_CHANGE": 5
-				}
+				"pre_requisites": [
+					{
+						"SR_GENTLETOUCH_CHANGE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SR_HOWLINGOFLION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_ASSIMILATEPOWER": 1,
-					"SR_RIDEINLIGHTNING": 3
-				}
+				"pre_requisites": [
+					{
+						"SR_ASSIMILATEPOWER": 1
+					},
+					{
+						"SR_RIDEINLIGHTNING": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SR_RIDEINLIGHTNING",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_FINGEROFFENSIVE": 3
-				}
+				"pre_requisites": [
+					{
+						"MO_FINGEROFFENSIVE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SR_FLASHCOMBO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SR_DRAGONCOMBO": 3,
-					"SR_FALLENEMPIRE": 3,
-					"SR_TIGERCANNON": 1,
-					"SR_SKYNETBLOW": 1
-				}
+				"pre_requisites": [
+					{
+						"SR_DRAGONCOMBO": 3
+					},
+					{
+						"SR_FALLENEMPIRE": 3
+					},
+					{
+						"SR_TIGERCANNON": 1
+					},
+					{
+						"SR_SKYNETBLOW": 1
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -5808,93 +7498,119 @@
 			{
 				"handle_name": "GN_CART_TORNADO",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_REMODELING_CART": 1
-				}
+				"pre_requisites": [
+					{
+						"GN_REMODELING_CART": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GN_CARTCANNON",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_REMODELING_CART": 2
-				}
+				"pre_requisites": [
+					{
+						"GN_REMODELING_CART": 2
+					}
+				]
 			},
 			{
 				"handle_name": "GN_CARTBOOST",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_REMODELING_CART": 3
-				}
+				"pre_requisites": [
+					{
+						"GN_REMODELING_CART": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GN_THORNS_TRAP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_S_PHARMACY": 2
-				}
+				"pre_requisites": [
+					{
+						"GN_S_PHARMACY": 2
+					}
+				]
 			},
 			{
 				"handle_name": "GN_BLOOD_SUCKER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_S_PHARMACY": 3
-				}
+				"pre_requisites": [
+					{
+						"GN_S_PHARMACY": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GN_SPORE_EXPLOSION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_S_PHARMACY": 4
-				}
+				"pre_requisites": [
+					{
+						"GN_S_PHARMACY": 4
+					}
+				]
 			},
 			{
 				"handle_name": "GN_WALLOFTHORN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_THORNS_TRAP": 3
-				}
+				"pre_requisites": [
+					{
+						"GN_THORNS_TRAP": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GN_CRAZYWEED",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"GN_WALLOFTHORN": 3
-				}
+				"pre_requisites": [
+					{
+						"GN_WALLOFTHORN": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GN_DEMONIC_FIRE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_SPORE_EXPLOSION": 3
-				}
+				"pre_requisites": [
+					{
+						"GN_SPORE_EXPLOSION": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GN_FIRE_EXPANSION",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_DEMONIC_FIRE": 3
-				}
+				"pre_requisites": [
+					{
+						"GN_DEMONIC_FIRE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GN_HELLS_PLANT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_BLOOD_SUCKER": 3
-				}
+				"pre_requisites": [
+					{
+						"GN_BLOOD_SUCKER": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GN_MANDRAGORA",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_HELLS_PLANT": 3
-				}
+				"pre_requisites": [
+					{
+						"GN_HELLS_PLANT": 3
+					}
+				]
 			},
 			{
 				"handle_name": "GN_SLINGITEM",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GN_CHANGEMATERIAL": 1
-				}
+				"pre_requisites": [
+					{
+						"GN_CHANGEMATERIAL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GN_CHANGEMATERIAL",
@@ -5903,16 +7619,20 @@
 			{
 				"handle_name": "GN_MIX_COOKING",
 				"maxLevel": 2,
-				"pre_requisites": {
-					"GN_S_PHARMACY": 1
-				}
+				"pre_requisites": [
+					{
+						"GN_S_PHARMACY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GN_MAKEBOMB",
 				"maxLevel": 2,
-				"pre_requisites": {
-					"GN_MIX_COOKING": 1
-				}
+				"pre_requisites": [
+					{
+						"GN_MIX_COOKING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "GN_S_PHARMACY",
@@ -5921,9 +7641,11 @@
 			{
 				"handle_name": "GN_ILLUSIONDOPING",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GN_S_PHARMACY": 1
-				}
+				"pre_requisites": [
+					{
+						"GN_S_PHARMACY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -5939,37 +7661,47 @@
 			{
 				"handle_name": "SC_FATALMENACE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_INTIMIDATE": 5
-				}
+				"pre_requisites": [
+					{
+						"RG_INTIMIDATE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SC_REPRODUCE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"RG_PLAGIARISM": 5
-				}
+				"pre_requisites": [
+					{
+						"RG_PLAGIARISM": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SC_AUTOSHADOWSPELL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"SC_REPRODUCE": 5
-				}
+				"pre_requisites": [
+					{
+						"SC_REPRODUCE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "SC_SHADOWFORM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_TUNNELDRIVE": 3
-				}
+				"pre_requisites": [
+					{
+						"RG_TUNNELDRIVE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SC_TRIANGLESHOT",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AC_DOUBLE": 7
-				}
+				"pre_requisites": [
+					{
+						"AC_DOUBLE": 7
+					}
+				]
 			},
 			{
 				"handle_name": "SC_BODYPAINT",
@@ -5978,123 +7710,173 @@
 			{
 				"handle_name": "SC_INVISIBILITY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SC_AUTOSHADOWSPELL": 7,
-					"SC_DEADLYINFECT": 5,
-					"SC_UNLUCKY": 3
-				}
+				"pre_requisites": [
+					{
+						"SC_AUTOSHADOWSPELL": 7
+					},
+					{
+						"SC_DEADLYINFECT": 5
+					},
+					{
+						"SC_UNLUCKY": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SC_DEADLYINFECT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SC_AUTOSHADOWSPELL": 5,
-					"SC_SHADOWFORM": 3
-				}
+				"pre_requisites": [
+					{
+						"SC_AUTOSHADOWSPELL": 5
+					},
+					{
+						"SC_SHADOWFORM": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SC_ENERVATION",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SC_BODYPAINT": 1
-				}
+				"pre_requisites": [
+					{
+						"SC_BODYPAINT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SC_GROOMY",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SC_BODYPAINT": 1
-				}
+				"pre_requisites": [
+					{
+						"SC_BODYPAINT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SC_IGNORANCE",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SC_BODYPAINT": 1
-				}
+				"pre_requisites": [
+					{
+						"SC_BODYPAINT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SC_LAZINESS",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SC_ENERVATION": 1,
-					"SC_GROOMY": 1,
-					"SC_IGNORANCE": 1
-				}
+				"pre_requisites": [
+					{
+						"SC_ENERVATION": 1
+					},
+					{
+						"SC_GROOMY": 1
+					},
+					{
+						"SC_IGNORANCE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SC_UNLUCKY",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SC_LAZINESS": 1,
-					"SC_WEAKNESS": 1
-				}
+				"pre_requisites": [
+					{
+						"SC_LAZINESS": 1
+					},
+					{
+						"SC_WEAKNESS": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SC_WEAKNESS",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SC_ENERVATION": 1,
-					"SC_GROOMY": 1,
-					"SC_IGNORANCE": 1
-				}
+				"pre_requisites": [
+					{
+						"SC_ENERVATION": 1
+					},
+					{
+						"SC_GROOMY": 1
+					},
+					{
+						"SC_IGNORANCE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SC_STRIPACCESSARY",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RG_STRIPWEAPON": 1
-				}
+				"pre_requisites": [
+					{
+						"RG_STRIPWEAPON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SC_MANHOLE",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"RG_FLAGGRAFFITI": 1
-				}
+				"pre_requisites": [
+					{
+						"RG_FLAGGRAFFITI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SC_DIMENSIONDOOR",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SC_MANHOLE": 1
-				}
+				"pre_requisites": [
+					{
+						"SC_MANHOLE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SC_CHAOSPANIC",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SC_MANHOLE": 1
-				}
+				"pre_requisites": [
+					{
+						"SC_MANHOLE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "SC_MAELSTROM",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SC_UNLUCKY": 3,
-					"SC_CHAOSPANIC": 3
-				}
+				"pre_requisites": [
+					{
+						"SC_UNLUCKY": 3
+					},
+					{
+						"SC_CHAOSPANIC": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SC_BLOODYLUST",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SC_DIMENSIONDOOR": 3
-				}
+				"pre_requisites": [
+					{
+						"SC_DIMENSIONDOOR": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SC_FEINTBOMB",
 				"maxLevel": 3,
-				"pre_requisites": {
-					"SC_DIMENSIONDOOR": 3
-				}
+				"pre_requisites": [
+					{
+						"SC_DIMENSIONDOOR": 3
+					}
+				]
 			},
 			{
 				"handle_name": "SC_ESCAPE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"SC_TRIANGLESHOT": 2
-				}
+				"pre_requisites": [
+					{
+						"SC_TRIANGLESHOT": 2
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_FULL_THROTTLE",
@@ -6221,9 +8003,11 @@
 			{
 				"handle_name": "PR_SANCTUARY",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_HEAL": 1
-				}
+				"pre_requisites": [
+					{
+						"AL_HEAL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "PR_STRECOVERY",
@@ -6232,76 +8016,104 @@
 			{
 				"handle_name": "PR_GLORIA",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"PR_SANCTUARY": 7
-				}
+				"pre_requisites": [
+					{
+						"PR_SANCTUARY": 7
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_FIREPILLAR",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_FIREWALL": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_FIREWALL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_SIGHTRASHER",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_LIGHTNINGBOLT": 1,
-					"MG_SIGHT": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_LIGHTNINGBOLT": 1
+					},
+					{
+						"MG_SIGHT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_JUPITEL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_NAPALMBEAT": 1,
-					"MG_LIGHTNINGBOLT": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_NAPALMBEAT": 1
+					},
+					{
+						"MG_LIGHTNINGBOLT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_WATERBALL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MG_COLDBOLT": 1,
-					"MG_LIGHTNINGBOLT": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_COLDBOLT": 1
+					},
+					{
+						"MG_LIGHTNINGBOLT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_ICEWALL",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"MG_STONECURSE": 1,
-					"MG_FROSTDIVER": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_STONECURSE": 1
+					},
+					{
+						"MG_FROSTDIVER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_FROSTNOVA",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"WZ_ICEWALL": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_ICEWALL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_EARTHSPIKE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MG_STONECURSE": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_STONECURSE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_HEAVENDRIVE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_EARTHSPIKE": 3
-				}
+				"pre_requisites": [
+					{
+						"WZ_EARTHSPIKE": 3
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_QUAGMIRE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"WZ_HEAVENDRIVE": 1
-				}
+				"pre_requisites": [
+					{
+						"WZ_HEAVENDRIVE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "WZ_ESTIMATION",
@@ -6314,9 +8126,11 @@
 			{
 				"handle_name": "BS_WEAPONRESEARCH",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"BS_HILTBINDING": 1
-				}
+				"pre_requisites": [
+					{
+						"BS_HILTBINDING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_SKIDTRAP",
@@ -6325,37 +8139,47 @@
 			{
 				"handle_name": "HT_SANDMAN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_FLASHER": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_FLASHER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_FLASHER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_SKIDTRAP": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_SKIDTRAP": 1
+					}
+				]
 			},
 			{
 				"handle_name": "HT_FREEZINGTRAP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"HT_FLASHER": 1
-				}
+				"pre_requisites": [
+					{
+						"HT_FLASHER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AS_ENCHANTPOISON",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"TF_POISON": 1
-				}
+				"pre_requisites": [
+					{
+						"TF_POISON": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RG_TUNNELDRIVE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"TF_HIDING": 1
-				}
+				"pre_requisites": [
+					{
+						"TF_HIDING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "AM_AXEMASTERY",
@@ -6368,45 +8192,59 @@
 			{
 				"handle_name": "CR_HOLYCROSS",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"CR_TRUST": 7
-				}
+				"pre_requisites": [
+					{
+						"CR_TRUST": 7
+					}
+				]
 			},
 			{
 				"handle_name": "MO_IRONHAND",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"AL_DEMONBANE": 10,
-					"AL_DP": 10
-				}
+				"pre_requisites": [
+					{
+						"AL_DEMONBANE": 10
+					},
+					{
+						"AL_DP": 10
+					}
+				]
 			},
 			{
 				"handle_name": "MO_CALLSPIRITS",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"MO_IRONHAND": 2
-				}
+				"pre_requisites": [
+					{
+						"MO_IRONHAND": 2
+					}
+				]
 			},
 			{
 				"handle_name": "MO_ABSORBSPIRITS",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MO_CALLSPIRITS": 5
-				}
+				"pre_requisites": [
+					{
+						"MO_CALLSPIRITS": 5
+					}
+				]
 			},
 			{
 				"handle_name": "HW_MAGICCRASHER",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MG_SRECOVERY": 1
-				}
+				"pre_requisites": [
+					{
+						"MG_SRECOVERY": 1
+					}
+				]
 			},
 			{
 				"handle_name": "ALL_BUYING_STORE",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"MC_VENDING": 1
-				}
+				"pre_requisites": [
+					{
+						"MC_VENDING": 1
+					}
+				]
 			}
 		]
 	},
@@ -6423,9 +8261,11 @@
 			{
 				"handle_name": "KO_YAMIKUMO",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"NJ_KIRIKAGE": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_KIRIKAGE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "KO_RIGHT",
@@ -6438,79 +8278,101 @@
 			{
 				"handle_name": "KO_JYUMONJIKIRI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_YAMIKUMO": 1
-				}
+				"pre_requisites": [
+					{
+						"KO_YAMIKUMO": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_SETSUDAN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_JYUMONJIKIRI": 2
-				}
+				"pre_requisites": [
+					{
+						"KO_JYUMONJIKIRI": 2
+					}
+				]
 			},
 			{
 				"handle_name": "KO_BAKURETSU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_KUNAI": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_KUNAI": 5
+					}
+				]
 			},
 			{
 				"handle_name": "KO_HAPPOKUNAI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_BAKURETSU": 1
-				}
+				"pre_requisites": [
+					{
+						"KO_BAKURETSU": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_MUCHANAGE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"KO_MAKIBISHI": 3
-				}
+				"pre_requisites": [
+					{
+						"KO_MAKIBISHI": 3
+					}
+				]
 			},
 			{
 				"handle_name": "KO_HUUMARANKA",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_HUUMA": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_HUUMA": 5
+					}
+				]
 			},
 			{
 				"handle_name": "KO_MAKIBISHI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_ZENYNAGE": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_ZENYNAGE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_MEIKYOUSISUI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_NINPOU": 10
-				}
+				"pre_requisites": [
+					{
+						"NJ_NINPOU": 10
+					}
+				]
 			},
 			{
 				"handle_name": "KO_ZANZOU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_UTSUSEMI": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_UTSUSEMI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_KYOUGAKU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_GENWAKU": 2
-				}
+				"pre_requisites": [
+					{
+						"KO_GENWAKU": 2
+					}
+				]
 			},
 			{
 				"handle_name": "KO_JYUSATSU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_KYOUGAKU": 3
-				}
+				"pre_requisites": [
+					{
+						"KO_KYOUGAKU": 3
+					}
+				]
 			},
 			{
 				"handle_name": "KO_KAHU_ENTEN",
@@ -6531,55 +8393,77 @@
 			{
 				"handle_name": "KO_KAIHOU",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"KO_KAHU_ENTEN": 1,
-					"KO_HYOUHU_HUBUKI": 1,
-					"KO_KAZEHU_SEIRAN": 1,
-					"KO_DOHU_KOUKAI": 1
-				}
+				"pre_requisites": [
+					{
+						"KO_KAHU_ENTEN": 1
+					},
+					{
+						"KO_HYOUHU_HUBUKI": 1
+					},
+					{
+						"KO_KAZEHU_SEIRAN": 1
+					},
+					{
+						"KO_DOHU_KOUKAI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_ZENKAI",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"KO_KAIHOU": 1,
-					"KO_IZAYOI": 1
-				}
+				"pre_requisites": [
+					{
+						"KO_KAIHOU": 1
+					},
+					{
+						"KO_IZAYOI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_GENWAKU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_UTSUSEMI": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_UTSUSEMI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_IZAYOI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_NINPOU": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_NINPOU": 5
+					}
+				]
 			},
 			{
 				"handle_name": "KG_KAGEHUMI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_ZANZOU": 1
-				}
+				"pre_requisites": [
+					{
+						"KO_ZANZOU": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KG_KYOMU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KG_KAGEHUMI": 2
-				}
+				"pre_requisites": [
+					{
+						"KG_KAGEHUMI": 2
+					}
+				]
 			},
 			{
 				"handle_name": "KG_KAGEMUSYA",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KG_KYOMU": 3
-				}
+				"pre_requisites": [
+					{
+						"KG_KYOMU": 3
+					}
+				]
 			}
 		]
 	},
@@ -6591,9 +8475,11 @@
 			{
 				"handle_name": "KO_YAMIKUMO",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"NJ_KIRIKAGE": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_KIRIKAGE": 5
+					}
+				]
 			},
 			{
 				"handle_name": "KO_RIGHT",
@@ -6606,79 +8492,101 @@
 			{
 				"handle_name": "KO_JYUMONJIKIRI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_YAMIKUMO": 1
-				}
+				"pre_requisites": [
+					{
+						"KO_YAMIKUMO": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_SETSUDAN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_JYUMONJIKIRI": 2
-				}
+				"pre_requisites": [
+					{
+						"KO_JYUMONJIKIRI": 2
+					}
+				]
 			},
 			{
 				"handle_name": "KO_BAKURETSU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_KUNAI": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_KUNAI": 5
+					}
+				]
 			},
 			{
 				"handle_name": "KO_HAPPOKUNAI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_BAKURETSU": 1
-				}
+				"pre_requisites": [
+					{
+						"KO_BAKURETSU": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_MUCHANAGE",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"KO_MAKIBISHI": 3
-				}
+				"pre_requisites": [
+					{
+						"KO_MAKIBISHI": 3
+					}
+				]
 			},
 			{
 				"handle_name": "KO_HUUMARANKA",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_HUUMA": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_HUUMA": 5
+					}
+				]
 			},
 			{
 				"handle_name": "KO_MAKIBISHI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_ZENYNAGE": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_ZENYNAGE": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_MEIKYOUSISUI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_NINPOU": 10
-				}
+				"pre_requisites": [
+					{
+						"NJ_NINPOU": 10
+					}
+				]
 			},
 			{
 				"handle_name": "KO_ZANZOU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_UTSUSEMI": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_UTSUSEMI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_KYOUGAKU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_GENWAKU": 2
-				}
+				"pre_requisites": [
+					{
+						"KO_GENWAKU": 2
+					}
+				]
 			},
 			{
 				"handle_name": "KO_JYUSATSU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_KYOUGAKU": 3
-				}
+				"pre_requisites": [
+					{
+						"KO_KYOUGAKU": 3
+					}
+				]
 			},
 			{
 				"handle_name": "KO_KAHU_ENTEN",
@@ -6699,55 +8607,77 @@
 			{
 				"handle_name": "KO_KAIHOU",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"KO_KAHU_ENTEN": 1,
-					"KO_HYOUHU_HUBUKI": 1,
-					"KO_KAZEHU_SEIRAN": 1,
-					"KO_DOHU_KOUKAI": 1
-				}
+				"pre_requisites": [
+					{
+						"KO_KAHU_ENTEN": 1
+					},
+					{
+						"KO_HYOUHU_HUBUKI": 1
+					},
+					{
+						"KO_KAZEHU_SEIRAN": 1
+					},
+					{
+						"KO_DOHU_KOUKAI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_ZENKAI",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"KO_KAIHOU": 1,
-					"KO_IZAYOI": 1
-				}
+				"pre_requisites": [
+					{
+						"KO_KAIHOU": 1
+					},
+					{
+						"KO_IZAYOI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_GENWAKU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_UTSUSEMI": 1
-				}
+				"pre_requisites": [
+					{
+						"NJ_UTSUSEMI": 1
+					}
+				]
 			},
 			{
 				"handle_name": "KO_IZAYOI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"NJ_NINPOU": 5
-				}
+				"pre_requisites": [
+					{
+						"NJ_NINPOU": 5
+					}
+				]
 			},
 			{
 				"handle_name": "OB_ZANGETSU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"KO_GENWAKU": 1
-				}
+				"pre_requisites": [
+					{
+						"KO_GENWAKU": 1
+					}
+				]
 			},
 			{
 				"handle_name": "OB_OBOROGENSOU",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"OB_AKAITSUKI": 3
-				}
+				"pre_requisites": [
+					{
+						"OB_AKAITSUKI": 3
+					}
+				]
 			},
 			{
 				"handle_name": "OB_AKAITSUKI",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"OB_ZANGETSU": 2
-				}
+				"pre_requisites": [
+					{
+						"OB_ZANGETSU": 2
+					}
+				]
 			}
 		]
 	},
@@ -6759,23 +8689,29 @@
 			{
 				"handle_name": "RL_RICHS_COIN",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GS_GLITTERING": 5
-				}
+				"pre_requisites": [
+					{
+						"GS_GLITTERING": 5
+					}
+				]
 			},
 			{
 				"handle_name": "RL_MASS_SPIRAL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GS_PIERCINGSHOT": 1
-				}
+				"pre_requisites": [
+					{
+						"GS_PIERCINGSHOT": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_BANISHING_BUSTER",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RL_S_STORM": 1
-				}
+				"pre_requisites": [
+					{
+						"RL_S_STORM": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_B_TRAP",
@@ -6784,52 +8720,68 @@
 			{
 				"handle_name": "RL_FLICKER",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GS_FLING": 1
-				}
+				"pre_requisites": [
+					{
+						"GS_FLING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_S_STORM",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GS_DISARM": 1,
-					"GS_DUST": 1
-				}
+				"pre_requisites": [
+					{
+						"GS_DISARM": 1
+					},
+					{
+						"GS_DUST": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_E_CHAIN",
 				"maxLevel": 10,
-				"pre_requisites": {
-					"GS_CHAINACTION": 10
-				}
+				"pre_requisites": [
+					{
+						"GS_CHAINACTION": 10
+					}
+				]
 			},
 			{
 				"handle_name": "RL_QD_SHOT",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"RL_E_CHAIN": 1
-				}
+				"pre_requisites": [
+					{
+						"RL_E_CHAIN": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_C_MARKER",
 				"maxLevel": 1,
-				"pre_requisites": {
-					"GS_INCREASING": 1
-				}
+				"pre_requisites": [
+					{
+						"GS_INCREASING": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_FIREDANCE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RL_FALLEN_ANGEL": 1
-				}
+				"pre_requisites": [
+					{
+						"RL_FALLEN_ANGEL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_H_MINE",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GS_SPREADATTACK": 1
-				}
+				"pre_requisites": [
+					{
+						"GS_SPREADATTACK": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_P_ALTER",
@@ -6838,59 +8790,77 @@
 			{
 				"handle_name": "RL_FALLEN_ANGEL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GS_DESPERADO": 10
-				}
+				"pre_requisites": [
+					{
+						"GS_DESPERADO": 10
+					}
+				]
 			},
 			{
 				"handle_name": "RL_R_TRIP",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RL_FIRE_RAIN": 1
-				}
+				"pre_requisites": [
+					{
+						"RL_FIRE_RAIN": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_D_TAIL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RL_H_MINE": 3,
-					"RL_C_MARKER": 1
-				}
+				"pre_requisites": [
+					{
+						"RL_H_MINE": 3
+					},
+					{
+						"RL_C_MARKER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_FIRE_RAIN",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"GS_GATLINGFEVER": 1
-				}
+				"pre_requisites": [
+					{
+						"GS_GATLINGFEVER": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_HEAT_BARREL",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RL_FIREDANCE": 2
-				}
+				"pre_requisites": [
+					{
+						"RL_FIREDANCE": 2
+					}
+				]
 			},
 			{
 				"handle_name": "RL_AM_BLAST",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RL_MASS_SPIRAL": 1
-				}
+				"pre_requisites": [
+					{
+						"RL_MASS_SPIRAL": 1
+					}
+				]
 			},
 			{
 				"handle_name": "RL_SLUGSHOT",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RL_BANISHING_BUSTER": 3
-				}
+				"pre_requisites": [
+					{
+						"RL_BANISHING_BUSTER": 3
+					}
+				]
 			},
 			{
 				"handle_name": "RL_HAMMER_OF_GOD",
 				"maxLevel": 5,
-				"pre_requisites": {
-					"RL_AM_BLAST": 3
-				}
+				"pre_requisites": [
+					{
+						"RL_AM_BLAST": 3
+					}
+				]
 			}
 		]
 	}
