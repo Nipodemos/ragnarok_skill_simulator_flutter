@@ -1186,46 +1186,46 @@ sub getPosition {
 
     if ( $class eq 'Magician' ) {                           #Mago
         if ( $handle eq 'MG_SRECOVERY' ) {   #Aumentar Recuperação de SP
-            return;
+            return 8;
         }
         if ( $handle eq 'MG_SIGHT' ) {       #Chama Reveladora
-            return;
+            return 6;
         }
         if ( $handle eq 'MG_NAPALMBEAT' ) {    #Ataque Espiritual
-            return;
+            return 4;
         }
         if ( $handle eq 'MG_SAFETYWALL' ) {    #Escudo Mágico
-            return;
+            return 18;
         }
         if ( $handle eq 'MG_SOULSTRIKE' ) {    #Espíritos Anciões
-            return;
+            return 11;
         }
         if ( $handle eq 'MG_COLDBOLT' ) {      #Lanças de Gelo
-            return;
+            return 2;
         }
         if ( $handle eq 'MG_FROSTDIVER' ) {    #Rajada Congelante
-            return;
+            return 9;
         }
         if ( $handle eq 'MG_STONECURSE' ) {    #Petrificar
-            return;
+            return 1;
         }
         if ( $handle eq 'MG_FIREBALL' ) {      #Bola de Fogo
-            return;
+            return 12;
         }
         if ( $handle eq 'MG_FIREWALL' ) {      #Barreira de Fogo
-            return;
+            return 19;
         }
         if ( $handle eq 'MG_FIREBOLT' ) {      #Lanças de Fogo
-            return;
+            return 5;
         }
         if ( $handle eq 'MG_LIGHTNINGBOLT' ) {    #Relâmpago
-            return;
+            return 3;
         }
         if ( $handle eq 'MG_THUNDERSTORM' ) {     #Tempestade de Raios
-            return;
+            return 10;
         }
         if ( $handle eq 'MG_ENERGYCOAT' ) {       #Proteção Arcana
-            return;
+            return 13;
         }
     }
 
@@ -1318,34 +1318,34 @@ sub getPosition {
 
     if ( $class eq 'Thief' ) {                          #Gatuno
         if ( $handle eq 'TF_DOUBLE' ) {           #Ataque Duplo
-            return;
+            return 1;
         }
         if ( $handle eq 'TF_MISS' ) {             #Perícia em Esquiva
-            return;
+            return 8;
         }
         if ( $handle eq 'TF_STEAL' ) {            #Furto
-            return;
+            return 2;
         }
         if ( $handle eq 'TF_HIDING' ) {           #Esconderijo
-            return;
+            return 9;
         }
         if ( $handle eq 'TF_POISON' ) {           #Envenenar
-            return;
+            return 3;
         }
         if ( $handle eq 'TF_DETOXIFY' ) {         #Desintoxicar
-            return;
+            return 10;
         }
         if ( $handle eq 'TF_SPRINKLESAND' ) {     #Chutar Areia
-            return;
+            return 4;
         }
         if ( $handle eq 'TF_BACKSLIDING' ) {      #Recuar
-            return;
+            return 11;
         }
         if ( $handle eq 'TF_PICKSTONE' ) {        #Procurar Pedras
-            return;
+            return 12;
         }
         if ( $handle eq 'TF_THROWSTONE' ) {       #Arremessar Pedra
-            return;
+            return 5;
         }
     }
 
@@ -1641,25 +1641,25 @@ sub getPosition {
 
     if ( $class eq 'Archer' ) {                       #Arqueiro
         if ( $handle eq 'AC_OWL' ) {            #Precisão
-            return;
+            return 3;
         }
         if ( $handle eq 'AC_VULTURE' ) {        #Olhos de Águia
-            return;
+            return 10;
         }
         if ( $handle eq 'AC_CONCENTRATION' ) {    #Concentração
-            return;
+            return 17;
         }
         if ( $handle eq 'AC_DOUBLE' ) {           #Rajada de Flechas
-            return;
+            return 2;
         }
         if ( $handle eq 'AC_SHOWER' ) {           #Chuva de Flechas
-            return;
+            return 9;
         }
         if ( $handle eq 'AC_MAKINGARROW' ) {      #Fabricar Flechas
-            return;
+            return 12;
         }
         if ( $handle eq 'AC_CHARGEARROW' ) {      #Disparo Violento
-            return;
+            return 5;
         }
     }
 
@@ -2048,49 +2048,49 @@ sub getPosition {
 
     if ( $class eq 'Acolyte' ) {                          #Noviço
         if ( $handle eq 'AL_DP' ) {                 #Proteção Divina
-            return;
+            return 5;
         }
         if ( $handle eq 'AL_DEMONBANE' ) {          #Flagelo do Mal
-            return;
+            return 12;
         }
         if ( $handle eq 'AL_RUWACH' ) {             #Revelação
-            return;
+            return 6;
         }
         if ( $handle eq 'AL_PNEUMA' ) {             #Escudo Sagrado
-            return;
+            return 22;
         }
         if ( $handle eq 'AL_TELEPORT' ) {           #Teleporte
-            return;
+            return 8;
         }
         if ( $handle eq 'AL_WARP' ) {               #Portal
-            return;
+            return 15;
         }
         if ( $handle eq 'AL_HEAL' ) {               #Curar
-            return;
+            return 2;
         }
         if ( $handle eq 'AL_INCAGI' ) {             #Aumentar Agilidade
-            return;
+            return 10;
         }
         if ( $handle eq 'AL_DECAGI' ) {             #Diminuir Agilidade
-            return;
+            return 17;
         }
         if ( $handle eq 'AL_HOLYWATER' ) {          #Aqua Benedicta
-            return;
+            return 3;
         }
         if ( $handle eq 'AL_CRUCIS' ) {             #Signum Crusis
-            return;
+            return 19;
         }
         if ( $handle eq 'AL_ANGELUS' ) {            #Angelus
-            return;
+            return 13;
         }
         if ( $handle eq 'AL_BLESSING' ) {           #Benção
-            return;
+            return 11;
         }
         if ( $handle eq 'AL_CURE' ) {               #Medicar
-            return;
+            return 9;
         }
         if ( $handle eq 'AL_HOLYLIGHT' ) {          #Luz Divina
-            return;
+            return 6;
         }
     }
 
