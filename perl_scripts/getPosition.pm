@@ -1831,79 +1831,79 @@ sub getPosition {
 
     if ( $class eq 'Oboro' ) {                          #Oboro
         if ( $handle eq 'KO_YAMIKUMO' ) {         #Refúgio das Sombras
-            return;
+            return 0;
         }
         if ( $handle eq 'KO_RIGHT' ) {    #Perícia com Mão Direita
-            return;
+            return 33;
         }
         if ( $handle eq 'KO_LEFT' ) {     #Perícia com Mão Esquerda
-            return;
+            return 34;
         }
         if ( $handle eq 'KO_JYUMONJIKIRI' ) {    #Impacto Cruzado
-            return;
+            return 7;
         }
         if ( $handle eq 'KO_SETSUDAN' ) {        #Corte Espiritual
-            return;
+            return 14;
         }
         if ( $handle eq 'KO_BAKURETSU' ) {       #Kunai Explosiva
-            return;
+            return 21;
         }
         if ( $handle eq 'KO_HAPPOKUNAI' ) {      #Turbilhão de Kunais
-            return;
+            return 28;
         }
         if ( $handle eq 'KO_MUCHANAGE' ) {       #Explosão de Moedas
-            return;
+            return 37;
         }
         if ( $handle eq 'KO_HUUMARANKA' ) {      #Turbilhão de Pétalas
-            return;
+            return 36;
         }
         if ( $handle eq 'KO_MAKIBISHI' ) {       #Estrepes
-            return;
+            return 30;
         }
         if ( $handle eq 'KO_MEIKYOUSISUI' ) {    #Purificação da Alma
-            return;
+            return 26;
         }
         if ( $handle eq 'KO_ZANZOU' ) {    #Genjutsu Clone das Sombras
-            return;
+            return 1;
         }
         if ( $handle eq 'KO_KYOUGAKU' ) {    #Genjutsu Assalto das Sombras
-            return;
+            return 3;
         }
         if ( $handle eq 'KO_JYUSATSU' ) {    #Genjutsu Chamado da Morte
-            return;
+            return 4;
         }
         if ( $handle eq 'KO_KAHU_ENTEN' ) {    #Amuleto Espiritual Fogo
-            return;
+            return 10;
         }
         if ( $handle eq 'KO_HYOUHU_HUBUKI' ) {   #Amuleto Espiritual Água
-            return;
+            return 11;
         }
         if ( $handle eq 'KO_KAZEHU_SEIRAN' ) {   #Amuleto Espiritual Vento
-            return;
+            return 12;
         }
         if ( $handle eq 'KO_DOHU_KOUKAI' ) {     #Amuleto Espiritual Terra
-            return;
+            return 13;
         }
         if ( $handle eq 'KO_KAIHOU' ) {    #Arremessar Amuleto Espiritual
-            return;
+            return 17;
         }
         if ( $handle eq 'KO_ZENKAI' ) {    #Voragem Espiritual
-            return;
+            return 24;
         }
         if ( $handle eq 'KO_GENWAKU' ) {    #Genjutsu Substituição
-            return;
+            return 2;
         }
         if ( $handle eq 'KO_IZAYOI' ) {     #Inspiração
-            return;
+            return 25;
         }
         if ( $handle eq 'OB_ZANGETSU' ) {    #Distorção Crescente
-            return;
+            return 9;
         }
         if ( $handle eq 'OB_OBOROGENSOU' ) {    #Ilusão do Luar
-            return;
+            return 23;
         }
         if ( $handle eq 'OB_AKAITSUKI' ) {      #Luar Sinistro
-            return;
+            return 16;
         }
     }
 
@@ -2096,85 +2096,85 @@ sub getPosition {
 
     if ( $class eq 'Soul_Linker' ) {                      #Espiritualista
         if ( $handle eq 'SL_ALCHEMIST' ) {    #Espírito do Alquimista
-            return;
+            return 0;
         }
         if ( $handle eq 'SL_MONK' ) {         #Espírito do Monge
-            return;
+            return 14;
         }
         if ( $handle eq 'SL_STAR' ) {         #Espírito do Mestre Taekwon
-            return;
+            return 1;
         }
         if ( $handle eq 'SL_SAGE' ) {         #Espírito do Sábio
-            return;
+            return 18;
         }
         if ( $handle eq 'SL_CRUSADER' ) {     #Espírito do Templário
-            return;
+            return 3;
         }
         if ( $handle eq 'SL_SUPERNOVICE' ) {   #Espírito do Superaprendiz
-            return;
+            return 5;
         }
         if ( $handle eq 'SL_KNIGHT' ) {        #Espírito do Cavaleiro
-            return;
+            return 10;
         }
         if ( $handle eq 'SL_WIZARD' ) {        #Espírito do Bruxo
-            return;
+            return 25;
         }
         if ( $handle eq 'SL_PRIEST' ) {        #Espírito do Sacerdote
-            return;
+            return 21;
         }
         if ( $handle eq 'SL_BARDDANCER' ) {    #Espírito dos Artistas
-            return;
+            return 4;
         }
         if ( $handle eq 'SL_ROGUE' ) {         #Espírito do Arruaceiro
-            return;
+            return 9;
         }
         if ( $handle eq 'SL_ASSASIN' ) {       #Espírito do Mercenário
-            return;
+            return 2;
         }
         if ( $handle eq 'SL_BLACKSMITH' ) {    #Espírito do Ferreiro
-            return;
+            return 7;
         }
         if ( $handle eq 'SL_HUNTER' ) {        #Espírito do Caçador
-            return;
+            return 11;
         }
         if ( $handle eq 'SL_SOULLINKER' ) {   #Espírito do Espiritualista
-            return;
+            return 8;
         }
         if ( $handle eq 'SL_KAIZEL' ) {       #Kaizel
-            return;
+            return 29;
         }
         if ( $handle eq 'SL_KAAHI' ) {        #Kaahi
-            return;
+            return 28;
         }
         if ( $handle eq 'SL_KAUPE' ) {        #Kaupe
-            return;
+            return 16;
         }
         if ( $handle eq 'SL_KAITE' ) {        #Kaite
-            return;
+            return 26;
         }
         if ( $handle eq 'SL_KAINA' ) {        #Kaina
-            return;
+            return 19;
         }
         if ( $handle eq 'SL_STIN' ) {         #Estin
-            return;
+            return 31;
         }
         if ( $handle eq 'SL_STUN' ) {         #Estun
-            return;
+            return 32;
         }
         if ( $handle eq 'SL_SMA' ) {          #Esma
-            return;
+            return 33;
         }
         if ( $handle eq 'SL_SWOO' ) {         #Eswoo
-            return;
+            return 30;
         }
         if ( $handle eq 'SL_SKE' ) {          #Eske
-            return;
+            return 18;
         }
         if ( $handle eq 'SL_SKA' ) {          #Eska
-            return;
+            return 22;
         }
         if ( $handle eq 'SL_HIGH' ) {    #Espírito dos Transcendentais
-            return;
+            return 12;
         }
     }
 
@@ -2807,137 +2807,137 @@ sub getPosition {
 
     if ( $class eq 'Kagerou' ) {                     #Kagerou
         if ( $handle eq 'KO_YAMIKUMO' ) {      #Refúgio das Sombras
-            return;
+            return 0;
         }
         if ( $handle eq 'KO_RIGHT' ) {         #Perícia com Mão Direita
-            return;
+            return 33;
         }
         if ( $handle eq 'KO_LEFT' ) {          #Perícia com Mão Esquerda
-            return;
+            return 34;
         }
         if ( $handle eq 'KO_JYUMONJIKIRI' ) {    #Impacto Cruzado
-            return;
+            return 7;
         }
         if ( $handle eq 'KO_SETSUDAN' ) {        #Corte Espiritual
-            return;
+            return 14;
         }
         if ( $handle eq 'KO_BAKURETSU' ) {       #Kunai Explosiva
-            return;
+            return 21;
         }
         if ( $handle eq 'KO_HAPPOKUNAI' ) {      #Turbilhão de Kunais
-            return;
+            return 28;
         }
         if ( $handle eq 'KO_MUCHANAGE' ) {       #Explosão de Moedas
-            return;
+            return 37;
         }
         if ( $handle eq 'KO_HUUMARANKA' ) {      #Turbilhão de Pétalas
-            return;
+            return 36;
         }
         if ( $handle eq 'KO_MAKIBISHI' ) {       #Estrepes
-            return;
+            return 30;
         }
         if ( $handle eq 'KO_MEIKYOUSISUI' ) {    #Purificação da Alma
-            return;
+            return 26;
         }
         if ( $handle eq 'KO_ZANZOU' ) {    #Genjutsu Clone das Sombras
-            return;
+            return 1;
         }
         if ( $handle eq 'KO_KYOUGAKU' ) {    #Genjutsu Assalto das Sombras
-            return;
+            return 3;
         }
         if ( $handle eq 'KO_JYUSATSU' ) {    #Genjutsu Chamado da Morte
-            return;
+            return 4;
         }
         if ( $handle eq 'KO_KAHU_ENTEN' ) {    #Amuleto Espiritual Fogo
-            return;
+            return 10;
         }
         if ( $handle eq 'KO_HYOUHU_HUBUKI' ) {   #Amuleto Espiritual Água
-            return;
+            return 11;
         }
         if ( $handle eq 'KO_KAZEHU_SEIRAN' ) {   #Amuleto Espiritual Vento
-            return;
+            return 12;
         }
         if ( $handle eq 'KO_DOHU_KOUKAI' ) {     #Amuleto Espiritual Terra
-            return;
+            return 13;
         }
         if ( $handle eq 'KO_KAIHOU' ) {    #Arremessar Amuleto Espiritual
-            return;
+            return 17;
         }
         if ( $handle eq 'KO_ZENKAI' ) {    #Voragem Espiritual
-            return;
+            return 24;
         }
         if ( $handle eq 'KO_GENWAKU' ) {    #Genjutsu Substituição
-            return;
+            return 2;
         }
         if ( $handle eq 'KO_IZAYOI' ) {     #Inspiração
-            return;
+            return 25;
         }
         if ( $handle eq 'KG_KAGEHUMI' ) {    #Esmagamento Sombrio
-            return;
+            return 8;
         }
         if ( $handle eq 'KG_KYOMU' ) {       #Vazio das Sombras
-            return;
+            return 15;
         }
         if ( $handle eq 'KG_KAGEMUSYA' ) {    #Contrato das Sombras
-            return;
+            return 22;
         }
     }
 
     if ( $class eq 'Star_Gladiator' ) {             #Mestre Taekwon
         if ( $handle eq 'SG_FEEL' ) {   #Percepção Solar Lunar e Estelar
-            return;
+            return 0;
         }
         if ( $handle eq 'SG_SUN_WARM' ) {    #Calor Solar
-            return;
+            return 7;
         }
         if ( $handle eq 'SG_MOON_WARM' ) {    #Calor Lunar
-            return;
+            return 14;
         }
         if ( $handle eq 'SG_STAR_WARM' ) {    #Calor Estelar
-            return;
+            return 21;
         }
         if ( $handle eq 'SG_SUN_COMFORT' ) {    #Proteção Solar
-            return;
+            return 8;
         }
         if ( $handle eq 'SG_MOON_COMFORT' ) {    #Proteção Lunar
-            return;
+            return 15;
         }
         if ( $handle eq 'SG_STAR_COMFORT' ) {    #Proteção Estelar
-            return;
+            return 22;
         }
         if ( $handle eq 'SG_HATE' ) {    #Oposição Solar Lunar e Estelar
-            return;
+            return 2;
         }
         if ( $handle eq 'SG_SUN_ANGER' ) {    #Fúria Solar
-            return;
+            return 9;
         }
         if ( $handle eq 'SG_MOON_ANGER' ) {    #Fúria Lunar
-            return;
+            return 16;
         }
         if ( $handle eq 'SG_STAR_ANGER' ) {    #Fúria Estelar
-            return;
+            return 23;
         }
         if ( $handle eq 'SG_SUN_BLESS' ) {     #Bênção Solar
-            return;
+            return 10;
         }
         if ( $handle eq 'SG_MOON_BLESS' ) {    #Bênção Lunar
-            return;
+            return 17;
         }
         if ( $handle eq 'SG_STAR_BLESS' ) {    #Bênção Estelar
-            return;
+            return 24;
         }
         if ( $handle eq 'SG_DEVIL' ) {    #Sombra Solar Lunar e Estelar
-            return;
+            return 4;
         }
         if ( $handle eq 'SG_FRIEND' ) {    #Auxílio Solar Lunar e Estelar
-            return;
+            return 11;
         }
         if ( $handle eq 'SG_KNOWLEDGE' )
         {    #Transmissão Solar Lunar e Estelar
-            return;
+            return 5;
         }
         if ( $handle eq 'SG_FUSION' ) {    #União Solar Lunar e Estelar
-            return;
+            return 12;
         }
     }
 
