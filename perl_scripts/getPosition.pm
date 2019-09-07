@@ -1351,107 +1351,107 @@ sub getPosition {
 
     if ( $class eq 'Alchemist' ) {                      #Alquimista
         if ( $handle eq 'AM_AXEMASTERY' ) {       #Perícia com Machado
-            return;
+            return 2;
         }
         if ( $handle eq 'AM_LEARNINGPOTION' ) {    #Pesquisa de Poções
-            return;
+            return 0;
         }
         if ( $handle eq 'AM_PHARMACY' ) {          #Preparar Poção
-            return;
+            return 7;
         }
         if ( $handle eq 'AM_DEMONSTRATION' ) {     #Fogo Grego
-            return;
+            return 15;
         }
         if ( $handle eq 'AM_ACIDTERROR' ) {        #Terror Ácido
-            return;
+            return 22;
         }
         if ( $handle eq 'AM_POTIONPITCHER' ) {     #Arremessar Poção
-            return;
+            return 8;
         }
         if ( $handle eq 'AM_CANNIBALIZE' ) {       #Criar Monstro Planta
-            return;
+            return 29;
         }
         if ( $handle eq 'AM_SPHEREMINE' ) {        #Criar Esfera Marinha
-            return;
+            return 1;
         }
         if ( $handle eq 'AM_CP_WEAPON' ) {         #Revestir Arma
-            return;
+            return 24;
         }
         if ( $handle eq 'AM_CP_SHIELD' ) {         #Revestir Escudo
-            return;
+            return 10;
         }
         if ( $handle eq 'AM_CP_ARMOR' ) {          #Revestir Armadura
-            return;
+            return 17;
         }
         if ( $handle eq 'AM_CP_HELM' ) {           #Revestir Capacete
-            return;
+            return 3;
         }
         if ( $handle eq 'AM_BIOETHICS' ) {         #Bioética
-            return;
+            return 4;
         }
         if ( $handle eq 'AM_CALLHOMUN' ) {         #Criar Homunculus
-            return;
+            return 18;
         }
         if ( $handle eq 'AM_REST' ) {              #Vaporizar
-            return;
+            return 11;
         }
         if ( $handle eq 'AM_RESURRECTHOMUN' ) {    #Ressuscitar Homunculus
-            return;
+            return 25;
         }
         if ( $handle eq 'AM_BERSERKPITCHER' )
         {    #Arremessar Poção da Fúria Selvagem
-            return;
+            return 12;
         }
         if ( $handle eq 'AM_TWILIGHT1' )
         {    #Criação Espiritual de Poções I
-            return;
+            return 6;
         }
         if ( $handle eq 'AM_TWILIGHT2' )
         {    #Criação Espiritual de Poções II
-            return;
+            return 13;
         }
         if ( $handle eq 'AM_TWILIGHT3' )
         {    #Criação Espiritual de Poções III
-            return;
+            return 20;
         }
     }
 
     if ( $class eq 'Assassin' ) {    #Mercenário
         if ( $handle eq 'AS_RIGHT' ) {    #Perícia com Mão Direita
-            return;
+            return 0;
         }
         if ( $handle eq 'AS_LEFT' ) {     #Perícia com Mão Esquerda
-            return;
+            return 7;
         }
         if ( $handle eq 'AS_KATAR' ) {    #Perícia com Katar
-            return;
+            return 1;
         }
         if ( $handle eq 'AS_CLOAKING' ) {    #Furtividade
-            return;
+            return 2;
         }
         if ( $handle eq 'AS_SONICBLOW' ) {    #Lâminas Destruidoras
-            return;
+            return 8;
         }
         if ( $handle eq 'AS_GRIMTOOTH' ) {    #Tocaia
-            return;
+            return 15;
         }
         if ( $handle eq 'AS_ENCHANTPOISON' ) {    #Envenenar Arma
-            return;
+            return 3;
         }
         if ( $handle eq 'AS_POISONREACT' ) {      #Refletir Veneno
-            return;
+            return 11;
         }
         if ( $handle eq 'AS_VENOMDUST' ) {        #Névoa Tóxica
-            return;
+            return 10;
         }
         if ( $handle eq 'AS_SPLASHER' ) {         #Explosão Tóxica
-            return;
+            return 17;
         }
         if ( $handle eq 'AS_SONICACCEL' ) {       #Sonic Acceleration
-            return;
+            return 6;
         }
         if ( $handle eq 'AS_VENOMKNIFE' ) {       #Throw Venom Knife
-            return;
+            return 13;
         }
     }
 
@@ -1517,46 +1517,46 @@ sub getPosition {
 
     if ( $class eq 'Wizard' ) {                              #Bruxo
         if ( $handle eq 'WZ_FIREPILLAR' ) {            #Coluna de Fogo
-            return;
+            return 5;
         }
         if ( $handle eq 'WZ_SIGHTRASHER' ) {           #Supernova
-            return;
+            return 4;
         }
         if ( $handle eq 'WZ_METEOR' ) {                #Chuva de Meteoros
-            return;
+            return 11;
         }
         if ( $handle eq 'WZ_JUPITEL' ) {    #Trovão de Júpiter
-            return;
+            return 2;
         }
         if ( $handle eq 'WZ_VERMILION' ) {    #Ira de Thor
-            return;
+            return 9;
         }
         if ( $handle eq 'WZ_WATERBALL' ) {    #Esfera d'Água
-            return;
+            return 15;
         }
         if ( $handle eq 'WZ_ICEWALL' ) {      #Barreira de Gelo
-            return;
+            return 1;
         }
         if ( $handle eq 'WZ_FROSTNOVA' ) {    #Congelar
-            return;
+            return 8;
         }
         if ( $handle eq 'WZ_STORMGUST' ) {    #Nevasca
-            return;
+            return 22;
         }
         if ( $handle eq 'WZ_EARTHSPIKE' ) {    #Coluna de Pedra
-            return;
+            return 3;
         }
         if ( $handle eq 'WZ_HEAVENDRIVE' ) {    #Fúria da Terra
-            return;
+            return 10;
         }
         if ( $handle eq 'WZ_QUAGMIRE' ) {       #Pântano dos Mortos
-            return;
+            return 17;
         }
         if ( $handle eq 'WZ_ESTIMATION' ) {     #Sentido Sobrenatural
-            return;
+            return 0;
         }
         if ( $handle eq 'WZ_SIGHTBLASTER' ) {    #Sight Blaster
-            return;
+            return 6;
         }
     }
 
@@ -1909,140 +1909,140 @@ sub getPosition {
 
     if ( $class eq 'Sage' ) {                         #Sábio
         if ( $handle eq 'WZ_ESTIMATION' ) {     #Sentido Sobrenatural
-            return;
+            return 1;
         }
         if ( $handle eq 'WZ_EARTHSPIKE' ) {     #Coluna de Pedra
-            return;
+            return 15;
         }
         if ( $handle eq 'WZ_HEAVENDRIVE' ) {    #Fúria da Terra
-            return;
+            return 22;
         }
         if ( $handle eq 'SA_ADVANCEDBOOK' ) {    #Estudo de Livros
-            return;
+            return 0;
         }
         if ( $handle eq 'SA_CASTCANCEL' ) {      #Cancelar magia
-            return;
+            return 9;
         }
         if ( $handle eq 'SA_MAGICROD' ) {        #Espelho Mágico
-            return;
+            return 10;
         }
         if ( $handle eq 'SA_SPELLBREAKER' ) {    #Desconcentrar
-            return;
+            return 17;
         }
         if ( $handle eq 'SA_FREECAST' ) {        #Conjuração Livre
-            return;
+            return 16;
         }
         if ( $handle eq 'SA_AUTOSPELL' ) {       #Desejo Arcano
-            return;
+            return 23;
         }
         if ( $handle eq 'SA_FLAMELAUNCHER' ) {    #Encantar com Chama
-            return;
+            return 13;
         }
         if ( $handle eq 'SA_FROSTWEAPON' ) {      #Encantar com Geada
-            return;
+            return 11;
         }
         if ( $handle eq 'SA_LIGHTNINGLOADER' ) {    #Encantar com Ventania
-            return;
+            return 12;
         }
         if ( $handle eq 'SA_SEISMICWEAPON' ) {    #Encantar com Terremoto
-            return;
+            return 8;
         }
         if ( $handle eq 'SA_DRAGONOLOGY' ) {      #Dragonologia
-            return;
+            return 7;
         }
         if ( $handle eq 'SA_VOLCANO' ) {          #Vulcão
-            return;
+            return 20;
         }
         if ( $handle eq 'SA_DELUGE' ) {           #Dilúvio
-            return;
+            return 18;
         }
         if ( $handle eq 'SA_VIOLENTGALE' ) {      #Furacão
-            return;
+            return 19;
         }
         if ( $handle eq 'SA_LANDPROTECTOR' ) {    #Proteger Terreno
-            return;
+            return 26;
         }
         if ( $handle eq 'SA_DISPELL' ) {          #Desencantar
-            return;
+            return 24;
         }
         if ( $handle eq 'SA_ABRACADABRA' ) {      #Abracadabra
-            return;
+            return 33;
         }
         if ( $handle eq 'SA_CREATECON' ) {    #Criar Conversor Elemental
-            return;
+            return 6;
         }
         if ( $handle eq 'SA_ELEMENTWATER' ) { #Mudança Elemental da Água
-            return;
+            return 2;
         }
         if ( $handle eq 'SA_ELEMENTGROUND' )
         {                                           #Mudança Elemental da Terra
-            return;
+            return 3;
         }
         if ( $handle eq 'SA_ELEMENTFIRE' ) {  #Mudança Elemental do Água
-            return;
+            return 4;
         }
         if ( $handle eq 'SA_ELEMENTWIND' ) {  #Mudança Elemental do Vento
-            return;
+            return 5;
         }
     }
 
     if ( $class eq 'Crusader' ) {                   #Templário
         if ( $handle eq 'KN_RIDING' ) {       #Montaria
-            return;
+            return 5;
         }
         if ( $handle eq 'KN_CAVALIERMASTERY' ) {    #Perícia em Montaria
-            return;
+            return 12;
         }
         if ( $handle eq 'KN_SPEARMASTERY' ) {       #Perícia com Lança
-            return;
+            return 4;
         }
         if ( $handle eq 'AL_CURE' ) {               #Medicar
-            return;
+            return 7;
         }
         if ( $handle eq 'AL_DP' ) {                 #Proteção Divina
-            return;
+            return 14;
         }
         if ( $handle eq 'AL_DEMONBANE' ) {          #Flagelo do Mal
-            return;
+            return 21;
         }
         if ( $handle eq 'AL_HEAL' ) {               #Curar
-            return;
+            return 28;
         }
         if ( $handle eq 'CR_TRUST' ) {              #Fé
-            return;
+            return 0;
         }
         if ( $handle eq 'CR_AUTOGUARD' ) {          #Bloqueio
-            return;
+            return 2;
         }
         if ( $handle eq 'CR_SHIELDCHARGE' ) {       #Punição Divina
-            return;
+            return 9;
         }
         if ( $handle eq 'CR_SHIELDBOOMERANG' ) {    #Escudo Bumerangue
-            return;
+            return 16;
         }
         if ( $handle eq 'CR_REFLECTSHIELD' ) {      #Escudo Refletor
-            return;
+            return 23;
         }
         if ( $handle eq 'CR_HOLYCROSS' ) {          #Crux Divinum
-            return;
+            return 8;
         }
         if ( $handle eq 'CR_GRANDCROSS' ) {         #Crux Magnun
-            return;
+            return 15;
         }
         if ( $handle eq 'CR_DEVOTION' ) {           #Redenção
-            return;
+            return 29;
         }
         if ( $handle eq 'CR_PROVIDENCE' ) {         #Divina Providência
-            return;
+            return 35;
         }
         if ( $handle eq 'CR_DEFENDER' ) {           #Aura Sagrada
-            return;
+            return 24;
         }
         if ( $handle eq 'CR_SPEARQUICKEN' ) {       #Rapidez com Lança
-            return;
+            return 11;
         }
         if ( $handle eq 'CR_SHRINK' ) {             #Shrink
-            return;
+            return 6;
         }
     }
 
@@ -2647,61 +2647,61 @@ sub getPosition {
 
     if ( $class eq 'Hunter' ) {                           #Caçador
         if ( $handle eq 'HT_SKIDTRAP' ) {    #Armadilha Escorregadia
-            return;
+            return 2;
         }
         if ( $handle eq 'HT_LANDMINE' ) {    #Armadilha Atordoante
-            return;
+            return 4;
         }
         if ( $handle eq 'HT_ANKLESNARE' ) {    #Instalar Armadilha
-            return;
+            return 10;
         }
         if ( $handle eq 'HT_SHOCKWAVE' ) {     #Armadilha Extenuante
-            return;
+            return 17;
         }
         if ( $handle eq 'HT_SANDMAN' ) {       #Armadilha Sonífera
-            return;
+            return 15;
         }
         if ( $handle eq 'HT_FLASHER' ) {       #Armadilha Luminosa
-            return;
+            return 9;
         }
         if ( $handle eq 'HT_FREEZINGTRAP' ) {    #Armadilha Congelante
-            return;
+            return 16;
         }
         if ( $handle eq 'HT_BLASTMINE' ) {       #Instalar Mina
-            return;
+            return 22;
         }
         if ( $handle eq 'HT_CLAYMORETRAP' ) {    #Armadilha Explosiva
-            return;
+            return 29;
         }
         if ( $handle eq 'HT_REMOVETRAP' ) {      #Remover Armadilha
-            return;
+            return 11;
         }
         if ( $handle eq 'HT_TALKIEBOX' ) {       #Mensagem Secreta
-            return;
+            return 24;
         }
         if ( $handle eq 'HT_BEASTBANE' ) {       #Flagelo das Feras
-            return;
+            return 0;
         }
         if ( $handle eq 'HT_FALCON' ) {          #Adestrar Falcão
-            return;
+            return 7;
         }
         if ( $handle eq 'HT_STEELCROW' ) {       #Garras de Aço
-            return;
+            return 21;
         }
         if ( $handle eq 'HT_BLITZBEAT' ) {       #Ataque Aéreo
-            return;
+            return 14;
         }
         if ( $handle eq 'HT_DETECTING' ) {       #Alerta
-            return;
+            return 19;
         }
         if ( $handle eq 'HT_SPRINGTRAP' ) {      #Desativar Armadilha
-            return;
+            return 18;
         }
         if ( $handle eq 'HT_PHANTASMIC' ) {      #Phantasmic Arrow
-            return;
+            return 13;
         }
         if ( $handle eq 'HT_POWER' ) {           #Beast Strafing
-            return;
+            return 7;
         }
     }
 
@@ -2979,40 +2979,40 @@ sub getPosition {
 
     if ( $class eq 'Knight' ) {                          #Cavaleiro
         if ( $handle eq 'KN_SPEARMASTERY' ) {      #Perícia com Lança
-            return;
+            return 3;
         }
         if ( $handle eq 'KN_PIERCE' ) {            #Perfurar
-            return;
+            return 10;
         }
         if ( $handle eq 'KN_BRANDISHSPEAR' ) {     #Brandir Lança
-            return;
+            return 24;
         }
         if ( $handle eq 'KN_SPEARSTAB' ) {         #Estocada
-            return;
+            return 17;
         }
         if ( $handle eq 'KN_SPEARBOOMERANG' ) {    #Lança Bumerangue
-            return;
+            return 16;
         }
         if ( $handle eq 'KN_TWOHANDQUICKEN' ) {    #Rapidez com Duas Mãos
-            return;
+            return 0;
         }
         if ( $handle eq 'KN_AUTOCOUNTER' ) {       #Contra-Ataque
-            return;
+            return 1;
         }
         if ( $handle eq 'KN_BOWLINGBASH' ) {       #Impacto de Tyr
-            return;
+            return 8;
         }
         if ( $handle eq 'KN_RIDING' ) {            #Montaria
-            return;
+            return 2;
         }
         if ( $handle eq 'KN_CAVALIERMASTERY' ) {    #Perícia em Montaria
-            return;
+            return 9;
         }
         if ( $handle eq 'KN_CHARGEATK' ) {          #Charge Attack
-            return;
+            return 6;
         }
         if ( $handle eq 'KN_ONEHAND' ) {            #Rapidez com Uma Mão
-            return;
+            return 13;
         }
     }
 
