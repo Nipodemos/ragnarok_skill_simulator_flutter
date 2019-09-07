@@ -10,77 +10,77 @@ sub getPosition {
     my ( $class, $handle ) = @_;
     if ( $class eq 'Blacksmith' ) {    #Ferreiro
         if ( $handle eq 'BS_IRON' ) {    #Trabalhar Ferro
-            return;
+            return 0;
         }
         if ( $handle eq 'BS_STEEL' ) {    #Trabalhar Aço
-            return;
+            return 7;
         }
         if ( $handle eq 'BS_ENCHANTEDSTONE' )
         {                                       #Produzir Pedra Fundamental
-            return;
+            return 8;
         }
         if ( $handle eq 'BS_ORIDEOCON' ) {    #Perícia com Oridecon
-            return;
+            return 15;
         }
         if ( $handle eq 'BS_DAGGER' ) {       #Forjar Adaga
-            return;
+            return 5;
         }
         if ( $handle eq 'BS_SWORD' ) {        #Forjar Espada
-            return;
+            return 12;
         }
         if ( $handle eq 'BS_TWOHANDSWORD' ) { #Forjar Espada de Duas Mãos
-            return;
+            return 19;
         }
         if ( $handle eq 'BS_AXE' ) {          #Forjar Machado
-            return;
+            return 26;
         }
         if ( $handle eq 'BS_MACE' ) {         #Forjar Maça
-            return;
+            return 20;
         }
         if ( $handle eq 'BS_KNUCKLE' ) {      #Forjar Soqueira
-            return;
+            return 13;
         }
         if ( $handle eq 'BS_SPEAR' ) {        #Forjar Lança
-            return;
+            return 11;
         }
         if ( $handle eq 'BS_HILTBINDING' ) {    #Punho Firme
-            return;
+            return 1;
         }
         if ( $handle eq 'BS_FINDINGORE' ) {     #Encontrar Minério
-            return;
+            return 14;
         }
         if ( $handle eq 'BS_WEAPONRESEARCH' ) {    #Perícia em Armamento
-            return;
+            return 9;
         }
         if ( $handle eq 'BS_REPAIRWEAPON' ) {      #Consertar Armas
-            return;
+            return 16;
         }
         if ( $handle eq 'BS_SKINTEMPER' ) {        #Resistência ao Fogo
-            return;
+            return 2;
         }
         if ( $handle eq 'BS_HAMMERFALL' ) {        #Martelo de Thor
-            return;
+            return 3;
         }
         if ( $handle eq 'BS_ADRENALINE' ) {        #Adrenalina Pura
-            return;
+            return 10;
         }
         if ( $handle eq 'BS_WEAPONPERFECT' ) {     #Manejo Perfeito
-            return;
+            return 17;
         }
         if ( $handle eq 'BS_OVERTHRUST' ) {        #Força Violenta
-            return;
+            return 18;
         }
         if ( $handle eq 'BS_MAXIMIZE' ) {          #Amplificar Poder
-            return;
+            return 24;
         }
         if ( $handle eq 'BS_UNFAIRLYTRICK' ) {     #Unfair Trick
-            return;
+            return 34;
         }
         if ( $handle eq 'BS_GREED' ) {             #Greed
-            return;
+            return 33;
         }
         if ( $handle eq 'BS_ADRENALINE2' ) {    #Advanced Adrenaline Rush
-            return;
+            return 31;
         }
     }
 
@@ -227,22 +227,22 @@ sub getPosition {
 
     if ( $class eq 'Gypsy' ) {                            #Cigana
         if ( $handle eq 'CG_ARROWVULCAN' ) {        #Vulcão de Flechas
-            return;
+            return 29;
         }
         if ( $handle eq 'CG_MOONLIT' ) {            #Bênção Protetora
-            return;
+            return 30;
         }
         if ( $handle eq 'CG_MARIONETTE' ) {         #Controle de Marionete
-            return;
+            return 31;
         }
         if ( $handle eq 'CG_LONGINGFREEDOM' ) {     #Grito de Liberdade
-            return;
+            return 38;
         }
         if ( $handle eq 'CG_HERMODE' ) {            #Bastão de Hermod
-            return;
+            return 32;
         }
         if ( $handle eq 'CG_TAROTCARD' ) {          #Destino nas Cartas
-            return;
+            return 39;
         }
     }
 
@@ -290,88 +290,88 @@ sub getPosition {
 
     if ( $class eq 'Assassin_Cross' ) {                   #Algoz
         if ( $handle eq 'ASC_KATAR' ) {    #Perícia com Katar Avançada
-            return;
+            return 9;
         }
         if ( $handle eq 'ASC_EDP' ) {      #Encantar com Veneno Mortal
-            return;
+            return 19;
         }
         if ( $handle eq 'ASC_BREAKER' ) {    #Destruidor de Almas
-            return;
+            return 18;
         }
         if ( $handle eq 'ASC_METEORASSAULT' ) {    #Impacto Meteoro
-            return;
+            return 25;
         }
         if ( $handle eq 'ASC_CDP' ) {              #Criar Veneno Mortal
-            return;
+            return 12;
         }
     }
 
     if ( $class eq 'Gunslinger' ) {                      #Justiceiro
         if ( $handle eq 'GS_GLITTERING' ) {        #Cara ou Coroa
-            return;
+            return 1;
         }
         if ( $handle eq 'GS_FLING' ) {             #Atirar Moedas
-            return;
+            return 8;
         }
         if ( $handle eq 'GS_TRIPLEACTION' ) {      #Ataque Triplo
-            return;
+            return 15;
         }
         if ( $handle eq 'GS_BULLSEYE' ) {          #Ataque Certeiro
-            return;
+            return 25;
         }
         if ( $handle eq 'GS_MADNESSCANCEL' ) {     #Resistência Final
-            return;
+            return 38;
         }
         if ( $handle eq 'GS_ADJUSTMENT' ) {        #Pânico do Justiceiro
-            return;
+            return 23;
         }
         if ( $handle eq 'GS_INCREASING' ) {        #Aumentar Precisão
-            return;
+            return 13;
         }
         if ( $handle eq 'GS_MAGICALBULLET' ) {     #Bala Mágica
-            return;
+            return 2;
         }
         if ( $handle eq 'GS_CRACKER' ) {           #Tiro Bombinha
-            return;
+            return 9;
         }
         if ( $handle eq 'GS_SINGLEACTION' ) {      #Ataque Concentrado
-            return;
+            return 3;
         }
         if ( $handle eq 'GS_SNAKEEYE' ) {          #Olhos de Serpente
-            return;
+            return 6;
         }
         if ( $handle eq 'GS_CHAINACTION' ) {       #Reação em Cadeia
-            return;
+            return 10;
         }
         if ( $handle eq 'GS_TRACKING' ) {          #Rastrear o Alvo
-            return;
+            return 11;
         }
         if ( $handle eq 'GS_DISARM' ) {            #Desarmar
-            return;
+            return 16;
         }
         if ( $handle eq 'GS_PIERCINGSHOT' ) {      #Ferir Alvo
-            return;
+            return 18;
         }
         if ( $handle eq 'GS_RAPIDSHOWER' ) {       #Rajada Certeira
-            return;
+            return 17;
         }
         if ( $handle eq 'GS_DESPERADO' ) {         #Desperado
-            return;
+            return 24;
         }
         if ( $handle eq 'GS_GATLINGFEVER' ) {      #Ataque Gatling
-            return;
+            return 31;
         }
         if ( $handle eq 'GS_DUST' ) {              #Controle de Multidão
-            return;
+            return 12;
         }
         if ( $handle eq 'GS_FULLBUSTER' ) {        #Ataque Total
-            return;
+            return 19;
         }
         if ( $handle eq 'GS_SPREADATTACK' ) {      #Disparo Espalhado
-            return;
+            return 26;
         }
         if ( $handle eq 'GS_GROUNDDRIFT' ) {       #Mina do Justiceiro
-            return;
+            return 33;
         }
     }
 
@@ -641,19 +641,19 @@ sub getPosition {
 
     if ( $class eq 'Whitesmith' ) {                     #Mestre-Ferreiro
         if ( $handle eq 'WS_MELTDOWN' ) {         #Golpe Estilhaçante
-            return;
+            return 22;
         }
         if ( $handle eq 'WS_CARTBOOST' ) {        #Impulso no Carrinho
-            return;
+            return 21;
         }
         if ( $handle eq 'WS_WEAPONREFINE' ) {     #Aprimorar Armamento
-            return;
+            return 23;
         }
         if ( $handle eq 'WS_CARTTERMINATION' ) {    #Choque do Carrinho
-            return;
+            return 28;
         }
         if ( $handle eq 'WS_OVERTHRUSTMAX' ) {      #Força Violentíssima
-            return;
+            return 26;
         }
     }
 
@@ -731,164 +731,164 @@ sub getPosition {
 
     if ( $class eq 'High_Wizard' ) {                     #Arquimago
         if ( $handle eq 'HW_SOULDRAIN' ) {         #Dreno de Alma
-            return;
+            return 13;
         }
         if ( $handle eq 'HW_MAGICCRASHER' ) {      #Esmagamento Mágico
-            return;
+            return 12;
         }
         if ( $handle eq 'HW_MAGICPOWER' ) {    #Amplificação Mística
-            return;
+            return 20;
         }
         if ( $handle eq 'HW_NAPALMVULCAN' ) {    #Vulcão Napalm
-            return;
+            return 19;
         }
         if ( $handle eq 'HW_GANBANTEIN' ) {      #Ganbantein
-            return;
+            return 7;
         }
         if ( $handle eq 'HW_GRAVITATION' ) {     #Campo Gravitacional
-            return;
+            return 24;
         }
     }
 
     if ( $class eq 'Paladin' ) {                       #Paladino
         if ( $handle eq 'PA_PRESSURE' ) {        #Gloria Domini
-            return;
+            return 17;
         }
         if ( $handle eq 'PA_SACRIFICE' ) {       #Sacrifício do Mártir
-            return;
+            return 36;
         }
         if ( $handle eq 'PA_GOSPEL' ) {          #Canto de Batalha
-            return;
+            return 30;
         }
         if ( $handle eq 'PA_SHIELDCHAIN' ) {     #Choque Rápido
-            return;
+            return 25;
         }
     }
 
     if ( $class eq 'Ninja' ) {                         #Ninja
         if ( $handle eq 'NJ_TOBIDOUGU' )
         {    #Prática de Arremesso de Shuriken
-            return;
+            return 1;
         }
         if ( $handle eq 'NJ_SYURIKEN' ) {    #Arremessar Shuriken
-            return;
+            return 8;
         }
         if ( $handle eq 'NJ_KUNAI' ) {       #Arremessar Kunai
-            return;
+            return 15;
         }
         if ( $handle eq 'NJ_HUUMA' ) {       #Arremessar Shuriken Huuma
-            return;
+            return 22;
         }
         if ( $handle eq 'NJ_ZENYNAGE' ) {    #Chuva de Moedas
-            return;
+            return 29;
         }
         if ( $handle eq 'NJ_TATAMIGAESHI' ) {    #Virar Tatami
-            return;
+            return 2;
         }
         if ( $handle eq 'NJ_KASUMIKIRI' ) {      #Corte da Névoa
-            return;
+            return 16;
         }
         if ( $handle eq 'NJ_SHADOWJUMP' ) {      #Salto das Sombras
-            return;
+            return 9;
         }
         if ( $handle eq 'NJ_KIRIKAGE' ) {        #Corte das Sombras
-            return;
+            return 23;
         }
         if ( $handle eq 'NJ_UTSUSEMI' ) {        #Troca de Pele
-            return;
+            return 17;
         }
         if ( $handle eq 'NJ_BUNSINJYUTSU' ) {    #Imagem Falsa
-            return;
+            return 30;
         }
         if ( $handle eq 'NJ_NINPOU' ) {          #Perícia Ninja
-            return;
+            return 5;
         }
         if ( $handle eq 'NJ_KOUENKA' ) {         #Pétalas Flamejantes
-            return;
+            return 11;
         }
         if ( $handle eq 'NJ_KAENSIN' ) {         #Escudo de Chamas
-            return;
+            return 18;
         }
         if ( $handle eq 'NJ_BAKUENRYU' ) {       #Dragão Explosivo
-            return;
+            return 25;
         }
         if ( $handle eq 'NJ_HYOUSENSOU' ) {      #Lança Congelante
-            return;
+            return 12;
         }
         if ( $handle eq 'NJ_SUITON' ) {          #Evasão Aquática
-            return;
+            return 19;
         }
         if ( $handle eq 'NJ_HYOUSYOURAKU' ) {    #Grande Floco de Neve
-            return;
+            return 26;
         }
         if ( $handle eq 'NJ_HUUJIN' ) {          #Lâmina de Vento
-            return;
+            return 13;
         }
         if ( $handle eq 'NJ_RAIGEKISAI' ) {      #Descarga Elétrica
-            return;
+            return 20;
         }
         if ( $handle eq 'NJ_KAMAITACHI' ) {      #Brisa Cortante
-            return;
+            return 27;
         }
         if ( $handle eq 'NJ_NEN' ) {             #Aura Ninja
-            return;
+            return 10;
         }
         if ( $handle eq 'NJ_ISSEN' ) {           #Ataque Mortal
-            return;
+            return 31;
         }
     }
 
     if ( $class eq 'Taekwon' ) {                       #Taekwon
         if ( $handle eq 'TK_RUN' ) {             #Corrida
-            return;
+            return 1;
         }
         if ( $handle eq 'TK_READYSTORM' ) {      #Postura do Tornado
-            return;
+            return 9;
         }
         if ( $handle eq 'TK_STORMKICK' ) {       #Chute do Tornado
-            return;
+            return 2;
         }
         if ( $handle eq 'TK_READYDOWN' ) {    #Postura da Patada Voadora
-            return;
+            return 10;
         }
         if ( $handle eq 'TK_DOWNKICK' ) {     #Patada Voadora
-            return;
+            return 3;
         }
         if ( $handle eq 'TK_READYTURN' ) {    #Postura da Rasteira
-            return;
+            return 11;
         }
         if ( $handle eq 'TK_TURNKICK' ) {     #Rasteira (Taekwon)
-            return;
+            return 4;
         }
         if ( $handle eq 'TK_READYCOUNTER' ) {    #Postura do Contrachute
-            return;
+            return 12;
         }
         if ( $handle eq 'TK_COUNTER' ) {         #Contrachute
-            return;
+            return 5;
         }
         if ( $handle eq 'TK_DODGE' ) {           #Cambalhota
-            return;
+            return 13;
         }
         if ( $handle eq 'TK_JUMPKICK' ) {        #Chute Aéreo
-            return;
+            return 6;
         }
         if ( $handle eq 'TK_HPTIME' ) {          #Trégua Rápida
-            return;
+            return 16;
         }
         if ( $handle eq 'TK_SPTIME' ) {          #Retiro Rápido
-            return;
+            return 17;
         }
         if ( $handle eq 'TK_POWER' ) {           #Kihop
-            return;
+            return 18;
         }
         if ( $handle eq 'TK_SEVENWIND' ) {       #Brisa Leve
-            return;
+            return 24;
         }
         if ( $handle eq 'TK_HIGHJUMP' ) {        #Salto
-            return;
+            return 8;
         }
         if ( $handle eq 'TK_MISSION' ) {         #Missão Taekwon
-            return;
+            return 25;
         }
     }
 
@@ -996,16 +996,16 @@ sub getPosition {
 
     if ( $class eq 'Sniper' ) {                             #Atirador de Elite
         if ( $handle eq 'SN_SIGHT' ) {                #Visão Real
-            return;
+            return 26;
         }
         if ( $handle eq 'SN_FALCONASSAULT' ) {        #Assalto do Falcão
-            return;
+            return 28;
         }
         if ( $handle eq 'SN_SHARPSHOOTING' ) {        #Tiro Preciso
-            return;
+            return 5;
         }
         if ( $handle eq 'SN_WINDWALK' ) {             #Caminho do Vento
-            return;
+            return 12;
         }
     }
 
@@ -1171,16 +1171,16 @@ sub getPosition {
 
     if ( $class eq 'Creator' ) {                         #Criador
         if ( $handle eq 'CR_SLIMPITCHER' ) {  #Arremessar Poção Compacta
-            return;
+            return 9;
         }
         if ( $handle eq 'CR_FULLPROTECTION' ) { #Proteção Química Total
-            return;
+            return 31;
         }
         if ( $handle eq 'CR_ACIDDEMONSTRATION' ) {    #Bomba Ácida
-            return;
+            return 23;
         }
         if ( $handle eq 'CR_CULTIVATION' ) {          #Cultivar Planta
-            return;
+            return 5;
         }
     }
 
@@ -1231,88 +1231,88 @@ sub getPosition {
 
     if ( $class eq 'Lord_Knight' ) {                    #Lorde
         if ( $handle eq 'LK_AURABLADE' ) {        #Lâmina de Aura
-            return;
+            return 11;
         }
         if ( $handle eq 'LK_PARRYING' ) {         #Aparar Golpe
-            return;
+            return 7;
         }
         if ( $handle eq 'LK_CONCENTRATION' ) {    #Dedicação
-            return;
+            return 12;
         }
         if ( $handle eq 'LK_TENSIONRELAX' ) {     #Relaxar
-            return;
+            return 5;
         }
         if ( $handle eq 'LK_BERSERK' ) {          #Frenesi
-            return;
+            return 4;
         }
         if ( $handle eq 'LK_SPIRALPIERCE' ) {     #Perfurar em Espiral
-            return;
+            return 25;
         }
         if ( $handle eq 'LK_HEADCRUSH' ) {        #Golpe Traumático
-            return;
+            return 19;
         }
         if ( $handle eq 'LK_JOINTBEAT' ) {        #Ataque Vital
-            return;
+            return 26;
         }
     }
 
     if ( $class eq 'Priest' ) {                         #Sacerdote
         if ( $handle eq 'MG_SRECOVERY' ) {   #Aumentar Recuperação de SP
-            return;
+            return 3;
         }
         if ( $handle eq 'MG_SAFETYWALL' ) {    #Escudo Mágico
-            return;
+            return 20;
         }
         if ( $handle eq 'ALL_RESURRECTION' ) {    #Ressuscitar
-            return;
+            return 9;
         }
         if ( $handle eq 'PR_MACEMASTERY' ) {      #Perícia com Maça
-            return;
+            return 15;
         }
         if ( $handle eq 'PR_IMPOSITIO' ) {        #Impositio Manus
-            return;
+            return 5;
         }
         if ( $handle eq 'PR_SUFFRAGIUM' ) {       #Suffragium
-            return;
+            return 12;
         }
         if ( $handle eq 'PR_ASPERSIO' ) {         #Aspersio
-            return;
+            return 13;
         }
         if ( $handle eq 'PR_BENEDICTIO' ) {       #B.S. Sacramenti
-            return;
+            return 14;
         }
         if ( $handle eq 'PR_SANCTUARY' ) {        #Santuário
-            return;
+            return 6;
         }
         if ( $handle eq 'PR_SLOWPOISON' ) {       #Retardar Veneno
-            return;
+            return 8;
         }
         if ( $handle eq 'PR_STRECOVERY' ) {       #Graça Divina
-            return;
+            return 2;
         }
         if ( $handle eq 'PR_KYRIE' ) {            #Kyrie Eleison
-            return;
+            return 0;
         }
         if ( $handle eq 'PR_MAGNIFICAT' ) {       #Magnificat
-            return;
+            return 1;
         }
         if ( $handle eq 'PR_GLORIA' ) {           #Glória
-            return;
+            return 7;
         }
         if ( $handle eq 'PR_LEXDIVINA' ) {        #Lex Divina
-            return;
+            return 4;
         }
         if ( $handle eq 'PR_TURNUNDEAD' ) {       #Esconjurar
-            return;
+            return 16;
         }
         if ( $handle eq 'PR_LEXAETERNA' ) {       #Lex Aeterna
-            return;
+            return 11;
         }
         if ( $handle eq 'PR_MAGNUS' ) {           #Magnus Exorcismus
-            return;
+            return 25;
         }
         if ( $handle eq 'PR_REDEMPTIO' ) {        #Redemptio
-            return;
+            return 27;
         }
     }
 
@@ -1626,16 +1626,16 @@ sub getPosition {
 
     if ( $class eq 'Champion' ) {                       #Mestre
         if ( $handle eq 'CH_PALMSTRIKE' ) {    #Golpe da Palma em Fúria
-            return;
+            return 11;
         }
         if ( $handle eq 'CH_TIGERFIST' ) {     #Punho do Tigre
-            return;
+            return 25;
         }
         if ( $handle eq 'CH_CHAINCRUSH' ) {    #Combo Esmagador
-            return;
+            return 32;
         }
         if ( $handle eq 'CH_SOULCOLLECT' ) {    #Zen
-            return;
+            return 21;
         }
     }
 
@@ -1748,84 +1748,84 @@ sub getPosition {
 
     if ( $class eq 'Professor' ) {                             #Professor
         if ( $handle eq 'PF_HPCONVERSION' ) {            #Indulgir
-            return;
+            return 28;
         }
         if ( $handle eq 'PF_SOULCHANGE' ) {              #Exalar Alma
-            return;
+            return 21;
         }
         if ( $handle eq 'PF_SOULBURN' ) {                #Sifão de Alma
-            return;
+            return 31;
         }
         if ( $handle eq 'PF_MINDBREAKER' ) {             #Enlouquecedor
-            return;
+            return 32;
         }
         if ( $handle eq 'PF_MEMORIZE' ) {                #Presciência
-            return;
+            return 30;
         }
         if ( $handle eq 'PF_FOGWALL' ) {                 #Bruma Ofuscante
-            return;
+            return 26;
         }
         if ( $handle eq 'PF_SPIDERWEB' ) {               #Prisão de Teia
-            return;
+            return 14;
         }
         if ( $handle eq 'PF_DOUBLECASTING' ) {           #Lanças Duplas
-            return;
+            return 29;
         }
     }
 
     if ( $class eq 'Monk' ) {                                  #Monge
         if ( $handle eq 'MO_IRONHAND' ) {                #Punhos de Ferro
-            return;
+            return 0;
         }
         if ( $handle eq 'MO_SPIRITSRECOVERY' ) {         #Meditação
-            return;
+            return 16;
         }
         if ( $handle eq 'MO_CALLSPIRITS' ) {    #Invocar Esfera Espiritual
-            return;
+            return 1;
         }
         if ( $handle eq 'MO_ABSORBSPIRITS' )
         {    #Absorver Esferas Espirituais
-            return;
+            return 7;
         }
         if ( $handle eq 'MO_TRIPLEATTACK' ) {    #Combo Triplo
-            return;
+            return 3;
         }
         if ( $handle eq 'MO_BODYRELOCATION' ) {    #Passo Etéreo
-            return;
+            return 30;
         }
         if ( $handle eq 'MO_DODGE' ) {             #Cair das Pétalas
-            return;
+            return 2;
         }
         if ( $handle eq 'MO_INVESTIGATE' ) {       #Impacto Psíquico
-            return;
+            return 8;
         }
         if ( $handle eq 'MO_FINGEROFFENSIVE' )
         {    #Disparo de Esferas Espirituais
-            return;
+            return 15;
         }
         if ( $handle eq 'MO_STEELBODY' ) {    #Corpo Fechado
-            return;
+            return 24;
         }
         if ( $handle eq 'MO_BLADESTOP' ) {    #Dilema
-            return;
+            return 9;
         }
         if ( $handle eq 'MO_EXPLOSIONSPIRITS' ) {    #Fúria Interior
-            return;
+            return 14;
         }
         if ( $handle eq 'MO_EXTREMITYFIST' ) {    #Punho Supremo de Asura
-            return;
+            return 22;
         }
         if ( $handle eq 'MO_CHAINCOMBO' ) {       #Combo Quádruplo
-            return;
+            return 10;
         }
         if ( $handle eq 'MO_COMBOFINISH' ) {      #O Último Dragão
-            return;
+            return 17;
         }
         if ( $handle eq 'MO_KITRANSLATION' ) {    #Ki Translation
-            return;
+            return 5;
         }
         if ( $handle eq 'MO_BALKYOUNG' ) {        #Ki Explosion
-            return;
+            return 12;
         }
     }
 
@@ -2180,7 +2180,7 @@ sub getPosition {
 
     if ( $class eq 'Minstrel' ) {              #Menestrel
         if ( $handle eq 'MI_RUSH_WINDMILL' ) {    #Sinfonia dos Ventos
-            return;
+            return ;
         }
         if ( $handle eq 'MI_ECHOSONG' ) {         #Canção de Balder
             return;
@@ -2446,202 +2446,202 @@ sub getPosition {
 
     if ( $class eq 'Bard' ) {                              #Bardo
         if ( $handle eq 'BA_MUSICALLESSON' ) {       #Lições de Música
-            return;
+            return 1;
         }
         if ( $handle eq 'BA_MUSICALSTRIKE' ) {       #Flecha Melódica
-            return;
+            return 8;
         }
         if ( $handle eq 'BA_DISSONANCE' ) {          #Dissonância
-            return;
+            return 3;
         }
         if ( $handle eq 'BA_FROSTJOKER' ) {          #Piada Infame
-            return;
+            return 14;
         }
         if ( $handle eq 'BA_WHISTLE' ) {             #Assovio
-            return;
+            return 9;
         }
         if ( $handle eq 'BA_ASSASSINCROSS' ) {    #Crepúsculo Sangrento
-            return;
+            return 10;
         }
         if ( $handle eq 'BA_POEMBRAGI' ) {        #Poema de Bragi
-            return;
+            return 11;
         }
         if ( $handle eq 'BA_APPLEIDUN' ) {        #Maçãs de Idun
-            return;
+            return 12;
         }
         if ( $handle eq 'BD_ADAPTATION' ) {       #Encerramento
-            return;
+            return 0;
         }
         if ( $handle eq 'BD_ENCORE' ) {           #Bis
-            return;
+            return 7;
         }
         if ( $handle eq 'BD_LULLABY' ) {          #Cantiga de Ninar
-            return;
+            return 16;
         }
         if ( $handle eq 'BD_RICHMANKIM' ) {       #Banquete de Njord
-            return;
+            return 25;
         }
         if ( $handle eq 'BD_ETERNALCHAOS' ) {     #Ritmo Caótico
-            return;
+            return 24;
         }
         if ( $handle eq 'BD_DRUMBATTLEFIELD' ) {    #Rufar dos Tambores
-            return;
+            return 19;
         }
         if ( $handle eq 'BD_RINGNIBELUNGEN' ) {     #Anel de Nibelungos
-            return;
+            return 26;
         }
         if ( $handle eq 'BD_ROKISWEIL' ) {          #Lamento de Loki
-            return;
+            return 17;
         }
         if ( $handle eq 'BD_INTOABYSS' ) {          #Canção Preciosa
-            return;
+            return 23;
         }
         if ( $handle eq 'BD_SIEGFRIED' ) {          #Ode a Siegfried
-            return;
+            return 18;
         }
         if ( $handle eq 'BA_PANGVOICE' ) {          #Pang Voice
-            return;
+            return 5;
         }
     }
 
     if ( $class eq 'Dancer' ) {                           #Odialisca
         if ( $handle eq 'DC_DANCINGLESSON' ) {      #Lições de Dança
-            return;
+            return 1;
         }
         if ( $handle eq 'DC_THROWARROW' ) {         #Estilingue
-            return;
+            return 8;
         }
         if ( $handle eq 'DC_UGLYDANCE' ) {          #Dança do Ventre
-            return;
+            return 3;
         }
         if ( $handle eq 'DC_SCREAM' ) {             #Escândalo
-            return;
+            return 14;
         }
         if ( $handle eq 'DC_HUMMING' ) {            #Sibilo
-            return;
+            return 9;
         }
         if ( $handle eq 'DC_DONTFORGETME' ) {       #Não Me Abandones
-            return;
+            return 10;
         }
         if ( $handle eq 'DC_FORTUNEKISS' ) {        #Beijo da Sorte
-            return;
+            return 11;
         }
         if ( $handle eq 'DC_SERVICEFORYOU' ) {      #Dança Cigana
-            return;
+            return 12;
         }
         if ( $handle eq 'BD_ADAPTATION' ) {         #Encerramento
-            return;
+            return 0;
         }
         if ( $handle eq 'BD_ENCORE' ) {             #Bis
-            return;
+            return 7;
         }
         if ( $handle eq 'BD_LULLABY' ) {            #Cantiga de Ninar
-            return;
+            return 16;
         }
         if ( $handle eq 'BD_RICHMANKIM' ) {         #Banquete de Njord
-            return;
+            return 25;
         }
         if ( $handle eq 'BD_ETERNALCHAOS' ) {       #Ritmo Caótico
-            return;
+            return 24;
         }
         if ( $handle eq 'BD_DRUMBATTLEFIELD' ) {    #Rufar dos Tambores
-            return;
+            return 19;
         }
         if ( $handle eq 'BD_RINGNIBELUNGEN' ) {     #Anel de Nibelungos
-            return;
+            return 26;
         }
         if ( $handle eq 'BD_ROKISWEIL' ) {          #Lamento de Loki
-            return;
+            return 17;
         }
         if ( $handle eq 'BD_INTOABYSS' ) {          #Canção Preciosa
-            return;
+            return 23;
         }
         if ( $handle eq 'BD_SIEGFRIED' ) {          #Ode a Siegfried
-            return;
+            return 18;
         }
         if ( $handle eq 'DC_WINKCHARM' ) {          #Wink of Charm
-            return;
+            return 5;
         }
     }
 
     if ( $class eq 'Rogue' ) {                            #Arruaceiro
         if ( $handle eq 'SM_SWORD' ) {              #Perícia com Espada
-            return;
+            return 4;
         }
         if ( $handle eq 'AC_VULTURE' ) {            #Olhos de Águia
-            return;
+            return 0;
         }
         if ( $handle eq 'AC_DOUBLE' ) {             #Rajada de Flechas
-            return;
+            return 7;
         }
         if ( $handle eq 'HT_REMOVETRAP' ) {         #Remover Armadilha
-            return;
+            return 14;
         }
         if ( $handle eq 'RG_SNATCHER' ) {           #Mãos Leves
-            return;
+            return 2;
         }
         if ( $handle eq 'RG_STEALCOIN' ) {          #Afanar
-            return;
+            return 9;
         }
         if ( $handle eq 'RG_BACKSTAP' ) {           #Apunhalar
-            return;
+            return 16;
         }
         if ( $handle eq 'RG_TUNNELDRIVE' ) {        #Túnel de Fuga
-            return;
+            return 1;
         }
         if ( $handle eq 'RG_RAID' ) {               #Ataque Surpresa
-            return;
+            return 22;
         }
         if ( $handle eq 'RG_STRIPWEAPON' ) {        #Remover Arma
-            return;
+            return 24;
         }
         if ( $handle eq 'RG_STRIPSHIELD' ) {        #Remover Escudo
-            return;
+            return 10;
         }
         if ( $handle eq 'RG_STRIPARMOR' ) {         #Remover Armadura
-            return;
+            return 17;
         }
         if ( $handle eq 'RG_STRIPHELM' ) {          #Remover Capacete
-            return;
+            return 3;
         }
         if ( $handle eq 'RG_INTIMIDATE' ) {         #Rapto
-            return;
+            return 29;
         }
         if ( $handle eq 'RG_GRAFFITI' ) {           #Grafitti
-            return;
+            return 32;
         }
         if ( $handle eq 'RG_FLAGGRAFFITI' ) {       #Pichar
-            return;
+            return 25;
         }
         if ( $handle eq 'RG_CLEANER' ) {            #Faxina
-            return;
+            return 18;
         }
         if ( $handle eq 'RG_GANGSTER' ) {           #Malandragem
-            return;
+            return 11;
         }
         if ( $handle eq 'RG_COMPULSION' ) {         #Extorquir
-            return;
+            return 19;
         }
         if ( $handle eq 'RG_PLAGIARISM' ) {         #Plágio
-            return;
+            return 36;
         }
         if ( $handle eq 'RG_CLOSECONFINE' ) {       #Close Confine
-            return;
+            return 5;
         }
     }
 
     if ( $class eq 'Stalker' ) {                          #Desordeiro
         if ( $handle eq 'ST_CHASEWALK' ) {          #Espreitar
-            return;
+            return 8;
         }
         if ( $handle eq 'ST_REJECTSWORD' ) {        #Instinto de Defesa
-            return;
+            return 31;
         }
         if ( $handle eq 'ST_PRESERVE' ) {           #Preservar
-            return;
+            return 38;
         }
         if ( $handle eq 'ST_FULLSTRIP' ) {          #Remoção Total
-            return;
+            return 30;
         }
     }
 
@@ -2943,37 +2943,37 @@ sub getPosition {
 
     if ( $class eq 'High_Priest' ) {             #Sumo Sacerdote
         if ( $handle eq 'HP_ASSUMPTIO' ) {    #Assumptio
-            return;
+            return 10;
         }
         if ( $handle eq 'HP_BASILICA' ) {     #Basílica
-            return;
+            return 17;
         }
         if ( $handle eq 'HP_MEDITATIO' ) {    #Meditatio
-            return;
+            return 19;
         }
         if ( $handle eq 'HP_MANARECHARGE' ) {    #Riqueza de Espírito
-            return;
+            return 22;
         }
     }
 
     if ( $class eq 'Clown' ) {                         #
         if ( $handle eq 'CG_ARROWVULCAN' ) {     #Vulcão de Flechas
-            return;
+            return 29;
         }
         if ( $handle eq 'CG_MOONLIT' ) {         #Bênção Protetora
-            return;
+            return 30;
         }
         if ( $handle eq 'CG_MARIONETTE' ) {      #Controle de Marionete
-            return;
+            return 31;
         }
         if ( $handle eq 'CG_LONGINGFREEDOM' ) {    #Grito de Liberdade
-            return;
+            return 38;
         }
         if ( $handle eq 'CG_HERMODE' ) {           #Bastão de Hermod
-            return;
+            return 32;
         }
         if ( $handle eq 'CG_TAROTCARD' ) {         #Destino nas Cartas
-            return;
+            return 39;
         }
     }
 
