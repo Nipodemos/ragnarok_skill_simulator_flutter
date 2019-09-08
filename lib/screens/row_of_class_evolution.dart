@@ -117,22 +117,22 @@ class RowOfClassEvolution extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            classe(context, '2-1'),
+            classe(context, '2-1', disabled: true),
             SizedBox(width: 8),
-            classe(context, '2-2'),
+            classe(context, '2-2', disabled: true),
             SizedBox(width: 8),
-            classe(context, '2-3'),
+            classe(context, '2-3', disabled: true),
           ],
         ),
         SizedBox(width: 8),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            classe(context, '2-2-Trans'),
+            classe(context, '2-2-Trans', disabled: true),
             SizedBox(width: 8),
-            classe(context, '2-2-Trans'),
+            classe(context, '2-2-Trans', disabled: true),
             SizedBox(width: 8),
-            classe(context, '2-3-Trans'),
+            classe(context, '2-3-Trans', disabled: true),
           ],
         ),
         SizedBox(width: 8),
