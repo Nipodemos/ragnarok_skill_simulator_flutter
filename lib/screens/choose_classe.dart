@@ -80,13 +80,14 @@ class ChooseYourClass extends StatelessWidget {
               SizedBox(height: 20),
               ...classEvolution.map((item) {
                 return Container(
-                    margin: EdgeInsets.all(16),
-                    padding: EdgeInsets.all(16),
-                    width: 700,
-                    decoration: BoxDecoration(
-                      border: Border.all(color: Colors.red, width: 4),
-                    ),
-                    child: RowOfClassEvolution(item));
+                  margin: EdgeInsets.all(16),
+                  padding: EdgeInsets.all(16),
+                  width: 700,
+                  decoration: BoxDecoration(
+                    border: Border.all(color: Colors.red, width: 4),
+                  ),
+                  child: RowOfClassEvolution(item),
+                );
               }),
             ],
           ),
