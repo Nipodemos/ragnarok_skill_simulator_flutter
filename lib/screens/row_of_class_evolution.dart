@@ -82,135 +82,51 @@ final Map<String, String> englishClassNames = {
 class RowOfClassEvolution extends StatelessWidget {
   final Map<String, String> classTree;
   RowOfClassEvolution(this.classTree);
+
+  Widget classe(BuildContext context, String classe_key) {
+    return ConstrainedBox(
+      constraints: BoxConstraints(minWidth: 150),
+      child: RaisedButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) {
+                return ActualGrid(nomeClasse: englishClassNames[classTree[classe_key]]);
+              },
+            ),
+          );
+        },
+        child: Text(classTree[classe_key]),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        ConstrainedBox(
-          constraints: BoxConstraints(minWidth: 150),
-          child: RaisedButton(
-            onPressed: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) {
-                    return ActualGrid(nomeClasse: englishClassNames[classTree['classe1']]);
-                  },
-                ),
-              );
-            },
-            child: Text(classTree['classe1']),
-          ),
-        ),
+        classe(context, 'classe1'),
         SizedBox(width: 8),
         Column(
           children: <Widget>[
-            ConstrainedBox(
-              constraints: BoxConstraints(minWidth: 150),
-              child: RaisedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return ActualGrid(nomeClasse: englishClassNames[classTree['classe2-1']]);
-                      },
-                    ),
-                  );
-                },
-                child: Text(classTree['classe2-1']),
-              ),
-            ),
-            ConstrainedBox(
-              constraints: BoxConstraints(minWidth: 150),
-              child: RaisedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return ActualGrid(nomeClasse: englishClassNames[classTree['classe2-2']]);
-                      },
-                    ),
-                  );
-                },
-                child: Text(classTree['classe2-2']),
-              ),
-            ),
+            classe(context, 'classe2-1'),
+            SizedBox(width: 8),
+            classe(context, 'classe2-2'),
           ],
         ),
         SizedBox(width: 8),
         Column(
           children: <Widget>[
-            ConstrainedBox(
-              constraints: BoxConstraints(minWidth: 150),
-              child: RaisedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return ActualGrid(nomeClasse: englishClassNames[classTree['classe2-1-Trans']]);
-                      },
-                    ),
-                  );
-                },
-                child: Text(classTree['classe2-1-Trans']),
-              ),
-            ),
-            ConstrainedBox(
-              constraints: BoxConstraints(minWidth: 150),
-              child: RaisedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return ActualGrid(nomeClasse: englishClassNames[classTree['classe2-2-Trans']]);
-                      },
-                    ),
-                  );
-                },
-                child: Text(classTree['classe2-2-Trans']),
-              ),
-            ),
+            classe(context, 'classe2-2-Trans'),
+            classe(context, 'classe2-2-Trans'),
           ],
         ),
         SizedBox(width: 8),
         Column(
           children: <Widget>[
-            ConstrainedBox(
-              constraints: BoxConstraints(minWidth: 150),
-              child: RaisedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return ActualGrid(nomeClasse: englishClassNames[classTree['classe3-1']]);
-                      },
-                    ),
-                  );
-                },
-                child: Text(classTree['classe3-1']),
-              ),
-            ),
-            ConstrainedBox(
-              constraints: BoxConstraints(minWidth: 150),
-              child: RaisedButton(
-                onPressed: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(
-                      builder: (context) {
-                        return ActualGrid(nomeClasse: englishClassNames[classTree['classe3-2']]);
-                      },
-                    ),
-                  );
-                },
-                child: Text(classTree['classe3-2']),
-              ),
-            ),
+            classe(context, 'classe3-1'),
+            classe(context, 'classe3-2'),
           ],
         ),
       ],
