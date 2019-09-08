@@ -83,50 +83,67 @@ class RowOfClassEvolution extends StatelessWidget {
   final Map<String, String> classTree;
   RowOfClassEvolution(this.classTree);
 
-  Widget classe(BuildContext context, String classe_key) {
-    return ConstrainedBox(
-      constraints: BoxConstraints(minWidth: 150),
-      child: RaisedButton(
-        onPressed: () {
-          Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) {
-                return ActualGrid(nomeClasse: englishClassNames[classTree[classe_key]]);
-              },
-            ),
-          );
-        },
-        child: Text(classTree[classe_key]),
-      ),
-    );
+  Widget classe(BuildContext context, String classe_key, {bool disabled = false}) {
+    if (classTree[classe_key] != null) {
+      return ConstrainedBox(
+        constraints: BoxConstraints(minWidth: 150),
+        child: RaisedButton(
+          onPressed: disabled
+              ? null
+              : () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) {
+                        return ActualGrid(nomeClasse: englishClassNames[classTree[classe_key]]);
+                      },
+                    ),
+                  );
+                },
+          child: Text(classTree[classe_key]),
+        ),
+      );
+    } else {
+      return Container();
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
-        classe(context, 'classe1'),
+        classe(context, '1'),
         SizedBox(width: 8),
-        Column(
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            classe(context, 'classe2-1'),
+            classe(context, '2-1'),
             SizedBox(width: 8),
-            classe(context, 'classe2-2'),
+            classe(context, '2-2'),
+            SizedBox(width: 8),
+            classe(context, '2-3'),
           ],
         ),
         SizedBox(width: 8),
-        Column(
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            classe(context, 'classe2-2-Trans'),
-            classe(context, 'classe2-2-Trans'),
+            classe(context, '2-2-Trans'),
+            SizedBox(width: 8),
+            classe(context, '2-2-Trans'),
+            SizedBox(width: 8),
+            classe(context, '2-3-Trans'),
           ],
         ),
         SizedBox(width: 8),
-        Column(
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            classe(context, 'classe3-1'),
-            classe(context, 'classe3-2'),
+            classe(context, '3-1', disabled: true),
+            SizedBox(width: 8),
+            classe(context, '3-2', disabled: true),
+            SizedBox(width: 8),
+            classe(context, '3-3', disabled: true),
           ],
         ),
       ],

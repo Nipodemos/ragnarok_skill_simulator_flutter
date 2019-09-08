@@ -66,32 +66,34 @@ class ChooseYourClass extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Escolha a classe Desejada'),
+        title: Text('Simulador de Habilidades Ragnarok'),
+        centerTitle: true,
       ),
-      body: Center(
-        child: SingleChildScrollView(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: <Widget>[
-              Text(
-                'Escolha a sua Classe:',
-                style: TextStyle(fontSize: 36),
-              ),
-              SizedBox(height: 20),
-              ...classEvolution.map((item) {
-                return Container(
-                  margin: EdgeInsets.all(16),
-                  padding: EdgeInsets.all(16),
-                  width: 700,
-                  decoration: BoxDecoration(
-                    border: Border.all(color: Colors.red, width: 4),
-                  ),
-                  child: RowOfClassEvolution(item),
-                );
-              }),
-            ],
+      body: Column(
+        children: <Widget>[
+          Text(
+            'Escolha a sua Classe:',
+            style: TextStyle(fontSize: 36),
           ),
-        ),
+          SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                ...classEvolution.map((item) {
+                  return Container(
+                    margin: EdgeInsets.all(8),
+                    padding: EdgeInsets.all(8),
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.red, width: 4),
+                    ),
+                    child: RowOfClassEvolution(item),
+                  );
+                }),
+              ],
+            ),
+          ),
+        ],
       ),
     );
   }
