@@ -94,9 +94,7 @@ class RowOfClassEvolution extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) {
-                        return ActualGrid(nomeClasse: englishClassNames[classTree[classe_key]]);
-                      },
+                      builder: (context) => ActualGrid(nomeClasse: englishClassNames[classTree[classe_key]]),
                     ),
                   );
                 },
@@ -118,9 +116,9 @@ class RowOfClassEvolution extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             classe(context, '2-1', disabled: true),
-            SizedBox(width: 8),
+            SizedBox(width: 24),
             classe(context, '2-2', disabled: true),
-            SizedBox(width: 8),
+            SizedBox(width: 24),
             classe(context, '2-3', disabled: true),
           ],
         ),
@@ -129,9 +127,9 @@ class RowOfClassEvolution extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             classe(context, '2-2-Trans', disabled: true),
-            SizedBox(width: 8),
+            SizedBox(width: 24),
             classe(context, '2-2-Trans', disabled: true),
-            SizedBox(width: 8),
+            SizedBox(width: 24),
             classe(context, '2-3-Trans', disabled: true),
           ],
         ),
@@ -140,9 +138,9 @@ class RowOfClassEvolution extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             classe(context, '3-1', disabled: true),
-            SizedBox(width: 8),
+            SizedBox(width: 24),
             classe(context, '3-2', disabled: true),
-            SizedBox(width: 8),
+            SizedBox(width: 24),
             classe(context, '3-3', disabled: true),
           ],
         ),
