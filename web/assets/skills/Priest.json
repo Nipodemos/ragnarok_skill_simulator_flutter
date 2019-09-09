@@ -9,7 +9,7 @@
          "handle_name" : "MG_SRECOVERY",
          "id" : 9,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 3,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "MG_SAFETYWALL",
          "id" : 12,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 20,
          "pre_requisites" : [
             {
                "PR_ASPERSIO" : 4
@@ -33,7 +33,7 @@
          "handle_name" : "ALL_RESURRECTION",
          "id" : 54,
          "maxLevel" : 4,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "PR_STRECOVERY" : 1
@@ -49,7 +49,7 @@
          "handle_name" : "PR_MACEMASTERY",
          "id" : 65,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 15,
          "skill_type" : ""
       },
       {
@@ -57,7 +57,7 @@
          "handle_name" : "PR_IMPOSITIO",
          "id" : 66,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 5,
          "skill_type" : ""
       },
       {
@@ -65,7 +65,7 @@
          "handle_name" : "PR_SUFFRAGIUM",
          "id" : 67,
          "maxLevel" : 3,
-         "position" : null,
+         "position" : 12,
          "pre_requisites" : [
             {
                "PR_IMPOSITIO" : 2
@@ -78,7 +78,7 @@
          "handle_name" : "PR_ASPERSIO",
          "id" : 68,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 13,
          "pre_requisites" : [
             {
                "AL_HOLYWATER" : 1
@@ -94,7 +94,7 @@
          "handle_name" : "PR_BENEDICTIO",
          "id" : 69,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 14,
          "pre_requisites" : [
             {
                "PR_GLORIA" : 3
@@ -110,7 +110,7 @@
          "handle_name" : "PR_SANCTUARY",
          "id" : 70,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 6,
          "pre_requisites" : [
             {
                "AL_HEAL" : 1
@@ -123,7 +123,7 @@
          "handle_name" : "PR_SLOWPOISON",
          "id" : 71,
          "maxLevel" : 4,
-         "position" : null,
+         "position" : 8,
          "skill_type" : ""
       },
       {
@@ -131,7 +131,7 @@
          "handle_name" : "PR_STRECOVERY",
          "id" : 72,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 2,
          "skill_type" : ""
       },
       {
@@ -139,7 +139,7 @@
          "handle_name" : "PR_KYRIE",
          "id" : 73,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 0,
          "pre_requisites" : [
             {
                "AL_ANGELUS" : 2
@@ -152,7 +152,7 @@
          "handle_name" : "PR_MAGNIFICAT",
          "id" : 74,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 1,
          "skill_type" : ""
       },
       {
@@ -160,7 +160,7 @@
          "handle_name" : "PR_GLORIA",
          "id" : 75,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 7,
          "pre_requisites" : [
             {
                "PR_KYRIE" : 4
@@ -176,7 +176,7 @@
          "handle_name" : "PR_LEXDIVINA",
          "id" : 76,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 4,
          "pre_requisites" : [
             {
                "AL_RUWACH" : 1
@@ -190,7 +190,7 @@
          "handle_name" : "PR_TURNUNDEAD",
          "id" : 77,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 16,
          "pre_requisites" : [
             {
                "PR_LEXDIVINA" : 3
@@ -203,7 +203,7 @@
          "handle_name" : "PR_LEXAETERNA",
          "id" : 78,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 11,
          "pre_requisites" : [
             {
                "PR_LEXDIVINA" : 5
@@ -216,7 +216,7 @@
          "handle_name" : "PR_MAGNUS",
          "id" : 79,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 25,
          "pre_requisites" : [
             {
                "MG_SAFETYWALL" : 1
@@ -235,7 +235,7 @@
          "handle_name" : "PR_REDEMPTIO",
          "id" : 1014,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 27,
          "skill_type" : "0x1"
       }
    ]

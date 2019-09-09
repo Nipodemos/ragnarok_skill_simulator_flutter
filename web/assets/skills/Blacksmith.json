@@ -9,7 +9,7 @@
          "handle_name" : "BS_IRON",
          "id" : 94,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 0,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "BS_STEEL",
          "id" : 95,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 7,
          "pre_requisites" : [
             {
                "BS_IRON" : 1
@@ -30,7 +30,7 @@
          "handle_name" : "BS_ENCHANTEDSTONE",
          "id" : 96,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 8,
          "pre_requisites" : [
             {
                "BS_IRON" : 1
@@ -43,7 +43,7 @@
          "handle_name" : "BS_ORIDEOCON",
          "id" : 97,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 15,
          "pre_requisites" : [
             {
                "BS_ENCHANTEDSTONE" : 1
@@ -56,7 +56,7 @@
          "handle_name" : "BS_DAGGER",
          "id" : 98,
          "maxLevel" : 3,
-         "position" : null,
+         "position" : 5,
          "skill_type" : ""
       },
       {
@@ -64,7 +64,7 @@
          "handle_name" : "BS_SWORD",
          "id" : 99,
          "maxLevel" : 3,
-         "position" : null,
+         "position" : 12,
          "pre_requisites" : [
             {
                "BS_DAGGER" : 1
@@ -77,7 +77,7 @@
          "handle_name" : "BS_TWOHANDSWORD",
          "id" : 100,
          "maxLevel" : 3,
-         "position" : null,
+         "position" : 19,
          "pre_requisites" : [
             {
                "BS_SWORD" : 1
@@ -90,7 +90,7 @@
          "handle_name" : "BS_AXE",
          "id" : 101,
          "maxLevel" : 3,
-         "position" : null,
+         "position" : 26,
          "pre_requisites" : [
             {
                "BS_SWORD" : 2
@@ -103,7 +103,7 @@
          "handle_name" : "BS_MACE",
          "id" : 102,
          "maxLevel" : 3,
-         "position" : null,
+         "position" : 20,
          "pre_requisites" : [
             {
                "BS_KNUCKLE" : 1
@@ -116,7 +116,7 @@
          "handle_name" : "BS_KNUCKLE",
          "id" : 103,
          "maxLevel" : 3,
-         "position" : null,
+         "position" : 13,
          "pre_requisites" : [
             {
                "BS_DAGGER" : 1
@@ -129,7 +129,7 @@
          "handle_name" : "BS_SPEAR",
          "id" : 104,
          "maxLevel" : 3,
-         "position" : null,
+         "position" : 11,
          "pre_requisites" : [
             {
                "BS_DAGGER" : 2
@@ -142,7 +142,7 @@
          "handle_name" : "BS_HILTBINDING",
          "id" : 105,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 1,
          "skill_type" : ""
       },
       {
@@ -150,7 +150,7 @@
          "handle_name" : "BS_FINDINGORE",
          "id" : 106,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 14,
          "pre_requisites" : [
             {
                "BS_STEEL" : 1
@@ -166,7 +166,7 @@
          "handle_name" : "BS_WEAPONRESEARCH",
          "id" : 107,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "BS_HILTBINDING" : 1
@@ -179,7 +179,7 @@
          "handle_name" : "BS_REPAIRWEAPON",
          "id" : 108,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 16,
          "pre_requisites" : [
             {
                "BS_WEAPONRESEARCH" : 1
@@ -192,7 +192,7 @@
          "handle_name" : "BS_SKINTEMPER",
          "id" : 109,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 2,
          "skill_type" : ""
       },
       {
@@ -200,7 +200,7 @@
          "handle_name" : "BS_HAMMERFALL",
          "id" : 110,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 3,
          "skill_type" : ""
       },
       {
@@ -208,7 +208,7 @@
          "handle_name" : "BS_ADRENALINE",
          "id" : 111,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 10,
          "pre_requisites" : [
             {
                "BS_HAMMERFALL" : 2
@@ -221,7 +221,7 @@
          "handle_name" : "BS_WEAPONPERFECT",
          "id" : 112,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 17,
          "pre_requisites" : [
             {
                "BS_WEAPONRESEARCH" : 2
@@ -237,7 +237,7 @@
          "handle_name" : "BS_OVERTHRUST",
          "id" : 113,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 18,
          "pre_requisites" : [
             {
                "BS_ADRENALINE" : 3
@@ -250,7 +250,7 @@
          "handle_name" : "BS_MAXIMIZE",
          "id" : 114,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 24,
          "pre_requisites" : [
             {
                "BS_WEAPONPERFECT" : 3
@@ -266,7 +266,7 @@
          "handle_name" : "BS_UNFAIRLYTRICK",
          "id" : 1012,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 34,
          "skill_type" : "0x1"
       },
       {
@@ -274,7 +274,7 @@
          "handle_name" : "BS_GREED",
          "id" : 1013,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 33,
          "skill_type" : "0x1"
       },
       {
@@ -282,7 +282,7 @@
          "handle_name" : "BS_ADRENALINE2",
          "id" : 459,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 31,
          "pre_requisites" : [
             {
                "BS_ADRENALINE" : 5

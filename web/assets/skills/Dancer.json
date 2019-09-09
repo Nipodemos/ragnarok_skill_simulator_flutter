@@ -9,7 +9,7 @@
          "handle_name" : "DC_DANCINGLESSON",
          "id" : 323,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 1,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "DC_THROWARROW",
          "id" : 324,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 8,
          "pre_requisites" : [
             {
                "DC_DANCINGLESSON" : 3
@@ -30,7 +30,7 @@
          "handle_name" : "DC_UGLYDANCE",
          "id" : 325,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 3,
          "pre_requisites" : [
             {
                "DC_DANCINGLESSON" : 1
@@ -46,7 +46,7 @@
          "handle_name" : "DC_SCREAM",
          "id" : 326,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 14,
          "pre_requisites" : [
             {
                "BD_ENCORE" : 1
@@ -59,7 +59,7 @@
          "handle_name" : "DC_HUMMING",
          "id" : 327,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "DC_UGLYDANCE" : 3
@@ -72,7 +72,7 @@
          "handle_name" : "DC_DONTFORGETME",
          "id" : 328,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 10,
          "pre_requisites" : [
             {
                "DC_UGLYDANCE" : 3
@@ -85,7 +85,7 @@
          "handle_name" : "DC_FORTUNEKISS",
          "id" : 329,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 11,
          "pre_requisites" : [
             {
                "DC_UGLYDANCE" : 3
@@ -98,7 +98,7 @@
          "handle_name" : "DC_SERVICEFORYOU",
          "id" : 330,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 12,
          "pre_requisites" : [
             {
                "DC_UGLYDANCE" : 3
@@ -111,7 +111,7 @@
          "handle_name" : "BD_ADAPTATION",
          "id" : 304,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 0,
          "skill_type" : ""
       },
       {
@@ -119,7 +119,7 @@
          "handle_name" : "BD_ENCORE",
          "id" : 305,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 7,
          "pre_requisites" : [
             {
                "BD_ADAPTATION" : 1
@@ -132,7 +132,7 @@
          "handle_name" : "BD_LULLABY",
          "id" : 306,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 16,
          "pre_requisites" : [
             {
                "DC_HUMMING" : 10
@@ -145,7 +145,7 @@
          "handle_name" : "BD_RICHMANKIM",
          "id" : 307,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 25,
          "pre_requisites" : [
             {
                "BD_SIEGFRIED" : 3
@@ -158,7 +158,7 @@
          "handle_name" : "BD_ETERNALCHAOS",
          "id" : 308,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 24,
          "pre_requisites" : [
             {
                "BD_ROKISWEIL" : 1
@@ -171,7 +171,7 @@
          "handle_name" : "BD_DRUMBATTLEFIELD",
          "id" : 309,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 19,
          "pre_requisites" : [
             {
                "DC_SERVICEFORYOU" : 10
@@ -184,7 +184,7 @@
          "handle_name" : "BD_RINGNIBELUNGEN",
          "id" : 310,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 26,
          "pre_requisites" : [
             {
                "BD_DRUMBATTLEFIELD" : 3
@@ -197,7 +197,7 @@
          "handle_name" : "BD_ROKISWEIL",
          "id" : 311,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 17,
          "pre_requisites" : [
             {
                "DC_DONTFORGETME" : 10
@@ -210,7 +210,7 @@
          "handle_name" : "BD_INTOABYSS",
          "id" : 312,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 23,
          "pre_requisites" : [
             {
                "BD_LULLABY" : 1
@@ -223,7 +223,7 @@
          "handle_name" : "BD_SIEGFRIED",
          "id" : 313,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 18,
          "pre_requisites" : [
             {
                "DC_FORTUNEKISS" : 10
@@ -236,7 +236,7 @@
          "handle_name" : "DC_WINKCHARM",
          "id" : 1011,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 5,
          "skill_type" : "0x1"
       }
    ]

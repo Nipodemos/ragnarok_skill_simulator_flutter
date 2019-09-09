@@ -9,7 +9,7 @@
          "handle_name" : "AS_RIGHT",
          "id" : 132,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 0,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "AS_LEFT",
          "id" : 133,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 7,
          "pre_requisites" : [
             {
                "AS_RIGHT" : 2
@@ -30,7 +30,7 @@
          "handle_name" : "AS_KATAR",
          "id" : 134,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 1,
          "skill_type" : ""
       },
       {
@@ -38,7 +38,7 @@
          "handle_name" : "AS_CLOAKING",
          "id" : 135,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 2,
          "pre_requisites" : [
             {
                "TF_HIDING" : 2
@@ -51,7 +51,7 @@
          "handle_name" : "AS_SONICBLOW",
          "id" : 136,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 8,
          "pre_requisites" : [
             {
                "AS_KATAR" : 4
@@ -64,7 +64,7 @@
          "handle_name" : "AS_GRIMTOOTH",
          "id" : 137,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 15,
          "pre_requisites" : [
             {
                "AS_CLOAKING" : 2
@@ -80,7 +80,7 @@
          "handle_name" : "AS_ENCHANTPOISON",
          "id" : 138,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 3,
          "pre_requisites" : [
             {
                "TF_POISON" : 1
@@ -93,7 +93,7 @@
          "handle_name" : "AS_POISONREACT",
          "id" : 139,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 11,
          "pre_requisites" : [
             {
                "AS_ENCHANTPOISON" : 3
@@ -106,7 +106,7 @@
          "handle_name" : "AS_VENOMDUST",
          "id" : 140,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 10,
          "pre_requisites" : [
             {
                "AS_ENCHANTPOISON" : 5
@@ -119,7 +119,7 @@
          "handle_name" : "AS_SPLASHER",
          "id" : 141,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 17,
          "pre_requisites" : [
             {
                "AS_POISONREACT" : 5
@@ -135,7 +135,7 @@
          "handle_name" : "AS_SONICACCEL",
          "id" : 1003,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 6,
          "skill_type" : "0x1"
       },
       {
@@ -143,7 +143,7 @@
          "handle_name" : "AS_VENOMKNIFE",
          "id" : 1004,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 13,
          "skill_type" : "0x1"
       }
    ]

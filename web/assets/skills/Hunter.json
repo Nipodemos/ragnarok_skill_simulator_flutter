@@ -9,7 +9,7 @@
          "handle_name" : "HT_SKIDTRAP",
          "id" : 115,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 2,
          "skill_type" : "0x80"
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "HT_LANDMINE",
          "id" : 116,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 4,
          "skill_type" : "0x80"
       },
       {
@@ -25,7 +25,7 @@
          "handle_name" : "HT_ANKLESNARE",
          "id" : 117,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 10,
          "pre_requisites" : [
             {
                "HT_SKIDTRAP" : 1
@@ -38,7 +38,7 @@
          "handle_name" : "HT_SHOCKWAVE",
          "id" : 118,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 17,
          "pre_requisites" : [
             {
                "HT_ANKLESNARE" : 1
@@ -51,7 +51,7 @@
          "handle_name" : "HT_SANDMAN",
          "id" : 119,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 15,
          "pre_requisites" : [
             {
                "HT_FLASHER" : 1
@@ -64,7 +64,7 @@
          "handle_name" : "HT_FLASHER",
          "id" : 120,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "HT_SKIDTRAP" : 1
@@ -77,7 +77,7 @@
          "handle_name" : "HT_FREEZINGTRAP",
          "id" : 121,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 16,
          "pre_requisites" : [
             {
                "HT_FLASHER" : 1
@@ -90,7 +90,7 @@
          "handle_name" : "HT_BLASTMINE",
          "id" : 122,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 22,
          "pre_requisites" : [
             {
                "HT_LANDMINE" : 1
@@ -109,7 +109,7 @@
          "handle_name" : "HT_CLAYMORETRAP",
          "id" : 123,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 29,
          "pre_requisites" : [
             {
                "HT_SHOCKWAVE" : 1
@@ -125,7 +125,7 @@
          "handle_name" : "HT_REMOVETRAP",
          "id" : 124,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 11,
          "pre_requisites" : [
             {
                "HT_LANDMINE" : 1
@@ -138,7 +138,7 @@
          "handle_name" : "HT_TALKIEBOX",
          "id" : 125,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 24,
          "pre_requisites" : [
             {
                "HT_SHOCKWAVE" : 1
@@ -154,7 +154,7 @@
          "handle_name" : "HT_BEASTBANE",
          "id" : 126,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 0,
          "skill_type" : ""
       },
       {
@@ -162,7 +162,7 @@
          "handle_name" : "HT_FALCON",
          "id" : 127,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 7,
          "pre_requisites" : [
             {
                "HT_BEASTBANE" : 1
@@ -175,7 +175,7 @@
          "handle_name" : "HT_STEELCROW",
          "id" : 128,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 21,
          "pre_requisites" : [
             {
                "HT_BLITZBEAT" : 5
@@ -188,7 +188,7 @@
          "handle_name" : "HT_BLITZBEAT",
          "id" : 129,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 14,
          "pre_requisites" : [
             {
                "HT_FALCON" : 1
@@ -201,7 +201,7 @@
          "handle_name" : "HT_DETECTING",
          "id" : 130,
          "maxLevel" : 4,
-         "position" : null,
+         "position" : 19,
          "pre_requisites" : [
             {
                "AC_CONCENTRATION" : 1
@@ -217,7 +217,7 @@
          "handle_name" : "HT_SPRINGTRAP",
          "id" : 131,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 18,
          "pre_requisites" : [
             {
                "HT_REMOVETRAP" : 1
@@ -233,7 +233,7 @@
          "handle_name" : "HT_PHANTASMIC",
          "id" : 1009,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 13,
          "skill_type" : "0x1"
       },
       {
@@ -241,7 +241,7 @@
          "handle_name" : "HT_POWER",
          "id" : 499,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 7,
          "pre_requisites" : [
             {
                "AC_DOUBLE" : 10

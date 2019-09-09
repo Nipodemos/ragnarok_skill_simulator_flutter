@@ -109,7 +109,7 @@ foreach my $class ( keys %{$json_skill_tree} ) {
 }
 
 system(
-'xcopy C:\new_test "C:\Users\Alan\Google Drive\Apps_em_Flutter\testing_flutter_web_for_first_time\web\assets\skills" /E /H'
+'xcopy C:\new_test "C:\Users\Alan\Google Drive\Apps_em_Flutter\testing_flutter_web_for_first_time\web\assets\skills" /E /H /Y'
 );
 
 print("acabou tudo\n");

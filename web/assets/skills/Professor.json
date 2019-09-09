@@ -9,7 +9,7 @@
          "handle_name" : "PF_HPCONVERSION",
          "id" : 373,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 28,
          "pre_requisites" : [
             {
                "MG_SRECOVERY" : 1
@@ -25,7 +25,7 @@
          "handle_name" : "PF_SOULCHANGE",
          "id" : 374,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 21,
          "pre_requisites" : [
             {
                "SA_MAGICROD" : 3
@@ -41,7 +41,7 @@
          "handle_name" : "PF_SOULBURN",
          "id" : 375,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 31,
          "pre_requisites" : [
             {
                "SA_CASTCANCEL" : 5
@@ -60,7 +60,7 @@
          "handle_name" : "PF_MINDBREAKER",
          "id" : 402,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 32,
          "pre_requisites" : [
             {
                "MG_SRECOVERY" : 3
@@ -76,7 +76,7 @@
          "handle_name" : "PF_MEMORIZE",
          "id" : 403,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 30,
          "pre_requisites" : [
             {
                "SA_ADVANCEDBOOK" : 5
@@ -95,7 +95,7 @@
          "handle_name" : "PF_FOGWALL",
          "id" : 404,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 26,
          "pre_requisites" : [
             {
                "SA_DELUGE" : 2
@@ -111,7 +111,7 @@
          "handle_name" : "PF_SPIDERWEB",
          "id" : 405,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 14,
          "pre_requisites" : [
             {
                "SA_DRAGONOLOGY" : 4
@@ -124,7 +124,7 @@
          "handle_name" : "PF_DOUBLECASTING",
          "id" : 482,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 29,
          "pre_requisites" : [
             {
                "SA_AUTOSPELL" : 1

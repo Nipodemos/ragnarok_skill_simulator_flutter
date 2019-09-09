@@ -9,7 +9,7 @@
          "handle_name" : "KN_RIDING",
          "id" : 63,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 5,
          "pre_requisites" : [
             {
                "SM_ENDURE" : 1
@@ -22,7 +22,7 @@
          "handle_name" : "KN_CAVALIERMASTERY",
          "id" : 64,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 12,
          "pre_requisites" : [
             {
                "KN_RIDING" : 1
@@ -35,7 +35,7 @@
          "handle_name" : "KN_SPEARMASTERY",
          "id" : 55,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 4,
          "skill_type" : ""
       },
       {
@@ -43,7 +43,7 @@
          "handle_name" : "AL_CURE",
          "id" : 35,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 7,
          "pre_requisites" : [
             {
                "CR_TRUST" : 5
@@ -56,7 +56,7 @@
          "handle_name" : "AL_DP",
          "id" : 22,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 14,
          "pre_requisites" : [
             {
                "AL_CURE" : 1
@@ -69,7 +69,7 @@
          "handle_name" : "AL_DEMONBANE",
          "id" : 23,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 21,
          "pre_requisites" : [
             {
                "AL_DP" : 3
@@ -82,7 +82,7 @@
          "handle_name" : "AL_HEAL",
          "id" : 28,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 28,
          "pre_requisites" : [
             {
                "AL_DEMONBANE" : 5
@@ -98,7 +98,7 @@
          "handle_name" : "CR_TRUST",
          "id" : 248,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 0,
          "skill_type" : ""
       },
       {
@@ -106,7 +106,7 @@
          "handle_name" : "CR_AUTOGUARD",
          "id" : 249,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 2,
          "skill_type" : ""
       },
       {
@@ -114,7 +114,7 @@
          "handle_name" : "CR_SHIELDCHARGE",
          "id" : 250,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "CR_AUTOGUARD" : 5
@@ -127,7 +127,7 @@
          "handle_name" : "CR_SHIELDBOOMERANG",
          "id" : 251,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 16,
          "pre_requisites" : [
             {
                "CR_SHIELDCHARGE" : 3
@@ -140,7 +140,7 @@
          "handle_name" : "CR_REFLECTSHIELD",
          "id" : 252,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 23,
          "pre_requisites" : [
             {
                "CR_SHIELDBOOMERANG" : 3
@@ -153,7 +153,7 @@
          "handle_name" : "CR_HOLYCROSS",
          "id" : 253,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 8,
          "pre_requisites" : [
             {
                "CR_TRUST" : 7
@@ -166,7 +166,7 @@
          "handle_name" : "CR_GRANDCROSS",
          "id" : 254,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 15,
          "pre_requisites" : [
             {
                "CR_HOLYCROSS" : 6
@@ -182,7 +182,7 @@
          "handle_name" : "CR_DEVOTION",
          "id" : 255,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 29,
          "pre_requisites" : [
             {
                "CR_REFLECTSHIELD" : 5
@@ -198,7 +198,7 @@
          "handle_name" : "CR_PROVIDENCE",
          "id" : 256,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 35,
          "pre_requisites" : [
             {
                "AL_DP" : 5
@@ -214,7 +214,7 @@
          "handle_name" : "CR_DEFENDER",
          "id" : 257,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 24,
          "pre_requisites" : [
             {
                "CR_SHIELDBOOMERANG" : 1
@@ -227,7 +227,7 @@
          "handle_name" : "CR_SPEARQUICKEN",
          "id" : 258,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 11,
          "pre_requisites" : [
             {
                "KN_SPEARMASTERY" : 10
@@ -240,7 +240,7 @@
          "handle_name" : "CR_SHRINK",
          "id" : 1002,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 6,
          "skill_type" : "0x1"
       }
    ]

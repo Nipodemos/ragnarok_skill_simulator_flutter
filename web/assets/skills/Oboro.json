@@ -9,7 +9,7 @@
          "handle_name" : "KO_YAMIKUMO",
          "id" : 3001,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 0,
          "pre_requisites" : [
             {
                "NJ_KIRIKAGE" : 5
@@ -22,7 +22,7 @@
          "handle_name" : "KO_RIGHT",
          "id" : 3002,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 33,
          "skill_type" : ""
       },
       {
@@ -30,7 +30,7 @@
          "handle_name" : "KO_LEFT",
          "id" : 3003,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 34,
          "skill_type" : ""
       },
       {
@@ -38,7 +38,7 @@
          "handle_name" : "KO_JYUMONJIKIRI",
          "id" : 3004,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 7,
          "pre_requisites" : [
             {
                "KO_YAMIKUMO" : 1
@@ -51,7 +51,7 @@
          "handle_name" : "KO_SETSUDAN",
          "id" : 3005,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 14,
          "pre_requisites" : [
             {
                "KO_JYUMONJIKIRI" : 2
@@ -64,7 +64,7 @@
          "handle_name" : "KO_BAKURETSU",
          "id" : 3006,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 21,
          "pre_requisites" : [
             {
                "NJ_KUNAI" : 5
@@ -77,7 +77,7 @@
          "handle_name" : "KO_HAPPOKUNAI",
          "id" : 3007,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 28,
          "pre_requisites" : [
             {
                "KO_BAKURETSU" : 1
@@ -90,7 +90,7 @@
          "handle_name" : "KO_MUCHANAGE",
          "id" : 3008,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 37,
          "pre_requisites" : [
             {
                "KO_MAKIBISHI" : 3
@@ -103,7 +103,7 @@
          "handle_name" : "KO_HUUMARANKA",
          "id" : 3009,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 36,
          "pre_requisites" : [
             {
                "NJ_HUUMA" : 5
@@ -116,7 +116,7 @@
          "handle_name" : "KO_MAKIBISHI",
          "id" : 3010,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 30,
          "pre_requisites" : [
             {
                "NJ_ZENYNAGE" : 1
@@ -129,7 +129,7 @@
          "handle_name" : "KO_MEIKYOUSISUI",
          "id" : 3011,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 26,
          "pre_requisites" : [
             {
                "NJ_NINPOU" : 10
@@ -142,7 +142,7 @@
          "handle_name" : "KO_ZANZOU",
          "id" : 3012,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 1,
          "pre_requisites" : [
             {
                "NJ_UTSUSEMI" : 1
@@ -155,7 +155,7 @@
          "handle_name" : "KO_KYOUGAKU",
          "id" : 3013,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 3,
          "pre_requisites" : [
             {
                "KO_GENWAKU" : 2
@@ -168,7 +168,7 @@
          "handle_name" : "KO_JYUSATSU",
          "id" : 3014,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 4,
          "pre_requisites" : [
             {
                "KO_KYOUGAKU" : 3
@@ -181,7 +181,7 @@
          "handle_name" : "KO_KAHU_ENTEN",
          "id" : 3015,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 10,
          "skill_type" : ""
       },
       {
@@ -189,7 +189,7 @@
          "handle_name" : "KO_HYOUHU_HUBUKI",
          "id" : 3016,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 11,
          "skill_type" : ""
       },
       {
@@ -197,7 +197,7 @@
          "handle_name" : "KO_KAZEHU_SEIRAN",
          "id" : 3017,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 12,
          "skill_type" : ""
       },
       {
@@ -205,7 +205,7 @@
          "handle_name" : "KO_DOHU_KOUKAI",
          "id" : 3018,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 13,
          "skill_type" : ""
       },
       {
@@ -213,7 +213,7 @@
          "handle_name" : "KO_KAIHOU",
          "id" : 3019,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 17,
          "pre_requisites" : [
             {
                "KO_KAHU_ENTEN" : 1
@@ -235,7 +235,7 @@
          "handle_name" : "KO_ZENKAI",
          "id" : 3020,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 24,
          "pre_requisites" : [
             {
                "KO_KAIHOU" : 1
@@ -251,7 +251,7 @@
          "handle_name" : "KO_GENWAKU",
          "id" : 3021,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 2,
          "pre_requisites" : [
             {
                "NJ_UTSUSEMI" : 1
@@ -264,7 +264,7 @@
          "handle_name" : "KO_IZAYOI",
          "id" : 3022,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 25,
          "pre_requisites" : [
             {
                "NJ_NINPOU" : 5
@@ -277,7 +277,7 @@
          "handle_name" : "OB_ZANGETSU",
          "id" : 3026,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "KO_GENWAKU" : 1
@@ -290,7 +290,7 @@
          "handle_name" : "OB_OBOROGENSOU",
          "id" : 3027,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 23,
          "pre_requisites" : [
             {
                "OB_AKAITSUKI" : 3
@@ -303,7 +303,7 @@
          "handle_name" : "OB_AKAITSUKI",
          "id" : 3029,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 16,
          "pre_requisites" : [
             {
                "OB_ZANGETSU" : 2

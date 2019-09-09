@@ -9,7 +9,7 @@
          "handle_name" : "WZ_FIREPILLAR",
          "id" : 80,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 5,
          "pre_requisites" : [
             {
                "MG_FIREWALL" : 1
@@ -22,7 +22,7 @@
          "handle_name" : "WZ_SIGHTRASHER",
          "id" : 81,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 4,
          "pre_requisites" : [
             {
                "MG_LIGHTNINGBOLT" : 1
@@ -38,7 +38,7 @@
          "handle_name" : "WZ_METEOR",
          "id" : 83,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 11,
          "pre_requisites" : [
             {
                "WZ_SIGHTRASHER" : 2
@@ -54,7 +54,7 @@
          "handle_name" : "WZ_JUPITEL",
          "id" : 84,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 2,
          "pre_requisites" : [
             {
                "MG_NAPALMBEAT" : 1
@@ -70,7 +70,7 @@
          "handle_name" : "WZ_VERMILION",
          "id" : 85,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "MG_THUNDERSTORM" : 1
@@ -86,7 +86,7 @@
          "handle_name" : "WZ_WATERBALL",
          "id" : 86,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 15,
          "pre_requisites" : [
             {
                "MG_COLDBOLT" : 1
@@ -102,7 +102,7 @@
          "handle_name" : "WZ_ICEWALL",
          "id" : 87,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 1,
          "pre_requisites" : [
             {
                "MG_STONECURSE" : 1
@@ -118,7 +118,7 @@
          "handle_name" : "WZ_FROSTNOVA",
          "id" : 88,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 8,
          "pre_requisites" : [
             {
                "WZ_ICEWALL" : 1
@@ -131,7 +131,7 @@
          "handle_name" : "WZ_STORMGUST",
          "id" : 89,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 22,
          "pre_requisites" : [
             {
                "MG_FROSTDIVER" : 1
@@ -147,7 +147,7 @@
          "handle_name" : "WZ_EARTHSPIKE",
          "id" : 90,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 3,
          "pre_requisites" : [
             {
                "MG_STONECURSE" : 1
@@ -160,7 +160,7 @@
          "handle_name" : "WZ_HEAVENDRIVE",
          "id" : 91,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 10,
          "pre_requisites" : [
             {
                "WZ_EARTHSPIKE" : 3
@@ -173,7 +173,7 @@
          "handle_name" : "WZ_QUAGMIRE",
          "id" : 92,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 17,
          "pre_requisites" : [
             {
                "WZ_HEAVENDRIVE" : 1
@@ -186,7 +186,7 @@
          "handle_name" : "WZ_ESTIMATION",
          "id" : 93,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 0,
          "skill_type" : ""
       },
       {
@@ -194,7 +194,7 @@
          "handle_name" : "WZ_SIGHTBLASTER",
          "id" : 1006,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 6,
          "skill_type" : "0x1"
       }
    ]

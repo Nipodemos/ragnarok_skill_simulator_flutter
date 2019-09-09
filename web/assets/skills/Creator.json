@@ -9,7 +9,7 @@
          "handle_name" : "CR_SLIMPITCHER",
          "id" : 478,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "AM_POTIONPITCHER" : 5
@@ -22,7 +22,7 @@
          "handle_name" : "CR_FULLPROTECTION",
          "id" : 479,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 31,
          "pre_requisites" : [
             {
                "AM_CP_WEAPON" : 5
@@ -44,7 +44,7 @@
          "handle_name" : "CR_ACIDDEMONSTRATION",
          "id" : 490,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 23,
          "pre_requisites" : [
             {
                "AM_DEMONSTRATION" : 5
@@ -60,7 +60,7 @@
          "handle_name" : "CR_CULTIVATION",
          "id" : 491,
          "maxLevel" : 2,
-         "position" : null,
+         "position" : 5,
          "skill_type" : ""
       }
    ]

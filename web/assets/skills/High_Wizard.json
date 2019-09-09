@@ -9,7 +9,7 @@
          "handle_name" : "HW_SOULDRAIN",
          "id" : 364,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 13,
          "pre_requisites" : [
             {
                "MG_SRECOVERY" : 5
@@ -25,7 +25,7 @@
          "handle_name" : "HW_MAGICCRASHER",
          "id" : 365,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 12,
          "pre_requisites" : [
             {
                "MG_SRECOVERY" : 1
@@ -38,7 +38,7 @@
          "handle_name" : "HW_MAGICPOWER",
          "id" : 366,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 20,
          "skill_type" : ""
       },
       {
@@ -46,7 +46,7 @@
          "handle_name" : "HW_NAPALMVULCAN",
          "id" : 400,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 19,
          "pre_requisites" : [
             {
                "MG_NAPALMBEAT" : 5
@@ -59,7 +59,7 @@
          "handle_name" : "HW_GANBANTEIN",
          "id" : 483,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 7,
          "pre_requisites" : [
             {
                "WZ_ESTIMATION" : 1
@@ -75,7 +75,7 @@
          "handle_name" : "HW_GRAVITATION",
          "id" : 484,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 24,
          "pre_requisites" : [
             {
                "HW_MAGICCRASHER" : 1

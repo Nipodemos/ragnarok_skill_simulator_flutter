@@ -9,7 +9,7 @@
          "handle_name" : "WZ_ESTIMATION",
          "id" : 93,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 1,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "WZ_EARTHSPIKE",
          "id" : 90,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 15,
          "pre_requisites" : [
             {
                "SA_SEISMICWEAPON" : 1
@@ -30,7 +30,7 @@
          "handle_name" : "WZ_HEAVENDRIVE",
          "id" : 91,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 22,
          "pre_requisites" : [
             {
                "WZ_EARTHSPIKE" : 1
@@ -43,7 +43,7 @@
          "handle_name" : "SA_ADVANCEDBOOK",
          "id" : 274,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 0,
          "skill_type" : ""
       },
       {
@@ -51,7 +51,7 @@
          "handle_name" : "SA_CASTCANCEL",
          "id" : 275,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "SA_ADVANCEDBOOK" : 2
@@ -64,7 +64,7 @@
          "handle_name" : "SA_MAGICROD",
          "id" : 276,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 10,
          "pre_requisites" : [
             {
                "SA_ADVANCEDBOOK" : 4
@@ -77,7 +77,7 @@
          "handle_name" : "SA_SPELLBREAKER",
          "id" : 277,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 17,
          "pre_requisites" : [
             {
                "SA_MAGICROD" : 1
@@ -90,7 +90,7 @@
          "handle_name" : "SA_FREECAST",
          "id" : 278,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 16,
          "pre_requisites" : [
             {
                "SA_CASTCANCEL" : 1
@@ -103,7 +103,7 @@
          "handle_name" : "SA_AUTOSPELL",
          "id" : 279,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 23,
          "pre_requisites" : [
             {
                "SA_FREECAST" : 4
@@ -116,7 +116,7 @@
          "handle_name" : "SA_FLAMELAUNCHER",
          "id" : 280,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 13,
          "pre_requisites" : [
             {
                "MG_FIREBOLT" : 1
@@ -132,7 +132,7 @@
          "handle_name" : "SA_FROSTWEAPON",
          "id" : 281,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 11,
          "pre_requisites" : [
             {
                "MG_COLDBOLT" : 1
@@ -148,7 +148,7 @@
          "handle_name" : "SA_LIGHTNINGLOADER",
          "id" : 282,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 12,
          "pre_requisites" : [
             {
                "MG_LIGHTNINGBOLT" : 1
@@ -164,7 +164,7 @@
          "handle_name" : "SA_SEISMICWEAPON",
          "id" : 283,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 8,
          "pre_requisites" : [
             {
                "MG_STONECURSE" : 1
@@ -180,7 +180,7 @@
          "handle_name" : "SA_DRAGONOLOGY",
          "id" : 284,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 7,
          "pre_requisites" : [
             {
                "SA_ADVANCEDBOOK" : 9
@@ -193,7 +193,7 @@
          "handle_name" : "SA_VOLCANO",
          "id" : 285,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 20,
          "pre_requisites" : [
             {
                "SA_FLAMELAUNCHER" : 2
@@ -206,7 +206,7 @@
          "handle_name" : "SA_DELUGE",
          "id" : 286,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 18,
          "pre_requisites" : [
             {
                "SA_FROSTWEAPON" : 2
@@ -219,7 +219,7 @@
          "handle_name" : "SA_VIOLENTGALE",
          "id" : 287,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 19,
          "pre_requisites" : [
             {
                "SA_LIGHTNINGLOADER" : 2
@@ -232,7 +232,7 @@
          "handle_name" : "SA_LANDPROTECTOR",
          "id" : 288,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 26,
          "pre_requisites" : [
             {
                "SA_VOLCANO" : 3
@@ -251,7 +251,7 @@
          "handle_name" : "SA_DISPELL",
          "id" : 289,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 24,
          "pre_requisites" : [
             {
                "SA_SPELLBREAKER" : 3
@@ -264,7 +264,7 @@
          "handle_name" : "SA_ABRACADABRA",
          "id" : 290,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 33,
          "pre_requisites" : [
             {
                "SA_AUTOSPELL" : 5
@@ -283,7 +283,7 @@
          "handle_name" : "SA_CREATECON",
          "id" : 1007,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 6,
          "skill_type" : "0x1"
       },
       {
@@ -291,7 +291,7 @@
          "handle_name" : "SA_ELEMENTWATER",
          "id" : 1008,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 2,
          "skill_type" : "0x1"
       },
       {
@@ -299,7 +299,7 @@
          "handle_name" : "SA_ELEMENTGROUND",
          "id" : 1017,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 3,
          "skill_type" : "0x1"
       },
       {
@@ -307,7 +307,7 @@
          "handle_name" : "SA_ELEMENTFIRE",
          "id" : 1018,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 4,
          "skill_type" : "0x1"
       },
       {
@@ -315,7 +315,7 @@
          "handle_name" : "SA_ELEMENTWIND",
          "id" : 1019,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 5,
          "skill_type" : "0x1"
       }
    ]

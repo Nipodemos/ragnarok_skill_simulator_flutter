@@ -9,7 +9,7 @@
          "handle_name" : "MO_IRONHAND",
          "id" : 259,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 0,
          "pre_requisites" : [
             {
                "AL_DEMONBANE" : 10
@@ -25,7 +25,7 @@
          "handle_name" : "MO_SPIRITSRECOVERY",
          "id" : 260,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 16,
          "pre_requisites" : [
             {
                "MO_BLADESTOP" : 2
@@ -38,7 +38,7 @@
          "handle_name" : "MO_CALLSPIRITS",
          "id" : 261,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 1,
          "pre_requisites" : [
             {
                "MO_IRONHAND" : 2
@@ -51,7 +51,7 @@
          "handle_name" : "MO_ABSORBSPIRITS",
          "id" : 262,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 7,
          "pre_requisites" : [
             {
                "MO_CALLSPIRITS" : 5
@@ -64,7 +64,7 @@
          "handle_name" : "MO_TRIPLEATTACK",
          "id" : 263,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 3,
          "pre_requisites" : [
             {
                "MO_DODGE" : 5
@@ -77,7 +77,7 @@
          "handle_name" : "MO_BODYRELOCATION",
          "id" : 264,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 30,
          "pre_requisites" : [
             {
                "MO_EXTREMITYFIST" : 3
@@ -96,7 +96,7 @@
          "handle_name" : "MO_DODGE",
          "id" : 265,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 2,
          "pre_requisites" : [
             {
                "MO_IRONHAND" : 5
@@ -112,7 +112,7 @@
          "handle_name" : "MO_INVESTIGATE",
          "id" : 266,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 8,
          "pre_requisites" : [
             {
                "MO_CALLSPIRITS" : 5
@@ -125,7 +125,7 @@
          "handle_name" : "MO_FINGEROFFENSIVE",
          "id" : 267,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 15,
          "pre_requisites" : [
             {
                "MO_INVESTIGATE" : 3
@@ -138,7 +138,7 @@
          "handle_name" : "MO_STEELBODY",
          "id" : 268,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 24,
          "pre_requisites" : [
             {
                "MO_COMBOFINISH" : 3
@@ -151,7 +151,7 @@
          "handle_name" : "MO_BLADESTOP",
          "id" : 269,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "MO_DODGE" : 5
@@ -164,7 +164,7 @@
          "handle_name" : "MO_EXPLOSIONSPIRITS",
          "id" : 270,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 14,
          "pre_requisites" : [
             {
                "MO_ABSORBSPIRITS" : 1
@@ -177,7 +177,7 @@
          "handle_name" : "MO_EXTREMITYFIST",
          "id" : 271,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 22,
          "pre_requisites" : [
             {
                "MO_EXPLOSIONSPIRITS" : 3
@@ -193,7 +193,7 @@
          "handle_name" : "MO_CHAINCOMBO",
          "id" : 272,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 10,
          "pre_requisites" : [
             {
                "MO_TRIPLEATTACK" : 5
@@ -206,7 +206,7 @@
          "handle_name" : "MO_COMBOFINISH",
          "id" : 273,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 17,
          "pre_requisites" : [
             {
                "MO_CHAINCOMBO" : 3
@@ -219,7 +219,7 @@
          "handle_name" : "MO_KITRANSLATION",
          "id" : 1015,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 5,
          "skill_type" : "0x401"
       },
       {
@@ -227,7 +227,7 @@
          "handle_name" : "MO_BALKYOUNG",
          "id" : 1016,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 12,
          "skill_type" : "0x1"
       }
    ]

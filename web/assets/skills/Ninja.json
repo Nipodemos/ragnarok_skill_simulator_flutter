@@ -9,7 +9,7 @@
          "handle_name" : "NJ_TOBIDOUGU",
          "id" : 522,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 1,
          "skill_type" : ""
       },
       {
@@ -17,7 +17,7 @@
          "handle_name" : "NJ_SYURIKEN",
          "id" : 523,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 8,
          "pre_requisites" : [
             {
                "NJ_TOBIDOUGU" : 1
@@ -30,7 +30,7 @@
          "handle_name" : "NJ_KUNAI",
          "id" : 524,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 15,
          "pre_requisites" : [
             {
                "NJ_SYURIKEN" : 5
@@ -43,7 +43,7 @@
          "handle_name" : "NJ_HUUMA",
          "id" : 525,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 22,
          "pre_requisites" : [
             {
                "NJ_TOBIDOUGU" : 5
@@ -59,7 +59,7 @@
          "handle_name" : "NJ_ZENYNAGE",
          "id" : 526,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 29,
          "pre_requisites" : [
             {
                "NJ_TOBIDOUGU" : 10
@@ -75,7 +75,7 @@
          "handle_name" : "NJ_TATAMIGAESHI",
          "id" : 527,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 2,
          "skill_type" : ""
       },
       {
@@ -83,7 +83,7 @@
          "handle_name" : "NJ_KASUMIKIRI",
          "id" : 528,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 16,
          "pre_requisites" : [
             {
                "NJ_SHADOWJUMP" : 1
@@ -96,7 +96,7 @@
          "handle_name" : "NJ_SHADOWJUMP",
          "id" : 529,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "NJ_TATAMIGAESHI" : 1
@@ -109,7 +109,7 @@
          "handle_name" : "NJ_KIRIKAGE",
          "id" : 530,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 23,
          "pre_requisites" : [
             {
                "NJ_KASUMIKIRI" : 5
@@ -122,7 +122,7 @@
          "handle_name" : "NJ_UTSUSEMI",
          "id" : 531,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 17,
          "pre_requisites" : [
             {
                "NJ_SHADOWJUMP" : 5
@@ -135,7 +135,7 @@
          "handle_name" : "NJ_BUNSINJYUTSU",
          "id" : 532,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 30,
          "pre_requisites" : [
             {
                "NJ_UTSUSEMI" : 4
@@ -154,7 +154,7 @@
          "handle_name" : "NJ_NINPOU",
          "id" : 533,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 5,
          "skill_type" : ""
       },
       {
@@ -162,7 +162,7 @@
          "handle_name" : "NJ_KOUENKA",
          "id" : 534,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 11,
          "pre_requisites" : [
             {
                "NJ_NINPOU" : 1
@@ -175,7 +175,7 @@
          "handle_name" : "NJ_KAENSIN",
          "id" : 535,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 18,
          "pre_requisites" : [
             {
                "NJ_KOUENKA" : 5
@@ -188,7 +188,7 @@
          "handle_name" : "NJ_BAKUENRYU",
          "id" : 536,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 25,
          "pre_requisites" : [
             {
                "NJ_NINPOU" : 10
@@ -204,7 +204,7 @@
          "handle_name" : "NJ_HYOUSENSOU",
          "id" : 537,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 12,
          "pre_requisites" : [
             {
                "NJ_NINPOU" : 1
@@ -217,7 +217,7 @@
          "handle_name" : "NJ_SUITON",
          "id" : 538,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 19,
          "pre_requisites" : [
             {
                "NJ_HYOUSENSOU" : 5
@@ -230,7 +230,7 @@
          "handle_name" : "NJ_HYOUSYOURAKU",
          "id" : 539,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 26,
          "pre_requisites" : [
             {
                "NJ_NINPOU" : 10
@@ -246,7 +246,7 @@
          "handle_name" : "NJ_HUUJIN",
          "id" : 540,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 13,
          "pre_requisites" : [
             {
                "NJ_NINPOU" : 1
@@ -259,7 +259,7 @@
          "handle_name" : "NJ_RAIGEKISAI",
          "id" : 541,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 20,
          "pre_requisites" : [
             {
                "NJ_HUUJIN" : 5
@@ -272,7 +272,7 @@
          "handle_name" : "NJ_KAMAITACHI",
          "id" : 542,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 27,
          "pre_requisites" : [
             {
                "NJ_NINPOU" : 10
@@ -288,7 +288,7 @@
          "handle_name" : "NJ_NEN",
          "id" : 543,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 10,
          "pre_requisites" : [
             {
                "NJ_NINPOU" : 5
@@ -301,7 +301,7 @@
          "handle_name" : "NJ_ISSEN",
          "id" : 544,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 31,
          "pre_requisites" : [
             {
                "NJ_TOBIDOUGU" : 7

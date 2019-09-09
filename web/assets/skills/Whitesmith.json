@@ -9,7 +9,7 @@
          "handle_name" : "WS_MELTDOWN",
          "id" : 384,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 22,
          "pre_requisites" : [
             {
                "BS_SKINTEMPER" : 3
@@ -31,7 +31,7 @@
          "handle_name" : "WS_CARTBOOST",
          "id" : 387,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 21,
          "pre_requisites" : [
             {
                "MC_PUSHCART" : 5
@@ -53,7 +53,7 @@
          "handle_name" : "WS_WEAPONREFINE",
          "id" : 477,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 23,
          "pre_requisites" : [
             {
                "BS_WEAPONRESEARCH" : 10
@@ -66,7 +66,7 @@
          "handle_name" : "WS_CARTTERMINATION",
          "id" : 485,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 28,
          "pre_requisites" : [
             {
                "MC_MAMMONITE" : 10
@@ -85,7 +85,7 @@
          "handle_name" : "WS_OVERTHRUSTMAX",
          "id" : 486,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 26,
          "pre_requisites" : [
             {
                "BS_OVERTHRUST" : 5

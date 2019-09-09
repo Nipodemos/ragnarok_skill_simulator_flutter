@@ -9,7 +9,7 @@
          "handle_name" : "ASC_KATAR",
          "id" : 376,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 9,
          "pre_requisites" : [
             {
                "TF_DOUBLE" : 5
@@ -26,7 +26,7 @@
          "handle_name" : "ASC_EDP",
          "id" : 378,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 19,
          "skill_type" : ""
       },
       {
@@ -34,7 +34,7 @@
          "handle_name" : "ASC_BREAKER",
          "id" : 379,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 18,
          "pre_requisites" : [
             {
                "TF_DOUBLE" : 5
@@ -60,7 +60,7 @@
          "handle_name" : "ASC_METEORASSAULT",
          "id" : 406,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 25,
          "skill_type" : ""
       },
       {
@@ -68,7 +68,7 @@
          "handle_name" : "ASC_CDP",
          "id" : 407,
          "maxLevel" : 1,
-         "position" : null,
+         "position" : 12,
          "pre_requisites" : [
             {
                "TF_POISON" : 10

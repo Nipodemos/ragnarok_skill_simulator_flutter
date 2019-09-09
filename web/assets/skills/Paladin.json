@@ -9,7 +9,7 @@
          "handle_name" : "PA_PRESSURE",
          "id" : 367,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 17,
          "pre_requisites" : [
             {
                "SM_ENDURE" : 5
@@ -28,7 +28,7 @@
          "handle_name" : "PA_SACRIFICE",
          "id" : 368,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 36,
          "pre_requisites" : [
             {
                "SM_ENDURE" : 1
@@ -47,7 +47,7 @@
          "handle_name" : "PA_GOSPEL",
          "id" : 369,
          "maxLevel" : 10,
-         "position" : null,
+         "position" : 30,
          "pre_requisites" : [
             {
                "CR_TRUST" : 8
@@ -66,7 +66,7 @@
          "handle_name" : "PA_SHIELDCHAIN",
          "id" : 480,
          "maxLevel" : 5,
-         "position" : null,
+         "position" : 25,
          "pre_requisites" : [
             {
                "CR_SHIELDBOOMERANG" : 5
