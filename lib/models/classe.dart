@@ -18,6 +18,21 @@ class Classe {
     this.ptbrClassName,
     this.skills,
   });
+  @override
+  String toString() {
+    String completeString = '';
+    completeString = completeString + 'Classe: $ptbrClassName\nHerda de:';
+    for (String value in inherit) {
+      completeString += ' $value';
+    }
+    completeString += '\nPossui as seguintes skills:\n';
+    //return 'Classe: $ptbrClassName, Herda de:';
+    for (Skill skill in skills) {
+      completeString += '"' + skill.displayName + '" ';
+    }
+
+    return completeString;
+  }
 
   factory Classe.fromJson(Map<String, dynamic> json) => Classe(
         inherit: json["inherit"] == null ? null : List<String>.from(json["inherit"].map((x) => x)),
