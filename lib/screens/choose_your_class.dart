@@ -1,5 +1,6 @@
 import 'package:flutter_web/material.dart';
-import 'package:testing_flutter_web_for_first_time/screens/class_skil_tree.dart';
+
+import 'class_skil_tree.dart';
 
 class ChooseYourClass extends StatelessWidget {
   final List classEvolution = [
@@ -25,7 +26,7 @@ class ChooseYourClass extends StatelessWidget {
       "1": "Noviço",
       "2-1": 'Sacerdote',
       "2-2": 'Monge',
-      "2-1-Trans": "Sumo-Sacerdote",
+      "2-1-Trans": "Sumo Sacerdote",
       "2-2-Trans": "Mestre",
       "3-1": "Arcebispo",
       "3-2": "Shura",
@@ -119,14 +120,15 @@ final Map<String, String> englishClassNames = {
   "Sicário": "Guillotine_Cross",
   "Sumo Sacerdote": "High_Priest",
   "Cigana Trans": "Wanderer_Trans",
-  "Menestrel": "Minstrel",
+  "Menestrel": "Clown",
   "Bioquímico": "Genetic",
   "Atirador de Elite": "Sniper",
   "SuperAprendiz": "Super_Novice",
   "Gatuno": "Thief",
   "Paladino": "Paladin",
   "Ferreiro": "Blacksmith",
-  "Menestrel Trans": "Minstrel_Trans",
+  "Menestrel Trans": "Clown_Trans",
+  "Trovador": "Minstrel",
   "Mestre-Ferreiro": "Whitesmith",
   "Oboro": "Oboro",
   "Arruaceiro": "Rogue",
@@ -181,8 +183,8 @@ class RowOfClassEvolution extends StatelessWidget {
   final Map<String, String> classTree;
   RowOfClassEvolution(this.classTree);
 
-  Widget classe(BuildContext context, String classe_key, {bool disabled = false}) {
-    if (classTree[classe_key] != null) {
+  Widget classe(BuildContext context, String classeKey, {bool disabled = false, bool inherit = false}) {
+    if (classTree[classeKey] != null) {
       return ConstrainedBox(
         constraints: BoxConstraints(minWidth: 150),
         child: RaisedButton(
@@ -192,11 +194,12 @@ class RowOfClassEvolution extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => SkillTreeContainer(nomeClasse: englishClassNames[classTree[classe_key]]),
+                      builder: (context) =>
+                          SkillTreeContainer(nomeClasse: englishClassNames[classTree[classeKey]], inherit: inherit),
                     ),
                   );
                 },
-          child: Text(classTree[classe_key]),
+          child: Text(classTree[classeKey]),
         ),
       );
     } else {
@@ -224,11 +227,11 @@ class RowOfClassEvolution extends StatelessWidget {
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            classe(context, '2-1-Trans'),
+            classe(context, '2-1-Trans', inherit: true),
             SizedBox(width: 24),
-            classe(context, '2-2-Trans'),
+            classe(context, '2-2-Trans', inherit: true),
             SizedBox(width: 24),
-            classe(context, '2-3-Trans'),
+            classe(context, '2-3-Trans', inherit: true),
           ],
         ),
         SizedBox(width: 8),
