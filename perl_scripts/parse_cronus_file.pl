@@ -28,7 +28,7 @@ use Data::Dumper;
 CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
     $json_skill_tree->{$class}{'ptbr_class_name'} = GetPtBrClassName::getBrazilianClassName($class);
 
-    print "\n\nclass is " . $class . "\n";
+    print "class is " . $class . "\n";
 
     #print Dumper( $json_skill_tree->{$class} );
     if ( exists $json_skill_tree->{$class}{'skills'} ) {
@@ -92,15 +92,10 @@ CLASS: foreach my $class ( keys %{$json_skill_tree} ) {
 
 foreach my $class ( keys %{$json_skill_tree} ) {
 
-    # exported functions, they croak on error
-    # and expect/generate UTF-8
-
-    #$utf8_encoded_json_text = encode_json $perl_hash_or_arrayref;
-    #$perl_hash_or_arrayref  = decode_json $utf8_encoded_json_text;
     my $json_text = JSON::XS->new->canonical->pretty->encode( $json_skill_tree->{$class} );
     use Data::Dumper;
     print("abrindo arquivo $class.json... ");
-    open( WRITE, '>:encoding(UTF-8)', "C:/new_test/$class.json" )
+    open( WRITE, '>:encoding(UTF-8)', "../assets/skills_info/$class.json" )
         or die "nao foi possivel abrir o arquivo $class.json\n";
     print WRITE $json_text;
     print('colocando dados dentro... ');
@@ -108,13 +103,13 @@ foreach my $class ( keys %{$json_skill_tree} ) {
     print("acabou.\n");
 }
 
-system(
-'xcopy C:\new_test "C:\Users\Alan\Google Drive\Apps_em_Flutter\testing_flutter_web_for_first_time\web\assets\skills" /E /H /Y'
-);
-
 print("acabou tudo\n");
 
 sub getAllClasses {
+    # TODO
+    # TODO tem 3 é pra vc ver inútil
+    # TODO
+    # alterar o local que vai salvar o arquivo caso vc for usar isso denovo
     open( WRITE, '>:encoding(UTF-8)', "C:/all_classes/classes.txt" )
         or die "nao foi possivel abrir o arquivo classes.txt\n";
     my @lines;
@@ -126,6 +121,10 @@ sub getAllClasses {
 }
 
 sub generateSubGetPosition {
+    # TODO
+    # TODO tem 3 é pra vc ver inútil
+    # TODO
+    # alterar o local que vai salvar o arquivo caso vc for usar isso denovo
     my @generatedLines = ();
     push( @generatedLines, 'package GetPosition;' );
     push( @generatedLines, 'use Exporter;' );
@@ -172,7 +171,7 @@ sub generateSubGetPosition {
     print WRITE join( "\n", @generatedLines );
     close(WRITE);
 
-    system( 'xcopy C:\all_classes\getPositionTest.pm "C:\Users\Alan\Google Drive\Apps_em_Flutter\testing_flutter_web_for_first_time\perl_scripts" /E /H'
+    system( 'xcopy C:\all_classes\getPositionTest.pm "C:\Users\Alan\Google Drive\Apps_em_Flutter\testing_flutter_web_for_first_time\perl_scripts" /E /H /Y'
     );
 
 }
