@@ -22,8 +22,10 @@ class Classe {
   String toString() {
     String completeString = '';
     completeString = completeString + 'Classe: $ptbrClassName\nHerda de:';
-    for (String value in inherit) {
-      completeString += ' $value';
+    if (inherit != null) {
+      for (String value in inherit) {
+        completeString += ' $value';
+      }
     }
     completeString += '\nPossui as seguintes skills:\n';
     //return 'Classe: $ptbrClassName, Herda de:';

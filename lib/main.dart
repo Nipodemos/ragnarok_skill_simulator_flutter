@@ -1,5 +1,5 @@
 import 'package:flutter_web/material.dart';
-import 'package:testing_flutter_web_for_first_time/screens/choose_your_class.dart';
+import 'screens/choose_your_class.dart';
 
 void main() => runApp(MyApp());
 
