@@ -8,7 +8,7 @@ GetPosition	.\perl_scripts\getPosition.pm	1;"	p
 GetPosition::getPosition	.\perl_scripts\getPosition.pm	9;"	s
 GetPtBrClassName	.\perl_scripts\GetPtBrClassName.pm	1;"	p
 GetPtBrClassName::getBrazilianClassName	.\perl_scripts\GetPtBrClassName.pm	9;"	s
-generateSubGetPosition	.\perl_scripts\parse_cronus_file.pl	128;"	s
-getAllClasses	.\perl_scripts\parse_cronus_file.pl	117;"	s
+generateSubGetPosition	.\perl_scripts\parse_cronus_file.pl	123;"	s
+getAllClasses	.\perl_scripts\parse_cronus_file.pl	108;"	s
 getBrazilianClassName	.\perl_scripts\GetPtBrClassName.pm	9;"	s
 getPosition	.\perl_scripts\getPosition.pm	9;"	s
