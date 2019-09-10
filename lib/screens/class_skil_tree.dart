@@ -1,5 +1,5 @@
-import 'package:flutter_web/material.dart';
-import 'package:flutter_web/services.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import '../models/classe.dart';
 
 Map<String, int> distribuicao = {};
@@ -35,7 +35,7 @@ class _SkillTreeContainerState extends State<SkillTreeContainer> {
   }
 
   Future<List<Skill>> buildSecondList(List<Skill> list, String className) async {
-    Classe playerClass = classeFromJson(await rootBundle.loadString('assets/skills/' + className + '.json'));
+    Classe playerClass = classeFromJson(await rootBundle.loadString('skills/' + className + '.json'));
     List<Skill> skills = playerClass.skills;
     print(playerClass);
     for (var i = 0; i < skills.length; i++) {

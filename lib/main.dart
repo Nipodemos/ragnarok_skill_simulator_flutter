@@ -1,4 +1,4 @@
-import 'package:flutter_web/material.dart';
+import 'package:flutter/material.dart';
 import 'screens/choose_your_class.dart';
 
 void main() => runApp(MyApp());
