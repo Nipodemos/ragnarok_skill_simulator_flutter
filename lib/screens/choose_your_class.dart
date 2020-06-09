@@ -183,7 +183,8 @@ class RowOfClassEvolution extends StatelessWidget {
   final Map<String, String> classTree;
   RowOfClassEvolution(this.classTree);
 
-  Widget classe(BuildContext context, String classeKey, {bool disabled = false, bool inherit = false}) {
+  Widget classe(BuildContext context, String classeKey,
+      {bool disabled = false, bool inherit = false}) {
     if (classTree[classeKey] != null) {
       return ConstrainedBox(
         constraints: BoxConstraints(minWidth: 150),
@@ -194,8 +195,9 @@ class RowOfClassEvolution extends StatelessWidget {
                   Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) =>
-                          SkillTreeContainer(nomeClasse: englishClassNames[classTree[classeKey]], inherit: inherit),
+                      builder: (context) => SkillTreeContainer(
+                          nomeClasse: englishClassNames[classTree[classeKey]],
+                          inherit: inherit),
                     ),
                   );
                 },

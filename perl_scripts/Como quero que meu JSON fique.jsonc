@@ -19,7 +19,7 @@
             "pre_requisites": {
                 "MC_INCCARRY": 3
             }
-        },
+        }
     ],
     "inherit": [
         "Novice"

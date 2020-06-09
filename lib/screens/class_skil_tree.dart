@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:ragnarok_skill_simulator_flutter/models/skill.dart';
 import '../models/classe.dart';
 
 Map<String, int> distribuicao = {};
@@ -7,18 +8,22 @@ Map<String, int> distribuicao = {};
 class SkillTreeContainer extends StatefulWidget {
   final String nomeClasse;
   final bool inherit;
-  SkillTreeContainer({@required this.nomeClasse, int grau, this.inherit = false}) : assert(nomeClasse != null);
+  SkillTreeContainer(
+      {@required this.nomeClasse, int grau, this.inherit = false})
+      : assert(nomeClasse != null);
   @override
   _SkillTreeContainerState createState() => _SkillTreeContainerState();
 }
 
 class _SkillTreeContainerState extends State<SkillTreeContainer> {
-  Future<List<Skill>> buildList(String className, {bool inheritOnlyOnce = false}) async {
+  Future<List<Skill>> buildList(String className,
+      {bool inheritOnlyOnce = false}) async {
     List<Skill> finalList = List<Skill>.generate(42, (_) {
       return Skill();
     });
     print('lista com skill vazias geradas');
-    Classe playerClass = classeFromJson(await rootBundle.loadString('skills/' + className + '.json'));
+    Classe playerClass = classeFromJson(
+        await rootBundle.loadString('skills/' + className + '.json'));
     List<Skill> skills = playerClass.skills;
     print(playerClass);
     for (var i = 0; i < skills.length; i++) {
@@ -29,13 +34,16 @@ class _SkillTreeContainerState extends State<SkillTreeContainer> {
         print('skill ${skills[i].displayName} will not be shown');
       }
     }
-    if (widget.inherit) finalList = await buildSecondList(finalList, playerClass.inherit[0]);
+    if (widget.inherit)
+      finalList = await buildSecondList(finalList, playerClass.inherit[0]);
     print('tudo terminado');
     return finalList;
   }
 
-  Future<List<Skill>> buildSecondList(List<Skill> list, String className) async {
-    Classe playerClass = classeFromJson(await rootBundle.loadString('skills/' + className + '.json'));
+  Future<List<Skill>> buildSecondList(
+      List<Skill> list, String className) async {
+    Classe playerClass = classeFromJson(
+        await rootBundle.loadString('skills/' + className + '.json'));
     List<Skill> skills = playerClass.skills;
     print(playerClass);
     for (var i = 0; i < skills.length; i++) {
@@ -68,32 +76,49 @@ class _SkillTreeContainerState extends State<SkillTreeContainer> {
                   children: <Widget>[
                     Row(
                       children: <Widget>[
-                        ...snapshot.data.take(7).map((value) => SkillTile(value)),
+                        ...snapshot.data
+                            .take(7)
+                            .map((value) => SkillTile(value)),
                       ],
                     ),
                     Row(
                       children: <Widget>[
-                        ...snapshot.data.skip(7).take(7).map((value) => SkillTile(value)),
+                        ...snapshot.data
+                            .skip(7)
+                            .take(7)
+                            .map((value) => SkillTile(value)),
                       ],
                     ),
                     Row(
                       children: <Widget>[
-                        ...snapshot.data.skip(14).take(7).map((value) => SkillTile(value)),
+                        ...snapshot.data
+                            .skip(14)
+                            .take(7)
+                            .map((value) => SkillTile(value)),
                       ],
                     ),
                     Row(
                       children: <Widget>[
-                        ...snapshot.data.skip(21).take(7).map((value) => SkillTile(value)),
+                        ...snapshot.data
+                            .skip(21)
+                            .take(7)
+                            .map((value) => SkillTile(value)),
                       ],
                     ),
                     Row(
                       children: <Widget>[
-                        ...snapshot.data.skip(28).take(7).map((value) => SkillTile(value)),
+                        ...snapshot.data
+                            .skip(28)
+                            .take(7)
+                            .map((value) => SkillTile(value)),
                       ],
                     ),
                     Row(
                       children: <Widget>[
-                        ...snapshot.data.skip(35).take(7).map((value) => SkillTile(value)),
+                        ...snapshot.data
+                            .skip(35)
+                            .take(7)
+                            .map((value) => SkillTile(value)),
                       ],
                     ),
                   ],
@@ -111,7 +136,8 @@ class _SkillTreeContainerState extends State<SkillTreeContainer> {
                 crossAxisAlignment: CrossAxisAlignment.center,
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Text('Aguardando dados', style: TextStyle(fontSize: 48, color: Colors.blueAccent)),
+                  Text('Aguardando dados',
+                      style: TextStyle(fontSize: 48, color: Colors.blueAccent)),
                   CircularProgressIndicator(),
                 ],
               ),
@@ -168,9 +194,12 @@ class _SkillTileState extends State<SkillTile> {
                             child: InkWell(
                               onTap: distribuicao[widget.skill.handleName] > 0
                                   ? () {
-                                      if (distribuicao[widget.skill.handleName] > 0) {
+                                      if (distribuicao[
+                                              widget.skill.handleName] >
+                                          0) {
                                         setState(() {
-                                          distribuicao[widget.skill.handleName]--;
+                                          distribuicao[
+                                              widget.skill.handleName]--;
                                         });
                                       }
                                     }
@@ -192,7 +221,8 @@ class _SkillTileState extends State<SkillTile> {
                       child: Center(
                         child: Text(
                             widget.skill.skillType != "0x1"
-                                ? distribuicao[widget.skill.handleName].toString()
+                                ? distribuicao[widget.skill.handleName]
+                                    .toString()
                                 : widget.skill.maxLevel.toString(),
                             style: TextStyle(fontSize: 18)),
                       ),
@@ -203,18 +233,24 @@ class _SkillTileState extends State<SkillTile> {
                             height: 30,
                             width: 30,
                             child: InkWell(
-                              onTap: distribuicao[widget.skill.handleName] < widget.skill.maxLevel
+                              onTap: distribuicao[widget.skill.handleName] <
+                                      widget.skill.maxLevel
                                   ? () {
-                                      if (distribuicao[widget.skill.handleName] < widget.skill.maxLevel) {
-                                        if (widget.skill.preRequisites != null) {
-                                          for (Map<String, int> i in widget.skill.preRequisites) {
+                                      if (distribuicao[
+                                              widget.skill.handleName] <
+                                          widget.skill.maxLevel) {
+                                        if (widget.skill.preRequisites !=
+                                            null) {
+                                          for (Map<String, int> i
+                                              in widget.skill.preRequisites) {
                                             i.forEach((key, value) {
                                               distribuicao[key] = value;
                                             });
                                           }
                                         }
                                         setState(() {
-                                          distribuicao[widget.skill.handleName]++;
+                                          distribuicao[
+                                              widget.skill.handleName]++;
                                         });
                                       }
                                     }
